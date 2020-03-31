@@ -5,16 +5,16 @@
 #The config options in this file are synced from server to client, as the processors get used dynamically to calculate/preview EMC values for items and are not included in the synced EMC mappings.
 [processors]
 
-	#Reduces the EMC value the more damaged an item is.
-	[processors.DamageProcessor]
-		enabled = true
-
 	#Increases the EMC value to take into account any enchantments on an item.
 	[processors.EnchantmentProcessor]
-		enabled = true
 		persistent = true
+		enabled = true
 
 	#Increases the EMC value of the item to take into account any EMC the item has stored.
 	[processors.StoredEMCProcessor]
+		enabled = true
+
+	#Reduces the EMC value the more damaged an item is.
+	[processors.DamageProcessor]
 		enabled = true
 

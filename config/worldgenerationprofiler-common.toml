@@ -6,19 +6,13 @@ logInDefaultLog = true
 	#Range: 0 ~ 1000
 	"minecraft:empty" = 50
 	#Range: 0 ~ 1000
-	"minecraft:structure_starts" = 50
+	"minecraft:heightmaps" = 50
 	#Range: 0 ~ 1000
-	"minecraft:structure_references" = 50
+	"minecraft:full" = 50
 	#Range: 0 ~ 1000
 	"minecraft:biomes" = 50
 	#Range: 0 ~ 1000
-	"minecraft:noise" = 50
-	#Range: 0 ~ 1000
-	"minecraft:surface" = 50
-	#Range: 0 ~ 1000
 	"minecraft:carvers" = 50
-	#Range: 0 ~ 1000
-	"minecraft:liquid_carvers" = 50
 	#Range: 0 ~ 1000
 	"minecraft:features" = 50
 	#Range: 0 ~ 1000
@@ -26,7 +20,13 @@ logInDefaultLog = true
 	#Range: 0 ~ 1000
 	"minecraft:spawn" = 50
 	#Range: 0 ~ 1000
-	"minecraft:heightmaps" = 50
+	"minecraft:structure_starts" = 50
 	#Range: 0 ~ 1000
-	"minecraft:full" = 50
+	"minecraft:structure_references" = 50
+	#Range: 0 ~ 1000
+	"minecraft:noise" = 50
+	#Range: 0 ~ 1000
+	"minecraft:liquid_carvers" = 50
+	#Range: 0 ~ 1000
+	"minecraft:surface" = 50
 
