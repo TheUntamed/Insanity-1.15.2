@@ -2,7 +2,7 @@
 [General]
 	#The radius around the campfire in blocks where players receive the regeneration effect.
 	#Range: 1 ~ 64
-	healingRadius = 16
+	healingRadius = 3
 	#When enabled, hides the particles from the regeneration effect around the campfire.
 	hideEffectParticles = false
 	#The duration of the regeneration effect which the campfire applies.

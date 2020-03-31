@@ -12,4 +12,4 @@ Removed:
 
 Updated:
 
-* Engineer's Decor (engineersdecor-1.15.2-1.0.20-b2.jar --> engineersdecor-1.15.2-1.0.20-b3.jar)
+* Engineer's Decor (1.0.20-b2 --> 1.0.20-b3)

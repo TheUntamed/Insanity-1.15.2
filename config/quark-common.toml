@@ -1095,6 +1095,22 @@
 		"Red Shift" = -30
 		"Affect Leaves" = true
 
+[experimental]
+	"Adjustable Chat" = false
+	"Custom Underground Biome" = false
+
+	[experimental.adjustable_chat]
+		"Horizontal Shift" = 0
+		"Vertical Shift" = 0
+
+	#This feature is highly technical. Use only if you know what you're doing!
+	[experimental.custom_underground_biome]
+		#The format for these definitions is:
+		#dimensions;isDimensionBlacklist;biomeTypews;isBiomeBlacklist;rarity;minY..maxY;horizontalSize,verticalSize;horizontalVariation,verticalVariation;floorBlocks@weight;ceilingBlocks@weight;wallBlocks@weight;mimicInside
+		#That's a lot to take in, so here's an example. This would be for the default config of the Slime underground biome. (Spaces are allowed.)
+		#minecraft:overworld; false; SWAMP; false; 120; 10..40; 26,14; 14,6; minecraft:water@915, minecraft:slime_block@85; minecraft:green_terracotta@2, minecraft:lime_terracotta@3, minecraft:light_blue_terracotta@1; CEILING; false
+		"Biome Definitions" = []
+
 [oddities]
 	Backpack = true
 	Magnets = true
@@ -1120,20 +1136,4 @@
 		"Do Pipes Whoosh" = true
 		#How long it takes for an item to cross a pipe. Bigger = slower.
 		"Pipe Speed" = 5
-
-[experimental]
-	"Adjustable Chat" = false
-	"Custom Underground Biome" = false
-
-	[experimental.adjustable_chat]
-		"Horizontal Shift" = 0
-		"Vertical Shift" = 0
-
-	#This feature is highly technical. Use only if you know what you're doing!
-	[experimental.custom_underground_biome]
-		#The format for these definitions is:
-		#dimensions;isDimensionBlacklist;biomeTypews;isBiomeBlacklist;rarity;minY..maxY;horizontalSize,verticalSize;horizontalVariation,verticalVariation;floorBlocks@weight;ceilingBlocks@weight;wallBlocks@weight;mimicInside
-		#That's a lot to take in, so here's an example. This would be for the default config of the Slime underground biome. (Spaces are allowed.)
-		#minecraft:overworld; false; SWAMP; false; 120; 10..40; 26,14; 14,6; minecraft:water@915, minecraft:slime_block@85; minecraft:green_terracotta@2, minecraft:lime_terracotta@3, minecraft:light_blue_terracotta@1; CEILING; false
-		"Biome Definitions" = []
 

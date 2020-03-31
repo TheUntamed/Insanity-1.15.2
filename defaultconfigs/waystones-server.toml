@@ -64,7 +64,7 @@
 		dimensionalWarp = "ALLOW"
 		#The base xp level cost when travelling between dimensions. Ignores block distance.
 		#Range: 0 ~ 0
-		dimensionalWarpXpCost = 3
+		dimensionalWarpXpCost = 5
 
 	#These options define restrictions when managing waystones.
 	[server.restrictions]

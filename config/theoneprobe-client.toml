@@ -27,7 +27,7 @@ showBreakProgress = 1
 showModName = "NORMAL"
 #The distance to the left side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxLeftX = 5
+boxLeftX = -1
 #The amount of milliseconds to wait before updating probe information from the server
 #Range: 10 ~ 100000
 timeout = 300
