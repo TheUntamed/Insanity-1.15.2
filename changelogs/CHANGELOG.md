@@ -4,11 +4,12 @@ Forge 1.15.2-31.1.30
 
 Added Mods
 
-* *ChunkBorders*
+* *Better Bedrock Generation*
+* *Fast Leaf Decay*
 
 Removed Mods
 
-* *Inventory Sorter* (Quark provides the same features).
+* *Inventory Sorter* (*Quark* provides the same features).
 * *Enchantment Descriptions* (Descriptions are provided by other mods).
 * *Useful Backpacks* (Backpacks are provided by other mods).
 
@@ -16,7 +17,7 @@ Changes
 
 * *Overloaded Compressed Blocks* depth reduced from 16 to 8.
 * *Neat* max Distance reduced from 24 to 12.
-* *Blue Power* Volcano spawn chance reduced from 0.005 to 0 (integration into world generation was bad).
+* *Blue Power* Volcano spawn chance reduced from 0.005 to 0.0 (integration into world generation was bad).
 * Disabled Vanilla Recipe Book with kubejs.
 * *Spice of Life: Carrot Edition* Hearts per Milestone reduced from 2 to 1.
 * *Spice of Life: Carrot Edition* Reduced base Hearts from 10 to 5.
@@ -31,6 +32,11 @@ Changes
 * *Waystones* increased xp cost for teleportation between dimensions from 3 to 5.
 * *Waystones* disabled generation of Waystones in world.
 * *Extra Disks* enabled 4 extra disk tiers for fluid disks.
+* *Mekanism* active machines produce no more block light to reduce lags
+* *Bluepower* disabled Worldgen for Copper, Silver and Zinc Ore (*Silents Mechanisms* generates it).
+* *Mekanism* disabled Worldgen for Copper and Tin (*Silents Mechanisms* generates it).
+* *Overloaded Compressed Blocks* reduced hardness multiplier from 9.0 to 1.2.
+* *Cooking for Blockheads* The sink needs water now and is no infinite water source.
 
 Bug Fixes
 

@@ -2,61 +2,68 @@
   {
     "baseRegistryName": "minecraft:cobblestone",
     "depth": 8,
-    "hardnessMultiplier": 9.0,
+    "hardnessMultiplier": 1.2,
     "recipeEnabled": true
   },
   {
     "baseRegistryName": "minecraft:sand",
     "depth": 8,
-    "hardnessMultiplier": 9.0,
+    "hardnessMultiplier": 1.2,
     "recipeEnabled": true
   },
   {
     "baseRegistryName": "minecraft:stone",
     "depth": 8,
-    "hardnessMultiplier": 9.0,
+    "hardnessMultiplier": 1.2,
     "recipeEnabled": true
   },
   {
     "baseRegistryName": "minecraft:obsidian",
     "depth": 8,
-    "hardnessMultiplier": 9.0,
+    "hardnessMultiplier": 1.2,
     "recipeEnabled": true
   },
   {
     "baseRegistryName": "minecraft:netherrack",
     "depth": 8,
-    "hardnessMultiplier": 9.0,
+    "hardnessMultiplier": 1.2,
     "recipeEnabled": true
   },
   {
     "baseRegistryName": "minecraft:dirt",
     "depth": 8,
-    "hardnessMultiplier": 9.0,
+    "hardnessMultiplier": 1.2,
     "recipeEnabled": true
   },
   {
     "baseRegistryName": "minecraft:gravel",
     "depth": 8,
-    "hardnessMultiplier": 9.0,
+    "hardnessMultiplier": 1.2,
     "recipeEnabled": true
   },
   {
     "baseRegistryName": "minecraft:.*_log",
     "depth": 8,
-    "hardnessMultiplier": 9.0,
+    "hardnessMultiplier": 1.2,
     "recipeEnabled": true
   },
   {
     "baseRegistryName": "minecraft:.*_wool",
     "depth": 8,
-    "hardnessMultiplier": 9.0,
+    "hardnessMultiplier": 1.2,
     "recipeEnabled": true
   },
   {
     "baseRegistryName": "minecraft:.*_concrete$",
     "depth": 8,
-    "hardnessMultiplier": 9.0,
+    "hardnessMultiplier": 1.2,
+    "recipeEnabled": true
+  },
+
+  {
+    "baseRegistryName": "minecraft:packed_ice",
+    "depth": 8,
+    "hardnessMultiplier": 1.2,
     "recipeEnabled": true
   }
 ]

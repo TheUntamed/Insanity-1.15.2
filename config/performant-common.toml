@@ -31,3 +31,13 @@
 	#Use no lag zombies, default = true
 	noLagZombies = true
 
+["Tile entities"]
+	#Experimental: use slower tile entity update balancing. Enable only when TE lag, e.g. from a tech mod is an issue, affects all TE's! e.g. Furnaces too default = false
+	slowTE = false
+	#Requires slowTE to be enabled: TPS(ticks per second) to balance entity AI lag around, this is not a hard cap just a guideline. default = 20
+	#Range: 1 ~ 20
+	teTps = 20
+	#Requires slowTE to be enabled: How often TE's should tick at least, default is at least once every 5 ticks. Vanilla is every 1 ticks. default = 5
+	#Range: 1 ~ 20
+	teTicks = 5
+
