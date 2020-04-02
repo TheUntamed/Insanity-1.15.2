@@ -6,7 +6,7 @@
 	basaltMaxHeight = 30
 	#Size of basalt pockets [0-100, default: 33]
 	#Range: 0 ~ 100
-	basaltSize = 33
+	basaltSize = 20
 	#Generate basalt in the world [true / false]
 	basaltGeneration = true
 	#Minimal height for basalt pocket generation, [0-255, default: 0]
@@ -14,7 +14,7 @@
 	basaltMinHeight = 0
 	#Chances of basalt pocket being generated [0-100, default: 10]
 	#Range: 0 ~ 100
-	basaltChance = 10
+	basaltChance = 5
 
 #Slate Generation
 [slate]
@@ -23,10 +23,10 @@
 	slateMaxHeight = 75
 	#Chances of slate pocket being generated [0-100, default: 10]
 	#Range: 0 ~ 100
-	slateChance = 10
+	slateChance = 5
 	#Size of slate pockets [0-100, default: 33]
 	#Range: 0 ~ 100
-	slateSize = 33
+	slateSize = 20
 	#Generate slate in the world [true / false]
 	slateGeneration = true
 	#Minimal height for slate pocket generation, [0-255, default: 40]
@@ -40,7 +40,7 @@
 	marbleSize = 20
 	#Chances of marble pocket being generated [0-100, default: 10]
 	#Range: 0 ~ 100
-	marbleChance = 10
+	marbleChance = 5
 	#Generate marble in the world [true / false]
 	marbleGeneration = true
 	#Maximal height for marble pocket generation [0-255, default: 100]
@@ -54,7 +54,7 @@
 [gneiss]
 	#Chances of gneiss pocket being generated [0-100, default: 10]
 	#Range: 0 ~ 100
-	gneissChance = 10
+	gneissChance = 5
 	#Minimal height for gneiss pocket generation, [0-255, default: 50]
 	#Range: 0 ~ 255
 	gneissMinHeight = 35
@@ -65,7 +65,7 @@
 	gneissMaxHeight = 65
 	#Size of gneiss pockets [0-100, default: 33]
 	#Range: 0 ~ 100
-	gneissSize = 33
+	gneissSize = 20
 
 #Jade Generation
 [jade]

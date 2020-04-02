@@ -40,6 +40,11 @@ Changes
 * *Ma Essentials* increased delay for /home /back and /spawn from 3 to 5 seconds.
 * *Ma Essentials* disabled starting kit and /kit command.
 * *Quickstack* changed offset and moved buttons just a bit. (They overlaid other buttons.)
+* *Natural Progression* reduced flint knapping chance from 75% to 50%.
+* *Embellishcraft* reduced Slate, Basalt and Gneiss pocket size from 33 to 20.
+* *Embellishcraft* reduced Slate, Basalt, Gneiss and Marble generation rate by 50%.
+* *Mapperbase* reduced Bitumen Ore vein size from 18 to 16 and reduced the generation chance from 25 to 20.
+* *Quark* disabled underground clay.
 
 Bug Fixes
 

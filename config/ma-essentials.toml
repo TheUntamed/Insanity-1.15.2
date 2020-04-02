@@ -67,7 +67,7 @@
 		#Range: > 1
 		limit = 1
 		#Range: > 1
-		limit_op = 5
+		limit_op = 1
 
 	[Commands.up]
 		#Enable command: /up
