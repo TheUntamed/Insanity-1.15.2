@@ -8,7 +8,7 @@
 	#Range: 0 ~ 100
 	basaltSize = 20
 	#Generate basalt in the world [true / false]
-	basaltGeneration = true
+	basaltGeneration = false
 	#Minimal height for basalt pocket generation, [0-255, default: 0]
 	#Range: 0 ~ 255
 	basaltMinHeight = 0
@@ -28,7 +28,7 @@
 	#Range: 0 ~ 100
 	slateSize = 20
 	#Generate slate in the world [true / false]
-	slateGeneration = true
+	slateGeneration = false
 	#Minimal height for slate pocket generation, [0-255, default: 40]
 	#Range: 0 ~ 255
 	slateMinHeight = 45
@@ -42,7 +42,7 @@
 	#Range: 0 ~ 100
 	marbleChance = 5
 	#Generate marble in the world [true / false]
-	marbleGeneration = true
+	marbleGeneration = false
 	#Maximal height for marble pocket generation [0-255, default: 100]
 	#Range: 0 ~ 255
 	marbleMaxHeight = 120
@@ -54,7 +54,7 @@
 [gneiss]
 	#Chances of gneiss pocket being generated [0-100, default: 10]
 	#Range: 0 ~ 100
-	gneissChance = 5
+	gneissChance = 1
 	#Minimal height for gneiss pocket generation, [0-255, default: 50]
 	#Range: 0 ~ 255
 	gneissMinHeight = 35
@@ -65,13 +65,13 @@
 	gneissMaxHeight = 65
 	#Size of gneiss pockets [0-100, default: 33]
 	#Range: 0 ~ 100
-	gneissSize = 20
+	gneissSize = 33
 
 #Jade Generation
 [jade]
 	#Chances of jade pocket being generated [0-100, default: 5]
 	#Range: 0 ~ 100
-	jadeChance = 5
+	jadeChance = 2
 	#Maximal height for jade pocket generation [0-255, default: 100]
 	#Range: 0 ~ 255
 	jadeMaxHeight = 120
@@ -88,7 +88,7 @@
 [larvikite]
 	#Chances of larvikite pocket being generated [0-100, default: 5]
 	#Range: 0 ~ 100
-	larvikiteChance = 10
+	larvikiteChance = 2
 	#Minimal height for larvikite pocket generation, [0-255, default: 50]
 	#Range: 0 ~ 255
 	larvikiteMinHeight = 32
@@ -96,7 +96,7 @@
 	larvikiteGeneration = true
 	#Size of larvikite pockets [0-100, default: 15]
 	#Range: 0 ~ 100
-	larvikiteSize = 20
+	larvikiteSize = 15
 	#Maximal height for larvikite pocket generation [0-255, default: 100]
 	#Range: 0 ~ 255
 	larvikiteMaxHeight = 72

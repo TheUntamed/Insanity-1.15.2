@@ -46,7 +46,7 @@ showHorseStatSetting = "EXTENDED"
 #Range: 0 ~ 20
 boxOffset = 0
 #If true show liquid information when the probe hits liquid first
-showLiquids = false
+showLiquids = true
 #true means shows harvestability with vanilla style icons
 harvestStyleVanilla = true
 #Show lever/comparator/repeater settings (0 = not, 1 = always, 2 = sneak)
