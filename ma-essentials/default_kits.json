@@ -44,6 +44,16 @@
           "nbt": ""
         }
       ]
+    },
+    "start": {
+      "duration": 86400,
+      "items": [
+        {
+          "name": "solcarrot:food_book",
+          "quantity": 1,
+          "nbt": ""
+        }
+      ]
     }
   }
 }

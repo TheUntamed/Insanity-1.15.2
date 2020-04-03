@@ -10,7 +10,7 @@
             "value": 4
           },
           "minBankHeight": {
-            "value": 1
+            "value": 0
           },
           "bedDepth": {
             "value": 3
@@ -74,6 +74,9 @@
   },
   "features": {
     "value": {
+      "vanillaWaterFeatures": {
+        "value": "false"
+      },
       "strataDecorator": {
         "value": "false"
       },
@@ -127,7 +130,7 @@
             "value": 256
           },
           "oceanSize": {
-            "value": 0.20
+            "value": 0.15
           }
         }
       },
@@ -150,7 +153,7 @@
             "value": 950
           },
           "continentScale": {
-            "value": 4000
+            "value": 3000
           },
           "regionSize": {
             "value": 1000

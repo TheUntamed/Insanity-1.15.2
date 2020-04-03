@@ -58,5 +58,41 @@
     "depth": 8,
     "hardnessMultiplier": 1.2,
     "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:packed_ice",
+    "depth": 8,
+    "hardnessMultiplier": 1.2,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:ice",
+    "depth": 8,
+    "hardnessMultiplier": 1.2,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:end_stone",
+    "depth": 8,
+    "hardnessMultiplier": 1.2,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:granite",
+    "depth": 8,
+    "hardnessMultiplier": 1.2,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:andesite",
+    "depth": 8,
+    "hardnessMultiplier": 1.2,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:diorite",
+    "depth": 8,
+    "hardnessMultiplier": 1.2,
+    "recipeEnabled": true
   }
 ]

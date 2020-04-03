@@ -127,8 +127,8 @@
 	[Commands.kits]
 		#Enable command: /kit
 		enable = false
-		starting_kit = false
-		starting_kit_name = "tools"
+		starting_kit = true
+		starting_kit_name = "start"
 
 	[Commands.trash]
 		#Enable command: /trash

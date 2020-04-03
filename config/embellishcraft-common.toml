@@ -65,7 +65,7 @@
 	gneissMaxHeight = 65
 	#Size of gneiss pockets [0-100, default: 33]
 	#Range: 0 ~ 100
-	gneissSize = 33
+	gneissSize = 44
 
 #Jade Generation
 [jade]
@@ -82,7 +82,7 @@
 	jadeMinHeight = 50
 	#Size of jade pockets [0-100, default: 15]
 	#Range: 0 ~ 100
-	jadeSize = 15
+	jadeSize = 20
 
 #Larvikite Generation
 [larvikite]
@@ -96,7 +96,7 @@
 	larvikiteGeneration = true
 	#Size of larvikite pockets [0-100, default: 15]
 	#Range: 0 ~ 100
-	larvikiteSize = 15
+	larvikiteSize = 20
 	#Maximal height for larvikite pocket generation [0-255, default: 100]
 	#Range: 0 ~ 255
 	larvikiteMaxHeight = 72
