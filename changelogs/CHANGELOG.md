@@ -1,19 +1,58 @@
+Insanity 0.0.3
+--------------
+
+Forge 1.15.2-31.1.30 --> 1.15.2-31.1.35
+
+**Added Mods**
+
+**Removed Mods**
+
+**Updated Mods**
+
+**Changes**
+
+**Bug Fixes**
+
 Insanity 0.0.2
+--------------
 
 Forge 1.15.2-31.1.30
 
-Added Mods
+**Added Mods**
 
 * *Better Bedrock Generation*
 * *Fast Leaf Decay*
 
-Removed Mods
+**Removed Mods**
 
 * *Inventory Sorter* (*Quark* provides the same features).
 * *Enchantment Descriptions* (Descriptions are provided by other mods).
 * *Useful Backpacks* (Backpacks are provided by other mods).
 
-Changes
+**Updated Mods**
+
+* Engineer's Decor (1.0.20-b2 --&gt; 1.0.20-b3)
+* JAOPCA (3.0.0.21 -&gt; 3.2.0.8)
+* Ma Essentials (3.0.1 --&gt; 3.0.2)
+* Natures Aura (23.3 --&gt; 23.4)
+* Performant (1.8 --&gt; 1.11)
+* Quark (r2.1-227 --&gt; r2.1-228)
+* Scaffolding behavior (1.2.0 --&gt; 1.2.1)
+* Vanilla Hammers (1.0 --&gt; 2.0)
+* Carpet Stairs Mod (1.3.2 --&gt; 1.4.1)
+* Corail Tombstone (4.3.1 --&gt; 4.3.2)
+* CraftTweaker (6.0.0.9 --&gt; 6.0.0.10)
+* Double Slabs (2.0.3 --&gt; 2.0.3)
+* Mapperbase (1.0.0.0 --&gt; 1.0.0.1)
+* Ring of Blink (1.1.18 --&gt; 1.1.19)
+* Ring of Growth (1.1.20 --&gt; 1.1.21)
+* Ring of Repair (1.1.20 --&gt; 1.1.21)
+* Ring of Return (1.0.2 --&gt; 1.0.3)
+* Ring of Teleport (1.1.19 --&gt; 1.1.20)
+* Ring of Enderchest (1.1.21 --&gt; 1.1.22)
+* Ring of Miner (1.1.18 --&gt; 1.1.19)
+
+**Changes**
 
 * *Apotheosis* disabled garden module.
 * *Blue Power* Volcano spawn chance reduced from 0.005 to 0.0 (integration into world generation was bad).
@@ -51,14 +90,14 @@ Changes
 * *Waystones* increased xp cost for teleportation between dimensions from 3 to 5.
 * *Waystones* disabled generation of Waystones in world.
 
-Bug Fixes
+**Bug Fixes**
 
 ...
 
-Insanity 0.0.1
+**Insanity 0.0.1**
 
 Forge 1.15.2-31.1.30
 
-Mod List
+**Mod List**
 
 ...
