@@ -8,6 +8,7 @@ Forge 1.15.2-31.1.30 --> 1.15.2-31.1.35
 * *Auxilium Equivalence*
 * *Bambootiful*
 * *Dank Storage*
+* *Ender Enhancement*
 * *Game Stages* (for later use, no stages yet)
 * *Lycanites Mobs*
 * *Mystical Adaptations*
@@ -16,6 +17,7 @@ Forge 1.15.2-31.1.30 --> 1.15.2-31.1.35
 * *Pam's Harvestcraft 2 - Seeds*
 * *Pam's HarvestCraft 2 - Trees*
 * *PlantTech 2*
+* *Snow Under Trees*
 * *The Endergetic Expansion*
 * *The Midnight*
 * *Vanilla Excavators*
@@ -24,6 +26,8 @@ Forge 1.15.2-31.1.30 --> 1.15.2-31.1.35
 **Removed Mods**
 
 - Better Bedrock Generator (didn't work with TerraForged generation. Removed until it works.)
+- Lithium (rejected by curse cause Alpha. Add it back when release version is out.)
+- Ore Excavation (Use Hammers and Excavators for now.)
 
 **Updated Mods**
 
