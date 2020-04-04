@@ -27,16 +27,16 @@ Forge 1.15.2-31.1.30 --> 1.15.2-31.1.35
 
 **Updated Mods**
 
-* Buzzier Bees (1.3 --> )
-* Cucumber Library (3.0.3 --> )
+* Buzzier Bees (1.3 --> 1.4)
+* Cucumber Library (3.0.3 --> 3.0.4)
 * Cyclic (0.2.0 --> 0.3.0)
 * DimStorage (3.0.3 --> 3.1.0)
 * MoreVanillaLib (1.0.1 --> 1.0.2)
-* Nature's Aura (23.4 --> )
+* Nature's Aura (23.4 --> 23.5)
 * Performant (1.11 --> 1.12)
 * Phosphor (Forge) (0.4.2-rc2 --> 0.5.2+build.4)
 * Quark (r21-228 --> r21-229)
-* TerraForged (0.0.10 --> 0.0.11)
+* TerraForged (0.0.10 --> 0.0.12)
 
 **Changes**
 
