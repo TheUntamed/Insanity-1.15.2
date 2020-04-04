@@ -27,9 +27,12 @@ Forge 1.15.2-31.1.30 --> 1.15.2-31.1.35
 
 **Updated Mods**
 
+* Buzzier Bees (1.3 --> )
+* Cucumber Library (3.0.3 --> )
 * Cyclic (0.2.0 --> 0.3.0)
 * DimStorage (3.0.3 --> 3.1.0)
 * MoreVanillaLib (1.0.1 --> 1.0.2)
+* Nature's Aura (23.4 --> )
 * Performant (1.11 --> 1.12)
 * Phosphor (Forge) (0.4.2-rc2 --> 0.5.2+build.4)
 * Quark (r21-228 --> r21-229)
@@ -40,6 +43,7 @@ Forge 1.15.2-31.1.30 --> 1.15.2-31.1.35
 * *Embellishcraft* increased the size for Jade and Larvikite pockets from 15 to 20 and Gneiss from 33 to 44.
 * *Fast Leaf Decay* increased minimum decay time from 4 to 6 and maximum decay time from 11 to 12.
 * *Ma Essentials* added custom kit made it the starting kit. Enabled starting kit.
+* *Pam's HarvestCraft 2 - Trees* reduced chance for Fruit Trees to generate from 500 to 40000.
 * *TerraForged* reduced Ocean size from 0.20 to 0.15.
 * *TerraForged* reduced continent size from 4000 to 3000.
 * *The One Probe* disabled readme note on first join.

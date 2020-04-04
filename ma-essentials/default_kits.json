@@ -52,6 +52,11 @@
           "name": "solcarrot:food_book",
           "quantity": 1,
           "nbt": ""
+        },
+        {
+          "name": "minecraft:potion",
+          "quantity": 1,
+          "nbt": "{Potion:\"minecraft:long_swiftness\"}"
         }
       ]
     }

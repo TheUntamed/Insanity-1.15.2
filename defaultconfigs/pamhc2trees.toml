@@ -2,13 +2,13 @@
 ["Tweak World Generation Rates"]
 	#Chance of temperate fruit trees generating in the world. Higher numbers indicate a lower probability (Default: 500)
 	#Range: 1 ~ 1000000000
-	"Probability of temperate fruit trees generating" = 500
+	"Probability of temperate fruit trees generating" = 40000
 	#Chance of warm fruit trees generating in the world. Higher numbers indicate a lower probability (Default: 500)
 	#Range: 1 ~ 1000000000
-	"Probability of warm fruit trees generating" = 500
+	"Probability of warm fruit trees generating" = 40000
 	#Chance of cold fruit trees generating in the world. Higher numbers indicate a lower probability (Default: 500)
 	#Range: 1 ~ 1000000000
-	"Probability of cold fruit trees generating" = 500
+	"Probability of cold fruit trees generating" = 40000
 
 ["Miscellaneous Features"]
 	#Disable/enable right-click harvesting of crops.
