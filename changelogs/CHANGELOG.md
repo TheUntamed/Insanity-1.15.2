@@ -1,3 +1,21 @@
+Insanity 0.0.4
+--------------
+
+Forge 1.15.2-31.1.35
+
+**Added Mods**
+
+* *Reliquary v1.3*
+* *Nether Enhancement*
+
+**Removed Mods**
+
+**Updated Mods**
+
+**Changes**
+
+**Bug Fixes**
+
 Insanity 0.0.3
 --------------
 
