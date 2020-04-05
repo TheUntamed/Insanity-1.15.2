@@ -1,4 +1,4 @@
-Insanity 0.0.4
+!nsanity 0.1.0
 --------------
 
 Forge 1.15.2-31.1.35
@@ -11,7 +11,11 @@ Forge 1.15.2-31.1.35
 
 **Removed Mods**
 
-*Iron Chests* (replaced by *[Forge] Expanded Storage*)
+* *Iron Chests* (replaced by *[Forge] Expanded Storage*)
+* *Tool Kit* (development tool)
+* *U Team Core* (development tool)
+* *World Generation Profiler* (development tool)
+* *World-Stripper* (development tool)
 
 **Updated Mods**
 
@@ -33,7 +37,7 @@ Forge 1.15.2-31.1.35
 *Vanilla Hammers [Forge]* harvest levels for iron/gold/diamond hammers not correct.
 *Quickstack* buttons overlay inventory slots when *Quark* backpack is equiped.
 
-Insanity 0.0.3
+!nsanity 0.0.3
 --------------
 
 Forge 1.15.2-31.1.30 --> 1.15.2-31.1.35
@@ -91,7 +95,7 @@ Forge 1.15.2-31.1.30 --> 1.15.2-31.1.35
 
 Custom *TerraForged* generation settings not detected automatically.
 
-Insanity 0.0.2
+!nsanity 0.0.2
 --------------
 
 Forge 1.15.2-31.1.30
@@ -172,7 +176,7 @@ Forge 1.15.2-31.1.30
 
 ...
 
-**Insanity 0.0.1**
+**!nsanity 0.0.1**
 
 Forge 1.15.2-31.1.30
 
