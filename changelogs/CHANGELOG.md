@@ -1,6 +1,37 @@
 !nsanity 0.1.0
 --------------
 
+Forge 1.15.2-31.1.35 --> 1.15.2-31.1.36
+
+**Added Mods**
+
+* 
+
+**Removed Mods**
+
+* 
+
+**Updated Mods**
+
+* *Carpet Stairs Mod* (1.4.1 --> 1.4.2)
+* *Corail Tombstone* (4.3.2 --> 4.3.3)
+* *MoreVanillaLib* (1.0.2 --> 1.1)
+* *Vanilla Excavators [Forge]* (2.0 --> 2.0.1)
+* *Vanilla Hammers [Forge]* (2.0.1 --> 2.0.2)
+
+**Changes**
+
+* *MoreVanillaLib* disabled Hammers and Excavators to drop an item when they are used.
+* *MoreVanillaLib* increased double drop chance for Diamond and Emerald Hammer from 0.1% to 10%.
+* *MoreVanillaLib* reduced the double drop chance for Coal, Quartz, Lapis and Redstone from 50% to 10%.
+
+**Bug Fixes**
+
+* https://github.com/TheUntamed/Insanity-1.15.2/issues/1
+
+!nsanity 0.1.0
+--------------
+
 Forge 1.15.2-31.1.35
 
 **Added Mods**
