@@ -4,10 +4,10 @@
 	"Show inventory button" = true
 	#Survival inventory button position width offset.
 	#Range: > -2147483648
-	"Survival inventory button X offset" = 45
+	"Survival inventory button X offset" = 50
 	#Survival inventory button position height offset.
 	#Range: > -2147483648
-	"Survival inventory button Y offset" = -18
+	"Survival inventory button Y offset" = -15
 	#Creative inventory button position width offset.
 	#Range: > -2147483648
 	"Creative inventory button X offset" = 71

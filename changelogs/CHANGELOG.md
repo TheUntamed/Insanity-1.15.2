@@ -5,16 +5,33 @@ Forge 1.15.2-31.1.35
 
 **Added Mods**
 
-* *Reliquary v1.3*
+* *[Forge] Expanded Storage*
 * *Nether Enhancement*
+* *Reliquary v1.3*
 
 **Removed Mods**
 
+*Iron Chests* (replaced by *[Forge] Expanded Storage*)
+
 **Updated Mods**
+
+* *Double Slabs* (2.0.4 --> 2.1.1)
+* *Engineer's Decor* (1.0.20-b3 --> 1.0.20-b4)
+* *Extreme sound muffler (Forge)* (bata 1.1 --> 1.0)
+* *Quickstack* (3.0.1 --> 3.0.2)
+* *Ring of Attraction [FORGE]* (1.1.23 --> 1.1.24)
+* *The Midnight* (0.5.3 --> 0.5.4)
+* *Torch Slabs Mod* (1.5 --> 1.6.5)
+* *Vanilla Hammers [Forge]* (2.0 --> 2.0.1)
 
 **Changes**
 
+* *Pam's Harvestcraft 2 - Seeds* reduced the generation rate for gardens from 200 to 500.
+
 **Bug Fixes**
+
+*Vanilla Hammers [Forge]* harvest levels for iron/gold/diamond hammers not correct.
+*Quickstack* buttons overlay inventory slots when *Quark* backpack is equiped.
 
 Insanity 0.0.3
 --------------
@@ -43,22 +60,22 @@ Forge 1.15.2-31.1.30 --> 1.15.2-31.1.35
 
 **Removed Mods**
 
-- Better Bedrock Generator (didn't work with TerraForged generation. Removed until it works.)
-- Lithium (rejected by curse cause Alpha. Add it back when release version is out.)
-- Ore Excavation (Use Hammers and Excavators for now.)
+- *Better Bedrock Generator* (didn't work with TerraForged generation. Removed until it works.)
+- *Lithium* (rejected by curse cause Alpha. Add it back when release version is out.)
+- *Ore Excavation* (Use Hammers and Excavators for now.)
 
 **Updated Mods**
 
-* Buzzier Bees (1.3 --> 1.4)
-* Cucumber Library (3.0.3 --> 3.0.4)
-* Cyclic (0.2.0 --> 0.3.0)
-* DimStorage (3.0.3 --> 3.1.0)
-* MoreVanillaLib (1.0.1 --> 1.0.2)
-* Nature's Aura (23.4 --> 23.5)
-* Performant (1.11 --> 1.12)
-* Phosphor (Forge) (0.4.2-rc2 --> 0.5.2+build.4)
-* Quark (r21-228 --> r21-229)
-* TerraForged (0.0.10 --> 0.0.12)
+* *Buzzier Bees* (1.3 --> 1.4)
+* *Cucumber Library* (3.0.3 --> 3.0.4)
+* *Cyclic* (0.2.0 --> 0.3.0)
+* *DimStorage* (3.0.3 --> 3.1.0)
+* *MoreVanillaLib* (1.0.1 --> 1.0.2)
+* *Nature's Aura* (23.4 --> 23.5)
+* *Performant* (1.11 --> 1.12)
+* *Phosphor (Forge)* (0.4.2-rc2 --> 0.5.2+build.4)
+* *Quark* (r21-228 --> r21-229)
+* *TerraForged* (0.0.10 --> 0.0.12)
 
 **Changes**
 
@@ -71,6 +88,8 @@ Forge 1.15.2-31.1.30 --> 1.15.2-31.1.35
 * *The One Probe* disabled readme note on first join.
 
 **Bug Fixes**
+
+Custom *TerraForged* generation settings not detected automatically.
 
 Insanity 0.0.2
 --------------
@@ -90,26 +109,26 @@ Forge 1.15.2-31.1.30
 
 **Updated Mods**
 
-* Engineer's Decor (1.0.20-b2 --> 1.0.20-b3)
-* JAOPCA (3.0.0.21 --> 3.2.0.8)
-* Ma Essentials (3.0.1 --> 3.0.2)
-* Natures Aura (23.3 --> 23.4)
-* Performant (1.8 --> 1.11)
-* Quark (r2.1-227 --> r2.1-228)
-* Scaffolding behavior (1.2.0 --> 1.2.1)
-* Vanilla Hammers (1.0 --> 2.0)
-* Carpet Stairs Mod (1.3.2 --> 1.4.1)
-* Corail Tombstone (4.3.1 --> 4.3.2)
-* CraftTweaker (6.0.0.9 --> 6.0.0.10)
-* Double Slabs (2.0.3 --> 2.0.3)
-* Mapperbase (1.0.0.0 --> 1.0.0.1)
-* Ring of Blink (1.1.18 --> 1.1.19)
-* Ring of Growth (1.1.20 --> 1.1.21)
-* Ring of Repair (1.1.20 --> 1.1.21)
-* Ring of Return (1.0.2 --> 1.0.3)
-* Ring of Teleport (1.1.19 --> 1.1.20)
-* Ring of Enderchest (1.1.21 --> 1.1.22)
-* Ring of Miner (1.1.18 --> 1.1.19)
+* *Engineer's Decor* (1.0.20-b2 --> 1.0.20-b3)
+* *JAOPCA* (3.0.0.21 --> 3.2.0.8)
+* *Ma Essentials* (3.0.1 --> 3.0.2)
+* *Natures Aura* (23.3 --> 23.4)
+* *Performant* (1.8 --> 1.11)
+* *Quark* (r2.1-227 --> r2.1-228)
+* *Scaffolding behavior* (1.2.0 --> 1.2.1)
+* *Vanilla Hammers* (1.0 --> 2.0)
+* *Carpet Stairs Mod* (1.3.2 --> 1.4.1)
+* *Corail Tombstone* (4.3.1 --> 4.3.2)
+* *CraftTweaker* (6.0.0.9 --> 6.0.0.10)
+* *Double Slabs* (2.0.3 --> 2.0.3)
+* *Mapperbase* (1.0.0.0 --> 1.0.0.1)
+* *Ring of Blink* (1.1.18 --> 1.1.19)
+* *Ring of Growth* (1.1.20 --> 1.1.21)
+* *Ring of Repair* (1.1.20 --> 1.1.21)
+* *Ring of Return* (1.0.2 --> 1.0.3)
+* *Ring of Teleport* (1.1.19 --> 1.1.20)
+* *Ring of Enderchest* (1.1.21 --> 1.1.22)
+* *Ring of Miner* (1.1.18 --> 1.1.19)
 
 **Changes**
 
