@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-04-06T17:05:48.0406227Z",
+  "lastPlayed": "2020-04-06T21:38:06.4945226Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -4099,14 +4099,14 @@
       "addonID": 332890,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
-        "id": 2921519,
-        "displayName": "RingOfAttraction-1.15.2-1.1.24.jar",
-        "fileName": "RingOfAttraction-1.15.2-1.1.24.jar",
-        "fileDate": "2020-04-05T04:07:34.603Z",
-        "fileLength": 17633,
+        "id": 2922853,
+        "displayName": "RingOfAttraction-1.15.2-1.1.25.jar",
+        "fileName": "RingOfAttraction-1.15.2-1.1.25.jar",
+        "fileDate": "2020-04-06T19:51:10.297Z",
+        "fileLength": 16760,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2921/519/RingOfAttraction-1.15.2-1.1.24.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/853/RingOfAttraction-1.15.2-1.1.25.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -4127,12 +4127,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3763732194,
+            "fingerprint": 1619343072,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 4078418400,
+            "fingerprint": 2356320088,
             "type": 0
           },
           {
@@ -4151,7 +4151,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 258914568,
+        "packageFingerprint": 3968752734,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -4165,12 +4165,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfAttraction-1.15.2-1.1.24.jar"
+        "FileNameOnDisk": "RingOfAttraction-1.15.2-1.1.25.jar"
       },
       "dateInstalled": "2020-03-28T11:39:23.149386Z",
-      "dateUpdated": "2020-04-05T10:28:32.2289091Z",
-      "dateLastUpdateAttempted": "2020-04-05T10:28:32.2289091Z",
-      "status": 5,
+      "dateUpdated": "2020-04-06T21:34:19.47923Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:34:19.47923Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5706,22 +5706,22 @@
       "addonID": 280510,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
-        "id": 2892839,
-        "displayName": "AttributeFix-1.15.2-7.0.1.jar",
-        "fileName": "AttributeFix-1.15.2-7.0.1.jar",
-        "fileDate": "2020-03-01T22:03:38.173Z",
-        "fileLength": 7709,
+        "id": 2922858,
+        "displayName": "AttributeFix-1.15.2-7.0.2.jar",
+        "fileName": "AttributeFix-1.15.2-7.0.2.jar",
+        "fileDate": "2020-04-06T19:59:10.97Z",
+        "fileLength": 7708,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2892/839/AttributeFix-1.15.2-7.0.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/858/AttributeFix-1.15.2-7.0.2.jar",
         "isAlternate": false,
-        "alternateFileId": 2892840,
+        "alternateFileId": 2922859,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 653388036,
+            "fingerprint": 2618544729,
             "type": 0
           },
           {
@@ -5735,7 +5735,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1463532735,
+        "packageFingerprint": 1214047459,
         "gameVersion": [
           "1.15.2"
         ],
@@ -5748,12 +5748,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "AttributeFix-1.15.2-7.0.1.jar"
+        "FileNameOnDisk": "AttributeFix-1.15.2-7.0.2.jar"
       },
       "dateInstalled": "2020-03-28T11:27:18.6185597Z",
-      "dateUpdated": "2020-03-28T11:27:18.619557Z",
-      "dateLastUpdateAttempted": "2020-03-28T11:27:18.619557Z",
-      "status": 5,
+      "dateUpdated": "2020-04-06T21:30:21.0781937Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:30:21.0781937Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7000,22 +7000,22 @@
       "addonID": 354339,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
-        "id": 2873304,
-        "displayName": "OpenLoader-1.15.2-4.0.2.jar",
-        "fileName": "OpenLoader-1.15.2-4.0.2.jar",
-        "fileDate": "2020-02-01T21:25:37.087Z",
+        "id": 2922848,
+        "displayName": "OpenLoader-1.15.2-4.0.3.jar",
+        "fileName": "OpenLoader-1.15.2-4.0.3.jar",
+        "fileDate": "2020-04-06T19:47:12.6Z",
         "fileLength": 7646,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2873/304/OpenLoader-1.15.2-4.0.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/848/OpenLoader-1.15.2-4.0.3.jar",
         "isAlternate": false,
-        "alternateFileId": 2873305,
+        "alternateFileId": 2922849,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1994575552,
+            "fingerprint": 1402987354,
             "type": 0
           },
           {
@@ -7029,7 +7029,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2338675910,
+        "packageFingerprint": 229815487,
         "gameVersion": [
           "1.15.2"
         ],
@@ -7042,12 +7042,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "OpenLoader-1.15.2-4.0.2.jar"
+        "FileNameOnDisk": "OpenLoader-1.15.2-4.0.3.jar"
       },
       "dateInstalled": "2020-03-28T15:34:58.338524Z",
-      "dateUpdated": "2020-03-28T15:34:58.341516Z",
-      "dateLastUpdateAttempted": "2020-03-28T15:34:58.341516Z",
-      "status": 5,
+      "dateUpdated": "2020-04-06T21:31:41.2423096Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:31:41.2423096Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9693,22 +9693,22 @@
       "addonID": 353434,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
-        "id": 2892822,
-        "displayName": "BetterBurning-1.15.2-1.3.1.jar",
-        "fileName": "BetterBurning-1.15.2-1.3.1.jar",
-        "fileDate": "2020-03-01T21:39:05.433Z",
-        "fileLength": 6344,
+        "id": 2922865,
+        "displayName": "BetterBurning-1.15.2-1.3.4.jar",
+        "fileName": "BetterBurning-1.15.2-1.3.4.jar",
+        "fileDate": "2020-04-06T20:00:39.4Z",
+        "fileLength": 6349,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2892/822/BetterBurning-1.15.2-1.3.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/865/BetterBurning-1.15.2-1.3.4.jar",
         "isAlternate": false,
-        "alternateFileId": 2892823,
+        "alternateFileId": 2922866,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 777590882,
+            "fingerprint": 1292712730,
             "type": 0
           },
           {
@@ -9722,7 +9722,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4183824119,
+        "packageFingerprint": 1061734908,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -9736,12 +9736,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "BetterBurning-1.15.2-1.3.1.jar"
+        "FileNameOnDisk": "BetterBurning-1.15.2-1.3.4.jar"
       },
       "dateInstalled": "2020-03-28T11:34:48.3831398Z",
-      "dateUpdated": "2020-03-28T11:34:48.3851578Z",
-      "dateLastUpdateAttempted": "2020-03-28T11:34:48.3851578Z",
-      "status": 5,
+      "dateUpdated": "2020-04-06T21:30:44.9159626Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:30:44.9159626Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11960,14 +11960,14 @@
       "addonID": 368129,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
-        "id": 2918935,
-        "displayName": "RingOfReturn-1.15.2-1.0.3.jar",
-        "fileName": "RingOfReturn-1.15.2-1.0.3.jar",
-        "fileDate": "2020-04-02T02:47:41.507Z",
-        "fileLength": 13850,
+        "id": 2922811,
+        "displayName": "RingOfReturn-1.15.2-1.0.4.jar",
+        "fileName": "RingOfReturn-1.15.2-1.0.4.jar",
+        "fileDate": "2020-04-06T19:10:53.47Z",
+        "fileLength": 12994,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2918/935/RingOfReturn-1.15.2-1.0.3.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/811/RingOfReturn-1.15.2-1.0.4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -11975,12 +11975,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1593549764,
+            "fingerprint": 1642375972,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 3724061017,
+            "fingerprint": 1622289926,
             "type": 0
           },
           {
@@ -11999,7 +11999,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3986951208,
+        "packageFingerprint": 1362718912,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -12013,12 +12013,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfReturn-1.15.2-1.0.3.jar"
+        "FileNameOnDisk": "RingOfReturn-1.15.2-1.0.4.jar"
       },
       "dateInstalled": "2020-03-28T11:39:39.404887Z",
-      "dateUpdated": "2020-04-02T16:20:52.461766Z",
-      "dateLastUpdateAttempted": "2020-04-02T16:20:52.461766Z",
-      "status": 5,
+      "dateUpdated": "2020-04-06T21:34:31.5178336Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:34:31.5178336Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13747,14 +13747,14 @@
       "addonID": 332518,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
-        "id": 2918494,
-        "displayName": "RingOfRepair-1.15.2-1.1.21.jar",
-        "fileName": "RingOfRepair-1.15.2-1.1.21.jar",
-        "fileDate": "2020-04-01T17:25:40.567Z",
-        "fileLength": 17540,
+        "id": 2922645,
+        "displayName": "RingOfRepair-1.15.2-1.1.22.jar",
+        "fileName": "RingOfRepair-1.15.2-1.1.22.jar",
+        "fileDate": "2020-04-06T16:24:18.167Z",
+        "fileLength": 16759,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2918/494/RingOfRepair-1.15.2-1.1.21.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/645/RingOfRepair-1.15.2-1.1.22.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -13775,12 +13775,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 500249164,
+            "fingerprint": 851078822,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 366516102,
+            "fingerprint": 930116906,
             "type": 0
           },
           {
@@ -13799,7 +13799,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1110229680,
+        "packageFingerprint": 3197729292,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -13813,12 +13813,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfRepair-1.15.2-1.1.21.jar"
+        "FileNameOnDisk": "RingOfRepair-1.15.2-1.1.22.jar"
       },
       "dateInstalled": "2020-03-28T11:39:29.5460851Z",
-      "dateUpdated": "2020-04-02T16:20:49.0113693Z",
-      "dateLastUpdateAttempted": "2020-04-02T16:20:49.0113693Z",
-      "status": 3,
+      "dateUpdated": "2020-04-06T21:34:29.0897591Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:34:29.0897591Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14248,14 +14248,14 @@
       "addonID": 332534,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
-        "id": 2918446,
-        "displayName": "RingOfGrowth-1.15.2-1.1.21.jar",
-        "fileName": "RingOfGrowth-1.15.2-1.1.21.jar",
-        "fileDate": "2020-04-01T16:01:04.327Z",
-        "fileLength": 12212,
+        "id": 2922595,
+        "displayName": "RingOfGrowth-1.15.2-1.1.22.jar",
+        "fileName": "RingOfGrowth-1.15.2-1.1.22.jar",
+        "fileDate": "2020-04-06T15:19:44.363Z",
+        "fileLength": 14111,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2918/446/RingOfGrowth-1.15.2-1.1.21.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/595/RingOfGrowth-1.15.2-1.1.22.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -14270,12 +14270,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3752035987,
+            "fingerprint": 861927590,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 4226240496,
+            "fingerprint": 3892754376,
             "type": 0
           },
           {
@@ -14294,7 +14294,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3569934259,
+        "packageFingerprint": 3930926159,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -14308,12 +14308,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfGrowth-1.15.2-1.1.21.jar"
+        "FileNameOnDisk": "RingOfGrowth-1.15.2-1.1.22.jar"
       },
       "dateInstalled": "2020-03-28T11:39:25.8934785Z",
-      "dateUpdated": "2020-04-02T16:20:44.3053977Z",
-      "dateLastUpdateAttempted": "2020-04-02T16:20:44.3053977Z",
-      "status": 3,
+      "dateUpdated": "2020-04-06T21:34:25.8477528Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:34:25.8477528Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14596,14 +14596,14 @@
       "addonID": 332545,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
-        "id": 2918426,
-        "displayName": "RingOfTeleport-1.15.2-1.1.20.jar",
-        "fileName": "RingOfTeleport-1.15.2-1.1.20.jar",
-        "fileDate": "2020-04-01T15:32:54.643Z",
-        "fileLength": 16162,
+        "id": 2922573,
+        "displayName": "RingOfTeleport-1.15.2-1.1.21.jar",
+        "fileName": "RingOfTeleport-1.15.2-1.1.21.jar",
+        "fileDate": "2020-04-06T14:41:31.96Z",
+        "fileLength": 15294,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2918/426/RingOfTeleport-1.15.2-1.1.20.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/573/RingOfTeleport-1.15.2-1.1.21.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -14618,12 +14618,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4133363586,
+            "fingerprint": 402491654,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2140051634,
+            "fingerprint": 3218842322,
             "type": 0
           },
           {
@@ -14642,7 +14642,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2869839959,
+        "packageFingerprint": 889181416,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -14656,12 +14656,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfTeleport-1.15.2-1.1.20.jar"
+        "FileNameOnDisk": "RingOfTeleport-1.15.2-1.1.21.jar"
       },
       "dateInstalled": "2020-03-28T11:39:28.1060379Z",
-      "dateUpdated": "2020-04-02T16:20:55.9299827Z",
-      "dateLastUpdateAttempted": "2020-04-02T16:20:55.9299827Z",
-      "status": 3,
+      "dateUpdated": "2020-04-06T21:34:35.1927531Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:34:35.1927531Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14823,14 +14823,14 @@
       "addonID": 332562,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
-        "id": 2918344,
-        "displayName": "RingOfBlink-1.15.2-1.1.19.jar",
-        "fileName": "RingOfBlink-1.15.2-1.1.19.jar",
-        "fileDate": "2020-04-01T13:36:03.417Z",
-        "fileLength": 15629,
+        "id": 2922563,
+        "displayName": "RingOfBlink-1.15.2-1.1.20.jar",
+        "fileName": "RingOfBlink-1.15.2-1.1.20.jar",
+        "fileDate": "2020-04-06T14:22:40.287Z",
+        "fileLength": 14767,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2918/344/RingOfBlink-1.15.2-1.1.19.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/563/RingOfBlink-1.15.2-1.1.20.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -14845,12 +14845,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3421890142,
+            "fingerprint": 99906876,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1605989977,
+            "fingerprint": 1202573722,
             "type": 0
           },
           {
@@ -14869,7 +14869,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3013843116,
+        "packageFingerprint": 3211596070,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -14883,12 +14883,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfBlink-1.15.2-1.1.19.jar"
+        "FileNameOnDisk": "RingOfBlink-1.15.2-1.1.20.jar"
       },
       "dateInstalled": "2020-03-28T11:39:35.9026412Z",
-      "dateUpdated": "2020-04-02T16:20:41.3263763Z",
-      "dateLastUpdateAttempted": "2020-04-02T16:20:41.3263763Z",
-      "status": 3,
+      "dateUpdated": "2020-04-06T21:34:22.7126761Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:34:22.7126761Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15341,14 +15341,14 @@
       "addonID": 332596,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
-        "id": 2918666,
-        "displayName": "RingOfEnderchest-1.15.2-1.1.22.jar",
-        "fileName": "RingOfEnderchest-1.15.2-1.1.22.jar",
-        "fileDate": "2020-04-01T20:28:10.927Z",
-        "fileLength": 12217,
+        "id": 2922654,
+        "displayName": "RingOfEnderchest-1.15.2-1.1.23.jar",
+        "fileName": "RingOfEnderchest-1.15.2-1.1.23.jar",
+        "fileDate": "2020-04-06T16:37:01.403Z",
+        "fileLength": 11356,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2918/666/RingOfEnderchest-1.15.2-1.1.22.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/654/RingOfEnderchest-1.15.2-1.1.23.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -15363,12 +15363,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 433856588,
+            "fingerprint": 1186990496,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1680812173,
+            "fingerprint": 3460987076,
             "type": 0
           },
           {
@@ -15387,7 +15387,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1664136455,
+        "packageFingerprint": 1098638045,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -15401,12 +15401,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfEnderchest-1.15.2-1.1.22.jar"
+        "FileNameOnDisk": "RingOfEnderchest-1.15.2-1.1.23.jar"
       },
       "dateInstalled": "2020-03-28T11:39:34.0105503Z",
-      "dateUpdated": "2020-04-02T16:20:58.4932194Z",
-      "dateLastUpdateAttempted": "2020-04-02T16:20:58.4932194Z",
-      "status": 3,
+      "dateUpdated": "2020-04-06T21:34:38.6918915Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:34:38.6918915Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15829,14 +15829,14 @@
       "addonID": 230976,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
-        "id": 2869194,
-        "displayName": "FastLeafDecay-v20.jar",
-        "fileName": "FastLeafDecay-v20.jar",
-        "fileDate": "2020-01-25T22:31:38.633Z",
-        "fileLength": 8321,
+        "id": 2922785,
+        "displayName": "FastLeafDecay-v21.jar",
+        "fileName": "FastLeafDecay-v21.jar",
+        "fileDate": "2020-04-06T18:50:24.863Z",
+        "fileLength": 8164,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2869/194/FastLeafDecay-v20.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/785/FastLeafDecay-v21.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -15844,12 +15844,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2585887148,
+            "fingerprint": 3514695302,
             "type": 0
           },
           {
             "foldername": "net",
-            "fingerprint": 689963069,
+            "fingerprint": 788797576,
             "type": 0
           },
           {
@@ -15858,9 +15858,8 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1002342434,
+        "packageFingerprint": 3854568604,
         "gameVersion": [
-          "1.15",
           "Forge",
           "1.15.2",
           "1.15.1"
@@ -15874,12 +15873,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "FastLeafDecay-v20.jar"
+        "FileNameOnDisk": "FastLeafDecay-v21.jar"
       },
       "dateInstalled": "2020-04-01T14:08:05.5171912Z",
-      "dateUpdated": "2020-04-01T14:08:05.5181589Z",
-      "dateLastUpdateAttempted": "2020-04-01T14:08:05.5181589Z",
-      "status": 5,
+      "dateUpdated": "2020-04-06T21:31:06.0577111Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:31:06.0577111Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17461,6 +17460,86 @@
       "installedTargets": null
     },
     {
+      "addonID": 332743,
+      "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
+      "installedFile": {
+        "id": 2922554,
+        "displayName": "RingOfMiner-1.15.2-1.1.20.jar",
+        "fileName": "RingOfMiner-1.15.2-1.1.20.jar",
+        "fileDate": "2020-04-06T14:04:05.407Z",
+        "fileLength": 16241,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/554/RingOfMiner-1.15.2-1.1.20.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3781556590,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3125310407,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3252979360,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1163546356,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4253522632,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2888995257,
+        "gameVersion": [
+          "Forge",
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "RingOfMiner-1.15.2-1.1.20.jar"
+      },
+      "dateInstalled": "2020-03-28T11:39:31.9078714Z",
+      "dateUpdated": "2020-04-06T21:34:41.6800038Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:34:41.6800038Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 326041,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
@@ -17536,86 +17615,6 @@
       "dateUpdated": "2020-03-28T15:39:05.5273257Z",
       "dateLastUpdateAttempted": "2020-03-28T15:39:05.5273257Z",
       "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 332743,
-      "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
-      "installedFile": {
-        "id": 2918320,
-        "displayName": "RingOfMiner-1.15.2-1.1.19.jar",
-        "fileName": "RingOfMiner-1.15.2-1.1.19.jar",
-        "fileDate": "2020-04-01T12:59:44.223Z",
-        "fileLength": 17093,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2918/320/RingOfMiner-1.15.2-1.1.19.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1673312087,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 2899865325,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 3252979360,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1163546356,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 4253522632,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 2388082446,
-        "gameVersion": [
-          "Forge",
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "RingOfMiner-1.15.2-1.1.19.jar"
-      },
-      "dateInstalled": "2020-03-28T11:39:31.9078714Z",
-      "dateUpdated": "2020-04-02T16:21:01.3559588Z",
-      "dateLastUpdateAttempted": "2020-04-02T16:21:01.3559588Z",
-      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18289,73 +18288,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 283644,
-      "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
-      "installedFile": {
-        "id": 2870411,
-        "displayName": "Placebo-1.15.2-3.0.2.jar",
-        "fileName": "Placebo-1.15.2-3.0.2.jar",
-        "fileDate": "2020-01-27T19:40:58.457Z",
-        "fileLength": 95444,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2870/411/Placebo-1.15.2-3.0.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3105682521,
-            "type": 0
-          },
-          {
-            "foldername": "shadows",
-            "fingerprint": 3752561065,
-            "type": 0
-          },
-          {
-            "foldername": "javascript",
-            "fingerprint": 2529988588,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3099375411,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 79463509,
-        "gameVersion": [
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "Placebo-1.15.2-3.0.2.jar"
-      },
-      "dateInstalled": "2020-03-28T10:50:21.9467982Z",
-      "dateUpdated": "2020-03-28T10:50:21.9478222Z",
-      "dateLastUpdateAttempted": "2020-03-28T10:50:21.9478222Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 324973,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
@@ -18431,6 +18363,158 @@
       "installedTargets": null
     },
     {
+      "addonID": 283644,
+      "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
+      "installedFile": {
+        "id": 2870411,
+        "displayName": "Placebo-1.15.2-3.0.2.jar",
+        "fileName": "Placebo-1.15.2-3.0.2.jar",
+        "fileDate": "2020-01-27T19:40:58.457Z",
+        "fileLength": 95444,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2870/411/Placebo-1.15.2-3.0.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3105682521,
+            "type": 0
+          },
+          {
+            "foldername": "shadows",
+            "fingerprint": 3752561065,
+            "type": 0
+          },
+          {
+            "foldername": "javascript",
+            "fingerprint": 2529988588,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3099375411,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 79463509,
+        "gameVersion": [
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Placebo-1.15.2-3.0.2.jar"
+      },
+      "dateInstalled": "2020-03-28T10:50:21.9467982Z",
+      "dateUpdated": "2020-03-28T10:50:21.9478222Z",
+      "dateLastUpdateAttempted": "2020-03-28T10:50:21.9478222Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 294815,
+      "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
+      "installedFile": {
+        "id": 2922491,
+        "displayName": "aiotbotania-1.15.2-1.2.1.jar",
+        "fileName": "aiotbotania-1.15.2-1.2.1.jar",
+        "fileDate": "2020-04-06T11:26:00.75Z",
+        "fileLength": 143488,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2922/491/aiotbotania-1.15.2-1.2.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 225643,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1241372211,
+            "type": 0
+          },
+          {
+            "foldername": "de",
+            "fingerprint": 2971194296,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3011636483,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 2400227024,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 2459156036,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1046313195,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 956645756,
+        "gameVersion": [
+          "Forge",
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "aiotbotania-1.15.2-1.2.1.jar"
+      },
+      "dateInstalled": "2020-04-06T09:22:01.380621Z",
+      "dateUpdated": "2020-04-06T21:29:55.6748717Z",
+      "dateLastUpdateAttempted": "2020-04-06T21:29:55.6748717Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 280294,
       "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
       "installedFile": {
@@ -18493,91 +18577,6 @@
       "dateUpdated": "2020-03-28T14:13:46.0902693Z",
       "dateLastUpdateAttempted": "2020-03-28T14:13:46.0902693Z",
       "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 294815,
-      "gameInstanceID": "ae77f15e-2808-46bb-b8cb-193c4ae4bc9a",
-      "installedFile": {
-        "id": 2922208,
-        "displayName": "aiotbotania-1.15.2-1.2.jar",
-        "fileName": "aiotbotania-1.15.2-1.2.jar",
-        "fileDate": "2020-04-06T00:10:36.043Z",
-        "fileLength": 143442,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2922/208/aiotbotania-1.15.2-1.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 225643,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4088043370,
-            "type": 0
-          },
-          {
-            "foldername": "de",
-            "fingerprint": 1036372743,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3011636483,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2400227024,
-            "type": 0
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 2459156036,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1046313195,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 464777566,
-        "gameVersion": [
-          "Forge",
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "aiotbotania-1.15.2-1.2.jar"
-      },
-      "dateInstalled": "2020-04-06T09:22:01.380621Z",
-      "dateUpdated": "2020-04-06T09:22:01.3836109Z",
-      "dateLastUpdateAttempted": "2020-04-06T09:22:01.3836109Z",
-      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

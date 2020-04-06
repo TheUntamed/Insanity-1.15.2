@@ -19,20 +19,32 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.36
 
 **Updated Mods**
 
+* *AttributeFix* (7.0.1 --> 7.0.2)
+* *Better Burning* (1.3.1 --> 1.3.4)
 * *Carpet Stairs Mod* (1.4.1 --> 1.4.2)
 * *Corail Tombstone* (4.3.2 --> 4.3.3)
 * *Extreme sound muffler (Forge)* (1.0 --> 1.1)
+* *Fast Leaf Decay* (20 --> 21)
 * *Mekanism* (9.9.17.409 --> 9.9.18.410)
 * *Mekanism Generators* (9.9.17.409 --> 9.9.18.410)
 * *Mekanism Tools* (9.9.17.409 --> 9.9.18.410)
 * *MoreVanillaLib* (1.0.2 --> 1.1)
+* *Open Loader* (4.0.2 --> 4.0.3)
 * *Patchouli* (1.2-28 --> 1.2-30)
+* *Ring of Attraction [FORGE]* (1.1.24 --> 1.1.25)
+* *Ring of Blink [FORGE]* (1.1.19 --> 1.1.20)
+* *Ring of Growth [FORGE]* (1.1.21 --> 1.1.22)
+* *Ring of Repair [FORGE]* (1.1.21 --> 1.1.22)
+* *	Ring of Return [FORGE]* (1.0.3 --> 1.0.4)
+* *Ring of Teleport [FORGE]* (1.1.20 --> 1.1.21)
+* *Ring of the Enderchest [FORGE]* (1.1.22 --> 1.1.23)
+* *Ring of the Miner [FORGE]* (1.1.19 --> 1.1.20)
 * *Vanilla Excavators [Forge]* (2.0 --> 2.0.1)
 * *Vanilla Hammers [Forge]* (2.0.1 --> 2.0.2)
 
 **Changes**
 
-* First Recipe Changes. YAY!
+* First minor recipe changes. YAY!
 
 * *Fast Leaf Decay* increased maximum decay time from 12 to 16.
 * *Omega Craft* disabled ore generation for Silver, Tin, Lead and Copper (*Silents Mechanisms* generates them).

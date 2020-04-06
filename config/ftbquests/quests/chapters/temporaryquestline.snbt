@@ -5,18 +5,29 @@
 	title: "Temporary Questline",
 	icon: "minecraft:oak_leaves",
 	quests: [{
-		title: "README",
-		icon: "botania:cosmetic_questgiver_mark",
-		x: 0.0d,
-		y: 0.0d,
-		subtitle: "These Quest are temporary. Like everything the Quests are still in development.",
-		description: ["These Quests are designed to help you get started."],
-		id: 4,
+		title: "Stone to go",
+		icon: "natural-progression:stone_pebble",
+		x: -4.0d,
+		y: -2.0d,
+		subtitle: "Pick up some pebbles.",
+		description: ["pebbles can be found on the ground in most biomes."],
+		id: 6,
 		tasks: [{
-			id: 5,
-			type: "checkmark",
-			title: "README",
-			icon: "botania:cosmetic_questgiver_mark"
+			id: 7,
+			type: "item",
+			item: "natural-progression:stone_pebble",
+			count: 2
+		}],
+		rewards: [{
+			id: 13,
+			type: "item",
+			item: {
+				id: "minecraft:potion",
+				Count: 1,
+				tag: {
+					Potion: "minecraft:swiftness"
+				}
+			}
 		}]
 	}]
 }
