@@ -3,7 +3,7 @@
 [general]
 	#The NEW (as of version 1.2.2) way to add bone drops to an entity.
 	#Find this name by typing '/summon' in game, and hit TAB.
-	boneDropEntities = ["minecraft:bat", "minecraft:cat", "minecraft:chicken", "minecraft:cow", "minecraft:donkey", "minecraft:fox", "minecraft:horse", "minecraft:llama", "minecraft:mooshroom", "minecraft:mule", "minecraft:ocelot", "minecraft:panda", "minecraft:parrot", "minecraft:pig", "minecraft:polar_bear", "minecraft:rabbit", "minecraft:sheep", "minecraft:trader_llama", "minecraft:wolf"]
+	boneDropEntities = ["minecraft:cat", "minecraft:chicken", "minecraft:cow", "minecraft:donkey", "minecraft:fox", "minecraft:horse", "minecraft:llama", "minecraft:mooshroom", "minecraft:mule", "minecraft:ocelot", "minecraft:panda", "minecraft:parrot", "minecraft:pig", "minecraft:polar_bear", "minecraft:rabbit", "minecraft:sheep", "minecraft:trader_llama", "minecraft:wolf"]
 	#Setting this to true will let players know that they can't break certain blocks without a certain tool
 	showToolHelp = true
 	#The chance (out of 100) that a bone can drop from the entities in 'boneDropMobs'.

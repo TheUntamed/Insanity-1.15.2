@@ -1,0 +1,10 @@
+{
+	id: 2,
+	filename: "innocentnewworld",
+	order_index: 1,
+	title: "Innocent new World",
+	icon: "minecraft:grass_block",
+	always_invisible: 1,
+	default_quest_shape: "circle",
+	quests: []
+}

@@ -1,0 +1,22 @@
+{
+	id: 3,
+	filename: "temporaryquestline",
+	order_index: 2,
+	title: "Temporary Questline",
+	icon: "minecraft:oak_leaves",
+	quests: [{
+		title: "README",
+		icon: "botania:cosmetic_questgiver_mark",
+		x: 0.0d,
+		y: 0.0d,
+		subtitle: "These Quest are temporary. Like everything the Quests are still in development.",
+		description: ["These Quests are designed to help you get started."],
+		id: 4,
+		tasks: [{
+			id: 5,
+			type: "checkmark",
+			title: "README",
+			icon: "botania:cosmetic_questgiver_mark"
+		}]
+	}]
+}
