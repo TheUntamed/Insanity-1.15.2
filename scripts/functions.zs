@@ -1,5 +1,5 @@
+#priority 3000
 //Has to be loaded befora all Recipe and tag changes
-#priority 1000
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -42,6 +42,8 @@ public function addShapeless(output as IItemStack, input as IIngredient[], remov
 	craftingTable.addShapeless(recipeName, output, input);
 }
 
+// Remove Recipe
+
 public function removeRecipe(output as IItemStack) as void {
 	craftingTable.removeRecipe(output);
 }
@@ -50,7 +52,9 @@ public function removeRecipeByName(name as string) as void {
 	craftingTable.removeByName(name);
 }
 
-/* public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) as IItemStack {
+// Clean Item Tags
+
+public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) as IItemStack {
 	for mod in modPriorities {
 		for item in tag.items {
             var itemOwner = item.registryName.split(":")[0];
@@ -76,9 +80,12 @@ public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 			craftingTable.addShapeless(formatRecipeName(item) + "_conversion_recipe", tag.first(), [item]);
 		}
 	}
-} */
+}
 
-/* public function minecraft_smeltingAndBlasting_ingot_from_ore(material as string) as void {
+// Clean Recipes
+    // Minecraft
+
+public function minecraft_smeltingAndBlasting_ingot_from_ore(material as string) as void {
     var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
     var ingotItemTag = BracketHandlers.getTag("forge:ingots/" + material);
     var ore = oreItemTag.first();
@@ -98,7 +105,7 @@ public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
     var cookingTime = 200;
     blastFurnace.removeRecipe(ingot, ore);
     furnace.removeRecipe(ingot, ore);
-    blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime);
+    blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime/2);
     furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime);
 }
 public function minecraft_smeltingAndBlasting_ingot_from_dust(material as string) as void {
@@ -121,13 +128,13 @@ public function minecraft_smeltingAndBlasting_ingot_from_dust(material as string
     var cookingTime = 200;
     blastFurnace.removeRecipe(ingot, dust);
     furnace.removeRecipe(ingot, dust);
-    blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
+    blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime/2);
     furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
-} */
+}
 
-// Mekanism
+    // Mekanism
 
-/* public function mekanism_enriching_dust_from_ore(material as string) as void {
+public function mekanism_enriching_dust_from_ore(material as string) as void {
 	switch (material) {
 		case "redstone":
 		case "lapis":
@@ -376,4 +383,4 @@ public function mekanism_injecting_shard_from_crystal(material as string) as voi
     });
 
     logger.info("mekanism_injecting_shard_from_crystal with " + material + " succesfully ran!");
-} */
+}

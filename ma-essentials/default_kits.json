@@ -56,7 +56,12 @@
         {
           "name": "minecraft:potion",
           "quantity": 1,
-          "nbt": "{Potion:\"minecraft:long_swiftness\"}"
+          "nbt": "{Potion:\"minecraft:swiftness\"}"
+        },
+        {
+          "name": "minecraft:apple",
+          "quantity": 4,
+          "nbt": ""
         }
       ]
     }

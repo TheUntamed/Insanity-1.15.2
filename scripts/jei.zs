@@ -1,4 +1,4 @@
-# 700
+# 600
 
 import mods.jei.JEI;
 

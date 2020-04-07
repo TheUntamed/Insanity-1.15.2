@@ -18,7 +18,7 @@
 	["World Gen".Aluminum]
 		"Clusters per Chunk" = 10
 		"Blocks per Cluster" = 10
-		"Generation Enabled" = true
+		"Generation Enabled" = false
 		"Minimum Y for spawn" = 6
 		"Maximum Y for spawn" = 48
 

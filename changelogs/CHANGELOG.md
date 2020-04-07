@@ -46,8 +46,10 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.36
 
 * First minor recipe changes. YAY!
 
+* *Basic Nether Ores* enabled Nether Ore generation for Silver, Lead, Copper, Tin, Uranium and Aluminium.
 * *Fast Leaf Decay* increased maximum decay time from 12 to 16.
-* *Omega Craft* disabled ore generation for Silver, Tin, Lead and Copper (*Silents Mechanisms* generates them).
+* *Omega Craft* disabled ore generation for Aluminium, Silver, Tin, Lead and Copper (*Silents Mechanisms* generates them).
+* *Ma Essentials* changed starting kit (shorter speed potion, added food).
 * *MoreVanillaLib* disabled Hammers and Excavators to drop an item when they are used.
 * *MoreVanillaLib* increased double drop chance for Diamond and Emerald Hammer from 0.1% to 10%.
 * *MoreVanillaLib* reduced the double drop chance for Coal, Quartz, Lapis and Redstone from 50% to 10%.
