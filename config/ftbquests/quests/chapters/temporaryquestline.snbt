@@ -93,6 +93,22 @@
 					}
 				}
 			}]
+		},
+		{
+			x: -5.5d,
+			y: -2.0d,
+			id: 25,
+			tasks: [{
+				id: 26,
+				type: "checkmark",
+				title: "Test",
+				icon: "minecraft:stone"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -4.5d,
+			id: 35
 		}
 	]
 }

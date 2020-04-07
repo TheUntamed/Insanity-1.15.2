@@ -1,6 +1,9 @@
 
 #Miscellaneous
 [general]
+	#The maximum number of twigs that can be found in each chunk
+	#Range: 0 ~ 256
+	maxTwigsPerChunk = 3
 	#The NEW (as of version 1.2.2) way to add bone drops to an entity.
 	#Find this name by typing '/summon' in game, and hit TAB.
 	boneDropEntities = ["minecraft:cat", "minecraft:chicken", "minecraft:cow", "minecraft:donkey", "minecraft:fox", "minecraft:horse", "minecraft:llama", "minecraft:mooshroom", "minecraft:mule", "minecraft:ocelot", "minecraft:panda", "minecraft:parrot", "minecraft:pig", "minecraft:polar_bear", "minecraft:rabbit", "minecraft:sheep", "minecraft:trader_llama", "minecraft:wolf"]
@@ -29,9 +32,6 @@
 	boneShardKnappingChance = 75
 	#Setting this to true will make ground blocks (e.g. sand, dirt, gravel) harder to break without the correct tool.
 	makeGroundBlocksHarder = true
-	#When to play sounds when crafting -- PLANKS will make it only play slicing sounds when crafting planks
-	#Allowed Values: ALL, PLANKS, NONE
-	craftingSounds = "ALL"
 	#Setting this to true makes it so that plank recipes (including most mods) will not work without a saw or axe.
 	removePlankRecipes = true
 	#Setting this to true prevents the ability to craft wooden tools. This is totally unrealistic anyways.
