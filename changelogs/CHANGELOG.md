@@ -15,7 +15,7 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.36
 
 **Removed Mods**
 
-* 
+* *Trample Stopper* (I think building a farm so that it doesn't get trampled by you or a mob should be part of the game)
 
 **Updated Mods**
 
@@ -59,6 +59,7 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.36
 * *MoreVanillaLib* reduced the double drop chance for Coal, Quartz, Lapis and Redstone from 50% to 10%.
 * *Natural Progression* removed bone drop from bats.
 * *Quark* disabled "q" button.
+* *Quark* disabled totem of holding (gravestones exist).
 
 **Bug Fixes**
 
