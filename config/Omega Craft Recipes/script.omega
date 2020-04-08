@@ -12,3 +12,6 @@
 #Recipes can also be removed using this format:
 #removeRecipe(alloy, omegacraft:ingot_bronze)
 #Doing so will remove all recipes from the selected machine with that item as their output
+
+#addRecipe(alloy, forge:ores/copper, forge:sand, forge:ingot/copper~2, minecraft:stone, 10)
+#removeRecipe(alloy, omegacraft:ingot_copper)
