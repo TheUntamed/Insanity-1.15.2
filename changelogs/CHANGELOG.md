@@ -9,7 +9,6 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.36
 * *AIOT Botania*
 * *Basic Nether Ores*
 * *Botania*
-* *Material Master*
 * *Omega Craft*
 * *Tetra*
 * *Upgrade Aquatic*
@@ -51,7 +50,10 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.36
 
 **Changes**
 
+* Started to clean up item tags.
 * First minor recipe changes. YAY!
+* Set the Window Title to "!nsanity".
+* Added Window Icon.
 
 * *Basic Nether Ores* enabled Nether Ore generation for Silver, Lead, Copper, Tin, Uranium and Aluminium.
 * *Default Options* set default keybinds.
