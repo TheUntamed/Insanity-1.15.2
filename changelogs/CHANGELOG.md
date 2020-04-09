@@ -51,7 +51,7 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.36
 **Changes**
 
 * Started to clean up item tags.
-* First minor recipe changes. YAY!
+* First minor recipe changes. YAY! (just enough so I can call this pack a kitchensink+ pack)
 * Set the Window Title to "!nsanity".
 * Added Window Icon.
 

@@ -1,6 +1,9 @@
 # 100
 
 //removeRecipeByName("");
+
+
+//natural progression: pebbles to cobble
 removeRecipeByName("natural-progression:cobblestone");
 removeRecipeByName("natural-progression:cobbled_andesite");
 removeRecipeByName("natural-progression:cobbled_diorite");

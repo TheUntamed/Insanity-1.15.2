@@ -211,21 +211,21 @@
 		#Generate Gold Ore
 		gold = true
 		#Generate Silver Ore
-		silver = true
+		silver = false
 		#Generate Iron Ore
 		iron = true
 		#Generate Lead Ore
-		lead = true
+		lead = false
 		#Generate Nickel Ore
-		nickel = true
+		nickel = false
 		#Generate Copper Ore
-		copper = true
+		copper = false
 		#Generate Aluminum Ore
-		aluminum = true
+		aluminum = false
 		#Generate Tin Ore
-		tin = true
+		tin = false
 		#Generate Uranium Ore
-		uranium = true
+		uranium = false
 
 [ore_protector]
 	#If set to 'true' Pigmen will protect Nether Ores

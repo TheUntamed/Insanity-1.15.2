@@ -4,6 +4,8 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
 
+//INFO: the base code for cleaning these item tags was created by NillerMedDild, developer of Enigmatica modpacks.
+
 var materials as MCTag[string][string] = {
     "iron": {
         "nugget": <tag:forge:nuggets/iron>,
