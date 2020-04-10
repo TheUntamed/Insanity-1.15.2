@@ -20,4 +20,3 @@ import crafttweaker.api.tag.MCTag;
 <tag:forge:colorant/brown>.createItemTag();
 <tag:forge:colorant/black>.createItemTag();
 <tag:forge:colorant/white>.createItemTag();
-//<tag:forge:colorant/red>.addItems([<item:minecraft:rose_bush>, <item:minecraft:fire_coral>, <item:minecraft:fire_coral_fan>]);

@@ -1,7 +1,7 @@
 !nsanity 0.1.1
 --------------
 
-Forge 1.15.2-31.1.35 --> 1.15.2-31.1.36
+Forge 1.15.2-31.1.35 --> 1.15.2-31.1.41
 
 **Added Mods**
 
@@ -22,20 +22,26 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.36
 * *AttributeFix* (7.0.1 --> 7.0.2)
 * *Better Burning* (1.3.1 --> 1.3.4)
 * *Carpet Stairs Mod* (1.4.1 --> 1.4.2)
-* *Corail Tombstone* (4.3.2 --> 4.3.3)
-* *Cyclic* (0.3.0 --> 0.3.1)
+* *Controlling* (6.1.1 --> 6.1.2)
+* *Corail Tombstone* (4.3.2 --> 4.3.4)
+* *Cyclic* (0.3.0 --> 0.3.2)
+* *Double Slabs* (2.1.1 --> 2.2.0)
 * *EmbellishCraft* (2.1.0.0 --> 2.1.0.1)
 * *Extreme sound muffler (Forge)* (1.0 --> 1.1)
 * *Fast Leaf Decay* (20 --> 22)
 * *Fx Control!* (1.0.1 --> 1.0.2)
 * *In Control!* (4.0.2 --> 4.0.3)
+* *Lollipop* (1.0.13 --> 1.0.14)
 * *Mekanism* (9.9.17.409 --> 9.9.18.410)
 * *Mekanism Generators* (9.9.17.409 --> 9.9.18.410)
 * *Mekanism Tools* (9.9.17.409 --> 9.9.18.410)
 * *MoreVanillaLib* (1.0.2 --> 1.1.1)
 * *Natural Progression* (1.2.2 --> 1.3.0)
 * *Open Loader* (4.0.2 --> 4.0.3)
-* *Patchouli* (1.2-28 --> 1.2-30)
+* *Patchouli* (1.2-28 --> 1.2-31)
+* *Performant* (1.12 --> 2.03m)
+* *Powah!* (1.1.11 --> 1.1.12)
+* *Quark* (r2.1-229 --> r2.1-230)
 * *Reliquary v1.3* (1.3.4.957 --> 1.3.4.960)
 * *Ring of Attraction [FORGE]* (1.1.24 --> 1.1.25)
 * *Ring of Blink [FORGE]* (1.1.19 --> 1.1.20)
@@ -46,12 +52,12 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.36
 * *Ring of the Enderchest [FORGE]* (1.1.22 --> 1.1.23)
 * *Ring of the Miner [FORGE]* (1.1.19 --> 1.1.20)
 * *Vanilla Excavators [Forge]* (2.0 --> 2.0.1)
-* *Vanilla Hammers [Forge]* (2.0.1 --> 2.0.3)
+* *Vanilla Hammers [Forge]* (2.0.1 --> 2.0.4)
 
 **Changes**
 
 * Started to clean up item tags.
-* First minor recipe changes. YAY! (just enough so I can call this pack a kitchensink+ pack)
+* First minor recipe changes. YAY! (just enough to call this pack a kitchensink+ pack)
 * Set the Window Title to "!nsanity".
 * Added Window Icon.
 

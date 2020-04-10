@@ -5,13 +5,13 @@ Priority ranges:
 8000-8999: Extension methods and classes
 
 3000-3999: Dependency scripts, like mod-tweaking-api
-2000: Create oredict tags.
+2000-2999: Create new item tags
 1000-1999: Crucial scripts, such as dependencies for others, function declarations and globals.
 
-900-999: Removing from oredict tags.
-700-799: Adding to oredict tags.
+900-999: Remove from oredict tags.
+700-799: Add to oredict tags.
 
 600: Add Information about an Item to the Info Category of JEI
 
-100-199: Recipe removals
-0-99: Adding Recipes
+100-199: Just Remove Recipes
+0-99: (Remove and) Add Recipes

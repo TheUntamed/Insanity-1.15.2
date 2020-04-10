@@ -10,6 +10,14 @@ var recipes as IIngredient[][IItemStack] = {
 
 };
 
+var recipesWithRemove as IIngredient[][IItemStack] = {
+
+};
+
 for output, input in recipes {
     addShapeless(output, input, false);
+}
+
+for output, input in recipesWithRemove {
+    addShapeless(output, input, true);
 }

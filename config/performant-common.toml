@@ -1,4 +1,38 @@
 
+["Tile entities load balancing settings"]
+	#Enables Tileentity load balancing, if the game is lagging. default: true
+	TELoadBalancing = true
+	#Mean tick time at which load balancing takes effect, 1000 / mean tick time = TPS. default: 45
+	#Range: 1 ~ 200
+	meanTickTH = 45
+	#Enables debug log output for lagging tileentities, default = false
+	TEDebugOutput = false
+
+	["Tile entities load balancing settings"."Tile entity chunk unload"]
+		#Requires TELoadBalancing = true. Enables dealing with lag caused by tile entities during chunk unload. default = false
+		TEUnloadLag = false
+
+["Entity settings"]
+	#Fix updateleashState lag from llamas, default = true
+	fixLeash = true
+	#Use fast entity collisions, default = true
+	fastCollisions = true
+	#Enables less laggy entity item pickup, default = true
+	noLagItemPickup = true
+	#Use faster Item entities, default = true
+	fastItems = true
+	#Enable fast pathfinding, default = true
+	fastPathFinding = true
+
+["Entity AI Load balancing settings"]
+	#Mean tick time at which AI load balancing takes effect, 1000 / mean tick time = TPS. default: 45
+	#Range: 1 ~ 200
+	meanTickAITH = 45
+	#Enables load balancing for entity AI. default = true
+	AILoadBalancing = true
+	#Whether to debug lagging entities and log offenders, requires load balancing to be enabled. default = true
+	logEntityAILag = true
+
 ["Entity AI Settings"]
 	#Sets the tick, ticks happen 20 times each sec, interval in which non-running AI tasks are rechecked. Vanilla default is 1, this mods suggested default is 4
 	#Range: 1 ~ 500
@@ -18,26 +52,7 @@
 	#Whether to use a slower updated AI avoid entity goal, avoid is used e.g. for villagers avoiding zombies so it constantly searches for mobs in the area. default = true
 	optimizeAvoid = true
 
-["Entity AI Load balancing settings"]
-	#TPS(ticks per second) to balance entity AI lag around, this is not a hard cap just a guideline. default = 20
-	#Range: 1 ~ 20
-	tpsGoal = 20
-	#Use load balancing for entity AI. default = true
-	AILoadBalancing = true
-	#Whether to debug lagging entities and log offenders, requires load balancing to be enabled. default = true
-	logEntityAILag = true
-
-[Entities]
-	#Use no lag zombies, default = true
-	noLagZombies = true
-
-["Tile entities"]
-	#Experimental: use slower tile entity update balancing. Enable only when TE lag, e.g. from a tech mod is an issue, affects all TE's! e.g. Furnaces too default = false
-	slowTE = false
-	#Requires slowTE to be enabled: TPS(ticks per second) to balance entity AI lag around, this is not a hard cap just a guideline. default = 20
-	#Range: 1 ~ 20
-	teTps = 20
-	#Requires slowTE to be enabled: How often TE's should tick at least, default is at least once every 5 ticks. Vanilla is every 1 ticks. default = 5
-	#Range: 1 ~ 20
-	teTicks = 5
+["Other settings"]
+	#Enable fast spawn radius check, default = true
+	fastSpawnRadius = true
 

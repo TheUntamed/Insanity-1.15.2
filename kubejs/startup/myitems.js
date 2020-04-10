@@ -16,7 +16,6 @@ events.listen('item.registry', function (event) {
     event.create('mote_of_air').add()
     event.create('mote_of_life').add()
 
-    //event.create('wooden_mortar').add() --> Botania adds one already
     event.create('endstone_dust').add()
     event.create('carbon_plate').add()
     event.create('grains_of_innocence').add()
@@ -44,4 +43,9 @@ events.listen('item.registry', function (event) {
 
     event.create('chaos_ingot').add()
     event.create('chaos_catalyst').add()
+
+    event.create('bloody_mana_infused_time_dust').add()
+    event.create('mana_infused_time_dust').add()
+    event.create('roasted_time_dust').add()
+    event.create('sands_of_time_acceleration').add()
 })
