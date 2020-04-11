@@ -52,7 +52,6 @@ var recipesWithRemove as IIngredient[][][IItemStack] = {
 
     //Plates to Block
 
-
     //wooden mortar
     <item:minecraft:red_dye> : [[<tag:forge:colorant/red>, <item:botania:pestle_and_mortar>]],
     <item:minecraft:green_dye> : [[<tag:forge:colorant/green>, <item:botania:pestle_and_mortar>]],
@@ -70,6 +69,9 @@ var recipesWithRemove as IIngredient[][][IItemStack] = {
     <item:minecraft:brown_dye> : [[<tag:forge:colorant/brown>, <item:botania:pestle_and_mortar>]],
     <item:minecraft:black_dye> : [[<tag:forge:colorant/black>, <item:botania:pestle_and_mortar>]],
     <item:minecraft:white_dye> : [[<tag:forge:colorant/white>, <item:botania:pestle_and_mortar>]]
+
+    //Others
+    
 };
 
 for output, input in recipes {
