@@ -1,5 +1,4 @@
-#priority 999
-// Has to be loaded before main
+#priority 998
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -11,9 +10,25 @@ public function removeProcessingFor(item as IItemStack) as void {
     craftingTable.removeRecipe(item);
 	furnace.removeRecipe(item);
 	blastFurnace.removeRecipe(item);
-    
-    //TODO: Mod Processings
 
-    //TODO: JEI Hide
+    // TODO: Specify all the mekanism recipes that need to be removed?
+    //<recipetype:mekanism:enriching>.removeByName("mekanism:processing/tin/dust/from_dirty_dust");
 
+    // Jared said this would work too
+    //<recipetype:crafting>.removeByName("mekanism:processing/tin/dust/from_dirty_dust");
+
+    // This new way of doing it will be added
+    //recipes.removeByName("mekanism:processing/tin/dust/from_dirty_dust");
+
+    // JEI
+	//JEI.RemoveAndHide(item);
+
+    // Silents Mechanisms
+
+    // Industrial Foregoing
+
+    // Create
+
+    // Mekanism
 }
+			

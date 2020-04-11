@@ -1,27 +1,27 @@
-# 600
+#priority 600
 
 import mods.jei.JEI;
 
 //Hide a single Item
 //mods.jei.JEI.hideItem(IItemStack stack);
-mods.jei.JEI.hideItem(<item:bluepower:indigo_dye>);
-mods.jei.JEI.hideItem(<item:bluepower:indigo_dye>);
-mods.jei.JEI.hideItem(<item:botania:red_dye>);
-mods.jei.JEI.hideItem(<item:botania:green_dye>);
-mods.jei.JEI.hideItem(<item:botania:purple_dye>);
-mods.jei.JEI.hideItem(<item:botania:cyan_dye>);
-mods.jei.JEI.hideItem(<item:botania:light_gray_dye>);
-mods.jei.JEI.hideItem(<item:botania:gray_dye>);
-mods.jei.JEI.hideItem(<item:botania:pink_dye>);
-mods.jei.JEI.hideItem(<item:botania:lime_dye>);
-mods.jei.JEI.hideItem(<item:botania:yellow_dye>);
-mods.jei.JEI.hideItem(<item:botania:light_blue_dye>);
-mods.jei.JEI.hideItem(<item:botania:magenta_dye>);
-mods.jei.JEI.hideItem(<item:botania:orange_dye>);
-mods.jei.JEI.hideItem(<item:botania:blue_dye>);
-mods.jei.JEI.hideItem(<item:botania:brown_dye>);
-mods.jei.JEI.hideItem(<item:botania:black_dye>);
-mods.jei.JEI.hideItem(<item:botania:white_dye>);
+// mods.jei.JEI.hideItem(<item:bluepower:indigo_dye>);
+// mods.jei.JEI.hideItem(<item:bluepower:indigo_dye>);
+// mods.jei.JEI.hideItem(<item:botania:red_dye>);
+// mods.jei.JEI.hideItem(<item:botania:green_dye>);
+// mods.jei.JEI.hideItem(<item:botania:purple_dye>);
+// mods.jei.JEI.hideItem(<item:botania:cyan_dye>);
+// mods.jei.JEI.hideItem(<item:botania:light_gray_dye>);
+// mods.jei.JEI.hideItem(<item:botania:gray_dye>);
+// mods.jei.JEI.hideItem(<item:botania:pink_dye>);
+// mods.jei.JEI.hideItem(<item:botania:lime_dye>);
+// mods.jei.JEI.hideItem(<item:botania:yellow_dye>);
+// mods.jei.JEI.hideItem(<item:botania:light_blue_dye>);
+// mods.jei.JEI.hideItem(<item:botania:magenta_dye>);
+// mods.jei.JEI.hideItem(<item:botania:orange_dye>);
+// mods.jei.JEI.hideItem(<item:botania:blue_dye>);
+// mods.jei.JEI.hideItem(<item:botania:brown_dye>);
+// mods.jei.JEI.hideItem(<item:botania:black_dye>);
+// mods.jei.JEI.hideItem(<item:botania:white_dye>);
 
 //Hide a Category
 //mods.jei.JEI.hideCategory(String category);

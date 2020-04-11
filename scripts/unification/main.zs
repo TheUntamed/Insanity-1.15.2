@@ -1,10 +1,8 @@
-#priority 998
+#priority 999
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
-
-//INFO: the base code for cleaning these item tags was created by NillerMedDild, developer of Enigmatica modpacks.
 
 var materials as MCTag[string][string] = {
     "iron": {
@@ -241,18 +239,18 @@ var materials as MCTag[string][string] = {
         "rod": <tag:forge:rods/aluminum>
     },
 
-    "uranium": {
-        "nugget": <tag:forge:nuggets/uranium>,
-        "ingot": <tag:forge:ingots/uranium>,
-        "gem": <tag:forge:gems/uranium>,
-        "storage_block": <tag:forge:storage_blocks/uranium>,
-        "ore": <tag:forge:ores/uranium>,
-        "ore_deposit": <tag:forge:ore_deposit/uranium>,
-        "dust": <tag:forge:dusts/uranium>,
-        "gear": <tag:forge:gears/uranium>,
-        "plate": <tag:forge:plates/uranium>,
-        "rod": <tag:forge:rods/uranium>
-    },
+    // "uranium": {
+    //     "nugget": <tag:forge:nuggets/uranium>,
+    //     "ingot": <tag:forge:ingots/uranium>,
+    //     "gem": <tag:forge:gems/uranium>,
+    //     "storage_block": <tag:forge:storage_blocks/uranium>,
+    //     "ore": <tag:forge:ores/uranium>,
+    //     "ore_deposit": <tag:forge:ore_deposit/uranium>,
+    //     "dust": <tag:forge:dusts/uranium>,
+    //     "gear": <tag:forge:gears/uranium>,
+    //     "plate": <tag:forge:plates/uranium>,
+    //     "rod": <tag:forge:rods/uranium>
+    // },
 
     "bronze": {
         "nugget": <tag:forge:nuggets/bronze>,
@@ -505,15 +503,15 @@ var materials as MCTag[string][string] = {
 var modPriorities as string[] = [
     "minecraft",
     "silents_mechanisms",
-    "omegacraft",
 	"mekanism",
     "jaopca",
     "kubejs",
-    "quark",
     "botania",
+    "mysticalworld",
+    "tmechworks",
     "industrialforegoing",
     "botania",
-    "bluepower"
+    "quark"
 ];
 
 for material, types in materials {

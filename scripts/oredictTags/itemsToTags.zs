@@ -1,4 +1,4 @@
-# 701
+#priority 701
 
 //nethercraft
 <tag:minecraft:logs>.addItems([<item:nethercraft:glowood_log>, <item:nethercraft:stripped_glowood_log>]);
