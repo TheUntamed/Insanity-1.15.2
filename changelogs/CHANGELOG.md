@@ -1,7 +1,7 @@
 !nsanity 0.1.1
 --------------
 
-Forge 1.15.2-31.1.35 --> 1.15.2-31.1.41
+Forge 1.15.2-31.1.35 --> 1.15.2-31.1.43
 
 **Added Mods**
 
@@ -15,6 +15,7 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.41
 
 **Removed Mods**
 
+* *Blue Power* (Caused some weird bugs with recipes and item tags. Will come back if that can be fixed)
 * *Trample Stopper* (I think building a farm so that it doesn't get trampled by you or a mob should be part of the game)
 
 **Updated Mods**
@@ -25,7 +26,7 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.41
 * *Controlling* (6.1.1 --> 6.1.2)
 * *Corail Tombstone* (4.3.2 --> 4.3.4)
 * *Cyclic* (0.3.0 --> 0.3.2)
-* *Double Slabs* (2.1.1 --> 2.2.0)
+* *Double Slabs* (2.1.1 --> 2.2.2)
 * *EmbellishCraft* (2.1.0.0 --> 2.1.0.1)
 * *Extreme sound muffler (Forge)* (1.0 --> 1.1)
 * *Fast Leaf Decay* (20 --> 22)
@@ -35,11 +36,12 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.41
 * *Mekanism* (9.9.17.409 --> 9.9.18.410)
 * *Mekanism Generators* (9.9.17.409 --> 9.9.18.410)
 * *Mekanism Tools* (9.9.17.409 --> 9.9.18.410)
-* *MoreVanillaLib* (1.0.2 --> 1.1.1)
+* *MoreVanillaLib* (1.0.2 --> 1.2.1)
 * *Natural Progression* (1.2.2 --> 1.3.0)
 * *Open Loader* (4.0.2 --> 4.0.3)
 * *Patchouli* (1.2-28 --> 1.2-31)
-* *Performant* (1.12 --> 2.03m)
+* *Performant* (1.12 --> 2.04m)
+* *PlantTech 2* (0.02.00 --> 0.02.01)
 * *Powah!* (1.1.11 --> 1.1.12)
 * *Quark* (r2.1-229 --> r2.1-230)
 * *Reliquary v1.3* (1.3.4.957 --> 1.3.4.960)
@@ -51,8 +53,9 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.41
 * *Ring of Teleport [FORGE]* (1.1.20 --> 1.1.21)
 * *Ring of the Enderchest [FORGE]* (1.1.22 --> 1.1.23)
 * *Ring of the Miner [FORGE]* (1.1.19 --> 1.1.20)
-* *Vanilla Excavators [Forge]* (2.0 --> 2.0.1)
-* *Vanilla Hammers [Forge]* (2.0.1 --> 2.0.4)
+* *The Midnight* (0.5.4 --> 0.5.5)
+* *Vanilla Excavators [Forge]* (2.0 --> 2.1)
+* *Vanilla Hammers [Forge]* (2.0.1 --> 2.1)
 
 **Changes**
 

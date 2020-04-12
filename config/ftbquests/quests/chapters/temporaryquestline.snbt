@@ -74,6 +74,11 @@
 				type: "item",
 				item: "minecraft:flint",
 				count: 3
+			}],
+			rewards: [{
+				id: 41,
+				type: "item",
+				item: "simplefarming:apple_pie"
 			}]
 		},
 		{
@@ -95,20 +100,38 @@
 			}]
 		},
 		{
-			x: -5.5d,
+			title: "Stripper",
+			icon: "minecraft:stripped_oak_log",
+			x: 0.5d,
 			y: -2.0d,
-			id: 25,
+			subtitle: "Right Click a Log with your Hatchet to strip it.",
+			dependencies: [I;21],
+			id: 42,
 			tasks: [{
-				id: 26,
-				type: "checkmark",
-				title: "Test",
-				icon: "minecraft:stone"
+				id: 43,
+				type: "item",
+				title: "Any minecraft:logs",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "minecraft:logs"
+					}
+				},
+				count: 4
 			}]
 		},
 		{
-			x: -14.0d,
-			y: -4.5d,
-			id: 35
+			x: 2.0d,
+			y: -2.0d,
+			subtitle: "Craft Stripped Logs together with your Hatchet to get Planks. Craft a Crafting Table.",
+			dependencies: [I;42],
+			id: 44,
+			tasks: [{
+				id: 45,
+				type: "item",
+				item: "minecraft:crafting_table"
+			}]
 		}
 	]
 }

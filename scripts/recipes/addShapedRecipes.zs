@@ -68,11 +68,37 @@ var recipesWithRemove as IIngredient[][][IItemStack] = {
     <item:minecraft:blue_dye> : [[<tag:forge:colorant/blue>, <item:botania:pestle_and_mortar>]],
     <item:minecraft:brown_dye> : [[<tag:forge:colorant/brown>, <item:botania:pestle_and_mortar>]],
     <item:minecraft:black_dye> : [[<tag:forge:colorant/black>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:white_dye> : [[<tag:forge:colorant/white>, <item:botania:pestle_and_mortar>]]
+    <item:minecraft:white_dye> : [[<tag:forge:colorant/white>, <item:botania:pestle_and_mortar>]],
 
     //Others
+    <item:minecraft:piston> :
+    [
+        [<tag:minecraft:wooden_slabs>, <tag:minecraft:wooden_slabs>, <tag:minecraft:wooden_slabs>],
+        [<item:quark:sturdy_stone>, <item:mapperbase:iron_rod>, <item:quark:sturdy_stone>],
+        [<item:quark:sturdy_stone>, <item:minecraft:redstone>, <item:quark:sturdy_stone>]
+    ],
+    <item:angelring:itemring> :
+    [
+        [<item:minecraft:feather>, <item:forbidden_arcanus:arcane_gold_ingot>, <item:minecraft:feather>],
+        [<item:forbidden_arcanus:arcane_gold_ingot>, <item:angelring:itemdiamondring>, <item:forbidden_arcanus:arcane_gold_ingot>],
+        [<item:minecraft:blaze_rod>, <item:forbidden_arcanus:arcane_gold_ingot>, <item:minecraft:blaze_rod>]
+    ],
+    <item:minecraft:campfire> :
+    [
+        [<item:minecraft:air>, <item:minecraft:torch>, <item:minecraft:air>],
+        [<item:minecraft:torch>, <tag:minecraft:coals>, <item:minecraft:torch>],
+        [<tag:minecraft:wooden_slabs>, <tag:minecraft:wooden_slabs>, <tag:minecraft:wooden_slabs>]
+    ]
 
-    
+/* 
+    <item:> :
+    [
+        [, , ],
+        [, , ],
+        [, , ]
+    ],
+     */
+
 };
 
 for output, input in recipes {

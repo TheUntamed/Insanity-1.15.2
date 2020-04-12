@@ -1,8 +1,5 @@
 #priority 900
 
-import crafttweaker.api.item.IItemStack;
-import crafttweaker.api.item.IIngredient;
-
 //Dye tag cleanup
 
 for item in <tag:forge:dyes>.items {
@@ -78,5 +75,3 @@ for item in <tag:botania:dyes>.items {
     var itemOwner = item.registryName.split(":")[0];
         if (itemOwner != "minecraft") { <tag:botania:dyes>.removeItems(item); }
 }
-
-<tag:forge:ingots/copper>.removeItems([<item:mekanism:ingot_copper>]);

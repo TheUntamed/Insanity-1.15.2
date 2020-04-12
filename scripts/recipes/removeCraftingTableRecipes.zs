@@ -3,7 +3,6 @@
 //removeRecipeByName("");
 
 removeRecipeByName("natural-progression:cobblestone");
-removeRecipe(<item:bluepower:indigo_dye>);
 removeRecipe(<item:botania:red_dye>);
 removeRecipe(<item:botania:green_dye>);
 removeRecipe(<item:botania:purple_dye>);

@@ -1,5 +1,11 @@
 #priority 701
 
+//Hammer
+// <tag:forge:hammer>.addItems([<item:]);
+// <tag:forge:hammer>.addItems([<item:]);
+// <tag:forge:hammer>.addItems([<item:]);
+// <tag:forge:hammer>.addItems([<item:]);
+
 //nethercraft
 <tag:minecraft:logs>.addItems([<item:nethercraft:glowood_log>, <item:nethercraft:stripped_glowood_log>]);
 <tag:corail_woodcutter:allowed_items>.addItems([<item:nethercraft:glowood_log>, <item:nethercraft:stripped_glowood_log>]);
@@ -17,7 +23,7 @@
 <tag:forge:colorant/light_blue>.addItems([<item:botania:light_blue_mushroom>, <item:botania:light_blue_petal>, <item:biomesoplenty:blue_hydrangea>, <item:minecraft:blue_orchid>]);
 <tag:forge:colorant/magenta>.addItems([<item:botania:magenta_mushroom>, <item:botania:magenta_petal>, <item:minecraft:allium>, <item:biomesoplenty:wildflower>, <item:buzzierbees:magenta_hibiscus>, <item:minecraft:lilac>, <item:minecraft:bubble_coral>, <item:minecraft:bubble_coral_fan>]);
 <tag:forge:colorant/orange>.addItems([<item:botania:orange_mushroom>, <item:botania:orange_petal>, <item:minecraft:orange_tulip>, <item:buzzierbees:bird_of_paradise>, <item:biomesoplenty:burning_blossom>, <item:biomesoplenty:orange_cosmos>, <item:buzzierbees:orange_hibiscus>]);
-<tag:forge:colorant/blue>.addItems([<item:botania:blue_mushroom>, <item:botania:blue_petal>, <item:simplefarming:blueberries>, <item:pamhc2crops:blueberryitem>, <item:bluepower:indigo_flower>, <item:minecraft:cornflower>, <item:buzzierbees:bluebell>, <item:minecraft:tube_coral>, <item:minecraft:tube_coral_fan>]);
+<tag:forge:colorant/blue>.addItems([<item:botania:blue_mushroom>, <item:botania:blue_petal>, <item:simplefarming:blueberries>, <item:pamhc2crops:blueberryitem>, <item:minecraft:cornflower>, <item:buzzierbees:bluebell>, <item:minecraft:tube_coral>, <item:minecraft:tube_coral_fan>]);
 <tag:forge:colorant/brown>.addItems([<item:botania:brown_mushroom>, <item:botania:brown_petal>, <item:minecraft:cocoa_beans>]);
 <tag:forge:colorant/black>.addItems([<item:botania:black_mushroom>, <item:botania:black_petal>, <item:simplefarming:blackberries>, <item:pamhc2crops:blackberryitem>, <item:forbidden_arcanus:edelwood_oil>, <item:minecraft:wither_rose>, <item:minecraft:ink_sac>]);
 <tag:forge:colorant/white>.addItems([<item:botania:white_mushroom>, <item:botania:white_petal>, <item:minecraft:lily_of_the_valley>, <item:minecraft:bone_meal>, <item:upgrade_aquatic:searocket_white>, <item:buzzierbees:white_clover>]);
