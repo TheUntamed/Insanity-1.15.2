@@ -1,0 +1,6 @@
+
+[shards]
+	#How many Carbonado Shards are given by blowing up one Carbonado?
+	#Range: 1 ~ 64
+	amount_per_carbonado = 8
+

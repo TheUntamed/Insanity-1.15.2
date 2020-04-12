@@ -84,7 +84,7 @@
 		{
 			x: -1.0d,
 			y: -2.0d,
-			subtitle: "Get some sticks from leaves and craft a Flint Hatchet.",
+			subtitle: "Pick up sticks from the ground and craft a Flint Hatchet.",
 			dependencies: [I;19],
 			id: 21,
 			tasks: [{

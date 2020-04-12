@@ -22,3 +22,5 @@ import crafttweaker.api.tag.MCTag;
 <tag:forge:colorant/white>.createItemTag();
 
 <tag:forge:hammer>.createItemTag();
+<tag:forge:hammer/weak>.createItemTag();
+<tag:forge:hammer/strong>.createItemTag();

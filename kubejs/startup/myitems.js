@@ -3,6 +3,8 @@ console.info('Hello, World! (You will only see this line once in console, during
 events.listen('item.registry', function (event) {
     //event.create('').add()
 
+    event.create('flint_sawblade').add()
+
     event.create('primal_earth').add()
     event.create('primal_fire').add()
     event.create('primal_nature').add()

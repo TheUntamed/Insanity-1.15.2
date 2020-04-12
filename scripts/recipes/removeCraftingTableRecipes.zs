@@ -19,3 +19,7 @@ removeRecipe(<item:botania:blue_dye>);
 removeRecipe(<item:botania:brown_dye>);
 removeRecipe(<item:botania:black_dye>);
 removeRecipe(<item:botania:white_dye>);
+removeRecipe(<item:vanillahammers:wooden_hammer>);
+removeRecipe(<item:vanillahammers:stone_hammer>);
+removeRecipe(<item:vanillaexcavators:wooden_excavator>);
+removeRecipe(<item:vanillaexcavators:stone_excavator>);

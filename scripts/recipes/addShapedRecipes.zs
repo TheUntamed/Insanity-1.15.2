@@ -52,6 +52,8 @@ var recipesWithRemove as IIngredient[][][IItemStack] = {
 
     //Plates to Block
 
+    //Woodcutter/Sawmill
+
     //wooden mortar
     <item:minecraft:red_dye> : [[<tag:forge:colorant/red>, <item:botania:pestle_and_mortar>]],
     <item:minecraft:green_dye> : [[<tag:forge:colorant/green>, <item:botania:pestle_and_mortar>]],
@@ -88,8 +90,43 @@ var recipesWithRemove as IIngredient[][][IItemStack] = {
         [<item:minecraft:air>, <item:minecraft:torch>, <item:minecraft:air>],
         [<item:minecraft:torch>, <tag:minecraft:coals>, <item:minecraft:torch>],
         [<tag:minecraft:wooden_slabs>, <tag:minecraft:wooden_slabs>, <tag:minecraft:wooden_slabs>]
+    ],
+    <item:minecraft:clay> :
+    [
+        [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
+        [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
+        [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>]
+    ],
+    <item:minecraft:glowstone> :
+    [
+        [<item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>],
+        [<item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>],
+        [<item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>]
+    ],
+    <item:minecraft:snow_block> :
+    [
+        [<item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>],
+        [<item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>],
+        [<item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>]
+    ],
+    <item:minecraft:bricks> :
+    [
+        [<item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>],
+        [<item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>],
+        [<item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>]
+    ],
+    <item:minecraft:magma_block> :
+    [
+        [<item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>],
+        [<item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>],
+        [<item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>]
+    ],
+    <item:minecraft:quartz_block> :
+    [
+        [<item:minecraft:quartz_block>, <item:minecraft:quartz_block>, <item:minecraft:quartz_block>],
+        [<item:minecraft:quartz_block>, <item:minecraft:quartz_block>, <item:minecraft:quartz_block>],
+        [<item:minecraft:quartz_block>, <item:minecraft:quartz_block>, <item:minecraft:quartz_block>]
     ]
-
 /* 
     <item:> :
     [

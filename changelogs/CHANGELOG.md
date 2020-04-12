@@ -9,6 +9,9 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.43
 * *AIOT Botania*
 * *Basic Nether Ores*
 * *Botania*
+* *Building Gadgets*
+* *Carbonado*
+* *EverlastingAbilities*
 * *Omega Craft*
 * *Tetra*
 * *Upgrade Aquatic*
@@ -16,6 +19,7 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.43
 **Removed Mods**
 
 * *Blue Power* (Caused some weird bugs with recipes and item tags. Will come back if that can be fixed)
+* *Client Tweaks* (I think it's useless. However it is a Client mod so you can add it back if you want but on your own risk!)
 * *Trample Stopper* (I think building a farm so that it doesn't get trampled by you or a mob should be part of the game)
 
 **Updated Mods**
@@ -63,9 +67,17 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.43
 * First minor recipe changes. YAY! (just enough to call this pack a kitchensink+ pack)
 * Set the Window Title to "!nsanity".
 * Added Window Icon.
+* Stone, Andesite, Granite, Diorite, Sandstone and Red Sandstone no longer drop pebbles but their corresponding Cobbled Stone Variant.
 
 * *Basic Nether Ores* enabled Nether Ore generation for Silver, Lead, Copper, Tin, Uranium and Aluminium.
 * *Default Options* set default keybinds.
+* *Embellishcraft* increased the size for Jade and Larvikite pockets from 20 to 40 and Gneiss from 44 to 50.
+* *EverlastingAbilities* disabled totem on first login
+* *EverlastingAbilities* limited the max. amount of abilities a player can have from infinite to 6.
+* *EverlastingAbilities* player always drop a Totem on death not only by Player kills.
+* *EverlastingAbilities* disabled totem spawning in Loot Chests.
+* *EverlastingAbilities* disabled conversion of 3 Totems into a random other Totem.
+* *EverlastingAbilities* disabled chance for mobs to have a random ability.
 * *Fast Leaf Decay* increased maximum decay time from 12 to 16.
 * *Omega Craft* disabled ore generation for Aluminium, Silver, Tin, Lead and Copper (*Silents Mechanisms* generates them).
 * *Ma Essentials* changed starting kit (shorter speed potion, added food).
@@ -75,6 +87,7 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.43
 * *Natural Progression* removed bone drop from bats.
 * *Quark* disabled "q" button.
 * *Quark* disabled totem of holding (gravestones exist).
+* *Quark* enabled marble generation (because blue power which generated it was removed)
 
 **Bug Fixes**
 

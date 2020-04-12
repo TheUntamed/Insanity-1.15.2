@@ -382,17 +382,30 @@ var materials as MCTag[string][string] = {
         "rod": <tag:forge:rods/diamond>
     },
 
+    "coal": {
+        "nugget": <tag:forge:nuggets/coal>,
+        "ingot": <tag:forge:ingots/coal>,
+        "gem": <tag:forge:gems/coal>,
+        "storage_block": <tag:forge:storage_blocks/coal>,
+        "ore": <tag:forge:ores/coal>,
+        "ore_deposit": <tag:forge:ore_deposit/coal>,
+        "dust": <tag:forge:dusts/coal>,
+        "gear": <tag:forge:gears/coal>,
+        "plate": <tag:forge:plates/coal>,
+        "rod": <tag:forge:rods/coal>
+    },
+
     "lapis_lazuli": {
-        "nugget": <tag:forge:nuggets/lapis_lazuli>,
-        "ingot": <tag:forge:ingots/lapis_lazuli>,
-        "gem": <tag:forge:gems/lapis_lazuli>,
-        "storage_block": <tag:forge:storage_blocks/lapis_lazuli>,
-        "ore": <tag:forge:ores/lapis_lazuli>,
-        "ore_deposit": <tag:forge:ore_deposit/lapis_lazuli>,
-        "dust": <tag:forge:dusts/lapis_lazuli>,
-        "gear": <tag:forge:gears/lapis_lazuli>,
-        "plate": <tag:forge:plates/lapis_lazuli>,
-        "rod": <tag:forge:rods/lapis_lazuli>
+        "nugget": <tag:forge:nuggets/lapis>,
+        "ingot": <tag:forge:ingots/lapis>,
+        "gem": <tag:forge:gems/lapis>,
+        "storage_block": <tag:forge:storage_blocks/lapis>,
+        "ore": <tag:forge:ores/lapis>,
+        "ore_deposit": <tag:forge:ore_deposit/lapis>,
+        "dust": <tag:forge:dusts/lapis>,
+        "gear": <tag:forge:gears/lapis>,
+        "plate": <tag:forge:plates/lapis>,
+        "rod": <tag:forge:rods/lapis>
     },
 
     "emerald": {
@@ -421,57 +434,57 @@ var materials as MCTag[string][string] = {
         "rod": <tag:forge:rods/quartz>
     },
 
-    "amethyst": {
-        "nugget": <tag:forge:nuggets/amethyst>,
-        "ingot": <tag:forge:ingots/amethyst>,
-        "gem": <tag:forge:gems/amethyst>,
-        "storage_block": <tag:forge:storage_blocks/amethyst>,
-        "ore": <tag:forge:ores/amethyst>,
-        "ore_deposit": <tag:forge:ore_deposit/amethyst>,
-        "dust": <tag:forge:dusts/amethyst>,
-        "gear": <tag:forge:gears/amethyst>,
-        "plate": <tag:forge:plates/amethyst>,
-        "rod": <tag:forge:rods/amethyst>
-    },
+    // "amethyst": {
+    //     "nugget": <tag:forge:nuggets/amethyst>,
+    //     "ingot": <tag:forge:ingots/amethyst>,
+    //     "gem": <tag:forge:gems/amethyst>,
+    //     "storage_block": <tag:forge:storage_blocks/amethyst>,
+    //     "ore": <tag:forge:ores/amethyst>,
+    //     "ore_deposit": <tag:forge:ore_deposit/amethyst>,
+    //     "dust": <tag:forge:dusts/amethyst>,
+    //     "gear": <tag:forge:gears/amethyst>,
+    //     "plate": <tag:forge:plates/amethyst>,
+    //     "rod": <tag:forge:rods/amethyst>
+    // },
 
-    "sapphire": {
-        "nugget": <tag:forge:nuggets/sapphire>,
-        "ingot": <tag:forge:ingots/sapphire>,
-        "gem": <tag:forge:gems/sapphire>,
-        "storage_block": <tag:forge:storage_blocks/sapphire>,
-        "ore": <tag:forge:ores/sapphire>,
-        "ore_deposit": <tag:forge:ore_deposit/sapphire>,
-        "dust": <tag:forge:dusts/sapphire>,
-        "gear": <tag:forge:gears/sapphire>,
-        "plate": <tag:forge:plates/sapphire>,
-        "rod": <tag:forge:rods/sapphire>
-    },
+    // "sapphire": {
+    //     "nugget": <tag:forge:nuggets/sapphire>,
+    //     "ingot": <tag:forge:ingots/sapphire>,
+    //     "gem": <tag:forge:gems/sapphire>,
+    //     "storage_block": <tag:forge:storage_blocks/sapphire>,
+    //     "ore": <tag:forge:ores/sapphire>,
+    //     "ore_deposit": <tag:forge:ore_deposit/sapphire>,
+    //     "dust": <tag:forge:dusts/sapphire>,
+    //     "gear": <tag:forge:gears/sapphire>,
+    //     "plate": <tag:forge:plates/sapphire>,
+    //     "rod": <tag:forge:rods/sapphire>
+    // },
 
-    "malachite": {
-        "nugget": <tag:forge:nuggets/malachite>,
-        "ingot": <tag:forge:ingots/malachite>,
-        "gem": <tag:forge:gems/malachite>,
-        "storage_block": <tag:forge:storage_blocks/malachite>,
-        "ore": <tag:forge:ores/malachite>,
-        "ore_deposit": <tag:forge:ore_deposit/malachite>,
-        "dust": <tag:forge:dusts/malachite>,
-        "gear": <tag:forge:gears/malachite>,
-        "plate": <tag:forge:plates/malachite>,
-        "rod": <tag:forge:rods/malachite>
-    },
+    // "malachite": {
+    //     "nugget": <tag:forge:nuggets/malachite>,
+    //     "ingot": <tag:forge:ingots/malachite>,
+    //     "gem": <tag:forge:gems/malachite>,
+    //     "storage_block": <tag:forge:storage_blocks/malachite>,
+    //     "ore": <tag:forge:ores/malachite>,
+    //     "ore_deposit": <tag:forge:ore_deposit/malachite>,
+    //     "dust": <tag:forge:dusts/malachite>,
+    //     "gear": <tag:forge:gears/malachite>,
+    //     "plate": <tag:forge:plates/malachite>,
+    //     "rod": <tag:forge:rods/malachite>
+    // },
 
-    "ruby": {
-        "nugget": <tag:forge:nuggets/ruby>,
-        "ingot": <tag:forge:ingots/ruby>,
-        "gem": <tag:forge:gems/ruby>,
-        "storage_block": <tag:forge:storage_blocks/ruby>,
-        "ore": <tag:forge:ores/ruby>,
-        "ore_deposit": <tag:forge:ore_deposit/ruby>,
-        "dust": <tag:forge:dusts/ruby>,
-        "gear": <tag:forge:gears/ruby>,
-        "plate": <tag:forge:plates/ruby>,
-        "rod": <tag:forge:rods/ruby>
-    },
+    // "ruby": {
+    //     "nugget": <tag:forge:nuggets/ruby>,
+    //     "ingot": <tag:forge:ingots/ruby>,
+    //     "gem": <tag:forge:gems/ruby>,
+    //     "storage_block": <tag:forge:storage_blocks/ruby>,
+    //     "ore": <tag:forge:ores/ruby>,
+    //     "ore_deposit": <tag:forge:ore_deposit/ruby>,
+    //     "dust": <tag:forge:dusts/ruby>,
+    //     "gear": <tag:forge:gears/ruby>,
+    //     "plate": <tag:forge:plates/ruby>,
+    //     "rod": <tag:forge:rods/ruby>
+    // },
 
     "redstone": {
         "nugget": <tag:forge:nuggets/redstone>,
