@@ -1,4 +1,4 @@
-#priority 999
+#priority 998
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -528,9 +528,9 @@ var materials as MCTag[string][string] = {
 
 var modPriorities as string[] = [
     "minecraft",
+    "jaopca",
     "silents_mechanisms",
 	"mekanism",
-    "jaopca",
     "kubejs",
     "omegacraft",
     "mapperbase",

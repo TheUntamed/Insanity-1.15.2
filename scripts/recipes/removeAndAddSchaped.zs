@@ -1,9 +1,9 @@
-#priority 10
+#priority 11
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
-var recipesWithRemove as IIngredient[][][IItemStack] = {
+var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
 
     //pebbles to cobble
     <item:natural-progression:cobbled_granite> :
@@ -142,24 +142,6 @@ var recipesWithRemove as IIngredient[][][IItemStack] = {
 
     //Woodcutter/Sawmill
 
-    //wooden mortar
-    <item:minecraft:red_dye> : [[<tag:forge:colorant/red>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:green_dye> : [[<tag:forge:colorant/green>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:purple_dye> : [[<tag:forge:colorant/purple>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:cyan_dye> : [[<tag:forge:colorant/cyan>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:light_gray_dye> : [[<tag:forge:colorant/light_gray>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:gray_dye> : [[<tag:forge:colorant/gray>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:pink_dye> : [[<tag:forge:colorant/pink>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:lime_dye> : [[<tag:forge:colorant/lime>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:yellow_dye> : [[<tag:forge:colorant/yellow>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:light_blue_dye> : [[<tag:forge:colorant/light_blue>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:magenta_dye> : [[<tag:forge:colorant/magenta>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:orange_dye> : [[<tag:forge:colorant/orange>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:blue_dye> : [[<tag:forge:colorant/blue>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:brown_dye> : [[<tag:forge:colorant/brown>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:black_dye> : [[<tag:forge:colorant/black>, <item:botania:pestle_and_mortar>]],
-    <item:minecraft:white_dye> : [[<tag:forge:colorant/white>, <item:botania:pestle_and_mortar>]],
-
     //Others
     <item:minecraft:piston> :
     [
@@ -214,7 +196,14 @@ var recipesWithRemove as IIngredient[][][IItemStack] = {
         [<item:minecraft:quartz_block>, <item:minecraft:quartz_block>, <item:minecraft:quartz_block>],
         [<item:minecraft:quartz_block>, <item:minecraft:quartz_block>, <item:minecraft:quartz_block>],
         [<item:minecraft:quartz_block>, <item:minecraft:quartz_block>, <item:minecraft:quartz_block>]
+    ],
+    <item:minecraft:iron_bars>*8 :
+    [
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<tag:forge:rods/iron>, <tag:forge:rods/iron>, <tag:forge:rods/iron>],
+        [<tag:forge:rods/iron>, <tag:forge:rods/iron>, <tag:forge:rods/iron>]
     ]
+
 /* 
     <item:> :
     [
@@ -226,6 +215,6 @@ var recipesWithRemove as IIngredient[][][IItemStack] = {
 
 };
 
-for output, input in recipesWithRemove {
+for output, input in shapedRecipesWithRemove {
     addShaped(output, input, true);
 }

@@ -28,7 +28,7 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.43
 * *Auxilium Equivalence* (0.0.0.1 --> 1.0.0)
 * *Better Burning* (1.3.1 --> 1.3.4)
 * *Carpet Stairs Mod* (1.4.1 --> 1.4.2)
-* *Controlling* (6.1.1 --> 6.1.3)
+* *Controlling* (6.1.1 --> 6.1.4)
 * *Corail Tombstone* (4.3.2 --> 4.3.4)
 * *Corail Woodcutter* (1.1.1 --> 1.1.2)
 * *CraftTweaker* (6.0.0.10 --> 6.0.0.13)
@@ -55,7 +55,7 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.43
 * *Open Loader* (4.0.2 --> 4.0.3)
 * *Patchouli* (1.2-28 --> 1.2-31)
 * *Performant* (1.12 --> 2.05m)
-* *PlantTech 2* (0.02.00 --> 0.02.01)
+* *PlantTech 2* (0.02.00 --> 0.02.03)
 * *Powah!* (1.1.11 --> 1.1.12)
 * *Quark* (r2.1-229 --> r2.1-230)
 * *Reliquary v1.3* (1.3.4.957 --> 1.3.4.960)
@@ -67,7 +67,7 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.43
 * *Ring of Teleport [FORGE]* (1.1.20 --> 1.1.21)
 * *Ring of the Enderchest [FORGE]* (1.1.22 --> 1.1.23)
 * *Ring of the Miner [FORGE]* (1.1.19 --> 1.1.20)
-* *Tetra* (2.0.1 --> 2.2.0)
+* *Tetra* (2.0.1 --> 2.3.0)
 * *The Midnight* (0.5.4 --> 0.5.6)
 * *Torch Slabs Mod* (1.6.5 --> 1.6.6)
 * *Vanilla Excavators [Forge]* (2.0 --> 2.1)
@@ -91,6 +91,8 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.43
 * *EverlastingAbilities* disabled conversion of 3 Totems into a random other Totem.
 * *EverlastingAbilities* disabled chance for mobs to have a random ability.
 * *Fast Leaf Decay* increased maximum decay time from 12 to 16.
+* *JAOPCA* Added Bauxite as alternative name for Aluminum.
+* *JAOPCA* Added Brick to the material blacklist of Blocks.
 * *Omega Craft* disabled ore generation for Aluminium, Silver, Tin, Lead and Copper (*Silents Mechanisms* generates them).
 * *Ma Essentials* changed starting kit (shorter speed potion, added food).
 * *MoreVanillaLib* disabled Hammers and Excavators to drop an item when they are used.

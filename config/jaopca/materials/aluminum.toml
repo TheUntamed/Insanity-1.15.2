@@ -3,7 +3,7 @@
 	#The module blacklist of this material.
 	moduleBlacklist = []
 	#The alternative names of this material.
-	alternativeNames = []
+	alternativeNames = ["bauxite"]
 	#The color of this material.
 	color = 9544104
 	#The byproducts of this material.

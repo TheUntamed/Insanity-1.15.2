@@ -8,8 +8,7 @@ Priority ranges:
 2000-2999: Create new item tags
 1000-1999: Crucial scripts, such as dependencies for others, function declarations and globals.
 
-900-999: Remove from oredict tags.
-700-799: Add to oredict tags.
+700-999: Remove and Add to oredict tags.
 
 600: Add Information about an Item to the Info Category of JEI
 
