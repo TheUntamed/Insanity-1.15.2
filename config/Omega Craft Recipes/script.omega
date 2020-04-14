@@ -15,3 +15,12 @@
 
 #addRecipe(alloysmelter, forge:ores/copper, forge:sand, omegacraft:ingot/copper~2, minecraft:stone, 10)
 #removeRecipe(alloy, omegacraft:ingot_copper)
+
+#Alloy Recipes
+#removeRecipe(alloy, omegacraft:ingot_bronze)
+#removeRecipe(alloy, omegacraft:ingot_electrum)
+#removeRecipe(alloy, omegacraft:ingot_steel)
+#addRecipe(alloy, forge:ingots/tin, forge:ingots/copper~3, silents_mechanisms:bronze_ingot~4)
+#addRecipe(alloy, forge:ingots/gold, forge:ingots/silver, silents_mechanisms:electrum_ingot~2)
+#addRecipe(alloy, forge:gems/coal~4, forge:ingots/iron, silents_mechanisms:steel_ingot)
+#addRecipe(alloy, mekanism:enriched/carbon, forge:ingots/iron~4, silents_mechanisms:steel_ingot~4)

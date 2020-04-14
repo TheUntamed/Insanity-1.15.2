@@ -3,25 +3,27 @@ console.info('Hello, World! (You will only see this line once in console, during
 events.listen('item.registry', function (event) {
     //event.create('').add()
 
-    event.create('flint_sawblade').add()
+    //Mine
+    event.create('flint_gear').add()
 
+    //Primal Tech (no official Permission yet)
+    //event.create('flint_sawblade').add()
+
+    //Omnifactory
     event.create('primal_earth').add()
     event.create('primal_fire').add()
     event.create('primal_nature').add()
     event.create('primal_water').add()
     event.create('primal_air').add()
     event.create('primal_life').add()
-
     event.create('mote_of_earth').add()
     event.create('mote_of_fire').add()
     event.create('mote_of_nature').add()
     event.create('mote_of_air').add()
     event.create('mote_of_life').add()
-
     event.create('endstone_dust').add()
     event.create('carbon_plate').add()
     event.create('grains_of_innocence').add()
-
     event.create('micro_circuit').add()
     event.create('micro_processor_array').add()
     event.create('refined_circuit').add()
@@ -35,19 +37,22 @@ events.listen('item.registry', function (event) {
     event.create('quantum_processor_array').add()
     event.create('electronic_processor').add()
     event.create('electronic_processor_array').add()
-
-    event.create('enriched_egg').add()
-    event.create('infinity_egg').add()
     event.create('micro_processor_mainframe').add()
     event.create('nano_processor_mainframe').add()
     event.create('refined_processor_mainframe').add()
     event.create('quantum_processor_mainframe').add()
 
-    event.create('chaos_ingot').add()
-    event.create('chaos_catalyst').add()
+    //FTB Interactions (no official Permission yet)
+    //event.create('enriched_egg').add()
+    //event.create('infinity_egg').add()
 
-    event.create('bloody_mana_infused_time_dust').add()
-    event.create('mana_infused_time_dust').add()
-    event.create('roasted_time_dust').add()
-    event.create('sands_of_time_acceleration').add()
+    //Project Ozone 3 (textures not working)
+    //event.create('chaos_ingot').add()
+    //event.create('chaos_catalyst').add()
+
+    //All the Mods 3 - Remix (No official Permission yet)
+    //event.create('bloody_mana_infused_time_dust').add()
+    //event.create('mana_infused_time_dust').add()
+    //event.create('roasted_time_dust').add()
+    //event.create('sands_of_time_acceleration').add()
 })

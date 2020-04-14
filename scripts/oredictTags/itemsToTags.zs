@@ -8,7 +8,6 @@
 
 //nethercraft
 <tag:minecraft:logs>.addItems([<item:nethercraft:glowood_log>, <item:nethercraft:stripped_glowood_log>]);
-<tag:corail_woodcutter:allowed_items>.addItems([<item:nethercraft:glowood_log>, <item:nethercraft:stripped_glowood_log>]);
 
 //colorants
 <tag:forge:colorant/red>.addItems([<item:botania:red_mushroom>, <item:botania:red_petal>, <item:simplefarming:raspberries>, <item:pamhc2crops:raspberryitem>, <item:simplefarming:strawberries>, <item:pamhc2crops:strawberryitem>, <item:minecraft:beetroot>, <item:minecraft:poppy>, <item:buzzierbees:red_hibiscus>, <item:minecraft:red_tulip>, <item:biomesoplenty:rose>, <item:minecraft:rose_bush>, <item:minecraft:fire_coral>, <item:minecraft:fire_coral_fan>]);
