@@ -1,4 +1,22 @@
-!nsanity 0.1.1
+!nsanity 0.3.0
+--------------
+
+Forge 1.15.2-31.1.43 --> 1.15.2-31.1.45
+
+**Added Mods**
+
+**Removed Mods**
+
+**Updated Mods**
+
+**Changes**
+
+Flint doesn't drop from gravel anymore (you can knap or craft flint)
+
+**Bug Fixes**
+
+
+!nsanity 0.2.0
 --------------
 
 Forge 1.15.2-31.1.35 --> 1.15.2-31.1.43

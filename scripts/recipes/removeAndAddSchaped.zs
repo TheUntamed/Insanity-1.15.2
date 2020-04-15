@@ -5,6 +5,15 @@ import crafttweaker.api.item.IIngredient;
 
 var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
 
+    //Chests
+    <item:minecraft:chest> :
+    [
+        [<tag:forge:planks_without_chest>, <tag:forge:planks_without_chest>, <tag:forge:planks_without_chest>],
+        [<tag:forge:planks_without_chest>, <item:quark:iron_button>,<tag:forge:planks_without_chest>],
+        [<tag:forge:planks_without_chest>, <tag:forge:planks_without_chest>, <tag:forge:planks_without_chest>]
+    
+    ],
+
     //pebbles to cobble
     <item:natural-progression:cobbled_granite> :
     [
@@ -207,6 +216,48 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
     [
         [<tag:forge:ingots/steel>, <item:minecraft:air>],
         [<item:minecraft:air>, <item:minecraft:flint>]
+    ],
+    <item:minecraft:shears> :
+    [
+        [<item:minecraft:air>, <item:minecraft:stick>, <tag:forge:ingots/iron>],
+        [<item:minecraft:stick>, <tag:forge:ingots/iron>, <item:minecraft:stick>],
+        [<item:minecraft:string>, <item:minecraft:stick>, <item:minecraft:air>]
+    ],
+    <item:aiotbotania:livingwood_shears> :
+    [
+        [<item:minecraft:air>, <item:botania:livingwood_twig>, <item:botania:livingwood>],
+        [<item:botania:livingwood_twig>, <item:botania:livingwood>, <item:botania:livingwood_twig>],
+        [<item:minecraft:string>, <item:botania:livingwood_twig>, <item:minecraft:air>]
+    ],
+    <item:aiotbotania:livingrock_shears> :
+    [
+        [<item:minecraft:air>, <item:botania:livingwood_twig>, <item:botania:livingrock>],
+        [<item:botania:livingwood_twig>, <item:botania:livingrock>, <item:botania:livingwood_twig>],
+        [<item:minecraft:string>, <item:botania:livingwood_twig>, <item:minecraft:air>]
+    ],
+    <item:botania:manasteel_shears> :
+    [
+        [<item:minecraft:air>, <item:botania:livingwood_twig>, <item:botania:manasteel_ingot>],
+        [<item:botania:livingwood_twig>, <item:botania:manasteel_ingot>, <item:botania:livingwood_twig>],
+        [<item:minecraft:string>, <item:botania:livingwood_twig>, <item:minecraft:air>]
+    ],
+    <item:botania:elementium_shears> :
+    [
+        [<item:minecraft:air>, <item:botania:livingwood_twig>, <item:botania:elementium_ingot>],
+        [<item:botania:livingwood_twig>, <item:botania:elementium_ingot>, <item:botania:livingwood_twig>],
+        [<item:minecraft:string>, <item:botania:livingwood_twig>, <item:minecraft:air>]
+    ],
+    <item:cyclic:shears_obsidian> :
+    [
+        [<item:minecraft:air>, <tag:forge:rods/iron>, <tag:forge:obsidian>],
+        [<tag:forge:rods/iron>, <tag:forge:obsidian>, <tag:forge:rods/iron>],
+        [<item:minecraft:string>, <tag:forge:rods/iron>, <item:minecraft:air>]
+    ],
+    <item:midnight:rockshroom_shears> :
+    [
+        [<item:minecraft:air>, <item:minecraft:stick>, <item:midnight:rockshroom_clump>],
+        [<item:minecraft:stick>, <item:midnight:rockshroom_clump>, <item:minecraft:stick>],
+        [<item:minecraft:string>, <item:minecraft:stick>, <item:minecraft:air>]
     ]
 
 /* 

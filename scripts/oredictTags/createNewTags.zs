@@ -2,7 +2,7 @@
 
 import crafttweaker.api.tag.MCTag;
 
-<tag:forge:stripped_logs>.createItemTag();
+<tag:forge:stripped>.createItemTag();
 
 <tag:forge:colorant/red>.createItemTag();
 <tag:forge:colorant/green>.createItemTag();
@@ -24,3 +24,6 @@ import crafttweaker.api.tag.MCTag;
 <tag:forge:hammer>.createItemTag();
 <tag:forge:hammer/weak>.createItemTag();
 <tag:forge:hammer/strong>.createItemTag();
+
+<tag:forge:gear/flint>.createItemTag();
+<tag:forge:planks_without_chest>.createItemTag();

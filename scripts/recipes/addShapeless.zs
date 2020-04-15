@@ -5,7 +5,7 @@ import crafttweaker.api.item.IIngredient;
 
 var shapelessRecipes as IIngredient[][IItemStack] = {
 
-    <item:minecraft:chest> : [<tag:forge:chests/wooden>],
+    <item:minecraft:flint> : [<item:waterstrainer:strainer_survivalist>, <tag:forge:gravel>],
 
     <item:minecraft:orange_dye>*2 : [<item:minecraft:red_dye>, <item:minecraft:yellow_dye>],
     <item:minecraft:magenta_dye>*2 : [<item:minecraft:purple_dye>, <item:minecraft:pink_dye>],
@@ -22,6 +22,8 @@ var shapelessRecipes as IIngredient[][IItemStack] = {
     <item:minecraft:black_dye>*2 : [<item:forbidden_arcanus:edelwood_oil>]
 
 };
+
+craftingTable.addShapeless("chest_to_minecraft.chest", <item:minecraft:chest>, [<tag:forge:chests/wooden>]);
 
 craftingTable.addShapeless("tall_flower_to_orange_dye_2", <item:minecraft:orange_dye>*2, [<item:buzzierbees:bird_of_paradise>, <item:botania:pestle_and_mortar>]);
 craftingTable.addShapeless("tall_flower_to_magenta_dye_2", <item:minecraft:magenta_dye>*2, [<item:minecraft:lilac>, <item:botania:pestle_and_mortar>]);

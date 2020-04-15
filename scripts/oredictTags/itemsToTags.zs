@@ -6,7 +6,7 @@
 // <tag:forge:hammer>.addItems([<item:]);
 // <tag:forge:hammer>.addItems([<item:]);
 
-//Basic Nether Ores
+//Storage Blocks
 <tag:forge:storage_blocks/copper>.addItems([<item:bno:copper_block>]);
 <tag:forge:storage_blocks/tin>.addItems([<item:bno:tin_block>]);
 <tag:forge:storage_blocks/silver>.addItems([<item:bno:silver_block>]);
@@ -17,6 +17,10 @@
 
 //nethercraft
 <tag:minecraft:logs>.addItems([<item:nethercraft:glowood_log>, <item:nethercraft:stripped_glowood_log>]);
+
+//Chests
+<tag:forge:chests>.addItems([<item:midnight:bogshroom_chest>, <item:midnight:viridshroom_chest>, <item:midnight:dewshroom_chest>, <item:midnight:nightshroom_chest>, <item:midnight:dead_wood_chest>, <item:midnight:dark_willow_chest>, <item:midnight:shadowroot_chest>, <item:quark:mushroom_chest>, <item:quark:prismarine_chest>, <item:quark:purpur_chest>, <item:quark:nether_brick_chest>, <item:nethercraft:glowood_chest>]);
+<tag:forge:chests/wooden>.addItems([<item:nethercraft:glowood_chest>]);
 
 //colorants
 <tag:forge:colorant/red>.addItems([<item:botania:red_mushroom>, <item:botania:red_petal>, <item:simplefarming:raspberries>, <item:pamhc2crops:raspberryitem>, <item:simplefarming:strawberries>, <item:pamhc2crops:strawberryitem>, <item:minecraft:beetroot>, <item:minecraft:poppy>, <item:buzzierbees:red_hibiscus>, <item:minecraft:red_tulip>, <item:biomesoplenty:rose>, <item:minecraft:fire_coral>, <item:minecraft:fire_coral_fan>]);
@@ -36,16 +40,32 @@
 <tag:forge:colorant/black>.addItems([<item:botania:black_mushroom>, <item:botania:black_petal>, <item:simplefarming:blackberries>, <item:pamhc2crops:blackberryitem>, <item:forbidden_arcanus:edelwood_oil>, <item:minecraft:wither_rose>, <item:minecraft:ink_sac>]);
 <tag:forge:colorant/white>.addItems([<item:botania:white_mushroom>, <item:botania:white_petal>, <item:minecraft:lily_of_the_valley>, <item:minecraft:bone_meal>, <item:upgrade_aquatic:searocket_white>, <item:buzzierbees:white_clover>]);
 
-// for item in <tag:minecraft:logs>.items {
-//     var registryName = item.registryName;
-//     var res = ("stripped" in registryName);
-//     //var itemOwner = item.registryName;
-//     // if ("stripped_oak_log" has "stripped") {
+<tag:forge:gear/flint>.addItems([<item:kubejs:flint_gear>]);
 
-//     // }
-    
-//     if (res) {
-//         print("Item contains stripped" + res as string);
-//         // <tag:forge:stripped_logs>.addItems(item);
-//     }
-// }
+//Planks
+var modList as string[] = [
+    "minecraft",
+    "nethercraft",
+    "endergetic",
+    "buzzierbees",
+    "midnight",
+    "bambootiful"
+
+];
+for item in <tag:minecraft:planks>.items {
+    for mod in modList {
+        var itemOwner = item.registryName.split(":")[0];
+            if (itemOwner != mod) {
+                <tag:forge:planks_without_chest>.addItems(item);
+            }
+    }
+}
+
+//Stripped Log/Wood
+for item in <tag:minecraft:logs>.items {
+    var itemName = item.registryName.split(":")[1];
+    var stripped = itemName.split("_")[0];
+    if (stripped == "stripped") {
+        <tag:forge:stripped>.addItems(item);
+    }
+}
