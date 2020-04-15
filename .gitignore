@@ -23,8 +23,11 @@ github_changelog_generator.gemspec
 twitch_export-win.exe
 ChangelogGenerator.bat
 .build.json
+GetGameVersions.bat
+GameVersions.json
 
 modpack_upload_settings.cfg
+ModpackUploader.ps1
 ModpackUploadTool.bat
 
 # Client Configs
@@ -62,6 +65,16 @@ config/scavenge/IResourceProperty.txt
 LICENSE.md
 manifest.json
 eula.txt
+
+# Server files
+server-guide.txt
+server-start-license.md
+server-start-readme.md
+server-start.bat
+server-start.sh
+settings-linux.cfg
+settings.cfg
+settings.ps1
 
 # Instance Sync
 **/*.jar

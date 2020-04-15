@@ -202,6 +202,11 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
         [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
         [<tag:forge:rods/iron>, <tag:forge:rods/iron>, <tag:forge:rods/iron>],
         [<tag:forge:rods/iron>, <tag:forge:rods/iron>, <tag:forge:rods/iron>]
+    ],
+    <item:minecraft:flint_and_steel> :
+    [
+        [<tag:forge:ingots/steel>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:flint>]
     ]
 
 /* 
