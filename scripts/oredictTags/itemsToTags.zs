@@ -1,10 +1,52 @@
 #priority 999
 
+//Plates
+<tag:forge:plates/advanced_alloy>.addItems([<item:kubejs:advanced_alloy_plate>]);
+<tag:forge:plates/aluminum>.addItems([<item:kubejs:aluminum_plate>]);
+<tag:forge:plates/brass>.addItems([<item:kubejs:brass_plate>]);
+<tag:forge:plates/bronze>.addItems([<item:kubejs:bronze_plate>]);
+<tag:forge:plates/carbon>.addItems([<item:kubejs:carbon_plate>]);
+<tag:forge:plates/chrome>.addItems([<item:kubejs:chrome_plate>]);
+<tag:forge:plates/coal>.addItems([<item:kubejs:coal_plate>]);
+<tag:forge:plates/copper>.addItems([<item:kubejs:copper_plate>]);
+<tag:forge:plates/diamond>.addItems([<item:kubejs:diamond_plate>]);
+<tag:forge:plates/electrum>.addItems([<item:kubejs:electrum_plate>]);
+<tag:forge:plates/emerald>.addItems([<item:kubejs:emerald_plate>]);
+<tag:forge:plates/gold>.addItems([<item:kubejs:gold_plate>]);
+<tag:forge:plates/invar>.addItems([<item:kubejs:invar_plate>]);
+<tag:forge:plates/iridium_alloy>.addItems([<item:kubejs:iridium_alloy_plate>]);
+<tag:forge:plates/iridium>.addItems([<item:kubejs:iridium_plate>]);
+<tag:forge:plates/iron>.addItems([<item:kubejs:iron_plate>]);
+<tag:forge:plates/lapis>.addItems([<item:kubejs:lapis_plate>]);
+<tag:forge:plates/lazurite>.addItems([<item:kubejs:lazurite_plate>]);
+<tag:forge:plates/lead>.addItems([<item:kubejs:lead_plate>]);
+<tag:forge:plates/magnalium>.addItems([<item:kubejs:magnalium_plate>]);
+<tag:forge:plates/nickel>.addItems([<item:kubejs:nickel_plate>]);
+<tag:forge:plates/obsidian>.addItems([<item:kubejs:obsidian_plate>]);
+<tag:forge:plates/peridot>.addItems([<item:kubejs:peridot_plate>]);
+<tag:forge:plates/platinum>.addItems([<item:kubejs:platinum_plate>]);
+<tag:forge:plates/quartz>.addItems([<item:kubejs:quartz_plate>]);
+<tag:forge:plates/red_garnet>.addItems([<item:kubejs:red_garnet_plate>]);
+<tag:forge:plates/redstone>.addItems([<item:kubejs:redstone_plate>]);
+<tag:forge:plates/refined_iron>.addItems([<item:kubejs:refined_iron_plate>]);
+<tag:forge:plates/ruby>.addItems([<item:kubejs:ruby_plate>]);
+<tag:forge:plates/sapphire>.addItems([<item:kubejs:sapphire_plate>]);
+<tag:forge:plates/silicon>.addItems([<item:kubejs:silicon_plate>]);
+<tag:forge:plates/silver>.addItems([<item:kubejs:silver_plate>]);
+<tag:forge:plates/steel>.addItems([<item:kubejs:steel_plate>]);
+<tag:forge:plates/tin>.addItems([<item:kubejs:tin_plate>]);
+<tag:forge:plates/titanium>.addItems([<item:kubejs:titanium_plate>]);
+<tag:forge:plates/tungsten>.addItems([<item:kubejs:tungsten_plate>]);
+<tag:forge:plates/tungstensteel>.addItems([<item:kubejs:tungstensteel_plate>]);
+<tag:forge:plates/wood>.addItems([<item:kubejs:wood_plate>]);
+<tag:forge:plates/yellow_garnet>.addItems([<item:kubejs:yellow_garnet_plate>]);
+<tag:forge:plates/zinc>.addItems([<item:kubejs:zinc_plate>]);
+
 //Hammer
-// <tag:forge:hammer>.addItems([<item:]);
-// <tag:forge:hammer>.addItems([<item:]);
-// <tag:forge:hammer>.addItems([<item:]);
-// <tag:forge:hammer>.addItems([<item:]);
+<tag:forge:hammer>.addItems([<item:engineerstools:crushing_hammer>, <item:mapperbase:flatter_hammer>, <item:projecte:dm_hammer>, <item:projecte:rm_hammer>, <item:vanillahammers:slime_hammer>, <item:vanillahammers:redstone_hammer>, <item:vanillahammers:quartz_hammer>, <item:vanillahammers:prismarine_hammer>, <item:vanillahammers:paper_hammer>, <item:vanillahammers:obsidian_hammer>, <item:vanillahammers:nether_hammer>, <item:vanillahammers:lapis_hammer>, <item:vanillahammers:glowstone_hammer>, <item:vanillahammers:fiery_hammer>, <item:vanillahammers:ender_hammer>, <item:vanillahammers:emerald_hammer>, <item:vanillahammers:coal_hammer>, <item:vanillahammers:bone_hammer>, <item:vanillahammers:diamond_hammer>, <item:vanillahammers:golden_hammer>, <item:vanillahammers:iron_hammer>, <item:vanillahammers:stone_hammer>, <item:vanillahammers:wooden_hammer>]);
+// <tag:forge:hammer/level_0>.addItems([<item:]);
+// <tag:forge:hammer/level_1>.addItems([<item:]);
+// <tag:forge:hammer/level_2>.addItems([<item:]);
 
 //Storage Blocks
 <tag:forge:storage_blocks/copper>.addItems([<item:bno:copper_block>]);
@@ -14,6 +56,12 @@
 <tag:forge:storage_blocks/aluminum>.addItems([<item:bno:aluminum_block>]);
 <tag:forge:storage_blocks/nickel>.addItems([<item:bno:nickel_block>]);
 <tag:forge:storage_blocks/uranium>.addItems([<item:bno:uranium_block>]);
+
+//Gears
+<tag:forge:gear>.addItems([<item:kubejs:flint_gear>, <item:titanium:gold_gear>, <item:titanium:iron_gear>, <item:titanium:diamond_gear>]);
+<tag:forge:gear/weak>.addItems([<item:kubejs:flint_gear>, <item:titanium:gold_gear>]);
+<tag:forge:gear/strong>.addItems([<item:titanium:iron_gear>, <item:titanium:diamond_gear>]);
+<tag:forge:gear/flint>.addItems([<item:kubejs:flint_gear>]);
 
 //nethercraft
 <tag:minecraft:logs>.addItems([<item:nethercraft:glowood_log>, <item:nethercraft:stripped_glowood_log>]);
@@ -39,8 +87,6 @@
 <tag:forge:colorant/brown>.addItems([<item:botania:brown_mushroom>, <item:botania:brown_petal>, <item:minecraft:cocoa_beans>]);
 <tag:forge:colorant/black>.addItems([<item:botania:black_mushroom>, <item:botania:black_petal>, <item:simplefarming:blackberries>, <item:pamhc2crops:blackberryitem>, <item:forbidden_arcanus:edelwood_oil>, <item:minecraft:wither_rose>, <item:minecraft:ink_sac>]);
 <tag:forge:colorant/white>.addItems([<item:botania:white_mushroom>, <item:botania:white_petal>, <item:minecraft:lily_of_the_valley>, <item:minecraft:bone_meal>, <item:upgrade_aquatic:searocket_white>, <item:buzzierbees:white_clover>]);
-
-<tag:forge:gear/flint>.addItems([<item:kubejs:flint_gear>]);
 
 //Planks
 var modList as string[] = [

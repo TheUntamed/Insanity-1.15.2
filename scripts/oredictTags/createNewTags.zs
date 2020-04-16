@@ -4,6 +4,37 @@ import crafttweaker.api.tag.MCTag;
 
 <tag:forge:stripped>.createItemTag();
 
+<tag:forge:plates/advanced_alloy>.createItemTag();
+<tag:forge:plates/brass>.createItemTag();
+<tag:forge:plates/carbon>.createItemTag();
+<tag:forge:plates/chrome>.createItemTag();
+<tag:forge:plates/coal>.createItemTag();
+<tag:forge:plates/diamond>.createItemTag();
+<tag:forge:plates/emerald>.createItemTag();
+<tag:forge:plates/invar>.createItemTag();
+<tag:forge:plates/iridium_alloy>.createItemTag();
+<tag:forge:plates/iridium>.createItemTag();
+<tag:forge:plates/lapis>.createItemTag();
+<tag:forge:plates/lazurite>.createItemTag();
+<tag:forge:plates/magnalium>.createItemTag();
+<tag:forge:plates/nickel>.createItemTag();
+<tag:forge:plates/obsidian>.createItemTag();
+<tag:forge:plates/peridot>.createItemTag();
+<tag:forge:plates/platinum>.createItemTag();
+<tag:forge:plates/quartz>.createItemTag();
+<tag:forge:plates/red_garnet>.createItemTag();
+<tag:forge:plates/redstone>.createItemTag();
+<tag:forge:plates/refined_iron>.createItemTag();
+<tag:forge:plates/ruby>.createItemTag();
+<tag:forge:plates/sapphire>.createItemTag();
+<tag:forge:plates/silicon>.createItemTag();
+<tag:forge:plates/titanium>.createItemTag();
+<tag:forge:plates/tungsten>.createItemTag();
+<tag:forge:plates/tungstensteel>.createItemTag();
+<tag:forge:plates/wood>.createItemTag();
+<tag:forge:plates/yellow_garnet>.createItemTag();
+<tag:forge:plates/zinc>.createItemTag();
+
 <tag:forge:colorant/red>.createItemTag();
 <tag:forge:colorant/green>.createItemTag();
 <tag:forge:colorant/purple>.createItemTag();
@@ -22,8 +53,13 @@ import crafttweaker.api.tag.MCTag;
 <tag:forge:colorant/white>.createItemTag();
 
 <tag:forge:hammer>.createItemTag();
-<tag:forge:hammer/weak>.createItemTag();
-<tag:forge:hammer/strong>.createItemTag();
+<tag:forge:hammer/level_0>.createItemTag();
+<tag:forge:hammer/level_1>.createItemTag();
+<tag:forge:hammer/level_2>.createItemTag();
 
+<tag:forge:gear>.createItemTag();
+<tag:forge:gear/weak>.createItemTag();
+<tag:forge:gear/strong>.createItemTag();
 <tag:forge:gear/flint>.createItemTag();
+
 <tag:forge:planks_without_chest>.createItemTag();

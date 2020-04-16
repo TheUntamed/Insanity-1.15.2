@@ -5,7 +5,21 @@ import crafttweaker.api.item.IIngredient;
 
 var shapedRecipes as IIngredient[][][IItemStack] = {
     
-    //pebbles to cobble
+    /* 
+    <item:> :
+    [
+        [,, ],
+        [,, ],
+        [,, ]
+    ],
+     */
+    
+    <item:kubejs:flint_gear> :
+    [
+        [<item:minecraft:air>, <item:minecraft:flint>, <item:minecraft:air>],
+        [<item:minecraft:flint>, <item:minecraft:air>, <item:minecraft:flint>],
+        [<item:minecraft:air>, <item:minecraft:flint>, <item:minecraft:air>]
+    ],
     <item:minecraft:cobblestone> :
     [
         [<item:natural-progression:stone_pebble>, <item:natural-progression:stone_pebble>, <item:natural-progression:stone_pebble>],
@@ -94,15 +108,6 @@ var shapedRecipes as IIngredient[][][IItemStack] = {
         [<item:minecraft:air>, <item:minecraft:air>, <item:mysticalagriculture:dye_essence>]
     ]
 };
-
-/* 
-    <item:> :
-    [
-        [,, ],
-        [,, ],
-        [,, ]
-    ],
-     */
 
 for output, input in shapedRecipes {
     addShaped(output, input, false);
