@@ -1,4 +1,4 @@
-!nsanity 0.3.0
+!nsanity 0.2.1
 --------------
 
 Forge 1.15.2-31.1.43 --> 1.15.2-31.1.45
@@ -9,9 +9,21 @@ Forge 1.15.2-31.1.43 --> 1.15.2-31.1.45
 
 **Updated Mods**
 
+* *Double Slabs* (2.2.3 --> 2.2.4)
+* *Light Overlay* (4.3 --> 4.4)
+* *Ma Enchants* (3.0.0 --> 3.1.0)
+* *Ma Essentials* (3.0.2 --> 3.0.3)
+* *Nethercraft Classic* (1.0.6 --> 1.0.7)
+* *Performant* (2.06m --> 2.07m)
+* *Quark* (r2.1-230 --> r2.1-231)
+* *Solar Generation* (1.2.0 --> 1.2.1)
+
 **Changes**
 
-Flint doesn't drop from gravel anymore (you can knap or craft flint)
+* Flint doesn't drop from gravel anymore (you can knap or craft flint).
+* Reduced Mining Level of the Slime Hammer from 2 to 1.
+* Changed more Recipes.
+* Added Plates for different materials.
 
 **Bug Fixes**
 

@@ -30,5 +30,5 @@ import mods.jei.JEI;
 //Add Information about an Item to the Info Category
 //mods.jei.JEI.addInfo(IItemStack stack, String[] information);
 //mods.jei.JEI.addInfo(<item:minecraft:diamond>, ["This is the first line!", "This is the second!", "third"]);
-JEI.addInfo(<item:minecraft:flint>, ["Pick up 2 Stone Pebbles from the Ground, take 1 in each hand and smack them together to get flint by chance."]);
+JEI.addInfo(<item:minecraft:flint>, ["Pick up 2 Stone Pebbles from the Ground, take 1 in each hand and smack them together to get flint by chance. \n\nGravel doesn't drop flint anymore."]);
 //mods.jei.JEI.addInfo(<item:natural-progression:stone_pebble>, ["Pick up 2 Stone Pebbles from the Ground, take 1 in each hand and smack them together to get flint by chance."]);

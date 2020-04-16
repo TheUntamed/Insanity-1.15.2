@@ -4,6 +4,21 @@ import crafttweaker.api.tag.MCTag;
 
 <tag:forge:stripped>.createItemTag();
 
+<tag:forge:gems/peridot>.createItemTag();
+<tag:forge:gems/red_garnet>.createItemTag();
+<tag:forge:gems/ruby>.createItemTag();
+<tag:forge:gems/sapphire>.createItemTag();
+<tag:forge:gems/yellow_garnet>.createItemTag();
+
+<tag:forge:ingots/advanced_alloy>.createItemTag();
+//<tag:forge:ingots/brass>.createItemTag();
+<tag:forge:ingots/chrome>.createItemTag();
+<tag:forge:ingots/iridium_alloy>.createItemTag();
+<tag:forge:ingots/iridium>.createItemTag();
+<tag:forge:ingots/titanium>.createItemTag();
+<tag:forge:ingots/tungsten>.createItemTag();
+<tag:forge:ingots/tungstensteel>.createItemTag();
+
 <tag:forge:plates/advanced_alloy>.createItemTag();
 <tag:forge:plates/brass>.createItemTag();
 <tag:forge:plates/carbon>.createItemTag();
@@ -53,9 +68,10 @@ import crafttweaker.api.tag.MCTag;
 <tag:forge:colorant/white>.createItemTag();
 
 <tag:forge:hammer>.createItemTag();
-<tag:forge:hammer/level_0>.createItemTag();
-<tag:forge:hammer/level_1>.createItemTag();
-<tag:forge:hammer/level_2>.createItemTag();
+<tag:forge:hammer/weak>.createItemTag();
+<tag:forge:hammer/sturdy>.createItemTag();
+<tag:forge:hammer/strong>.createItemTag();
+<tag:forge:hammer/powerful>.createItemTag();
 
 <tag:forge:gear>.createItemTag();
 <tag:forge:gear/weak>.createItemTag();

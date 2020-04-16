@@ -163,8 +163,6 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
         [<item:natural-progression:red_sandstone_pebble>, <item:natural-progression:red_sandstone_pebble>, <item:natural-progression:red_sandstone_pebble>]
     ],
 
-    //Ingots to Plate with Hammer
-
     //Plates to Block
 
     //Floral Powder Cleanup

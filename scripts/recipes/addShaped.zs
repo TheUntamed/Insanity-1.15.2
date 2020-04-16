@@ -14,6 +14,64 @@ var shapedRecipes as IIngredient[][][IItemStack] = {
     ],
      */
     
+        //Ingots to Plate with Hammer
+
+    // <item:kubejs:gold_plate> :
+    // [
+    //     [<tag:forge:hammer/weak>],
+    //     [<tag:forge:ingots/gold>],
+    //     [<tag:forge:ingots/gold>]
+    // ],
+
+    // <item:kubejs:_plate> :
+    // [
+    //     [<tag:forge:hammer/sturdy>],
+    //     [<tag:forge:ingots/>],
+    //     [<tag:forge:ingots/>]
+    // ],
+    // <item:kubejs:_plate> :
+    // [
+    //     [<tag:forge:hammer/strong>],
+    //     [<tag:forge:ingots/>],
+    //     [<tag:forge:ingots/>]
+    // ],
+    <item:kubejs:iridium_plate> :
+    [
+        [<tag:forge:hammer/strong>],
+        [<tag:forge:ingots/iridium>],
+        [<tag:forge:ingots/iridium>]
+    ],
+    <item:kubejs:diamond_plate> :
+    [
+        [<tag:forge:hammer/strong>],
+        [<tag:forge:gems/diamond>],
+        [<tag:forge:gems/diamond>]
+    ],
+    <item:kubejs:platinum_plate> :
+    [
+        [<tag:forge:hammer/strong>],
+        [<tag:forge:ingots/platinum>],
+        [<tag:forge:ingots/platinum>]
+    ],
+    <item:kubejs:emerald_plate> :
+    [
+        [<tag:forge:hammer/strong>],
+        [<tag:forge:gems/emerald>],
+        [<tag:forge:gems/emerald>]
+    ],
+    <item:kubejs:obsidian_plate> :
+    [
+        [<tag:forge:hammer/strong>],
+        [<tag:forge:obsidian>],
+        [<tag:forge:obsidian>]
+    ],
+    <item:kubejs:carbonado_plate> :
+    [
+        [<tag:forge:hammer/strong>],
+        [<item:carbonado:carbonado>],
+        [<item:carbonado:carbonado>]
+    ],
+
     <item:kubejs:flint_gear> :
     [
         [<item:minecraft:air>, <item:minecraft:flint>, <item:minecraft:air>],

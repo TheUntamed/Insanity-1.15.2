@@ -86,8 +86,10 @@
 
 [building]
 	"Duskbound Blocks" = true
+	"Cobblestone Bricks" = true
 	"More Brick Types" = true
 	"Soul Sandstone" = true
+	"Gold Bars" = true
 	"Quilted Wool" = true
 	"Compressed Blocks" = true
 	Thatch = true
@@ -104,6 +106,7 @@
 	Midori = true
 	"More Stone Variants" = true
 	"Framed Glass" = true
+	"Fairy Rings" = true
 	"Tallow And Candles" = true
 	Turf = true
 	"Paper Decor" = true
@@ -138,6 +141,7 @@
 		"Enable Cactus Block" = true
 		"Enable Apple Crate" = true
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
+		"Enable Bonded Rabbit Hide" = true
 		"Enable Charcoal Block" = true
 		"Enable Gunpowder Sack" = true
 		"Enable Potato Crate" = true
@@ -163,6 +167,15 @@
 		"Enable Snow Bricks" = true
 		#This also includes Red Sandstone Bricks and Soul Sandstone Bricks
 		"Enable Sandstone Bricks" = true
+
+	[building.fairy_rings]
+		"Forest Chance" = 0.00625
+		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore"]
+		"Plains Chance" = 0.0025
+
+		[building.fairy_rings.dimensions]
+			Dimensions = ["minecraft:overworld"]
+			"Is Blacklist" = false
 
 	[building.tallow_and_candles]
 		"Candles Fall" = true

@@ -42,11 +42,29 @@
 <tag:forge:plates/yellow_garnet>.addItems([<item:kubejs:yellow_garnet_plate>]);
 <tag:forge:plates/zinc>.addItems([<item:kubejs:zinc_plate>]);
 
+//Ingots
+<tag:forge:ingots/advanced_alloy>.addItems([<item:kubejs:advanced_alloy_ingot>]);
+<tag:forge:ingots/brass>.addItems([<item:kubejs:brass_ingot>]);
+<tag:forge:ingots/chrome>.addItems([<item:kubejs:chrome_ingot>]);
+<tag:forge:ingots/iridium_alloy>.addItems([<item:kubejs:iridium_alloy_ingot>]);
+<tag:forge:ingots/iridium>.addItems([<item:kubejs:iridium_ingot>]);
+<tag:forge:ingots/titanium>.addItems([<item:kubejs:titanium_ingot>]);
+<tag:forge:ingots/tungsten>.addItems([<item:kubejs:tungsten_ingot>]);
+<tag:forge:ingots/tungstensteel>.addItems([<item:kubejs:tungstensteel_ingot>]);
+
+//Gems
+<tag:forge:gems/peridot>.addItems([<item:kubejs:peridot_gem>]);
+<tag:forge:gems/red_garnet>.addItems([<item:kubejs:red_garnet_gem>]);
+<tag:forge:gems/ruby>.addItems([<item:kubejs:ruby_gem>]);
+<tag:forge:gems/sapphire>.addItems([<item:kubejs:sapphire_gem>]);
+<tag:forge:gems/yellow_garnet>.addItems([<item:kubejs:yellow_garnet_gem>]);
+
 //Hammer
-<tag:forge:hammer>.addItems([<item:engineerstools:crushing_hammer>, <item:mapperbase:flatter_hammer>, <item:projecte:dm_hammer>, <item:projecte:rm_hammer>, <item:vanillahammers:slime_hammer>, <item:vanillahammers:redstone_hammer>, <item:vanillahammers:quartz_hammer>, <item:vanillahammers:prismarine_hammer>, <item:vanillahammers:paper_hammer>, <item:vanillahammers:obsidian_hammer>, <item:vanillahammers:nether_hammer>, <item:vanillahammers:lapis_hammer>, <item:vanillahammers:glowstone_hammer>, <item:vanillahammers:fiery_hammer>, <item:vanillahammers:ender_hammer>, <item:vanillahammers:emerald_hammer>, <item:vanillahammers:coal_hammer>, <item:vanillahammers:bone_hammer>, <item:vanillahammers:diamond_hammer>, <item:vanillahammers:golden_hammer>, <item:vanillahammers:iron_hammer>, <item:vanillahammers:stone_hammer>, <item:vanillahammers:wooden_hammer>]);
-// <tag:forge:hammer/level_0>.addItems([<item:]);
-// <tag:forge:hammer/level_1>.addItems([<item:]);
-// <tag:forge:hammer/level_2>.addItems([<item:]);
+<tag:forge:hammer>.addItems([<item:engineerstools:crushing_hammer>, <item:mapperbase:flatter_hammer>, <item:projecte:dm_hammer>, <item:projecte:rm_hammer>, <item:vanillahammers:slime_hammer>, <item:vanillahammers:redstone_hammer>, <item:vanillahammers:quartz_hammer>, <item:vanillahammers:prismarine_hammer>, <item:vanillahammers:paper_hammer>, <item:vanillahammers:obsidian_hammer>, <item:vanillahammers:nether_hammer>, <item:vanillahammers:lapis_hammer>, <item:vanillahammers:glowstone_hammer>, <item:vanillahammers:fiery_hammer>, <item:vanillahammers:ender_hammer>, <item:vanillahammers:emerald_hammer>, <item:vanillahammers:coal_hammer>, <item:vanillahammers:bone_hammer>, <item:vanillahammers:diamond_hammer>, <item:vanillahammers:golden_hammer>, <item:vanillahammers:iron_hammer>]);
+<tag:forge:hammer/weak>.addItems([<item:vanillahammers:bone_hammer>, <item:vanillahammers:nether_hammer>, <item:vanillahammers:coal_hammer>, <item:vanillahammers:golden_hammer>, <item:vanillahammers:redstone_hammer>, <item:vanillahammers:quartz_hammer>, <item:vanillahammers:lapis_hammer>, <item:vanillahammers:glowstone_hammer>, <item:vanillahammers:iron_hammer>, <item:engineerstools:crushing_hammer>, <item:mapperbase:flatter_hammer>, <item:vanillahammers:prismarine_hammer>, <item:vanillahammers:obsidian_hammer>, <item:vanillahammers:ender_hammer>, <item:vanillahammers:fiery_hammer>, <item:vanillahammers:emerald_hammer>, <item:vanillahammers:diamond_hammer>, <item:projecte:dm_hammer>, <item:projecte:rm_hammer>]);
+<tag:forge:hammer/sturdy>.addItems([<item:vanillahammers:redstone_hammer>, <item:vanillahammers:quartz_hammer>, <item:vanillahammers:lapis_hammer>, <item:vanillahammers:glowstone_hammer>, <item:vanillahammers:iron_hammer>, <item:engineerstools:crushing_hammer>, <item:mapperbase:flatter_hammer>, <item:vanillahammers:prismarine_hammer>, <item:vanillahammers:obsidian_hammer>, <item:vanillahammers:ender_hammer>, <item:vanillahammers:fiery_hammer>, <item:vanillahammers:emerald_hammer>, <item:vanillahammers:diamond_hammer>, <item:projecte:dm_hammer>, <item:projecte:rm_hammer>]);
+<tag:forge:hammer/strong>.addItems([<item:vanillahammers:prismarine_hammer>, <item:vanillahammers:obsidian_hammer>, <item:vanillahammers:ender_hammer>, <item:vanillahammers:fiery_hammer>, <item:vanillahammers:emerald_hammer>, <item:vanillahammers:diamond_hammer>, <item:projecte:dm_hammer>, <item:projecte:rm_hammer>]);
+<tag:forge:hammer/powerful>.addItems([<item:projecte:dm_hammer>, <item:projecte:rm_hammer>]);
 
 //Storage Blocks
 <tag:forge:storage_blocks/copper>.addItems([<item:bno:copper_block>]);
