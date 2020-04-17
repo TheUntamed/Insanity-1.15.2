@@ -16,6 +16,12 @@ Forge 1.15.2-31.1.43 --> 1.15.2-31.1.45
 * *Nethercraft Classic* (1.0.6 --> 1.0.7)
 * *Performant* (2.06m --> 2.07m)
 * *Quark* (r2.1-230 --> r2.1-231)
+* *Ring of Blink [FORGE]* (1.1.21 --> 1.1.22)
+* *Ring of Growth [FORGE]* (1.1.23 --> 1.1.24)
+* *Ring of Repair [FORGE]* (1.1.23 --> 1.1.24)
+* *Ring of Teleport [FORGE]* (1.1.22 --> 1.1.23)
+* *Ring of the Enderchest [FORGE]* (1.1.24 --> 1.1.25)
+* *Ring of the Miner [FORGE]* (1.1.21 --> 1.1.22)
 * *Solar Generation* (1.2.0 --> 1.2.1)
 
 **Changes**
@@ -23,7 +29,7 @@ Forge 1.15.2-31.1.43 --> 1.15.2-31.1.45
 * Flint doesn't drop from gravel anymore (you can knap or craft flint).
 * Reduced Mining Level of the Slime Hammer from 2 to 1.
 * Changed more Recipes.
-* Added Plates for different materials.
+* Added Plates for different materials. (no recipes yet. Waiting for crafttweaker update.)
 
 **Bug Fixes**
 

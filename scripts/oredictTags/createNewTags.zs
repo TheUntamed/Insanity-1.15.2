@@ -10,14 +10,27 @@ import crafttweaker.api.tag.MCTag;
 <tag:forge:gems/sapphire>.createItemTag();
 <tag:forge:gems/yellow_garnet>.createItemTag();
 
+<tag:silents_mechanisms:chunks/iron>.createItemTag();
+<tag:silents_mechanisms:chunks/gold>.createItemTag();
+<tag:silents_mechanisms:chunks/copper>.createItemTag();
+<tag:silents_mechanisms:chunks/tin>.createItemTag();
+<tag:silents_mechanisms:chunks/silver>.createItemTag();
+<tag:silents_mechanisms:chunkslead/>.createItemTag();
+<tag:silents_mechanisms:chunks/nickel>.createItemTag();
+<tag:silents_mechanisms:chunks/platinum>.createItemTag();
+<tag:silents_mechanisms:chunks/zinc>.createItemTag();
+<tag:silents_mechanisms:chunks/bismuth>.createItemTag();
+<tag:silents_mechanisms:chunks/aluminum>.createItemTag();
+<tag:silents_mechanisms:chunks/uranium>.createItemTag();
+
 <tag:forge:ingots/advanced_alloy>.createItemTag();
-//<tag:forge:ingots/brass>.createItemTag();
 <tag:forge:ingots/chrome>.createItemTag();
 <tag:forge:ingots/iridium_alloy>.createItemTag();
 <tag:forge:ingots/iridium>.createItemTag();
 <tag:forge:ingots/titanium>.createItemTag();
 <tag:forge:ingots/tungsten>.createItemTag();
 <tag:forge:ingots/tungstensteel>.createItemTag();
+<tag:forge:ingots/redstone>.createItemTag();
 
 <tag:forge:plates/advanced_alloy>.createItemTag();
 <tag:forge:plates/brass>.createItemTag();

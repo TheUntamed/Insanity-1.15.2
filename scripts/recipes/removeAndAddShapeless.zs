@@ -39,7 +39,11 @@ var shapelessRecipesWithRemove as IIngredient[][IItemStack] = {
     <item:botania:brown_mushroom> : [<tag:forge:dyes/brown>, <tag:forge:mushrooms>],
     <item:botania:green_mushroom> : [<tag:forge:dyes/green>, <tag:forge:mushrooms>],
     <item:botania:red_mushroom> : [<tag:forge:dyes/red>, <tag:forge:mushrooms>],
-    <item:botania:black_mushroom> : [<tag:forge:dyes/black>, <tag:forge:mushrooms>]
+    <item:botania:black_mushroom> : [<tag:forge:dyes/black>, <tag:forge:mushrooms>],
+
+    //Buttons
+    <item:quark:iron_button> : [<tag:forge:nuggets/iron>],
+    <item:quark:gold_button> : [<tag:forge:nuggets/gold>]
 
 };
 

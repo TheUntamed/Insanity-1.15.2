@@ -1,5 +1,20 @@
 #priority 999
 
+//Chunks
+<tag:silents_mechanisms:chunks>.addItems([<item:silents_mechanisms:iron_chunks>, <item:silents_mechanisms:gold_chunks>, <item:silents_mechanisms:copper_chunks>, <item:silents_mechanisms:tin_chunks>, <item:silents_mechanisms:silver_chunks>, <item:silents_mechanisms:lead_chunks>, <item:silents_mechanisms:nickel_chunks>, <item:silents_mechanisms:platinum_chunks>, <item:silents_mechanisms:zinc_chunks>, <item:silents_mechanisms:bismuth_chunks>, <item:silents_mechanisms:bauxite_chunks>, <item:silents_mechanisms:uranium_chunks>]);
+<tag:silents_mechanisms:chunks/iron>.addItems([<item:silents_mechanisms:iron_chunks>]);
+<tag:silents_mechanisms:chunks/gold>.addItems([<item:silents_mechanisms:gold_chunks>]);
+<tag:silents_mechanisms:chunks/copper>.addItems([<item:silents_mechanisms:copper_chunks>]);
+<tag:silents_mechanisms:chunks/tin>.addItems([<item:silents_mechanisms:tin_chunks>]);
+<tag:silents_mechanisms:chunks/silver>.addItems([<item:silents_mechanisms:silver_chunks>]);
+<tag:silents_mechanisms:chunkslead/>.addItems([<item:silents_mechanisms:lead_chunks>]);
+<tag:silents_mechanisms:chunks/nickel>.addItems([<item:silents_mechanisms:nickel_chunks>]);
+<tag:silents_mechanisms:chunks/platinum>.addItems([<item:silents_mechanisms:platinum_chunks>]);
+<tag:silents_mechanisms:chunks/zinc>.addItems([<item:silents_mechanisms:zinc_chunks>]);
+<tag:silents_mechanisms:chunks/bismuth>.addItems([<item:silents_mechanisms:bismuth_chunks>]);
+<tag:silents_mechanisms:chunks/aluminum>.addItems([<item:silents_mechanisms:bauxite_chunks>]);
+<tag:silents_mechanisms:chunks/uranium>.addItems([<item:silents_mechanisms:uranium_chunks>]);
+
 //Plates
 <tag:forge:plates/advanced_alloy>.addItems([<item:kubejs:advanced_alloy_plate>]);
 <tag:forge:plates/aluminum>.addItems([<item:kubejs:aluminum_plate>]);
@@ -44,13 +59,13 @@
 
 //Ingots
 <tag:forge:ingots/advanced_alloy>.addItems([<item:kubejs:advanced_alloy_ingot>]);
-<tag:forge:ingots/brass>.addItems([<item:kubejs:brass_ingot>]);
 <tag:forge:ingots/chrome>.addItems([<item:kubejs:chrome_ingot>]);
 <tag:forge:ingots/iridium_alloy>.addItems([<item:kubejs:iridium_alloy_ingot>]);
 <tag:forge:ingots/iridium>.addItems([<item:kubejs:iridium_ingot>]);
 <tag:forge:ingots/titanium>.addItems([<item:kubejs:titanium_ingot>]);
 <tag:forge:ingots/tungsten>.addItems([<item:kubejs:tungsten_ingot>]);
 <tag:forge:ingots/tungstensteel>.addItems([<item:kubejs:tungstensteel_ingot>]);
+<tag:forge:ingots/redstone>.addItems([<item:extendedcrafting:redstone_ingot>]);
 
 //Gems
 <tag:forge:gems/peridot>.addItems([<item:kubejs:peridot_gem>]);

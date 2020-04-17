@@ -1,7 +1,6 @@
 #priority 900
 
 //Dye tag cleanup
-
 for item in <tag:forge:dyes>.items {
     // print(item.registryName + " " + item.displayName);
     var itemOwner = item.registryName.split(":")[0];
