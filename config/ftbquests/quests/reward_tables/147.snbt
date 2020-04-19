@@ -1,0 +1,25 @@
+{
+	id: 147,
+	title: "Fency Chest",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "embellishcraft:oak_fancy_chest"
+		},
+		{
+			item: "embellishcraft:birch_fancy_chest"
+		},
+		{
+			item: "embellishcraft:spruce_fancy_chest"
+		},
+		{
+			item: "embellishcraft:jungle_fancy_chest"
+		},
+		{
+			item: "embellishcraft:acacia_fancy_chest"
+		},
+		{
+			item: "embellishcraft:dark_oak_fancy_chest"
+		}
+	]
+}

@@ -2,6 +2,7 @@
 
 //removeRecipeByName("");
 
+removeRecipeByName("simplefarming:wool");
 removeRecipeByName("expandedstorage:old_obsidian_chest");
 removeRecipeByName("expandedstorage:old_diamond_chest");
 removeRecipeByName("expandedstorage:old_gold_chest");
@@ -31,3 +32,30 @@ removeRecipe(<item:vanillahammers:wooden_hammer>);
 removeRecipe(<item:vanillahammers:stone_hammer>);
 removeRecipe(<item:vanillaexcavators:wooden_excavator>);
 removeRecipe(<item:vanillaexcavators:stone_excavator>);
+
+removeRecipe(<item:cyclic:emerald_helmet>);
+removeRecipe(<item:cyclic:emerald_chestplate>);
+removeRecipe(<item:cyclic:emerald_leggings>);
+removeRecipe(<item:cyclic:emerald_boots>);
+removeRecipe(<item:cyclic:emerald_sword>);
+removeRecipe(<item:cyclic:emerald_pickaxe>);
+removeRecipe(<item:cyclic:emerald_axe>);
+removeRecipe(<item:cyclic:emerald_hoe>);
+removeRecipe(<item:cyclic:emerald_shovel>);
+removeRecipe(<item:cyclic:sandstone_sword>);
+removeRecipe(<item:cyclic:sandstone_shovel>);
+removeRecipe(<item:cyclic:sandstone_axe>);
+removeRecipe(<item:cyclic:sandstone_pickaxe>);
+removeRecipe(<item:cyclic:sandstone_hoe>);
+
+removeRecipe(<item:pickletweaks:wooden_paxel>);
+removeRecipe(<item:pickletweaks:stone_paxel>);
+removeRecipe(<item:pickletweaks:iron_paxel>);
+removeRecipe(<item:pickletweaks:golden_paxel>);
+removeRecipe(<item:pickletweaks:diamond_paxel>);
+
+removeRecipe(<item:mekanismtools:wood_paxel>);
+removeRecipe(<item:mekanismtools:stone_paxel>);
+
+removeRecipe(<item:pickletweaks:watering_can>);
+removeRecipeByName("mysticalagriculture:inferium_watering_can_pt");

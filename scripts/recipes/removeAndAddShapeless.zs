@@ -43,7 +43,16 @@ var shapelessRecipesWithRemove as IIngredient[][IItemStack] = {
 
     //Buttons
     <item:quark:iron_button> : [<tag:forge:nuggets/iron>],
-    <item:quark:gold_button> : [<tag:forge:nuggets/gold>]
+    <item:quark:gold_button> : [<tag:forge:nuggets/gold>],
+
+    //Compression
+    <item:minecraft:clay> : [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
+    <item:minecraft:glowstone> : [<item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>],
+    <item:minecraft:snow_block> : [<item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>],
+    <item:minecraft:bricks> : [<item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>],
+    <item:minecraft:magma_block> : [<item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>],
+    <item:minecraft:quartz_block> : [<item:minecraft:quartz>, <item:minecraft:quartz>, <item:minecraft:quartz>, <item:minecraft:quartz>, <item:minecraft:quartz>, <item:minecraft:quartz>, <item:minecraft:quartz>, <item:minecraft:quartz>, <item:minecraft:quartz>],
+    <item:kubejs:fire_clay_bricks> : [<item:kubejs:fire_clay_brick>, <item:kubejs:fire_clay_brick>, <item:kubejs:fire_clay_brick>, <item:kubejs:fire_clay_brick>, <item:kubejs:fire_clay_brick>, <item:kubejs:fire_clay_brick>, <item:kubejs:fire_clay_brick>, <item:kubejs:fire_clay_brick>, <item:kubejs:fire_clay_brick>]
 
 };
 

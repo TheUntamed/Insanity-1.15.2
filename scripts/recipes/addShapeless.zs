@@ -5,17 +5,15 @@ import crafttweaker.api.item.IIngredient;
 
 var shapelessRecipes as IIngredient[][IItemStack] = {
 
-    <item:minecraft:flint> : [<item:waterstrainer:strainer_survivalist>, <tag:forge:gravel>],
-
     <item:minecraft:orange_dye>*2 : [<item:minecraft:red_dye>, <item:minecraft:yellow_dye>],
     <item:minecraft:magenta_dye>*2 : [<item:minecraft:purple_dye>, <item:minecraft:pink_dye>],
     <item:minecraft:magenta_dye>*3 : [<item:minecraft:blue_dye>, <item:minecraft:red_dye>, <item:minecraft:pink_dye>],
-    <item:minecraft:magenta_dye>*4 : [<item:minecraft:blue_dye>, <item:minecraft:red_dye>*2, <item:minecraft:white_dye>],
+    <item:minecraft:magenta_dye>*4 : [<item:minecraft:blue_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:white_dye>],
     <item:minecraft:light_blue_dye>*2 : [<item:minecraft:blue_dye>, <item:minecraft:white_dye>],
     <item:minecraft:lime_dye>*2 : [<item:minecraft:green_dye>, <item:minecraft:white_dye>],
     <item:minecraft:pink_dye>*2 : [<item:minecraft:red_dye>, <item:minecraft:white_dye>],
     <item:minecraft:light_gray_dye>*2 : [<item:minecraft:gray_dye>, <item:minecraft:white_dye>],
-    <item:minecraft:light_gray_dye>*3 : [<item:minecraft:black_dye>, <item:minecraft:white_dye>*2],
+    <item:minecraft:light_gray_dye>*3 : [<item:minecraft:black_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>],
     <item:minecraft:gray_dye>*2 : [<item:minecraft:black_dye>, <item:minecraft:white_dye>],
     <item:minecraft:cyan_dye>*2 : [<item:minecraft:blue_dye>, <item:minecraft:green_dye>],
     <item:minecraft:purple_dye>*2 : [<item:minecraft:red_dye>, <item:minecraft:blue_dye>],

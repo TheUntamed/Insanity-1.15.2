@@ -91,7 +91,7 @@
 	"item.kubejs.zinc_plate": "Zinc Plate",
 	"item.kubejs.tungstensteel_ingot": "Tungstensteel Ingot",
 	"item.kubejs.hot_tungstensteel_ingot": "Hot Tungstensteel Ingot",
-	"item.kubejs.iridium_alloy_ingot": "Iridium_alloy Ingot",
+	"item.kubejs.iridium_alloy_ingot": "Iridium Alloy Ingot",
 	"item.kubejs.iridium_ingot": "Iridium Ingot",
 	"item.kubejs.mixed_metal_ingot": "Mixed Metal Ingot",
 	"item.kubejs.chrome_ingot": "Chrome Ingot",
@@ -110,6 +110,15 @@
 	"item.kubejs.ruby_gem": "Ruby Gem",
 	"item.kubejs.sapphire_gem": "Sapphire Gem",
 	"item.kubejs.yellow_garnet_gem": "Yellow Garnet Gem",
-
-	"block.kubejs.polished_glowstone": "Polished Glowstone"
+	"item.kubejs.carbon_fibers": "Carbon Fibers",
+    "item.kubejs.carbon_mesh": "Carbon Mesh",
+    "item.kubejs.compressed_clay_ball": "Compressed Clay",
+    "item.kubejs.wetware_processor": "Wetware Processor",
+    "item.kubejs.wetware_processor_array": "Wetware Processor Array",
+    "item.kubejs.wetware_processor_mainframe": "Wetware Processor Mainframe",
+    "item.kubejs.quantum_star": "Quantum Star",
+	"item.kubejs.quantum_eye": "Quantum Eye",
+	"item.kubejs.fire_clay_brick": "Fire Clay Brick",
+	
+	"block.kubejs.fire_clay_bricks": "Fire Clay Bricks"
 }

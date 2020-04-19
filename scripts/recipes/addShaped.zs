@@ -8,9 +8,9 @@ var shapedRecipes as IIngredient[][][IItemStack] = {
     /* 
     <item:> :
     [
-        [,, ],
-        [,, ],
-        [,, ]
+        [, , ],
+        [, , ],
+        [, , ]
     ],
      */
     
@@ -190,6 +190,18 @@ var shapedRecipes as IIngredient[][][IItemStack] = {
     //     [<item:carbonado:carbonado>]
     // ],
 
+    
+    <item:kubejs:compressed_clay_ball> :
+    [
+        [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
+        [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>]
+    ],
+    // <item:kubejs:grass_fiber_mesh> :
+    // [
+    //     [<tag:forge:rods/wooden>, <item:kubejs:grass_fiber>, <tag:forge:rods/wooden>],
+    //     [<item:kubejs:grass_fiber>, <item:kubejs:grass_fiber>, <item:kubejs:grass_fiber>],
+    //     [<tag:forge:rods/wooden>, <item:kubejs:grass_fiber>, <tag:forge:rods/wooden>]
+    // ],
     <item:kubejs:flint_gear> :
     [
         [<item:minecraft:air>, <item:minecraft:flint>, <item:minecraft:air>],

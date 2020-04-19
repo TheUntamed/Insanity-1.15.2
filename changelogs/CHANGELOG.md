@@ -1,3 +1,52 @@
+!nsanity 0.2.2
+--------------
+
+Forge 1.15.2-31.1.45
+
+**Added Mods**
+
+* *Brick Furnace*
+* *Flux Networks*
+* *Large Fluid Tanks*
+* *Mystical Customization*
+* *Whoops*
+
+**Removed Mods**
+
+* *Mystical Creations* (Replaced by Mystical Customization)
+
+**Updated Mods**
+
+* *Bookshelf* (5.3.9 --> 5.3.12)
+* *Caelus API* (2.0-beta1 --> 2.0-beta2)
+* *Cyclic* (0.3.2 --> 0.3.3)
+* *Engineer's Decor* (1.0.20-b4 --> 1.0.20-b5)
+* *Extreme sound muffler (Forge)* (1.1 --> 1.2.1)
+* *FAB Library* (1.0 --> 1.1)
+* *Healing Campfire* (1.7 --> 2.1)
+* *Kubejs* (2.6.0.28 --> 2.6.0.29)
+* *Lycanites Mobs* (2.2.2.1 --> 2.2.3.1)
+* *Mekanism* (9.9.18.410 --> 9.10.0.413)
+* *Mekanism* (9.9.18.410 --> 9.10.0.413)
+* *Mekanism* (9.9.18.410 --> 9.10.0.413)
+* *Mystical Agriculture* (3.0.1 --> 3.0.2)
+* *PlantTech 2* (0.02.03 --> 0.02.04)
+* *Torch Slabs Mod* (1.6.6 --> 1.6.7)
+* *Quickstack* (3.0.2 --> 3.0.3c)
+* *Reliquary v1.3* (1.3.4.960 --> 1.3.4.972)
+* *Ring of Attraction [FORGE]* (1.1.26 --> 1.1.27)
+* *Ring of Return [FORGE]* (1.0.5 --> 1.0.6)
+
+**Changes**
+
+* Updated default keybinds
+* Recipe changes
+
+* *Pam's Harvestcraft 2 Crops* reduced probability of gardens generating from 500 to 700.
+* *Quickstack* set Brick Furnace, Brick Blast Furnace and Brick Smoker on blacklist for inventory dump.
+* *Brick Furnace* enabled the campfire recipe to make clay to bricks.
+
+
 !nsanity 0.2.1
 --------------
 

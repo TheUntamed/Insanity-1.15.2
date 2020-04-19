@@ -148,3 +148,11 @@ for item in <tag:minecraft:logs>.items {
         <tag:forge:stripped>.addItems(item);
     }
 }
+
+//Others
+<tag:forge:bookshelves>.addItems([<item:upgrade_aquatic:driftwood_bookshelf>, <item:endergetic:poise_bookshelf>, <item:quark:dark_oak_bookshelf>, <item:quark:acacia_bookshelf>, <item:quark:jungle_bookshelf>, <item:quark:birch_bookshelf>, <item:quark:spruce_bookshelf>, <item:nethercraft:glowood_bookshelf>, <item:buzzierbees:hive_bookshelf>, <item:bambootiful:dried_bamboo_bookshelf>, <item:bambootiful:bamboo_bookshelf>]);
+<tag:forge:fiber>.addItems([<item:simplefarming:cotton>]);
+<tag:forge:fiber/cotton>.addItems([<item:simplefarming:cotton>]);
+<tag:forge:furnace>.addItems([<item:minecraft:furnace>, <item:brickfurnace:brick_furnace>]);
+<tag:forge:blast_furnace>.addItems([<item:minecraft:blast_furnace>, <item:brickfurnace:brick_blast_furnace>]);
+<tag:forge:smoker>.addItems([<item:minecraft:smoker>, <item:brickfurnace:brick_smoker>]);

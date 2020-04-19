@@ -398,6 +398,42 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
     ],
 
     //Others
+    <item:cyclic:scythe_brush> :
+    [
+        [<item:minecraft:air>, <tag:forge:nuggets/iron>, <item:minecraft:iron_hoe>],
+        [<item:minecraft:air>, <tag:forge:rods/wooden>, <tag:forge:nuggets/iron>],
+        [<tag:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]
+    ],
+    <item:cyclic:scythe_leaves> :
+    [
+        [<item:minecraft:air>, <tag:forge:nuggets/steel>, <item:mapperbase:steel_hoe>],
+        [<item:minecraft:air>, <tag:forge:rods/wooden>, <tag:forge:nuggets/steel>],
+        [<tag:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]
+    ],
+    <item:minecraft:blast_furnace> :
+    [
+        [<tag:forge:ingots/iron>, <tag:forge:ingots/iron>, <tag:forge:ingots/iron>],
+        [<tag:forge:ingots/iron>, <item:brickfurnace:brick_blast_furnace>, <tag:forge:ingots/iron>],
+        [<item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>]
+    ],
+    <item:minecraft:smoker> :
+    [
+        [<item:minecraft:air>, <tag:minecraft:logs>, <item:minecraft:air>],
+        [<tag:minecraft:logs>, <item:brickfurnace:brick_smoker>, <tag:minecraft:logs>],
+        [<item:minecraft:air>, <tag:minecraft:logs>, <item:minecraft:air>]
+    ],
+    <item:brickfurnace:brick_furnace> :
+    [
+        [<item:kubejs:fire_clay_bricks>, <item:kubejs:fire_clay_bricks>, <item:kubejs:fire_clay_bricks>],
+        [<item:kubejs:fire_clay_bricks>, <item:minecraft:air>, <item:kubejs:fire_clay_bricks>],
+        [<item:kubejs:fire_clay_bricks>, <item:kubejs:fire_clay_bricks>, <item:kubejs:fire_clay_bricks>]
+    ],
+    <item:minecraft:furnace> :
+    [
+        [<item:quark:sturdy_stone>, <item:quark:sturdy_stone>, <item:quark:sturdy_stone>],
+        [<item:quark:sturdy_stone>, <item:brickfurnace:brick_furnace>, <item:quark:sturdy_stone>],
+        [<item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>]
+    ],
     <item:minecraft:piston> :
     [
         [<tag:minecraft:wooden_slabs>, <tag:minecraft:wooden_slabs>, <tag:minecraft:wooden_slabs>],
@@ -415,42 +451,6 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
         [<item:minecraft:air>, <item:minecraft:torch>, <item:minecraft:air>],
         [<item:minecraft:torch>, <tag:minecraft:coals>, <item:minecraft:torch>],
         [<tag:minecraft:wooden_slabs>, <tag:minecraft:wooden_slabs>, <tag:minecraft:wooden_slabs>]
-    ],
-    <item:minecraft:clay> :
-    [
-        [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
-        [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
-        [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>]
-    ],
-    <item:minecraft:glowstone> :
-    [
-        [<item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>],
-        [<item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>],
-        [<item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>]
-    ],
-    <item:minecraft:snow_block> :
-    [
-        [<item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>],
-        [<item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>],
-        [<item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>]
-    ],
-    <item:minecraft:bricks> :
-    [
-        [<item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>],
-        [<item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>],
-        [<item:minecraft:brick>, <item:minecraft:brick>, <item:minecraft:brick>]
-    ],
-    <item:minecraft:magma_block> :
-    [
-        [<item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>],
-        [<item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>],
-        [<item:minecraft:magma_cream>, <item:minecraft:magma_cream>, <item:minecraft:magma_cream>]
-    ],
-    <item:minecraft:quartz_block> :
-    [
-        [<item:minecraft:quartz_block>, <item:minecraft:quartz_block>, <item:minecraft:quartz_block>],
-        [<item:minecraft:quartz_block>, <item:minecraft:quartz_block>, <item:minecraft:quartz_block>],
-        [<item:minecraft:quartz_block>, <item:minecraft:quartz_block>, <item:minecraft:quartz_block>]
     ],
     <item:minecraft:iron_bars>*8 :
     [

@@ -1,6 +1,7 @@
 events.listen('block.registry', function (event) {
-    //event.create('').add()
+    //event.create('').material(block.material.glass).hardness(0.5).add()
 
-    event.create('polished_glowstone').add()
+    //Gregtech CE
+    event.create('fire_clay_bricks').add()
 
 })

@@ -5,6 +5,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
+import mods.jei.JEI;
 
 public function formatRecipeName(item as IItemStack) as string {
 	return item.translationKey + "_" + item.amount;
@@ -40,6 +41,12 @@ public function addShapeless(output as IItemStack, input as IIngredient[], remov
 	}
 
 	craftingTable.addShapeless(recipeName, output, input);
+}
+
+public function addCampfire(output as IItemStack, input as IIngredient, xp as float, cookTime as int) as void {
+	var recipeName = formatRecipeName(output);
+
+	campfire.addRecipe(recipeName as string, output, input, xp, cookTime);
 }
 
 // Remove Recipe
