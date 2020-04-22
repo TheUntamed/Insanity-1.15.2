@@ -4,6 +4,8 @@ import crafttweaker.api.tag.MCTag;
 
 //<tag:forge:>.createItemTag();
 
+<tag:forge:saw>.createItemTag();
+
 <tag:forge:furnace>.createItemTag();
 <tag:forge:blast_furnace>.createItemTag();
 <tag:forge:smoker>.createItemTag();

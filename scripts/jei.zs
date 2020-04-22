@@ -70,5 +70,5 @@ JEI.hideItem(<item:pickletweaks:watering_can>);
 //Add Information about an Item to the Info Category
 //JEI.addInfo(IItemStack stack, String[] information);
 //JEI.addInfo(<item:minecraft:diamond>, ["This is the first line!", "This is the second!", "third"]);
-JEI.addInfo(<item:minecraft:flint>, ["Pick up 2 Stone Pebbles from the Ground, take 1 in each hand and smack them together to get flint by chance.", " ", "Gravel doesn't drop flint anymore."]);
-//JEI.addInfo(<item:natural-progression:stone_pebble>, ["Pick up 2 Stone Pebbles from the Ground, take 1 in each hand and smack them together to get flint by chance."]);
+JEI.addInfo(<item:minecraft:flint>, ["Pick up 2 Stone Pebbles from the Ground, take 1 in each hand and smack them together to get Flint by chance.", " ", "Gravel doesn't drop flint anymore."]);
+JEI.addInfo(<item:natural-progression:bone_shard>, ["Take a Flint into one a Bone into the other hand and smack them together to get a Bone Shard by chance."]);

@@ -156,3 +156,4 @@ for item in <tag:minecraft:logs>.items {
 <tag:forge:furnace>.addItems([<item:minecraft:furnace>, <item:brickfurnace:brick_furnace>]);
 <tag:forge:blast_furnace>.addItems([<item:minecraft:blast_furnace>, <item:brickfurnace:brick_blast_furnace>]);
 <tag:forge:smoker>.addItems([<item:minecraft:smoker>, <item:brickfurnace:brick_smoker>]);
+<tag:forge:saw>.addItems([<item:natural-progression:basic_saw>, <item:natural-progression:improved_saw>]);

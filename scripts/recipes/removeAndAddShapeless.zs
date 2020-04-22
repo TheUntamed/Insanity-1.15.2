@@ -5,6 +5,11 @@ import crafttweaker.api.item.IIngredient;
 
 var shapelessRecipesWithRemove as IIngredient[][IItemStack] = {
 
+    //Lycanites Mobs
+    <item:lycanitesmobs:equipmentforge_lesser> : [<item:minecraft:crafting_table>, <item:pickletweaks:flint_axe>],
+    <item:lycanitesmobs:equipmentforge_greater> : [<item:lycanitesmobs:equipmentforge_lesser>, <item:minecraft:iron_axe>],
+    <item:lycanitesmobs:equipmentforge_master> : [<item:lycanitesmobs:equipmentforge_greater>, <item:minecraft:diamond_axe>],
+
     //wooden mortar
     <item:minecraft:red_dye> : [<tag:forge:colorant/red>, <item:botania:pestle_and_mortar>],
     <item:minecraft:green_dye> : [<tag:forge:colorant/green>, <item:botania:pestle_and_mortar>],

@@ -13,12 +13,49 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
         [, , ]
     ],
      */
-    
-    <item:mapperbase:flatter_hammer> :
+
+    //Minecolonies
+    <item:minecolonies:blockhutminer>*2 :
     [
-        [<item:minecraft:air>, <tag:forge:blocks/steel>, <tag:forge:string>],
-        [<item:minecraft:air>, <tag:forge:rods/wooden>, <tag:forge:ingots/steel>],
-        [<tag:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]
+        [<tag:minecraft:planks>, <item:structurize:sceptergold>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <item:minecraft:iron_pickaxe>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>]
+    ],
+    <item:minecolonies:blockhutfarmer>*2 :
+    [
+        [<tag:minecraft:planks>, <item:structurize:sceptergold>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <item:minecraft:iron_hoe>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>]
+    ],
+    <item:minecolonies:blockhutlumberjack>*2 :
+    [
+        [<tag:minecraft:planks>, <item:structurize:sceptergold>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <item:minecraft:iron_axe>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>]
+    ],
+    <item:minecolonies:blockhutlumberjack> :
+    [
+        [<tag:minecraft:planks>, <item:structurize:sceptergold>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <item:pickletweaks:flint_axe>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>]
+    ],
+    <item:minecolonies:blockhutminer> :
+    [
+        [<tag:minecraft:planks>, <item:structurize:sceptergold>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <item:pickletweaks:flint_pickaxe>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>]
+    ],
+    <item:minecolonies:blockhutfarmer> :
+    [
+        [<tag:minecraft:planks>, <item:structurize:sceptergold>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <item:pickletweaks:flint_hoe>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>]
+    ],
+    <item:minecolonies:blockhutsawmill> :
+    [
+        [<tag:minecraft:planks>, <item:structurize:sceptergold>, <tag:minecraft:planks>],
+        [<item:pickletweaks:flint_axe>, <tag:forge:saw>, <item:minecraft:iron_axe>],
+        [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>]
     ],
 
     //Chests
@@ -166,7 +203,6 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
     //Plates to Block
 
     //Floral Powder Cleanup
-
     <item:botania:cosmetic_four_leaf_clover> :
     [
         [<tag:forge:dyes/white>, <tag:forge:dyes/white>, <tag:forge:dyes/white>],
@@ -504,6 +540,18 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
         [<item:minecraft:air>, <tag:forge:rods/wooden>, <item:midnight:rockshroom_clump>],
         [<tag:forge:rods/wooden>, <item:midnight:rockshroom_clump>, <tag:forge:rods/wooden>],
         [<tag:forge:string>, <tag:forge:rods/wooden>, <item:minecraft:air>]
+    ],
+    <item:mapperbase:flatter_hammer> :
+    [
+        [<item:minecraft:air>, <tag:forge:blocks/steel>, <tag:forge:string>],
+        [<item:minecraft:air>, <tag:forge:rods/wooden>, <tag:forge:ingots/steel>],
+        [<tag:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]
+    ],
+    <item:cyclic:wrench> :
+    [
+        [<item:minecraft:air>, <tag:forge:stone>, <item:aiotbotania:livingwood_hoe>],
+        [<item:minecraft:air>, <tag:forge:rods/wooden>, <tag:forge:stone>],
+        [<tag:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]
     ]
 
 };

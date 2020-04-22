@@ -1,30 +1,37 @@
 
-#All the options that can only be set on the server.
-[general]
-	#Spawn rate of entities of the 'monster' type in midnight (eg. Rifter, Hunter). Default= 1
-	#Range: 1 ~ 10000
-	monster_spawn_rate = 1
-	#Mobs on this whitelist can be captured by rifters, players and animals are already captured by default. Format is mod id:name of creature, just use the modid to whitelist everything from it. Default= empty
+#Common compatibility settings.
+[compat]
+	#Mobs on this whitelist can be captured by rifters, players and animals are already captured by default. Format is mod id:name of creature, just use the modid to whitelist everything from it. Default is empty
 	capturable_entities = []
-	#Allows rifters to teleport to players when they aren't being looked at. Default= true
-	allow_rifter_teleport = true
-	#The rarity that rifts spawn rifters. Larger numbers increase rarity. If 0, rifters don't spawn. Default= 1000
-	#Range: 0 ~ 10000
-	rifter_spawn_rarity = 1000
-	#The maximum amount of rifters that spawn from a rift. Default= 1
-	#Range: 1 ~ 5
-	max_rifter_by_rift = 1
-	#Allows rifters to capture tamed entities and drag them into rifts. Default= false
-	rifter_capture_tamed_animal = false
-	#Mobs on this blacklist cannot be captured by rifters. Format is mod id:name of creature, just use the mod id to blacklist everything from it. Default= iceandfire, midnight:nightstag
+	#Specifies several rules that define in which dimensions rifts may generate. When an empty list is given rifts won't generate. This list is order dependent.
+	#Specifying can be done with several rules which are case insensitive:
+	# - Prefixing a rule with '+' will add all the items that match the given selector
+	# - Prefixing a rule with '-' will remove all the items that match the given selector
+	# - Prefixing a rule with '~' will remove all the items that do not match the given selector
+	# - No prefix will imply a '+' prefix
+	# - Prefixing a selector with '!' will invert the selector
+	# - To match a dimension, simply write the dimension ID (resource location, not a number!!!!!)
+	# - 'modid:*' will match all dimensions of a specific mod
+	# - 'id' will match vanilla dimensions with the specified id
+	# - Only specifying '*' will match all dimensions
+	# - Empty strings and whitespaces are completely ignored
+	#Default: '+ minecraft:overworld', '+ midnight:midnight'
+	rift_dimensions = ["+ minecraft:overworld", "+ midnight:midnight"]
+	#Specifies several rules that define in which biomes rifts may generate. When an empty list is given rifts won't generate. This list is order dependent.
+	#Specifying can be done with several rules which are case insensitive:
+	# - Prefixing a rule with '+' will add all the items that match the given selector
+	# - Prefixing a rule with '-' will remove all the items that match the given selector
+	# - Prefixing a rule with '~' will remove all the items that do not match the given selector
+	# - No prefix will imply a '+' prefix
+	# - Prefixing a selector with '!' will invert the selector
+	# - To match a biome, simply write the biome ID
+	# - To match a biome type, prefix the type name with '#'
+	# - 'modid:*' will match all biomes of a specific mod
+	# - 'id' will match vanilla biomes with the specified id
+	# - Only specifying '*' will match all biomes
+	# - Empty strings and whitespaces are completely ignored
+	#Default: '+ *', '- #VOID', '- #WATER', '- #BEACH', '- #MUSHROOM'
+	rift_biomes = ["+ *", "- #VOID", "- #WATER", "- #BEACH", "- #MUSHROOM"]
+	#Mobs on this blacklist cannot be captured by rifters. Format is mod id:name of creature, just use the mod id to blacklist everything from it. Default: iceandfire, midnight:nightstag
 	not_capturable_animals = ["iceandfire", "midnight:nightstag"]
-	#Allows the modded flowers to appear with bonemeal in Midnight. Default= false
-	foreign_flowers_from_bonemeal = false
-	#The chance to take a small amount of damage when picking a bladeshroom cap as a percentage. If 0, this is disabled. Default= 5
-	#Range: 0 ~ 100
-	bladeshroom_damage_chance = 5
-	#If true, players will respawn in Midnight after dying in the dimension. Default= false
-	can_respawn_in_midnight = false
-	#Allows the lightning in Midnight to burn blocks and do damage to entities. Default= false
-	allow_lightning_damage = false
 

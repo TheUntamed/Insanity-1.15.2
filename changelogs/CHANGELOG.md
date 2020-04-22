@@ -5,10 +5,48 @@ Forge 1.15.2-31.1.45
 
 **Added Mods**
 
+* *Morph-o-Tool*
+
+**Updated Mods**
+
+* *Auxilium Equivalence* (1.0.0 --> 1.1.0)
+* *Bookshelf* (5.4.12 --> 5.4.14)
+* *Brick Furnace* (1.2.1 --> 1.3.0)
+* *CoFH Core* (0.3.2b --> 0.4.0b)
+* *CraftTweaker* (6.0.0.13 --> 6.0.0.17)
+* *Curios API* (2.0.2.1 --> 2.0.2.2)
+* *Curious Shulker Boxes* (2.0 --> 2.0.0.1)
+* *Cycle Paintings* (1.1 --> 1.2)
+* *Cyclic* (0.3.3 --> 0.3.4)
+* *DimStorage* (2.2.4 --> 2.2.5)
+* *Double Slabs* (3.1.0 --> 3.1.2)
+* *EmbellishCraft* (2.1.0.1 --> 2.1.1.0)
+* *Flux Networks* (5.0.0-1 --> 5.0.1-2)
+* *Forbidden and Arcanus* (1.1 --> 1.3.1)
+* *Lycanites Mobs* (2.2.3.1 --> 2.2.3.2)
+* *Pam's HarvestCraft 2 - Crops* (1.0.2 --> 1.0.3)
+* *Pam's HarvestCraft 2 - Trees* (1.0.2 --> 1.0.3)
+* *RandomPatches* (1.21.1.1 --> 1.21.1.2)
+* *The Midnight* (0.5.6 --> 0.5.7-2)
+* *Torch Slabs Mod* (1.6.7 --> 1.6.8)
+
+**Changes**
+
+* changed all recipes including wood and stone tools (because wood and stone tools are disabled)
+
+
+!nsanity 0.2.2
+--------------
+
+Forge 1.15.2-31.1.45
+
+**Added Mods**
+
 * *Brick Furnace*
 * *Flux Networks*
 * *Large Fluid Tanks*
 * *Mystical Customization*
+* *Pickle Tweaks*
 * *Whoops*
 
 **Removed Mods**
