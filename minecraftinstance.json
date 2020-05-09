@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-05-09T15:02:55.6568288Z",
+  "lastPlayed": "2020-05-09T15:21:09.9414309Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -4818,90 +4818,72 @@
       "addonID": 250294,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2913376,
-        "displayName": "modular-routers-1.15.2-6.0.0-14.jar",
-        "fileName": "modular-routers-1.15.2-6.0.0-14.jar",
-        "fileDate": "2020-03-26T17:32:17.18Z",
-        "fileLength": 1046695,
+        "id": 2942653,
+        "displayName": "modular-routers-1.15.2-6.0.1-15.jar",
+        "fileName": "modular-routers-1.15.2-6.0.1-15.jar",
+        "fileDate": "2020-04-28T16:27:49.46Z",
+        "fileLength": 1049885,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2913/376/modular-routers-1.15.2-6.0.0-14.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2942/653/modular-routers-1.15.2-6.0.1-15.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 38716761,
+            "id": 0,
             "addonId": 306770,
             "type": 2,
-            "fileId": 2913376
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 715332105,
-            "type": 3
+            "fingerprint": 3857504995,
+            "type": 0
           },
           {
             "foldername": "me",
-            "fingerprint": 4197544850,
-            "type": 3
+            "fingerprint": 3533160119,
+            "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 2135131623,
-            "type": 3
+            "fingerprint": 145150182,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4195090706,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1110061538,
-            "type": 3
+            "fingerprint": 299906511,
+            "type": 0
           }
         ],
-        "packageFingerprint": 10424929,
+        "packageFingerprint": 3499224347,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1807210,
-        "projectId": 250294,
-        "packageFingerprintId": 429795525,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 2149563,
-        "gameVersionId": 7498,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "modular-routers-1.15.2-6.0.0-14.jar"
+        "FileNameOnDisk": "modular-routers-1.15.2-6.0.1-15.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3125196Z",
-      "dateUpdated": "2019-05-09T13:11:27.3125196Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T15:20:48.8641799Z",
+      "dateLastUpdateAttempted": "2020-05-09T15:20:48.8641799Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12295,108 +12277,95 @@
       "addonID": 306626,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2920340,
-        "displayName": "NaturesAura-23.5.jar",
-        "fileName": "NaturesAura-23.5.jar",
-        "fileDate": "2020-04-03T21:33:22.147Z",
-        "fileLength": 1091979,
+        "id": 2949119,
+        "displayName": "NaturesAura-26.0.jar",
+        "fileName": "NaturesAura-26.0.jar",
+        "fileDate": "2020-05-05T18:08:23.81Z",
+        "fileLength": 1242415,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2920/340/NaturesAura-23.5.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2949/119/NaturesAura-26.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 39235339,
-            "addonId": 306770,
-            "type": 3,
-            "fileId": 2920340
-          },
-          {
-            "id": 39235336,
-            "addonId": 309927,
-            "type": 2,
-            "fileId": 2920340
-          },
-          {
-            "id": 39235338,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 2920340
-          },
-          {
-            "id": 39235337,
+            "id": 0,
             "addonId": 313272,
             "type": 2,
-            "fileId": 2920340
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 306770,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 309927,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 8793034,
-            "type": 3
+            "fingerprint": 3986003287,
+            "type": 0
           },
           {
             "foldername": "de",
-            "fingerprint": 1393263609,
-            "type": 3
+            "fingerprint": 2774975201,
+            "type": 0
+          },
+          {
+            "foldername": ".cache",
+            "fingerprint": 3980513549,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3239564724,
-            "type": 3
+            "fingerprint": 2692845877,
+            "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 4009396256,
-            "type": 3
+            "fingerprint": 898222320,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4034026680,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 2941661308,
+        "packageFingerprint": 3129279877,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1816112,
-        "projectId": 306626,
-        "packageFingerprintId": 434283464,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 2161397,
-        "gameVersionId": 7498,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "NaturesAura-23.5.jar"
+        "FileNameOnDisk": "NaturesAura-26.0.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2796081Z",
-      "dateUpdated": "2019-05-09T13:11:27.2796081Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T15:20:56.2498355Z",
+      "dateLastUpdateAttempted": "2020-05-09T15:20:56.2498355Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17675,14 +17644,14 @@
       "addonID": 357178,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2887104,
-        "displayName": "MixinBootstrap-1.0.2.jar",
-        "fileName": "MixinBootstrap-1.0.2.jar",
-        "fileDate": "2020-02-23T01:34:11.157Z",
-        "fileLength": 1060409,
+        "id": 2939224,
+        "displayName": "MixinBootstrap-1.0.3.jar",
+        "fileName": "MixinBootstrap-1.0.3.jar",
+        "fileDate": "2020-04-24T11:46:26.267Z",
+        "fileLength": 1061758,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2887/104/MixinBootstrap-1.0.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2939/224/MixinBootstrap-1.0.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -17690,80 +17659,57 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2651745079,
-            "type": 3
+            "fingerprint": 3224103252,
+            "type": 0
           },
           {
             "foldername": "io",
-            "fingerprint": 3999054965,
-            "type": 3
+            "fingerprint": 2866411657,
+            "type": 0
           },
           {
             "foldername": "LICENSE-MixinBootstrap",
             "fingerprint": 3584814497,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "LICENSE-classloaderutils",
             "fingerprint": 1065284868,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "org",
             "fingerprint": 1667467214,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "LICENSE.txt",
             "fingerprint": 3933732671,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 2892952339,
+        "packageFingerprint": 1852187718,
         "gameVersion": [
           "1.14.4",
+          "Forge",
           "1.15.2",
           "1.12.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000014.0000000004",
-            "gameVersion": "1.14.4",
-            "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
-            "gameVersionName": "1.14.4"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1774954,
-        "projectId": 357178,
-        "packageFingerprintId": 414198321,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2107558,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "MixinBootstrap-1.0.2.jar"
+        "FileNameOnDisk": "MixinBootstrap-1.0.3.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2846003Z",
-      "dateUpdated": "2019-05-09T13:11:27.2846003Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T15:20:49.6937491Z",
+      "dateLastUpdateAttempted": "2020-05-09T15:20:49.6937491Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18582,95 +18528,77 @@
       "addonID": 246640,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2927505,
-        "displayName": "MysticalAgriculture-1.15.2-3.0.2.jar",
-        "fileName": "MysticalAgriculture-1.15.2-3.0.2.jar",
-        "fileDate": "2020-04-11T20:36:21.33Z",
-        "fileLength": 976681,
+        "id": 2939723,
+        "displayName": "MysticalAgriculture-1.15.2-3.0.3.jar",
+        "fileName": "MysticalAgriculture-1.15.2-3.0.3.jar",
+        "fileDate": "2020-04-24T23:41:38.483Z",
+        "fileLength": 1027163,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2927/505/MysticalAgriculture-1.15.2-3.0.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2939/723/MysticalAgriculture-1.15.2-3.0.3.jar",
         "isAlternate": false,
-        "alternateFileId": 2927507,
+        "alternateFileId": 2939725,
         "dependencies": [
           {
-            "id": 40529239,
+            "id": 0,
             "addonId": 272335,
             "type": 3,
-            "fileId": 2927505
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2532426555,
-            "type": 3
+            "fingerprint": 3744275857,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1733219372,
-            "type": 3
+            "fingerprint": 603473622,
+            "type": 0
           },
           {
             "foldername": ".cache",
-            "fingerprint": 3234138720,
-            "type": 3
+            "fingerprint": 3077481431,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1550674291,
-            "type": 3
+            "fingerprint": 1450337193,
+            "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 641665806,
-            "type": 3
+            "fingerprint": 2896854652,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 1347000033,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 1158528144,
+        "packageFingerprint": 895567129,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1825301,
-        "projectId": 246640,
-        "packageFingerprintId": 438891903,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2190775,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "MysticalAgriculture-1.15.2-3.0.2.jar"
+        "FileNameOnDisk": "MysticalAgriculture-1.15.2-3.0.3.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2855956Z",
-      "dateUpdated": "2019-05-09T13:11:27.2855956Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T15:20:54.3422302Z",
+      "dateLastUpdateAttempted": "2020-05-09T15:20:54.3422302Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
