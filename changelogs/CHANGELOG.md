@@ -1,4 +1,99 @@
-!nsanity 0.2.2
+!nsanity 0.2.4
+--------------
+
+Forge 1.15.2-31.1.45 --> 1.15.2-31.1.77
+
+**Added Mods**
+
+* *Simply Trophies*
+* *Tesseract*
+
+**Updated Mods**
+
+* *Bookshelf* (5.4.14 --> 5.5.33)
+* *Botania* ( r1.15-382 -->  r1.15-383)
+* *Building Gadgets* (3.3.4 --> 3.3.5)
+* *Camera Mod* (1.6.4 --> 1.6.5)
+* *Carbonado* (2.0.3 --> 2.0.5)
+* *Carpet Stairs Mod* (1.4.2 --> 1.4.4)
+* *Cloth Config API (Forge)* (2.0 --> 3.0)
+* *Corail Tombstone* (4.3.4 --> 4.3.5)
+* *Corail Woodcutter* (1.1.2 --> 1.1.3)
+* *Cyclic* (0.3.4 --> 0.4.1)
+* *Dark Utilities* (3.0.3 --> 3.0.5)
+* *DimStorage* (3.2.1 --> 3.1.3)
+* *Double Slabs* (2.2.5 --> 2.2.7)
+* *EmbellishCraft* (2.1.1.0 --> 2.2.0.0)
+* *Ender Enhancement* (1.0.4.1 --> 1.0.4.2)
+* *Engineer's Decor* (1.0.20-b5 --> 1.0.20-b6)
+* *Essentials* (2.7.0 --> 2.7.1)
+* *Extended Crafting* (2.0.0 --> 2.0.1)
+* *Extra Tags* (1.0 --> 1.1)
+* *Extreme sound muffler (Forge)* (1.2.1 --> 1.2.2)
+* *Farming for Blockheads* (6.1.0 --> 6.1.2)
+* *FPS Reducer* (1.14.1 --> 1.15)
+* *Industrial Foregoing* (2.2.2-28d4a81 --> 2.3.0-6f57752)
+* *Interactio* (2.0.1 --> 2.0.2)
+* *JEITweaker* (1.0.0 --> 1.0.1)
+* *JourneyMap* (5.7.0beta1 --> 5.7.0b2)
+* *Just Enough Items (JEI)* (6.0.0.3 --> 6.0.0.4)
+* *KubeJS* (2.6.0.29 --> 2.6.1.32)
+* *Light Overlay (Rift/Forge/Fabric)* (4.4 --> 4.6.1)
+* *Lollipop* (1.0.14 --> 1.0.15)
+* *Mapper Base* (1.0.0.1 --> 1.1.0.0)
+* *McJtyLib* (4.0.3-alpha --> 4.1.0-beta)
+* *Mekanism* (9.10.0.413 --> 9.10.0.416)
+* *Mekanism Generators* (9.10.0.413 --> 9.10.0.416)
+* *Mekanism Tools* (9.10.0.413 --> 9.10.0.416)
+* *MixinBootstrap* (1.0.2 --> 1.0.3)
+* *Modular Routers* (6.0.0-14 --> 6.0.1-15)
+* *Mystical Agriculture* (3.0.2 --> 3.0.3)
+* *Nature's Aura* (23.5 --> 26.0)
+* *Nether Enhancement* (1.0.1.2 --> 1.0.2.2)
+* *Nethercraft Classic* (1.0.7 --> 1.0.8)
+* *NetherPortalFix* (6.0.0 --> 6.0.2)
+* *Packing Tape* (0.9.5 --> 0.9.6)
+* *Patchouli* (1.2-31 --> 1.2-33)
+* *Performant* (2.07m --> 2.10m)
+* *PlantTech 2* (0.02.04 --> 0.02.06)
+* *Powah!* (1.1.12 --> 1.1.14)
+* *Quark* (r2.1-231 --> r2.1-235)
+* *Quickstack* (3.0.3c --> 3.0.3c)
+* *ReAuth* (3.8.0 --> 3.8.1)
+* *Refined Storage* (1.8.1 --> 1.8.3)
+* *Reliquary v1.3* (1.3.4.972 --> 1.3.4.995)
+* *RFTools Base* (1.0.1-alpha --> 1.1.1-beta)
+* *RFTools Builder* (2.0.1-alpha --> 2.1.1-beta)
+* *RFTools Power* (2.0.1-alpha --> 2.1.1-beta)
+* *RFTools Storage* (1.0.3-alpha --> 1.1.1-beta)
+* *RFTools Utility* (2.0.1-alpha --> 2.1.1-beta)
+* *Ring of Attraction [FORGE]* (1.1.27 --> 1.1.30)
+* *Ring of Blink [FORGE]* (1.1.22 --> 1.1.25)
+* *Ring of Growth [FORGE]* (1.1.24 --> 1.1.27)
+* *Ring of Repair [FORGE]* (1.1.24 --> 1.1.27)
+* *Ring of Return [FORGE]* (1.0.6 --> 1.0.9)
+* *Ring of Teleport [FORGE]* (1.1.23 --> 1.1.26)
+* *Ring of the Enderchest [FORGE]* (1.1.25 --> 1.1.28)
+* *Ring of the Miner [FORGE]* (1.1.22 --> 1.1.24)
+* *Silent Lib* (4.6.0+48 --> 4.6.1+49)
+* *Structurize* (282-RELEASE --> 313-RELEASE)
+* *TerraForged* (0.0.12 --> 0.0.13)
+* *Tetra* (2.3.0 --> 2.5.0)
+* *Tesseract* (1.0.1 --> 1.0.4)
+* *The Endergetic Expansion* (v1.2.5 --> v1.2.8)
+* *The Midnight* (0.5.7-2 --> 0.5.7-3)
+* *Titanium* (2.3.7 --> 2.4.0)
+
+**Changes**
+
+* 
+
+**Bug Fixes**
+
+* 
+
+
+!nsanity 0.2.3
 --------------
 
 Forge 1.15.2-31.1.45
