@@ -35,6 +35,8 @@
 	teleport_dim = true
 	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["tombstone:ghostly_shape", "tombstone:preservation", "tombstone:exorcism"]
+	#Only stackable items can be lost on death [false/true|default:true]
+	loss_on_death_only_for_stackable_items = true
 	#Whether to restore beneficial effects after a player dies [false/true|default:true]
 	restore_effects_on_death = true
 	#The radius in which items should be collected when a grave is spawned [1..10|default:5]
@@ -66,6 +68,8 @@
 	handle_player_death = true
 	#Whether to always give players a Grave's Key on death [false/true|default:true]
 	grave_key_on_death = true
+	#Only abandoned graves can have losses of items (based on the decay_time) [false/true|default:true]
+	loss_on_death_only_for_abandoned_grave = true
 
 #Allows to define the conditions for a village siege to begin
 [village_siege]
@@ -97,9 +101,6 @@
 [decorative_grave]
 	#The creatures that can't be captured in receptacle
 	black_list_capturable_souls = []
-	#The cooldown in minutes to reset the perks with the ankh of Pray [0..60|default:20]
-	#Range: 0 ~ 60
-	cooldown_reset_perk = 20
 	#Allows the purification effect to clear neutral effects [false/true|default:true]
 	purification_affect_neutral_effects = true
 	#The structures that can't be discovered by lost tablets
@@ -125,7 +126,7 @@
 	max_duration_magic_siphon = 1440
 	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
 	nerf_plague_bringer = true
-	#Duration of applied effects in seconds [1..MAX|default:5]
+	#Duration of applied effects in seconds [1..MAX|default:10]
 	#Range: > 1
 	duration_plague_bringer = 5
 	#Restricts the effect of Shadow Step to players [false/true|default:true]
