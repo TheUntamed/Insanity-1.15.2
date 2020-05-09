@@ -9,7 +9,7 @@
 /llibrary/
 /saves/
 /TombManyGraves/
-screenshots/
+/screenshots/
 /world/
 /data/
 /ct_dumps/
@@ -75,8 +75,8 @@ settings-linux.cfg
 settings.cfg
 settings.ps1
 
+
 # Instance Sync
-**/*.jar
 !InstanceSync*.jar
 **/*.jar.disabled
 **/*.jar.meta
