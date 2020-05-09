@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-05-09T14:25:37.7846843Z",
+  "lastPlayed": "2020-05-09T14:38:44.1448205Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -3656,96 +3656,78 @@
       "addonID": 332890,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2933819,
-        "displayName": "RingOfAttraction-1.15.2-1.1.27.jar",
-        "fileName": "RingOfAttraction-1.15.2-1.1.27.jar",
-        "fileDate": "2020-04-18T16:45:07.52Z",
-        "fileLength": 16763,
+        "id": 2945462,
+        "displayName": "RingOfAttraction-1.15.2-1.1.30.jar",
+        "fileName": "RingOfAttraction-1.15.2-1.1.30.jar",
+        "fileDate": "2020-05-01T13:25:02.98Z",
+        "fileLength": 17059,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2933/819/RingOfAttraction-1.15.2-1.1.27.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2945/462/RingOfAttraction-1.15.2-1.1.30.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40292872,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 2933819
-          },
-          {
-            "id": 40292873,
+            "id": 0,
             "addonId": 309927,
             "type": 2,
-            "fileId": 2933819
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2886992859,
-            "type": 3
+            "fingerprint": 3505276455,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2356320088,
-            "type": 3
+            "fingerprint": 2546280969,
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 1994654559,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1780130279,
-            "type": 3
+            "fingerprint": 1670862182,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4253522632,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 1860792008,
+        "packageFingerprint": 1125315574,
         "gameVersion": [
-          "Forge",
+          "Fabric",
           "1.15.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1833421,
-        "projectId": 332890,
-        "packageFingerprintId": 442969541,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2185160,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfAttraction-1.15.2-1.1.27.jar"
+        "FileNameOnDisk": "RingOfAttraction-1.15.2-1.1.30.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2736291Z",
-      "dateUpdated": "2019-05-09T13:11:27.2736291Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:36:28.5133532Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:36:28.5133532Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8689,96 +8671,78 @@
       "addonID": 347706,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2908608,
-        "displayName": "rftoolsbuilder-1.15-2.0.1-alpha.jar",
-        "fileName": "rftoolsbuilder-1.15-2.0.1-alpha.jar",
-        "fileDate": "2020-03-22T06:58:50.69Z",
-        "fileLength": 489162,
+        "id": 2951432,
+        "displayName": "rftoolsbuilder-1.15-2.1.1-beta.jar",
+        "fileName": "rftoolsbuilder-1.15-2.1.1-beta.jar",
+        "fileDate": "2020-05-08T12:43:49.297Z",
+        "fileLength": 498306,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2908/608/rftoolsbuilder-1.15-2.0.1-alpha.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2951/432/rftoolsbuilder-1.15-2.1.1-beta.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 38444480,
-            "addonId": 326041,
-            "type": 3,
-            "fileId": 2908608
-          },
-          {
-            "id": 38444479,
+            "id": 0,
             "addonId": 233105,
             "type": 3,
-            "fileId": 2908608
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 326041,
+            "type": 3,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1074733761,
-            "type": 3
+            "fingerprint": 2468497097,
+            "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 3924309638,
-            "type": 3
+            "fingerprint": 3485991997,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2204287871,
-            "type": 3
+            "fingerprint": 2643324645,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1048028100,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 2876236419,
-            "type": 3
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 468163381,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 2271873361,
+        "packageFingerprint": 1187615249,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1801352,
-        "projectId": 347706,
-        "packageFingerprintId": 427219216,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2142175,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rftoolsbuilder-1.15-2.0.1-alpha.jar"
+        "FileNameOnDisk": "rftoolsbuilder-1.15-2.1.1-beta.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2676452Z",
-      "dateUpdated": "2019-05-09T13:11:27.2676452Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:36:52.9163798Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:36:52.9163798Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9466,96 +9430,78 @@
       "addonID": 350006,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2908609,
-        "displayName": "rftoolsstorage-1.15-1.0.3-alpha.jar",
-        "fileName": "rftoolsstorage-1.15-1.0.3-alpha.jar",
-        "fileDate": "2020-03-22T06:59:29.387Z",
-        "fileLength": 289962,
+        "id": 2951435,
+        "displayName": "rftoolsstorage-1.15-1.1.1-beta.jar",
+        "fileName": "rftoolsstorage-1.15-1.1.1-beta.jar",
+        "fileDate": "2020-05-08T12:44:26.827Z",
+        "fileLength": 336359,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2908/609/rftoolsstorage-1.15-1.0.3-alpha.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2951/435/rftoolsstorage-1.15-1.1.1-beta.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 38444481,
+            "id": 0,
             "addonId": 233105,
             "type": 3,
-            "fileId": 2908609
+            "fileId": 0
           },
           {
-            "id": 38444482,
+            "id": 0,
             "addonId": 326041,
             "type": 3,
-            "fileId": 2908609
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 962076628,
-            "type": 3
+            "fingerprint": 396738294,
+            "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 3084378807,
-            "type": 3
+            "fingerprint": 1264154922,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2085101516,
-            "type": 3
+            "fingerprint": 3371792772,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 544261852,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 1113732718,
-            "type": 3
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 722911520,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 3033341597,
+        "packageFingerprint": 803000830,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1801353,
-        "projectId": 350006,
-        "packageFingerprintId": 427219496,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2142178,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rftoolsstorage-1.15-1.0.3-alpha.jar"
+        "FileNameOnDisk": "rftoolsstorage-1.15-1.1.1-beta.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3085362Z",
-      "dateUpdated": "2019-05-09T13:11:27.3085362Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:36:55.853758Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:36:55.853758Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13866,90 +13812,72 @@
       "addonID": 368129,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2933813,
-        "displayName": "RingOfReturn-1.15.2-1.0.6.jar",
-        "fileName": "RingOfReturn-1.15.2-1.0.6.jar",
-        "fileDate": "2020-04-18T16:39:58.527Z",
-        "fileLength": 12995,
+        "id": 2947264,
+        "displayName": "RingOfReturn-1.15.2-1.0.9.jar",
+        "fileName": "RingOfReturn-1.15.2-1.0.9.jar",
+        "fileDate": "2020-05-03T13:02:25.393Z",
+        "fileLength": 13228,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2933/813/RingOfReturn-1.15.2-1.0.6.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2947/264/RingOfReturn-1.15.2-1.0.9.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40291873,
+            "id": 0,
             "addonId": 238222,
             "type": 2,
-            "fileId": 2933813
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4020655794,
-            "type": 3
+            "fingerprint": 4167847845,
+            "type": 0
           },
           {
             "foldername": "com",
             "fingerprint": 1622289926,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 2877744749,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1440352454,
-            "type": 3
+            "fingerprint": 949972081,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4253522632,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 1903129030,
+        "packageFingerprint": 1151109153,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1833412,
-        "projectId": 368129,
-        "packageFingerprintId": 442968322,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2185151,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfReturn-1.15.2-1.0.6.jar"
+        "FileNameOnDisk": "RingOfReturn-1.15.2-1.0.9.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2895824Z",
-      "dateUpdated": "2019-05-09T13:11:27.2895824Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:36:42.5868928Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:36:42.5868928Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14037,96 +13965,78 @@
       "addonID": 342466,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2908607,
-        "displayName": "rftoolsutility-1.15-2.0.1-alpha.jar",
-        "fileName": "rftoolsutility-1.15-2.0.1-alpha.jar",
-        "fileDate": "2020-03-22T06:58:16.68Z",
-        "fileLength": 1131286,
+        "id": 2951431,
+        "displayName": "rftoolsutility-1.15-2.1.1-beta.jar",
+        "fileName": "rftoolsutility-1.15-2.1.1-beta.jar",
+        "fileDate": "2020-05-08T12:42:48.527Z",
+        "fileLength": 1356728,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2908/607/rftoolsutility-1.15-2.0.1-alpha.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2951/431/rftoolsutility-1.15-2.1.1-beta.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 38444478,
-            "addonId": 326041,
-            "type": 3,
-            "fileId": 2908607
-          },
-          {
-            "id": 38444477,
+            "id": 0,
             "addonId": 233105,
             "type": 3,
-            "fileId": 2908607
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 326041,
+            "type": 3,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2863128937,
-            "type": 3
+            "fingerprint": 1260854386,
+            "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 816197244,
-            "type": 3
+            "fingerprint": 4229380957,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2375647913,
-            "type": 3
+            "fingerprint": 3196680243,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3345487046,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 2835549746,
-            "type": 3
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 3476058508,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 4146872388,
+        "packageFingerprint": 972839009,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1801351,
-        "projectId": 342466,
-        "packageFingerprintId": 427218772,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2142172,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rftoolsutility-1.15-2.0.1-alpha.jar"
+        "FileNameOnDisk": "rftoolsutility-1.15-2.1.1-beta.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2716346Z",
-      "dateUpdated": "2019-05-09T13:11:27.2716346Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:37:06.2431904Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:37:06.2431904Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15997,96 +15907,78 @@
       "addonID": 332518,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2932350,
-        "displayName": "RingOfRepair-1.15.2-1.1.24.jar",
-        "fileName": "RingOfRepair-1.15.2-1.1.24.jar",
-        "fileDate": "2020-04-17T02:06:57.627Z",
-        "fileLength": 16764,
+        "id": 2947714,
+        "displayName": "RingOfRepair-1.15.2-1.1.27.jar",
+        "fileName": "RingOfRepair-1.15.2-1.1.27.jar",
+        "fileDate": "2020-05-03T23:35:56.48Z",
+        "fileLength": 16656,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2932/350/RingOfRepair-1.15.2-1.1.24.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2947/714/RingOfRepair-1.15.2-1.1.27.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40187315,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 2932350
-          },
-          {
-            "id": 40187316,
+            "id": 0,
             "addonId": 309927,
             "type": 2,
-            "fileId": 2932350
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2878416364,
-            "type": 3
+            "fingerprint": 776411355,
+            "type": 0
           },
           {
             "foldername": "com",
             "fingerprint": 3356576018,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 1750670667,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3566822253,
-            "type": 3
+            "fingerprint": 411065012,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4253522632,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 1212314670,
+        "packageFingerprint": 2079979370,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1831532,
-        "projectId": 332518,
-        "packageFingerprintId": 442131712,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2182599,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfRepair-1.15.2-1.1.24.jar"
+        "FileNameOnDisk": "RingOfRepair-1.15.2-1.1.27.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2666481Z",
-      "dateUpdated": "2019-05-09T13:11:27.2666481Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:36:41.2237547Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:36:41.2237547Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16101,91 +15993,73 @@
       "addonID": 233105,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2908605,
-        "displayName": "mcjtylib-1.15-4.0.3-alpha.jar",
-        "fileName": "mcjtylib-1.15-4.0.3-alpha.jar",
-        "fileDate": "2020-03-22T06:47:48.15Z",
-        "fileLength": 536415,
+        "id": 2951236,
+        "displayName": "mcjtylib-1.15-4.1.0-beta.jar",
+        "fileName": "mcjtylib-1.15-4.1.0-beta.jar",
+        "fileDate": "2020-05-08T07:06:28.6Z",
+        "fileLength": 545377,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2908/605/mcjtylib-1.15-4.0.3-alpha.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2951/236/mcjtylib-1.15-4.1.0-beta.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 38444474,
+            "id": 0,
             "addonId": 245211,
             "type": 2,
-            "fileId": 2908605
+            "fileId": 0
           },
           {
-            "id": 38444473,
+            "id": 0,
             "addonId": 270789,
             "type": 2,
-            "fileId": 2908605
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1976866840,
-            "type": 3
+            "fingerprint": 4035264481,
+            "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 4129217441,
-            "type": 3
+            "fingerprint": 259699869,
+            "type": 0
           },
           {
             "foldername": "assets",
             "fingerprint": 847320386,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 3650016781,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 1647188506,
+        "packageFingerprint": 3621894087,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1801349,
-        "projectId": 233105,
-        "packageFingerprintId": 427218242,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2142166,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "mcjtylib-1.15-4.0.3-alpha.jar"
+        "FileNameOnDisk": "mcjtylib-1.15-4.1.0-beta.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2786126Z",
-      "dateUpdated": "2019-05-09T13:11:27.2786126Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:38:34.858224Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:38:34.858224Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16601,90 +16475,72 @@
       "addonID": 332534,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2932345,
-        "displayName": "RingOfGrowth-1.15.2-1.1.24.jar",
-        "fileName": "RingOfGrowth-1.15.2-1.1.24.jar",
-        "fileDate": "2020-04-17T01:58:55.237Z",
-        "fileLength": 14112,
+        "id": 2947722,
+        "displayName": "RingOfGrowth-1.15.2-1.1.27.jar",
+        "fileName": "RingOfGrowth-1.15.2-1.1.27.jar",
+        "fileDate": "2020-05-03T23:46:44.59Z",
+        "fileLength": 13988,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2932/345/RingOfGrowth-1.15.2-1.1.24.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2947/722/RingOfGrowth-1.15.2-1.1.27.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40186797,
+            "id": 0,
             "addonId": 238222,
             "type": 2,
-            "fileId": 2932345
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4215591780,
-            "type": 3
+            "fingerprint": 2204621487,
+            "type": 0
           },
           {
             "foldername": "com",
             "fingerprint": 3892754376,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 1338636054,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 4094807650,
-            "type": 3
+            "fingerprint": 4156416703,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4253522632,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 2860889485,
+        "packageFingerprint": 962355492,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1831526,
-        "projectId": 332534,
-        "packageFingerprintId": 442128246,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2182592,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfGrowth-1.15.2-1.1.24.jar"
+        "FileNameOnDisk": "RingOfGrowth-1.15.2-1.1.27.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3115248Z",
-      "dateUpdated": "2019-05-09T13:11:27.3115248Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:36:38.4243108Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:36:38.4243108Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17027,90 +16883,72 @@
       "addonID": 332545,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2932342,
-        "displayName": "RingOfTeleport-1.15.2-1.1.23.jar",
-        "fileName": "RingOfTeleport-1.15.2-1.1.23.jar",
-        "fileDate": "2020-04-17T01:53:36.847Z",
-        "fileLength": 15294,
+        "id": 2947693,
+        "displayName": "RingOfTeleport-1.15.2-1.1.26.jar",
+        "fileName": "RingOfTeleport-1.15.2-1.1.26.jar",
+        "fileDate": "2020-05-03T22:58:03.16Z",
+        "fileLength": 15176,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2932/342/RingOfTeleport-1.15.2-1.1.23.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2947/693/RingOfTeleport-1.15.2-1.1.26.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40186650,
+            "id": 0,
             "addonId": 238222,
             "type": 2,
-            "fileId": 2932342
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3230173326,
-            "type": 3
+            "fingerprint": 2708060245,
+            "type": 0
           },
           {
             "foldername": "com",
             "fingerprint": 3218842322,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 699792727,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2581341600,
-            "type": 3
+            "fingerprint": 1734592290,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4253522632,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 3818710915,
+        "packageFingerprint": 4260049204,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1831523,
-        "projectId": 332545,
-        "packageFingerprintId": 442128056,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2182587,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfTeleport-1.15.2-1.1.23.jar"
+        "FileNameOnDisk": "RingOfTeleport-1.15.2-1.1.26.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2686421Z",
-      "dateUpdated": "2019-05-09T13:11:27.2686421Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:36:43.9823504Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:36:43.9823504Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17302,90 +17140,72 @@
       "addonID": 332562,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2932338,
-        "displayName": "RingOfBlink-1.15.2-1.1.22.jar",
-        "fileName": "RingOfBlink-1.15.2-1.1.22.jar",
-        "fileDate": "2020-04-17T01:48:03.703Z",
-        "fileLength": 14769,
+        "id": 2947257,
+        "displayName": "RingOfBlink-1.15.2-1.1.25.jar",
+        "fileName": "RingOfBlink-1.15.2-1.1.25.jar",
+        "fileDate": "2020-05-03T12:49:36.423Z",
+        "fileLength": 14596,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2932/338/RingOfBlink-1.15.2-1.1.22.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2947/257/RingOfBlink-1.15.2-1.1.25.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40186210,
+            "id": 0,
             "addonId": 238222,
             "type": 2,
-            "fileId": 2932338
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2427166940,
-            "type": 3
+            "fingerprint": 2523322040,
+            "type": 0
           },
           {
             "foldername": "com",
             "fingerprint": 1202573722,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 2207863530,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 79284515,
-            "type": 3
+            "fingerprint": 1122831337,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4253522632,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 1192320841,
+        "packageFingerprint": 2355115999,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1831519,
-        "projectId": 332562,
-        "packageFingerprintId": 442127036,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2182581,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfBlink-1.15.2-1.1.22.jar"
+        "FileNameOnDisk": "RingOfBlink-1.15.2-1.1.25.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2796081Z",
-      "dateUpdated": "2019-05-09T13:11:27.2796081Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:36:31.6385233Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:36:31.6385233Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17936,90 +17756,72 @@
       "addonID": 332596,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2932354,
-        "displayName": "RingOfEnderchest-1.15.2-1.1.25.jar",
-        "fileName": "RingOfEnderchest-1.15.2-1.1.25.jar",
-        "fileDate": "2020-04-17T02:12:38.62Z",
-        "fileLength": 11356,
+        "id": 2947698,
+        "displayName": "RingOfEnderchest-1.15.2-1.1.28.jar",
+        "fileName": "RingOfEnderchest-1.15.2-1.1.28.jar",
+        "fileDate": "2020-05-03T23:05:20.657Z",
+        "fileLength": 11239,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2932/354/RingOfEnderchest-1.15.2-1.1.25.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2947/698/RingOfEnderchest-1.15.2-1.1.28.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40188297,
+            "id": 0,
             "addonId": 238222,
             "type": 2,
-            "fileId": 2932354
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4120103981,
-            "type": 3
+            "fingerprint": 2340675130,
+            "type": 0
           },
           {
             "foldername": "com",
             "fingerprint": 3460987076,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 1177432614,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 4116869817,
-            "type": 3
+            "fingerprint": 2985090583,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4253522632,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 566701973,
+        "packageFingerprint": 205515289,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1831537,
-        "projectId": 332596,
-        "packageFingerprintId": 442137187,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2182605,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfEnderchest-1.15.2-1.1.25.jar"
+        "FileNameOnDisk": "RingOfEnderchest-1.15.2-1.1.28.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2875903Z",
-      "dateUpdated": "2019-05-09T13:11:27.2875903Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:36:45.3579398Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:36:45.3579398Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19166,108 +18968,90 @@
       "addonID": 290209,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2875983,
-        "displayName": "rftoolspower-1.15-2.0.1-alpha.jar",
-        "fileName": "rftoolspower-1.15-2.0.1-alpha.jar",
-        "fileDate": "2020-02-06T11:37:31.76Z",
-        "fileLength": 245889,
+        "id": 2951437,
+        "displayName": "rftoolspower-1.15-2.1.1-beta.jar",
+        "fileName": "rftoolspower-1.15-2.1.1-beta.jar",
+        "fileDate": "2020-05-08T12:45:08.037Z",
+        "fileLength": 251180,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2875/983/rftoolspower-1.15-2.0.1-alpha.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2951/437/rftoolspower-1.15-2.1.1-beta.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 36285711,
+            "id": 0,
             "addonId": 224641,
             "type": 2,
-            "fileId": 2875983
+            "fileId": 0
           },
           {
-            "id": 36285710,
+            "id": 0,
             "addonId": 245211,
             "type": 2,
-            "fileId": 2875983
+            "fileId": 0
           },
           {
-            "id": 36285713,
+            "id": 0,
             "addonId": 233105,
             "type": 3,
-            "fileId": 2875983
+            "fileId": 0
           },
           {
-            "id": 36285712,
+            "id": 0,
             "addonId": 326041,
             "type": 3,
-            "fileId": 2875983
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3845324875,
-            "type": 3
+            "fingerprint": 202857204,
+            "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 464140646,
-            "type": 3
+            "fingerprint": 2237400120,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 516010848,
-            "type": 3
+            "fingerprint": 3645661925,
+            "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 2430451204,
-            "type": 3
+            "fingerprint": 2416585167,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 307592366,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 1513324104,
+        "packageFingerprint": 905732878,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1761279,
-        "projectId": 290209,
-        "packageFingerprintId": 406133773,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2088355,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rftoolspower-1.15-2.0.1-alpha.jar"
+        "FileNameOnDisk": "rftoolspower-1.15-2.1.1-beta.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3095042Z",
-      "dateUpdated": "2019-05-09T13:11:27.3095042Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:36:54.38702Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:36:54.38702Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20335,96 +20119,78 @@
       "addonID": 326041,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2908606,
-        "displayName": "rftoolsbase-1.15-1.0.1-alpha.jar",
-        "fileName": "rftoolsbase-1.15-1.0.1-alpha.jar",
-        "fileDate": "2020-03-22T06:57:39.8Z",
-        "fileLength": 228306,
+        "id": 2951430,
+        "displayName": "rftoolsbase-1.15-1.1.1-beta.jar",
+        "fileName": "rftoolsbase-1.15-1.1.1-beta.jar",
+        "fileDate": "2020-05-08T12:42:05.157Z",
+        "fileLength": 377810,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2908/606/rftoolsbase-1.15-1.0.1-alpha.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2951/430/rftoolsbase-1.15-1.1.1-beta.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 38444476,
-            "addonId": 233105,
-            "type": 3,
-            "fileId": 2908606
-          },
-          {
-            "id": 38444475,
+            "id": 0,
             "addonId": 245211,
             "type": 2,
-            "fileId": 2908606
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 233105,
+            "type": 3,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1240489380,
-            "type": 3
+            "fingerprint": 724408002,
+            "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 343935615,
-            "type": 3
+            "fingerprint": 2052699737,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 718263895,
-            "type": 3
+            "fingerprint": 557849045,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3014404705,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 334750689,
-            "type": 3
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2721162039,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 2761540002,
+        "packageFingerprint": 3452276077,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1801350,
-        "projectId": 326041,
-        "packageFingerprintId": 427218561,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2142169,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rftoolsbase-1.15-1.0.1-alpha.jar"
+        "FileNameOnDisk": "rftoolsbase-1.15-1.1.1-beta.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2995532Z",
-      "dateUpdated": "2019-05-09T13:11:27.2995532Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:36:51.3958258Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:36:51.3958258Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20439,90 +20205,72 @@
       "addonID": 332743,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2932325,
-        "displayName": "RingOfMiner-1.15.2-1.1.22.jar",
-        "fileName": "RingOfMiner-1.15.2-1.1.22.jar",
-        "fileDate": "2020-04-17T01:36:16.017Z",
-        "fileLength": 16243,
+        "id": 2947253,
+        "displayName": "RingOfMiner-1.15.2-1.1.25.jar",
+        "fileName": "RingOfMiner-1.15.2-1.1.25.jar",
+        "fileDate": "2020-05-03T12:40:08.61Z",
+        "fileLength": 16133,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2932/325/RingOfMiner-1.15.2-1.1.22.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2947/253/RingOfMiner-1.15.2-1.1.25.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40184401,
+            "id": 0,
             "addonId": 238222,
             "type": 2,
-            "fileId": 2932325
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1904156610,
-            "type": 3
+            "fingerprint": 2383583691,
+            "type": 0
           },
           {
             "foldername": "com",
             "fingerprint": 3125310407,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 3252979360,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1163546356,
-            "type": 3
+            "fingerprint": 782546089,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4253522632,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 720470570,
+        "packageFingerprint": 4149514643,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1831505,
-        "projectId": 332743,
-        "packageFingerprintId": 442113562,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2182555,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfMiner-1.15.2-1.1.22.jar"
+        "FileNameOnDisk": "RingOfMiner-1.15.2-1.1.25.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2975606Z",
-      "dateUpdated": "2019-05-09T13:11:27.2975606Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:36:46.8455951Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:36:46.8455951Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
