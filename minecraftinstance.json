@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-05-09T14:50:28.7683334Z",
+  "lastPlayed": "2020-05-09T15:02:55.6568288Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -4086,89 +4086,77 @@
       "addonID": 241319,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2934163,
-        "displayName": "Reliquary-1.15.2-1.3.4.972.jar",
-        "fileName": "Reliquary-1.15.2-1.3.4.972.jar",
-        "fileDate": "2020-04-18T23:13:04.863Z",
-        "fileLength": 1329864,
+        "id": 2942597,
+        "displayName": "Reliquary-1.15.2-1.3.4.995.jar",
+        "fileName": "Reliquary-1.15.2-1.3.4.995.jar",
+        "fileDate": "2020-04-28T14:48:45.703Z",
+        "fileLength": 1330174,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2934/163/Reliquary-1.15.2-1.3.4.972.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2942/597/Reliquary-1.15.2-1.3.4.995.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40325107,
+            "id": 0,
             "addonId": 309927,
             "type": 2,
-            "fileId": 2934163
+            "fileId": 0
           },
           {
-            "id": 40325108,
+            "id": 0,
             "addonId": 238222,
             "type": 2,
-            "fileId": 2934163
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1064721501,
-            "type": 3
+            "fingerprint": 3143403359,
+            "type": 0
           },
           {
             "foldername": "xreliquary",
-            "fingerprint": 3026500042,
-            "type": 3
+            "fingerprint": 611726904,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 2662358237,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 1437897098,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
             "fingerprint": 3400651329,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 2108397105,
+        "packageFingerprint": 3365536026,
         "gameVersion": [
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1833874,
-        "projectId": 241319,
-        "packageFingerprintId": 443182793,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
-        "gameVersionMappingId": 2185690,
-        "gameVersionId": 7722,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Reliquary-1.15.2-1.3.4.972.jar"
+        "FileNameOnDisk": "Reliquary-1.15.2-1.3.4.995.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2746263Z",
-      "dateUpdated": "2019-05-09T13:11:27.2746263Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:57:52.6111016Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:57:52.6111016Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9669,14 +9657,14 @@
       "addonID": 309830,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2933418,
-        "displayName": "PlantTech 2 - 0.02.04 - 1.15.2",
-        "fileName": "planttech2-0.02.04 - 1.15.2.jar",
-        "fileDate": "2020-04-18T06:54:46.233Z",
-        "fileLength": 3583659,
+        "id": 2952168,
+        "displayName": "PlantTech 2 - 0.02.07 - 1.15.2",
+        "fileName": "planttech2-0.02.07 - 1.15.2.jar",
+        "fileDate": "2020-05-09T08:35:14.69Z",
+        "fileLength": 3684000,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2933/418/planttech2-0.02.04 - 1.15.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2952/168/planttech2-0.02.07 - 1.15.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -9684,68 +9672,50 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2419803314,
-            "type": 3
+            "fingerprint": 142442791,
+            "type": 0
           },
           {
             "foldername": "net",
-            "fingerprint": 3524851190,
-            "type": 3
+            "fingerprint": 2478093438,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2548094897,
-            "type": 3
+            "fingerprint": 725038436,
+            "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 656949642,
-            "type": 3
+            "fingerprint": 2748972050,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 846314453,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 403868473,
+        "packageFingerprint": 1208482784,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1832921,
-        "projectId": 309830,
-        "packageFingerprintId": 442752659,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2184429,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "planttech2-0.02.04 - 1.15.2.jar"
+        "FileNameOnDisk": "planttech2-0.02.07 - 1.15.2.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2955705Z",
-      "dateUpdated": "2019-05-09T13:11:27.2955705Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:58:10.0990995Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:58:10.0990995Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10036,14 +10006,14 @@
       "addonID": 354522,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2933798,
+        "id": 2937982,
         "displayName": "quickstack-3.0.3c.jar",
         "fileName": "quickstack-3.0.3c.jar",
-        "fileDate": "2020-04-18T16:26:44.93Z",
-        "fileLength": 44500,
+        "fileDate": "2020-04-23T00:25:53.59Z",
+        "fileLength": 45034,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2933/798/quickstack-3.0.3c.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2937/982/quickstack-3.0.3c.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -10051,51 +10021,39 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3900497458,
-            "type": 3
+            "fingerprint": 2468450635,
+            "type": 0
           },
           {
             "foldername": "scp002",
-            "fingerprint": 28854791,
-            "type": 3
+            "fingerprint": 4227078672,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4253522632,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 3865378094,
+        "packageFingerprint": 2534099592,
         "gameVersion": [
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1833394,
-        "projectId": 354522,
-        "packageFingerprintId": 442963362,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
-        "gameVersionMappingId": 2185130,
-        "gameVersionId": 7722,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
         "FileNameOnDisk": "quickstack-3.0.3c.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3085362Z",
-      "dateUpdated": "2019-05-09T13:11:27.3085362Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:57:58.792377Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:57:58.792377Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12160,14 +12118,14 @@
       "addonID": 347954,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2924211,
-        "displayName": "Lollipop-1.15.2-1.0.14.jar",
-        "fileName": "Lollipop-1.15.2-1.0.14.jar",
-        "fileDate": "2020-04-08T09:56:38.557Z",
-        "fileLength": 463944,
+        "id": 2941403,
+        "displayName": "Lollipop-1.15.2-1.0.15.jar",
+        "fileName": "Lollipop-1.15.2-1.0.15.jar",
+        "fileDate": "2020-04-26T21:09:38.47Z",
+        "fileLength": 465092,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2924/211/Lollipop-1.15.2-1.0.14.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2941/403/Lollipop-1.15.2-1.0.15.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -12175,56 +12133,44 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2465414576,
-            "type": 3
+            "fingerprint": 2758865624,
+            "type": 0
           },
           {
             "foldername": "owmii",
-            "fingerprint": 2723165558,
-            "type": 3
+            "fingerprint": 2779763172,
+            "type": 0
           },
           {
             "foldername": "assets",
             "fingerprint": 406207277,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 1123368492,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 954027456,
+        "packageFingerprint": 1804839133,
         "gameVersion": [
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1821102,
-        "projectId": 347954,
-        "packageFingerprintId": 436705274,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2168776,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Lollipop-1.15.2-1.0.14.jar"
+        "FileNameOnDisk": "Lollipop-1.15.2-1.0.15.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2736291Z",
-      "dateUpdated": "2019-05-09T13:11:27.2736291Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T15:02:45.4800047Z",
+      "dateLastUpdateAttempted": "2020-05-09T15:02:45.4800047Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14462,14 +14408,14 @@
       "addonID": 243076,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2871849,
-        "displayName": "Refined Storage 1.8.1",
-        "fileName": "refinedstorage-1.8.1.jar",
-        "fileDate": "2020-01-30T10:45:36.913Z",
-        "fileLength": 1840305,
+        "id": 2943760,
+        "displayName": "Refined Storage 1.8.3",
+        "fileName": "refinedstorage-1.8.3.jar",
+        "fileDate": "2020-04-29T17:37:45.963Z",
+        "fileLength": 1890462,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2871/849/refinedstorage-1.8.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2943/760/refinedstorage-1.8.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -14477,73 +14423,55 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1563615338,
-            "type": 3
+            "fingerprint": 710608610,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2956733627,
-            "type": 3
+            "fingerprint": 2924801501,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3553560948,
-            "type": 3
+            "fingerprint": 506418472,
+            "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 1020751182,
-            "type": 3
+            "fingerprint": 1420235897,
+            "type": 0
           },
           {
             "foldername": "logo.png",
             "fingerprint": 3020331149,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 3533008998,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 2593317090,
+        "packageFingerprint": 4065795168,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1756176,
-        "projectId": 243076,
-        "packageFingerprintId": 403531122,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2080523,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "refinedstorage-1.8.1.jar"
+        "FileNameOnDisk": "refinedstorage-1.8.3.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2935698Z",
-      "dateUpdated": "2019-05-09T13:11:27.2935698Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:57:53.5516568Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:57:53.5516568Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15257,110 +15185,92 @@
       "addonID": 243121,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2931637,
-        "displayName": "Quark-r2.1-231.jar",
-        "fileName": "Quark-r2.1-231.jar",
-        "fileDate": "2020-04-16T10:32:43.72Z",
-        "fileLength": 4838944,
+        "id": 2944158,
+        "displayName": "Quark-r2.1-235.jar",
+        "fileName": "Quark-r2.1-235.jar",
+        "fileDate": "2020-04-30T00:56:27.517Z",
+        "fileLength": 5367761,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2931/637/Quark-r2.1-231.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2944/158/Quark-r2.1-235.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40134958,
+            "id": 0,
             "addonId": 250363,
             "type": 3,
-            "fileId": 2931637
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3595392973,
-            "type": 3
+            "fingerprint": 3784941791,
+            "type": 0
           },
           {
             "foldername": "vazkii",
-            "fingerprint": 4251775675,
-            "type": 3
+            "fingerprint": 209424063,
+            "type": 0
           },
           {
             "foldername": "asm",
-            "fingerprint": 4118983094,
-            "type": 3
+            "fingerprint": 3122410887,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 4066642824,
-            "type": 3
+            "fingerprint": 2971329084,
+            "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 2937088138,
-            "type": 3
+            "fingerprint": 3172317579,
+            "type": 0
           },
           {
             "foldername": "genscripts",
-            "fingerprint": 1593499047,
-            "type": 3
+            "fingerprint": 639376859,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 2899891612,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "proxypack.mcmeta",
             "fingerprint": 2303534909,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "proxypack.png",
             "fingerprint": 3258380684,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 1665877206,
+        "packageFingerprint": 2196635012,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1830618,
-        "projectId": 243121,
-        "packageFingerprintId": 441659929,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2181358,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Quark-r2.1-231.jar"
+        "FileNameOnDisk": "Quark-r2.1-235.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3045453Z",
-      "dateUpdated": "2019-05-09T13:11:27.3045453Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:58:05.1403408Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:58:05.1403408Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16904,83 +16814,71 @@
       "addonID": 352656,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2924212,
-        "displayName": "Powah-1.15.2-1.1.12.jar",
-        "fileName": "Powah-1.15.2-1.1.12.jar",
-        "fileDate": "2020-04-08T09:56:41.51Z",
-        "fileLength": 998724,
+        "id": 2941416,
+        "displayName": "Powah-1.15.2-1.1.14.jar",
+        "fileName": "Powah-1.15.2-1.1.14.jar",
+        "fileDate": "2020-04-26T21:24:44.617Z",
+        "fileLength": 999101,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2924/212/Powah-1.15.2-1.1.12.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2941/416/Powah-1.15.2-1.1.14.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40277574,
+            "id": 0,
             "addonId": 347954,
             "type": 3,
-            "fileId": 2924212
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2867118723,
-            "type": 3
+            "fingerprint": 1320867406,
+            "type": 0
           },
           {
             "foldername": "owmii",
-            "fingerprint": 3875529841,
-            "type": 3
+            "fingerprint": 4048454945,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2774829299,
-            "type": 3
+            "fingerprint": 3007307305,
+            "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 1146763296,
-            "type": 3
+            "fingerprint": 1305763508,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 2829525234,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 2309772560,
+        "packageFingerprint": 13120848,
         "gameVersion": [
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1821103,
-        "projectId": 352656,
-        "packageFingerprintId": 436705447,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2168778,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Powah-1.15.2-1.1.12.jar"
+        "FileNameOnDisk": "Powah-1.15.2-1.1.14.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2915765Z",
-      "dateUpdated": "2019-05-09T13:11:27.2915765Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:58:08.306368Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:58:08.306368Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18540,14 +18438,14 @@
       "addonID": 237701,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2859264,
-        "displayName": "ReAuth-3.8.0",
-        "fileName": "ReAuth-1.14-3.8.0.jar",
-        "fileDate": "2020-01-12T21:55:34.137Z",
-        "fileLength": 25794,
+        "id": 2950766,
+        "displayName": "ReAuth-3.8.1",
+        "fileName": "ReAuth-1.14-1.15-3.8.1.jar",
+        "fileDate": "2020-05-07T17:10:02.14Z",
+        "fileLength": 35214,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2859/264/ReAuth-1.14-3.8.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2950/766/ReAuth-1.14-1.15-3.8.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -18555,26 +18453,26 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1815499900,
-            "type": 3
+            "fingerprint": 945673420,
+            "type": 0
           },
           {
             "foldername": "technicianlp",
-            "fingerprint": 2848650851,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 991238703,
-            "type": 3
+            "fingerprint": 276999311,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 1864659022,
-            "type": 3
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2706950255,
+            "type": 0
           }
         ],
-        "packageFingerprint": 1533496692,
+        "packageFingerprint": 3893751770,
         "gameVersion": [
           "1.14.4",
           "1.15",
@@ -18582,57 +18480,21 @@
           "1.15.2",
           "1.15.1"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000014.0000000004",
-            "gameVersion": "1.14.4",
-            "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
-            "gameVersionName": "1.14.4"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015",
-            "gameVersion": "1.15",
-            "gameVersionReleaseDate": "2019-12-10T15:26:51.027Z",
-            "gameVersionName": "1.15"
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000001",
-            "gameVersion": "1.15.1",
-            "gameVersionReleaseDate": "2019-12-17T00:00:00Z",
-            "gameVersionName": "1.15.1"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1741352,
-        "projectId": 237701,
-        "packageFingerprintId": 397144298,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2060327,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "ReAuth-1.14-3.8.0.jar"
+        "FileNameOnDisk": "ReAuth-1.14-1.15-3.8.1.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2885876Z",
-      "dateUpdated": "2019-05-09T13:11:27.2885876Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-09T14:57:55.1069664Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:57:55.1069664Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
