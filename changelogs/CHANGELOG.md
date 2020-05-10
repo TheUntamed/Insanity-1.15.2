@@ -78,7 +78,7 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.1.77
 * *Ring of the Miner [FORGE]* (1.1.22 --> 1.1.24)
 * *Silent Lib* (4.6.0+48 --> 4.6.1+49)
 * *Structurize* (282-RELEASE --> 313-RELEASE)
-* *TerraForged* (0.0.12 --> 0.0.13)
+* *TerraForged* (0.0.12 --> 0.0.14)
 * *Tetra* (2.3.0 --> 2.5.0)
 * *Tesseract* (1.0.1 --> 1.0.4)
 * *The Endergetic Expansion* (v1.2.5 --> v1.2.8)

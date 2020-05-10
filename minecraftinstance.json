@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-05-10T13:14:23.4388903Z",
+  "lastPlayed": "2020-05-10T13:39:18.9720421Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -5932,100 +5932,88 @@
       "addonID": 238086,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2933688,
-        "displayName": "kubejs-2.6.0.29.jar",
-        "fileName": "kubejs-2.6.0.29.jar",
-        "fileDate": "2020-04-18T14:36:16.897Z",
-        "fileLength": 440388,
+        "id": 2953148,
+        "displayName": "kubejs-2.6.1.34.jar",
+        "fileName": "kubejs-2.6.1.34.jar",
+        "fileDate": "2020-05-10T11:46:24.767Z",
+        "fileLength": 453668,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2933/688/kubejs-2.6.0.29.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2953/148/kubejs-2.6.1.34.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40282862,
-            "addonId": 268655,
-            "type": 2,
-            "fileId": 2933688
-          },
-          {
-            "id": 40282864,
+            "id": 0,
             "addonId": 238222,
             "type": 2,
-            "fileId": 2933688
+            "fileId": 0
           },
           {
-            "id": 40282863,
+            "id": 0,
             "addonId": 357178,
             "type": 3,
-            "fileId": 2933688
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 268655,
+            "type": 2,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 428213830,
-            "type": 3
+            "fingerprint": 3231524926,
+            "type": 0
           },
           {
             "foldername": "dev",
-            "fingerprint": 2426109955,
-            "type": 3
+            "fingerprint": 521011004,
+            "type": 0
           },
           {
             "foldername": "kubejs_logo.png",
             "fingerprint": 658118443,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "kubejs.mixins.json",
-            "fingerprint": 1342022104,
-            "type": 3
+            "fingerprint": 2461491732,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 769408259,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "kubejs.refmap.json",
-            "fingerprint": 3508157247,
-            "type": 3
+            "fingerprint": 2962101957,
+            "type": 0
           }
         ],
-        "packageFingerprint": 2750678957,
+        "packageFingerprint": 603390423,
         "gameVersion": [
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1833265,
-        "projectId": 238086,
-        "packageFingerprintId": 442912403,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2184950,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "kubejs-2.6.0.29.jar"
+        "FileNameOnDisk": "kubejs-2.6.1.34.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2775903Z",
-      "dateUpdated": "2019-05-09T13:11:27.2775903Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-10T13:38:56.8673041Z",
+      "dateLastUpdateAttempted": "2020-05-10T13:38:56.8673041Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9996,141 +9984,111 @@
       "addonID": 325492,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2931777,
-        "displayName": "[Forge / Fabric 1.15.x] v4.4",
-        "fileName": "LightOverlay-4.4.jar",
-        "fileDate": "2020-04-16T14:36:52.057Z",
-        "fileLength": 471650,
+        "id": 2943730,
+        "displayName": "[Forge / Fabric 1.15.x] v4.6.1",
+        "fileName": "LightOverlay-4.6.1.jar",
+        "fileDate": "2020-04-29T17:02:28.917Z",
+        "fileLength": 471711,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2931/777/LightOverlay-4.4.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2943/730/LightOverlay-4.6.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40141865,
-            "addonId": 319057,
-            "type": 1,
-            "fileId": 2931777
-          },
-          {
-            "id": 40141867,
+            "id": 0,
             "addonId": 348521,
             "type": 3,
-            "fileId": 2931777
+            "fileId": 0
           },
           {
-            "id": 40141866,
+            "id": 0,
             "addonId": 317121,
             "type": 1,
-            "fileId": 2931777
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 319057,
+            "type": 1,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "fabric.mod.json",
-            "fingerprint": 1004009211,
-            "type": 3
+            "fingerprint": 2770769284,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 1728173885,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 4242316320,
-            "type": 3
+            "fingerprint": 705317885,
+            "type": 0
           },
           {
             "foldername": "META-INF",
-            "fingerprint": 2807814222,
-            "type": 3
+            "fingerprint": 3704638542,
+            "type": 0
           },
           {
             "foldername": "me",
-            "fingerprint": 728027911,
-            "type": 3
+            "fingerprint": 2893051108,
+            "type": 0
           },
           {
             "foldername": "lightoverlay.accesswidener",
             "fingerprint": 759458513,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "lightoverlay_icon_lowres.png",
             "fingerprint": 1881518080,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "LightOverlay-refmap.json",
             "fingerprint": 501699212,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "lightoverlay.mixins.json",
             "fingerprint": 2801970255,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "icon.png",
             "fingerprint": 1881518080,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 2313011022,
+        "packageFingerprint": 2221874101,
         "gameVersion": [
           "1.15-Snapshot",
           "1.15",
           "1.15.2",
           "1.15.1"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000015",
-            "gameVersion": "1.15",
-            "gameVersionReleaseDate": "2019-08-22T00:00:00Z",
-            "gameVersionName": "1.15-Snapshot"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015",
-            "gameVersion": "1.15",
-            "gameVersionReleaseDate": "2019-12-10T15:26:51.027Z",
-            "gameVersionName": "1.15"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000001",
-            "gameVersion": "1.15.1",
-            "gameVersionReleaseDate": "2019-12-17T00:00:00Z",
-            "gameVersionName": "1.15.1"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1830800,
-        "projectId": 325492,
-        "packageFingerprintId": 441754110,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2181572,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "LightOverlay-4.4.jar"
+        "FileNameOnDisk": "LightOverlay-4.6.1.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2775903Z",
-      "dateUpdated": "2019-05-09T13:11:27.2775903Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-10T13:38:57.6010353Z",
+      "dateLastUpdateAttempted": "2020-05-10T13:38:57.6010353Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16322,14 +16280,14 @@
       "addonID": 363820,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2944668,
-        "displayName": "0.0.13",
-        "fileName": "TerraForged-1.15.2-0.0.13.jar",
-        "fileDate": "2020-04-30T16:33:53.17Z",
-        "fileLength": 999151,
+        "id": 2953095,
+        "displayName": "0.0.14",
+        "fileName": "TerraForged-1.15.2-0.0.14.jar",
+        "fileDate": "2020-05-10T10:06:07.867Z",
+        "fileLength": 1012537,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2944/668/TerraForged-1.15.2-0.0.13.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2953/95/TerraForged-1.15.2-0.0.14.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -16337,7 +16295,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 692476405,
+            "fingerprint": 831125026,
             "type": 0
           },
           {
@@ -16347,12 +16305,12 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 1451904832,
+            "fingerprint": 3934192815,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 795638306,
+            "fingerprint": 2755679645,
             "type": 0
           },
           {
@@ -16382,11 +16340,11 @@
           },
           {
             "foldername": "biomes.txt",
-            "fingerprint": 792536263,
+            "fingerprint": 366301374,
             "type": 0
           }
         ],
-        "packageFingerprint": 3147586942,
+        "packageFingerprint": 2435932870,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -16400,12 +16358,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "TerraForged-1.15.2-0.0.13.jar"
+        "FileNameOnDisk": "TerraForged-1.15.2-0.0.14.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3065392Z",
-      "dateUpdated": "2020-05-09T14:50:15.4339646Z",
-      "dateLastUpdateAttempted": "2020-05-09T14:50:15.4339646Z",
-      "status": 3,
+      "dateUpdated": "2020-05-10T13:39:04.4886413Z",
+      "dateLastUpdateAttempted": "2020-05-10T13:39:04.4886413Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
