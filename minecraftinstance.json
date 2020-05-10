@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-05-10T13:05:50.3780046Z",
+  "lastPlayed": "2020-05-10T13:14:23.4388903Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -13893,100 +13893,82 @@
       "addonID": 266515,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2902496,
-        "displayName": "industrial-foregoing-1.15.2-2.2.2-28d4a81.jar",
-        "fileName": "industrial-foregoing-1.15.2-2.2.2-28d4a81.jar",
-        "fileDate": "2020-03-15T17:14:15.283Z",
-        "fileLength": 1283484,
+        "id": 2947550,
+        "displayName": "industrial-foregoing-1.15.2-2.3.0-6f57752.jar",
+        "fileName": "industrial-foregoing-1.15.2-2.3.0-6f57752.jar",
+        "fileDate": "2020-05-03T19:38:59.097Z",
+        "fileLength": 1364196,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2902/496/industrial-foregoing-1.15.2-2.2.2-28d4a81.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2947/550/industrial-foregoing-1.15.2-2.3.0-6f57752.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 38077938,
+            "id": 0,
             "addonId": 287342,
             "type": 3,
-            "fileId": 2902496
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3710114474,
-            "type": 3
+            "fingerprint": 134624432,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1490398105,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1247586437,
-            "type": 3
+            "fingerprint": 2379117474,
+            "type": 0
           },
           {
             "foldername": "mcmod.info",
             "fingerprint": 390265695,
-            "type": 3
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3517139562,
+            "type": 0
           },
           {
             "foldername": ".cache",
             "fingerprint": 3056057191,
-            "type": 3
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2005957665,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 3273911401,
-            "type": 3
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3594532080,
+            "type": 0
           }
         ],
-        "packageFingerprint": 3572556676,
+        "packageFingerprint": 329891105,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1793692,
-        "projectId": 266515,
-        "packageFingerprintId": 423571566,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 2132743,
-        "gameVersionId": 7498,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "industrial-foregoing-1.15.2-2.2.2-28d4a81.jar"
+        "FileNameOnDisk": "industrial-foregoing-1.15.2-2.3.0-6f57752.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.272633Z",
-      "dateUpdated": "2019-05-09T13:11:27.272633Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-10T13:14:10.6974823Z",
+      "dateLastUpdateAttempted": "2020-05-10T13:14:10.6974823Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16255,95 +16237,77 @@
       "addonID": 359344,
       "gameInstanceID": "e8428ff3-e41a-4446-9791-d5fd81f52f70",
       "installedFile": {
-        "id": 2902632,
-        "displayName": "Interactio-1.15.2-2.0.1.jar",
-        "fileName": "Interactio-1.15.2-2.0.1.jar",
-        "fileDate": "2020-03-15T20:08:54.94Z",
-        "fileLength": 146225,
+        "id": 2948034,
+        "displayName": "Interactio-1.15.2-2.0.2.jar",
+        "fileName": "Interactio-1.15.2-2.0.2.jar",
+        "fileDate": "2020-05-04T12:24:49.297Z",
+        "fileLength": 164045,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2902/632/Interactio-1.15.2-2.0.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2948/34/Interactio-1.15.2-2.0.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 38085802,
+            "id": 0,
             "addonId": 357178,
             "type": 3,
-            "fileId": 2902632
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2277660250,
-            "type": 3
+            "fingerprint": 1469226527,
+            "type": 0
           },
           {
             "foldername": "dev",
-            "fingerprint": 2022493482,
-            "type": 3
+            "fingerprint": 3914791074,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 4001901218,
-            "type": 3
+            "fingerprint": 12938967,
+            "type": 0
           },
           {
             "foldername": "interactio.mixins.json",
-            "fingerprint": 1621007999,
-            "type": 3
+            "fingerprint": 3385299494,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 577927732,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "interactio.refmap.json",
-            "fingerprint": 3510683870,
-            "type": 3
+            "fingerprint": 1604212900,
+            "type": 0
           }
         ],
-        "packageFingerprint": 2833669237,
+        "packageFingerprint": 2091747146,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1793873,
-        "projectId": 359344,
-        "packageFingerprintId": 423648870,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2132955,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Interactio-1.15.2-2.0.1.jar"
+        "FileNameOnDisk": "Interactio-1.15.2-2.0.2.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2786126Z",
-      "dateUpdated": "2019-05-09T13:11:27.2786126Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-10T13:14:13.7580515Z",
+      "dateLastUpdateAttempted": "2020-05-10T13:14:13.7580515Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
