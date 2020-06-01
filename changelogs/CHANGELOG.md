@@ -10,8 +10,11 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.1.77
 
 **Updated Mods**
 
+* *AIOT Botania* (1.2.1 --> 1.2.2)
+* *Apotheosis* (3.0.7 --> 3.1.2)
+* *Aquaculture 2* (2.0.13 --> 2.0.14)
 * *Bookshelf* (5.4.14 --> 5.5.33)
-* *Botania* ( r1.15-382 -->  r1.15-383)
+* *Botania* ( r1.15-382 -->  r1.15-384)
 * *Building Gadgets* (3.3.4 --> 3.3.5)
 * *Camera Mod* (1.6.4 --> 1.6.5)
 * *Carbonado* (2.0.3 --> 2.0.5)
