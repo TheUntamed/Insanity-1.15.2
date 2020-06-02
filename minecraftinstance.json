@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-02T13:39:48.5797403Z",
+  "lastPlayed": "2020-06-02T14:10:41.0332662Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -4937,14 +4937,14 @@
       "addonID": 250294,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2942653,
-        "displayName": "modular-routers-1.15.2-6.0.1-15.jar",
-        "fileName": "modular-routers-1.15.2-6.0.1-15.jar",
-        "fileDate": "2020-04-28T16:27:49.46Z",
-        "fileLength": 1049885,
+        "id": 2954952,
+        "displayName": "modular-routers-1.15.2-6.1.0-17.jar",
+        "fileName": "modular-routers-1.15.2-6.1.0-17.jar",
+        "fileDate": "2020-05-12T15:01:46.317Z",
+        "fileLength": 1051134,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2942/653/modular-routers-1.15.2-6.0.1-15.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2954/952/modular-routers-1.15.2-6.1.0-17.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -4959,12 +4959,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3857504995,
+            "fingerprint": 1487433076,
             "type": 0
           },
           {
             "foldername": "me",
-            "fingerprint": 3533160119,
+            "fingerprint": 501295653,
             "type": 0
           },
           {
@@ -4979,11 +4979,11 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 299906511,
+            "fingerprint": 3399282128,
             "type": 0
           }
         ],
-        "packageFingerprint": 3499224347,
+        "packageFingerprint": 2031963907,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -4997,12 +4997,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "modular-routers-1.15.2-6.0.1-15.jar"
+        "FileNameOnDisk": "modular-routers-1.15.2-6.1.0-17.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3125196Z",
-      "dateUpdated": "2020-05-09T15:20:48.8641799Z",
-      "dateLastUpdateAttempted": "2020-05-09T15:20:48.8641799Z",
-      "status": 3,
+      "dateUpdated": "2020-06-02T13:57:46.1954065Z",
+      "dateLastUpdateAttempted": "2020-06-02T13:57:46.1954065Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10703,14 +10703,14 @@
       "addonID": 238372,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2915089,
-        "displayName": "Neat 1.6-20.jar",
-        "fileName": "Neat 1.6-20.jar",
-        "fileDate": "2020-03-28T18:47:57.597Z",
-        "fileLength": 19697,
+        "id": 2957553,
+        "displayName": "Neat 1.6-22.jar",
+        "fileName": "Neat 1.6-22.jar",
+        "fileDate": "2020-05-15T15:05:10.977Z",
+        "fileLength": 20028,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2915/89/Neat 1.6-20.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2957/553/Neat 1.6-22.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -10718,63 +10718,45 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2817862618,
-            "type": 3
+            "fingerprint": 2882954317,
+            "type": 0
           },
           {
             "foldername": "vazkii",
-            "fingerprint": 775621661,
-            "type": 3
+            "fingerprint": 3613795290,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1764976535,
-            "type": 3
+            "fingerprint": 2996498051,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 1353712245,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 2017209273,
+        "packageFingerprint": 3685890881,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1809388,
-        "projectId": 238372,
-        "packageFingerprintId": 430897842,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2152344,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Neat 1.6-20.jar"
+        "FileNameOnDisk": "Neat 1.6-22.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.302553Z",
-      "dateUpdated": "2019-05-09T13:11:27.302553Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-06-02T14:06:10.3590971Z",
+      "dateLastUpdateAttempted": "2020-06-02T14:06:10.3590971Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10894,96 +10876,78 @@
       "addonID": 256247,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2871240,
-        "displayName": "MysticalAgradditions-1.15.2-3.0.0.jar",
-        "fileName": "MysticalAgradditions-1.15.2-3.0.0.jar",
-        "fileDate": "2020-01-29T04:10:03.667Z",
-        "fileLength": 90354,
+        "id": 2969998,
+        "displayName": "MysticalAgradditions-1.15.2-3.0.1.jar",
+        "fileName": "MysticalAgradditions-1.15.2-3.0.1.jar",
+        "fileDate": "2020-06-01T05:42:37.347Z",
+        "fileLength": 95546,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2871/240/MysticalAgradditions-1.15.2-3.0.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2969/998/MysticalAgradditions-1.15.2-3.0.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40529240,
-            "addonId": 272335,
-            "type": 3,
-            "fileId": 2871240
-          },
-          {
-            "id": 40529241,
+            "id": 0,
             "addonId": 246640,
             "type": 3,
-            "fileId": 2871240
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 272335,
+            "type": 3,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2070103191,
-            "type": 3
+            "fingerprint": 3803878689,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2837972445,
-            "type": 3
+            "fingerprint": 3284439753,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3793037489,
-            "type": 3
+            "fingerprint": 2960231607,
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 4216856409,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 3878919235,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 391567398,
+        "packageFingerprint": 1837512373,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1755454,
-        "projectId": 256247,
-        "packageFingerprintId": 403108374,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2190793,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "MysticalAgradditions-1.15.2-3.0.0.jar"
+        "FileNameOnDisk": "MysticalAgradditions-1.15.2-3.0.1.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2696412Z",
-      "dateUpdated": "2019-05-09T13:11:27.2696412Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-06-02T14:03:40.4220697Z",
+      "dateLastUpdateAttempted": "2020-06-02T14:03:40.4220697Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11079,17 +11043,35 @@
       "addonID": 268560,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2952808,
-        "displayName": "Mekanism-1.15.2-9.10.5.418.jar",
-        "fileName": "Mekanism-1.15.2-9.10.5.418.jar",
-        "fileDate": "2020-05-10T00:46:13.417Z",
-        "fileLength": 7101241,
+        "id": 2967618,
+        "displayName": "Mekanism-1.15.2-9.10.7.420.jar",
+        "fileName": "Mekanism-1.15.2-9.10.7.420.jar",
+        "fileDate": "2020-05-28T17:57:59.97Z",
+        "fileLength": 7105643,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2952/808/Mekanism-1.15.2-9.10.5.418.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2967/618/Mekanism-1.15.2-9.10.7.420.jar",
         "isAlternate": false,
-        "alternateFileId": 2952809,
+        "alternateFileId": 2967619,
         "dependencies": [
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 226410,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 267602,
+            "type": 2,
+            "fileId": 0
+          },
           {
             "id": 0,
             "addonId": 245211,
@@ -11104,7 +11086,7 @@
           },
           {
             "id": 0,
-            "addonId": 267602,
+            "addonId": 220318,
             "type": 2,
             "fileId": 0
           },
@@ -11113,46 +11095,28 @@
             "addonId": 324164,
             "type": 2,
             "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 220318,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 226410,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2633183078,
+            "fingerprint": 2570394117,
             "type": 0
           },
           {
             "foldername": "mekanism",
-            "fingerprint": 482299398,
+            "fingerprint": 134982506,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 3812011601,
+            "fingerprint": 1057754926,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 236828648,
+            "fingerprint": 7921820,
             "type": 0
           },
           {
@@ -11161,7 +11125,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2389305413,
+        "packageFingerprint": 3592275096,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -11175,12 +11139,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Mekanism-1.15.2-9.10.5.418.jar"
+        "FileNameOnDisk": "Mekanism-1.15.2-9.10.7.420.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2975606Z",
-      "dateUpdated": "2020-05-10T13:05:38.779322Z",
-      "dateLastUpdateAttempted": "2020-05-10T13:05:38.779322Z",
-      "status": 3,
+      "dateUpdated": "2020-06-02T13:49:14.8546506Z",
+      "dateLastUpdateAttempted": "2020-06-02T13:49:14.8546506Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11195,14 +11159,14 @@
       "addonID": 268566,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2952810,
-        "displayName": "MekanismGenerators-1.15.2-9.10.5.418.jar",
-        "fileName": "MekanismGenerators-1.15.2-9.10.5.418.jar",
-        "fileDate": "2020-05-10T00:46:15.857Z",
-        "fileLength": 817459,
+        "id": 2967620,
+        "displayName": "MekanismGenerators-1.15.2-9.10.7.420.jar",
+        "fileName": "MekanismGenerators-1.15.2-9.10.7.420.jar",
+        "fileDate": "2020-05-28T17:58:02.567Z",
+        "fileLength": 817715,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2952/810/MekanismGenerators-1.15.2-9.10.5.418.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2967/620/MekanismGenerators-1.15.2-9.10.7.420.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -11217,12 +11181,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2211889055,
+            "fingerprint": 2404663216,
             "type": 0
           },
           {
             "foldername": "mekanism",
-            "fingerprint": 2185286768,
+            "fingerprint": 517635282,
             "type": 0
           },
           {
@@ -11232,7 +11196,7 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 3105276223,
+            "fingerprint": 327656163,
             "type": 0
           },
           {
@@ -11241,7 +11205,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2070614510,
+        "packageFingerprint": 41338977,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -11255,12 +11219,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "MekanismGenerators-1.15.2-9.10.5.418.jar"
+        "FileNameOnDisk": "MekanismGenerators-1.15.2-9.10.7.420.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3135179Z",
-      "dateUpdated": "2020-05-10T13:05:40.2789565Z",
-      "dateLastUpdateAttempted": "2020-05-10T13:05:40.2789565Z",
-      "status": 3,
+      "dateUpdated": "2020-06-02T13:49:15.6914203Z",
+      "dateLastUpdateAttempted": "2020-06-02T13:49:15.6914203Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11275,14 +11239,14 @@
       "addonID": 268567,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2952811,
-        "displayName": "MekanismTools-1.15.2-9.10.5.418.jar",
-        "fileName": "MekanismTools-1.15.2-9.10.5.418.jar",
-        "fileDate": "2020-05-10T00:46:17.253Z",
-        "fileLength": 222199,
+        "id": 2967621,
+        "displayName": "MekanismTools-1.15.2-9.10.7.420.jar",
+        "fileName": "MekanismTools-1.15.2-9.10.7.420.jar",
+        "fileDate": "2020-05-28T17:58:04.017Z",
+        "fileLength": 222173,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2952/811/MekanismTools-1.15.2-9.10.5.418.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2967/621/MekanismTools-1.15.2-9.10.7.420.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -11297,7 +11261,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4267333087,
+            "fingerprint": 199148694,
             "type": 0
           },
           {
@@ -11312,7 +11276,7 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 1909085759,
+            "fingerprint": 1271151597,
             "type": 0
           },
           {
@@ -11321,7 +11285,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 500471990,
+        "packageFingerprint": 2263547929,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -11335,12 +11299,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "MekanismTools-1.15.2-9.10.5.418.jar"
+        "FileNameOnDisk": "MekanismTools-1.15.2-9.10.7.420.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2885876Z",
-      "dateUpdated": "2020-05-10T13:05:41.0096832Z",
-      "dateLastUpdateAttempted": "2020-05-10T13:05:41.0096832Z",
-      "status": 3,
+      "dateUpdated": "2020-06-02T13:57:35.4879378Z",
+      "dateLastUpdateAttempted": "2020-06-02T13:57:35.4879378Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12518,27 +12482,27 @@
       "addonID": 306626,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2949119,
-        "displayName": "NaturesAura-26.0.jar",
-        "fileName": "NaturesAura-26.0.jar",
-        "fileDate": "2020-05-05T18:08:23.81Z",
-        "fileLength": 1242415,
+        "id": 2968257,
+        "displayName": "NaturesAura-28.2.jar",
+        "fileName": "NaturesAura-28.2.jar",
+        "fileDate": "2020-05-29T17:13:54.82Z",
+        "fileLength": 1280781,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2949/119/NaturesAura-26.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2968/257/NaturesAura-28.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 313272,
-            "type": 2,
+            "addonId": 306770,
+            "type": 3,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 306770,
-            "type": 3,
+            "addonId": 313272,
+            "type": 2,
             "fileId": 0
           },
           {
@@ -12558,27 +12522,27 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3986003287,
+            "fingerprint": 3227638426,
             "type": 0
           },
           {
             "foldername": "de",
-            "fingerprint": 2774975201,
+            "fingerprint": 843613430,
             "type": 0
           },
           {
             "foldername": ".cache",
-            "fingerprint": 3980513549,
+            "fingerprint": 3985213356,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2692845877,
+            "fingerprint": 2866284816,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 898222320,
+            "fingerprint": 48514343,
             "type": 0
           },
           {
@@ -12587,7 +12551,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3129279877,
+        "packageFingerprint": 152359444,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -12601,12 +12565,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "NaturesAura-26.0.jar"
+        "FileNameOnDisk": "NaturesAura-28.2.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2796081Z",
-      "dateUpdated": "2020-05-09T15:20:56.2498355Z",
-      "dateLastUpdateAttempted": "2020-05-09T15:20:56.2498355Z",
-      "status": 3,
+      "dateUpdated": "2020-06-02T14:05:58.5692075Z",
+      "dateLastUpdateAttempted": "2020-06-02T14:05:58.5692075Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18710,16 +18674,16 @@
       "addonID": 246640,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2939723,
-        "displayName": "MysticalAgriculture-1.15.2-3.0.3.jar",
-        "fileName": "MysticalAgriculture-1.15.2-3.0.3.jar",
-        "fileDate": "2020-04-24T23:41:38.483Z",
-        "fileLength": 1027163,
+        "id": 2970415,
+        "displayName": "MysticalAgriculture-1.15.2-3.0.7.jar",
+        "fileName": "MysticalAgriculture-1.15.2-3.0.7.jar",
+        "fileDate": "2020-06-01T19:06:53.08Z",
+        "fileLength": 1052113,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2939/723/MysticalAgriculture-1.15.2-3.0.3.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2970/415/MysticalAgriculture-1.15.2-3.0.7.jar",
         "isAlternate": false,
-        "alternateFileId": 2939725,
+        "alternateFileId": 2970417,
         "dependencies": [
           {
             "id": 0,
@@ -18732,27 +18696,27 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3744275857,
+            "fingerprint": 4175388890,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 603473622,
+            "fingerprint": 15386378,
             "type": 0
           },
           {
             "foldername": ".cache",
-            "fingerprint": 3077481431,
+            "fingerprint": 2288839767,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1450337193,
+            "fingerprint": 2229450670,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 2896854652,
+            "fingerprint": 2198153463,
             "type": 0
           },
           {
@@ -18761,7 +18725,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 895567129,
+        "packageFingerprint": 960104144,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -18775,12 +18739,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "MysticalAgriculture-1.15.2-3.0.3.jar"
+        "FileNameOnDisk": "MysticalAgriculture-1.15.2-3.0.7.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2855956Z",
-      "dateUpdated": "2020-05-09T15:20:54.3422302Z",
-      "dateLastUpdateAttempted": "2020-05-09T15:20:54.3422302Z",
-      "status": 3,
+      "dateUpdated": "2020-06-02T14:03:37.9522768Z",
+      "dateLastUpdateAttempted": "2020-06-02T14:03:37.9522768Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
