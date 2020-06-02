@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-02T13:09:34.1085583Z",
+  "lastPlayed": "2020-06-02T13:39:48.5797403Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -9099,115 +9099,91 @@
       "addonID": 320926,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2871351,
-        "displayName": "ScalableCatsForce-2.13.1-build-6-with-library.jar",
-        "fileName": "ScalableCatsForce-2.13.1-build-6-with-library.jar",
-        "fileDate": "2020-01-29T11:31:34.983Z",
-        "fileLength": 14097096,
+        "id": 2954109,
+        "displayName": "ScalableCatsForce-2.13.2-build-2-with-library.jar",
+        "fileName": "ScalableCatsForce-2.13.2-build-2-with-library.jar",
+        "fileDate": "2020-05-11T14:37:27.553Z",
+        "fileLength": 14251124,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2871/351/ScalableCatsForce-2.13.1-build-6-with-library.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2954/109/ScalableCatsForce-2.13.2-build-2-with-library.jar",
         "isAlternate": false,
-        "alternateFileId": 0,
+        "alternateFileId": 2959138,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2130442534,
-            "type": 3
+            "fingerprint": 436902495,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 609751107,
-            "type": 3
+            "fingerprint": 597242601,
+            "type": 0
           },
           {
             "foldername": "net",
-            "fingerprint": 2241346986,
-            "type": 3
+            "fingerprint": 1217680997,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 1264293505,
-            "type": 3
+            "fingerprint": 461029624,
+            "type": 0
           },
           {
             "foldername": "cats",
             "fingerprint": 1106219485,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "LICENSE",
             "fingerprint": 1185419476,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "NOTICE",
-            "fingerprint": 3610861160,
-            "type": 3
+            "fingerprint": 313412245,
+            "type": 0
           },
           {
             "foldername": "library.properties",
-            "fingerprint": 3210911217,
-            "type": 3
+            "fingerprint": 1036690709,
+            "type": 0
           },
           {
             "foldername": "rootdoc.txt",
             "fingerprint": 1288032163,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "scala",
-            "fingerprint": 587259394,
-            "type": 3
+            "fingerprint": 4049332030,
+            "type": 0
           }
         ],
-        "packageFingerprint": 1164417862,
+        "packageFingerprint": 2040741883,
         "gameVersion": [
           "1.14.4",
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000014.0000000004",
-            "gameVersion": "1.14.4",
-            "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
-            "gameVersionName": "1.14.4"
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1755579,
-        "projectId": 320926,
-        "packageFingerprintId": 403225209,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2019-07-19T00:00:00Z",
-        "gameVersionMappingId": 2079667,
-        "gameVersionId": 7469,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "ScalableCatsForce-2.13.1-build-6-with-library.jar"
+        "FileNameOnDisk": "ScalableCatsForce-2.13.2-build-2-with-library.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2935698Z",
-      "dateUpdated": "2019-05-09T13:11:27.2935698Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-06-02T13:39:30.777105Z",
+      "dateLastUpdateAttempted": "2020-06-02T13:39:30.777105Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13208,83 +13184,71 @@
       "addonID": 291006,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2933698,
-        "displayName": "LargeFluidTank-15.2.6.jar",
-        "fileName": "LargeFluidTank-15.2.6.jar",
-        "fileDate": "2020-04-18T14:42:14.093Z",
-        "fileLength": 502713,
+        "id": 2965400,
+        "displayName": "LargeFluidTank-15.2.9.jar",
+        "fileName": "LargeFluidTank-15.2.9.jar",
+        "fileDate": "2020-05-25T13:42:35.66Z",
+        "fileLength": 535703,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2933/698/LargeFluidTank-15.2.6.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2965/400/LargeFluidTank-15.2.9.jar",
         "isAlternate": false,
-        "alternateFileId": 2933699,
+        "alternateFileId": 2965401,
         "dependencies": [
           {
-            "id": 40283537,
+            "id": 0,
             "addonId": 320926,
             "type": 3,
-            "fileId": 2933698
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3782087302,
-            "type": 3
+            "fingerprint": 1355334610,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1582557232,
-            "type": 3
+            "fingerprint": 566127648,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3981065914,
-            "type": 3
+            "fingerprint": 210390107,
+            "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 1381256713,
-            "type": 3
+            "fingerprint": 2603292312,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 3501272493,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 746471408,
+        "packageFingerprint": 4095732594,
         "gameVersion": [
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1833275,
-        "projectId": 291006,
-        "packageFingerprintId": 442918470,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
-        "gameVersionMappingId": 2184962,
-        "gameVersionId": 7722,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "LargeFluidTank-15.2.6.jar"
+        "FileNameOnDisk": "LargeFluidTank-15.2.9.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2945442Z",
-      "dateUpdated": "2019-05-09T13:11:27.2945442Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-06-02T13:30:58.6998084Z",
+      "dateLastUpdateAttempted": "2020-06-02T13:30:58.6998084Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16414,90 +16378,72 @@
       "addonID": 284497,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2901987,
-        "displayName": "IronJetpacks-1.15.2-3.0.1.jar",
-        "fileName": "IronJetpacks-1.15.2-3.0.1.jar",
-        "fileDate": "2020-03-14T23:51:16.597Z",
-        "fileLength": 116147,
+        "id": 2961231,
+        "displayName": "IronJetpacks-1.15.2-3.0.2.jar",
+        "fileName": "IronJetpacks-1.15.2-3.0.2.jar",
+        "fileDate": "2020-05-20T02:25:22.52Z",
+        "fileLength": 117010,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2901/987/IronJetpacks-1.15.2-3.0.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2961/231/IronJetpacks-1.15.2-3.0.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40529833,
+            "id": 0,
             "addonId": 272335,
             "type": 3,
-            "fileId": 2901987
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1990209529,
-            "type": 3
+            "fingerprint": 3314502450,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 807309877,
-            "type": 3
+            "fingerprint": 15832598,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3278207694,
-            "type": 3
+            "fingerprint": 4002755548,
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 4016076390,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 2073964060,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 3447964025,
+        "packageFingerprint": 3708076882,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1793022,
-        "projectId": 284497,
-        "packageFingerprintId": 423185086,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2190810,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "IronJetpacks-1.15.2-3.0.1.jar"
+        "FileNameOnDisk": "IronJetpacks-1.15.2-3.0.2.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2746263Z",
-      "dateUpdated": "2019-05-09T13:11:27.2746263Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-06-02T13:25:15.3640787Z",
+      "dateLastUpdateAttempted": "2020-06-02T13:25:15.3640787Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17290,80 +17236,62 @@
       "addonID": 342623,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2933583,
-        "displayName": "healingcf_1.15-2.1.jar",
-        "fileName": "healingcf_1.15-2.1.jar",
-        "fileDate": "2020-04-18T12:16:08.283Z",
-        "fileLength": 8359,
+        "id": 2959022,
+        "displayName": "healingcf_1.15-2.2.jar",
+        "fileName": "healingcf_1.15-2.2.jar",
+        "fileDate": "2020-05-17T09:51:16.16Z",
+        "fileLength": 8651,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2933/583/healingcf_1.15-2.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2959/22/healingcf_1.15-2.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 40275268,
+            "id": 0,
             "addonId": 375509,
             "type": 3,
-            "fileId": 2933583
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2159894631,
-            "type": 3
+            "fingerprint": 2366157199,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2260927536,
-            "type": 3
+            "fingerprint": 1625024259,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4088536212,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 767259328,
+        "packageFingerprint": 2100468598,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1833127,
-        "projectId": 342623,
-        "packageFingerprintId": 442859412,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 2184782,
-        "gameVersionId": 7498,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "healingcf_1.15-2.1.jar"
+        "FileNameOnDisk": "healingcf_1.15-2.2.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2806091Z",
-      "dateUpdated": "2019-05-09T13:11:27.2806091Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-06-02T13:24:12.0246405Z",
+      "dateLastUpdateAttempted": "2020-06-02T13:24:12.0246405Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22021,14 +21949,14 @@
       "addonID": 266936,
       "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
       "installedFile": {
-        "id": 2930065,
-        "displayName": "JAOPCA-1.15.2-3.2.0.9.jar",
-        "fileName": "JAOPCA-1.15.2-3.2.0.9.jar",
-        "fileDate": "2020-04-14T17:17:22.013Z",
-        "fileLength": 453054,
+        "id": 2967423,
+        "displayName": "JAOPCA-1.15.2-3.2.0.10.jar",
+        "fileName": "JAOPCA-1.15.2-3.2.0.10.jar",
+        "fileDate": "2020-05-28T12:38:52.247Z",
+        "fileLength": 452497,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2930/65/JAOPCA-1.15.2-3.2.0.9.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2967/423/JAOPCA-1.15.2-3.2.0.10.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -22036,56 +21964,44 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3205505376,
-            "type": 3
+            "fingerprint": 3294580125,
+            "type": 0
           },
           {
             "foldername": "thelm",
-            "fingerprint": 1926415419,
-            "type": 3
+            "fingerprint": 4023617739,
+            "type": 0
           },
           {
             "foldername": "assets",
             "fingerprint": 1444157983,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4098689088,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 450309022,
+        "packageFingerprint": 2218395110,
         "gameVersion": [
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1828593,
-        "projectId": 266936,
-        "packageFingerprintId": 440593672,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
-        "gameVersionMappingId": 2178694,
-        "gameVersionId": 7722,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "JAOPCA-1.15.2-3.2.0.9.jar"
+        "FileNameOnDisk": "JAOPCA-1.15.2-3.2.0.10.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2875903Z",
-      "dateUpdated": "2019-05-09T13:11:27.2875903Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-06-02T13:25:54.8553011Z",
+      "dateLastUpdateAttempted": "2020-06-02T13:25:54.8553011Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
