@@ -46,6 +46,8 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.1.77
 * *FAB Library* (1.1 --> 1.2)
 * *Farming for Blockheads* (6.1.0 --> 6.1.3)
 * *FPS Reducer* (1.14.1 --> 1.15)
+* *FTB Chunks* (1.0.0.1 --> 1.1.0.14)
+* *FTB Quests* (2.0.2.244 --> 2.0.2.246)
 * *Healing Campfire* (2.1 --> 2.2)
 * *Industrial Foregoing* (2.2.2-28d4a81 --> 2.3.0-6f57752)
 * *Interactio* (2.0.1 --> 2.0.2)
