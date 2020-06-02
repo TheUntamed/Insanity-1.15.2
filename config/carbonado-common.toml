@@ -1,6 +1,6 @@
-
-[shards]
-	#How many Carbonado Shards are given by blowing up one Carbonado?
-	#Range: 1 ~ 64
-	amount_per_carbonado = 8
+#How many Carbonado Shards are given by blowing up one Carbonado?
+#Range: 1 ~ 64
+amount_per_carbonado = 8
+#Disable the forging of Carbonado via Anvil if pack makes want to use another way.
+disable_anvil_recipes = false
 
