@@ -58,7 +58,7 @@
 	#Should the Quantum Compressor be enabled?
 	enabled = true
 
-#Settings for the Recipe Maker
+#Settings for the Recipe Maker.
 ["Recipe Maker"]
 	#Should the recipe maker add NBT tags when possible?
 	useNBT = true
