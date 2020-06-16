@@ -48,6 +48,16 @@ removeRecipe(<item:cyclic:sandstone_axe>);
 removeRecipe(<item:cyclic:sandstone_pickaxe>);
 removeRecipe(<item:cyclic:sandstone_hoe>);
 
+removeRecipe(<item:immersiveengineering:armor_steel_head>);
+removeRecipe(<item:immersiveengineering:armor_steel_chest>);
+removeRecipe(<item:immersiveengineering:armor_steel_legs>);
+removeRecipe(<item:immersiveengineering:armor_steel_feet>);
+removeRecipe(<item:immersiveengineering:sword_steel>);
+removeRecipe(<item:immersiveengineering:pickaxe_steel>);
+removeRecipe(<item:immersiveengineering:axe_steel>);
+removeRecipe(<item:immersiveengineering:hoe_steel>);
+removeRecipe(<item:immersiveengineering:shovel_steel>);
+
 removeRecipe(<item:pickletweaks:wooden_paxel>);
 removeRecipe(<item:pickletweaks:stone_paxel>);
 removeRecipe(<item:pickletweaks:iron_paxel>);

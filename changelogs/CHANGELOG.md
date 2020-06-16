@@ -136,6 +136,9 @@ To be removed:
 **Changes**
 
 * Activated Terraforged strata decorator by default. (You still have to select TerraForged as world generation.)
+* Disabled Ore generation of Silent's Mechanisms, Powah, Create, (Immersive Engineering).
+* Enabled Quark's Marble generation. (Embellishcraft and it's Marble were removed.)
+* Disabled Quark's Limestone generation. (Create adds limestone now.)
 
 **Bug Fixes**
 

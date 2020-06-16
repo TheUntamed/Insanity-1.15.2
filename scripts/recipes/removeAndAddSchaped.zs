@@ -442,7 +442,7 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
     ],
     <item:cyclic:scythe_leaves> :
     [
-        [<item:minecraft:air>, <tag:forge:nuggets/steel>, <item:mapperbase:steel_hoe>],
+        [<item:minecraft:air>, <tag:forge:nuggets/steel>, <item:mekanismtools:steel_hoe>],
         [<item:minecraft:air>, <tag:forge:rods/wooden>, <tag:forge:nuggets/steel>],
         [<tag:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]
     ],
@@ -473,7 +473,7 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
     <item:minecraft:piston> :
     [
         [<tag:minecraft:wooden_slabs>, <tag:minecraft:wooden_slabs>, <tag:minecraft:wooden_slabs>],
-        [<item:quark:sturdy_stone>, <item:mapperbase:iron_rod>, <item:quark:sturdy_stone>],
+        [<item:quark:sturdy_stone>, <tag:forge:rods/iron>, <item:quark:sturdy_stone>],
         [<item:quark:sturdy_stone>, <item:minecraft:redstone>, <item:quark:sturdy_stone>]
     ],
     <item:angelring:itemring> :
@@ -540,12 +540,6 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
         [<item:minecraft:air>, <tag:forge:rods/wooden>, <item:midnight:rockshroom_clump>],
         [<tag:forge:rods/wooden>, <item:midnight:rockshroom_clump>, <tag:forge:rods/wooden>],
         [<tag:forge:string>, <tag:forge:rods/wooden>, <item:minecraft:air>]
-    ],
-    <item:mapperbase:flatter_hammer> :
-    [
-        [<item:minecraft:air>, <tag:forge:blocks/steel>, <tag:forge:string>],
-        [<item:minecraft:air>, <tag:forge:rods/wooden>, <tag:forge:ingots/steel>],
-        [<tag:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]
     ],
     <item:cyclic:wrench> :
     [

@@ -399,7 +399,7 @@
 	"Big Dungeon" = true
 	Speleothems = true
 	Biotite = true
-	"Big Stone Clusters" = true
+	"Big Stone Clusters" = false
 	"Elder Prismarine Underground Biome" = true
 	"Brimstone Underground Biome" = true
 	"Blossom Trees" = true
@@ -752,11 +752,11 @@
 			"Is Blacklist" = false
 
 	[world.new_stone_types]
-		"Enable Marble" = false
+		"Enable Marble" = true
 		"Enable Jasper" = true
 		"Enable Basalt" = true
 		"Enable Slate" = true
-		"Enable Limestone" = true
+		"Enable Limestone" = false
 
 		[world.new_stone_types.marble]
 

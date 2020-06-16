@@ -528,12 +528,13 @@ var materials as MCTag[string][string] = {
 
 var modPriorities as string[] = [
     "minecraft",
+    //"dannys_ores",
     "jaopca",
     "silents_mechanisms",
 	"mekanism",
     "kubejs",
     "omegacraft",
-    "mapperbase",
+    //"mapperbase",
     "industrialforegoing",
     "quark",
     "bno",

@@ -41,7 +41,6 @@ import crafttweaker.api.tag.MCTag;
 <tag:forge:ingots/redstone>.createItemTag();
 
 <tag:forge:plates/advanced_alloy>.createItemTag();
-<tag:forge:plates/brass>.createItemTag();
 <tag:forge:plates/carbon>.createItemTag();
 <tag:forge:plates/chrome>.createItemTag();
 <tag:forge:plates/coal>.createItemTag();
@@ -53,7 +52,6 @@ import crafttweaker.api.tag.MCTag;
 <tag:forge:plates/lapis>.createItemTag();
 <tag:forge:plates/lazurite>.createItemTag();
 <tag:forge:plates/magnalium>.createItemTag();
-<tag:forge:plates/nickel>.createItemTag();
 <tag:forge:plates/obsidian>.createItemTag();
 <tag:forge:plates/peridot>.createItemTag();
 <tag:forge:plates/platinum>.createItemTag();
