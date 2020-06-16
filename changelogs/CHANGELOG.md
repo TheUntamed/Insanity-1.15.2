@@ -1,10 +1,16 @@
 !nsanity 0.2.4
 --------------
 
-Forge 1.15.2-31.1.45 --> 1.15.2-31.1.77
+Forge 1.15.2-31.1.45 --> 1.15.2-31.2.9
 
 **Added Mods**
 
+* *Cauldron Recipes*
+* *Create*
+* *Druidcraft*
+* *Ender Storage*
+* *Immersive Engineering*
+* *PneumaticCraft: Repressurized*
 * *Simply Trophies*
 * *Tesseract*
 
@@ -120,9 +126,16 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.1.77
 * *Upgrade Aquatic* (1.5.1 --> 1.6.1)
 * *Whoops* (0.0.1.2 --> 0.0.1.3)
 
+**Removed Mods**
+
+To be removed:
+* *Basic Nether Ores*
+* *Embellishcraft*
+* *Mapperbase*
+
 **Changes**
 
-* 
+* Activated Terraforged strata decorator by default. (You still have to select TerraForged as world generation.)
 
 **Bug Fixes**
 
