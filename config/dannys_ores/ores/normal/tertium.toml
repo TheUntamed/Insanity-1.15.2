@@ -1,0 +1,988 @@
+
+#Settings affecting all variants
+[general]
+	#If true, all variants of this ore type will be disabled.
+	disableAllVariants = false
+
+	#Vanilla Stone Variants
+	[general.minecraft]
+
+		#Stone Tertium Ore
+		[general.minecraft.stone_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.stone_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Sand Tertium Ore
+		[general.minecraft.sand_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sand_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gravel Tertium Ore
+		[general.minecraft.gravel_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.gravel_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Red Sandstone Tertium Ore
+		[general.minecraft.red_sandstone_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sandstone_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Andesite Tertium Ore
+		[general.minecraft.andesite_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.andesite_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#End Stone Tertium Ore
+		[general.minecraft.end_stone_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.end_stone_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Bedrock Tertium Ore
+		[general.minecraft.bedrock_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.bedrock_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.bedrock_tertium_ore.properties]
+				#A higher value means a stronger explosion is needed to destroy this ore. Stone has 6.0 and Obsidian 1200.0
+				#Range: 0.0 ~ 3600000.0
+				resistance = 9.0
+
+		#Netherrack Tertium Ore
+		[general.minecraft.netherrack_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.netherrack_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 32
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Red Sand Tertium Ore
+		[general.minecraft.red_sand_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sand_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Packed Ice Tertium Ore
+		[general.minecraft.packed_ice_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.packed_ice_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Granite Tertium Ore
+		[general.minecraft.granite_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.granite_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Sandstone Tertium Ore
+		[general.minecraft.sandstone_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sandstone_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Diorite Tertium Ore
+		[general.minecraft.diorite_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.diorite_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Blue Ice Tertium Ore
+		[general.minecraft.blue_ice_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.blue_ice_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#The Midnight Stone Variants
+	[general.midnight]
+
+		#Nightstone Tertium Ore
+		[general.midnight.nightstone_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.midnight.nightstone_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Embellishcraft Stone Variants
+	[general.embellishcraft]
+
+		#Jade Tertium Ore
+		[general.embellishcraft.jade_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.jade_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Larvikite Tertium Ore
+		[general.embellishcraft.larvikite_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.larvikite_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marble Tertium Ore
+		[general.embellishcraft.marble_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.marble_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Slate Tertium Ore
+		[general.embellishcraft.slate_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.slate_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Basalt Tertium Ore
+		[general.embellishcraft.basalt_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.basalt_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gneiss Tertium Ore
+		[general.embellishcraft.gneiss_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.gneiss_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Quark Stone Variants
+	[general.quark]
+
+		#Marble Tertium Ore
+		[general.quark.marble_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.marble_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Tertium Ore
+		[general.quark.limestone_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.limestone_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Slate Tertium Ore
+		[general.quark.slate_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.slate_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Basalt Tertium Ore
+		[general.quark.basalt_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.basalt_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 32
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Jasper Tertium Ore
+		[general.quark.jasper_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.jasper_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Create Stone Variants
+	[general.create]
+
+		#Weathered Limestone Tertium Ore
+		[general.create.weathered_limestone_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.weathered_limestone_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Tertium Ore
+		[general.create.limestone_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.limestone_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gabbro Tertium Ore
+		[general.create.gabbro_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.gabbro_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Scoria Tertium Ore
+		[general.create.scoria_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.scoria_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Dolomite Tertium Ore
+		[general.create.dolomite_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.dolomite_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#The Nethercraft Stone Variants
+	[general.nethercraft]
+
+		#Heat Sand Tertium Ore
+		[general.nethercraft.heat_sand_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.nethercraft.heat_sand_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 32
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Danny's Ores Stone Variants
+	[general.dannys_ores]
+
+		#Hardened Stone Tertium Ore
+		[general.dannys_ores.hardened_stone_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.dannys_ores.hardened_stone_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Mystical Agriculture Stone Variants
+	[general.mysticalagriculture]
+
+		#Soulstone Tertium Ore
+		[general.mysticalagriculture.soulstone_tertium_ore]
+
+			#Generation settings for this ore variant
+			[general.mysticalagriculture.soulstone_tertium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+

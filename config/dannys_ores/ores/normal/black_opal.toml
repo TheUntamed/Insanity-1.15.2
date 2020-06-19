@@ -1,0 +1,988 @@
+
+#Settings affecting all variants
+[general]
+	#If true, all variants of this ore type will be disabled.
+	disableAllVariants = true
+
+	#Vanilla Stone Variants
+	[general.minecraft]
+
+		#Blue Ice Black Opal Ore
+		[general.minecraft.blue_ice_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.blue_ice_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Netherrack Black Opal Ore
+		[general.minecraft.netherrack_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.netherrack_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 80
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Red Sandstone Black Opal Ore
+		[general.minecraft.red_sandstone_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sandstone_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Andesite Black Opal Ore
+		[general.minecraft.andesite_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.andesite_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gravel Black Opal Ore
+		[general.minecraft.gravel_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.gravel_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Granite Black Opal Ore
+		[general.minecraft.granite_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.granite_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Stone Black Opal Ore
+		[general.minecraft.stone_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.stone_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Diorite Black Opal Ore
+		[general.minecraft.diorite_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.diorite_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Sand Black Opal Ore
+		[general.minecraft.sand_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sand_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Sandstone Black Opal Ore
+		[general.minecraft.sandstone_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sandstone_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Packed Ice Black Opal Ore
+		[general.minecraft.packed_ice_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.packed_ice_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Bedrock Black Opal Ore
+		[general.minecraft.bedrock_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.bedrock_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.bedrock_black_opal_ore.properties]
+				#A higher value means a stronger explosion is needed to destroy this ore. Stone has 6.0 and Obsidian 1200.0
+				#Range: 0.0 ~ 3600000.0
+				resistance = 9.0
+
+		#End Stone Black Opal Ore
+		[general.minecraft.end_stone_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.end_stone_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Red Sand Black Opal Ore
+		[general.minecraft.red_sand_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sand_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#The Midnight Stone Variants
+	[general.midnight]
+
+		#Nightstone Black Opal Ore
+		[general.midnight.nightstone_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.midnight.nightstone_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Embellishcraft Stone Variants
+	[general.embellishcraft]
+
+		#Slate Black Opal Ore
+		[general.embellishcraft.slate_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.slate_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marble Black Opal Ore
+		[general.embellishcraft.marble_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.marble_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Larvikite Black Opal Ore
+		[general.embellishcraft.larvikite_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.larvikite_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Jade Black Opal Ore
+		[general.embellishcraft.jade_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.jade_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Basalt Black Opal Ore
+		[general.embellishcraft.basalt_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.basalt_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gneiss Black Opal Ore
+		[general.embellishcraft.gneiss_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.gneiss_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Quark Stone Variants
+	[general.quark]
+
+		#Limestone Black Opal Ore
+		[general.quark.limestone_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.limestone_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Slate Black Opal Ore
+		[general.quark.slate_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.slate_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marble Black Opal Ore
+		[general.quark.marble_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.marble_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Jasper Black Opal Ore
+		[general.quark.jasper_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.jasper_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Basalt Black Opal Ore
+		[general.quark.basalt_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.basalt_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 80
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Create Stone Variants
+	[general.create]
+
+		#Gabbro Black Opal Ore
+		[general.create.gabbro_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.create.gabbro_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Black Opal Ore
+		[general.create.limestone_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.create.limestone_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Dolomite Black Opal Ore
+		[general.create.dolomite_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.create.dolomite_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Weathered Limestone Black Opal Ore
+		[general.create.weathered_limestone_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.create.weathered_limestone_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Scoria Black Opal Ore
+		[general.create.scoria_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.create.scoria_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#The Nethercraft Stone Variants
+	[general.nethercraft]
+
+		#Heat Sand Black Opal Ore
+		[general.nethercraft.heat_sand_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.nethercraft.heat_sand_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 80
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Danny's Ores Stone Variants
+	[general.dannys_ores]
+
+		#Hardened Stone Black Opal Ore
+		[general.dannys_ores.hardened_stone_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.dannys_ores.hardened_stone_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Mystical Agriculture Stone Variants
+	[general.mysticalagriculture]
+
+		#Soulstone Black Opal Ore
+		[general.mysticalagriculture.soulstone_black_opal_ore]
+
+			#Generation settings for this ore variant
+			[general.mysticalagriculture.soulstone_black_opal_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+

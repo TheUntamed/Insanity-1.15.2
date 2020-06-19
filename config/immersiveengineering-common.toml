@@ -276,7 +276,7 @@
 
 [ores]
 	#A blacklist of dimensions in which IE ores won't spawn. By default this is Nether and End
-	dimension_blocklist = ["minecraft:the_nether", "minecraft:the_end"]
+	dimension_blocklist = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
 	#Set this to false to disable the logging of the chunks that were flagged for retrogen.
 	retrogen_log_flagChunk = true
 	#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores marked for retrogen.
@@ -292,7 +292,7 @@
 		max_y = 24
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 2
+		avg_veins_per_chunk = 0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 6
@@ -309,7 +309,7 @@
 		max_y = 72
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 8
+		avg_veins_per_chunk = 0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 8
@@ -326,7 +326,7 @@
 		max_y = 85
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 8
+		avg_veins_per_chunk = 0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 4
@@ -343,7 +343,7 @@
 		max_y = 40
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 4
+		avg_veins_per_chunk = 0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 8
@@ -360,7 +360,7 @@
 		max_y = 24
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 2
+		avg_veins_per_chunk = 0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 4
@@ -377,7 +377,7 @@
 		max_y = 36
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 4
+		avg_veins_per_chunk = 0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 6

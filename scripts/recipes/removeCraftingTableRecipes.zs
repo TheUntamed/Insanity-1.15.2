@@ -69,3 +69,19 @@ removeRecipe(<item:mekanismtools:stone_paxel>);
 
 removeRecipe(<item:pickletweaks:watering_can>);
 removeRecipeByName("mysticalagriculture:inferium_watering_can_pt");
+
+// var itemsToRemoveRecipesFrom as IItemStack[] = [
+
+// ];
+
+// var recipeNamesToRemoveRecipesFrom as String[] = [
+
+// ];
+
+// for item in itemsToRemoveRecipesFrom {
+//     removeRecipe(item);
+// }
+
+// for name in recipeNamesToRemoveRecipesFrom {
+//     removeRecipe(name);
+// }

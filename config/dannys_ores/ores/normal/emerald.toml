@@ -1,0 +1,988 @@
+
+#Settings affecting all variants
+[general]
+	#If true, all variants of this ore type will be disabled.
+	disableAllVariants = false
+
+	#Vanilla Stone Variants
+	[general.minecraft]
+
+		#Netherrack Emerald Ore
+		[general.minecraft.netherrack_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.netherrack_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 64
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Sand Emerald Ore
+		[general.minecraft.sand_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sand_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Sandstone Emerald Ore
+		[general.minecraft.sandstone_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sandstone_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gravel Emerald Ore
+		[general.minecraft.gravel_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.gravel_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Bedrock Emerald Ore
+		[general.minecraft.bedrock_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.bedrock_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.bedrock_emerald_ore.properties]
+				#A higher value means a stronger explosion is needed to destroy this ore. Stone has 6.0 and Obsidian 1200.0
+				#Range: 0.0 ~ 3600000.0
+				resistance = 9.0
+
+		#Red Sand Emerald Ore
+		[general.minecraft.red_sand_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sand_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Packed Ice Emerald Ore
+		[general.minecraft.packed_ice_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.packed_ice_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Blue Ice Emerald Ore
+		[general.minecraft.blue_ice_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.blue_ice_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Diorite Emerald Ore
+		[general.minecraft.diorite_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.diorite_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#End Stone Emerald Ore
+		[general.minecraft.end_stone_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.end_stone_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Granite Emerald Ore
+		[general.minecraft.granite_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.granite_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Red Sandstone Emerald Ore
+		[general.minecraft.red_sandstone_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sandstone_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Andesite Emerald Ore
+		[general.minecraft.andesite_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.andesite_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Stone Emerald Ore
+		[general.minecraft.stone_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.stone_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#The Midnight Stone Variants
+	[general.midnight]
+
+		#Nightstone Emerald Ore
+		[general.midnight.nightstone_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.midnight.nightstone_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Embellishcraft Stone Variants
+	[general.embellishcraft]
+
+		#Jade Emerald Ore
+		[general.embellishcraft.jade_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.jade_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Larvikite Emerald Ore
+		[general.embellishcraft.larvikite_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.larvikite_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Slate Emerald Ore
+		[general.embellishcraft.slate_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.slate_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Basalt Emerald Ore
+		[general.embellishcraft.basalt_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.basalt_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gneiss Emerald Ore
+		[general.embellishcraft.gneiss_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.gneiss_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marble Emerald Ore
+		[general.embellishcraft.marble_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.marble_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Quark Stone Variants
+	[general.quark]
+
+		#Jasper Emerald Ore
+		[general.quark.jasper_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.jasper_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Slate Emerald Ore
+		[general.quark.slate_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.slate_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Basalt Emerald Ore
+		[general.quark.basalt_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.basalt_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 64
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Emerald Ore
+		[general.quark.limestone_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.limestone_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marble Emerald Ore
+		[general.quark.marble_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.marble_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Create Stone Variants
+	[general.create]
+
+		#Scoria Emerald Ore
+		[general.create.scoria_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.create.scoria_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Emerald Ore
+		[general.create.limestone_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.create.limestone_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Weathered Limestone Emerald Ore
+		[general.create.weathered_limestone_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.create.weathered_limestone_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Dolomite Emerald Ore
+		[general.create.dolomite_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.create.dolomite_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gabbro Emerald Ore
+		[general.create.gabbro_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.create.gabbro_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#The Nethercraft Stone Variants
+	[general.nethercraft]
+
+		#Heat Sand Emerald Ore
+		[general.nethercraft.heat_sand_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.nethercraft.heat_sand_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 64
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Danny's Ores Stone Variants
+	[general.dannys_ores]
+
+		#Hardened Stone Emerald Ore
+		[general.dannys_ores.hardened_stone_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.dannys_ores.hardened_stone_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Mystical Agriculture Stone Variants
+	[general.mysticalagriculture]
+
+		#Soulstone Emerald Ore
+		[general.mysticalagriculture.soulstone_emerald_ore]
+
+			#Generation settings for this ore variant
+			[general.mysticalagriculture.soulstone_emerald_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+

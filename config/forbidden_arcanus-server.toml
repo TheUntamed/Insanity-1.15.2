@@ -4,7 +4,7 @@
 	#Range: 1 ~ 10000000
 	ArcaneCrystalOreCount = 3
 	#Generate Runestone
-	generateRunestone = true
+	generateRunestone = false
 	#Maximum Dark Stone veins per chunk
 	#Range: 1 ~ 10000000
 	DarkStoneCount = 20
@@ -12,7 +12,7 @@
 	#Range: 1 ~ 256
 	DarkRunestoneMaxHeight = 9
 	#Generate Arcane Crystal Ore
-	generateArcaneCrystalOre = true
+	generateArcaneCrystalOre = false
 	#Maximum height for the Arcane Crystal Ore
 	#Range: 1 ~ 256
 	ArcaneCrystalOreMaxHeight = 20

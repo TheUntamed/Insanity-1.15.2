@@ -1,4 +1,4 @@
-#priority 996
+#priority 995
 //Has to be called after main
 
 import crafttweaker.api.BracketHandlers;

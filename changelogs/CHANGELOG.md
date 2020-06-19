@@ -117,7 +117,7 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.9
 * *Spice of Life: Carrot Edition* (1.9.4 --> 1.9.6)
 * *Structurize* (282-RELEASE --> 313-RELEASE)
 * *TerraForged* (0.0.12 --> 0.0.14)
-* *Tetra* (2.3.0 --> 2.7.2)
+* *Tetra* (2.3.0 --> 2.10.0)
 * *Tesseract* (1.0.1 --> 1.0.4)
 * *The Endergetic Expansion* (v1.2.5 --> v1.3.1)
 * *The Midnight* (0.5.7-2 --> 0.5.8)
@@ -136,7 +136,7 @@ To be removed:
 **Changes**
 
 * Activated Terraforged strata decorator by default. (You still have to select TerraForged as world generation.)
-* Disabled Ore generation of Silent's Mechanisms, Powah, Create, (Immersive Engineering).
+* Disabled Ore generation of Silent's Mechanisms, Mekanism, Powah, Create, Mystical Agriculture, Immersive Engineering, Forbidden Arcanus.
 * Enabled Quark's Marble generation. (Embellishcraft and it's Marble were removed.)
 * Disabled Quark's Limestone generation. (Create adds limestone now.)
 

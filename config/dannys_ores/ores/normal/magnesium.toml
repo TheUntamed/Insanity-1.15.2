@@ -1,0 +1,988 @@
+
+#Settings affecting all variants
+[general]
+	#If true, all variants of this ore type will be disabled.
+	disableAllVariants = true
+
+	#Vanilla Stone Variants
+	[general.minecraft]
+
+		#Andesite Magnesium Ore
+		[general.minecraft.andesite_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.andesite_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Sand Magnesium Ore
+		[general.minecraft.sand_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sand_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Granite Magnesium Ore
+		[general.minecraft.granite_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.granite_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Netherrack Magnesium Ore
+		[general.minecraft.netherrack_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.netherrack_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 72
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Sandstone Magnesium Ore
+		[general.minecraft.sandstone_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sandstone_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Stone Magnesium Ore
+		[general.minecraft.stone_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.stone_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Red Sand Magnesium Ore
+		[general.minecraft.red_sand_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sand_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Packed Ice Magnesium Ore
+		[general.minecraft.packed_ice_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.packed_ice_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gravel Magnesium Ore
+		[general.minecraft.gravel_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.gravel_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Red Sandstone Magnesium Ore
+		[general.minecraft.red_sandstone_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sandstone_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Blue Ice Magnesium Ore
+		[general.minecraft.blue_ice_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.blue_ice_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Bedrock Magnesium Ore
+		[general.minecraft.bedrock_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.bedrock_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.bedrock_magnesium_ore.properties]
+				#A higher value means a stronger explosion is needed to destroy this ore. Stone has 6.0 and Obsidian 1200.0
+				#Range: 0.0 ~ 3600000.0
+				resistance = 9.0
+
+		#Diorite Magnesium Ore
+		[general.minecraft.diorite_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.diorite_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#End Stone Magnesium Ore
+		[general.minecraft.end_stone_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.end_stone_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#The Midnight Stone Variants
+	[general.midnight]
+
+		#Nightstone Magnesium Ore
+		[general.midnight.nightstone_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.midnight.nightstone_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Embellishcraft Stone Variants
+	[general.embellishcraft]
+
+		#Basalt Magnesium Ore
+		[general.embellishcraft.basalt_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.basalt_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gneiss Magnesium Ore
+		[general.embellishcraft.gneiss_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.gneiss_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Jade Magnesium Ore
+		[general.embellishcraft.jade_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.jade_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Larvikite Magnesium Ore
+		[general.embellishcraft.larvikite_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.larvikite_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marble Magnesium Ore
+		[general.embellishcraft.marble_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.marble_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Slate Magnesium Ore
+		[general.embellishcraft.slate_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.slate_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Quark Stone Variants
+	[general.quark]
+
+		#Basalt Magnesium Ore
+		[general.quark.basalt_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.basalt_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 72
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Magnesium Ore
+		[general.quark.limestone_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.limestone_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marble Magnesium Ore
+		[general.quark.marble_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.marble_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Slate Magnesium Ore
+		[general.quark.slate_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.slate_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Jasper Magnesium Ore
+		[general.quark.jasper_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.jasper_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Create Stone Variants
+	[general.create]
+
+		#Scoria Magnesium Ore
+		[general.create.scoria_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.scoria_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Magnesium Ore
+		[general.create.limestone_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.limestone_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gabbro Magnesium Ore
+		[general.create.gabbro_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.gabbro_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Weathered Limestone Magnesium Ore
+		[general.create.weathered_limestone_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.weathered_limestone_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Dolomite Magnesium Ore
+		[general.create.dolomite_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.dolomite_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#The Nethercraft Stone Variants
+	[general.nethercraft]
+
+		#Heat Sand Magnesium Ore
+		[general.nethercraft.heat_sand_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.nethercraft.heat_sand_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 72
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Danny's Ores Stone Variants
+	[general.dannys_ores]
+
+		#Hardened Stone Magnesium Ore
+		[general.dannys_ores.hardened_stone_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.dannys_ores.hardened_stone_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Mystical Agriculture Stone Variants
+	[general.mysticalagriculture]
+
+		#Soulstone Magnesium Ore
+		[general.mysticalagriculture.soulstone_magnesium_ore]
+
+			#Generation settings for this ore variant
+			[general.mysticalagriculture.soulstone_magnesium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 24
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+

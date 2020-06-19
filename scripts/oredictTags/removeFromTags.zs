@@ -74,3 +74,6 @@ for item in <tag:botania:dyes>.items {
     var itemOwner = item.registryName.split(":")[0];
         if (itemOwner != "minecraft") { <tag:botania:dyes>.removeItems(item); }
 }
+
+//Otehrs
+<tag:forge:wg_stone>.removeBlocks([<blockstate:create:natural_scoria>.block]);

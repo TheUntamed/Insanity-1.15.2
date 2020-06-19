@@ -1,0 +1,330 @@
+
+#Settings affecting all variants
+[general]
+	#Checks your blacklists and whitelists for correct syntax. If something is wrong it will be printed to the log.
+	enableConfigChecker = false
+
+	#Settings that affect all normal ores. Normal means all ores that are not poor or dense.
+	[general.normal]
+		#If true, all normal ores will be disabled.
+		disableAllVariants = false
+
+		#Disable all normal ores of a certain stone variant (only affects ores of this mod). For Vanilla and other mods' ores see 'vanilla_and_other_mods' settings in this file.
+		[general.normal.stoneVariants]
+
+			#Vanilla stone variants
+			[general.normal.stoneVariants.minecraft]
+				#If true, the Red Sandstone variant of all normal ores will be disabled.
+				red_sandstone = true
+				#If true, the Red Sand variant of all normal ores will be disabled.
+				red_sand = true
+				#If true, the Packed Ice variant of all normal ores (except vanilla ores) will be disabled.
+				packed_ice = true
+				#If true, the Sandstone variant of all normal ores will be disabled.
+				sandstone = true
+				#If true, the Stone variant of all normal ores (except vanilla ores) will be disabled.
+				stone = false
+				#If true, the Gravel variant of all normal ores will be disabled.
+				gravel = false
+				#If true, the Sand variant of all normal ores will be disabled.
+				sand = true
+				#If true, the Blue Ice variant of all normal ores (except vanilla ores) will be disabled.
+				blue_ice = true
+				#If true, the Bedrock variant of all normal ores (except vanilla ores) will be disabled.
+				bedrock = false
+				#If true, the Granite variant of all normal ores will be disabled.
+				granite = false
+				#If true, the End Stone variant of all normal ores will be disabled.
+				end_stone = false
+				#If true, the Netherrack variant of all normal ores (except vanilla ores) will be disabled.
+				netherrack = false
+				#If true, the Andesite variant of all normal ores will be disabled.
+				andesite = false
+				#If true, the Diorite variant of all normal ores will be disabled.
+				diorite = false
+
+			#Midnight stone variants. Midnight has to be installed for the ores to generate at all.
+			[general.normal.stoneVariants.midnight]
+				#If true, the (Midnight) Basalt variant of all normal ores will be disabled.
+				nightstone = false
+
+			#Embellishcraft stone variants. Embellishcraft has to be installed for the ores to generate at all.
+			[general.normal.stoneVariants.embellishcraft]
+				#If true, the (Embellishcraft) Marble variant of all normal ores will be disabled.
+				marble = true
+				#If true, the (Embellishcraft) Basalt variant of all normal ores will be disabled.
+				basalt = true
+				#If true, the (Embellishcraft) Larvikite variant of all normal ores will be disabled.
+				larvikite = true
+				#If true, the (Embellishcraft) Jade variant of all normal ores will be disabled.
+				jade = true
+				#If true, the (Embellishcraft) Gneiss variant of all normal ores will be disabled.
+				gneiss = true
+				#If true, the (Embellishcraft) Slate variant of all normal ores will be disabled.
+				slate = true
+
+			#Stone variants added by this mod.
+			[general.normal.stoneVariants.dannys_ores]
+				#If true, the Hardened Stone variant of all normal ores (except vanilla ores) will be disabled.
+				hardened_stone = false
+
+			#Quark stone variants. Quark has to be installed for the ores to generate at all.
+			[general.normal.stoneVariants.quark]
+				#If true, the (Quark) Marble variant of all normal ores will be disabled.
+				marble = false
+				#If true, the (Quark) Basalt variant of all normal ores will be disabled.
+				basalt = false
+				#If true, the (Quark) Limestone variant of all normal ores will be disabled.
+				limestone = false
+				#If true, the (Quark) Slate variant of all normal ores will be disabled.
+				slate = false
+				#If true, the (Quark) Jasper variant of all normal ores will be disabled.
+				jasper = false
+
+			#Create stone variants. Create has to be installed for the ores to generate at all.
+			[general.normal.stoneVariants.create]
+				#If true, the (Create) Basalt variant of all normal ores will be disabled.
+				dark_scoria = false
+				#If true, the (Create) Slate variant of all normal ores will be disabled.
+				weathered_limestone = false
+				#If true, the (Create) Larvikite variant of all normal ores will be disabled.
+				limestone = false
+				#If true, the (Create) Gneiss variant of all normal ores will be disabled.
+				dolomite = false
+				#If true, the (Create) Jade variant of all normal ores will be disabled.
+				gabbro = false
+				#If true, the (Create) Marble variant of all normal ores will be disabled.
+				scoria = false
+
+			#Nethercraft stone variants. Nethercraft has to be installed for the ores to generate at all.
+			[general.normal.stoneVariants.nethercraft]
+				#If true, the (Nethercraft) Basalt variant of all normal ores will be disabled.
+				heat_sand = true
+
+			#Mystical Agriculture stone variants. Mystical Agriculture has to be installed for the ores to generate at all.
+			[general.normal.stoneVariants.mysticalagriculture]
+				#If true, the (Mystical Agriculture) Basalt variant of all normal ores will be disabled.
+				soulstone = false
+
+	#Settings that affect all poor ores.
+	[general.poor]
+		#If true, all poor ores will be disabled.
+		disableAllVariants = true
+
+		#Disable all poor ores of a certain stone variant (only affects ores of this mod).
+		[general.poor.stoneVariants]
+
+			#Vanilla stone variants
+			[general.poor.stoneVariants.minecraft]
+				#If true, the Red Sandstone variant of all poor ores will be disabled.
+				red_sandstone = false
+				#If true, the Red Sand variant of all poor ores will be disabled.
+				red_sand = false
+				#If true, the Packed Ice variant of all poor ores (except vanilla ores) will be disabled.
+				packed_ice = false
+				#If true, the Sandstone variant of all poor ores will be disabled.
+				sandstone = false
+				#If true, the Stone variant of all poor ores (except vanilla ores) will be disabled.
+				stone = false
+				#If true, the Gravel variant of all poor ores will be disabled.
+				gravel = false
+				#If true, the Sand variant of all poor ores will be disabled.
+				sand = false
+				#If true, the Blue Ice variant of all poor ores (except vanilla ores) will be disabled.
+				blue_ice = false
+				#If true, the Bedrock variant of all poor ores (except vanilla ores) will be disabled.
+				bedrock = false
+				#If true, the Granite variant of all poor ores will be disabled.
+				granite = false
+				#If true, the End Stone variant of all poor ores will be disabled.
+				end_stone = false
+				#If true, the Netherrack variant of all poor ores (except vanilla ores) will be disabled.
+				netherrack = false
+				#If true, the Andesite variant of all poor ores will be disabled.
+				andesite = false
+				#If true, the Diorite variant of all poor ores will be disabled.
+				diorite = false
+
+			#Midnight stone variants. Midnight has to be installed for the ores to generate at all.
+			[general.poor.stoneVariants.midnight]
+				#If true, the (Midnight) Basalt variant of all normal ores will be disabled.
+				nightstone = false
+
+			#Embellishcraft stone variants. Embellishcraft has to be installed for the ores to generate at all.
+			[general.poor.stoneVariants.embellishcraft]
+				#If true, the (Embellishcraft) Marble variant of all poor ores will be disabled.
+				marble = false
+				#If true, the (Embellishcraft) Basalt variant of all poor ores will be disabled.
+				basalt = false
+				#If true, the (Embellishcraft) Larvikite variant of all poor ores will be disabled.
+				larvikite = false
+				#If true, the (Embellishcraft) Jade variant of all poor ores will be disabled.
+				jade = false
+				#If true, the (Embellishcraft) Gneiss variant of all poor ores will be disabled.
+				gneiss = false
+				#If true, the (Embellishcraft) Slate variant of all poor ores will be disabled.
+				slate = false
+
+			#Stone variants added by this mod.
+			[general.poor.stoneVariants.dannys_ores]
+				#If true, the Hardened Stone variant of all poor ores (except vanilla ores) will be disabled.
+				hardened_stone = false
+
+			#Quark stone variants. Quark has to be installed for the ores to generate at all.
+			[general.poor.stoneVariants.quark]
+				#If true, the (Quark) Marble variant of all poor ores will be disabled.
+				marble = false
+				#If true, the (Quark) Basalt variant of all poor ores will be disabled.
+				basalt = false
+				#If true, the (Quark) Limestone variant of all poor ores will be disabled.
+				limestone = false
+				#If true, the (Quark) Slate variant of all poor ores will be disabled.
+				slate = false
+				#If true, the (Quark) Jasper variant of all poor ores will be disabled.
+				jasper = false
+
+			#Create stone variants. Create has to be installed for the ores to generate at all.
+			[general.poor.stoneVariants.create]
+				#If true, the (Create) Basalt variant of all normal ores will be disabled.
+				dark_scoria = false
+				#If true, the (Create) Slate variant of all normal ores will be disabled.
+				weathered_limestone = false
+				#If true, the (Create) Larvikite variant of all normal ores will be disabled.
+				limestone = false
+				#If true, the (Create) Gneiss variant of all normal ores will be disabled.
+				dolomite = false
+				#If true, the (Create) Jade variant of all normal ores will be disabled.
+				gabbro = false
+				#If true, the (Create) Marble variant of all normal ores will be disabled.
+				scoria = false
+
+			#Nethercraft stone variants. Nethercraft has to be installed for the ores to generate at all.
+			[general.poor.stoneVariants.nethercraft]
+				#If true, the (Nethercraft) Basalt variant of all normal ores will be disabled.
+				heat_sand = false
+
+			#Mystical Agriculture stone variants. Mystical Agriculture has to be installed for the ores to generate at all.
+			[general.poor.stoneVariants.mysticalagriculture]
+				#If true, the (Mystical Agriculture) Basalt variant of all normal ores will be disabled.
+				soulstone = false
+
+	#Manipulate vanilla and other mods ore generation.
+	[general.vanilla_and_other_mods]
+		#If true, vanilla nether ores will be removed.
+		removeVanillaNetherOreGeneration = true
+		#If true, this mod will generate vanilla ores based on the configs of this mod. Works even if the corresponding stone variant is disabled.
+		enableCustomVanillaOreGeneration = true
+		#If true, vanilla overworld ores will be removed.
+		removeVanillaOverworldOreGeneration = true
+		#If true, the generation of nether ores added by other mods and vanilla minecraft will be disabled.
+		disableOtherNetherOreGeneration = false
+		#If true, the generation of end ores added by other mods will be disabled.
+		disableOtherEndOreGeneration = false
+		#If true, the generation of overworld ores added by other mods and vanilla minecraft will be disabled.
+		disableOtherOverworldOreGeneration = false
+
+	#Other general settings
+	[general.others]
+		#If true, Bedrock ores will be replaced with Bedrock when blown up. If Bedrock ores drop itself this might be a way to reproduce bedrock. If false, people could break out of the world.
+		replaceBedrockOreWithBedrockOnExplosion = true
+
+	#Settings that affect all dense ores.
+	[general.dense]
+		#If true, all dense ores will be disabled.
+		disableAllVariants = true
+
+		#Disable all dense ores of a certain stone variant (only affects ores of this mod).
+		[general.dense.stoneVariants]
+
+			#Vanilla stone variants
+			[general.dense.stoneVariants.minecraft]
+				#If true, the Red Sandstone variant of all dense ores will be disabled.
+				red_sandstone = false
+				#If true, the Red Sand variant of all dense ores will be disabled.
+				red_sand = false
+				#If true, the Packed Ice variant of all dense ores (except vanilla ores) will be disabled.
+				packed_ice = false
+				#If true, the Sandstone variant of all dense ores will be disabled.
+				sandstone = false
+				#If true, the Stone variant of all dense ores (except vanilla ores) will be disabled.
+				stone = false
+				#If true, the Gravel variant of all dense ores will be disabled.
+				gravel = false
+				#If true, the Sand variant of all dense ores will be disabled.
+				sand = false
+				#If true, the Blue Ice variant of all dense ores (except vanilla ores) will be disabled.
+				blue_ice = false
+				#If true, the Bedrock variant of all dense ores (except vanilla ores) will be disabled.
+				bedrock = false
+				#If true, the Granite variant of all dense ores will be disabled.
+				granite = false
+				#If true, the End Stone variant of all dense ores will be disabled.
+				end_stone = false
+				#If true, the Netherrack variant of all dense ores (except vanilla ores) will be disabled.
+				netherrack = false
+				#If true, the Andesite variant of all dense ores will be disabled.
+				andesite = false
+				#If true, the Diorite variant of all dense ores will be disabled.
+				diorite = false
+
+			#Midnight stone variants. Midnight has to be installed for the ores to generate at all.
+			[general.dense.stoneVariants.midnight]
+				#If true, the (Midnight) Basalt variant of all normal ores will be disabled.
+				nightstone = false
+
+			#Embellishcraft stone variants. Embellishcraft has to be installed for the ores to generate at all.
+			[general.dense.stoneVariants.embellishcraft]
+				#If true, the (Embellishcraft) Marble variant of all dense ores will be disabled.
+				marble = false
+				#If true, the (Embellishcraft) Basalt variant of all dense ores will be disabled.
+				basalt = false
+				#If true, the (Embellishcraft) Larvikite variant of all dense ores will be disabled.
+				larvikite = false
+				#If true, the (Embellishcraft) Jade variant of all dense ores will be disabled.
+				jade = false
+				#If true, the (Embellishcraft) Gneiss variant of all dense ores will be disabled.
+				gneiss = false
+				#If true, the (Embellishcraft) Slate variant of all dense ores will be disabled.
+				slate = false
+
+			#Stone variants added by this mod.
+			[general.dense.stoneVariants.dannys_ores]
+				#If true, the Hardened Stone variant of all dense ores (except vanilla ores) will be disabled.
+				hardened_stone = false
+
+			#Quark stone variants. Quark has to be installed for the ores to generate at all.
+			[general.dense.stoneVariants.quark]
+				#If true, the (Quark) Marble variant of all dense ores will be disabled.
+				marble = false
+				#If true, the (Quark) Basalt variant of all dense ores will be disabled.
+				basalt = false
+				#If true, the (Quark) Limestone variant of all dense ores will be disabled.
+				limestone = false
+				#If true, the (Quark) Slate variant of all dense ores will be disabled.
+				slate = false
+				#If true, the (Quark) Jasper variant of all dense ores will be disabled.
+				jasper = false
+
+			#Create stone variants. Create has to be installed for the ores to generate at all.
+			[general.dense.stoneVariants.create]
+				#If true, the (Create) Slate variant of all normal ores will be disabled.
+				weathered_limestone = false
+				#If true, the (Create) Larvikite variant of all normal ores will be disabled.
+				limestone = false
+				#If true, the (Create) Gneiss variant of all normal ores will be disabled.
+				dolomite = false
+				#If true, the (Create) Jade variant of all normal ores will be disabled.
+				gabbro = false
+				#If true, the (Create) Marble variant of all normal ores will be disabled.
+				scoria = false
+
+			#Nethercraft stone variants. Nethercraft has to be installed for the ores to generate at all.
+			[general.dense.stoneVariants.nethercraft]
+				#If true, the (Nethercraft) Basalt variant of all normal ores will be disabled.
+				heat_sand = false
+
+			#Mystical Agriculture stone variants. Mystical Agriculture has to be installed for the ores to generate at all.
+			[general.dense.stoneVariants.mysticalagriculture]
+				#If true, the (Mystical Agriculture) Basalt variant of all normal ores will be disabled.
+				soulstone = false
+
