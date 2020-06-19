@@ -14,3 +14,14 @@ Priority ranges:
 
 100-199: Just Remove Recipes
 0-99: (Remove and) Add Recipes
+
+Priority overview:
+
+8000: MCTag-first
+3003: pre-unification-removals
+3002: util-functions
+3001: recipe-functions
+1000: removeProcessing
+999: ore-unification
+998: tag-unification996: addProcessing
+996: addProcessing

@@ -10,7 +10,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/iron>,
         "gem": <tag:forge:gems/iron>,
         "storage_block": <tag:forge:storage_blocks/iron>,
-        //"ore": <tag:forge:ores/iron>,
         "ore_deposit": <tag:forge:ore_deposit/iron>,
         "dust": <tag:forge:dusts/iron>,
         "gear": <tag:forge:gears/iron>,
@@ -23,7 +22,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/gold>,
         "gem": <tag:forge:gems/gold>,
         "storage_block": <tag:forge:storage_blocks/gold>,
-        //"ore": <tag:forge:ores/gold>,
         "ore_deposit": <tag:forge:ore_deposit/gold>,
         "dust": <tag:forge:dusts/gold>,
         "gear": <tag:forge:gears/gold>,
@@ -36,7 +34,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/neptunium>,
         "gem": <tag:forge:gems/neptunium>,
         "storage_block": <tag:forge:storage_blocks/neptunium>,
-        //"ore": <tag:forge:ores/neptunium>,
         "ore_deposit": <tag:forge:ore_deposit/neptunium>,
         "dust": <tag:forge:dusts/neptunium>,
         "gear": <tag:forge:gears/neptunium>,
@@ -49,7 +46,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/copper>,
         "gem": <tag:forge:gems/copper>,
         "storage_block": <tag:forge:storage_blocks/copper>,
-        //"ore": <tag:forge:ores/copper>,
         "ore_deposit": <tag:forge:ore_deposit/copper>,
         "dust": <tag:forge:dusts/copper>,
         "gear": <tag:forge:gears/copper>,
@@ -62,7 +58,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/silver>,
         "gem": <tag:forge:gems/silver>,
         "storage_block": <tag:forge:storage_blocks/silver>,
-        //"ore": <tag:forge:ores/silver>,
         "ore_deposit": <tag:forge:ore_deposit/silver>,
         "dust": <tag:forge:dusts/silver>,
         "gear": <tag:forge:gears/silver>,
@@ -75,7 +70,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/zinc>,
         "gem": <tag:forge:gems/zinc>,
         "storage_block": <tag:forge:storage_blocks/zinc>,
-        //"ore": <tag:forge:ores/zinc>,
         "ore_deposit": <tag:forge:ore_deposit/zinc>,
         "dust": <tag:forge:dusts/zinc>,
         "gear": <tag:forge:gears/zinc>,
@@ -88,7 +82,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/brass>,
         "gem": <tag:forge:gems/brass>,
         "storage_block": <tag:forge:storage_blocks/brass>,
-        //"ore": <tag:forge:ores/brass>,
         "ore_deposit": <tag:forge:ore_deposit/brass>,
         "dust": <tag:forge:dusts/brass>,
         "gear": <tag:forge:gears/brass>,
@@ -101,7 +94,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/tungsten>,
         "gem": <tag:forge:gems/tungsten>,
         "storage_block": <tag:forge:storage_blocks/tungsten>,
-        //"ore": <tag:forge:ores/tungsten>,
         "ore_deposit": <tag:forge:ore_deposit/tungsten>,
         "dust": <tag:forge:dusts/tungsten>,
         "gear": <tag:forge:gears/tungsten>,
@@ -114,7 +106,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/lead>,
         "gem": <tag:forge:gems/lead>,
         "storage_block": <tag:forge:storage_blocks/lead>,
-        //"ore": <tag:forge:ores/lead>,
         "ore_deposit": <tag:forge:ore_deposit/lead>,
         "dust": <tag:forge:dusts/lead>,
         "gear": <tag:forge:gears/lead>,
@@ -127,7 +118,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/quicksilver>,
         "gem": <tag:forge:gems/quicksilver>,
         "storage_block": <tag:forge:storage_blocks/quicksilver>,
-        //"ore": <tag:forge:ores/quicksilver>,
         "ore_deposit": <tag:forge:ore_deposit/quicksilver>,
         "dust": <tag:forge:dusts/quicksilver>,
         "gear": <tag:forge:gears/quicksilver>,
@@ -140,7 +130,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/tin>,
         "gem": <tag:forge:gems/tin>,
         "storage_block": <tag:forge:storage_blocks/tin>,
-        //"ore": <tag:forge:ores/tin>,
         "ore_deposit": <tag:forge:ore_deposit/tin>,
         "dust": <tag:forge:dusts/tin>,
         "gear": <tag:forge:gears/tin>,
@@ -153,7 +142,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/redstone_alloy>,
         "gem": <tag:forge:gems/redstone_alloy>,
         "storage_block": <tag:forge:storage_blocks/redstone_alloy>,
-        //"ore": <tag:forge:ores/redstone_alloy>,
         "ore_deposit": <tag:forge:ore_deposit/redstone_alloy>,
         "dust": <tag:forge:dusts/redstone_alloy>,
         "gear": <tag:forge:gears/redstone_alloy>,
@@ -166,7 +154,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/refined_iron>,
         "gem": <tag:forge:gems/refined_iron>,
         "storage_block": <tag:forge:storage_blocks/refined_iron>,
-        //"ore": <tag:forge:ores/refined_iron>,
         "ore_deposit": <tag:forge:ore_deposit/refined_iron>,
         "dust": <tag:forge:dusts/refined_iron>,
         "gear": <tag:forge:gears/refined_iron>,
@@ -179,7 +166,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/compressed_iron>,
         "gem": <tag:forge:gems/compressed_iron>,
         "storage_block": <tag:forge:storage_blocks/compressed_iron>,
-        //"ore": <tag:forge:ores/compressed_iron>,
         "ore_deposit": <tag:forge:ore_deposit/compressed_iron>,
         "dust": <tag:forge:dusts/compressed_iron>,
         "gear": <tag:forge:gears/compressed_iron>,
@@ -192,7 +178,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/nickel>,
         "gem": <tag:forge:gems/nickel>,
         "storage_block": <tag:forge:storage_blocks/nickel>,
-        //"ore": <tag:forge:ores/nickel>,
         "ore_deposit": <tag:forge:ore_deposit/nickel>,
         "dust": <tag:forge:dusts/nickel>,
         "gear": <tag:forge:gears/nickel>,
@@ -205,7 +190,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/platinum>,
         "gem": <tag:forge:gems/platinum>,
         "storage_block": <tag:forge:storage_blocks/platinum>,
-        //"ore": <tag:forge:ores/platinum>,
         "ore_deposit": <tag:forge:ore_deposit/platinum>,
         "dust": <tag:forge:dusts/platinum>,
         "gear": <tag:forge:gears/platinum>,
@@ -218,7 +202,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/bismuth>,
         "gem": <tag:forge:gems/bismuth>,
         "storage_block": <tag:forge:storage_blocks/bismuth>,
-        //"ore": <tag:forge:ores/bismuth>,
         "ore_deposit": <tag:forge:ore_deposit/bismuth>,
         "dust": <tag:forge:dusts/bismuth>,
         "gear": <tag:forge:gears/bismuth>,
@@ -231,7 +214,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/aluminum>,
         "gem": <tag:forge:gems/aluminum>,
         "storage_block": <tag:forge:storage_blocks/aluminum>,
-        //"ore": <tag:forge:ores/aluminum>,
         "ore_deposit": <tag:forge:ore_deposit/aluminum>,
         "dust": <tag:forge:dusts/aluminum>,
         "gear": <tag:forge:gears/aluminum>,
@@ -244,7 +226,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/uranium>,
         "gem": <tag:forge:gems/uranium>,
         "storage_block": <tag:forge:storage_blocks/uranium>,
-        //"ore": <tag:forge:ores/uranium>,
         "ore_deposit": <tag:forge:ore_deposit/uranium>,
         "dust": <tag:forge:dusts/uranium>,
         "gear": <tag:forge:gears/uranium>,
@@ -257,7 +238,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/bronze>,
         "gem": <tag:forge:gems/bronze>,
         "storage_block": <tag:forge:storage_blocks/bronze>,
-        //"ore": <tag:forge:ores/bronze>,
         "ore_deposit": <tag:forge:ore_deposit/bronze>,
         "dust": <tag:forge:dusts/bronze>,
         "gear": <tag:forge:gears/bronze>,
@@ -270,7 +250,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/invar>,
         "gem": <tag:forge:gems/invar>,
         "storage_block": <tag:forge:storage_blocks/invar>,
-        //"ore": <tag:forge:ores/invar>,
         "ore_deposit": <tag:forge:ore_deposit/invar>,
         "dust": <tag:forge:dusts/invar>,
         "gear": <tag:forge:gears/invar>,
@@ -283,7 +262,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/electrum>,
         "gem": <tag:forge:gems/electrum>,
         "storage_block": <tag:forge:storage_blocks/electrum>,
-        //"ore": <tag:forge:ores/electrum>,
         "ore_deposit": <tag:forge:ore_deposit/electrum>,
         "dust": <tag:forge:dusts/electrum>,
         "gear": <tag:forge:gears/electrum>,
@@ -296,7 +274,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/bismuth_brass>,
         "gem": <tag:forge:gems/bismuth_brass>,
         "storage_block": <tag:forge:storage_blocks/bismuth_brass>,
-        //"ore": <tag:forge:ores/bismuth_brass>,
         "ore_deposit": <tag:forge:ore_deposit/bismuth_brass>,
         "dust": <tag:forge:dusts/bismuth_brass>,
         "gear": <tag:forge:gears/bismuth_brass>,
@@ -309,7 +286,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/steel>,
         "gem": <tag:forge:gems/steel>,
         "storage_block": <tag:forge:storage_blocks/steel>,
-        //"ore": <tag:forge:ores/steel>,
         "ore_deposit": <tag:forge:ore_deposit/steel>,
         "dust": <tag:forge:dusts/steel>,
         "gear": <tag:forge:gears/steel>,
@@ -322,7 +298,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/aluminum_steel>,
         "gem": <tag:forge:gems/aluminum_steel>,
         "storage_block": <tag:forge:storage_blocks/aluminum_steel>,
-        //"ore": <tag:forge:ores/aluminum_steel>,
         "ore_deposit": <tag:forge:ore_deposit/aluminum_steel>,
         "dust": <tag:forge:dusts/aluminum_steel>,
         "gear": <tag:forge:gears/aluminum_steel>,
@@ -335,7 +310,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/bismuth_steel>,
         "gem": <tag:forge:gems/bismuth_steel>,
         "storage_block": <tag:forge:storage_blocks/bismuth_steel>,
-        //"ore": <tag:forge:ores/bismuth_steel>,
         "ore_deposit": <tag:forge:ore_deposit/bismuth_steel>,
         "dust": <tag:forge:dusts/bismuth_steel>,
         "gear": <tag:forge:gears/bismuth_steel>,
@@ -348,7 +322,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/signalum>,
         "gem": <tag:forge:gems/signalum>,
         "storage_block": <tag:forge:storage_blocks/signalum>,
-        //"ore": <tag:forge:ores/signalum>,
         "ore_deposit": <tag:forge:ore_deposit/signalum>,
         "dust": <tag:forge:dusts/signalum>,
         "gear": <tag:forge:gears/signalum>,
@@ -361,7 +334,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/lumium>,
         "gem": <tag:forge:gems/lumium>,
         "storage_block": <tag:forge:storage_blocks/lumium>,
-        //"ore": <tag:forge:ores/lumium>,
         "ore_deposit": <tag:forge:ore_deposit/lumium>,
         "dust": <tag:forge:dusts/lumium>,
         "gear": <tag:forge:gears/lumium>,
@@ -374,7 +346,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/enderium>,
         "gem": <tag:forge:gems/enderium>,
         "storage_block": <tag:forge:storage_blocks/enderium>,
-        //"ore": <tag:forge:ores/enderium>,
         "ore_deposit": <tag:forge:ore_deposit/enderium>,
         "dust": <tag:forge:dusts/enderium>,
         "gear": <tag:forge:gears/enderium>,
@@ -387,7 +358,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/diamond>,
         "gem": <tag:forge:gems/diamond>,
         "storage_block": <tag:forge:storage_blocks/diamond>,
-        //"ore": <tag:forge:ores/diamond>,
         "ore_deposit": <tag:forge:ore_deposit/diamond>,
         "dust": <tag:forge:dusts/diamond>,
         "gear": <tag:forge:gears/diamond>,
@@ -400,7 +370,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/coal>,
         "gem": <tag:forge:gems/coal>,
         "storage_block": <tag:forge:storage_blocks/coal>,
-        //"ore": <tag:forge:ores/coal>,
         "ore_deposit": <tag:forge:ore_deposit/coal>,
         "dust": <tag:forge:dusts/coal>,
         "gear": <tag:forge:gears/coal>,
@@ -413,7 +382,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/lapis>,
         "gem": <tag:forge:gems/lapis>,
         "storage_block": <tag:forge:storage_blocks/lapis>,
-        //"ore": <tag:forge:ores/lapis>,
         "ore_deposit": <tag:forge:ore_deposit/lapis>,
         "dust": <tag:forge:dusts/lapis>,
         "gear": <tag:forge:gears/lapis>,
@@ -426,7 +394,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/emerald>,
         "gem": <tag:forge:gems/emerald>,
         "storage_block": <tag:forge:storage_blocks/emerald>,
-        //"ore": <tag:forge:ores/emerald>,
         "ore_deposit": <tag:forge:ore_deposit/emerald>,
         "dust": <tag:forge:dusts/emerald>,
         "gear": <tag:forge:gears/emerald>,
@@ -439,7 +406,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/quartz>,
         "gem": <tag:forge:gems/quartz>,
         "storage_block": <tag:forge:storage_blocks/quartz>,
-        //"ore": <tag:forge:ores/quartz>,
         "ore_deposit": <tag:forge:ore_deposit/quartz>,
         "dust": <tag:forge:dusts/quartz>,
         "gear": <tag:forge:gears/quartz>,
@@ -504,7 +470,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/redstone>,
         "gem": <tag:forge:gems/redstone>,
         "storage_block": <tag:forge:storage_blocks/redstone>,
-        //"ore": <tag:forge:ores/redstone>,
         "ore_deposit": <tag:forge:ore_deposit/redstone>,
         "dust": <tag:forge:dusts/redstone>,
         "gear": <tag:forge:gears/redstone>,
@@ -517,7 +482,6 @@ var materials as MCTag[string][string] = {
         "ingot": <tag:forge:ingots/glowstone>,
         "gem": <tag:forge:gems/glowstone>,
         "storage_block": <tag:forge:storage_blocks/glowstone>,
-        //"ore": <tag:forge:ores/glowstone>,
         "ore_deposit": <tag:forge:ore_deposit/glowstone>,
         "dust": <tag:forge:dusts/glowstone>,
         "gear": <tag:forge:gears/glowstone>,
@@ -532,13 +496,23 @@ var modPriorities as string[] = [
     "silents_mechanisms",
 	"mekanism",
     "kubejs",
+    "immersiveengineering",
+    "create",
     "omegacraft",
-    "mapperbase",
     "industrialforegoing",
     "quark",
-    "bno",
     "botania"
 ];
+
+for material, types in materials {
+    for type, itemTag in types {
+        if (itemTag.isItemTag) {
+            if (itemTag.items.length > 1) {
+                purgeItemTag(itemTag, modPriorities);
+            }
+        }
+    }
+}
 
 public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) as IItemStack {
 	for mod in modPriorities {
@@ -566,14 +540,4 @@ public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 			craftingTable.addShapeless(formatRecipeName(item) + "_conversion_recipe", tag.first(), [item]);
 		}
 	}
-}
-
-for material, types in materials {
-    for type, itemTag in types {
-        if (itemTag.isItemTag) {
-            if (itemTag.items.length > 1) {
-                purgeItemTag(itemTag, modPriorities);
-            }
-        }
-    }
 }
