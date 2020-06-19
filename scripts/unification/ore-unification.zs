@@ -103,6 +103,16 @@ var materials as MCTag[string][string] = {
     "zinc": { "ore": <tag:forge:ores/zinc> }
 };
 
+public function purgeOreTag(tag as MCTag) as void {
+	for item in tag.items {
+        var itemOwner = item.registryName.split(":")[0];
+		if (!(itemOwner == "minecraft") && !(itemOwner == "dannys_ores")) {
+			tag.removeItems(item);
+			removeProcessingFor(item);
+		}
+	}
+}
+
 for material, types in materials {
     for type, itemTag in types {
         if (itemTag.isItemTag) {

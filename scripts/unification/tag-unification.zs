@@ -1,4 +1,4 @@
-#priority 997
+#priority 998
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -31,18 +31,18 @@ var materials as MCTag[string][string] = {
         "rod": <tag:forge:rods/gold>
     },
 
-    // "neptunium": {
-    //     "nugget": <tag:forge:nuggets/neptunium>,
-    //     "ingot": <tag:forge:ingots/neptunium>,
-    //     "gem": <tag:forge:gems/neptunium>,
-    //     "storage_block": <tag:forge:storage_blocks/neptunium>,
-    //     //"ore": <tag:forge:ores/neptunium>,
-    //     "ore_deposit": <tag:forge:ore_deposit/neptunium>,
-    //     "dust": <tag:forge:dusts/neptunium>,
-    //     "gear": <tag:forge:gears/neptunium>,
-    //     "plate": <tag:forge:plates/neptunium>,
-    //     "rod": <tag:forge:rods/neptunium>
-    // },
+    "neptunium": {
+        "nugget": <tag:forge:nuggets/neptunium>,
+        "ingot": <tag:forge:ingots/neptunium>,
+        "gem": <tag:forge:gems/neptunium>,
+        "storage_block": <tag:forge:storage_blocks/neptunium>,
+        //"ore": <tag:forge:ores/neptunium>,
+        "ore_deposit": <tag:forge:ore_deposit/neptunium>,
+        "dust": <tag:forge:dusts/neptunium>,
+        "gear": <tag:forge:gears/neptunium>,
+        "plate": <tag:forge:plates/neptunium>,
+        "rod": <tag:forge:rods/neptunium>
+    },
 
     "copper": {
         "nugget": <tag:forge:nuggets/copper>,
@@ -528,17 +528,45 @@ var materials as MCTag[string][string] = {
 
 var modPriorities as string[] = [
     "minecraft",
-    "dannys_ores",
     "jaopca",
     "silents_mechanisms",
 	"mekanism",
     "kubejs",
     "omegacraft",
+    "mapperbase",
     "industrialforegoing",
     "quark",
     "bno",
     "botania"
 ];
+
+public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) as IItemStack {
+	for mod in modPriorities {
+		for item in tag.items {
+            var itemOwner = item.registryName.split(":")[0];
+            if (itemOwner == mod) {
+                return item;
+            }
+        }
+    }
+	logger.warning("Unable to find acceptable item in MCTag " + tag.commandString + ". It contained:");
+	for item in tag.items {
+		logger.info(item.registryName);
+	}
+    return <item:minecraft:air>;
+}
+
+public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
+	for item in tag.items {
+		if (!item.matches(getPreferredItemInTag(tag, modPriorities))) {
+			tag.removeItems(item);
+			removeProcessingFor(item);
+			
+			// Fallback recipe
+			craftingTable.addShapeless(formatRecipeName(item) + "_conversion_recipe", tag.first(), [item]);
+		}
+	}
+}
 
 for material, types in materials {
     for type, itemTag in types {

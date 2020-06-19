@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-19T14:50:25.3277054Z",
+  "lastPlayed": "2020-06-19T20:25:13.8558494Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -40,7 +40,7 @@
   "modpackOverrides": null,
   "isMemoryOverride": false,
   "allocatedMemory": 9216,
-  "guid": "b15a5400-3350-458a-94be-65791325b5fc",
+  "guid": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
   "gameTypeID": 432,
   "installPath": "C:\\Users\\Daniel\\Twitch\\Minecraft\\Instances\\Insanity-1.15.2\\",
   "name": "Insanity-1.15.2",
@@ -2012,90 +2012,96 @@
     },
     {
       "folderName": "New World",
-      "fingerprint": 414767509,
-      "fileDateHash": 2824755273,
+      "fingerprint": 923292390,
+      "fileDateHash": 57093356,
       "sectionID": 10,
       "individualFingerprints": [
         12490019,
         22133216,
         54364829,
         57147032,
-        116054154,
+        132010060,
         158043022,
         299090877,
+        331896507,
         393743957,
         403418361,
         415143723,
         500036828,
+        513125489,
+        532652010,
+        535535480,
         538583082,
-        539326090,
-        670144071,
-        712982045,
-        810999080,
+        616857153,
+        650776143,
+        660734254,
+        671021447,
+        704438345,
         812326908,
+        918971602,
         928622285,
-        979157545,
+        929243176,
         994132931,
-        1077144129,
-        1118129611,
+        1119950986,
+        1160895502,
         1170925343,
         1174775678,
+        1230547766,
         1271102851,
+        1336333489,
         1367033121,
-        1371792327,
         1434901704,
-        1475043730,
+        1497449824,
         1540447798,
         1540447798,
         1540447798,
         1566657123,
-        1571976557,
+        1568872716,
         1591040356,
-        1612698485,
         1722796223,
         1783675463,
         1891027954,
         1972004122,
+        2020659996,
         2039055248,
-        2095344087,
-        2121544406,
+        2138239495,
         2152852191,
-        2183900757,
-        2276337954,
+        2200503126,
+        2226088383,
+        2299707035,
         2308177064,
         2317110842,
         2327566148,
         2344543534,
-        2495210304,
-        2497236707,
+        2372576555,
         2498825621,
         2533287518,
+        2551436582,
+        2559729708,
         2575806916,
+        2579460881,
         2580899546,
+        2597712990,
+        2618014200,
+        2641730422,
         2672388777,
-        2675004837,
         2754028482,
         2843449744,
+        2850689751,
+        2875861240,
         2885589422,
         2911591640,
-        2987433779,
-        3049160315,
         3116127440,
-        3199412869,
-        3212735421,
-        3215136829,
+        3249378672,
         3272786162,
-        3287613341,
-        3287900228,
         3364287853,
-        3371131292,
-        3400210156,
+        3426179346,
         3445084705,
         3455094712,
-        3496616853,
-        3525204793,
-        3689198891,
-        3699019169,
+        3548865379,
+        3558265353,
+        3562807502,
+        3632614788,
         3737716214,
         3738042709,
         3769038449,
@@ -2104,20 +2110,20 @@
         3771282984,
         3771282984,
         3805753713,
-        3848251080,
-        3885697596,
+        3894804303,
         3964272420,
-        4091809946,
         4129087477,
+        4186471575,
         4189521779,
         4192398683,
+        4268361585,
         4294246967
       ],
       "status": 1,
-      "timestamp": "2020-06-19T12:43:34.8478773Z",
-      "lastWriteTimeUtc": "2020-06-19T12:43:34.3270024Z",
-      "queryTimestamp": "2020-06-19T12:43:35.8083285Z",
-      "fileCount": 22,
+      "timestamp": "2020-06-19T20:18:12.038258Z",
+      "lastWriteTimeUtc": "2020-06-19T20:18:11.5216196Z",
+      "queryTimestamp": "2020-06-19T20:18:13.2369427Z",
+      "fileCount": 23,
       "fileSize": 0
     },
     {
@@ -2781,21 +2787,6 @@
       "fileSize": 7546
     },
     {
-      "folderName": "EnderStorage-1.15.2-2.5.0.143-universal.jar",
-      "fingerprint": 3548941763,
-      "fileDateHash": 3216799603,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3548941763
-      ],
-      "status": 1,
-      "timestamp": "2020-06-07T15:15:58.5132253Z",
-      "lastWriteTimeUtc": "2020-06-02T20:21:07.2823758Z",
-      "queryTimestamp": "2020-06-19T12:43:35.8212939Z",
-      "fileCount": 1,
-      "fileSize": 213158
-    },
-    {
       "folderName": "planttech2-0.02.10 - 1.15.2.jar",
       "fingerprint": 607945642,
       "fileDateHash": 831849476,
@@ -2809,6 +2800,21 @@
       "queryTimestamp": "2020-06-19T12:43:35.8212939Z",
       "fileCount": 1,
       "fileSize": 3685704
+    },
+    {
+      "folderName": "EnderStorage-1.15.2-2.5.0.143-universal.jar",
+      "fingerprint": 3548941763,
+      "fileDateHash": 3216799603,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3548941763
+      ],
+      "status": 1,
+      "timestamp": "2020-06-07T15:15:58.5132253Z",
+      "lastWriteTimeUtc": "2020-06-02T20:21:07.2823758Z",
+      "queryTimestamp": "2020-06-19T12:43:35.8212939Z",
+      "fileCount": 1,
+      "fileSize": 213158
     },
     {
       "folderName": "PickleTweaks-1.15.2-4.0.3.jar",
@@ -2886,21 +2892,6 @@
       "fileSize": 8651
     },
     {
-      "folderName": "carpetstairsmod-1.15.2_v1.4.4.jar",
-      "fingerprint": 3593252865,
-      "fileDateHash": 2831124505,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3593252865
-      ],
-      "status": 1,
-      "timestamp": "2020-06-01T21:17:31.1027687Z",
-      "lastWriteTimeUtc": "2020-05-09T14:04:31.1803772Z",
-      "queryTimestamp": "2020-06-19T12:43:35.8232886Z",
-      "fileCount": 1,
-      "fileSize": 216266
-    },
-    {
       "folderName": "campfiretorches-1.15.2-1.0.2.jar",
       "fingerprint": 3336872122,
       "fileDateHash": 4285505527,
@@ -2914,6 +2905,21 @@
       "queryTimestamp": "2020-06-19T12:43:35.8232886Z",
       "fileCount": 1,
       "fileSize": 2854
+    },
+    {
+      "folderName": "carpetstairsmod-1.15.2_v1.4.4.jar",
+      "fingerprint": 3593252865,
+      "fileDateHash": 2831124505,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3593252865
+      ],
+      "status": 1,
+      "timestamp": "2020-06-01T21:17:31.1027687Z",
+      "lastWriteTimeUtc": "2020-05-09T14:04:31.1803772Z",
+      "queryTimestamp": "2020-06-19T12:43:35.8232886Z",
+      "fileCount": 1,
+      "fileSize": 216266
     },
     {
       "folderName": "Waystones_1.15.2-6.0.1.jar",
@@ -3066,21 +3072,6 @@
       "fileSize": 14490
     },
     {
-      "folderName": "Overloaded-1.15.2-0.0.87.jar",
-      "fingerprint": 514233635,
-      "fileDateHash": 2582931543,
-      "sectionID": 8,
-      "individualFingerprints": [
-        514233635
-      ],
-      "status": 1,
-      "timestamp": "2020-06-02T14:54:27.0286164Z",
-      "lastWriteTimeUtc": "2020-06-02T14:27:45.8656701Z",
-      "queryTimestamp": "2020-06-19T12:43:35.8262809Z",
-      "fileCount": 1,
-      "fileSize": 4421759
-    },
-    {
       "folderName": "Overloaded Compressed Blocks-1.15.2-1.0.12.jar",
       "fingerprint": 2248979546,
       "fileDateHash": 800929258,
@@ -3094,6 +3085,21 @@
       "queryTimestamp": "2020-06-19T12:43:35.827278Z",
       "fileCount": 1,
       "fileSize": 175944
+    },
+    {
+      "folderName": "Overloaded-1.15.2-0.0.87.jar",
+      "fingerprint": 514233635,
+      "fileDateHash": 2582931543,
+      "sectionID": 8,
+      "individualFingerprints": [
+        514233635
+      ],
+      "status": 1,
+      "timestamp": "2020-06-02T14:54:27.0286164Z",
+      "lastWriteTimeUtc": "2020-06-02T14:27:45.8656701Z",
+      "queryTimestamp": "2020-06-19T12:43:35.8262809Z",
+      "fileCount": 1,
+      "fileSize": 4421759
     },
     {
       "folderName": "u_team_core-1.15.2-2.11.0.156.jar",
@@ -3171,21 +3177,6 @@
       "fileSize": 479232
     },
     {
-      "folderName": "Interactio-1.15.2-2.0.2.jar",
-      "fingerprint": 2091747146,
-      "fileDateHash": 2324638603,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2091747146
-      ],
-      "status": 1,
-      "timestamp": "2020-06-01T21:17:31.188985Z",
-      "lastWriteTimeUtc": "2020-05-10T13:14:13.75107Z",
-      "queryTimestamp": "2020-06-19T12:43:35.8282753Z",
-      "fileCount": 1,
-      "fileSize": 164045
-    },
-    {
       "folderName": "portality-1.15.2-2.1.2-aaa257f.jar",
       "fingerprint": 4169625261,
       "fileDateHash": 4149272848,
@@ -3199,6 +3190,21 @@
       "queryTimestamp": "2020-06-19T12:43:35.829273Z",
       "fileCount": 1,
       "fileSize": 394633
+    },
+    {
+      "folderName": "Interactio-1.15.2-2.0.2.jar",
+      "fingerprint": 2091747146,
+      "fileDateHash": 2324638603,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2091747146
+      ],
+      "status": 1,
+      "timestamp": "2020-06-01T21:17:31.188985Z",
+      "lastWriteTimeUtc": "2020-05-10T13:14:13.75107Z",
+      "queryTimestamp": "2020-06-19T12:43:35.8282753Z",
+      "fileCount": 1,
+      "fileSize": 164045
     },
     {
       "folderName": "simplefarming-1.15.2-1.2.9.jar",
@@ -3216,21 +3222,6 @@
       "fileSize": 680344
     },
     {
-      "folderName": "theoneprobe-1.15-2.0.2.jar",
-      "fingerprint": 1078713764,
-      "fileDateHash": 786760689,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1078713764
-      ],
-      "status": 1,
-      "timestamp": "2020-05-09T13:11:25.9523965Z",
-      "lastWriteTimeUtc": "2020-05-09T09:08:37.5082436Z",
-      "queryTimestamp": "2020-06-19T12:43:35.829273Z",
-      "fileCount": 1,
-      "fileSize": 303802
-    },
-    {
       "folderName": "ClickMachine-1.15.2-3.0.2.jar",
       "fingerprint": 2484465928,
       "fileDateHash": 3398169035,
@@ -3244,6 +3235,21 @@
       "queryTimestamp": "2020-06-19T12:43:35.8302699Z",
       "fileCount": 1,
       "fileSize": 51783
+    },
+    {
+      "folderName": "theoneprobe-1.15-2.0.2.jar",
+      "fingerprint": 1078713764,
+      "fileDateHash": 786760689,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1078713764
+      ],
+      "status": 1,
+      "timestamp": "2020-05-09T13:11:25.9523965Z",
+      "lastWriteTimeUtc": "2020-05-09T09:08:37.5082436Z",
+      "queryTimestamp": "2020-06-19T12:43:35.829273Z",
+      "fileCount": 1,
+      "fileSize": 303802
     },
     {
       "folderName": "ftb-teams-1.0.0.5.jar",
@@ -3396,21 +3402,6 @@
       "fileSize": 16965
     },
     {
-      "folderName": "expandedstorage-1.1.8+1.15.2.jar",
-      "fingerprint": 3176675761,
-      "fileDateHash": 4185318493,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3176675761
-      ],
-      "status": 1,
-      "timestamp": "2020-05-09T13:11:23.5300649Z",
-      "lastWriteTimeUtc": "2020-05-09T09:07:04.4764272Z",
-      "queryTimestamp": "2020-06-19T12:43:35.8332624Z",
-      "fileCount": 1,
-      "fileSize": 334953
-    },
-    {
       "folderName": "World-Stripper-1.7.2-1.15.1.jar",
       "fingerprint": 4184242649,
       "fileDateHash": 3214441128,
@@ -3424,6 +3415,21 @@
       "queryTimestamp": "2020-06-19T12:43:35.8332624Z",
       "fileCount": 1,
       "fileSize": 46859
+    },
+    {
+      "folderName": "expandedstorage-1.1.8+1.15.2.jar",
+      "fingerprint": 3176675761,
+      "fileDateHash": 4185318493,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3176675761
+      ],
+      "status": 1,
+      "timestamp": "2020-05-09T13:11:23.5300649Z",
+      "lastWriteTimeUtc": "2020-05-09T09:07:04.4764272Z",
+      "queryTimestamp": "2020-06-19T12:43:35.8332624Z",
+      "fileCount": 1,
+      "fileSize": 334953
     },
     {
       "folderName": "FluxNetworks-1.15.2-5.0.1-2.jar",
@@ -3457,7 +3463,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-06-19T12:43:36.7743993Z",
+  "lastPreviousMatchUpdate": "2020-06-19T20:18:13.7565535Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.15.2",
@@ -3478,11 +3484,11 @@
     "LastSyncDate": "0001-01-01T00:00:00"
   },
   "preferenceShowAddOnInfo": true,
-  "installDate": "2020-06-01T21:50:36.5654248Z",
+  "installDate": "2020-06-19T19:47:27.056042Z",
   "installedAddons": [
     {
       "addonID": 223402,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2942990,
         "displayName": "EnderEnhancement-1.15.2-1.0.4.2.jar",
@@ -3560,7 +3566,7 @@
     },
     {
       "addonID": 289310,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2968431,
         "displayName": "[1.15.2] Camera Mod 1.6.8",
@@ -3633,7 +3639,7 @@
     },
     {
       "addonID": 225643,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2953670,
         "displayName": "Botania-r1.15-384.jar",
@@ -3736,7 +3742,7 @@
     },
     {
       "addonID": 245755,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2903834,
         "displayName": "Waystones_1.15.2-6.0.1.jar",
@@ -3820,7 +3826,7 @@
     },
     {
       "addonID": 348521,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2938583,
         "displayName": "[Forge 1.15.x] ClothConfig2-3.0",
@@ -3896,7 +3902,7 @@
     },
     {
       "addonID": 332890,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2965367,
         "displayName": "RingOfAttraction-1.15.2-1.1.33.jar",
@@ -3982,7 +3988,7 @@
     },
     {
       "addonID": 298275,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2905724,
         "displayName": "ClickMachine-1.15.2-3.0.2.jar",
@@ -4068,7 +4074,7 @@
     },
     {
       "addonID": 363065,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2893163,
         "displayName": "stonecatalysts-1.15.2-1.2.0.jar",
@@ -4180,7 +4186,7 @@
     },
     {
       "addonID": 248020,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2935065,
         "displayName": "Flux-Networks-1.15.2-5.0.1",
@@ -4326,7 +4332,7 @@
     },
     {
       "addonID": 241319,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2942597,
         "displayName": "Reliquary-1.15.2-1.3.4.995.jar",
@@ -4411,7 +4417,7 @@
     },
     {
       "addonID": 354143,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2964534,
         "displayName": "performant-1.15-2.11m.jar",
@@ -4494,7 +4500,7 @@
     },
     {
       "addonID": 351914,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2928277,
         "displayName": "mgui-1.15.2-2.1.1.jar",
@@ -4568,7 +4574,7 @@
     },
     {
       "addonID": 261442,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2919222,
         "displayName": "Omega Craft 4.1.1b",
@@ -4659,7 +4665,7 @@
     },
     {
       "addonID": 280441,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2927621,
         "displayName": "MysticalCustomization-1.15.2-1.0.0.jar",
@@ -4753,7 +4759,7 @@
     },
     {
       "addonID": 273744,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2895173,
         "displayName": "U-Team-Core-1.15.2-2.11.0.156",
@@ -4852,7 +4858,7 @@
     },
     {
       "addonID": 348584,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2875830,
         "displayName": "autorun-1.15.2-1.0.5.jar",
@@ -4931,7 +4937,7 @@
     },
     {
       "addonID": 246939,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2892733,
         "displayName": "WaterStrainer-1.15.2-9.0.0.jar",
@@ -5022,7 +5028,7 @@
     },
     {
       "addonID": 250294,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2954952,
         "displayName": "modular-routers-1.15.2-6.1.0-17.jar",
@@ -5102,7 +5108,7 @@
     },
     {
       "addonID": 313970,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2958065,
         "displayName": "Apotheosis-1.15.2-3.1.2.jar",
@@ -5209,7 +5215,7 @@
     },
     {
       "addonID": 326258,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2948946,
         "displayName": "SilentMechanisms-1.15.2-0.7.1+51.jar",
@@ -5293,7 +5299,7 @@
     },
     {
       "addonID": 368718,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2948684,
         "displayName": "JEITweaker-1.0.1",
@@ -5363,7 +5369,7 @@
     },
     {
       "addonID": 255902,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2856534,
         "displayName": "WitherSkeletonTweaks-1.15.1-4.0.0.jar",
@@ -5456,7 +5462,7 @@
     },
     {
       "addonID": 359786,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2927390,
         "displayName": "vanillaexcavators-1.15.2-2.1.jar",
@@ -5559,7 +5565,7 @@
     },
     {
       "addonID": 357557,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2873656,
         "displayName": "libnonymous-1.15.2-1.1.1.5.jar",
@@ -5645,7 +5651,7 @@
     },
     {
       "addonID": 246974,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2883660,
         "displayName": "[1.15.2] Solar Flux Reborn - 15.0.0",
@@ -5731,7 +5737,7 @@
     },
     {
       "addonID": 351990,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2875913,
         "displayName": "gardentools-1.15.2-1.0.0.jar",
@@ -5815,7 +5821,7 @@
     },
     {
       "addonID": 358700,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2861404,
         "displayName": "moredragoneggs-1.0.jar",
@@ -5903,7 +5909,7 @@
     },
     {
       "addonID": 280510,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2922858,
         "displayName": "AttributeFix-1.15.2-7.0.2.jar",
@@ -5977,7 +5983,7 @@
     },
     {
       "addonID": 250363,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2911830,
         "displayName": "AutoRegLib-1.5-40.jar",
@@ -6063,7 +6069,7 @@
     },
     {
       "addonID": 239197,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2949785,
         "displayName": "CraftTweaker-1.15.2-6.0.0.24.jar",
@@ -6173,7 +6179,7 @@
     },
     {
       "addonID": 238086,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2953148,
         "displayName": "kubejs-2.6.1.34.jar",
@@ -6256,7 +6262,7 @@
       "dateInstalled": "2020-05-09T13:11:27.2775903Z",
       "dateUpdated": "2020-05-10T13:38:56.8673041Z",
       "dateLastUpdateAttempted": "2020-05-10T13:38:56.8673041Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6269,7 +6275,7 @@
     },
     {
       "addonID": 305120,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2887498,
         "displayName": "Ageing-Mobs-1.15.2-1.0.0.jar",
@@ -6373,7 +6379,7 @@
     },
     {
       "addonID": 299540,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2856529,
         "displayName": "FastFurnace-1.15.1-3.0.0.jar",
@@ -6461,7 +6467,7 @@
     },
     {
       "addonID": 250398,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2929451,
         "displayName": "Controlling-6.1.4",
@@ -6529,7 +6535,7 @@
     },
     {
       "addonID": 306251,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2935999,
         "displayName": "auxilium-equivalence-1.15.2-1.1.0.jar",
@@ -6626,7 +6632,7 @@
     },
     {
       "addonID": 375509,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2958989,
         "displayName": "fablibrary-1.15.2-1.2.jar",
@@ -6689,7 +6695,7 @@
     },
     {
       "addonID": 243707,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2967278,
         "displayName": "Corail Tombstone 4.3.8 for 1.15.2",
@@ -6762,7 +6768,7 @@
     },
     {
       "addonID": 365460,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2958812,
         "displayName": "pamhc2trees-1.15.2-1.0.5.jar",
@@ -6858,7 +6864,7 @@
     },
     {
       "addonID": 293973,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2878689,
         "displayName": "EquipmentTooltips-1.15.2-1.4.0+11.jar",
@@ -6942,7 +6948,7 @@
     },
     {
       "addonID": 382216,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2969102,
         "displayName": "Abnormals-Core-1.15.2-v1.0.5",
@@ -7020,7 +7026,7 @@
     },
     {
       "addonID": 318551,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2905656,
         "displayName": "craftingstation-3.1.0.jar",
@@ -7111,7 +7117,7 @@
     },
     {
       "addonID": 361003,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2902111,
         "displayName": "vanillathings-1.15.2-0.5.7.jar",
@@ -7219,7 +7225,7 @@
     },
     {
       "addonID": 314093,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2969303,
         "displayName": "whoops-1.15.2-0.0.1.3.jar",
@@ -7294,7 +7300,7 @@
     },
     {
       "addonID": 331983,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2947573,
         "displayName": "Corail Woodcutter 1.1.3 for 1.15.2",
@@ -7367,7 +7373,7 @@
     },
     {
       "addonID": 239286,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2947035,
         "displayName": "Cyclic-1.15.2-0.4.1.jar",
@@ -7481,7 +7487,7 @@
     },
     {
       "addonID": 71738,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2961612,
         "displayName": "shetiphiancore-1.15-3.7.2.jar",
@@ -7563,7 +7569,7 @@
     },
     {
       "addonID": 354339,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2957023,
         "displayName": "OpenLoader-1.15.2-4.0.5.jar",
@@ -7626,7 +7632,7 @@
     },
     {
       "addonID": 355458,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2970005,
         "displayName": "Buzzier-Bees-1.15.2-v1.5.1",
@@ -7711,7 +7717,7 @@
     },
     {
       "addonID": 224770,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2935743,
         "displayName": "Lycanites Mobs 2.2.3.2",
@@ -7817,7 +7823,7 @@
     },
     {
       "addonID": 319716,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2928777,
         "displayName": "engineerstools-1.15.2-1.0.7.jar",
@@ -7936,7 +7942,7 @@
     },
     {
       "addonID": 309674,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2859722,
         "displayName": "item-filters-2.2.0.14.jar",
@@ -8027,7 +8033,7 @@
     },
     {
       "addonID": 231484,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2966875,
         "displayName": "CookingForBlockheads_1.15.2-8.0.2.jar",
@@ -8129,7 +8135,7 @@
     },
     {
       "addonID": 220318,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2962137,
         "displayName": "Biomes O' Plenty 1.15.2-10.0.0.363",
@@ -8212,7 +8218,7 @@
     },
     {
       "addonID": 287342,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2947549,
         "displayName": "titanium-1.15.2-2.4.0.jar",
@@ -8300,7 +8306,7 @@
     },
     {
       "addonID": 327554,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2965192,
         "displayName": "simplefarming-1.15.2-1.2.9.jar",
@@ -8374,7 +8380,7 @@
     },
     {
       "addonID": 342087,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2947029,
         "displayName": "Nethercraft 1.15.2-v1.0.8",
@@ -8446,7 +8452,7 @@
     },
     {
       "addonID": 238222,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2944279,
         "displayName": "jei-1.15.2-6.0.0.4.jar",
@@ -8500,7 +8506,7 @@
       "dateInstalled": "2020-05-09T13:11:27.2865933Z",
       "dateUpdated": "2020-05-10T12:49:55.4515746Z",
       "dateLastUpdateAttempted": "2020-05-10T12:49:55.4515746Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8513,7 +8519,7 @@
     },
     {
       "addonID": 340991,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2976975,
         "displayName": "Druidcraft-1.15-0.4.1.jar",
@@ -8588,7 +8594,7 @@
     },
     {
       "addonID": 268387,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2958760,
         "displayName": "ExtendedCrafting-1.15.2-2.0.2.jar",
@@ -8674,7 +8680,7 @@
     },
     {
       "addonID": 271740,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2871647,
         "displayName": "ToastControl-1.15.2-3.0.1.jar",
@@ -8760,7 +8766,7 @@
     },
     {
       "addonID": 275096,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2959227,
         "displayName": "[1.15.2] Carbonado 2.0.6",
@@ -8835,7 +8841,7 @@
     },
     {
       "addonID": 347706,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2964556,
         "displayName": "rftoolsbuilder-1.15-2.1.2-beta.jar",
@@ -8921,7 +8927,7 @@
     },
     {
       "addonID": 336538,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2930693,
         "displayName": "SolarGeneration-1.15.2-1.2.1",
@@ -9005,7 +9011,7 @@
     },
     {
       "addonID": 363363,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2940724,
         "displayName": "extremeSoundMuffler-1.2.2_forge-1.15.2",
@@ -9073,7 +9079,7 @@
     },
     {
       "addonID": 320926,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2954109,
         "displayName": "ScalableCatsForce-2.13.2-build-2-with-library.jar",
@@ -9172,7 +9178,7 @@
     },
     {
       "addonID": 281849,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2970088,
         "displayName": "pneumaticcraft-repressurized-1.15.2-1.2.2-30.jar",
@@ -9252,7 +9258,7 @@
     },
     {
       "addonID": 352222,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2961851,
         "displayName": "dimdungeons-1.06-forge-1.15.2.jar",
@@ -9335,7 +9341,7 @@
     },
     {
       "addonID": 351113,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2931675,
         "displayName": "[Forge v1.15.2] Ma Enchants v3.1.0 ",
@@ -9426,7 +9432,7 @@
     },
     {
       "addonID": 248353,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2928099,
         "displayName": "EverlastingAbilities-1.15.2-1.6.1.jar",
@@ -9529,7 +9535,7 @@
     },
     {
       "addonID": 350006,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2964557,
         "displayName": "rftoolsstorage-1.15-1.1.3-beta.jar",
@@ -9615,7 +9621,7 @@
     },
     {
       "addonID": 250603,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2844515,
         "displayName": "World-Stripper-1.7.2-1.15.jar",
@@ -9715,7 +9721,7 @@
     },
     {
       "addonID": 252848,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2893530,
         "displayName": "NaturesCompass-1.15.2-1.8.5.jar",
@@ -9806,7 +9812,7 @@
     },
     {
       "addonID": 289712,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2982485,
         "displayName": "tetra-1.15.2-2.10.0.jar",
@@ -9873,7 +9879,7 @@
       "dateInstalled": "2020-05-09T13:11:27.2965661Z",
       "dateUpdated": "2020-06-18T20:58:39.8133661Z",
       "dateLastUpdateAttempted": "2020-06-18T20:58:39.8133661Z",
-      "status": 4,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9886,7 +9892,7 @@
     },
     {
       "addonID": 59613,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2961614,
         "displayName": "endertanks-1.15-1.8.1.jar",
@@ -9970,7 +9976,7 @@
     },
     {
       "addonID": 309830,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2968243,
         "displayName": "PlantTech 2 - 0.02.10 - 1.15.2",
@@ -10043,7 +10049,7 @@
     },
     {
       "addonID": 232758,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2930009,
         "displayName": "CyclopsCore-1.15.2-1.6.2.jar",
@@ -10144,7 +10150,7 @@
     },
     {
       "addonID": 356749,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2942994,
         "displayName": "NetherEnhancement-1.15.2-1.0.2.2.jar",
@@ -10217,7 +10223,7 @@
     },
     {
       "addonID": 353399,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2935187,
         "displayName": "archers_paradox-1.15.2-0.4.0b.jar",
@@ -10301,7 +10307,7 @@
     },
     {
       "addonID": 242818,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2969414,
         "displayName": "CodeChicken Lib 1.15.2-3.3.0.373-universal",
@@ -10368,7 +10374,7 @@
     },
     {
       "addonID": 354522,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2937982,
         "displayName": "quickstack-3.0.3c.jar",
@@ -10430,7 +10436,7 @@
     },
     {
       "addonID": 355649,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2960488,
         "displayName": "Torch Slab Mod mc 1.15.2 v1.6.13",
@@ -10503,7 +10509,7 @@
     },
     {
       "addonID": 325492,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2943730,
         "displayName": "[Forge / Fabric 1.15.x] v4.6.1",
@@ -10622,7 +10628,7 @@
     },
     {
       "addonID": 257356,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2923206,
         "displayName": "incontrol-1.15-4.0.3.jar",
@@ -10722,7 +10728,7 @@
     },
     {
       "addonID": 309858,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2935744,
         "displayName": "forbidden_arcanus-1.15.2-1.3.1.jar",
@@ -10806,7 +10812,7 @@
     },
     {
       "addonID": 238372,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2957553,
         "displayName": "Neat 1.6-22.jar",
@@ -10874,7 +10880,7 @@
     },
     {
       "addonID": 223852,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2887674,
         "displayName": "StorageDrawers-1.15.2-7.0.2.jar",
@@ -10979,7 +10985,7 @@
     },
     {
       "addonID": 256247,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2969998,
         "displayName": "MysticalAgradditions-1.15.2-3.0.1.jar",
@@ -11065,7 +11071,7 @@
     },
     {
       "addonID": 353434,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2922865,
         "displayName": "BetterBurning-1.15.2-1.3.4.jar",
@@ -11146,7 +11152,7 @@
     },
     {
       "addonID": 268560,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2967618,
         "displayName": "Mekanism-1.15.2-9.10.7.420.jar",
@@ -11262,7 +11268,7 @@
     },
     {
       "addonID": 268566,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2967620,
         "displayName": "MekanismGenerators-1.15.2-9.10.7.420.jar",
@@ -11342,7 +11348,7 @@
     },
     {
       "addonID": 268567,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2967621,
         "displayName": "MekanismTools-1.15.2-9.10.7.420.jar",
@@ -11422,7 +11428,7 @@
     },
     {
       "addonID": 317716,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2880079,
         "displayName": "curiouselytra-FORGE-1.15.2-2.0.jar",
@@ -11541,7 +11547,7 @@
     },
     {
       "addonID": 298744,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2947588,
         "displayName": "structurize-0.10.313-RELEASE.jar",
@@ -11613,7 +11619,7 @@
     },
     {
       "addonID": 362415,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2896490,
         "displayName": " ExpandedStorage 1.1.8+1.15.2",
@@ -11716,7 +11722,7 @@
     },
     {
       "addonID": 363535,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2961615,
         "displayName": "enderchests-1.15-1.6.1.jar",
@@ -11800,7 +11806,7 @@
     },
     {
       "addonID": 319973,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2887773,
         "displayName": "Overloaded Compressed Blocks-1.15.2-1.0.12.jar",
@@ -11891,7 +11897,7 @@
     },
     {
       "addonID": 309927,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2969770,
         "displayName": "curios-FORGE-1.15.2-2.0.2.3.jar",
@@ -11984,7 +11990,7 @@
     },
     {
       "addonID": 333389,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2869706,
         "displayName": "campfiretorches-1.15.2-1.0.2.jar",
@@ -12077,7 +12083,7 @@
     },
     {
       "addonID": 333396,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2881014,
         "displayName": "Angel Ring v1.2.0 [1.15.2]",
@@ -12175,7 +12181,7 @@
     },
     {
       "addonID": 261924,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2966900,
         "displayName": "FarmingForBlockheads_1.15.2-6.1.3.jar",
@@ -12247,7 +12253,7 @@
     },
     {
       "addonID": 245174,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2969923,
         "displayName": "Ender Storage 1.15.2-2.5.0.143-universal",
@@ -12331,7 +12337,7 @@
     },
     {
       "addonID": 235121,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2908912,
         "displayName": "QuantumStorage-1.15.2-5.1.1.jar",
@@ -12422,7 +12428,7 @@
     },
     {
       "addonID": 350179,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2957643,
         "displayName": "DoubleSlabs-1.15-2.3.0",
@@ -12492,7 +12498,7 @@
     },
     {
       "addonID": 347954,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2941403,
         "displayName": "Lollipop-1.15.2-1.0.15.jar",
@@ -12559,7 +12565,7 @@
     },
     {
       "addonID": 363593,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2934497,
         "displayName": "Brick Furnace 1.3.0 - MC 1.14.4 & 1.15.X",
@@ -12669,7 +12675,7 @@
     },
     {
       "addonID": 306626,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2968257,
         "displayName": "NaturesAura-28.2.jar",
@@ -12772,7 +12778,7 @@
     },
     {
       "addonID": 372534,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2927529,
         "displayName": "pamhc2foodcore-1.15.2-1.0.3.jar",
@@ -12868,7 +12874,7 @@
     },
     {
       "addonID": 335673,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2906844,
         "displayName": "dankstorage-2.6.jar",
@@ -12962,7 +12968,7 @@
     },
     {
       "addonID": 268655,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2919092,
         "displayName": "GameStages-1.15.2-5.0.2.jar",
@@ -13055,7 +13061,7 @@
     },
     {
       "addonID": 345729,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2844649,
         "displayName": "DangerousStoneCutter-1.15.1-1.2.0",
@@ -13153,7 +13159,7 @@
     },
     {
       "addonID": 301051,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2914445,
         "displayName": "QuarkOddities-1.15.2.jar",
@@ -13247,7 +13253,7 @@
     },
     {
       "addonID": 246320,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2873590,
         "displayName": "environmentalcreepers-forge-1.15.2-1.6.1.jar",
@@ -13335,7 +13341,7 @@
     },
     {
       "addonID": 291006,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2965400,
         "displayName": "LargeFluidTank-15.2.9.jar",
@@ -13414,7 +13420,7 @@
     },
     {
       "addonID": 245211,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2913861,
         "displayName": "theoneprobe-1.15-2.0.2.jar",
@@ -13524,7 +13530,7 @@
     },
     {
       "addonID": 361385,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2958622,
         "displayName": "pamhc2crops-1.15.2-1.0.5.jar",
@@ -13602,7 +13608,7 @@
     },
     {
       "addonID": 277616,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2964193,
         "displayName": "solcarrot-1.15.2-1.9.6.jar",
@@ -13685,7 +13691,7 @@
     },
     {
       "addonID": 242998,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2946599,
         "displayName": "SilentLib-1.15.2-4.6.1+49.jar",
@@ -13752,7 +13758,7 @@
     },
     {
       "addonID": 362528,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2906804,
         "displayName": "decorative_blocks-6d.jar",
@@ -13843,7 +13849,7 @@
     },
     {
       "addonID": 241895,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2872972,
         "displayName": "KleeSlabs_1.15.2-8.0.0.jar",
@@ -13922,7 +13928,7 @@
     },
     {
       "addonID": 250832,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2962337,
         "displayName": "elevatorid-1.15.2-1.7.1.jar",
@@ -14000,7 +14006,7 @@
     },
     {
       "addonID": 368129,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2968087,
         "displayName": "RingOfReturn-1.15.2-1.0.12.jar",
@@ -14080,7 +14086,7 @@
     },
     {
       "addonID": 228525,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2965233,
         "displayName": "Bookshelf-1.15.2-5.6.40.jar",
@@ -14153,7 +14159,7 @@
     },
     {
       "addonID": 342466,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2964555,
         "displayName": "rftoolsutility-1.15-2.1.3-beta.jar",
@@ -14239,7 +14245,7 @@
     },
     {
       "addonID": 245287,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2936515,
         "displayName": "Morph-o-Tool-1.3-23.jar",
@@ -14337,7 +14343,7 @@
     },
     {
       "addonID": 345819,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2898299,
         "displayName": "conduitsprdr_1.15.2-1.0.jar",
@@ -14418,7 +14424,7 @@
     },
     {
       "addonID": 266515,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2947550,
         "displayName": "industrial-foregoing-1.15.2-2.3.0-6f57752.jar",
@@ -14508,7 +14514,7 @@
     },
     {
       "addonID": 233019,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2876104,
         "displayName": "AI-Improvements-1.15.2-0.3.0.jar",
@@ -14589,7 +14595,7 @@
     },
     {
       "addonID": 355891,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2899155,
         "displayName": "Bambootiful 1.15.2 - 1.1.3",
@@ -14673,7 +14679,7 @@
     },
     {
       "addonID": 243076,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2966220,
         "displayName": "Refined Storage 1.8.4",
@@ -14751,7 +14757,7 @@
     },
     {
       "addonID": 278825,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2874834,
         "displayName": "enviromats-1.15.2-2.0.2.1.jar",
@@ -14854,7 +14860,7 @@
     },
     {
       "addonID": 308989,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2934079,
         "displayName": "caelus-FORGE-1.15.2-2.0-beta2.jar",
@@ -14975,7 +14981,7 @@
     },
     {
       "addonID": 288885,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2856527,
         "displayName": "FastWorkbench-1.15.2-3.0.0.jar",
@@ -15063,7 +15069,7 @@
     },
     {
       "addonID": 254268,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2873677,
         "displayName": "torchmaster-2.1.1-rc0.jar",
@@ -15147,7 +15153,7 @@
     },
     {
       "addonID": 306770,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2945108,
         "displayName": "Patchouli-1.15.2-1.2-33.jar",
@@ -15225,7 +15231,7 @@
     },
     {
       "addonID": 313477,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2923207,
         "displayName": "fxcontrol-1.15-1.0.2.jar",
@@ -15331,7 +15337,7 @@
     },
     {
       "addonID": 326895,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2958503,
         "displayName": "Upgrade-Aquatic-1.15.2-v1.6.1",
@@ -15421,7 +15427,7 @@
     },
     {
       "addonID": 243121,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2970364,
         "displayName": "Quark-r2.1-240.jar",
@@ -15521,7 +15527,7 @@
     },
     {
       "addonID": 231951,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2980321,
         "displayName": "ImmersiveEngineering-0.15-103",
@@ -15614,7 +15620,7 @@
     },
     {
       "addonID": 233071,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2863719,
         "displayName": "CraftingTweaks 1.15.x - 11.0.0",
@@ -15700,7 +15706,7 @@
     },
     {
       "addonID": 238659,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2940920,
         "displayName": "PackingTape-1.15.2-0.9.6.jar",
@@ -15783,7 +15789,7 @@
     },
     {
       "addonID": 264353,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2866676,
         "displayName": "swingthroughgrass-1.15.2-1.4.0.jar",
@@ -15869,7 +15875,7 @@
     },
     {
       "addonID": 351491,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2865262,
         "displayName": "extradisks-1.15.1-1.2.jar",
@@ -15974,7 +15980,7 @@
     },
     {
       "addonID": 316873,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2880784,
         "displayName": "curioofundying-FORGE-1.15.2-3.0.jar",
@@ -16087,7 +16093,7 @@
     },
     {
       "addonID": 332518,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2967841,
         "displayName": "RingOfRepair-1.15.2-1.1.30.jar",
@@ -16173,7 +16179,7 @@
     },
     {
       "addonID": 233105,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2951236,
         "displayName": "mcjtylib-1.15-4.1.0-beta.jar",
@@ -16254,7 +16260,7 @@
     },
     {
       "addonID": 316881,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2936100,
         "displayName": "curiousshulkerboxes-FORGE-1.15.2-2.0.0.1.jar",
@@ -16372,7 +16378,7 @@
     },
     {
       "addonID": 226410,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2898245,
         "displayName": "ProjectE-1.15.2-PE1.0.3B.jar",
@@ -16461,7 +16467,7 @@
     },
     {
       "addonID": 285612,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2936412,
         "displayName": "RandomPatches 1.15.2-1.21.1.2",
@@ -16557,7 +16563,7 @@
     },
     {
       "addonID": 284497,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2961231,
         "displayName": "IronJetpacks-1.15.2-3.0.2.jar",
@@ -16637,7 +16643,7 @@
     },
     {
       "addonID": 332534,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2965365,
         "displayName": "RingOfGrowth-1.15.2-1.1.30.jar",
@@ -16717,7 +16723,7 @@
     },
     {
       "addonID": 359343,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2927391,
         "displayName": "vanillahammers-1.15.2-2.1.jar",
@@ -16826,7 +16832,7 @@
     },
     {
       "addonID": 359344,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2948034,
         "displayName": "Interactio-1.15.2-2.0.2.jar",
@@ -16911,7 +16917,7 @@
     },
     {
       "addonID": 363820,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2953095,
         "displayName": "0.0.14",
@@ -17009,7 +17015,7 @@
     },
     {
       "addonID": 332545,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2966261,
         "displayName": "RingOfTeleport-1.15.2-1.1.29.jar",
@@ -17089,7 +17095,7 @@
     },
     {
       "addonID": 352656,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2941416,
         "displayName": "Powah-1.15.2-1.1.14.jar",
@@ -17168,7 +17174,7 @@
     },
     {
       "addonID": 328085,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2979593,
         "displayName": "Create - mc1.15.2_v0.2.4d",
@@ -17253,7 +17259,7 @@
     },
     {
       "addonID": 377240,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2958550,
         "displayName": "CauldronRecipes-1.15.2-1.1.5.jar",
@@ -17333,7 +17339,7 @@
     },
     {
       "addonID": 248787,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2883494,
         "displayName": "AppleSkin-mc1.15.2-forge-1.0.13.jar",
@@ -17419,7 +17425,7 @@
     },
     {
       "addonID": 332562,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2967842,
         "displayName": "RingOfBlink-1.15.2-1.1.28.jar",
@@ -17499,7 +17505,7 @@
     },
     {
       "addonID": 345973,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2934425,
         "displayName": "cyclepaintings_1.15-1.2.jar",
@@ -17580,7 +17586,7 @@
     },
     {
       "addonID": 342623,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2959022,
         "displayName": "healingcf_1.15-2.2.jar",
@@ -17650,7 +17656,7 @@
     },
     {
       "addonID": 60028,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2959169,
         "displayName": "Aquaculture-1.15.2-2.0.14.jar",
@@ -17723,7 +17729,7 @@
     },
     {
       "addonID": 238761,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2964948,
         "displayName": "PickleTweaks-1.15.2-4.0.3.jar",
@@ -17803,7 +17809,7 @@
     },
     {
       "addonID": 325892,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2905084,
         "displayName": "MysticalAdaptations-1.15.2-1.1.jar",
@@ -17900,7 +17906,7 @@
     },
     {
       "addonID": 332596,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2968084,
         "displayName": "RingOfEnderchest-1.15.2-1.1.31.jar",
@@ -17980,7 +17986,7 @@
     },
     {
       "addonID": 357178,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2939224,
         "displayName": "MixinBootstrap-1.0.3.jar",
@@ -18060,7 +18066,7 @@
     },
     {
       "addonID": 245480,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2877675,
         "displayName": "valkyrielib-1.15.2-3.0.2.1.jar",
@@ -18156,7 +18162,7 @@
     },
     {
       "addonID": 284576,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2887405,
         "displayName": "World-Generation-Profiler-1.15.2-1.3.0.6",
@@ -18247,7 +18253,7 @@
     },
     {
       "addonID": 278993,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2873657,
         "displayName": "BonsaiTrees-2.1.2.6.jar",
@@ -18345,7 +18351,7 @@
     },
     {
       "addonID": 272302,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2871855,
         "displayName": "Refined Storage Addons 0.6.1",
@@ -18443,7 +18449,7 @@
     },
     {
       "addonID": 230976,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2922884,
         "displayName": "FastLeafDecay-v22.jar",
@@ -18524,7 +18530,7 @@
     },
     {
       "addonID": 367254,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2929851,
         "displayName": "morevanillalib-1.15.2-1.2.2.jar",
@@ -18627,7 +18633,7 @@
     },
     {
       "addonID": 245506,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2904832,
         "displayName": "minecolonies-0.10.771-RELEASE-universal.jar",
@@ -18718,7 +18724,7 @@
     },
     {
       "addonID": 60089,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2849221,
         "displayName": "[1.15.1] Mouse Tweaks 2.13",
@@ -18811,7 +18817,7 @@
     },
     {
       "addonID": 237701,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2950766,
         "displayName": "ReAuth-3.8.1",
@@ -18882,7 +18888,7 @@
     },
     {
       "addonID": 361689,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2950252,
         "displayName": "Carpet Stairs Mod mc1.15 v1.4.4",
@@ -18955,7 +18961,7 @@
     },
     {
       "addonID": 246640,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2970415,
         "displayName": "MysticalAgriculture-1.15.2-3.0.7.jar",
@@ -19040,7 +19046,7 @@
     },
     {
       "addonID": 272335,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2969828,
         "displayName": "Cucumber-1.15.2-3.0.7.jar",
@@ -19108,7 +19114,7 @@
     },
     {
       "addonID": 290209,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2951437,
         "displayName": "rftoolspower-1.15-2.1.1-beta.jar",
@@ -19206,7 +19212,7 @@
     },
     {
       "addonID": 353882,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2960156,
         "displayName": "DimStorage-1.15.2-3.1.5",
@@ -19291,7 +19297,7 @@
     },
     {
       "addonID": 232131,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2880426,
         "displayName": "DefaultOptions_1.15.2-11.0.1.jar",
@@ -19364,87 +19370,8 @@
       "installedTargets": null
     },
     {
-      "addonID": 368416,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
-      "installedFile": {
-        "id": 2941269,
-        "displayName": "extratags-1.1.jar",
-        "fileName": "extratags-1.1.jar",
-        "fileDate": "2020-04-26T18:03:27.013Z",
-        "fileLength": 22435,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2941/269/extratags-1.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 357178,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2782827819,
-            "type": 0
-          },
-          {
-            "foldername": "tfar",
-            "fingerprint": 1590090012,
-            "type": 0
-          },
-          {
-            "foldername": "extratags.mixins.json",
-            "fingerprint": 1134472759,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 4253522632,
-            "type": 0
-          },
-          {
-            "foldername": "extratags.refmap.json",
-            "fingerprint": 1493072104,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 624041507,
-        "gameVersion": [
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "extratags-1.1.jar"
-      },
-      "dateInstalled": "2020-05-09T13:11:20.648613Z",
-      "dateUpdated": "2020-05-09T14:25:12.8548635Z",
-      "dateLastUpdateAttempted": "2020-05-09T14:25:12.8548635Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 242195,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2940498,
         "displayName": "DarkUtilities-1.15.2-3.0.5.jar",
@@ -19523,8 +19450,87 @@
       "installedTargets": null
     },
     {
+      "addonID": 368416,
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
+      "installedFile": {
+        "id": 2941269,
+        "displayName": "extratags-1.1.jar",
+        "fileName": "extratags-1.1.jar",
+        "fileDate": "2020-04-26T18:03:27.013Z",
+        "fileLength": 22435,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2941/269/extratags-1.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 357178,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2782827819,
+            "type": 0
+          },
+          {
+            "foldername": "tfar",
+            "fingerprint": 1590090012,
+            "type": 0
+          },
+          {
+            "foldername": "extratags.mixins.json",
+            "fingerprint": 1134472759,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4253522632,
+            "type": 0
+          },
+          {
+            "foldername": "extratags.refmap.json",
+            "fingerprint": 1493072104,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 624041507,
+        "gameVersion": [
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "extratags-1.1.jar"
+      },
+      "dateInstalled": "2020-05-09T13:11:20.648613Z",
+      "dateUpdated": "2020-05-09T14:25:12.8548635Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:25:12.8548635Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 256717,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2906496,
         "displayName": "Clumps-5.0.2",
@@ -19605,7 +19611,7 @@
     },
     {
       "addonID": 349447,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2938920,
         "displayName": "ensorcellation-1.15.2-0.4.1b.jar",
@@ -19684,7 +19690,7 @@
     },
     {
       "addonID": 280200,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2880077,
         "displayName": "colytra-FORGE-1.15.2-3.0.jar",
@@ -19802,7 +19808,7 @@
     },
     {
       "addonID": 324888,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2866642,
         "displayName": "TOOLKIT-1.15.2-1.6.4.jar",
@@ -19891,7 +19897,7 @@
     },
     {
       "addonID": 300331,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2870484,
         "displayName": "simplylight-1.15.2-0.9.0.jar",
@@ -19987,7 +19993,7 @@
     },
     {
       "addonID": 69118,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2898972,
         "displayName": "Morpheus-1.15.2-4.2.50.jar",
@@ -20073,7 +20079,7 @@
     },
     {
       "addonID": 264601,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2958042,
         "displayName": "Overloaded-1.15.2-0.0.87.jar",
@@ -20150,8 +20156,88 @@
       "installedTargets": null
     },
     {
+      "addonID": 332743,
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
+      "installedFile": {
+        "id": 2965081,
+        "displayName": "RingOfMiner-1.15.2-1.1.28.jar",
+        "fileName": "RingOfMiner-1.15.2-1.1.28.jar",
+        "fileDate": "2020-05-24T23:49:46.907Z",
+        "fileLength": 15980,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2965/81/RingOfMiner-1.15.2-1.1.28.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4015344628,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1016551692,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3252979360,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 782546089,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4253522632,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1737860001,
+        "gameVersion": [
+          "Forge",
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "RingOfMiner-1.15.2-1.1.28.jar"
+      },
+      "dateInstalled": "2020-05-09T13:11:27.2975606Z",
+      "dateUpdated": "2020-06-02T15:10:35.0024076Z",
+      "dateLastUpdateAttempted": "2020-06-02T15:10:35.0024076Z",
+      "status": 3,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 326041,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2951430,
         "displayName": "rftoolsbase-1.15-1.1.1-beta.jar",
@@ -20236,88 +20322,8 @@
       "installedTargets": null
     },
     {
-      "addonID": 332743,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
-      "installedFile": {
-        "id": 2965081,
-        "displayName": "RingOfMiner-1.15.2-1.1.28.jar",
-        "fileName": "RingOfMiner-1.15.2-1.1.28.jar",
-        "fileDate": "2020-05-24T23:49:46.907Z",
-        "fileLength": 15980,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2965/81/RingOfMiner-1.15.2-1.1.28.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4015344628,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1016551692,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 3252979360,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 782546089,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 4253522632,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1737860001,
-        "gameVersion": [
-          "Forge",
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "RingOfMiner-1.15.2-1.1.28.jar"
-      },
-      "dateInstalled": "2020-05-09T13:11:27.2975606Z",
-      "dateUpdated": "2020-06-02T15:10:35.0024076Z",
-      "dateLastUpdateAttempted": "2020-06-02T15:10:35.0024076Z",
-      "status": 3,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 32274,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2946765,
         "displayName": "journeymap-1.15.2-5.7.0b2",
@@ -20442,7 +20448,7 @@
     },
     {
       "addonID": 241160,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2943661,
         "displayName": "NetherPortalFix_1.15.2-6.0.2.jar",
@@ -20509,7 +20515,7 @@
     },
     {
       "addonID": 235577,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2873613,
         "displayName": "TrashSlot_1.15.2-11.0.0.jar",
@@ -20588,7 +20594,7 @@
     },
     {
       "addonID": 351748,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2915829,
         "displayName": "MiningGadgets-1.3.5",
@@ -20682,7 +20688,7 @@
     },
     {
       "addonID": 69162,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2935185,
         "displayName": "cofh_core-1.15.2-0.4.0b.jar",
@@ -20778,7 +20784,7 @@
     },
     {
       "addonID": 349530,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2922610,
         "displayName": "NaturalProgression 1.15.2 1.3.0",
@@ -20869,7 +20875,7 @@
     },
     {
       "addonID": 318255,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2919811,
         "displayName": "Phosphor mc1.15.2-0.5.2+build.4",
@@ -20982,87 +20988,8 @@
       "installedTargets": null
     },
     {
-      "addonID": 283644,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
-      "installedFile": {
-        "id": 2870411,
-        "displayName": "Placebo-1.15.2-3.0.2.jar",
-        "fileName": "Placebo-1.15.2-3.0.2.jar",
-        "fileDate": "2020-01-27T19:40:58.457Z",
-        "fileLength": 95444,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2870/411/Placebo-1.15.2-3.0.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3105682521,
-            "type": 3
-          },
-          {
-            "foldername": "shadows",
-            "fingerprint": 3752561065,
-            "type": 3
-          },
-          {
-            "foldername": "javascript",
-            "fingerprint": 2529988588,
-            "type": 3
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3099375411,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 79463509,
-        "gameVersion": [
-          "1.15.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1754449,
-        "projectId": 283644,
-        "packageFingerprintId": 402567669,
-        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
-        "gameVersionMappingId": 2077990,
-        "gameVersionId": 7722,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "Placebo-1.15.2-3.0.2.jar"
-      },
-      "dateInstalled": "2020-05-09T13:11:27.2765923Z",
-      "dateUpdated": "2019-05-09T13:11:27.2765923Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 324973,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2883098,
         "displayName": "DungeonCrawl-1.15.2-1.6.3",
@@ -21161,17 +21088,17 @@
       "installedTargets": null
     },
     {
-      "addonID": 280294,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "addonID": 283644,
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2944175,
-        "displayName": "FpsReducer-mc1.15.2-1.15.jar",
-        "fileName": "FpsReducer-mc1.15.2-1.15.jar",
-        "fileDate": "2020-04-30T01:11:46.653Z",
-        "fileLength": 87134,
+        "id": 2870411,
+        "displayName": "Placebo-1.15.2-3.0.2.jar",
+        "fileName": "Placebo-1.15.2-3.0.2.jar",
+        "fileDate": "2020-01-27T19:40:58.457Z",
+        "fileLength": 95444,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2944/175/FpsReducer-mc1.15.2-1.15.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2870/411/Placebo-1.15.2-3.0.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -21179,49 +21106,55 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3832047866,
-            "type": 0
+            "fingerprint": 3105682521,
+            "type": 3
           },
           {
-            "foldername": "bre2el",
-            "fingerprint": 2202985927,
-            "type": 0
+            "foldername": "shadows",
+            "fingerprint": 3752561065,
+            "type": 3
           },
           {
-            "foldername": "assets",
-            "fingerprint": 1974190997,
-            "type": 0
-          },
-          {
-            "foldername": "fpsreducer_logo.png",
-            "fingerprint": 2600135182,
-            "type": 0
+            "foldername": "javascript",
+            "fingerprint": 2529988588,
+            "type": 3
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 2856903882,
-            "type": 0
+            "fingerprint": 3099375411,
+            "type": 3
           }
         ],
-        "packageFingerprint": 2407801296,
+        "packageFingerprint": 79463509,
         "gameVersion": [
-          "Forge",
           "1.15.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000015.0000000002",
+            "gameVersion": "1.15.2",
+            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
+            "gameVersionName": "1.15.2"
+          }
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1754449,
+        "projectId": 283644,
+        "packageFingerprintId": 402567669,
+        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
+        "gameVersionMappingId": 2077990,
+        "gameVersionId": 7722,
+        "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "FpsReducer-mc1.15.2-1.15.jar"
+        "FileNameOnDisk": "Placebo-1.15.2-3.0.2.jar"
       },
-      "dateInstalled": "2020-05-09T13:11:20.6575892Z",
-      "dateUpdated": "2020-05-09T14:25:27.6110595Z",
-      "dateLastUpdateAttempted": "2020-05-09T14:25:27.6110595Z",
+      "dateInstalled": "2020-05-09T13:11:27.2765923Z",
+      "dateUpdated": "2019-05-09T13:11:27.2765923Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -21235,7 +21168,7 @@
     },
     {
       "addonID": 294815,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2955757,
         "displayName": "aiotbotania-1.15.2-1.2.2.jar",
@@ -21324,8 +21257,81 @@
       "installedTargets": null
     },
     {
+      "addonID": 280294,
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
+      "installedFile": {
+        "id": 2944175,
+        "displayName": "FpsReducer-mc1.15.2-1.15.jar",
+        "fileName": "FpsReducer-mc1.15.2-1.15.jar",
+        "fileDate": "2020-04-30T01:11:46.653Z",
+        "fileLength": 87134,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2944/175/FpsReducer-mc1.15.2-1.15.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3832047866,
+            "type": 0
+          },
+          {
+            "foldername": "bre2el",
+            "fingerprint": 2202985927,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1974190997,
+            "type": 0
+          },
+          {
+            "foldername": "fpsreducer_logo.png",
+            "fingerprint": 2600135182,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2856903882,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2407801296,
+        "gameVersion": [
+          "Forge",
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "FpsReducer-mc1.15.2-1.15.jar"
+      },
+      "dateInstalled": "2020-05-09T13:11:20.6575892Z",
+      "dateUpdated": "2020-05-09T14:25:27.6110595Z",
+      "dateLastUpdateAttempted": "2020-05-09T14:25:27.6110595Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 370777,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2917070,
         "displayName": "scaffoldingpower-1.15.2-1.2.1.jar",
@@ -21399,7 +21405,7 @@
     },
     {
       "addonID": 304881,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2969876,
         "displayName": "The Midnight 0.5.8",
@@ -21482,7 +21488,7 @@
     },
     {
       "addonID": 298187,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2944495,
         "displayName": "buildinggadgets-3.3.5.jar",
@@ -21627,7 +21633,7 @@
     },
     {
       "addonID": 335051,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2903152,
         "displayName": "extlights-2.0.jar",
@@ -21723,7 +21729,7 @@
     },
     {
       "addonID": 311595,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2961109,
         "displayName": "simplybackpacks-1.15.2-1.4.6.jar",
@@ -21801,7 +21807,7 @@
     },
     {
       "addonID": 291493,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2873803,
         "displayName": "portality-1.15.2-2.1.2-aaa257f.jar",
@@ -21902,7 +21908,7 @@
     },
     {
       "addonID": 291509,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2958444,
         "displayName": "The-Endergetic-Expansion-1.15.2-v1.3.1",
@@ -21992,7 +21998,7 @@
     },
     {
       "addonID": 266936,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2967423,
         "displayName": "JAOPCA-1.15.2-3.2.0.10.jar",
@@ -22059,7 +22065,7 @@
     },
     {
       "addonID": 293752,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2968815,
         "displayName": "essentials-1.15.2-2.7.2.jar",
@@ -22141,7 +22147,7 @@
     },
     {
       "addonID": 345135,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2931626,
         "displayName": "[Forge v1.15.2] Ma Essentials v3.0.3",
@@ -22237,7 +22243,7 @@
     },
     {
       "addonID": 313866,
-      "gameInstanceID": "b15a5400-3350-458a-94be-65791325b5fc",
+      "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
         "id": 2968300,
         "displayName": "engineersdecor-1.15.2-1.1.0-b1.jar",
