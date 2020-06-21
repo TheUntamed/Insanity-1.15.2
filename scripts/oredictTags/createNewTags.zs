@@ -1,4 +1,4 @@
-#priority 2000
+#priority 3001
 
 import crafttweaker.api.tag.MCTag;
 

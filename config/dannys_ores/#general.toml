@@ -25,7 +25,7 @@
 				#If true, the Stone variant of all normal ores (except vanilla ores) will be disabled.
 				stone = false
 				#If true, the Gravel variant of all normal ores will be disabled.
-				gravel = false
+				gravel = true
 				#If true, the Sand variant of all normal ores will be disabled.
 				sand = true
 				#If true, the Blue Ice variant of all normal ores (except vanilla ores) will be disabled.

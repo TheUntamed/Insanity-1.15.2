@@ -1,4 +1,4 @@
-#priority 3001
+#priority 4001
 //Has to be loaded before all Recipe and tag changes
 
 import crafttweaker.api.item.IItemStack;

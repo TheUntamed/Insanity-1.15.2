@@ -1,27 +1,11 @@
-Priority ranges:
-
-9999: Absolutely first. Can only have 1 entry
-
-8000-8999: Extension methods and classes
-
-3000-3999: Dependency scripts, like mod-tweaking-api
-2000-2999: Create new item tags
-1000-1999: Crucial scripts, such as dependencies for others, function declarations and globals.
-
-700-999: Remove and Add to oredict tags.
-
-600: Add Information about an Item to the Info Category of JEI
-
-100-199: Just Remove Recipes
-0-99: (Remove and) Add Recipes
-
 Priority overview:
 
-8000: MCTag-first
-3003: pre-unification-removals
-3002: util-functions
-3001: recipe-functions
-1000: removeProcessing
+4003: MCTag-first
+4002: util-functions
+4001: recipe-functions
+3001: createNewTags
+3000: itemsToTags
+2000: pre-unification-removals
 999: ore-unification
-998: tag-unification996: addProcessing
+998: tag-unification
 996: addProcessing

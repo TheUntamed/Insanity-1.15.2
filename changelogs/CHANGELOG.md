@@ -8,7 +8,6 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.9
 * *Cauldron Recipes*
 * *Create*
 * *Druidcraft*
-* *Ender Storage*
 * *Immersive Engineering*
 * *PneumaticCraft: Repressurized*
 * *Simply Trophies*

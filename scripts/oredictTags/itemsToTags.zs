@@ -1,4 +1,4 @@
-#priority 999
+#priority 3000
 
 //Chunks
 <tag:silents_mechanisms:chunks>.addItems([<item:silents_mechanisms:iron_chunks>, <item:silents_mechanisms:gold_chunks>, <item:silents_mechanisms:copper_chunks>, <item:silents_mechanisms:tin_chunks>, <item:silents_mechanisms:silver_chunks>, <item:silents_mechanisms:lead_chunks>, <item:silents_mechanisms:nickel_chunks>, <item:silents_mechanisms:platinum_chunks>, <item:silents_mechanisms:zinc_chunks>, <item:silents_mechanisms:bismuth_chunks>, <item:silents_mechanisms:bauxite_chunks>, <item:silents_mechanisms:uranium_chunks>]);
