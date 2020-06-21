@@ -37,6 +37,16 @@ public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 	}
 }
 
+public function purgeOreTag(tag as MCTag) as void {
+	for item in tag.items {
+        var itemOwner = item.registryName.split(":")[0];
+		if (!(itemOwner == "minecraft") && !(itemOwner == "dannys_ores")) {
+			tag.removeItems(item);
+			removeProcessingFor(item);
+		}
+	}
+}
+
 // Clean Recipes
     // Minecraft
 
