@@ -131,13 +131,17 @@ To be removed:
 * *Basic Nether Ores*
 * *Embellishcraft*
 * *Mapperbase*
+* *Ring of Attraction [FORGE]* (There are enough other magnets)
+* *Ring of Growth [FORGE]* (Use watering cans instead)
+* *Ring of Repair [FORGE]* (There are other ways to repair items. E.g. powered diamond anvil)
+* *Ring of the Enderchest [FORGE]* (A mod provides personal Enderchests and Enderbags now)
 
 **Changes**
 
-* Activated Terraforged strata decorator by default. (You still have to select TerraForged as world generation.)
-* Disabled Ore generation of Silent's Mechanisms, Mekanism, Powah, Create, Mystical Agriculture, Immersive Engineering, Forbidden Arcanus.
-* Enabled Quark's Marble generation. (Embellishcraft and it's Marble were removed.)
-* Disabled Quark's Limestone generation. (Create adds limestone now.)
+* Activated *Terraforged* strata decorator by default. (You still have to select **TerraForged** as world generation.)
+* Disabled Ore generation of *Silent's Mechanisms, Mekanism, Powah, Create, Mystical Agriculture, Immersive Engineering, Forbidden Arcanus*.
+* Enabled *Quark*'s Marble generation. (Embellishcraft and it's Marble were removed.)
+* Disabled *Quark*'s Limestone generation. (Create adds Limestone now.)
 
 **Bug Fixes**
 
