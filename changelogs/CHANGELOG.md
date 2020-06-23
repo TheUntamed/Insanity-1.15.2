@@ -134,6 +134,7 @@ To be removed:
 * *Ring of Attraction [FORGE]* (There are enough other magnets)
 * *Ring of Growth [FORGE]* (Use watering cans instead)
 * *Ring of Repair [FORGE]* (There are other ways to repair items. E.g. powered diamond anvil)
+* *Ring of Return [FORGE]*
 * *Ring of the Enderchest [FORGE]* (A mod provides personal Enderchests and Enderbags now)
 
 **Changes**

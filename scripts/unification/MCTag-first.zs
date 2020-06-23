@@ -1,4 +1,4 @@
-#priority 8000
+#priority 4000
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.tag.MCTag;

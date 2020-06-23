@@ -1,4 +1,4 @@
-#priority 900
+#priority 1002
 
 //Dye tag cleanup
 for item in <tag:forge:dyes>.items {

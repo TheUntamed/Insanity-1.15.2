@@ -1,4 +1,4 @@
-#priority 1000
+#priority 999
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.BracketHandlers;
