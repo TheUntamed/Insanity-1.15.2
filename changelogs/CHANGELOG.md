@@ -46,7 +46,7 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.9
 * *Dark Utilities* (3.0.3 --> 3.0.5)
 * *Dimensional Dungeons* (1.051 --> 1.06)
 * *DimStorage* (3.2.1 --> 3.1.5)
-* *Double Slabs* (2.2.5 --> 2.3.0)
+* *Double Slabs* (2.2.5 --> 2.7.2)
 * *Ender Enhancement* (1.0.4.1 --> 1.0.4.2)
 * *EnderChests* (1.6.0 --> 1.6.1)
 * *EnderTanks* (1.8.0 --> 1.8.1)
