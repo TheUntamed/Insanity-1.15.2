@@ -17,7 +17,8 @@ var shapelessRecipes as IIngredient[][IItemStack] = {
     <item:minecraft:gray_dye>*2 : [<item:minecraft:black_dye>, <item:minecraft:white_dye>],
     <item:minecraft:cyan_dye>*2 : [<item:minecraft:blue_dye>, <item:minecraft:green_dye>],
     <item:minecraft:purple_dye>*2 : [<item:minecraft:red_dye>, <item:minecraft:blue_dye>],
-    <item:minecraft:black_dye>*2 : [<item:forbidden_arcanus:edelwood_oil>]
+    <item:minecraft:black_dye>*2 : [<item:forbidden_arcanus:edelwood_oil>],
+    <item:forbidden_arcanus:runestone> : [<tag:forge:ores/runestone>]
 
 };
 

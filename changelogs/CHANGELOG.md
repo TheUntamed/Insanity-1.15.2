@@ -15,9 +15,11 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.9
 
 **Updated Mods**
 
+* *Abnormals Core* (1.0.5 --> 1.0.6)
 * *AIOT Botania* (1.2.1 --> 1.2.2)
 * *Apotheosis* (3.0.7 --> 3.1.2)
-* *Aquaculture 2* (2.0.13 --> 2.0.14)
+* *AppleSkin* (1.0.13 --> 1.0.14)
+* *Aquaculture 2* (2.0.13 --> 2.0.15)
 * *Biomes O' Plenty* (10.0.0.345 --> 10.0.0.363)
 * *Bookshelf* (5.4.14 --> 5.6.40)
 * *Botania* ( r1.15-382 -->  r1.15-384)
