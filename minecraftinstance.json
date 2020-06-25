@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-25T10:32:38.9663846Z",
+  "lastPlayed": "2020-06-25T10:56:44.8416834Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -8259,14 +8259,14 @@
       "addonID": 238222,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2944279,
-        "displayName": "jei-1.15.2-6.0.0.4.jar",
-        "fileName": "jei-1.15.2-6.0.0.4.jar",
-        "fileDate": "2020-04-30T06:05:37.753Z",
-        "fileLength": 704093,
+        "id": 2985517,
+        "displayName": "jei-1.15.2-6.0.2.11.jar",
+        "fileName": "jei-1.15.2-6.0.2.11.jar",
+        "fileDate": "2020-06-22T01:05:23.973Z",
+        "fileLength": 704548,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2944/279/jei-1.15.2-6.0.0.4.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2985/517/jei-1.15.2-6.0.2.11.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -8274,12 +8274,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3038999957,
+            "fingerprint": 1197360597,
             "type": 0
           },
           {
             "foldername": "mezz",
-            "fingerprint": 1305114755,
+            "fingerprint": 1811732641,
             "type": 0
           },
           {
@@ -8289,11 +8289,11 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 1103512108,
+            "fingerprint": 3846071323,
             "type": 0
           }
         ],
-        "packageFingerprint": 2583493437,
+        "packageFingerprint": 929706014,
         "gameVersion": [
           "1.15.2"
         ],
@@ -8306,11 +8306,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "jei-1.15.2-6.0.0.4.jar"
+        "FileNameOnDisk": "jei-1.15.2-6.0.2.11.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2865933Z",
-      "dateUpdated": "2020-06-25T10:20:04.2079451Z",
-      "dateLastUpdateAttempted": "2020-06-25T10:20:04.2079451Z",
+      "dateUpdated": "2020-06-25T10:56:35.4768393Z",
+      "dateLastUpdateAttempted": "2020-06-25T10:56:35.4768393Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -14093,8 +14093,8 @@
         "FileNameOnDisk": "industrial-foregoing-1.15.2-2.3.0-6f57752.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.272633Z",
-      "dateUpdated": "2020-06-25T10:32:07.8456336Z",
-      "dateLastUpdateAttempted": "2020-06-25T10:32:07.8456336Z",
+      "dateUpdated": "2020-06-25T10:43:03.7424753Z",
+      "dateLastUpdateAttempted": "2020-06-25T10:43:03.7424753Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
