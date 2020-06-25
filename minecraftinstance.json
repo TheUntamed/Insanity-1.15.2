@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-25T09:17:36.9918339Z",
+  "lastPlayed": "2020-06-25T10:32:38.9663846Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -554,6 +554,21 @@
       "queryTimestamp": "2020-06-24T22:00:31.9720149Z",
       "fileCount": 1,
       "fileSize": 153337
+    },
+    {
+      "folderName": "engineersdecor-1.15.2-1.1.0-b3.jar",
+      "fingerprint": 1640486330,
+      "fileDateHash": 3543068487,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1640486330
+      ],
+      "status": 1,
+      "timestamp": "2020-06-25T09:35:58.637153Z",
+      "lastWriteTimeUtc": "2020-06-25T09:16:51.0410229Z",
+      "queryTimestamp": "2020-06-25T09:35:59.6802139Z",
+      "fileCount": 1,
+      "fileSize": 1260218
     },
     {
       "folderName": "Clumps-5.0.2.jar",
@@ -1081,6 +1096,21 @@
       "fileSize": 126015
     },
     {
+      "folderName": "FarmingForBlockheads_1.15.2-6.1.4.jar",
+      "fingerprint": 746358836,
+      "fileDateHash": 305621310,
+      "sectionID": 8,
+      "individualFingerprints": [
+        746358836
+      ],
+      "status": 1,
+      "timestamp": "2020-06-25T09:35:58.6441343Z",
+      "lastWriteTimeUtc": "2020-06-25T09:17:07.4157717Z",
+      "queryTimestamp": "2020-06-25T09:35:59.6902107Z",
+      "fileCount": 1,
+      "fileSize": 277012
+    },
+    {
       "folderName": "Patchouli-1.15.2-1.2-33.jar",
       "fingerprint": 233382233,
       "fileDateHash": 1160832357,
@@ -1184,6 +1214,21 @@
       "queryTimestamp": "2020-06-24T22:00:31.9876364Z",
       "fileCount": 1,
       "fileSize": 704093
+    },
+    {
+      "folderName": "healingcf_1.15-2.3.jar",
+      "fingerprint": 3586527934,
+      "fileDateHash": 3367173350,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3586527934
+      ],
+      "status": 1,
+      "timestamp": "2020-06-25T09:35:58.6461293Z",
+      "lastWriteTimeUtc": "2020-06-25T09:17:20.7555843Z",
+      "queryTimestamp": "2020-06-25T09:35:59.6922074Z",
+      "fileCount": 1,
+      "fileSize": 8573
     },
     {
       "folderName": "kubejs-2.6.1.34.jar",
@@ -1532,105 +1577,106 @@
     },
     {
       "folderName": "New WorldD",
-      "fingerprint": 1126215992,
-      "fileDateHash": 3711064935,
+      "fingerprint": 294531714,
+      "fileDateHash": 587017535,
       "sectionID": 10,
       "individualFingerprints": [
         12490019,
-        39222716,
-        79668864,
         266054663,
         299090877,
         403418361,
         415143723,
         438692499,
-        483030101,
         500036828,
         532652010,
         538583082,
-        539326090,
+        568443102,
         660734254,
-        795302812,
+        727821750,
         808684247,
+        809351801,
         812326908,
-        821104905,
-        913112334,
+        843089706,
+        918971602,
         928622285,
         994132931,
-        1077144129,
+        1084997757,
+        1119950986,
         1149862227,
+        1160926171,
         1170925343,
         1174775678,
-        1203979800,
+        1230730780,
         1249360561,
-        1254989211,
         1260266795,
+        1261108614,
         1271102851,
         1367033121,
         1434901704,
-        1476379323,
+        1497449824,
         1540447798,
         1540447798,
         1540447798,
-        1559033185,
         1566657123,
-        1571976557,
         1591040356,
-        1612698485,
         1722796223,
         1783675463,
-        1862609412,
         1891027954,
         1954079201,
         1972004122,
         2039055248,
-        2121544406,
         2142050333,
         2152852191,
-        2276337954,
+        2162876992,
+        2167650494,
+        2226088383,
         2308177064,
         2344543534,
-        2350863487,
+        2372576555,
         2498825621,
         2533287518,
         2575806916,
         2580899546,
         2603382134,
         2609400332,
-        2643864802,
         2672388777,
         2754028482,
-        2793899430,
+        2765578896,
         2843449744,
         2846067563,
-        2851927609,
+        2875861240,
         2885589422,
         2911591640,
         2938885398,
-        2948135589,
+        2970671752,
+        3026006864,
         3064265490,
-        3078654148,
         3116127440,
+        3124738940,
+        3191927293,
+        3211266717,
         3272786162,
-        3287613341,
         3455094712,
+        3465317325,
         3501820083,
-        3604083563,
+        3576439258,
+        3663423082,
         3769038449,
         3771282984,
         3771282984,
         3771282984,
         3883130120,
-        3885697596,
+        3894804303,
         3964272420,
+        4023715439,
         4192398683,
-        4206202522,
+        4268361585,
         4294246967
       ],
       "status": 1,
-      "timestamp": "2020-06-25T08:28:06.9673475Z",
-      "lastWriteTimeUtc": "2020-06-25T08:28:06.4264597Z",
-      "queryTimestamp": "2020-06-25T08:28:07.9877901Z",
+      "timestamp": "2020-06-25T09:35:58.6501184Z",
+      "lastWriteTimeUtc": "2020-06-25T09:35:58.1196691Z",
+      "queryTimestamp": "2020-06-25T09:35:59.6981903Z",
       "fileCount": 21,
       "fileSize": 0
     },
@@ -2070,21 +2116,6 @@
       "fileSize": 3232472
     },
     {
-      "folderName": "engineersdecor-1.15.2-1.1.0-b1.jar",
-      "fingerprint": 3062395735,
-      "fileDateHash": 861973812,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3062395735
-      ],
-      "status": 1,
-      "timestamp": "2020-06-24T22:00:27.6347788Z",
-      "lastWriteTimeUtc": "2020-06-24T21:59:39.9525803Z",
-      "queryTimestamp": "2020-06-24T22:00:32.0032577Z",
-      "fileCount": 1,
-      "fileSize": 1232812
-    },
-    {
       "folderName": "valkyrielib-1.15.2-3.0.2.1.jar",
       "fingerprint": 3924473809,
       "fileDateHash": 3012160489,
@@ -2248,21 +2279,6 @@
       "queryTimestamp": "2020-06-24T22:00:32.018879Z",
       "fileCount": 1,
       "fileSize": 23313
-    },
-    {
-      "folderName": "FarmingForBlockheads_1.15.2-6.1.3.jar",
-      "fingerprint": 274709235,
-      "fileDateHash": 844062672,
-      "sectionID": 8,
-      "individualFingerprints": [
-        274709235
-      ],
-      "status": 1,
-      "timestamp": "2020-06-24T22:00:27.9693875Z",
-      "lastWriteTimeUtc": "2020-06-24T21:59:39.4058038Z",
-      "queryTimestamp": "2020-06-24T22:00:32.018879Z",
-      "fileCount": 1,
-      "fileSize": 276905
     },
     {
       "folderName": "QuarkOddities-1.15.2.jar",
@@ -2835,21 +2851,6 @@
       "fileSize": 45363
     },
     {
-      "folderName": "healingcf_1.15-2.2.jar",
-      "fingerprint": 2100468598,
-      "fileDateHash": 1611406017,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2100468598
-      ],
-      "status": 1,
-      "timestamp": "2020-06-24T22:00:28.4666006Z",
-      "lastWriteTimeUtc": "2020-06-24T21:59:39.9994372Z",
-      "queryTimestamp": "2020-06-24T22:00:32.018879Z",
-      "fileCount": 1,
-      "fileSize": 8651
-    },
-    {
       "folderName": "campfiretorches-1.15.2-1.0.2.jar",
       "fingerprint": 3336872122,
       "fileDateHash": 1326373345,
@@ -3376,7 +3377,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-06-25T08:28:12.8465367Z",
+  "lastPreviousMatchUpdate": "2020-06-25T09:36:00.5671439Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.15.2",
@@ -6087,13 +6088,13 @@
         "FileNameOnDisk": "kubejs-2.6.1.34.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2775903Z",
-      "dateUpdated": "2020-05-10T13:38:56.8673041Z",
-      "dateLastUpdateAttempted": "2020-05-10T13:38:56.8673041Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T10:29:48.4132678Z",
+      "dateLastUpdateAttempted": "2020-06-25T10:29:48.4132678Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -8308,9 +8309,9 @@
         "FileNameOnDisk": "jei-1.15.2-6.0.0.4.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2865933Z",
-      "dateUpdated": "2020-05-10T12:49:55.4515746Z",
-      "dateLastUpdateAttempted": "2020-05-10T12:49:55.4515746Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T10:20:04.2079451Z",
+      "dateLastUpdateAttempted": "2020-06-25T10:20:04.2079451Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14092,9 +14093,9 @@
         "FileNameOnDisk": "industrial-foregoing-1.15.2-2.3.0-6f57752.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.272633Z",
-      "dateUpdated": "2020-05-10T13:14:10.6974823Z",
-      "dateLastUpdateAttempted": "2020-05-10T13:14:10.6974823Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T10:32:07.8456336Z",
+      "dateLastUpdateAttempted": "2020-06-25T10:32:07.8456336Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16337,9 +16338,9 @@
         "FileNameOnDisk": "Interactio-1.15.2-2.0.2.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2786126Z",
-      "dateUpdated": "2020-05-10T13:14:13.7580515Z",
-      "dateLastUpdateAttempted": "2020-05-10T13:14:13.7580515Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T10:30:57.2562739Z",
+      "dateLastUpdateAttempted": "2020-06-25T10:30:57.2562739Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19651,16 +19652,16 @@
       "addonID": 32274,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2946765,
-        "displayName": "journeymap-1.15.2-5.7.0b2",
-        "fileName": "journeymap-1.15.2-5.7.0b2.jar",
-        "fileDate": "2020-05-02T21:09:45.807Z",
-        "fileLength": 6822826,
+        "id": 2981594,
+        "displayName": "journeymap-1.15.2-5.7.0b3",
+        "fileName": "journeymap-1.15.2-5.7.0b3.jar",
+        "fileDate": "2020-06-16T16:34:17.197Z",
+        "fileLength": 6823032,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2946/765/journeymap-1.15.2-5.7.0b2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2981/594/journeymap-1.15.2-5.7.0b3.jar",
         "isAlternate": false,
-        "alternateFileId": 2946766,
+        "alternateFileId": 2981596,
         "dependencies": [
           {
             "id": 0,
@@ -19673,12 +19674,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1206594805,
+            "fingerprint": 3210627753,
             "type": 0
           },
           {
             "foldername": "journeymap",
-            "fingerprint": 1697432557,
+            "fingerprint": 784371690,
             "type": 0
           },
           {
@@ -19693,7 +19694,7 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 1057147042,
+            "fingerprint": 1342462522,
             "type": 0
           },
           {
@@ -19703,7 +19704,7 @@
           },
           {
             "foldername": "license.txt",
-            "fingerprint": 3505990548,
+            "fingerprint": 568011566,
             "type": 0
           },
           {
@@ -19742,7 +19743,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 347004342,
+        "packageFingerprint": 2722798450,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -19756,12 +19757,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "journeymap-1.15.2-5.7.0b2.jar"
+        "FileNameOnDisk": "journeymap-1.15.2-5.7.0b3.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3075387Z",
-      "dateUpdated": "2020-05-10T12:49:46.8074881Z",
-      "dateLastUpdateAttempted": "2020-05-10T12:49:46.8074881Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T09:40:14.6578966Z",
+      "dateLastUpdateAttempted": "2020-06-25T09:40:14.6578966Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21326,14 +21327,14 @@
       "addonID": 266936,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2967423,
-        "displayName": "JAOPCA-1.15.2-3.2.0.10.jar",
-        "fileName": "JAOPCA-1.15.2-3.2.0.10.jar",
-        "fileDate": "2020-05-28T12:38:52.247Z",
-        "fileLength": 452497,
+        "id": 2976764,
+        "displayName": "JAOPCA-1.15.2-3.2.0.11.jar",
+        "fileName": "JAOPCA-1.15.2-3.2.0.11.jar",
+        "fileDate": "2020-06-10T05:52:41.12Z",
+        "fileLength": 472481,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2967/423/JAOPCA-1.15.2-3.2.0.10.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2976/764/JAOPCA-1.15.2-3.2.0.11.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -21341,17 +21342,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3294580125,
+            "fingerprint": 2157314396,
             "type": 0
           },
           {
             "foldername": "thelm",
-            "fingerprint": 4023617739,
+            "fingerprint": 559080557,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1444157983,
+            "fingerprint": 581049989,
             "type": 0
           },
           {
@@ -21360,7 +21361,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2218395110,
+        "packageFingerprint": 3846135256,
         "gameVersion": [
           "1.15.2"
         ],
@@ -21373,12 +21374,12 @@
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "JAOPCA-1.15.2-3.2.0.10.jar"
+        "FileNameOnDisk": "JAOPCA-1.15.2-3.2.0.11.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2875903Z",
-      "dateUpdated": "2020-06-02T13:25:54.8553011Z",
-      "dateLastUpdateAttempted": "2020-06-02T13:25:54.8553011Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T09:40:00.9823013Z",
+      "dateLastUpdateAttempted": "2020-06-25T09:40:00.9823013Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
