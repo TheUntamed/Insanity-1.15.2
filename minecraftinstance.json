@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-25T10:56:44.8416834Z",
+  "lastPlayed": "2020-06-25T11:23:16.7268108Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -16270,14 +16270,14 @@
       "addonID": 359344,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2948034,
-        "displayName": "Interactio-1.15.2-2.0.2.jar",
-        "fileName": "Interactio-1.15.2-2.0.2.jar",
-        "fileDate": "2020-05-04T12:24:49.297Z",
-        "fileLength": 164045,
+        "id": 2976074,
+        "displayName": "Interactio-1.15.2-2.0.3.jar",
+        "fileName": "Interactio-1.15.2-2.0.3.jar",
+        "fileDate": "2020-06-09T10:06:46.547Z",
+        "fileLength": 173550,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2948/34/Interactio-1.15.2-2.0.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2976/74/Interactio-1.15.2-2.0.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -16292,12 +16292,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1469226527,
+            "fingerprint": 681684876,
             "type": 0
           },
           {
             "foldername": "dev",
-            "fingerprint": 3914791074,
+            "fingerprint": 378655191,
             "type": 0
           },
           {
@@ -16321,7 +16321,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2091747146,
+        "packageFingerprint": 154735294,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -16335,11 +16335,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Interactio-1.15.2-2.0.2.jar"
+        "FileNameOnDisk": "Interactio-1.15.2-2.0.3.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2786126Z",
-      "dateUpdated": "2020-06-25T10:30:57.2562739Z",
-      "dateLastUpdateAttempted": "2020-06-25T10:30:57.2562739Z",
+      "dateUpdated": "2020-06-25T11:23:08.1542974Z",
+      "dateLastUpdateAttempted": "2020-06-25T11:23:08.1542974Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
