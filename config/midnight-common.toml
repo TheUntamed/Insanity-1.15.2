@@ -16,7 +16,7 @@
 	# - Only specifying '*' will match all dimensions
 	# - Empty strings and whitespaces are completely ignored
 	#Default: '+ minecraft:overworld', '+ midnight:midnight'
-	rift_dimensions = ["+ minecraft:overworld", "+ midnight:midnight"]
+	rift_dimensions = []
 	#Specifies several rules that define in which biomes rifts may generate. When an empty list is given rifts won't generate. This list is order dependent.
 	#Specifying can be done with several rules which are case insensitive:
 	# - Prefixing a rule with '+' will add all the items that match the given selector

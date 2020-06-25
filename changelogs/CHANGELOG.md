@@ -125,11 +125,12 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.9
 * *Spice of Life: Carrot Edition* (1.9.4 --> 1.9.6)
 * *Structurize* (282-RELEASE --> 313-RELEASE)
 * *TerraForged* (0.0.12 --> 0.0.14)
-* *Tetra* (2.3.0 --> 2.10.0)
+* *Tetra* (2.3.0 --> 2.11.0)
 * *Tesseract* (1.0.1 --> 1.0.4)
 * *The Endergetic Expansion* (v1.2.5 --> v1.3.1)
-* *The Midnight* (0.5.7-2 --> 0.5.8)
-* *Titanium* (2.3.7 --> 2.4.0)
+* *The Midnight* (0.5.7-2 --> 0.5.9)
+* *The One Probe* (2.0.2 --> 2.0.4)
+* *Titanium* (2.3.7 --> 2.4.2)
 * *Torch Slabs Mod* (1.6.8 --> 1.6.13)
 * *Upgrade Aquatic* (1.5.1 --> 1.6.1)
 * *Whoops* (0.0.1.2 --> 0.0.1.3)
@@ -152,6 +153,7 @@ To be removed:
 * Disabled Ore generation of *Silent's Mechanisms, Mekanism, Powah, Create, Mystical Agriculture, Immersive Engineering, Forbidden Arcanus*.
 * Enabled *Quark*'s Marble generation. (Embellishcraft and it's Marble were removed.)
 * Disabled *Quark*'s Limestone generation. (Create adds Limestone now.)
+* Disabled *The Midnight* portal generation. (Portals can be created manually by throwing a Dark Pearl. WARNING: Don't do it in your base!)
 
 **Bug Fixes**
 
