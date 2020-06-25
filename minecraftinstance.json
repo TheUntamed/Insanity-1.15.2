@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-25T14:26:21.9353353Z",
+  "lastPlayed": "2020-06-25T14:48:10.4409265Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -10933,41 +10933,17 @@
       "addonID": 268560,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2967618,
-        "displayName": "Mekanism-1.15.2-9.10.7.420.jar",
-        "fileName": "Mekanism-1.15.2-9.10.7.420.jar",
-        "fileDate": "2020-05-28T17:57:59.97Z",
-        "fileLength": 7105643,
+        "id": 2981858,
+        "displayName": "Mekanism-1.15.2-9.10.8.421.jar",
+        "fileName": "Mekanism-1.15.2-9.10.8.421.jar",
+        "fileDate": "2020-06-16T21:32:09.8Z",
+        "fileLength": 7105010,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2967/618/Mekanism-1.15.2-9.10.7.420.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2981/858/Mekanism-1.15.2-9.10.8.421.jar",
         "isAlternate": false,
-        "alternateFileId": 2967619,
+        "alternateFileId": 2981859,
         "dependencies": [
-          {
-            "id": 0,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 226410,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 267602,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 245211,
-            "type": 2,
-            "fileId": 0
-          },
           {
             "id": 0,
             "addonId": 248020,
@@ -10982,7 +10958,31 @@
           },
           {
             "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 267602,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 226410,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
             "addonId": 324164,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 245211,
             "type": 2,
             "fileId": 0
           }
@@ -10991,12 +10991,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2570394117,
+            "fingerprint": 1194004854,
             "type": 0
           },
           {
             "foldername": "mekanism",
-            "fingerprint": 134982506,
+            "fingerprint": 781929685,
             "type": 0
           },
           {
@@ -11006,7 +11006,7 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 7921820,
+            "fingerprint": 4190858583,
             "type": 0
           },
           {
@@ -11015,7 +11015,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3592275096,
+        "packageFingerprint": 2740740456,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -11029,12 +11029,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Mekanism-1.15.2-9.10.7.420.jar"
+        "FileNameOnDisk": "Mekanism-1.15.2-9.10.8.421.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2975606Z",
-      "dateUpdated": "2020-06-02T13:49:14.8546506Z",
-      "dateLastUpdateAttempted": "2020-06-02T13:49:14.8546506Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T14:47:47.0070861Z",
+      "dateLastUpdateAttempted": "2020-06-25T14:47:47.0070861Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11049,14 +11049,14 @@
       "addonID": 268566,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2967620,
-        "displayName": "MekanismGenerators-1.15.2-9.10.7.420.jar",
-        "fileName": "MekanismGenerators-1.15.2-9.10.7.420.jar",
-        "fileDate": "2020-05-28T17:58:02.567Z",
+        "id": 2981860,
+        "displayName": "MekanismGenerators-1.15.2-9.10.8.421.jar",
+        "fileName": "MekanismGenerators-1.15.2-9.10.8.421.jar",
+        "fileDate": "2020-06-16T21:32:12.977Z",
         "fileLength": 817715,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2967/620/MekanismGenerators-1.15.2-9.10.7.420.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2981/860/MekanismGenerators-1.15.2-9.10.8.421.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -11071,7 +11071,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2404663216,
+            "fingerprint": 3231583,
             "type": 0
           },
           {
@@ -11095,7 +11095,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 41338977,
+        "packageFingerprint": 1223979510,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -11109,12 +11109,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "MekanismGenerators-1.15.2-9.10.7.420.jar"
+        "FileNameOnDisk": "MekanismGenerators-1.15.2-9.10.8.421.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3135179Z",
-      "dateUpdated": "2020-06-02T13:49:15.6914203Z",
-      "dateLastUpdateAttempted": "2020-06-02T13:49:15.6914203Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T14:47:49.5010685Z",
+      "dateLastUpdateAttempted": "2020-06-25T14:47:49.5010685Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11129,14 +11129,14 @@
       "addonID": 268567,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2967621,
-        "displayName": "MekanismTools-1.15.2-9.10.7.420.jar",
-        "fileName": "MekanismTools-1.15.2-9.10.7.420.jar",
-        "fileDate": "2020-05-28T17:58:04.017Z",
+        "id": 2981861,
+        "displayName": "MekanismTools-1.15.2-9.10.8.421.jar",
+        "fileName": "MekanismTools-1.15.2-9.10.8.421.jar",
+        "fileDate": "2020-06-16T21:32:14.657Z",
         "fileLength": 222173,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2967/621/MekanismTools-1.15.2-9.10.7.420.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2981/861/MekanismTools-1.15.2-9.10.8.421.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -11151,7 +11151,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 199148694,
+            "fingerprint": 2335968149,
             "type": 0
           },
           {
@@ -11175,7 +11175,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2263547929,
+        "packageFingerprint": 2354596615,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -11189,12 +11189,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "MekanismTools-1.15.2-9.10.7.420.jar"
+        "FileNameOnDisk": "MekanismTools-1.15.2-9.10.8.421.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2885876Z",
-      "dateUpdated": "2020-06-02T13:57:35.4879378Z",
-      "dateLastUpdateAttempted": "2020-06-02T13:57:35.4879378Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T14:47:51.5852945Z",
+      "dateLastUpdateAttempted": "2020-06-25T14:47:51.5852945Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
