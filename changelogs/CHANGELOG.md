@@ -1,7 +1,7 @@
 !nsanity 0.2.4
 --------------
 
-Forge 1.15.2-31.1.45 --> 1.15.2-31.2.9
+Forge 1.15.2-31.1.45 --> 1.15.2-31.2.20
 
 **Added Mods**
 
@@ -16,7 +16,7 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.9
 **Updated Mods**
 
 * *Abnormals Core* (1.0.5 --> 1.0.6)
-* *AIOT Botania* (1.2.1 --> 1.2.2)
+* *AIOT Botania* (1.2.1 --> 1.2.3)
 * *Apotheosis* (3.0.7 --> 3.1.2)
 * *AppleSkin* (1.0.13 --> 1.0.14)
 * *Aquaculture 2* (2.0.13 --> 2.0.15)
@@ -30,6 +30,7 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.9
 * *Carbonado* (2.0.3 --> 2.0.7)
 * *Carpet Stairs Mod* (1.4.2 --> 1.4.4)
 * *Cloth Config API (Forge)* (2.0 --> 3.0)
+* *Collective* (1.29 --> 1.32)
 * *Conduits Prevent Drowned* (1.0 --> 1.1)
 * *Controlling* (6.1.4 --> 6.1.4)
 * *Cooking for Blockheads* (8.0.1 --> 8.0.3)
@@ -53,7 +54,7 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.9
 * *Engineer's Decor* (1.0.20-b5 --> -1.1.0-b3)
 * *Equipment Tooltips* (1.4.0+11 --> 1.4.3+14)
 * *Essentials* (2.7.0 --> 2.7.2)
-* *EverlastingAbilities* (1.6.1 --> 1.6.2)
+* *EverlastingAbilities* (1.6.1 --> 1.6.3)
 * *Extended Crafting* (2.0.0 --> 2.0.4)
 * *Extra Tags* (1.0 --> 1.1)
 * *Extreme sound muffler (Forge)* (1.2.1 --> 1.2.2)
@@ -112,9 +113,9 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.9
 * *RFTools Power* (2.0.1-alpha --> 2.1.1-beta)
 * *RFTools Storage* (1.0.3-alpha --> 1.1.4-beta)
 * *RFTools Utility* (2.0.1-alpha --> 2.1.3-beta)
-* *Ring of Blink [FORGE]* (1.1.22 --> 1.1.28)
-* *Ring of Teleport [FORGE]* (1.1.23 --> 1.1.29)
-* *Ring of the Miner [FORGE]* (1.1.22 --> 1.1.28)
+* *Ring of Blink [FORGE]* (1.1.22 --> 1.1.31)
+* *Ring of Teleport [FORGE]* (1.1.23 --> 1.1.32)
+* *Ring of the Miner [FORGE]* (1.1.22 --> 1.1.31)
 * *Scalable Cat's Force* (2.13.1-build-6 --> 2.13.2-build-2)
 * *ShetiPhianCore* (3.7.0 --> 3.7.2)
 * *Silent Lib* (4.6.0+48 --> 4.6.4+56)
@@ -131,7 +132,8 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.9
 * *The Midnight* (0.5.7-2 --> 0.5.9)
 * *The One Probe* (2.0.2 --> 2.0.4)
 * *Titanium* (2.3.7 --> 2.4.2)
-* *Torch Slabs Mod* (1.6.8 --> 1.6.13)
+* *Torch Slabs Mod* (1.6.8 --> 1.6.15)
+* *U Team Core* (2.12.1.156 --> 2.12.1.158)
 * *Upgrade Aquatic* (1.5.1 --> 1.6.1)
 * *Whoops* (0.0.1.2 --> 0.0.1.3)
 
@@ -153,7 +155,7 @@ To be removed:
 * Disabled Ore generation of *Silent's Mechanisms, Mekanism, Powah, Create, Mystical Agriculture, Immersive Engineering, Forbidden Arcanus*.
 * Enabled *Quark*'s Marble generation. (Embellishcraft and it's Marble were removed.)
 * Disabled *Quark*'s Limestone generation. (Create adds Limestone now.)
-* Disabled *The Midnight* portal generation. (Portals can be created manually by throwing a Dark Pearl. WARNING: Don't do it in your base!)
+* Disabled *The Midnight* portal generation. (Portals can be created manually by throwing a Dark Pearl. WARNING: Don't do it in your base)
 
 **Bug Fixes**
 
@@ -347,17 +349,16 @@ Forge 1.15.2-31.1.35 --> 1.15.2-31.1.43
 * *Quark* (r2.1-229 --> r2.1-230)
 * *Reliquary v1.3* (1.3.4.957 --> 1.3.4.960)
 * *Ring of Attraction [FORGE]* (1.1.24 --> 1.1.26)
-* *Ring of Blink [FORGE]* (1.1.19 --> 1.1.31)
+* *Ring of Blink [FORGE]* (1.1.19 --> 1.1.20)
 * *Ring of Growth [FORGE]* (1.1.21 --> 1.1.22)
 * *Ring of Repair [FORGE]* (1.1.21 --> 1.1.22)
 * *Ring of Return [FORGE]* (1.0.3 --> 1.0.4)
-* *Ring of Teleport [FORGE]* (1.1.20 --> 1.1.32)
+* *Ring of Teleport [FORGE]* (1.1.20 --> 1.1.21)
 * *Ring of the Enderchest [FORGE]* (1.1.22 --> 1.1.23)
-* *Ring of the Miner [FORGE]* (1.1.19 --> 1.1.31)
+* *Ring of the Miner [FORGE]* (1.1.19 --> 1.1.20)
 * *Tetra* (2.0.1 --> 2.3.0)
 * *The Midnight* (0.5.4 --> 0.5.6)
-* *Torch Slabs Mod* (1.6.5 --> 1.6.15)
-* *U Team Core* (2.11.0.156 --> 2.11.0.158)
+* *Torch Slabs Mod* (1.6.5 --> 1.6.6)
 * *Vanilla Excavators [Forge]* (2.0 --> 2.1)
 * *Vanilla Hammers [Forge]* (2.0.1 --> 2.1)
 
