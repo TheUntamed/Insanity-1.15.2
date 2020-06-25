@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-25T21:37:51.1215612Z",
+  "lastPlayed": "2020-06-25T22:00:08.5922648Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -9232,16 +9232,16 @@
       "addonID": 248353,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2987703,
-        "displayName": "EverlastingAbilities-1.15.2-1.6.2.jar",
-        "fileName": "EverlastingAbilities-1.15.2-1.6.2.jar",
-        "fileDate": "2020-06-24T17:53:33.44Z",
-        "fileLength": 179343,
+        "id": 2988580,
+        "displayName": "EverlastingAbilities-1.15.2-1.6.3.jar",
+        "fileName": "EverlastingAbilities-1.15.2-1.6.3.jar",
+        "fileDate": "2020-06-25T18:07:49.443Z",
+        "fileLength": 179601,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2987/703/EverlastingAbilities-1.15.2-1.6.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2988/580/EverlastingAbilities-1.15.2-1.6.3.jar",
         "isAlternate": false,
-        "alternateFileId": 2987704,
+        "alternateFileId": 2988581,
         "dependencies": [
           {
             "id": 0,
@@ -9254,12 +9254,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 950731785,
+            "fingerprint": 362639464,
             "type": 0
           },
           {
             "foldername": "org",
-            "fingerprint": 1677585000,
+            "fingerprint": 3779040724,
             "type": 0
           },
           {
@@ -9283,7 +9283,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4127815128,
+        "packageFingerprint": 1917211021,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -9297,11 +9297,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "EverlastingAbilities-1.15.2-1.6.2.jar"
+        "FileNameOnDisk": "EverlastingAbilities-1.15.2-1.6.3.jar"
       },
       "dateInstalled": "2020-05-09T13:11:20.6595841Z",
-      "dateUpdated": "2020-06-25T21:33:28.0559936Z",
-      "dateLastUpdateAttempted": "2020-06-25T21:33:28.0559936Z",
+      "dateUpdated": "2020-06-25T21:59:45.6850985Z",
+      "dateLastUpdateAttempted": "2020-06-25T21:59:45.6850985Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
