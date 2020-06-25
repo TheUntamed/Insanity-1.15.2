@@ -6,7 +6,7 @@ noise = 0.05
 minimap = "TOP_LEFT"
 #Scale of minimap
 #Range: 0.25 ~ 4.0
-minimap_scale = 1.0
+minimap_scale = 1.2
 #Minimap will be circular instead of square
 minimap_circle = false
 #Show waypoints on minimap

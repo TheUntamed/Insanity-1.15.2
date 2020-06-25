@@ -37,6 +37,9 @@
 	#How much FE the Auto Crafting Tables should hold. Higher tiers use double the previous tier.
 	#Range: > 0
 	autoTablePowerCapacity = 500000
+	#How much FE the Auto Crafting Tables should use when auto inserting items.
+	#Range: > 0
+	autoTableInsertPowerRate = 100
 	#Should the Basic Crafting Table inherit vanilla crafting recipes?
 	useVanillaRecipes = true
 	#Should the Extended Crafting Tables be enabled?
