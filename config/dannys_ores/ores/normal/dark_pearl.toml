@@ -24,12 +24,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 8
+				veinSize = 4
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 4
+				veinsPerChunk = 2
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -52,12 +52,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 8
+				veinSize = 4
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 4
+				veinsPerChunk = 2
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -80,12 +80,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 8
+				veinSize = 4
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 4
+				veinsPerChunk = 2
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -108,12 +108,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 8
+				veinSize = 4
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 4
+				veinsPerChunk = 2
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -141,7 +141,7 @@
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 4
+				veinsPerChunk = 2
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -170,12 +170,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 8
+				veinSize = 4
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 4
+				veinsPerChunk = 2
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -198,12 +198,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 8
+				veinSize = 4
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 4
+				veinsPerChunk = 2
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -226,12 +226,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 8
+				veinSize = 4
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 4
+				veinsPerChunk = 2
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -254,12 +254,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 8
+				veinSize = 4
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 4
+				veinsPerChunk = 2
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -282,12 +282,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 8
+				veinSize = 4
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 4
+				veinsPerChunk = 2
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -310,12 +310,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -338,12 +338,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -366,12 +366,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -394,12 +394,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -425,12 +425,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -456,12 +456,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -484,12 +484,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -512,12 +512,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -540,12 +540,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -568,12 +568,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -596,12 +596,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -627,12 +627,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -655,12 +655,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -683,12 +683,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -711,12 +711,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 8
+				veinSize = 4
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 4
+				veinsPerChunk = 2
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -739,12 +739,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -770,12 +770,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -798,12 +798,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -826,12 +826,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -854,12 +854,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -882,12 +882,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -913,12 +913,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 8
+				veinSize = 4
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 4
+				veinsPerChunk = 2
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -944,12 +944,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.
@@ -975,12 +975,12 @@
 				biomeBlacklist = []
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
-				veinSize = 16
+				veinSize = 8
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 8
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
 				#If true, the biome blacklist is a whitelist.

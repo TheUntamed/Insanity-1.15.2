@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-25T15:16:29.8713975Z",
+  "lastPlayed": "2020-06-25T16:27:00.0935942Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -8664,14 +8664,14 @@
       "addonID": 347706,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2964556,
-        "displayName": "rftoolsbuilder-1.15-2.1.2-beta.jar",
-        "fileName": "rftoolsbuilder-1.15-2.1.2-beta.jar",
-        "fileDate": "2020-05-24T11:03:30.977Z",
-        "fileLength": 499179,
+        "id": 2971386,
+        "displayName": "rftoolsbuilder-1.15-2.1.3-beta.jar",
+        "fileName": "rftoolsbuilder-1.15-2.1.3-beta.jar",
+        "fileDate": "2020-06-03T03:39:18.28Z",
+        "fileLength": 500242,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2964/556/rftoolsbuilder-1.15-2.1.2-beta.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2971/386/rftoolsbuilder-1.15-2.1.3-beta.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -8692,12 +8692,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3819334744,
+            "fingerprint": 2216733974,
             "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 302578857,
+            "fingerprint": 2207164691,
             "type": 0
           },
           {
@@ -8716,7 +8716,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 865402464,
+        "packageFingerprint": 4239952584,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -8730,12 +8730,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rftoolsbuilder-1.15-2.1.2-beta.jar"
+        "FileNameOnDisk": "rftoolsbuilder-1.15-2.1.3-beta.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2676452Z",
-      "dateUpdated": "2020-06-02T15:07:45.3747986Z",
-      "dateLastUpdateAttempted": "2020-06-02T15:07:45.3747986Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T16:20:11.9035984Z",
+      "dateLastUpdateAttempted": "2020-06-25T16:20:11.9035984Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9340,14 +9340,14 @@
       "addonID": 350006,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2964557,
-        "displayName": "rftoolsstorage-1.15-1.1.3-beta.jar",
-        "fileName": "rftoolsstorage-1.15-1.1.3-beta.jar",
-        "fileDate": "2020-05-24T11:03:58.113Z",
-        "fileLength": 337313,
+        "id": 2971387,
+        "displayName": "rftoolsstorage-1.15-1.1.4-beta.jar",
+        "fileName": "rftoolsstorage-1.15-1.1.4-beta.jar",
+        "fileDate": "2020-06-03T03:39:39.997Z",
+        "fileLength": 337269,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2964/557/rftoolsstorage-1.15-1.1.3-beta.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2971/387/rftoolsstorage-1.15-1.1.4-beta.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -9368,12 +9368,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3933436976,
+            "fingerprint": 3838726333,
             "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 2364340933,
+            "fingerprint": 636016240,
             "type": 0
           },
           {
@@ -9392,7 +9392,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1829883325,
+        "packageFingerprint": 2270248783,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -9406,12 +9406,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rftoolsstorage-1.15-1.1.3-beta.jar"
+        "FileNameOnDisk": "rftoolsstorage-1.15-1.1.4-beta.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3085362Z",
-      "dateUpdated": "2020-06-02T15:07:50.7484508Z",
-      "dateLastUpdateAttempted": "2020-06-02T15:07:50.7484508Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T16:20:52.7415083Z",
+      "dateLastUpdateAttempted": "2020-06-25T16:20:52.7415083Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14329,9 +14329,9 @@
         "FileNameOnDisk": "refinedstorage-1.8.4.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2935698Z",
-      "dateUpdated": "2020-06-02T15:04:11.3893095Z",
-      "dateLastUpdateAttempted": "2020-06-02T15:04:11.3893095Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T16:26:51.1590703Z",
+      "dateLastUpdateAttempted": "2020-06-25T16:26:51.1590703Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14998,14 +14998,14 @@
       "addonID": 243121,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2970364,
-        "displayName": "Quark-r2.1-240.jar",
-        "fileName": "Quark-r2.1-240.jar",
-        "fileDate": "2020-06-01T18:20:36.257Z",
-        "fileLength": 5420260,
+        "id": 2980651,
+        "displayName": "Quark-r2.1-245.jar",
+        "fileName": "Quark-r2.1-245.jar",
+        "fileDate": "2020-06-15T09:29:00.89Z",
+        "fileLength": 5424185,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2970/364/Quark-r2.1-240.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2980/651/Quark-r2.1-245.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -15020,12 +15020,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3329776373,
+            "fingerprint": 2092015558,
             "type": 0
           },
           {
             "foldername": "vazkii",
-            "fingerprint": 2906525289,
+            "fingerprint": 3006907326,
             "type": 0
           },
           {
@@ -15035,12 +15035,12 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 2826512094,
+            "fingerprint": 1003088429,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 1825309014,
+            "fingerprint": 1100931501,
             "type": 0
           },
           {
@@ -15064,9 +15064,8 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1090098855,
+        "packageFingerprint": 2496780500,
         "gameVersion": [
-          "Forge",
           "1.15.2"
         ],
         "hasInstallScript": false,
@@ -15078,12 +15077,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Quark-r2.1-240.jar"
+        "FileNameOnDisk": "Quark-r2.1-245.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3045453Z",
-      "dateUpdated": "2020-06-02T15:04:09.2331762Z",
-      "dateLastUpdateAttempted": "2020-06-02T15:04:09.2331762Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T16:18:40.5437756Z",
+      "dateLastUpdateAttempted": "2020-06-25T16:18:40.5437756Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17673,10 +17672,10 @@
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 35995743,
+            "id": 0,
             "addonId": 243076,
             "type": 3,
-            "fileId": 2871855
+            "fileId": 0
           }
         ],
         "isAvailable": true,
@@ -17684,27 +17683,27 @@
           {
             "foldername": "META-INF",
             "fingerprint": 4098645512,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "com",
             "fingerprint": 2912829940,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
             "fingerprint": 2476477516,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 3871752191,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 3161986055,
-            "type": 3
+            "type": 0
           }
         ],
         "packageFingerprint": 3706470105,
@@ -17712,39 +17711,21 @@
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1756183,
-        "projectId": 272302,
-        "packageFingerprintId": 403532594,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2080533,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
         "FileNameOnDisk": "refinedstorageaddons-0.6.1.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2885876Z",
-      "dateUpdated": "2019-05-09T13:11:27.2885876Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-06-25T16:26:36.8215803Z",
+      "dateLastUpdateAttempted": "2020-06-25T16:26:36.8215803Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
