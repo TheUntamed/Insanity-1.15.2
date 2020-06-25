@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-25T08:10:40.7442913Z",
+  "lastPlayed": "2020-06-25T09:17:36.9918339Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -391,6 +391,21 @@
       "fileSize": 62223
     },
     {
+      "folderName": "Druidcraft-1.15-0.4.21.jar",
+      "fingerprint": 2241139007,
+      "fileDateHash": 1131288686,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2241139007
+      ],
+      "status": 1,
+      "timestamp": "2020-06-25T08:28:06.9558164Z",
+      "lastWriteTimeUtc": "2020-06-24T22:01:42.0282Z",
+      "queryTimestamp": "2020-06-25T08:28:07.9658476Z",
+      "fileCount": 1,
+      "fileSize": 1257749
+    },
+    {
       "folderName": "PackingTape-1.15.2-0.9.6.jar",
       "fingerprint": 733941026,
       "fileDateHash": 1818543911,
@@ -449,21 +464,6 @@
       "queryTimestamp": "2020-06-24T22:00:31.9720149Z",
       "fileCount": 1,
       "fileSize": 1890498
-    },
-    {
-      "folderName": "Druidcraft-1.15-0.4.1.jar",
-      "fingerprint": 2727399456,
-      "fileDateHash": 3117639883,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2727399456
-      ],
-      "status": 1,
-      "timestamp": "2020-06-24T22:00:27.5825683Z",
-      "lastWriteTimeUtc": "2020-06-24T21:59:39.3902085Z",
-      "queryTimestamp": "2020-06-24T22:00:31.9720149Z",
-      "fileCount": 1,
-      "fileSize": 1252172
     },
     {
       "folderName": "NetherPortalFix_1.15.2-6.0.2.jar",
@@ -644,146 +644,6 @@
       "queryTimestamp": "2020-06-24T22:00:31.9876364Z",
       "fileCount": 1,
       "fileSize": 7708
-    },
-    {
-      "folderName": "Fin",
-      "fingerprint": 3966903652,
-      "fileDateHash": 2977738609,
-      "sectionID": 10,
-      "individualFingerprints": [
-        12490019,
-        37575536,
-        41893469,
-        272298498,
-        280947260,
-        299090877,
-        359221967,
-        366074147,
-        380671397,
-        403418361,
-        415143723,
-        468817288,
-        500036828,
-        532652010,
-        538583082,
-        654002768,
-        660734254,
-        812326908,
-        818401602,
-        822534543,
-        844129645,
-        879672875,
-        888443140,
-        908767580,
-        918971602,
-        928622285,
-        994132931,
-        1008498109,
-        1028246387,
-        1109831596,
-        1119950986,
-        1170925343,
-        1174775678,
-        1196391078,
-        1271102851,
-        1328507324,
-        1352667901,
-        1359271779,
-        1367033121,
-        1434901704,
-        1444115267,
-        1497449824,
-        1540447798,
-        1540447798,
-        1540447798,
-        1566657123,
-        1587691827,
-        1591040356,
-        1722796223,
-        1783675463,
-        1859224006,
-        1891027954,
-        1952926739,
-        1972004122,
-        2023936360,
-        2039055248,
-        2105902991,
-        2152852191,
-        2171929575,
-        2177245073,
-        2226088383,
-        2226791696,
-        2308177064,
-        2309822130,
-        2344543534,
-        2372576555,
-        2412738185,
-        2430307672,
-        2430307672,
-        2430307672,
-        2498825621,
-        2533287518,
-        2575806916,
-        2580899546,
-        2639823070,
-        2672388777,
-        2706415657,
-        2714027920,
-        2754028482,
-        2817071664,
-        2843449744,
-        2875861240,
-        2876720835,
-        2885589422,
-        2890094853,
-        2911591640,
-        3028516032,
-        3116127440,
-        3130395431,
-        3189889785,
-        3190113171,
-        3221871901,
-        3247158525,
-        3271213886,
-        3272786162,
-        3281286739,
-        3337236427,
-        3455094712,
-        3458600255,
-        3490174041,
-        3622267497,
-        3672524167,
-        3715946893,
-        3729341511,
-        3769038449,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3894804303,
-        3964272420,
-        3987413293,
-        4041697579,
-        4079930989,
-        4105453282,
-        4176621375,
-        4192398683,
-        4268361585,
-        4270289488,
-        4284435450,
-        4294246967
-      ],
-      "status": 1,
-      "timestamp": "2020-06-24T16:03:20.1867904Z",
-      "lastWriteTimeUtc": "2020-06-24T16:03:19.6699248Z",
-      "queryTimestamp": "2020-06-24T16:03:21.125134Z",
-      "fileCount": 22,
-      "fileSize": 0
     },
     {
       "folderName": "rftoolsutility-1.15-2.1.3-beta.jar",
@@ -1671,6 +1531,110 @@
       "fileSize": 24547
     },
     {
+      "folderName": "New WorldD",
+      "fingerprint": 1126215992,
+      "fileDateHash": 3711064935,
+      "sectionID": 10,
+      "individualFingerprints": [
+        12490019,
+        39222716,
+        79668864,
+        266054663,
+        299090877,
+        403418361,
+        415143723,
+        438692499,
+        483030101,
+        500036828,
+        532652010,
+        538583082,
+        539326090,
+        660734254,
+        795302812,
+        808684247,
+        812326908,
+        821104905,
+        913112334,
+        928622285,
+        994132931,
+        1077144129,
+        1149862227,
+        1170925343,
+        1174775678,
+        1203979800,
+        1249360561,
+        1254989211,
+        1260266795,
+        1271102851,
+        1367033121,
+        1434901704,
+        1476379323,
+        1540447798,
+        1540447798,
+        1540447798,
+        1559033185,
+        1566657123,
+        1571976557,
+        1591040356,
+        1612698485,
+        1722796223,
+        1783675463,
+        1862609412,
+        1891027954,
+        1954079201,
+        1972004122,
+        2039055248,
+        2121544406,
+        2142050333,
+        2152852191,
+        2276337954,
+        2308177064,
+        2344543534,
+        2350863487,
+        2498825621,
+        2533287518,
+        2575806916,
+        2580899546,
+        2603382134,
+        2609400332,
+        2643864802,
+        2672388777,
+        2754028482,
+        2793899430,
+        2843449744,
+        2846067563,
+        2851927609,
+        2885589422,
+        2911591640,
+        2938885398,
+        2948135589,
+        3064265490,
+        3078654148,
+        3116127440,
+        3272786162,
+        3287613341,
+        3455094712,
+        3501820083,
+        3604083563,
+        3769038449,
+        3771282984,
+        3771282984,
+        3771282984,
+        3883130120,
+        3885697596,
+        3964272420,
+        4192398683,
+        4206202522,
+        4294246967
+      ],
+      "status": 1,
+      "timestamp": "2020-06-25T08:28:06.9673475Z",
+      "lastWriteTimeUtc": "2020-06-25T08:28:06.4264597Z",
+      "queryTimestamp": "2020-06-25T08:28:07.9877901Z",
+      "fileCount": 21,
+      "fileSize": 0
+    },
+    {
       "folderName": "refinedstorageaddons-0.6.1.jar",
       "fingerprint": 3706470105,
       "fileDateHash": 2667788627,
@@ -2091,21 +2055,6 @@
       "fileSize": 798254
     },
     {
-      "folderName": "EverlastingAbilities-1.15.2-1.6.1.jar",
-      "fingerprint": 3724305681,
-      "fileDateHash": 3117639883,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3724305681
-      ],
-      "status": 1,
-      "timestamp": "2020-06-24T22:00:27.7508614Z",
-      "lastWriteTimeUtc": "2020-06-24T21:59:39.3902085Z",
-      "queryTimestamp": "2020-06-24T22:00:32.0032577Z",
-      "fileCount": 1,
-      "fileSize": 179095
-    },
-    {
       "folderName": "BiomesOPlenty-1.15.2-10.0.0.363-universal.jar",
       "fingerprint": 904532981,
       "fileDateHash": 500014563,
@@ -2134,21 +2083,6 @@
       "queryTimestamp": "2020-06-24T22:00:32.0032577Z",
       "fileCount": 1,
       "fileSize": 1232812
-    },
-    {
-      "folderName": "ExtendedCrafting-1.15.2-2.0.2.jar",
-      "fingerprint": 2940750840,
-      "fileDateHash": 844062672,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2940750840
-      ],
-      "status": 1,
-      "timestamp": "2020-06-24T22:00:27.7628299Z",
-      "lastWriteTimeUtc": "2020-06-24T21:59:39.4058038Z",
-      "queryTimestamp": "2020-06-24T22:00:32.0032577Z",
-      "fileCount": 1,
-      "fileSize": 506708
     },
     {
       "folderName": "valkyrielib-1.15.2-3.0.2.1.jar",
@@ -2211,6 +2145,21 @@
       "fileSize": 275631
     },
     {
+      "folderName": "DoubleSlabs-1.15-2.7.2.jar",
+      "fingerprint": 168892829,
+      "fileDateHash": 580464241,
+      "sectionID": 8,
+      "individualFingerprints": [
+        168892829
+      ],
+      "status": 1,
+      "timestamp": "2020-06-25T08:28:06.9538211Z",
+      "lastWriteTimeUtc": "2020-06-24T22:01:27.0219944Z",
+      "queryTimestamp": "2020-06-25T08:28:07.9977627Z",
+      "fileCount": 1,
+      "fileSize": 119442
+    },
+    {
       "folderName": "morevanillalib-1.15.2-1.2.2.jar",
       "fingerprint": 1555219210,
       "fileDateHash": 785861939,
@@ -2239,6 +2188,21 @@
       "queryTimestamp": "2020-06-24T22:00:32.0032577Z",
       "fileCount": 1,
       "fileSize": 124531
+    },
+    {
+      "folderName": "ExtendedCrafting-1.15.2-2.0.4.jar",
+      "fingerprint": 1499302256,
+      "fileDateHash": 3914416344,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1499302256
+      ],
+      "status": 1,
+      "timestamp": "2020-06-25T08:28:06.96236Z",
+      "lastWriteTimeUtc": "2020-06-25T08:10:24.7398935Z",
+      "queryTimestamp": "2020-06-25T08:28:07.9977627Z",
+      "fileCount": 1,
+      "fileSize": 520699
     },
     {
       "folderName": "Aquaculture-1.15.2-2.0.15.jar",
@@ -2556,6 +2520,21 @@
       "fileSize": 54234
     },
     {
+      "folderName": "EverlastingAbilities-1.15.2-1.6.2.jar",
+      "fingerprint": 4127815128,
+      "fileDateHash": 1684901260,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4127815128
+      ],
+      "status": 1,
+      "timestamp": "2020-06-25T08:28:06.96236Z",
+      "lastWriteTimeUtc": "2020-06-25T08:09:57.6840713Z",
+      "queryTimestamp": "2020-06-25T08:28:08.0047445Z",
+      "fileCount": 1,
+      "fileSize": 179343
+    },
+    {
       "folderName": "NaturesAura-28.2.jar",
       "fingerprint": 152359444,
       "fileDateHash": 1838174225,
@@ -2629,21 +2608,6 @@
       "queryTimestamp": "2020-06-24T22:00:32.018879Z",
       "fileCount": 1,
       "fileSize": 28831
-    },
-    {
-      "folderName": "EquipmentTooltips-1.15.2-1.4.0+11.jar",
-      "fingerprint": 76079542,
-      "fileDateHash": 3117639883,
-      "sectionID": 8,
-      "individualFingerprints": [
-        76079542
-      ],
-      "status": 1,
-      "timestamp": "2020-06-24T22:00:27.7369272Z",
-      "lastWriteTimeUtc": "2020-06-24T21:59:39.3902085Z",
-      "queryTimestamp": "2020-06-24T22:00:32.018879Z",
-      "fileCount": 1,
-      "fileSize": 65302
     },
     {
       "folderName": "Lollipop-1.15.2-1.0.15.jar",
@@ -3006,6 +2970,21 @@
       "fileSize": 535703
     },
     {
+      "folderName": "EquipmentTooltips-1.15.2-1.4.3+14.jar",
+      "fingerprint": 1999598567,
+      "fileDateHash": 2591027676,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1999598567
+      ],
+      "status": 1,
+      "timestamp": "2020-06-25T08:28:06.9613626Z",
+      "lastWriteTimeUtc": "2020-06-25T08:09:39.5459094Z",
+      "queryTimestamp": "2020-06-25T08:28:08.0127227Z",
+      "fileCount": 1,
+      "fileSize": 65587
+    },
+    {
       "folderName": "craftingstation-3.1.0.jar",
       "fingerprint": 3620928017,
       "fileDateHash": 3063084082,
@@ -3306,21 +3285,6 @@
       "fileSize": 999101
     },
     {
-      "folderName": "DoubleSlabs-1.15-2.3.0.jar",
-      "fingerprint": 1986648051,
-      "fileDateHash": 3681531642,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1986648051
-      ],
-      "status": 1,
-      "timestamp": "2020-06-24T22:00:27.4758514Z",
-      "lastWriteTimeUtc": "2020-06-24T21:59:39.3745614Z",
-      "queryTimestamp": "2020-06-24T22:00:32.0345002Z",
-      "fileCount": 1,
-      "fileSize": 39217
-    },
-    {
       "folderName": "DangerousStoneCutter-1.15.1-1.2.0.jar",
       "fingerprint": 2887421086,
       "fileDateHash": 3681531642,
@@ -3412,7 +3376,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-06-24T22:00:33.0186455Z",
+  "lastPreviousMatchUpdate": "2020-06-25T08:28:12.8465367Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.15.2",
@@ -11987,14 +11951,14 @@
       "addonID": 261924,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2966900,
-        "displayName": "FarmingForBlockheads_1.15.2-6.1.3.jar",
-        "fileName": "FarmingForBlockheads_1.15.2-6.1.3.jar",
-        "fileDate": "2020-05-27T17:38:01.197Z",
-        "fileLength": 276905,
+        "id": 2986612,
+        "displayName": "FarmingForBlockheads_1.15.2-6.1.4.jar",
+        "fileName": "FarmingForBlockheads_1.15.2-6.1.4.jar",
+        "fileDate": "2020-06-23T15:25:44.247Z",
+        "fileLength": 277012,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2966/900/FarmingForBlockheads_1.15.2-6.1.3.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2986/612/FarmingForBlockheads_1.15.2-6.1.4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -12002,12 +11966,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 836448995,
+            "fingerprint": 926401430,
             "type": 0
           },
           {
             "foldername": "net",
-            "fingerprint": 4017856477,
+            "fingerprint": 1432743965,
             "type": 0
           },
           {
@@ -12026,7 +11990,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 274709235,
+        "packageFingerprint": 746358836,
         "gameVersion": [
           "1.15.2"
         ],
@@ -12039,12 +12003,12 @@
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "FarmingForBlockheads_1.15.2-6.1.3.jar"
+        "FileNameOnDisk": "FarmingForBlockheads_1.15.2-6.1.4.jar"
       },
       "dateInstalled": "2020-05-09T13:11:20.6695569Z",
-      "dateUpdated": "2020-06-02T13:04:53.1576743Z",
-      "dateLastUpdateAttempted": "2020-06-02T13:04:53.1576743Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T09:17:07.4237504Z",
+      "dateLastUpdateAttempted": "2020-06-25T09:17:07.4237504Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17030,20 +16994,20 @@
       "addonID": 342623,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2959022,
-        "displayName": "healingcf_1.15-2.2.jar",
-        "fileName": "healingcf_1.15-2.2.jar",
-        "fileDate": "2020-05-17T09:51:16.16Z",
-        "fileLength": 8651,
+        "id": 2976826,
+        "displayName": "healingcf_1.15-2.3.jar",
+        "fileName": "healingcf_1.15-2.3.jar",
+        "fileDate": "2020-06-10T07:57:10.12Z",
+        "fileLength": 8573,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2959/22/healingcf_1.15-2.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2976/826/healingcf_1.15-2.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 375509,
+            "addonId": 342584,
             "type": 3,
             "fileId": 0
           }
@@ -17052,12 +17016,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2366157199,
+            "fingerprint": 454220602,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1625024259,
+            "fingerprint": 3043723838,
             "type": 0
           },
           {
@@ -17066,7 +17030,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2100468598,
+        "packageFingerprint": 3586527934,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -17080,12 +17044,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "healingcf_1.15-2.2.jar"
+        "FileNameOnDisk": "healingcf_1.15-2.3.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2806091Z",
-      "dateUpdated": "2020-06-02T13:24:12.0246405Z",
-      "dateLastUpdateAttempted": "2020-06-02T13:24:12.0246405Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T09:17:20.8024178Z",
+      "dateLastUpdateAttempted": "2020-06-25T09:17:20.8024178Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21607,26 +21571,26 @@
       "addonID": 313866,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2968300,
-        "displayName": "engineersdecor-1.15.2-1.1.0-b1.jar",
-        "fileName": "engineersdecor-1.15.2-1.1.0-b1.jar",
-        "fileDate": "2020-05-29T18:14:43.34Z",
-        "fileLength": 1232812,
+        "id": 2985258,
+        "displayName": "engineersdecor-1.15.2-1.1.0-b3.jar",
+        "fileName": "engineersdecor-1.15.2-1.1.0-b3.jar",
+        "fileDate": "2020-06-21T18:27:22.017Z",
+        "fileLength": 1260218,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2968/300/engineersdecor-1.15.2-1.1.0-b1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2985/258/engineersdecor-1.15.2-1.1.0-b3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 231951,
+            "addonId": 306770,
             "type": 2,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 306770,
+            "addonId": 231951,
             "type": 2,
             "fileId": 0
           }
@@ -21635,27 +21599,27 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 471306836,
+            "fingerprint": 1575837360,
             "type": 0
           },
           {
             "foldername": "wile",
-            "fingerprint": 3079296208,
+            "fingerprint": 2448311619,
             "type": 0
           },
           {
             "foldername": ".gitversion-engineersdecor",
-            "fingerprint": 3769910188,
+            "fingerprint": 3326629553,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1014015765,
+            "fingerprint": 2694838350,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 3226123001,
+            "fingerprint": 2396432393,
             "type": 0
           },
           {
@@ -21669,7 +21633,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3062395735,
+        "packageFingerprint": 1640486330,
         "gameVersion": [
           "1.15.2"
         ],
@@ -21682,12 +21646,12 @@
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "engineersdecor-1.15.2-1.1.0-b1.jar"
+        "FileNameOnDisk": "engineersdecor-1.15.2-1.1.0-b3.jar"
       },
       "dateInstalled": "2020-05-09T13:11:20.6685598Z",
-      "dateUpdated": "2020-06-02T13:03:14.6373483Z",
-      "dateLastUpdateAttempted": "2020-06-02T13:03:14.6373483Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T09:16:51.0529906Z",
+      "dateLastUpdateAttempted": "2020-06-25T09:16:51.0529906Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
