@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-25T11:58:29.3349376Z",
+  "lastPlayed": "2020-06-25T14:26:21.9353353Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -164,21 +164,6 @@
       "queryTimestamp": "2020-06-24T22:00:31.9720149Z",
       "fileCount": 1,
       "fileSize": 822898
-    },
-    {
-      "folderName": "industrial-foregoing-1.15.2-2.3.0-6f57752.jar",
-      "fingerprint": 329891105,
-      "fileDateHash": 3388446864,
-      "sectionID": 8,
-      "individualFingerprints": [
-        329891105
-      ],
-      "status": 1,
-      "timestamp": "2020-06-25T11:53:47.0406869Z",
-      "lastWriteTimeUtc": "2020-06-25T10:43:03.7345114Z",
-      "queryTimestamp": "2020-06-25T11:53:48.0401606Z",
-      "fileCount": 1,
-      "fileSize": 1364196
     },
     {
       "folderName": "ensorcellation-1.15.2-0.4.1b.jar",
@@ -674,6 +659,21 @@
       "queryTimestamp": "2020-06-24T22:00:31.9720149Z",
       "fileCount": 1,
       "fileSize": 988856
+    },
+    {
+      "folderName": "industrial-foregoing-1.15.2-2.3.2-e3bf186.jar",
+      "fingerprint": 2419552782,
+      "fileDateHash": 4215550633,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2419552782
+      ],
+      "status": 1,
+      "timestamp": "2020-06-25T14:06:56.8893826Z",
+      "lastWriteTimeUtc": "2020-06-25T11:58:05.9463896Z",
+      "queryTimestamp": "2020-06-25T14:06:57.842719Z",
+      "fileCount": 1,
+      "fileSize": 1367945
     },
     {
       "folderName": "AttributeFix-1.15.2-7.0.2.jar",
@@ -1577,108 +1577,117 @@
     },
     {
       "folderName": "New WorldD",
-      "fingerprint": 2229040871,
-      "fileDateHash": 2888961990,
+      "fingerprint": 346095207,
+      "fileDateHash": 343274882,
       "sectionID": 10,
       "individualFingerprints": [
         12490019,
-        51014088,
-        266054663,
+        95777105,
+        95836342,
+        105747075,
+        135692777,
+        244051348,
         299090877,
-        396155704,
+        392618658,
         403418361,
         415143723,
-        415593024,
         438692499,
+        440579863,
         500036828,
         532652010,
         538583082,
         660734254,
         808684247,
         812326908,
+        894794907,
         918971602,
         928622285,
+        971207229,
         994132931,
+        1091508682,
         1119950986,
         1149862227,
-        1169660066,
         1170925343,
         1174775678,
         1249360561,
         1260266795,
         1261108614,
         1271102851,
-        1342880779,
+        1296260813,
+        1353429157,
         1367033121,
         1434901704,
-        1459536775,
         1497449824,
+        1510810461,
         1540447798,
         1540447798,
         1540447798,
         1566657123,
         1591040356,
+        1616450436,
+        1656684568,
         1722796223,
         1783675463,
+        1820918341,
         1891027954,
+        1923873662,
         1954079201,
+        1970333135,
         1972004122,
         2039055248,
-        2132446522,
         2142050333,
         2152852191,
         2226088383,
-        2242549159,
         2308177064,
         2344543534,
         2372576555,
-        2376684387,
         2498825621,
-        2520560366,
         2533287518,
-        2537539465,
         2575806916,
         2580899546,
-        2603382134,
         2609400332,
         2672388777,
         2754028482,
-        2764743931,
-        2773014376,
+        2793837392,
         2843449744,
         2846067563,
+        2867251860,
         2875861240,
         2885589422,
         2911591640,
         2938885398,
+        2993910005,
         3064265490,
         3116127440,
         3272786162,
+        3273819947,
+        3284943220,
         3455094712,
         3465317325,
+        3482542721,
         3501820083,
-        3509675485,
+        3529550198,
+        3589276740,
         3769038449,
         3771282984,
         3771282984,
-        3771282984,
+        3785680350,
+        3860368181,
+        3872338445,
         3883130120,
         3894804303,
-        3960500244,
         3964272420,
-        4073232801,
-        4091076264,
         4178511105,
         4192398683,
-        4212381374,
+        4230811559,
         4268361585,
         4294246967
       ],
       "status": 1,
-      "timestamp": "2020-06-25T11:53:47.0838791Z",
-      "lastWriteTimeUtc": "2020-06-25T11:53:46.5222962Z",
-      "queryTimestamp": "2020-06-25T11:53:48.0661183Z",
-      "fileCount": 21,
+      "timestamp": "2020-06-25T14:12:21.3551564Z",
+      "lastWriteTimeUtc": "2020-06-25T14:12:20.8373774Z",
+      "queryTimestamp": "2020-06-25T14:12:22.4389321Z",
+      "fileCount": 22,
       "fileSize": 0
     },
     {
@@ -3378,7 +3387,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-06-25T11:53:49.0798824Z",
+  "lastPreviousMatchUpdate": "2020-06-25T14:06:58.6876727Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.15.2",
@@ -4859,14 +4868,14 @@
       "addonID": 250294,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2954952,
-        "displayName": "modular-routers-1.15.2-6.1.0-17.jar",
-        "fileName": "modular-routers-1.15.2-6.1.0-17.jar",
-        "fileDate": "2020-05-12T15:01:46.317Z",
-        "fileLength": 1051134,
-        "releaseType": 2,
+        "id": 2985722,
+        "displayName": "modular-routers-1.15.2-6.1.1-19.jar",
+        "fileName": "modular-routers-1.15.2-6.1.1-19.jar",
+        "fileDate": "2020-06-22T10:21:15.66Z",
+        "fileLength": 1051433,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2954/952/modular-routers-1.15.2-6.1.0-17.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2985/722/modular-routers-1.15.2-6.1.1-19.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -4881,12 +4890,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1487433076,
+            "fingerprint": 2347099007,
             "type": 0
           },
           {
             "foldername": "me",
-            "fingerprint": 501295653,
+            "fingerprint": 1827929826,
             "type": 0
           },
           {
@@ -4905,7 +4914,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2031963907,
+        "packageFingerprint": 2341533440,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -4919,12 +4928,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "modular-routers-1.15.2-6.1.0-17.jar"
+        "FileNameOnDisk": "modular-routers-1.15.2-6.1.1-19.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3125196Z",
-      "dateUpdated": "2020-06-02T13:57:46.1954065Z",
-      "dateLastUpdateAttempted": "2020-06-02T13:57:46.1954065Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T14:25:53.715541Z",
+      "dateLastUpdateAttempted": "2020-06-25T14:25:53.715541Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6835,7 +6844,7 @@
       "dateInstalled": "2020-06-02T11:36:30.8337303Z",
       "dateUpdated": "2020-06-24T12:48:11.0266453Z",
       "dateLastUpdateAttempted": "2020-06-24T12:48:11.0266453Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10286,23 +10295,17 @@
       "addonID": 325492,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2943730,
-        "displayName": "[Forge / Fabric 1.15.x] v4.6.1",
-        "fileName": "LightOverlay-4.6.1.jar",
-        "fileDate": "2020-04-29T17:02:28.917Z",
-        "fileLength": 471711,
+        "id": 2985650,
+        "displayName": "[Forge / Fabric 1.15.x] v4.7.0",
+        "fileName": "light-overlay-4.7.0.jar",
+        "fileDate": "2020-06-22T07:49:27.643Z",
+        "fileLength": 452901,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2943/730/LightOverlay-4.6.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2985/650/light-overlay-4.7.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
-          {
-            "id": 0,
-            "addonId": 348521,
-            "type": 3,
-            "fileId": 0
-          },
           {
             "id": 0,
             "addonId": 317121,
@@ -10314,13 +10317,24 @@
             "addonId": 319057,
             "type": 1,
             "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 348521,
+            "type": 3,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 2770769284,
+            "foldername": "lightoverlay.accesswidener",
+            "fingerprint": 759458513,
+            "type": 0
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 838184759,
             "type": 0
           },
           {
@@ -10329,47 +10343,37 @@
             "type": 0
           },
           {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 2047732734,
+            "type": 0
+          },
+          {
             "foldername": "assets",
-            "fingerprint": 705317885,
+            "fingerprint": 1631138459,
             "type": 0
           },
           {
             "foldername": "META-INF",
-            "fingerprint": 3704638542,
+            "fingerprint": 731648149,
             "type": 0
           },
           {
-            "foldername": "me",
-            "fingerprint": 2893051108,
-            "type": 0
-          },
-          {
-            "foldername": "lightoverlay.accesswidener",
-            "fingerprint": 759458513,
-            "type": 0
-          },
-          {
-            "foldername": "lightoverlay_icon_lowres.png",
-            "fingerprint": 1881518080,
-            "type": 0
-          },
-          {
-            "foldername": "LightOverlay-refmap.json",
+            "foldername": "light-overlay-refmap.json",
             "fingerprint": 501699212,
-            "type": 0
-          },
-          {
-            "foldername": "lightoverlay.mixins.json",
-            "fingerprint": 2801970255,
             "type": 0
           },
           {
             "foldername": "icon.png",
             "fingerprint": 1881518080,
             "type": 0
+          },
+          {
+            "foldername": "lightoverlay.mixins.json",
+            "fingerprint": 159234178,
+            "type": 0
           }
         ],
-        "packageFingerprint": 2221874101,
+        "packageFingerprint": 1498966431,
         "gameVersion": [
           "1.15-Snapshot",
           "1.15",
@@ -10385,16 +10389,16 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "LightOverlay-4.6.1.jar"
+        "FileNameOnDisk": "light-overlay-4.7.0.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2775903Z",
-      "dateUpdated": "2020-05-10T13:38:57.6010353Z",
-      "dateLastUpdateAttempted": "2020-05-10T13:38:57.6010353Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T14:24:21.2690351Z",
+      "dateLastUpdateAttempted": "2020-06-25T14:24:21.2690351Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -13034,16 +13038,16 @@
       "addonID": 291006,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2965400,
-        "displayName": "LargeFluidTank-15.2.9.jar",
-        "fileName": "LargeFluidTank-15.2.9.jar",
-        "fileDate": "2020-05-25T13:42:35.66Z",
-        "fileLength": 535703,
+        "id": 2971474,
+        "displayName": "LargeFluidTank-15.3.0.jar",
+        "fileName": "LargeFluidTank-15.3.0.jar",
+        "fileDate": "2020-06-03T08:01:01.88Z",
+        "fileLength": 535702,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2965/400/LargeFluidTank-15.2.9.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2971/474/LargeFluidTank-15.3.0.jar",
         "isAlternate": false,
-        "alternateFileId": 2965401,
+        "alternateFileId": 2971475,
         "dependencies": [
           {
             "id": 0,
@@ -13056,12 +13060,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1355334610,
+            "fingerprint": 3640562513,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 566127648,
+            "fingerprint": 95841335,
             "type": 0
           },
           {
@@ -13080,7 +13084,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4095732594,
+        "packageFingerprint": 2212080118,
         "gameVersion": [
           "1.15.2"
         ],
@@ -13093,12 +13097,12 @@
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "LargeFluidTank-15.2.9.jar"
+        "FileNameOnDisk": "LargeFluidTank-15.3.0.jar"
       },
-      "dateInstalled": "2020-05-09T13:11:27.2945442Z",
-      "dateUpdated": "2020-06-02T13:30:58.6998084Z",
-      "dateLastUpdateAttempted": "2020-06-02T13:30:58.6998084Z",
-      "status": 3,
+      "dateInstalled": "2020-06-25T14:21:59.6002576Z",
+      "dateUpdated": "2020-06-25T14:21:59.6082346Z",
+      "dateLastUpdateAttempted": "2020-06-25T14:21:59.6082346Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13107,7 +13111,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": null
+      "installedTargets": []
     },
     {
       "addonID": 245211,
@@ -14101,7 +14105,7 @@
       "dateInstalled": "2020-05-09T13:11:27.272633Z",
       "dateUpdated": "2020-06-25T11:58:05.9553946Z",
       "dateLastUpdateAttempted": "2020-06-25T11:58:05.9553946Z",
-      "status": 4,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15658,14 +15662,14 @@
       "addonID": 233105,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2951236,
-        "displayName": "mcjtylib-1.15-4.1.0-beta.jar",
-        "fileName": "mcjtylib-1.15-4.1.0-beta.jar",
-        "fileDate": "2020-05-08T07:06:28.6Z",
-        "fileLength": 545377,
+        "id": 2971384,
+        "displayName": "mcjtylib-1.15-4.1.1-beta.jar",
+        "fileName": "mcjtylib-1.15-4.1.1-beta.jar",
+        "fileDate": "2020-06-03T03:38:22.427Z",
+        "fileLength": 545624,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2951/236/mcjtylib-1.15-4.1.0-beta.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2971/384/mcjtylib-1.15-4.1.1-beta.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -15686,12 +15690,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4035264481,
+            "fingerprint": 2330177074,
             "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 259699869,
+            "fingerprint": 1792984618,
             "type": 0
           },
           {
@@ -15705,7 +15709,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3621894087,
+        "packageFingerprint": 4041398636,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -15719,12 +15723,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "mcjtylib-1.15-4.1.0-beta.jar"
+        "FileNameOnDisk": "mcjtylib-1.15-4.1.1-beta.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2786126Z",
-      "dateUpdated": "2020-05-09T14:38:34.858224Z",
-      "dateLastUpdateAttempted": "2020-05-09T14:38:34.858224Z",
-      "status": 3,
+      "dateUpdated": "2020-06-25T14:25:19.6031413Z",
+      "dateLastUpdateAttempted": "2020-06-25T14:25:19.6031413Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16836,7 +16840,7 @@
       "dateInstalled": "2020-05-09T13:11:20.6535996Z",
       "dateUpdated": "2020-06-24T12:49:47.7468963Z",
       "dateLastUpdateAttempted": "2020-06-24T12:49:47.7468963Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17129,7 +17133,7 @@
       "dateInstalled": "2020-05-09T13:11:20.6595841Z",
       "dateUpdated": "2020-06-24T12:50:26.1067369Z",
       "dateLastUpdateAttempted": "2020-06-24T12:50:26.1067369Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21482,14 +21486,14 @@
       "addonID": 345135,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2931626,
-        "displayName": "[Forge v1.15.2] Ma Essentials v3.0.3",
-        "fileName": "Ma-Essentials-1.15.2-3.0.3.jar",
-        "fileDate": "2020-04-16T09:58:14.47Z",
-        "fileLength": 192756,
+        "id": 2979463,
+        "displayName": " [Forge v1.15.2] Ma Essentials v3.1.1",
+        "fileName": "Ma-Essentials-1.15.2-3.1.1.jar",
+        "fileDate": "2020-06-13T19:17:48.75Z",
+        "fileLength": 241877,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2931/626/Ma-Essentials-1.15.2-3.0.3.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2979/463/Ma-Essentials-1.15.2-3.1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -21497,73 +21501,54 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1854835924,
-            "type": 3
+            "fingerprint": 131092588,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1726555111,
-            "type": 3
+            "fingerprint": 1911680955,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 526271111,
-            "type": 3
+            "fingerprint": 3400533017,
+            "type": 0
           },
           {
             "foldername": "default_kits.json",
             "fingerprint": 2828746046,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "ma-essentials.png",
             "fingerprint": 869931060,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 456006708,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 24590101,
+        "packageFingerprint": 524488049,
         "gameVersion": [
-          "Forge",
           "1.15.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1830605,
-        "projectId": 345135,
-        "packageFingerprintId": 441652223,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2181344,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Ma-Essentials-1.15.2-3.0.3.jar"
+        "FileNameOnDisk": "Ma-Essentials-1.15.2-3.1.1.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.29255Z",
-      "dateUpdated": "2019-05-09T13:11:27.29255Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-06-25T14:25:06.3126303Z",
+      "dateLastUpdateAttempted": "2020-06-25T14:25:06.3126303Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
