@@ -70,7 +70,7 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.22
 * *JAOPCA* (3.2.0.9 --> 3.2.0.11)
 * *JEITweaker* (1.0.0 --> 1.0.1)
 * *JourneyMap* (5.7.0beta1 --> 5.7.0b3)
-* *Just Enough Items (JEI)* (6.0.0.3 --> 6.0.2.11)
+* *Just Enough Items (JEI)* (6.0.0.3 --> 6.0.2.12)
 * *KubeJS* (2.6.0.29 --> 2.7.0.40)
 * *Large Fluid Tank* (15.2.6 --> 15.3.0)
 * *Light Overlay (Rift/Forge/Fabric)* (4.4 --> 4.7.0)
