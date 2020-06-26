@@ -1,7 +1,7 @@
 !nsanity 0.2.4
 --------------
 
-Forge 1.15.2-31.1.45 --> 1.15.2-31.2.20
+Forge 1.15.2-31.1.45 --> 1.15.2-31.2.22
 
 **Added Mods**
 
@@ -24,7 +24,7 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.20
 * *Bookshelf* (5.4.14 --> 5.6.40)
 * *Botania* ( r1.15-382 -->  r1.15-386)
 * *Building Gadgets* (3.3.4 --> 3.3.5)
-* *Buzzier Bees* (1.4 --> 1.5.1)
+* *Buzzier Bees* (1.4 --> 1.5.2)
 * *Caelus API* (2.0-beta2 --> 2.0-beta3)
 * *Camera Mod* (1.6.4 --> 1.6.9)
 * *Carbonado* (2.0.3 --> 2.0.7)
@@ -32,7 +32,7 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.20
 * *Cloth Config API (Forge)* (2.0 --> 3.0)
 * *Collective* (1.29 --> 1.32)
 * *Conduits Prevent Drowned* (1.0 --> 1.1)
-* *Controlling* (6.1.4 --> 6.1.4)
+* *Controlling* (6.1.4 --> 6.1.5.5)
 * *Cooking for Blockheads* (8.0.1 --> 8.0.3)
 * *Corail Tombstone* (4.3.4 --> 4.4.1)
 * *Corail Woodcutter* (1.1.2 --> 1.1.3)
@@ -64,14 +64,14 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.20
 * *FTB Chunks* (1.0.0.1 --> 1.1.0.14)
 * *FTB Quests* (2.0.2.244 --> 2.0.2.246)
 * *Healing Campfire* (2.1 --> 2.3)
-* *Industrial Foregoing* (2.2.2-28d4a81 --> 2.3.3-e356e61)
+* *Industrial Foregoing* (2.2.2-28d4a81 --> 2.3.2-e3bf186)
 * *Interactio* (2.0.1 --> 2.0.3)
 * *Iron Jetpacks* (3.0.1 --> 3.0.2)
 * *JAOPCA* (3.2.0.9 --> 3.2.0.11)
 * *JEITweaker* (1.0.0 --> 1.0.1)
 * *JourneyMap* (5.7.0beta1 --> 5.7.0b3)
 * *Just Enough Items (JEI)* (6.0.0.3 --> 6.0.2.11)
-* *KubeJS* (2.6.0.29 --> 2.7.0.41)
+* *KubeJS* (2.6.0.29 --> 2.7.0.40)
 * *Large Fluid Tank* (15.2.6 --> 15.3.0)
 * *Light Overlay (Rift/Forge/Fabric)* (4.4 --> 4.7.0)
 * *Lollipop* (1.0.14 --> 1.0.15)
@@ -105,8 +105,8 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.20
 * *Quark* (r2.1-231 --> r2.1-245)
 * *Quickstack* (3.0.3c --> 3.0.3c)
 * *ReAuth* (3.8.0 --> 3.8.1)
-* *Refined Storage* (1.8.1 --> 1.8.5)
-* *Refined Storage Addons* (0.6.1 --> 0.6.2)
+* *Refined Storage* (1.8.1 --> 1.8.4)
+* *Refined Storage Addons* (0.6.1 --> 0.6.1)
 * *Reliquary v1.3* (1.3.4.972 --> 1.3.4.995)
 * *RFTools Base* (1.0.1-alpha --> 1.1.1-beta)
 * *RFTools Builder* (2.0.1-alpha --> 2.1.3-beta)
@@ -139,7 +139,6 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.20
 
 **Removed Mods**
 
-To be removed:
 * *Basic Nether Ores*
 * *Embellishcraft*
 * *Mapperbase*
@@ -156,6 +155,7 @@ To be removed:
 * Enabled *Quark*'s Marble generation. (Embellishcraft and it's Marble were removed.)
 * Disabled *Quark*'s Limestone generation. (Create adds Limestone now.)
 * Disabled *The Midnight* portal generation. (Portals can be created manually by throwing a Dark Pearl. WARNING: Don't do it in your base)
+* Disabled *Tetra* geodes. (Randomly generated Stone blocks that didn't fit into the world generation.)
 
 **Bug Fixes**
 

@@ -17,7 +17,7 @@
 	feature_depth = 8
 	#The number of geodes that should generate per chunk, set to 0 to disable
 	#Range: 0 ~ 65536
-	geode_density = 120
+	geode_density = 0
 
 #Allows tetra items to "level up" after being used a certain amount of times, allowing the player to choose from different ways to "hone" 1 module on the item. Major modules also settle after some time, increasing its integrity
 [module_progression]
