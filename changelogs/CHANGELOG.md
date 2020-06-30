@@ -17,7 +17,9 @@ Forge 1.15.2-31.2.22 -->
 
 **Changes**
 
-* 
+* Metallic ores now drop ore clumps instead of the ore itself.
+* Disabled *Omega Craft* Magmite ore generation. (Replaced by *Danny's Ores* Vulcanite ore.)
+* Disabled poisonous effect of uraninite ore. (The ore now drops an item and can only be obtained by silk touch anyway.)
 
 **Bug Fixes**
 

@@ -1,0 +1,22 @@
+{
+    "type": "interactio:item_fluid_transform",
+    "inputs": [
+      {
+        "tag": "mekanism:clumps/tin",
+        "count": 1
+      }
+    ],
+    "fluid": {
+      "fluid": "water"
+    },
+    "output": {
+      "entries": [
+        {
+          "result": {
+            "item": "silents_mechanisms:tin_nugget",
+            "count": 2
+          }
+        }
+      ]
+    }
+  }

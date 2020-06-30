@@ -1,0 +1,22 @@
+{
+    "type": "interactio:item_fluid_transform",
+    "inputs": [
+      {
+        "tag": "mekanism:clumps/platinum",
+        "count": 1
+      }
+    ],
+    "fluid": {
+      "fluid": "water"
+    },
+    "output": {
+      "entries": [
+        {
+          "result": {
+            "item": "silents_mechanisms:platinum_nugget",
+            "count": 2
+          }
+        }
+      ]
+    }
+  }

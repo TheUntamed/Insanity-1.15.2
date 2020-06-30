@@ -11,7 +11,7 @@
 	["World Gen".Magmite]
 		"Clusters per Chunk" = 6
 		"Blocks per Cluster" = 6
-		"Generation Enabled" = true
+		"Generation Enabled" = false
 		"Minimum Y for spawn" = 0
 		"Maximum Y for spawn" = 21
 
