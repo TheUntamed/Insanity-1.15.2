@@ -7,7 +7,7 @@
 	#If true, explosions caused by this ore type will break blocks. If false, it only damages entities
 	explosionBreaksBlocks = false
 	#If true, all variants of this ore type will be disabled.
-	disableAllVariants = false
+	disableAllVariants = true
 	#The chance (in %) an ore of this type will explode when mined
 	#Range: 0.0 ~ 100.0
 	explosionChance = 10.0

@@ -1,4 +1,57 @@
-!nsanity 0.2.4
+!nsanity 0.3.2
+--------------
+
+Forge 1.15.2-31.2.22 --> 
+
+**Added Mods**
+
+* *Simply Trophies*
+
+**Updated Mods**
+
+* 
+
+**Removed Mods**
+
+* 
+
+**Changes**
+
+* 
+
+**Bug Fixes**
+
+* 
+
+
+!nsanity 0.3.1
+--------------
+
+Forge 1.15.2-31.2.22 --> 
+
+**Added Mods**
+
+* 
+
+**Updated Mods**
+
+* 
+
+**Removed Mods**
+
+* *Auto Sprint : key toggle* (I think it's unnecessary for normal purposes and can only be abused or cause bugs in specific situations.)
+
+**Changes**
+
+* Disabled *Druidcraft* ore generation.
+* Disabled Elementary ore generation.
+
+**Bug Fixes**
+
+* 
+
+
+!nsanity 0.3.0
 --------------
 
 Forge 1.15.2-31.1.45 --> 1.15.2-31.2.22
@@ -7,11 +60,10 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.22
 
 * *Cauldron Recipes*
 * *Create*
+* *Danny's Ores*
 * *Druidcraft*
 * *Immersive Engineering*
 * *PneumaticCraft: Repressurized*
-* *Simply Trophies*
-* *Tesseract*
 
 **Updated Mods**
 
@@ -86,7 +138,6 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.22
 * *Mystical Agriculture* (3.0.2 --> 3.0.7)
 * *Nature's Aura* (23.5 --> 28.2)
 * *Neat* (1.6-20 --> 1.6-22)
-* *Nether Enhancement* (1.0.1.2 --> 1.0.2.2)
 * *Nethercraft Classic* (1.0.7 --> 1.0.9)
 * *NetherPortalFix* (6.0.0 --> 6.0.2)
 * *Open Loader* (4.0.3 --> 4.0.5)
@@ -156,10 +207,6 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.22
 * Disabled *Quark*'s Limestone generation. (Create adds Limestone now.)
 * Disabled *The Midnight* portal generation. (Portals can be created manually by throwing a Dark Pearl. WARNING: Don't do it in your base)
 * Disabled *Tetra* geodes. (Randomly generated Stone blocks that didn't fit into the world generation.)
-
-**Bug Fixes**
-
-* 
 
 
 !nsanity 0.2.3

@@ -17,3 +17,25 @@
 	#Range: 1 ~ 16
 	base = 2
 
+#Ender Armor Settings
+[quartz_armor]
+
+	#Attack Settings
+	[quartz_armor.attack]
+		#Minimum number of pieces of Obscure armor to cause a attack teleport.
+		#Set to 5 to never cause a attack teleport.
+		#Range: 1 ~ 5
+		obscure = 4
+		#Minimum number of pieces of Empowered armor to cause a attack teleport.
+		#Set to 5 to never cause a attack teleport.
+		#Range: 1 ~ 5
+		empowered = 2
+		#Minimum number of pieces of Extreme armor to cause a attack teleport.
+		#Set to 5 to never cause a attack teleport.
+		#Range: 1 ~ 5
+		extreme = 1
+		#Minimum number of pieces of Base armor to cause a attack teleport.
+		#Set to 5 to never cause a attack teleport.
+		#Range: 1 ~ 5
+		base = 3
+
