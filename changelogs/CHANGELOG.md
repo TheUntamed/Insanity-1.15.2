@@ -9,7 +9,22 @@ Forge 1.15.2-31.2.22 -->
 
 **Updated Mods**
 
-* 
+* *AIOT Botania* (1.2.2 --> 1.2.3)
+* *Botania* (r1.15-3862 --> r1.15-387)
+* *Collective* (1.32 --> 1.35)
+* *Dimensional Dungeons* (1.06 --> 1.07)
+* *Double Slabs* (2.7.3 --> 2.7.5)
+* *Engineer's Decor* (1.1.0-b3 --> 1.1.0)
+* *Engineer's Tools* (1.0.7. --> 1.0.78)
+* *Essentials* (2.7.2 --> 2.7.3)
+* ** ( --> )
+* *Farming for Blockheads* (6.1.4 --> 6.1.5)
+* *Flux Networks* (5.0.1-2 --> 5.0.3-4)
+* *Forbidden and Arcanus* (1.3.1 --> 1.4)
+* ** ( --> )
+* ** ( --> )
+* *Torch Slabs Mod* (1.6.15 --> 1.7.0)
+* ** ( --> )
 
 **Removed Mods**
 
@@ -76,7 +91,7 @@ Forge 1.15.2-31.1.45 --> 1.15.2-31.2.22
 * *Aquaculture 2* (2.0.13 --> 2.0.15)
 * *Biomes O' Plenty* (10.0.0.345 --> 10.0.0.363)
 * *Bookshelf* (5.4.14 --> 5.6.40)
-* *Botania* ( r1.15-382 -->  r1.15-386)
+* *Botania* (r1.15-382 --> r1.15-386)
 * *Building Gadgets* (3.3.4 --> 3.3.5)
 * *Buzzier Bees* (1.4 --> 1.5.2)
 * *Caelus API* (2.0-beta2 --> 2.0-beta3)
