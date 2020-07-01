@@ -15,8 +15,19 @@
           "result": {
             "item": "minecraft:gold_nugget",
             "count": 2
-          }
+          },
+          "weight": 7
+        },
+        {
+          "result": {
+            "item": "minecraft:orange_wool",
+            "count": 3
+          },
+          "weight": 10
         }
-      ]
-    }
+      ],
+      "empty_weight": 83,
+      "rolls": 10
+    },
+    "consume_fluid": 0.1
   }
