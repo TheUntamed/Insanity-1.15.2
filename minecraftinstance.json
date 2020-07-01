@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-07-01T12:04:19.3948577Z",
+  "lastPlayed": "2020-07-01T12:13:09.9276716Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -14198,14 +14198,14 @@
       "addonID": 243076,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2966220,
-        "displayName": "Refined Storage 1.8.4",
-        "fileName": "refinedstorage-1.8.4.jar",
-        "fileDate": "2020-05-26T18:02:42.603Z",
-        "fileLength": 1890498,
+        "id": 2989417,
+        "displayName": "Refined Storage 1.8.6",
+        "fileName": "refinedstorage-1.8.6.jar",
+        "fileDate": "2020-06-26T14:21:07.597Z",
+        "fileLength": 1910985,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2966/220/refinedstorage-1.8.4.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2989/417/refinedstorage-1.8.6.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -14213,17 +14213,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3967387873,
+            "fingerprint": 80719215,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2927303602,
+            "fingerprint": 3836974570,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 506418472,
+            "fingerprint": 3111148339,
             "type": 0
           },
           {
@@ -14242,7 +14242,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2639647653,
+        "packageFingerprint": 1554428782,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -14256,12 +14256,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "refinedstorage-1.8.4.jar"
+        "FileNameOnDisk": "refinedstorage-1.8.6.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2935698Z",
-      "dateUpdated": "2020-06-26T20:08:36.3460746Z",
-      "dateLastUpdateAttempted": "2020-06-26T20:08:36.3460746Z",
-      "status": 3,
+      "dateUpdated": "2020-07-01T12:12:06.600624Z",
+      "dateLastUpdateAttempted": "2020-07-01T12:12:06.600624Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15356,101 +15356,76 @@
       "addonID": 351491,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2865262,
-        "displayName": "extradisks-1.15.1-1.2.jar",
-        "fileName": "extradisks-1.15.1-1.2.jar",
-        "fileDate": "2020-01-21T20:11:16.53Z",
-        "fileLength": 82350,
-        "releaseType": 2,
+        "id": 2983044,
+        "displayName": "extradisks-1.15.2-1.2.2.jar",
+        "fileName": "extradisks-1.15.2-1.2.2.jar",
+        "fileDate": "2020-06-18T14:19:45.773Z",
+        "fileLength": 88282,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2865/262/extradisks-1.15.1-1.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2983/44/extradisks-1.15.2-1.2.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 35743950,
+            "id": 0,
             "addonId": 243076,
             "type": 3,
-            "fileId": 2865262
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2548855612,
-            "type": 3
+            "fingerprint": 3849101131,
+            "type": 0
           },
           {
             "foldername": "de",
-            "fingerprint": 383223139,
-            "type": 3
+            "fingerprint": 909635954,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 4091975755,
-            "type": 3
+            "fingerprint": 2474532285,
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 1590855638,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 1894706365,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 2810185126,
+        "packageFingerprint": 3618892669,
         "gameVersion": [
           "Forge",
-          "1.15.2",
-          "1.15.1"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000001",
-            "gameVersion": "1.15.1",
-            "gameVersionReleaseDate": "2019-12-17T00:00:00Z",
-            "gameVersionName": "1.15.1"
-          }
+          "1.15.2"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1748450,
-        "projectId": 351491,
-        "packageFingerprintId": 399999551,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 2069732,
-        "gameVersionId": 7498,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "extradisks-1.15.1-1.2.jar"
+        "FileNameOnDisk": "extradisks-1.15.2-1.2.2.jar"
       },
       "dateInstalled": "2020-05-09T13:11:20.6635731Z",
-      "dateUpdated": "2019-05-09T13:11:20.6635731Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-07-01T12:12:53.1313935Z",
+      "dateLastUpdateAttempted": "2020-07-01T12:12:53.1313935Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -17578,14 +17553,14 @@
       "addonID": 272302,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2871855,
-        "displayName": "Refined Storage Addons 0.6.1",
-        "fileName": "refinedstorageaddons-0.6.1.jar",
-        "fileDate": "2020-01-30T11:07:12.533Z",
-        "fileLength": 28420,
+        "id": 2982968,
+        "displayName": "Refined Storage Addons 0.6.2",
+        "fileName": "refinedstorageaddons-0.6.2.jar",
+        "fileDate": "2020-06-18T11:41:04.2Z",
+        "fileLength": 28677,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2871/855/refinedstorageaddons-0.6.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2982/968/refinedstorageaddons-0.6.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -17600,17 +17575,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4098645512,
+            "fingerprint": 2347607907,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2912829940,
+            "fingerprint": 2133028241,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2476477516,
+            "fingerprint": 1327761641,
             "type": 0
           },
           {
@@ -17624,7 +17599,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3706470105,
+        "packageFingerprint": 1514837714,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -17638,12 +17613,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "refinedstorageaddons-0.6.1.jar"
+        "FileNameOnDisk": "refinedstorageaddons-0.6.2.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2885876Z",
-      "dateUpdated": "2020-06-25T16:26:36.8215803Z",
-      "dateLastUpdateAttempted": "2020-06-25T16:26:36.8215803Z",
-      "status": 3,
+      "dateUpdated": "2020-07-01T12:12:18.7592548Z",
+      "dateLastUpdateAttempted": "2020-07-01T12:12:18.7592548Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

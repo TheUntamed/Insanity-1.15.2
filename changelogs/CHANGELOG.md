@@ -1,7 +1,7 @@
 !nsanity 0.3.2
 --------------
 
-Forge 1.15.2-31.2.22 --> 
+Forge 1.15.2-31.2.22 --> 1.15.2-31.2.29
 
 **Added Mods**
 
@@ -17,7 +17,7 @@ Forge 1.15.2-31.2.22 -->
 * *Engineer's Decor* (1.1.0-b3 --> 1.1.0)
 * *Engineer's Tools* (1.0.7. --> 1.0.78)
 * *Essentials* (2.7.2 --> 2.7.3)
-* ** ( --> )
+* *Extra Disks* (1.2 --> 1.2.2)
 * *Farming for Blockheads* (6.1.4 --> 6.1.5)
 * *Flux Networks* (5.0.1-2 --> 5.0.3-4)
 * *Forbidden and Arcanus* (1.3.1 --> 1.4)
@@ -28,6 +28,8 @@ Forge 1.15.2-31.2.22 -->
 * *Mystical Agriculture* (3.0.7 --> 3.0.8)
 * *Nether Enhancement* (1.0.1.2 --> 1.0.2.2)
 * *Pickle Tweaks* (4.0.3 --> 4.0.4)
+* *Refined Storage* (1.8.4 --> 1.8.6)
+* *Refined Storage Addons* (0.6.1 --> 0.6.2)
 * *Torch Slabs Mod* (1.6.15 --> 1.7.0)
 * ** ( --> )
 
