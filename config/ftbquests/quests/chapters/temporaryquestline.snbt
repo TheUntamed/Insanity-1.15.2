@@ -302,7 +302,7 @@
 			x: -2.5d,
 			y: -2.5d,
 			subtitle: "A lot of different Monsters and Animals drop Bones. Not only Skeletons.",
-			description: ["Take a Bone into one hand and Flint into the other and smack them together to get ...."],
+			description: ["Take a Bone into one hand and Flint into the other and smack them together to get a Bone Shard."],
 			dependencies: [I;19],
 			id: 116,
 			tasks: [
@@ -477,30 +477,20 @@
 		{
 			x: -5.5d,
 			y: 4.0d,
+			subtitle: "Ores drop Clumps. Clumps can be washed into Nuggets.",
 			dependencies: [I;135],
 			id: 137,
-			tasks: [
-				{
-					id: 138,
-					type: "item",
-					item: "minecraft:iron_ore"
-				},
-				{
-					id: 139,
-					type: "item",
-					item: "minecraft:iron_ingot"
-				},
-				{
-					id: 140,
-					type: "item",
-					item: "minecraft:iron_nugget"
-				}
-			]
+			tasks: [{
+				id: 155,
+				type: "item",
+				item: "mekanism:clump_iron",
+				count: 2
+			}]
 		},
 		{
 			x: -5.5d,
-			y: 5.5d,
-			dependencies: [I;137],
+			y: 7.0d,
+			dependencies: [I;156],
 			id: 141,
 			tasks: [{
 				id: 142,
@@ -513,6 +503,17 @@
 						value: "forge:chests/wooden"
 					}
 				}
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 5.5d,
+			dependencies: [I;137],
+			id: 156,
+			tasks: [{
+				id: 157,
+				type: "item",
+				item: "minecraft:iron_nugget"
 			}]
 		}
 	]

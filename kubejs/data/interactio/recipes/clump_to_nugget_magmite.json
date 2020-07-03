@@ -13,10 +13,13 @@
       "entries": [
         {
           "result": {
-            "item": "silents_mechanisms:magmite_nugget",
+            "item": "jaopca:nuggets.magmite",
             "count": 2
-          }
+          },
+          "weight": 100
         }
-      ]
-    }
+      ],
+      "rolls": 1
+    },
+    "consume_fluid": 0.0
   }

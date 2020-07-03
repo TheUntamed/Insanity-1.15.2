@@ -2,15 +2,18 @@ Priority overview:
 
 4000: MCTag-first
 3000: processing-functions, recipe-functions, util-functions
-1002: removeFromTags
-1001: createNewTags
-1000: ItemsToTags
-999: pre-unification-removals
+2002: removeFromTags
+2001: createNewTags
+2000: ItemsToTags
+
+1000: pre-unification-removals
+999: pre-unification-additions
 998: ore-unification
 997: tag-unification
 996: removeProcessing
 995: addProcessing
 600: jei
+101: removeProcessingRecipes
 100: removeCraftingTableRecipes
 11: removeAndAddShaped
 10: removeAndAddShapeless

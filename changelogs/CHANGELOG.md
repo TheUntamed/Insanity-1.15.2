@@ -30,7 +30,12 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.29
 * *Pickle Tweaks* (4.0.3 --> 4.0.4)
 * *Refined Storage* (1.8.4 --> 1.8.6)
 * *Refined Storage Addons* (0.6.1 --> 0.6.2)
+* *Silent's Mechanisms* (0.7.2+52 --> 0.7.4+54)
+* *Tetra* (2.11.0 --> 2.12.0)
 * *Torch Slabs Mod* (1.6.15 --> 1.7.0)
+* *Torchmaster* (2.1.1-rc0 --> 2.2.0)
+* *Waystones* (6.0.1 --> 6.0.2)
+* ** ( --> )
 * ** ( --> )
 
 **Removed Mods**

@@ -71,7 +71,7 @@ public function minecraft_smeltingAndBlasting_ingot_from_ore(material as string)
     blastFurnace.removeRecipe(ingot, ore);
     furnace.removeRecipe(ingot, ore);
     blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_ore", ingot, oreItemTag, xp, cookingTime/2);
-    furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_ore", ingot, oreItemTag, xp, cookingTime);
+    //furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_ore", ingot, oreItemTag, xp, cookingTime);
 }
 
 public function minecraft_smeltingAndBlasting_ingot_from_dust(material as string) as void {
@@ -95,7 +95,7 @@ public function minecraft_smeltingAndBlasting_ingot_from_dust(material as string
     blastFurnace.removeRecipe(ingot, dust);
     furnace.removeRecipe(ingot, dust);
     blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_dust", ingot, dustItemTag, xp, cookingTime/2);
-    furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_dust", ingot, dustItemTag, xp, cookingTime);
+    //furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_dust", ingot, dustItemTag, xp, cookingTime);
 }
 
     // Mekanism

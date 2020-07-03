@@ -13,10 +13,13 @@
       "entries": [
         {
           "result": {
-            "item": "silents_mechanisms:osmium_nugget",
+            "item": "mekanism:nugget_osmium",
             "count": 2
-          }
+          },
+          "weight": 100
         }
-      ]
-    }
+      ],
+      "rolls": 1
+    },
+    "consume_fluid": 0.0
   }

@@ -54,3 +54,25 @@ public function removeRecipe(output as IItemStack) as void {
 public function removeRecipeByName(name as string) as void {
 	craftingTable.removeByName(name);
 }
+
+public function removeFurnaceRecipe(output as IItemStack) as void {
+	furnace.removeRecipe(output);
+}
+
+public function removeFurnaceRecipeByName(name as string) as void {
+	furnace.removeByName(name);
+}
+
+public function removeBlastingRecipe(output as IItemStack) as void {
+	blastFurnace.removeRecipe(output);
+}
+
+public function removeBlastingRecipeByName(name as string) as void {
+	blastFurnace.removeByName(name);
+}
+
+public function removeAllRecipes(output as IItemStack) as void {
+	craftingTable.removeRecipe(output);
+	furnace.removeRecipe(output);
+	blastFurnace.removeRecipe(output);
+}
