@@ -1,7 +1,7 @@
 !nsanity 0.3.2
 --------------
 
-Forge 1.15.2-31.2.22 --> 1.15.2-31.2.29
+Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 
 **Added Mods**
 
@@ -27,6 +27,7 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.29
 * *Mystical Adaptations* (1.1 --> 1.2)
 * *Mystical Agriculture* (3.0.7 --> 3.0.8)
 * *Nether Enhancement* (1.0.1.2 --> 1.0.2.2)
+* *Overloaded Compressed Blocks* (1.0.12 --> 1.0.13)
 * *Pickle Tweaks* (4.0.3 --> 4.0.4)
 * *Refined Storage* (1.8.4 --> 1.8.6)
 * *Refined Storage Addons* (0.6.1 --> 0.6.2)
