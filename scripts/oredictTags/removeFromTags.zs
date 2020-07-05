@@ -79,15 +79,22 @@ for item in <tag:botania:dyes>.items {
 
 //<tag:forge:ores>.removeItems([<item:silents_mechanisms:uranium_ore>, <item:silents_mechanisms:bismuth_ore>, <item:silents_mechanisms:zinc_ore>, <item:silents_mechanisms:platinum_ore>, <item:silents_mechanisms:nickel_ore>, <item:silents_mechanisms:lead_ore>, <item:silents_mechanisms:silver_ore>, <item:silents_mechanisms:tin_ore>, <item:silents_mechanisms:copper_ore>, <item:silents_mechanisms:copper_ore>, <item:create:copper_ore>, <item:create:zinc_ore>]);
 //<tag:forge:ores>.removeBlocks([<blockstate:silents_mechanisms:uranium_ore>.block, <blockstate:silents_mechanisms:bismuth_ore>.block, <blockstate:silents_mechanisms:zinc_ore>.block, <blockstate:silents_mechanisms:platinum_ore>.block, <blockstate:silents_mechanisms:nickel_ore>.block, <blockstate:silents_mechanisms:lead_ore>.block, <blockstate:silents_mechanisms:silver_ore>.block, <blockstate:silents_mechanisms:tin_ore>.block, <blockstate:silents_mechanisms:copper_ore>.block, <blockstate:silents_mechanisms:copper_ore>.block, <blockstate:create:copper_ore>.block, <blockstate:create:zinc_ore>.block]);
-<tag:forge:ores/copper>.removeBlocks([<blockstate:silents_mechanisms:copper_ore>.block, <blockstate:create:copper_ore>.block]);
+<tag:forge:ores/copper>.removeBlocks([<blockstate:mekanism:copper_ore>.block, <blockstate:silents_mechanisms:copper_ore>.block, <blockstate:create:copper_ore>.block]);
 <tag:forge:ores/zinc>.removeBlocks([<blockstate:silents_mechanisms:zinc_ore>.block, <blockstate:create:zinc_ore>.block]);
-<tag:forge:ores/tin>.removeBlocks([<blockstate:silents_mechanisms:tin_ore>.block]);
+<tag:forge:ores/tin>.removeBlocks([<blockstate:mekanism:tin_ore>.block, <blockstate:silents_mechanisms:tin_ore>.block]);
 <tag:forge:ores/silver>.removeBlocks([<blockstate:silents_mechanisms:silver_ore>.block]);
 <tag:forge:ores/lead>.removeBlocks([<blockstate:silents_mechanisms:lead_ore>.block]);
 <tag:forge:ores/uranium>.removeBlocks([<blockstate:silents_mechanisms:uranium_ore>.block]);
 <tag:forge:ores/bauxite>.removeBlocks([<blockstate:silents_mechanisms:bauxite_ore>.block]);
 <tag:forge:ores/platinum>.removeBlocks([<blockstate:silents_mechanisms:platinum_ore>.block]);
 <tag:forge:ores/bismuth>.removeBlocks([<blockstate:silents_mechanisms:bismuth_ore>.block]);
+<tag:forge:ores/osmium>.removeBlocks([<blockstate:mekanism:osmium_ore>.block]);
+
+//Ingots
+
+for item in <tag:silents_mechanisms:ingots/steels>.items {
+    <tag:silents_mechanisms:ingots/steels>.removeItems(item);
+}
 
 //Dusts
 

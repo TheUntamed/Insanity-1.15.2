@@ -20,7 +20,7 @@ public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) a
     }
 	logger.warning("Unable to find acceptable item in MCTag " + tag.commandString + ". It contained:");
 	for item in tag.items {
-		logger.info(item.registryName);
+		// logger.info(item.registryName);
 	}
     return <item:minecraft:air>;
 }
@@ -57,12 +57,12 @@ public function minecraft_smeltingAndBlasting_ingot_from_ore(material as string)
     var ingot = ingotItemTag.first();
 
     if (ore.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + oreItemTag.commandString);
+        // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + oreItemTag.commandString);
         return;
     }
 
 	if (ingot.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + ingotItemTag.commandString);
+        // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + ingotItemTag.commandString);
         return;
     }
 
@@ -81,12 +81,12 @@ public function minecraft_smeltingAndBlasting_ingot_from_dust(material as string
     var ingot = ingotItemTag.first();
 
     if (dust.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + dustItemTag.commandString);
+        // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + dustItemTag.commandString);
         return;
     }
 
     if (ingot.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + ingotItemTag.commandString);
+        // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + ingotItemTag.commandString);
         return;
     }
 
@@ -109,7 +109,7 @@ public function mekanism_enriching_dust_from_ore(material as string) as void {
 		case "emerald":
 		case "quartz":
 		case "glowstone":
-			logger.info("mekanism_enriching_dust_from_ore: Skipping material " + material);
+			// logger.info("mekanism_enriching_dust_from_ore: Skipping material " + material);
 			return;
 	}
     
@@ -119,12 +119,12 @@ public function mekanism_enriching_dust_from_ore(material as string) as void {
     var dust = dustItemTag.first();
 
     if (ore.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_enriching_dust_from_ore: No items exist in the ItemTag " + oreItemTag.commandString);
+        // logger.info("mekanism_enriching_dust_from_ore: No items exist in the ItemTag " + oreItemTag.commandString);
         return;
     }
 
     if (dust.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_enriching_dust_from_ore: No items exist in the ItemTag " + dustItemTag.commandString);
+        // logger.info("mekanism_enriching_dust_from_ore: No items exist in the ItemTag " + dustItemTag.commandString);
         return;
     } 
 
@@ -144,7 +144,7 @@ public function mekanism_enriching_dust_from_ore(material as string) as void {
         }
     });
 
-    logger.info("mekanism_enriching_dust_from_ore with " + material + " succesfully ran!");
+    // logger.info("mekanism_enriching_dust_from_ore with " + material + " succesfully ran!");
 }
 public function mekanism_crushing_dust_from_ingot(material as string) as void {
     var ingotItemTag = BracketHandlers.getTag("forge:ingots/" + material);
@@ -153,12 +153,12 @@ public function mekanism_crushing_dust_from_ingot(material as string) as void {
     var dust = dustItemTag.first();
 
     if (ingot.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_crushing_dust_from_ingot: No items exist in the ItemTag " + ingotItemTag.commandString);
+        // logger.info("mekanism_crushing_dust_from_ingot: No items exist in the ItemTag " + ingotItemTag.commandString);
         return;
     }
 
     if (dust.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_crushing_dust_from_ingot: No items exist in the ItemTag " + dustItemTag.commandString);
+        // logger.info("mekanism_crushing_dust_from_ingot: No items exist in the ItemTag " + dustItemTag.commandString);
         return;
     } 
 
@@ -177,7 +177,7 @@ public function mekanism_crushing_dust_from_ingot(material as string) as void {
         }
     });
 
-    logger.info("mekanism_crushing_dust_from_ingot with " + material + " succesfully ran!");
+    // logger.info("mekanism_crushing_dust_from_ingot with " + material + " succesfully ran!");
 }
 public function mekanism_injecting_shard_from_ore(material as string) as void {
     var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
@@ -186,12 +186,12 @@ public function mekanism_injecting_shard_from_ore(material as string) as void {
     var shard = shardItemTag.first();
 
     if (ore.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_injecting_shard_from_ore: No items exist in the ItemTag " + oreItemTag.commandString);
+        // logger.info("mekanism_injecting_shard_from_ore: No items exist in the ItemTag " + oreItemTag.commandString);
         return;
     }
 
     if (shard.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_injecting_shard_from_ore: No items exist in the ItemTag " + shardItemTag.commandString);
+        // logger.info("mekanism_injecting_shard_from_ore: No items exist in the ItemTag " + shardItemTag.commandString);
         return;
     } 
 
@@ -214,7 +214,7 @@ public function mekanism_injecting_shard_from_ore(material as string) as void {
         }
     });
 
-    logger.info("mekanism_injecting_shard_from_ore with " + material + " succesfully ran!");
+    // logger.info("mekanism_injecting_shard_from_ore with " + material + " succesfully ran!");
 }
 public function mekanism_enriching_dust_from_dirty_dust(material as string) as void {
 	var dirty_dustItemTag = BracketHandlers.getTag("forge:dirty_dusts/" + material);
@@ -223,12 +223,12 @@ public function mekanism_enriching_dust_from_dirty_dust(material as string) as v
     var dust = dustItemTag.first();
 
     if (dirty_dust.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_enriching_dust_from_dirty_dust: No items exist in the ItemTag " + dirty_dustItemTag.commandString);
+        // logger.info("mekanism_enriching_dust_from_dirty_dust: No items exist in the ItemTag " + dirty_dustItemTag.commandString);
         return;
     }
 
     if (dust.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_enriching_dust_from_dirty_dust: No items exist in the ItemTag " + dustItemTag.commandString);
+        // logger.info("mekanism_enriching_dust_from_dirty_dust: No items exist in the ItemTag " + dustItemTag.commandString);
         return;
     } 
 
@@ -246,8 +246,9 @@ public function mekanism_enriching_dust_from_dirty_dust(material as string) as v
         }
     });
 
-    logger.info("mekanism_enriching_dust_from_dirty_dust with " + material + " succesfully ran!");
+    // logger.info("mekanism_enriching_dust_from_dirty_dust with " + material + " succesfully ran!");
 }
+
 public function mekanism_crushing_dirty_dust_from_clump(material as string) as void {
 	var dirty_dustItemTag = BracketHandlers.getTag("forge:dirty_dusts/" + material);
     var clumpItemTag = BracketHandlers.getTag("forge:clumps/" + material);
@@ -255,12 +256,12 @@ public function mekanism_crushing_dirty_dust_from_clump(material as string) as v
     var clump = clumpItemTag.first();
 
     if (dirty_dust.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_crushing_dirty_dust_from_clump: No items exist in the ItemTag " + dirty_dustItemTag.commandString);
+        // logger.info("mekanism_crushing_dirty_dust_from_clump: No items exist in the ItemTag " + dirty_dustItemTag.commandString);
         return;
     }
 
     if (clump.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_crushing_dirty_dust_from_clump: No items exist in the ItemTag " + clumpItemTag.commandString);
+        // logger.info("mekanism_crushing_dirty_dust_from_clump: No items exist in the ItemTag " + clumpItemTag.commandString);
         return;
     } 
 
@@ -278,8 +279,22 @@ public function mekanism_crushing_dirty_dust_from_clump(material as string) as v
         }
     });
 
-    logger.info("mekanism_crushing_dirty_dust_from_clump with " + material + " succesfully ran!");
+    <recipetype:immersiveengineering:crusher>.addJSONRecipe("processing/" + material + "/dirty_dust/from_clump",
+    {   
+        secondaries: [],
+        result: {
+            item: dirty_dust.registryName
+        },
+        input: {
+            item: clump.registryName
+            
+        },
+        energy: 3000
+    });
+
+    // logger.info("mekanism_crushing_dirty_dust_from_clump with " + material + " succesfully ran!");
 }
+
 public function mekanism_injecting_clump_from_shard(material as string) as void {
 	var shardItemTag = BracketHandlers.getTag("forge:shards/" + material);
     var clumpItemTag = BracketHandlers.getTag("forge:clumps/" + material);
@@ -287,12 +302,12 @@ public function mekanism_injecting_clump_from_shard(material as string) as void 
     var clump = clumpItemTag.first();
 
     if (shard.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_injecting_clump_from_shard: No items exist in the ItemTag " + shardItemTag.commandString);
+        // logger.info("mekanism_injecting_clump_from_shard: No items exist in the ItemTag " + shardItemTag.commandString);
         return;
     }
 
     if (clump.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_injecting_clump_from_shard: No items exist in the ItemTag " + clumpItemTag.commandString);
+        // logger.info("mekanism_injecting_clump_from_shard: No items exist in the ItemTag " + clumpItemTag.commandString);
         return;
     } 
 
@@ -313,7 +328,7 @@ public function mekanism_injecting_clump_from_shard(material as string) as void 
         }
     });
 
-    logger.info("mekanism_injecting_clump_from_shard with " + material + " succesfully ran!");
+    // logger.info("mekanism_injecting_clump_from_shard with " + material + " succesfully ran!");
 }
 public function mekanism_injecting_shard_from_crystal(material as string) as void {
 	var crystalItemTag = BracketHandlers.getTag("forge:crystals/" + material);
@@ -322,12 +337,12 @@ public function mekanism_injecting_shard_from_crystal(material as string) as voi
     var shard = shardItemTag.first();
 
     if (crystal.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_injecting_shard_from_crystal: No items exist in the ItemTag " + crystalItemTag.commandString);
+        // logger.info("mekanism_injecting_shard_from_crystal: No items exist in the ItemTag " + crystalItemTag.commandString);
         return;
     }
 
     if (shard.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_injecting_shard_from_crystal: No items exist in the ItemTag " + shardItemTag.commandString);
+        // logger.info("mekanism_injecting_shard_from_crystal: No items exist in the ItemTag " + shardItemTag.commandString);
         return;
     } 
 
@@ -348,5 +363,5 @@ public function mekanism_injecting_shard_from_crystal(material as string) as voi
         }
     });
 
-    logger.info("mekanism_injecting_shard_from_crystal with " + material + " succesfully ran!");
+    // logger.info("mekanism_injecting_shard_from_crystal with " + material + " succesfully ran!");
 }
