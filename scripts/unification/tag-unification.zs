@@ -40,6 +40,7 @@ var materials as string[] = [
     "inferium",
     "insanium",
     //"lava_crystal",
+    "malachite",
     "moonstone",
     "niter",
     "peridot",
@@ -53,6 +54,7 @@ var materials as string[] = [
     "sulfur",
     "supremium",
     "tertium",
+    "teslatite",
     "w",
     "white_opal",
     "zanite",
@@ -147,6 +149,7 @@ var modPriorities as string[] = [
     "immersiveengineering",
     "nethercraft",
     "forbidden_arcanus",
+    "bluepower",
     "quark",
     "botania"
 ];

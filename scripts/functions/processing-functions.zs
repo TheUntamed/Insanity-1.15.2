@@ -27,5 +27,6 @@ public function removeAllProcessingFor(item as IItemStack) as void {
 	<recipetype:immersiveengineering:blast_furnace>.removeRecipe(item);
 
     // JEI
-	JEI.RemoveAndHide(item);
+	//JEI.hideItem(item);
+	//JEI.addInfo(item, [""]);
 }

@@ -1,0 +1,988 @@
+
+#Settings affecting all variants
+[general]
+	#If true, all variants of this ore type will be disabled.
+	disableAllVariants = false
+
+	#Vanilla Stone Variants
+	[general.minecraft]
+
+		#Stone Poor Pyridium Ore
+		[general.minecraft.stone_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.stone_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Andesite Poor Pyridium Ore
+		[general.minecraft.andesite_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.andesite_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Diorite Poor Pyridium Ore
+		[general.minecraft.diorite_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.diorite_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Granite Poor Pyridium Ore
+		[general.minecraft.granite_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.granite_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Netherrack Poor Pyridium Ore
+		[general.minecraft.netherrack_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.netherrack_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 6
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 32
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 112
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#End Stone Poor Pyridium Ore
+		[general.minecraft.end_stone_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.end_stone_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Sand Poor Pyridium Ore
+		[general.minecraft.sand_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sand_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Red Sand Poor Pyridium Ore
+		[general.minecraft.red_sand_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sand_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Sandstone Poor Pyridium Ore
+		[general.minecraft.sandstone_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sandstone_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Red Sandstone Poor Pyridium Ore
+		[general.minecraft.red_sandstone_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sandstone_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Gravel Poor Pyridium Ore
+		[general.minecraft.gravel_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.gravel_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Blue Ice Poor Pyridium Ore
+		[general.minecraft.blue_ice_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.blue_ice_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Packed Ice Poor Pyridium Ore
+		[general.minecraft.packed_ice_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.packed_ice_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Bedrock Poor Pyridium Ore
+		[general.minecraft.bedrock_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.bedrock_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+			#Block properties
+			[general.minecraft.bedrock_poor_pyridium_ore.properties]
+				#A higher value means a stronger explosion is needed to destroy this ore. Stone has 6.0 and Obsidian 1200.0
+				#Range: 0.0 ~ 3600000.0
+				resistance = 9.0
+
+	#Quark Stone Variants
+	[general.quark]
+
+		#Basalt Poor Pyridium Ore
+		[general.quark.basalt_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.basalt_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 6
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 32
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 112
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Limestone Poor Pyridium Ore
+		[general.quark.limestone_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.limestone_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Jasper Poor Pyridium Ore
+		[general.quark.jasper_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.jasper_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Marble Poor Pyridium Ore
+		[general.quark.marble_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.marble_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Slate Poor Pyridium Ore
+		[general.quark.slate_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.slate_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+	#Embellishcraft Stone Variants
+	[general.embellishcraft]
+
+		#Basalt Poor Pyridium Ore
+		[general.embellishcraft.basalt_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.basalt_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Gneiss Poor Pyridium Ore
+		[general.embellishcraft.gneiss_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.gneiss_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Jade Poor Pyridium Ore
+		[general.embellishcraft.jade_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.jade_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Larvikite Poor Pyridium Ore
+		[general.embellishcraft.larvikite_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.larvikite_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Marble Poor Pyridium Ore
+		[general.embellishcraft.marble_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.marble_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Slate Poor Pyridium Ore
+		[general.embellishcraft.slate_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.slate_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+	#Create Stone Variants
+	[general.create]
+
+		#Dolomite Poor Pyridium Ore
+		[general.create.dolomite_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.dolomite_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Gabbro Poor Pyridium Ore
+		[general.create.gabbro_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.gabbro_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Limestone Poor Pyridium Ore
+		[general.create.limestone_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.limestone_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Scoria Poor Pyridium Ore
+		[general.create.scoria_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.scoria_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+		#Weathered Limestone Poor Pyridium Ore
+		[general.create.weathered_limestone_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.create.weathered_limestone_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+	#Mystical Agriculture Stone Variants
+	[general.mysticalagriculture]
+
+		#Soulstone Poor Pyridium Ore
+		[general.mysticalagriculture.soulstone_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.mysticalagriculture.soulstone_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+	#The Midnight Stone Variants
+	[general.midnight]
+
+		#Nightstone Poor Pyridium Ore
+		[general.midnight.nightstone_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.midnight.nightstone_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+	#The Nethercraft Stone Variants
+	[general.nethercraft]
+
+		#Heat Sand Poor Pyridium Ore
+		[general.nethercraft.heat_sand_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.nethercraft.heat_sand_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 6
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 32
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 112
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+
+	#Danny's Ores Stone Variants
+	[general.dannys_ores]
+
+		#Hardened Stone Poor Pyridium Ore
+		[general.dannys_ores.hardened_stone_poor_pyridium_ore]
+
+			#Generation settings for this ore variant
+			[general.dannys_ores.hardened_stone_poor_pyridium_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 3
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 16
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 64
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+

@@ -5,16 +5,20 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 
 **Added Mods**
 
+* *Blue Power*
 * *Simply Trophies*
 
 **Updated Mods**
 
 * *AIOT Botania* (1.2.2 --> 1.2.3)
+* *Apotheosis* (3.1.2 --> 3.2.1)
+* *Aquaculture 2* (2.0.15 --> 2.0.16)
 * *Botania* (r1.15-3862 --> r1.15-387)
 * *Collective* (1.32 --> 1.35)
 * *Controlling* (6.1.5.5 --> 6.1.5.6)
 * *Cyclic* (0.4.2 --> 0.5.0)
 * *Cyclops Core* (1.7.0 --> 1.7.1)
+* *Danny's Ores* (1.0 --> 1.2)
 * *Dimensional Dungeons* (1.06 --> 1.07)
 * *Double Slabs* (2.7.3 --> 2.7.6)
 * *Engineer's Decor* (1.1.0-b3 --> 1.1.0)
@@ -52,6 +56,8 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 * Metallic ores now drop ore clumps instead of the ore itself.
 * Disabled *Omega Craft* Magmite ore generation. (Replaced by *Danny's Ores* Vulcanite ore.)
 * Disabled poisonous effect of uraninite ore. (The ore now drops an item and can only be obtained by silk touch anyway.)
+* Metal ingots cannot be smelted in a Furnace anymore. It requires a Blast Furnace. And many more processing changes.
+* Enabled Tungsten, Electrotine, Ruby, Sapphire and Amethyst and Malachite generation for ores from *Danny's Ores*.
 
 **Bug Fixes**
 
