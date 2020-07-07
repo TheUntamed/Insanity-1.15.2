@@ -5,7 +5,7 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 
 **Added Mods**
 
-* *Blue Power*
+* *Akashic Tome*
 * *Simply Trophies*
 
 **Updated Mods**
@@ -41,16 +41,21 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 * *Mystical Agriculture* (3.0.7 --> 3.0.8)
 * *Nether Enhancement* (1.0.1.2 --> 1.0.2.2)
 * *Overloaded Compressed Blocks* (1.0.12 --> 1.0.13)
+* *Pam's HarvestCraft 2 - Food Core* (1.0.4 --> 1.0.5)
 * *Pickle Tweaks* (4.0.3 --> 4.0.4)
+* *Placebo* (3.0.2 --> 3.1.0)
+* *RandomPatches* (1.21.1.2 --> 1.22.0.0)
 * *Refined Storage* (1.8.4 --> 1.8.6)
 * *Refined Storage Addons* (0.6.1 --> 0.6.2)
-* *Silent's Mechanisms* (0.7.2+52 --> 0.7.4+54)
-* *Tetra* (2.11.0 --> 2.12.0)
+* *Silent's Mechanisms* (0.7.2+52 --> 0.7.6+57)
+* *TerraForged* (0.0.14 --> 0.0.15)
+* *Tetra* (2.11.0 --> 2.15.0)
 * *Torch Slabs Mod* (1.6.15 --> 1.7.0)
 * *Torchmaster* (2.1.1-rc0 --> 2.2.0)
+* *U Team Core* (2.12.1.158 --> 3.0.0.160)
+* *Upgrade Aquatic* (1.7.0 --> 1.7.1)
 * *Waystones* (6.0.1 --> 6.0.2)
-* ** ( --> )
-* ** ( --> )
+* *Worldgeneration Profiler* (1.3.0.6 --> 1.4.0.8)
 
 **Removed Mods**
 
@@ -62,7 +67,6 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 * Disabled *Omega Craft* Magmite ore generation. (Replaced by *Danny's Ores* Vulcanite ore.)
 * Disabled poisonous effect of uraninite ore. (The ore now drops an item and can only be obtained by silk touch anyway.)
 * Metal ingots cannot be smelted in a Furnace anymore. It requires a Blast Furnace. And many more processing changes.
-* Enabled Tungsten, Electrotine, Ruby, Sapphire and Amethyst and Malachite generation for ores from *Danny's Ores*.
 
 **Bug Fixes**
 

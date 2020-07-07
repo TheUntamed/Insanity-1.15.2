@@ -292,20 +292,20 @@ public function mekanism_crushing_dirty_dust_from_clump(material as string) as v
     //     energy: 3000
     // });
 
-    <recipetype:create:milling>.addJSONRecipe("processing/" + material + "/dirty_dust/from_clump",
-    {
-    ingredients: [
-        {
-                item: clump.registryName
-        }
-    ], 
-        results: [
-                {
-                        item: dirty_dust.registryName,
-                        count: 1,
-                }
-        ]
-    });
+    // <recipetype:create:milling>.addJSONRecipe("processing/" + material + "/dirty_dust/from_clump",
+    // {
+    // ingredients: [
+    //     {
+    //             item: clump.registryName
+    //     }
+    // ], 
+    //     results: [
+    //             {
+    //                     item: dirty_dust.registryName,
+    //                     count: 1,
+    //             }
+    //     ]
+    // });
 
     // logger.info("mekanism_crushing_dirty_dust_from_clump with " + material + " succesfully ran!");
 }
