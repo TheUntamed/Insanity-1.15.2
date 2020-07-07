@@ -25,7 +25,8 @@ public function removeAllProcessingFor(item as IItemStack) as void {
 	<recipetype:immersiveengineering:alloy>.removeRecipe(item);
 	<recipetype:immersiveengineering:arc_furnace>.removeRecipe(item);
 	<recipetype:immersiveengineering:blast_furnace>.removeRecipe(item);
-
+	<recipetype:mekanism:crushing>.removeRecipe(<item:mekanism:dust_copper>);
+	//<recipetype:mekanism:crushing>.removeByName("mekanism:processing/copper/dust/from_ingot");
     // JEI
 	//JEI.hideItem(item);
 	//JEI.addInfo(item, [""]);

@@ -279,17 +279,32 @@ public function mekanism_crushing_dirty_dust_from_clump(material as string) as v
         }
     });
 
-    <recipetype:immersiveengineering:crusher>.addJSONRecipe("processing/" + material + "/dirty_dust/from_clump",
-    {   
-        secondaries: [],
-        result: {
-            item: dirty_dust.registryName
-        },
-        input: {
-            item: clump.registryName
+    // <recipetype:immersiveengineering:crusher>.addJSONRecipe("processing/" + material + "/dirty_dust/from_clump",
+    // {   
+    //     secondaries: [],
+    //     result: {
+    //         item: dirty_dust.registryName
+    //     },
+    //     input: {
+    //         item: clump.registryName
             
-        },
-        energy: 3000
+    //     },
+    //     energy: 3000
+    // });
+
+    <recipetype:create:milling>.addJSONRecipe("processing/" + material + "/dirty_dust/from_clump",
+    {
+    ingredients: [
+        {
+                item: clump.registryName
+        }
+    ], 
+        results: [
+                {
+                        item: dirty_dust.registryName,
+                        count: 1,
+                }
+        ]
     });
 
     // logger.info("mekanism_crushing_dirty_dust_from_clump with " + material + " succesfully ran!");

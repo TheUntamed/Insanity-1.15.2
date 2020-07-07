@@ -7,313 +7,39 @@
 	#Vanilla Stone Variants
 	[general.minecraft]
 
-		#Stone Dense Archaic Ore
-		[general.minecraft.stone_dense_archaic_ore]
+		#Bedrock Dense Archaic Ore
+		[general.minecraft.bedrock_dense_archaic_ore]
 
 			#Generation settings for this ore variant
-			[general.minecraft.stone_dense_archaic_ore.generation]
+			[general.minecraft.bedrock_dense_archaic_ore.generation]
 				#If false, this ore variant will not generate.
 				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Andesite Dense Archaic Ore
-		[general.minecraft.andesite_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.minecraft.andesite_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Diorite Dense Archaic Ore
-		[general.minecraft.diorite_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.minecraft.diorite_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Granite Dense Archaic Ore
-		[general.minecraft.granite_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.minecraft.granite_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Netherrack Dense Archaic Ore
-		[general.minecraft.netherrack_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.minecraft.netherrack_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 80
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 128
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#End Stone Dense Archaic Ore
-		[general.minecraft.end_stone_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.minecraft.end_stone_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Sand Dense Archaic Ore
-		[general.minecraft.sand_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.minecraft.sand_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
 				minHeight = 0
 				#The max y-level the ore will generate.
 				#Range: 0 ~ 256
 				maxHeight = 128
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
 				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
 				biomeBlacklist = []
-
-		#Red Sand Dense Archaic Ore
-		[general.minecraft.red_sand_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.minecraft.red_sand_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
 				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 128
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Sandstone Dense Archaic Ore
-		[general.minecraft.sandstone_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.minecraft.sandstone_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 128
+				veinsPerChunk = 4
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
 				#If true, the biome blacklist is a whitelist.
 				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
 
-		#Red Sandstone Dense Archaic Ore
-		[general.minecraft.red_sandstone_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.minecraft.red_sandstone_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 128
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Gravel Dense Archaic Ore
-		[general.minecraft.gravel_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.minecraft.gravel_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 128
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
+			#Block properties
+			[general.minecraft.bedrock_dense_archaic_ore.properties]
+				#A higher value means a stronger explosion is needed to destroy this ore. Stone has 6.0 and Obsidian 1200.0
+				#Range: 0.0 ~ 3600000.0
+				resistance = 9.0
 
 		#Blue Ice Dense Archaic Ore
 		[general.minecraft.blue_ice_dense_archaic_ore]
@@ -322,26 +48,306 @@
 			[general.minecraft.blue_ice_dense_archaic_ore.generation]
 				#If false, this ore variant will not generate.
 				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
 				minHeight = 0
 				#The max y-level the ore will generate.
 				#Range: 0 ~ 256
 				maxHeight = 128
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
 				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
 				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Sand Dense Archaic Ore
+		[general.minecraft.sand_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sand_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#End Stone Dense Archaic Ore
+		[general.minecraft.end_stone_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.end_stone_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Netherrack Dense Archaic Ore
+		[general.minecraft.netherrack_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.netherrack_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 80
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Red Sandstone Dense Archaic Ore
+		[general.minecraft.red_sandstone_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sandstone_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Stone Dense Archaic Ore
+		[general.minecraft.stone_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.stone_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Andesite Dense Archaic Ore
+		[general.minecraft.andesite_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.andesite_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gravel Dense Archaic Ore
+		[general.minecraft.gravel_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.gravel_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Sandstone Dense Archaic Ore
+		[general.minecraft.sandstone_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sandstone_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Diorite Dense Archaic Ore
+		[general.minecraft.diorite_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.diorite_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Red Sand Dense Archaic Ore
+		[general.minecraft.red_sand_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sand_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
 
 		#Packed Ice Dense Archaic Ore
 		[general.minecraft.packed_ice_dense_archaic_ore]
@@ -350,548 +356,54 @@
 			[general.minecraft.packed_ice_dense_archaic_ore.generation]
 				#If false, this ore variant will not generate.
 				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
 				minHeight = 0
 				#The max y-level the ore will generate.
 				#Range: 0 ~ 256
 				maxHeight = 128
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
 				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
 				biomeBlacklist = []
-
-		#Bedrock Dense Archaic Ore
-		[general.minecraft.bedrock_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.minecraft.bedrock_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
 				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 4
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 128
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
 				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
 				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-			#Block properties
-			[general.minecraft.bedrock_dense_archaic_ore.properties]
-				#A higher value means a stronger explosion is needed to destroy this ore. Stone has 6.0 and Obsidian 1200.0
-				#Range: 0.0 ~ 3600000.0
-				resistance = 9.0
-
-	#Quark Stone Variants
-	[general.quark]
-
-		#Basalt Dense Archaic Ore
-		[general.quark.basalt_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.quark.basalt_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
 				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 80
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 128
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
 				#If true, the biome blacklist is a whitelist.
 				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
 
-		#Limestone Dense Archaic Ore
-		[general.quark.limestone_dense_archaic_ore]
+		#Granite Dense Archaic Ore
+		[general.minecraft.granite_dense_archaic_ore]
 
 			#Generation settings for this ore variant
-			[general.quark.limestone_dense_archaic_ore.generation]
+			[general.minecraft.granite_dense_archaic_ore.generation]
 				#If false, this ore variant will not generate.
 				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
 				minHeight = 0
 				#The max y-level the ore will generate.
 				#Range: 0 ~ 256
 				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
 				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
 				biomeBlacklist = []
-
-		#Jasper Dense Archaic Ore
-		[general.quark.jasper_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.quark.jasper_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
 				#The amount of ores in one vein.
 				#Range: 0 ~ 65536
 				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
 				#How many veins per chunk.
 				#Range: 0 ~ 65536
 				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
 				#If true, the biome temperature blacklist is a whitelist.
 				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
 				#If true, the biome blacklist is a whitelist.
 				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Marble Dense Archaic Ore
-		[general.quark.marble_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.quark.marble_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Slate Dense Archaic Ore
-		[general.quark.slate_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.quark.slate_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-	#Embellishcraft Stone Variants
-	[general.embellishcraft]
-
-		#Basalt Dense Archaic Ore
-		[general.embellishcraft.basalt_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.embellishcraft.basalt_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Gneiss Dense Archaic Ore
-		[general.embellishcraft.gneiss_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.embellishcraft.gneiss_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Jade Dense Archaic Ore
-		[general.embellishcraft.jade_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.embellishcraft.jade_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Larvikite Dense Archaic Ore
-		[general.embellishcraft.larvikite_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.embellishcraft.larvikite_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Marble Dense Archaic Ore
-		[general.embellishcraft.marble_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.embellishcraft.marble_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Slate Dense Archaic Ore
-		[general.embellishcraft.slate_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.embellishcraft.slate_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-	#Create Stone Variants
-	[general.create]
-
-		#Dolomite Dense Archaic Ore
-		[general.create.dolomite_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.create.dolomite_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Gabbro Dense Archaic Ore
-		[general.create.gabbro_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.create.gabbro_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Limestone Dense Archaic Ore
-		[general.create.limestone_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.create.limestone_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Scoria Dense Archaic Ore
-		[general.create.scoria_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.create.scoria_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-		#Weathered Limestone Dense Archaic Ore
-		[general.create.weathered_limestone_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.create.weathered_limestone_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-
-	#Mystical Agriculture Stone Variants
-	[general.mysticalagriculture]
-
-		#Soulstone Dense Archaic Ore
-		[general.mysticalagriculture.soulstone_dense_archaic_ore]
-
-			#Generation settings for this ore variant
-			[general.mysticalagriculture.soulstone_dense_archaic_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
 
 	#The Midnight Stone Variants
 	[general.midnight]
@@ -903,26 +415,483 @@
 			[general.midnight.nightstone_dense_archaic_ore.generation]
 				#If false, this ore variant will not generate.
 				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
 				minHeight = 0
 				#The max y-level the ore will generate.
 				#Range: 0 ~ 256
 				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
 				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
 				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Embellishcraft Stone Variants
+	[general.embellishcraft]
+
+		#Basalt Dense Archaic Ore
+		[general.embellishcraft.basalt_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.basalt_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Gneiss Dense Archaic Ore
+		[general.embellishcraft.gneiss_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.gneiss_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marble Dense Archaic Ore
+		[general.embellishcraft.marble_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.marble_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Larvikite Dense Archaic Ore
+		[general.embellishcraft.larvikite_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.larvikite_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Jade Dense Archaic Ore
+		[general.embellishcraft.jade_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.jade_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Slate Dense Archaic Ore
+		[general.embellishcraft.slate_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.slate_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Quark Stone Variants
+	[general.quark]
+
+		#Basalt Dense Archaic Ore
+		[general.quark.basalt_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.basalt_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 80
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marble Dense Archaic Ore
+		[general.quark.marble_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.marble_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Jasper Dense Archaic Ore
+		[general.quark.jasper_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.jasper_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Dense Archaic Ore
+		[general.quark.limestone_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.limestone_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Slate Dense Archaic Ore
+		[general.quark.slate_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.slate_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Create Stone Variants
+	[general.create]
+
+		#Gabbro Dense Archaic Ore
+		[general.create.gabbro_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.create.gabbro_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Weathered Limestone Dense Archaic Ore
+		[general.create.weathered_limestone_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.create.weathered_limestone_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Dolomite Dense Archaic Ore
+		[general.create.dolomite_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.create.dolomite_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Scoria Dense Archaic Ore
+		[general.create.scoria_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.create.scoria_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Dense Archaic Ore
+		[general.create.limestone_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.create.limestone_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
 
 	#The Nethercraft Stone Variants
 	[general.nethercraft]
@@ -934,26 +903,26 @@
 			[general.nethercraft.heat_sand_dense_archaic_ore.generation]
 				#If false, this ore variant will not generate.
 				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
 				minHeight = 80
 				#The max y-level the ore will generate.
 				#Range: 0 ~ 256
 				maxHeight = 128
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
 				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
 				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
 
 	#Danny's Ores Stone Variants
 	[general.dannys_ores]
@@ -965,24 +934,55 @@
 			[general.dannys_ores.hardened_stone_dense_archaic_ore.generation]
 				#If false, this ore variant will not generate.
 				disableVariant = false
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 1
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 1
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
 				minHeight = 0
 				#The max y-level the ore will generate.
 				#Range: 0 ~ 256
 				maxHeight = 16
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
 				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
 				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Mystical Agriculture Stone Variants
+	[general.mysticalagriculture]
+
+		#Soulstone Dense Archaic Ore
+		[general.mysticalagriculture.soulstone_dense_archaic_ore]
+
+			#Generation settings for this ore variant
+			[general.mysticalagriculture.soulstone_dense_archaic_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 16
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 1
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
 

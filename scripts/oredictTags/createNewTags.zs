@@ -14,8 +14,6 @@ import crafttweaker.api.tag.MCTag;
 
 <tag:forge:gems/peridot>.createItemTag();
 <tag:forge:gems/red_garnet>.createItemTag();
-<tag:forge:gems/ruby>.createItemTag();
-<tag:forge:gems/sapphire>.createItemTag();
 <tag:forge:gems/yellow_garnet>.createItemTag();
 
 // <tag:silents_mechanisms:chunks/iron>.createItemTag();
@@ -62,6 +60,8 @@ import crafttweaker.api.tag.MCTag;
 <tag:forge:plates/red_garnet>.createItemTag();
 <tag:forge:plates/redstone>.createItemTag();
 <tag:forge:plates/refined_iron>.createItemTag();
+<tag:forge:plates/ruby>.createItemTag();
+<tag:forge:plates/sapphire>.createItemTag();
 <tag:forge:plates/silicon>.createItemTag();
 <tag:forge:plates/titanium>.createItemTag();
 <tag:forge:plates/tungsten>.createItemTag();
