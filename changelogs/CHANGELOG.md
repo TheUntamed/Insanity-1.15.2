@@ -10,14 +10,16 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 
 **Updated Mods**
 
+* *[Forge] Expanded Storage* (1.1.8 --> 2.0.0)
 * *AIOT Botania* (1.2.2 --> 1.2.3)
-* *Apotheosis* (3.1.2 --> 3.2.1)
+* *Apotheosis* (3.1.2 --> 3.2.4)
 * *Aquaculture 2* (2.0.15 --> 2.0.16)
 * *Botania* (r1.15-3862 --> r1.15-387)
+* *Carpet Stairs Mod* (1.4.4 --> 1.4.7)
 * *Collective* (1.32 --> 1.35)
 * *Controlling* (6.1.5.5 --> 6.1.5.6)
 * *CraftTweaker* (6.0.0.24 --> 6.0.0.31)
-* *Cyclic* (0.4.2 --> 0.5.0)
+* *Cyclic* (0.4.2 --> 0.6.0)
 * *Cyclops Core* (1.7.0 --> 1.7.1)
 * *Danny's Ores* (1.0 --> 1.2)
 * *Dimensional Dungeons* (1.06 --> 1.07)
@@ -49,9 +51,9 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 * *Refined Storage Addons* (0.6.1 --> 0.6.2)
 * *Silent's Mechanisms* (0.7.2+52 --> 0.7.6+57)
 * *TerraForged* (0.0.14 --> 0.0.15)
-* *Tetra* (2.11.0 --> 2.15.0)
+* *Tetra* (2.11.0 --> 2.16.1)
 * *Torch Slabs Mod* (1.6.15 --> 1.7.0)
-* *Torchmaster* (2.1.1-rc0 --> 2.2.0)
+* *Torchmaster* (2.1.1-rc0 --> 2.2.1)
 * *U Team Core* (2.12.1.158 --> 3.0.0.160)
 * *Upgrade Aquatic* (1.7.0 --> 1.7.1)
 * *Waystones* (6.0.1 --> 6.0.2)
@@ -59,7 +61,7 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 
 **Removed Mods**
 
-* 
+* *Ring of the Miner [FORGE]*
 
 **Changes**
 

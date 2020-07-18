@@ -125,9 +125,12 @@ for material in materials {
     minecraft_smeltingAndBlasting_ingot_from_dust(material);
     mekanism_enriching_dust_from_ore(material);
     mekanism_crushing_dust_from_ingot(material);
+    mekanism_crushing_dirty_dust_from_clump(material);
+    mekanism_crushing_dirty_dust_from_ore(material);
+    mekanism_crushing_dust_from_block(material);
     mekanism_injecting_shard_from_ore(material);
     mekanism_enriching_dust_from_dirty_dust(material);
-    mekanism_crushing_dirty_dust_from_clump(material);
+    mekanism_enriching_nugget_from_clump(material);
     mekanism_injecting_clump_from_shard(material);
     mekanism_injecting_shard_from_crystal(material);
 }

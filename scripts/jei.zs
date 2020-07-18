@@ -1,4 +1,4 @@
-#priority 600
+#priority 6000
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -6,6 +6,15 @@ import mods.jei.JEI;
 
 //Hide a single Item
 //JEI.hideItem(IItemStack stack);
+
+public function addInfoAndHideItem(item as IItemStack) as void {
+
+	logger.info("proc called for " + item.registryName);
+	JEI.hideItem(item);
+	JEI.addInfo(item, ["Test"]);
+}
+
+// addInfoAndHideItem(<item:minecraft:iron_ingot>);
 
 JEI.hideItem(<item:botania:red_dye>);
 JEI.hideItem(<item:botania:green_dye>);

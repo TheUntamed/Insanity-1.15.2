@@ -73,7 +73,7 @@ var materials as MCTag[] = [
     <tag:forge:ores/iridium>,
     <tag:forge:ores/lead>,
     <tag:forge:ores/linium>,
-    //<tag:forge:ores/lithium>,
+    <tag:forge:ores/lithium>,
     <tag:forge:ores/lucky>,
     //<tag:forge:ores/magnesium>,
     //<tag:forge:ores/mana_infused>,

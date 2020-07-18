@@ -10,12 +10,12 @@ import mods.jei.JEI;
 // Used by tag-unification. Called for each duplicate item which tag gets removed.
 // Removed all recipes with "item" as output.
 public function removeAllProcessingFor(item as IItemStack) as void {
-	// Minecraft
+
     craftingTable.removeRecipe(item);
 	furnace.removeRecipe(item);
 	blastFurnace.removeRecipe(item);
 
-    // JEI
-	//JEI.hideItem(item);
-	//JEI.addInfo(item, [""]);
+	// logger.info("removeAllProcessingFor called for " + item.registryName);
+	// JEI.hideItem(item);
+	// JEI.addInfo(item, ["Test"]);
 }

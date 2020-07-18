@@ -73,7 +73,7 @@ var materials as string[] = [
     "iridium",
     "lead",
     "linium",
-    //"lithium",
+    "lithium",
     //"lucky",
     //"magnesium",
     //"mana_infused",
@@ -117,7 +117,9 @@ var materials as string[] = [
     "quicksilver",
     "redstone_alloy",
     "refined_iron",
-    "signalum"
+    "signalum",
+    "magmite",
+    "cave_magmite"
 ];
 
 var forms as string[] = [
@@ -148,7 +150,6 @@ var modPriorities as string[] = [
     "immersiveengineering",
     "nethercraft",
     "forbidden_arcanus",
-    "bluepower",
     "quark",
     "botania"
 ];
@@ -167,13 +168,3 @@ private function iterateTags(material as string, form as string, mP as string[])
             }
         }
 }
-
-// for material, types in materials {
-//     for type, itemTag in types {
-//         if (itemTag.isItemTag) {
-//             if (itemTag.items.length > 1) {
-//                 purgeItemTag(itemTag, modPriorities);
-//             }
-//         }
-//     }
-// }
