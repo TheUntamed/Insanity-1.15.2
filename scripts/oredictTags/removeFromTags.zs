@@ -96,24 +96,25 @@ for item in <tag:silents_mechanisms:ingots/steels>.items {
     <tag:silents_mechanisms:ingots/steels>.removeItems(item);
 }
 
-//Dusts
-
-<tag:omegacraft:dirty_dusts/bismuth>.removeItems([<item:jaopca:omegacraft_dirty_dusts.bismuth>]);
-<tag:omegacraft:dirty_dusts/uranium>.removeItems([<item:jaopca:omegacraft_dirty_dusts.uranium>]);
-<tag:omegacraft:dirty_dusts/nickel>.removeItems([<item:jaopca:omegacraft_dirty_dusts.nickel>]);
-<tag:omegacraft:dirty_dusts/platinum>.removeItems([<item:jaopca:omegacraft_dirty_dusts.platinum>]);
-<tag:omegacraft:dirty_dusts/zinc>.removeItems([<item:jaopca:omegacraft_dirty_dusts.zinc>]);
-<tag:omegacraft:dirty_dusts/osmium>.removeItems([<item:jaopca:omegacraft_dirty_dusts.osmium>]);
-<tag:omegacraft:dirty_dusts/steel>.removeItems([<item:jaopca:omegacraft_dirty_dusts.steel>]);
-<tag:omegacraft:dirty_dusts/iron>.removeItems([<item:omegacraft:dirty_dust_iron>]);
-<tag:omegacraft:dirty_dusts/gold>.removeItems([<item:omegacraft:dirty_dust_gold>]);
-<tag:omegacraft:dirty_dusts/copper>.removeItems([<item:omegacraft:dirty_dust_copper>]);
-<tag:omegacraft:dirty_dusts/tin>.removeItems([<item:omegacraft:dirty_dust_tin>]);
-<tag:omegacraft:dirty_dusts/lead>.removeItems([<item:omegacraft:dirty_dust_lead>]);
-<tag:omegacraft:dirty_dusts/silver>.removeItems([<item:omegacraft:dirty_dust_silver>]);
-<tag:omegacraft:dirty_dusts/aluminum>.removeItems([<item:omegacraft:dirty_dust_aluminum>]);
-<tag:omegacraft:dirty_dusts/magmite>.removeItems([<item:omegacraft:dirty_dust_magmite>]);
-<tag:omegacraft:dirty_dusts/cave_magmite>.removeItems([<item:omegacraft:dirty_dust_cave_magmite>]);
-
 //Others
 <tag:forge:wg_stone>.removeBlocks([<blockstate:create:natural_scoria>.block]);
+
+
+// Omegacraft
+
+// <tag:omegacraft:dirty_dusts/bismuth>.removeItems([<item:jaopca:omegacraft_dirty_dusts.bismuth>]);
+// <tag:omegacraft:dirty_dusts/uranium>.removeItems([<item:jaopca:omegacraft_dirty_dusts.uranium>]);
+// <tag:omegacraft:dirty_dusts/nickel>.removeItems([<item:jaopca:omegacraft_dirty_dusts.nickel>]);
+// <tag:omegacraft:dirty_dusts/platinum>.removeItems([<item:jaopca:omegacraft_dirty_dusts.platinum>]);
+// <tag:omegacraft:dirty_dusts/zinc>.removeItems([<item:jaopca:omegacraft_dirty_dusts.zinc>]);
+// <tag:omegacraft:dirty_dusts/osmium>.removeItems([<item:jaopca:omegacraft_dirty_dusts.osmium>]);
+// <tag:omegacraft:dirty_dusts/steel>.removeItems([<item:jaopca:omegacraft_dirty_dusts.steel>]);
+// <tag:omegacraft:dirty_dusts/iron>.removeItems([<item:omegacraft:dirty_dust_iron>]);
+// <tag:omegacraft:dirty_dusts/gold>.removeItems([<item:omegacraft:dirty_dust_gold>]);
+// <tag:omegacraft:dirty_dusts/copper>.removeItems([<item:omegacraft:dirty_dust_copper>]);
+// <tag:omegacraft:dirty_dusts/tin>.removeItems([<item:omegacraft:dirty_dust_tin>]);
+// <tag:omegacraft:dirty_dusts/lead>.removeItems([<item:omegacraft:dirty_dust_lead>]);
+// <tag:omegacraft:dirty_dusts/silver>.removeItems([<item:omegacraft:dirty_dust_silver>]);
+// <tag:omegacraft:dirty_dusts/aluminum>.removeItems([<item:omegacraft:dirty_dust_aluminum>]);
+// <tag:omegacraft:dirty_dusts/magmite>.removeItems([<item:omegacraft:dirty_dust_magmite>]);
+// <tag:omegacraft:dirty_dusts/cave_magmite>.removeItems([<item:omegacraft:dirty_dust_cave_magmite>]);

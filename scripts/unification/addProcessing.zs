@@ -102,6 +102,8 @@ var materials as string[] = [
 
     "glowstone",
     "obsidian",
+    "refined_obsidian",
+    "refined_glowstone",
     
     "aluminum_steel",
     "bismuth_brass",
@@ -124,10 +126,11 @@ for material in materials {
     minecraft_smeltingAndBlasting_ingot_from_ore(material);
     minecraft_smeltingAndBlasting_ingot_from_dust(material);
     mekanism_enriching_dust_from_ore(material);
-    mekanism_crushing_dust_from_ingot(material);
-    mekanism_crushing_dirty_dust_from_clump(material);
-    mekanism_crushing_dirty_dust_from_ore(material);
-    mekanism_crushing_dust_from_block(material);
+    crushing_dust_from_gem(material);
+    crushing_dust_from_ingot(material);
+    crushing_dirty_dust_from_clump(material);
+    crushing_dirty_dust_from_ore(material);
+    crushing_dust_from_block(material);
     mekanism_injecting_shard_from_ore(material);
     mekanism_enriching_dust_from_dirty_dust(material);
     mekanism_enriching_nugget_from_clump(material);
