@@ -100,7 +100,7 @@ var materials as string[] = [
     "zinc",
 
 
-    "glowstone",
+    //"glowstone",
     "obsidian",
     "refined_obsidian",
     "refined_glowstone",

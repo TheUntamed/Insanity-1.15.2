@@ -488,6 +488,7 @@ public function crushing_dust_from_ingot(material as string) as void {
             ]
         });
 
+    <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ingot_" + material);
     <recipetype:immersiveengineering:crusher>.addJSONRecipe("immersiveengineering/crusher/" + material + "/dust/from_ingot",
         {
             secondaries: [],
@@ -818,6 +819,7 @@ public function crushing_dirty_dust_from_ore(material as string) as void {
             }
         });
 
+    <recipetype:create:milling>.removeByName("jaopca:create.ore_to_crushed_milling." + material);
     <recipetype:create:milling>.removeByName("jaopca:create.ore_to_material_milling." + material);
     <recipetype:create:milling>.removeByName("create:milling/" + material + "_ore");
     <recipetype:create:milling>.addJSONRecipe("create/milling/" + material + "/dirty_dust/from_ore",
