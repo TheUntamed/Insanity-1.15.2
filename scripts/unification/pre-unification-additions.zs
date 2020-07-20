@@ -8,3 +8,5 @@ import crafttweaker.api.tag.MCTag;
 <tag:forge:ingots/pyridium>.addItems([<item:nethercraft:pyridium_ingot>]);
 <tag:forge:ingots/linium>.addItems([<item:nethercraft:linium_ingot>]);
 <tag:forge:ingots/w>.addItems([<item:nethercraft:w_obsidian_ingot>]);
+
+//<tag:forge:ores/obsidian>.addItems([<item:minecraft:obsidian>]);

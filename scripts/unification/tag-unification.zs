@@ -143,11 +143,10 @@ var modPriorities as string[] = [
     "kubejs",
     "silents_mechanisms",
 	"mekanism",
+    "immersiveengineering",
     "create",
     "pneumaticcraft",
     "jaopca",
-    "omegacraft",
-    "immersiveengineering",
     "nethercraft",
     "forbidden_arcanus",
     "quark",
@@ -167,4 +166,23 @@ private function iterateTags(material as string, form as string, mP as string[])
                 purgeItemTag(itemTag, mP);
             }
         }
+}
+
+// remove and add processing recipes
+for material in materials {
+    minecraft_crafting_table(material);
+
+    minecraft_smeltingAndBlasting_ingot_from_ore(material);
+    minecraft_smeltingAndBlasting_ingot_from_dust(material);
+    mekanism_enriching_dust_from_ore(material);
+    crushing_dust_from_gem(material);
+    crushing_dust_from_ingot(material);
+    crushing_dirty_dust_from_clump(material);
+    crushing_dirty_dust_from_ore(material);
+    crushing_dust_from_block(material);
+    mekanism_injecting_shard_from_ore(material);
+    mekanism_enriching_dust_from_dirty_dust(material);
+    mekanism_enriching_nugget_from_clump(material);
+    mekanism_injecting_clump_from_shard(material);
+    mekanism_injecting_shard_from_crystal(material);
 }

@@ -99,3 +99,5 @@ import crafttweaker.api.tag.MCTag;
 <tag:forge:gear/flint>.createItemTag();
 
 <tag:forge:planks_without_chest>.createItemTag();
+
+//<tag:forge:ores/obsidian>.createItemTag();
