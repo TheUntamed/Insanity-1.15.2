@@ -1,4 +1,4 @@
-#priority 6000
+#priority 600
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -9,68 +9,73 @@ import mods.jei.JEI;
 
 public function addInfoAndHideItem(item as IItemStack) as void {
 
-	logger.info("proc called for " + item.registryName);
-	JEI.hideItem(item);
-	JEI.addInfo(item, ["Test"]);
+	//JEI.hideItem(item);
+	JEI.addInfo(item, ["This item is disabled.\nIf you somehow obtained it please report on github or discord!"]);
 }
 
-// addInfoAndHideItem(<item:minecraft:iron_ingot>);
+for item in <tag:forge:disabled>.items {
+	addInfoAndHideItem(item);
+}
 
-JEI.hideItem(<item:botania:red_dye>);
-JEI.hideItem(<item:botania:green_dye>);
-JEI.hideItem(<item:botania:purple_dye>);
-JEI.hideItem(<item:botania:cyan_dye>);
-JEI.hideItem(<item:botania:light_gray_dye>);
-JEI.hideItem(<item:botania:gray_dye>);
-JEI.hideItem(<item:botania:pink_dye>);
-JEI.hideItem(<item:botania:lime_dye>);
-JEI.hideItem(<item:botania:yellow_dye>);
-JEI.hideItem(<item:botania:light_blue_dye>);
-JEI.hideItem(<item:botania:magenta_dye>);
-JEI.hideItem(<item:botania:orange_dye>);
-JEI.hideItem(<item:botania:blue_dye>);
-JEI.hideItem(<item:botania:brown_dye>);
-JEI.hideItem(<item:botania:black_dye>);
-JEI.hideItem(<item:botania:white_dye>);
-JEI.hideItem(<item:botania:pebble>);
-JEI.hideItem(<item:minecraft:wooden_sword>);
-// JEI.hideItem(<item:minecraft:wooden_shovel>);
-// JEI.hideItem(<item:minecraft:wooden_axe>);
-// JEI.hideItem(<item:minecraft:wooden_pickaxe>);
-// JEI.hideItem(<item:minecraft:wooden_hoe>);
-JEI.hideItem(<item:minecraft:stone_sword>);
-// JEI.hideItem(<item:minecraft:stone_shovel>);
-// JEI.hideItem(<item:minecraft:stone_axe>);
-// JEI.hideItem(<item:minecraft:stone_pickaxe>);
-// JEI.hideItem(<item:minecraft:stone_hoe>);
-// JEI.hideItem(<item:cyclic:sandstone_sword>);
-// JEI.hideItem(<item:cyclic:sandstone_shovel>);
-// JEI.hideItem(<item:cyclic:sandstone_axe>);
-// JEI.hideItem(<item:cyclic:sandstone_pickaxe>);
-// JEI.hideItem(<item:cyclic:sandstone_hoe>);
-JEI.hideItem(<item:vanillahammers:wooden_hammer>);
-JEI.hideItem(<item:vanillahammers:stone_hammer>);
-JEI.hideItem(<item:vanillaexcavators:wooden_excavator>);
-JEI.hideItem(<item:vanillaexcavators:stone_excavator>);
-JEI.hideItem(<item:cyclic:emerald_helmet>);
-JEI.hideItem(<item:cyclic:emerald_chestplate>);
-JEI.hideItem(<item:cyclic:emerald_leggings>);
-JEI.hideItem(<item:cyclic:emerald_boots>);
-JEI.hideItem(<item:cyclic:emerald_sword>);
-JEI.hideItem(<item:cyclic:emerald_pickaxe>);
-JEI.hideItem(<item:cyclic:emerald_axe>);
-JEI.hideItem(<item:cyclic:emerald_hoe>);
-JEI.hideItem(<item:cyclic:emerald_shovel>);
-JEI.hideItem(<item:pickletweaks:wooden_paxel>);
-JEI.hideItem(<item:pickletweaks:stone_paxel>);
-JEI.hideItem(<item:pickletweaks:iron_paxel>);
-JEI.hideItem(<item:pickletweaks:golden_paxel>);
-JEI.hideItem(<item:pickletweaks:diamond_paxel>);
+for item in <tag:create:crushed_ores>.items {
+	addInfoAndHideItem(item);
+}
 
-JEI.hideItem(<item:mekanismtools:wood_paxel>);
-JEI.hideItem(<item:mekanismtools:stone_paxel>);
+addInfoAndHideItem(<item:botania:red_dye>);
+addInfoAndHideItem(<item:botania:green_dye>);
+addInfoAndHideItem(<item:botania:purple_dye>);
+addInfoAndHideItem(<item:botania:cyan_dye>);
+addInfoAndHideItem(<item:botania:light_gray_dye>);
+addInfoAndHideItem(<item:botania:gray_dye>);
+addInfoAndHideItem(<item:botania:pink_dye>);
+addInfoAndHideItem(<item:botania:lime_dye>);
+addInfoAndHideItem(<item:botania:yellow_dye>);
+addInfoAndHideItem(<item:botania:light_blue_dye>);
+addInfoAndHideItem(<item:botania:magenta_dye>);
+addInfoAndHideItem(<item:botania:orange_dye>);
+addInfoAndHideItem(<item:botania:blue_dye>);
+addInfoAndHideItem(<item:botania:brown_dye>);
+addInfoAndHideItem(<item:botania:black_dye>);
+addInfoAndHideItem(<item:botania:white_dye>);
+addInfoAndHideItem(<item:botania:pebble>);
+addInfoAndHideItem(<item:minecraft:wooden_sword>);
+// addInfoAndHideItem(<item:minecraft:wooden_shovel>);
+// addInfoAndHideItem(<item:minecraft:wooden_axe>);
+// addInfoAndHideItem(<item:minecraft:wooden_pickaxe>);
+// addInfoAndHideItem(<item:minecraft:wooden_hoe>);
+addInfoAndHideItem(<item:minecraft:stone_sword>);
+// addInfoAndHideItem(<item:minecraft:stone_shovel>);
+// addInfoAndHideItem(<item:minecraft:stone_axe>);
+// addInfoAndHideItem(<item:minecraft:stone_pickaxe>);
+// addInfoAndHideItem(<item:minecraft:stone_hoe>);
+// addInfoAndHideItem(<item:cyclic:sandstone_sword>);
+// addInfoAndHideItem(<item:cyclic:sandstone_shovel>);
+// addInfoAndHideItem(<item:cyclic:sandstone_axe>);
+// addInfoAndHideItem(<item:cyclic:sandstone_pickaxe>);
+// addInfoAndHideItem(<item:cyclic:sandstone_hoe>);
+addInfoAndHideItem(<item:vanillahammers:wooden_hammer>);
+addInfoAndHideItem(<item:vanillahammers:stone_hammer>);
+addInfoAndHideItem(<item:vanillaexcavators:wooden_excavator>);
+addInfoAndHideItem(<item:vanillaexcavators:stone_excavator>);
+addInfoAndHideItem(<item:cyclic:emerald_helmet>);
+addInfoAndHideItem(<item:cyclic:emerald_chestplate>);
+addInfoAndHideItem(<item:cyclic:emerald_leggings>);
+addInfoAndHideItem(<item:cyclic:emerald_boots>);
+addInfoAndHideItem(<item:cyclic:emerald_sword>);
+addInfoAndHideItem(<item:cyclic:emerald_pickaxe>);
+addInfoAndHideItem(<item:cyclic:emerald_axe>);
+addInfoAndHideItem(<item:cyclic:emerald_hoe>);
+addInfoAndHideItem(<item:cyclic:emerald_shovel>);
+addInfoAndHideItem(<item:pickletweaks:wooden_paxel>);
+addInfoAndHideItem(<item:pickletweaks:stone_paxel>);
+addInfoAndHideItem(<item:pickletweaks:iron_paxel>);
+addInfoAndHideItem(<item:pickletweaks:golden_paxel>);
+addInfoAndHideItem(<item:pickletweaks:diamond_paxel>);
 
-JEI.hideItem(<item:pickletweaks:watering_can>);
+addInfoAndHideItem(<item:mekanismtools:wood_paxel>);
+addInfoAndHideItem(<item:mekanismtools:stone_paxel>);
+
+addInfoAndHideItem(<item:pickletweaks:watering_can>);
 
 //Hide a Category
 //JEI.hideCategory(String category);

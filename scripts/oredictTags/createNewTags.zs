@@ -1,8 +1,10 @@
-#priority 2001
+#priority 3001
 
 import crafttweaker.api.tag.MCTag;
 
 //<tag:forge:>.createItemTag();
+
+// <tag:forge:disabled>.createItemTag();
 
 <tag:forge:saw>.createItemTag();
 

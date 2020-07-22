@@ -100,6 +100,8 @@ var materials as MCTag[] = [
     <tag:forge:ores/zinc>
 ];
 
+//<tag:forge:disabled>.createItemTag();
+logger.info("Prio Test: ore-unification!");
 for itemTag in materials {
         if (itemTag.isItemTag) {
             if (itemTag.items.length > 1) {

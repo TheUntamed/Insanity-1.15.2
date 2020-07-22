@@ -99,11 +99,11 @@ var materials as string[] = [
     //"yellorite",
     "zinc",
 
-
     "glowstone",
     "obsidian",
     
     "aluminum_steel",
+    "biotite",
     "bismuth_brass",
     "bismuth_steel",
     "brass",
@@ -153,6 +153,12 @@ var modPriorities as string[] = [
     "botania"
 ];
 
+// Should be in createNewTags.zs but that throws nullpointer due to prio problem
+<tag:forge:disabled>.createItemTag();
+
+preunificationRemovals();
+
+// Clean up tags
 for m in materials {
     for f in forms {
         iterateTags(m, f, modPriorities);
@@ -172,13 +178,13 @@ private function iterateTags(material as string, form as string, mP as string[])
 for material in materials {
     minecraft_crafting_table(material);
 
-    minecraft_smeltingAndBlasting_ingot_from_ore(material);
-    minecraft_smeltingAndBlasting_ingot_from_dust(material);
+    minecraft_blasting_ingot_from_dust(material);
+    // minecraft_smeltingAndBlasting_ingot_from_ore(material);
     mekanism_enriching_dust_from_ore(material);
     crushing_dust_from_gem(material);
     crushing_dust_from_ingot(material);
     crushing_dirty_dust_from_clump(material);
-    crushing_dirty_dust_from_ore(material);
+    crushing_clump_from_ore(material);
     crushing_dust_from_block(material);
     mekanism_injecting_shard_from_ore(material);
     mekanism_enriching_dust_from_dirty_dust(material);

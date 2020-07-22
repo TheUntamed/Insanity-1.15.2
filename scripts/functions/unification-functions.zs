@@ -1,5 +1,5 @@
-#priority 3000
-//Has to be loaded before all Recipe and tag changes
+#priority 2000
+//Has to be loaded before all recipe and tag changes
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -7,8 +7,10 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 import mods.jei.JEI;
 
-// Clean Item Tags
 
+// blastFurnace.removeAll();
+
+// Clean Item Tags
 public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) as IItemStack {
 	for mod in modPriorities {
 		for item in tag.items {
@@ -26,10 +28,11 @@ public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) a
 }
 
 public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
+    logger.info("Prio Test: unification-function purgeItemTag!");
 	for item in tag.items {
 		if (!item.matches(getPreferredItemInTag(tag, modPriorities))) {
-            JEI.addInfo(item, ["Test"]);
 			tag.removeItems(item);
+            <tag:forge:disabled>.addItems(item);
 			removeAllProcessingFor(item);
 			
 			// Fallback recipe
@@ -39,13 +42,24 @@ public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 }
 
 public function purgeOreTag(tag as MCTag) as void {
+    logger.info("Prio Test: unification-function purgeOreTag!");
 	for item in tag.items {
         var itemOwner = item.registryName.split(":")[0];
 		if (!(itemOwner == "minecraft") && !(itemOwner == "dannys_ores")) {
 			tag.removeItems(item);
+            <tag:forge:disabled>.addItems(item);
 			removeAllProcessingFor(item);
 		}
 	}
+}
+
+// Used by tag-unification. Called for each duplicate item which tag gets removed.
+// Removes all recipes with "item" as output.
+public function removeAllProcessingFor(item as IItemStack) as void {
+
+    craftingTable.removeRecipe(item);
+	furnace.removeRecipe(item);
+	blastFurnace.removeRecipe(item);
 }
 
 // Clean Recipes
@@ -64,37 +78,35 @@ public function minecraft_crafting_table(material as string) as void {
 
 }
 
-public function minecraft_smeltingAndBlasting_ingot_from_ore(material as string) as void {
-    var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
-    var ingotItemTag = BracketHandlers.getTag("forge:ingots/" + material);
-    var ore = oreItemTag.first();
-    var ingot = ingotItemTag.first();
+// public function minecraft_smeltingAndBlasting_ingot_from_ore(material as string) as void {
+//     var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
+//     var ingotItemTag = BracketHandlers.getTag("forge:ingots/" + material);
+//     var ore = oreItemTag.first();
+//     var ingot = ingotItemTag.first();
 
-    if (ore.matches(<item:minecraft:air>)) {
-        // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + oreItemTag.commandString);
-        return;
-    }
+//     if (ore.matches(<item:minecraft:air>)) {
+//         // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + oreItemTag.commandString);
+//         return;
+//     }
 
-	if (ingot.matches(<item:minecraft:air>)) {
-        // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + ingotItemTag.commandString);
-        return;
-    }
+// 	if (ingot.matches(<item:minecraft:air>)) {
+//         // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + ingotItemTag.commandString);
+//         return;
+//     }
 
-    var xp = 1.0;
-    var cookingTime = 200;
-    blastFurnace.removeRecipe(ingot, ore);
-    furnace.removeRecipe(ingot, ore);
-    blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_ore", ingot, oreItemTag, xp, cookingTime/2);
-    //furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_ore", ingot, oreItemTag, xp, cookingTime);
-}
+//     var xp = 1.0;
+//     var cookingTime = 200;
+//     blastFurnace.removeRecipe(ingot, ore);
+//     furnace.removeRecipe(ingot, ore);
+//     blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_ore", ingot, oreItemTag, xp, cookingTime/2);
+//     furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_ore", ingot, oreItemTag, xp, cookingTime);
+// }
 
-public function minecraft_smeltingAndBlasting_ingot_from_dust(material as string) as void {
+public function minecraft_blasting_ingot_from_dust(material as string) as void {
     var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
     var ingotItemTag = BracketHandlers.getTag("forge:ingots/" + material);
-    var chunkItemTag = BracketHandlers.getTag("silents_mechanisms:chunks/" + material);
     var dust = dustItemTag.first();
     var ingot = ingotItemTag.first();
-    var chunk = chunkItemTag.first();
 
     if (dust.matches(<item:minecraft:air>)) {
         // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + dustItemTag.commandString);
@@ -108,12 +120,50 @@ public function minecraft_smeltingAndBlasting_ingot_from_dust(material as string
 
     var xp = 0.0;
     var cookingTime = 200;
-    blastFurnace.removeRecipe(ingot, dust);
-    furnace.removeRecipe(ingot, dust);
-    blastFurnace.removeRecipe(ingot, chunk);
-    furnace.removeRecipe(ingot, chunk);
+    //blastFurnace.removeRecipe(ingot, dust);
+    //removeBlastingRecipeByName("jaopca:silents_mechanisms.chunks_to_material_blasting." + material);
+    //removeBlastingRecipeByName("jaopca:create.crushed_to_ingot_blasting." + material);
     blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_dust", ingot, dustItemTag, xp, cookingTime/2);
-    //furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_dust", ingot, dustItemTag, xp, cookingTime);
+}
+
+public function minecraft_blasting_ingot_from_ore(material as string) as void {
+    var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
+    var ingotItemTag = BracketHandlers.getTag("forge:ingots/" + material);
+
+    var ore = oreItemTag.first();
+    var ingot = ingotItemTag.first();
+
+    if (ore.matches(<item:minecraft:air>)) {
+        // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + oreItemTag.commandString);
+        return;
+    }
+
+    if (ingot.matches(<item:minecraft:air>)) {
+        // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + ingotItemTag.commandString);
+        return;
+    }
+
+    //blastFurnace.removeRecipe(ingot, oreItemTag);
+}
+
+public function minecraft_blasting_ingot_from_dense_ore(material as string) as void {
+    var oreItemTag = BracketHandlers.getTag("forge:ores/dense_" + material);
+    var ingotItemTag = BracketHandlers.getTag("forge:ingots/" + material);
+
+    var ore = oreItemTag.first();
+    var ingot = ingotItemTag.first();
+
+    if (ore.matches(<item:minecraft:air>)) {
+        // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + oreItemTag.commandString);
+        return;
+    }
+
+    if (ingot.matches(<item:minecraft:air>)) {
+        // logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + ingotItemTag.commandString);
+        return;
+    }
+
+    //blastFurnace.removeRecipe(ingot, oreItemTag);
 }
 
 public function mekanism_enriching_dust_from_ore(material as string) as void {
@@ -257,7 +307,7 @@ public function mekanism_enriching_nugget_from_clump(material as string) as void
         return;
     } 
 
-    var outputCount = 2;
+    var outputCount = 4;
     //<recipetype:crafting>.removeByName("mekanism:processing/" + material + "/nugget/from_clump");
     <recipetype:mekanism:enriching>.addJSONRecipe("mekanism/enriching/" + material + "/nugget/from_clump",
     {
@@ -772,8 +822,6 @@ public function crushing_gem_dust_from_ore(material as string) as void {
             ]
         });
 
-    //<recipetype:silents_mechanisms:crushing>.removeByName("jaopca:silents_mechanisms.ore_to_chunks." + material);
-    //<recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/" + material + "_chunks");
     <recipetype:silents_mechanisms:crushing>.addJSONRecipe("silents_mechanisms/crushing/" + material + "/gem/from_ore",
         {
             process_time: 300,
@@ -805,25 +853,24 @@ public function crushing_gem_dust_from_ore(material as string) as void {
     // logger.info("crushing_gem_from_clump with " + material + " succesfully ran!");
 }
 
-public function crushing_dirty_dust_from_ore(material as string) as void {
+public function crushing_clump_from_ore(material as string) as void {
 	var oresItemTag = BracketHandlers.getTag("forge:ores/" + material);
-    var dirty_dustItemTag = BracketHandlers.getTag("mekanism:dirty_dusts/" + material);
+    var clumpItemTag = BracketHandlers.getTag("mekanism:clumps/" + material);
     var ore = oresItemTag.first();
-    var dirty_dust = dirty_dustItemTag.first();
+    var clump = clumpItemTag.first();
 
     var outputCount = 2;
     if (ore.matches(<item:minecraft:air>)) {
-        // logger.info("crushing_dirty_dust_from_ore: No items exist in the ItemTag " + oresItemTag.commandString);
+        // logger.info("crushing_clump_from_ore: No items exist in the ItemTag " + oresItemTag.commandString);
         return;
     }
 
-    if (dirty_dust.matches(<item:minecraft:air>)) {
-        // logger.info("crushing_dirty_dust_from_ore: No items exist in the ItemTag " + dirty_dustItemTag.commandString);
+    if (clump.matches(<item:minecraft:air>)) {
+        // logger.info("crushing_clump_from_ore: No items exist in the ItemTag " + clumpItemTag.commandString);
         return;
     }
 
-    <recipetype:crafting>.removeByName("mekanism:processing/" + material + "/dirty_dust/from_ore");
-    <recipetype:mekanism:crushing>.addJSONRecipe("mekanism/crushing/" + material + "/dirty_dust/from_ore",
+    <recipetype:mekanism:crushing>.addJSONRecipe("mekanism/crushing/" + material + "/clump/from_ore",
         {
             input: {
                 ingredient: {
@@ -832,7 +879,7 @@ public function crushing_dirty_dust_from_ore(material as string) as void {
                 
             },
             output: {
-                item: dirty_dust.registryName,
+                item: clump.registryName,
                 count: outputCount
             }
         });
@@ -840,7 +887,7 @@ public function crushing_dirty_dust_from_ore(material as string) as void {
     <recipetype:create:milling>.removeByName("jaopca:create.ore_to_crushed_milling." + material);
     <recipetype:create:milling>.removeByName("jaopca:create.ore_to_material_milling." + material);
     <recipetype:create:milling>.removeByName("create:milling/" + material + "_ore");
-    <recipetype:create:milling>.addJSONRecipe("create/milling/" + material + "/dirty_dust/from_ore",
+    <recipetype:create:milling>.addJSONRecipe("create/milling/" + material + "/clump/from_ore",
         {
             ingredients: [
                 {
@@ -849,7 +896,7 @@ public function crushing_dirty_dust_from_ore(material as string) as void {
             ], 
             results: [
                     {
-                        item: dirty_dust.registryName,
+                        item: clump.registryName,
                         count: outputCount
                     }
             ]
@@ -858,7 +905,7 @@ public function crushing_dirty_dust_from_ore(material as string) as void {
     <recipetype:create:crushing>.removeByName("jaopca:create.ore_to_crushed_crushing." + material);
     <recipetype:create:crushing>.removeByName("jaopca:create.ore_to_material_crushing." + material);
     <recipetype:create:crushing>.removeByName("create:crushing/" + material + "_ore");
-    <recipetype:create:crushing>.addJSONRecipe("create/crushing/" + material + "/dirty_dust/from_ore",
+    <recipetype:create:crushing>.addJSONRecipe("create/crushing/" + material + "/clump/from_ore",
         {
             ingredients: [
                 {
@@ -867,7 +914,7 @@ public function crushing_dirty_dust_from_ore(material as string) as void {
             ], 
             results: [
                     {
-                        item: dirty_dust.registryName,
+                        item: clump.registryName,
                         count: outputCount
                     }
             ]
@@ -875,7 +922,7 @@ public function crushing_dirty_dust_from_ore(material as string) as void {
 
     <recipetype:silents_mechanisms:crushing>.removeByName("jaopca:silents_mechanisms.ore_to_chunks." + material);
     <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/" + material + "_chunks");
-    <recipetype:silents_mechanisms:crushing>.addJSONRecipe("silents_mechanisms/crushing/" + material + "/dirty_dust/from_ore",
+    <recipetype:silents_mechanisms:crushing>.addJSONRecipe("silents_mechanisms/crushing/" + material + "/clump/from_ore",
         {
             process_time: 300,
             ingredient: {
@@ -883,18 +930,18 @@ public function crushing_dirty_dust_from_ore(material as string) as void {
             },
             results: [
                 {
-                    item: dirty_dust.registryName,
+                    item: clump.registryName,
                     count: outputCount
                 }
             ]
         });
 
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ore_" + material);
-    <recipetype:immersiveengineering:crusher>.addJSONRecipe("immersiveengineering/crusher/" + material + "/dirty_dust/from_ore",
+    <recipetype:immersiveengineering:crusher>.addJSONRecipe("immersiveengineering/crusher/" + material + "/clump/from_ore",
         {
             secondaries: [],
             result: {
-                item: dirty_dust.registryName,
+                item: clump.registryName,
                 count: outputCount
             },
             input: {
@@ -903,5 +950,5 @@ public function crushing_dirty_dust_from_ore(material as string) as void {
             energy: 3000
         });
 
-    // logger.info("crushing_dirty_dust_from_clump with " + material + " succesfully ran!");
+    // logger.info("crushing_clump_from_clump with " + material + " succesfully ran!");
 }
