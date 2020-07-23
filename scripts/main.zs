@@ -153,10 +153,17 @@ var modPriorities as string[] = [
     "botania"
 ];
 
+logger.info("Prio Tes: tag-unification");
+
 // Should be in createNewTags.zs but that throws nullpointer due to prio problem
 <tag:forge:disabled>.createItemTag();
 
-preunificationRemovals();
+preUnificationRemovals();
+
+createNewTags();
+// itemsToTags();
+// removeFromTags();
+preUnificationAdditions();
 
 // Clean up tags
 for m in materials {

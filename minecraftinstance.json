@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-07-22T16:33:07.0337003Z",
+  "lastPlayed": "2020-07-23T09:32:29.5287037Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -5120,7 +5120,7 @@
       "dateInstalled": "2020-05-09T13:11:27.2865933Z",
       "dateUpdated": "2020-07-07T19:33:33.8841618Z",
       "dateLastUpdateAttempted": "2020-07-07T19:33:33.8841618Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14412,84 +14412,75 @@
       "addonID": 288885,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2856527,
-        "displayName": "FastWorkbench-1.15.2-3.0.0.jar",
-        "fileName": "FastWorkbench-1.15.1-3.0.0.jar",
-        "fileDate": "2020-01-08T00:29:47.187Z",
-        "fileLength": 28831,
+        "id": 3003114,
+        "displayName": "FastWorkbench-1.15.2-3.1.1.jar",
+        "fileName": "FastWorkbench-1.15.2-3.1.1.jar",
+        "fileDate": "2020-07-12T18:24:35.06Z",
+        "fileLength": 33854,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2856/527/FastWorkbench-1.15.1-3.0.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3003/114/FastWorkbench-1.15.2-3.1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 38106963,
+            "id": 0,
             "addonId": 283644,
             "type": 3,
-            "fileId": 2856527
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1275056414,
-            "type": 3
+            "fingerprint": 3328962480,
+            "type": 0
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 3464325349,
+            "type": 0
           },
           {
             "foldername": "shadows",
-            "fingerprint": 1468091739,
-            "type": 3
+            "fingerprint": 3884355853,
+            "type": 0
+          },
+          {
+            "foldername": "javascript",
+            "fingerprint": 2856925791,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 1063136111,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 3475149098,
+        "packageFingerprint": 1981890523,
         "gameVersion": [
-          "1.15.2",
-          "1.15.1"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000001",
-            "gameVersion": "1.15.1",
-            "gameVersionReleaseDate": "2019-12-17T00:00:00Z",
-            "gameVersionName": "1.15.1"
-          }
+          "1.15.2"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1737988,
-        "projectId": 288885,
-        "packageFingerprintId": 395387506,
-        "gameVersionDateReleased": "2019-12-17T00:00:00Z",
-        "gameVersionMappingId": 2055526,
-        "gameVersionId": 7675,
-        "gameId": 432,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "FastWorkbench-1.15.1-3.0.0.jar"
+        "FileNameOnDisk": "FastWorkbench-1.15.2-3.1.1.jar"
       },
       "dateInstalled": "2020-05-09T13:11:20.6705544Z",
-      "dateUpdated": "2019-05-09T13:11:20.6705544Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-07-23T09:07:37.582588Z",
+      "dateLastUpdateAttempted": "2020-07-23T09:07:37.582588Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -14650,102 +14641,84 @@
       "addonID": 313477,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2923207,
-        "displayName": "fxcontrol-1.15-1.0.2.jar",
-        "fileName": "fxcontrol-1.15-1.0.2.jar",
-        "fileDate": "2020-04-07T04:43:56.203Z",
-        "fileLength": 109106,
+        "id": 3002650,
+        "displayName": "fxcontrol-1.15-1.0.3.jar",
+        "fileName": "fxcontrol-1.15-1.0.3.jar",
+        "fileDate": "2020-07-12T04:24:54.68Z",
+        "fileLength": 109311,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2923/207/fxcontrol-1.15-1.0.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3002/650/fxcontrol-1.15-1.0.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 39454138,
-            "addonId": 291874,
-            "type": 2,
-            "fileId": 2923207
-          },
-          {
-            "id": 39454141,
-            "addonId": 227083,
-            "type": 2,
-            "fileId": 2923207
-          },
-          {
-            "id": 39454139,
-            "addonId": 269024,
-            "type": 2,
-            "fileId": 2923207
-          },
-          {
-            "id": 39454140,
+            "id": 0,
             "addonId": 268655,
             "type": 2,
-            "fileId": 2923207
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 291874,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 269024,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 227083,
+            "type": 2,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3872961723,
-            "type": 3
+            "fingerprint": 121290104,
+            "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 1070083578,
-            "type": 3
+            "fingerprint": 1424604796,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 75319543,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 323493713,
+        "packageFingerprint": 50296907,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1819828,
-        "projectId": 313477,
-        "packageFingerprintId": 435956947,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2166863,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "fxcontrol-1.15-1.0.2.jar"
+        "FileNameOnDisk": "fxcontrol-1.15-1.0.3.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2865933Z",
-      "dateUpdated": "2019-05-09T13:11:27.2865933Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-07-23T09:08:05.8955267Z",
+      "dateLastUpdateAttempted": "2020-07-23T09:08:05.8955267Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -20110,96 +20083,65 @@
       "addonID": 324973,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2883098,
-        "displayName": "DungeonCrawl-1.15.2-1.6.3",
-        "fileName": "DungeonCrawl-1.15.2-1.6.3.jar",
-        "fileDate": "2020-02-16T18:03:57.637Z",
-        "fileLength": 268088,
-        "releaseType": 2,
+        "id": 3010071,
+        "displayName": "DungeonCrawl-1.15.2-2.0.1",
+        "fileName": "DungeonCrawl-1.15.2-2.0.1.jar",
+        "fileDate": "2020-07-20T20:29:22.723Z",
+        "fileLength": 385812,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2883/98/DungeonCrawl-1.15.2-1.6.3.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3010/71/DungeonCrawl-1.15.2-2.0.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 39092084,
-            "addonId": 220318,
-            "type": 2,
-            "fileId": 2883098
-          }
-        ],
+        "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3295636475,
-            "type": 3
+            "fingerprint": 41885631,
+            "type": 0
           },
           {
             "foldername": "xiroc",
-            "fingerprint": 1084276582,
-            "type": 3
+            "fingerprint": 2666687293,
+            "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 2210626486,
-            "type": 3
+            "fingerprint": 175409657,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 4253522632,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 4148033969,
+        "packageFingerprint": 3680446470,
         "gameVersion": [
           "Forge",
           "1.15.2",
           "1.15.1"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000001",
-            "gameVersion": "1.15.1",
-            "gameVersionReleaseDate": "2019-12-17T00:00:00Z",
-            "gameVersionName": "1.15.1"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1769953,
-        "projectId": 324973,
-        "packageFingerprintId": 411324985,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2100543,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "DungeonCrawl-1.15.2-1.6.3.jar"
+        "FileNameOnDisk": "DungeonCrawl-1.15.2-2.0.1.jar"
       },
       "dateInstalled": "2020-05-09T13:11:20.6745442Z",
-      "dateUpdated": "2019-05-09T13:11:20.6745442Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-07-23T09:07:07.3719867Z",
+      "dateLastUpdateAttempted": "2020-07-23T09:07:07.3719867Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -20367,14 +20309,14 @@
       "addonID": 280294,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2998460,
-        "displayName": "FpsReducer-mc1.15.2-1.16.jar",
-        "fileName": "FpsReducer-mc1.15.2-1.16.jar",
-        "fileDate": "2020-07-07T14:29:02.22Z",
-        "fileLength": 87682,
+        "id": 3009114,
+        "displayName": "FpsReducer-mc1.15.2-1.17.jar",
+        "fileName": "FpsReducer-mc1.15.2-1.17.jar",
+        "fileDate": "2020-07-19T16:18:45.497Z",
+        "fileLength": 87814,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2998/460/FpsReducer-mc1.15.2-1.16.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3009/114/FpsReducer-mc1.15.2-1.17.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -20382,17 +20324,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 309796235,
+            "fingerprint": 1148492386,
             "type": 0
           },
           {
             "foldername": "bre2el",
-            "fingerprint": 3044893400,
+            "fingerprint": 3573704670,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 299673307,
+            "fingerprint": 2000598392,
             "type": 0
           },
           {
@@ -20406,7 +20348,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3929267204,
+        "packageFingerprint": 1343531707,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -20420,12 +20362,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "FpsReducer-mc1.15.2-1.16.jar"
+        "FileNameOnDisk": "FpsReducer-mc1.15.2-1.17.jar"
       },
       "dateInstalled": "2020-05-09T13:11:20.6575892Z",
-      "dateUpdated": "2020-07-07T15:54:51.5906927Z",
-      "dateLastUpdateAttempted": "2020-07-07T15:54:51.5906927Z",
-      "status": 3,
+      "dateUpdated": "2020-07-23T09:07:50.4569213Z",
+      "dateLastUpdateAttempted": "2020-07-23T09:07:50.4569213Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

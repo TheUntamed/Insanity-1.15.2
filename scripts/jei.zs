@@ -7,11 +7,11 @@ import mods.jei.JEI;
 //Hide a single Item
 //JEI.hideItem(IItemStack stack);
 
-public function addInfoAndHideItem(item as IItemStack) as void {
+// public function addInfoAndHideItem(item as IItemStack) as void {
 
-	//JEI.hideItem(item);
-	JEI.addInfo(item, ["This item is disabled.\nIf you somehow obtained it please report on github or discord!"]);
-}
+// 	//JEI.hideItem(item);
+// 	JEI.addInfo(item, ["This item is disabled.\nIf you somehow obtained it please report on github or discord!"]);
+// }
 
 for item in <tag:forge:disabled>.items {
 	addInfoAndHideItem(item);
