@@ -159,10 +159,8 @@ logger.info("Prio Tes: tag-unification");
 <tag:forge:disabled>.createItemTag();
 
 preUnificationRemovals();
-
 createNewTags();
-// itemsToTags();
-// removeFromTags();
+preUnificationTagAdditions();
 preUnificationAdditions();
 
 // Clean up tags
@@ -199,3 +197,6 @@ for material in materials {
     mekanism_injecting_clump_from_shard(material);
     mekanism_injecting_shard_from_crystal(material);
 }
+
+postUnificationTagRemovals();
+postUnificationRemovals();

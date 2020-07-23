@@ -6,10 +6,9 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 import mods.jei.JEI;
 
-logger.info("Prio Tes: pre-unification-removals");
+logger.info("Prio Test: pre-unification-removals");
 
 public function preUnificationRemovals() as void {
-    logger.info("Prio Tes: preUnificationRemovals()");
     <recipetype:mekanism:combining>.removeAll();
     blastFurnace.removeAll();
 
