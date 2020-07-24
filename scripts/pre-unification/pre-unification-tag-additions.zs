@@ -1,6 +1,6 @@
-#priority 2000
+#priority 2102
 
-logger.info("Prio Test: itemsToTags");
+logger.info("Prio Tes: pre-unification-tag-additions");
 
 public function preUnificationTagAdditions() as void {
 

@@ -1,4 +1,6 @@
-#priority 101
+#priority 2003
+
+logger.info("Prio Test: post-unification-removals");
 
 public function postUnificationRemovals() as void {
     <recipetype:create:mixing>.removeByName("create:mixing/crushed_brass");

@@ -153,13 +153,14 @@ var modPriorities as string[] = [
     "botania"
 ];
 
-logger.info("Prio Tes: tag-unification");
+logger.info("Prio Test: main-unification");
 
 // Should be in createNewTags.zs but that throws nullpointer due to prio problem
 <tag:forge:disabled>.createItemTag();
 
 preUnificationRemovals();
 createNewTags();
+
 preUnificationTagAdditions();
 preUnificationAdditions();
 
@@ -197,6 +198,8 @@ for material in materials {
     mekanism_injecting_clump_from_shard(material);
     mekanism_injecting_shard_from_crystal(material);
 }
+
+oreUnification();
 
 postUnificationTagRemovals();
 postUnificationRemovals();

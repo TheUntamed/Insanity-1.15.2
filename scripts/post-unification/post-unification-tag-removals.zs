@@ -1,5 +1,7 @@
 #priority 2002
 
+logger.info("Prio Test: post-unification-tag-removals");
+
 public function postUnificationTagRemovals() as void {
     //Dye tag cleanup
     for item in <tag:forge:dyes>.items {

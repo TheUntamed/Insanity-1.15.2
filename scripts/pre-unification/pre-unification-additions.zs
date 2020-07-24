@@ -1,10 +1,10 @@
-#priority 999
+#priority 2101
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
 
-logger.info("Prio Tes: pre-unification-additions");
+logger.info("Prio Test: pre-unification-additions");
 
 public function preUnificationAdditions() as void {
     <tag:forge:ingots/neridium>.addItems([<item:nethercraft:neridium_ingot>]);

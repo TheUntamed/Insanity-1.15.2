@@ -7,6 +7,8 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 import mods.jei.JEI;
 
+logger.info("Prio Test: unification-functions!");
+
 // Clean Item Tags
 public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) as IItemStack {
 	for mod in modPriorities {
@@ -25,7 +27,6 @@ public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) a
 }
 
 public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
-    logger.info("Prio Test: unification-function purgeItemTag!");
 	for item in tag.items {
 		if (!item.matches(getPreferredItemInTag(tag, modPriorities))) {
 			tag.removeItems(item);
@@ -39,7 +40,6 @@ public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 }
 
 public function purgeOreTag(tag as MCTag) as void {
-    logger.info("Prio Test: unification-function purgeOreTag!");
 	for item in tag.items {
         var itemOwner = item.registryName.split(":")[0];
 		if (!(itemOwner == "minecraft") && !(itemOwner == "dannys_ores")) {
