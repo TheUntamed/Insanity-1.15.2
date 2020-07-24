@@ -79,6 +79,7 @@ var materials as string[] = [
     //"mana_infused",
     //"mithril",
     "nagrilite",
+    "neridium",
     "nickel",
     "osmium",
     "platinum",
@@ -155,9 +156,6 @@ var modPriorities as string[] = [
 
 logger.info("Prio Test: main-unification");
 
-// Should be in createNewTags.zs but that throws nullpointer due to prio problem
-<tag:forge:disabled>.createItemTag();
-
 preUnificationRemovals();
 createNewTags();
 
@@ -183,15 +181,17 @@ private function iterateTags(material as string, form as string, mP as string[])
 // remove and add processing recipes
 for material in materials {
     minecraft_crafting_table(material);
+    minecraft_crafting_ingot_from_block(material);
 
     minecraft_blasting_ingot_from_dust(material);
-    // minecraft_smeltingAndBlasting_ingot_from_ore(material);
     mekanism_enriching_dust_from_ore(material);
+    create_splashing_dust_from_dirty_dust(material);
     crushing_dust_from_gem(material);
     crushing_dust_from_ingot(material);
     crushing_dirty_dust_from_clump(material);
     crushing_clump_from_ore(material);
     crushing_dust_from_block(material);
+    crushing_gem_dust_from_ore(material);
     mekanism_injecting_shard_from_ore(material);
     mekanism_enriching_dust_from_dirty_dust(material);
     mekanism_enriching_nugget_from_clump(material);
@@ -201,5 +201,6 @@ for material in materials {
 
 oreUnification();
 
+postUnificationTagAdditions();
 postUnificationTagRemovals();
 postUnificationRemovals();

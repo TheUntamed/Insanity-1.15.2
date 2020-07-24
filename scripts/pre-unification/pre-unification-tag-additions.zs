@@ -1,10 +1,16 @@
 #priority 2102
 
-logger.info("Prio Tes: pre-unification-tag-additions");
+logger.info("Prio Test: pre-unification-tag-additions");
 
 public function preUnificationTagAdditions() as void {
 
-    //Plates
+    // Mekanism
+    <tag:mekanism:dirty_dusts>.addItems([<item:kubejs:dirty_dust_redstone>]);
+    <tag:mekanism:dirty_dusts/redstone>.addItems([<item:kubejs:dirty_dust_redstone>]);
+    <tag:mekanism:clumps>.addItems([<item:kubejs:clump_redstone>]);
+    <tag:mekanism:clumps/redstone>.addItems([<item:kubejs:clump_redstone>]);
+
+    // Plates
     // <tag:forge:plates/advanced_alloy>.addItems([<item:kubejs:advanced_alloy_plate>]);
     // <tag:forge:plates/aluminum>.addItems([<item:kubejs:aluminum_plate>]);
     // <tag:forge:plates/brass>.addItems([<item:kubejs:brass_plate>]);
@@ -46,7 +52,7 @@ public function preUnificationTagAdditions() as void {
     // <tag:forge:plates/yellow_garnet>.addItems([<item:kubejs:yellow_garnet_plate>]);
     // <tag:forge:plates/zinc>.addItems([<item:kubejs:zinc_plate>]);
 
-    //Ingots
+    // Ingots
     // <tag:forge:ingots/advanced_alloy>.addItems([<item:kubejs:advanced_alloy_ingot>]);
     // <tag:forge:ingots/chrome>.addItems([<item:kubejs:chrome_ingot>]);
     // <tag:forge:ingots/iridium_alloy>.addItems([<item:kubejs:iridium_alloy_ingot>]);
@@ -56,34 +62,45 @@ public function preUnificationTagAdditions() as void {
     // <tag:forge:ingots/tungstensteel>.addItems([<item:kubejs:tungstensteel_ingot>]);
     <tag:forge:ingots/redstone>.addItems([<item:extendedcrafting:redstone_ingot>]);
 
-    //Gems
+    // Gems
     // <tag:forge:gems/peridot>.addItems([<item:kubejs:peridot_gem>]);
     // <tag:forge:gems/red_garnet>.addItems([<item:kubejs:red_garnet_gem>]);
     // <tag:forge:gems/ruby>.addItems([<item:kubejs:ruby_gem>]);
     // <tag:forge:gems/sapphire>.addItems([<item:kubejs:sapphire_gem>]);
     // <tag:forge:gems/yellow_garnet>.addItems([<item:kubejs:yellow_garnet_gem>]);
 
-    //Hammer
+    // Nuggets
+    <tag:forge:nuggets/redstone>.addItems([<item:extendedcrafting:redstone_nugget>]);
+
+    // Dusts
+    <tag:forge:dusts/lapis>.addItems([<item:mekanism:dust_lapis_lazuli>]);
+
+    // Blocks
+    <tag:forge:storage_blocks/redstone>.addItems([<item:extendedcrafting:redstone_ingot_block>]);
+
+    // Hammer
     <tag:forge:hammer>.addItems([<item:engineerstools:crushing_hammer>, <item:projecte:dm_hammer>, <item:projecte:rm_hammer>, <item:vanillahammers:slime_hammer>, <item:vanillahammers:redstone_hammer>, <item:vanillahammers:quartz_hammer>, <item:vanillahammers:prismarine_hammer>, <item:vanillahammers:paper_hammer>, <item:vanillahammers:obsidian_hammer>, <item:vanillahammers:nether_hammer>, <item:vanillahammers:lapis_hammer>, <item:vanillahammers:glowstone_hammer>, <item:vanillahammers:fiery_hammer>, <item:vanillahammers:ender_hammer>, <item:vanillahammers:emerald_hammer>, <item:vanillahammers:coal_hammer>, <item:vanillahammers:bone_hammer>, <item:vanillahammers:diamond_hammer>, <item:vanillahammers:golden_hammer>, <item:vanillahammers:iron_hammer>]);
     <tag:forge:hammer/weak>.addItems([<item:vanillahammers:bone_hammer>, <item:vanillahammers:nether_hammer>, <item:vanillahammers:coal_hammer>, <item:vanillahammers:golden_hammer>, <item:vanillahammers:redstone_hammer>, <item:vanillahammers:quartz_hammer>, <item:vanillahammers:lapis_hammer>, <item:vanillahammers:glowstone_hammer>, <item:vanillahammers:iron_hammer>, <item:engineerstools:crushing_hammer>, <item:vanillahammers:prismarine_hammer>, <item:vanillahammers:obsidian_hammer>, <item:vanillahammers:ender_hammer>, <item:vanillahammers:fiery_hammer>, <item:vanillahammers:emerald_hammer>, <item:vanillahammers:diamond_hammer>, <item:projecte:dm_hammer>, <item:projecte:rm_hammer>]);
     <tag:forge:hammer/sturdy>.addItems([<item:vanillahammers:redstone_hammer>, <item:vanillahammers:quartz_hammer>, <item:vanillahammers:lapis_hammer>, <item:vanillahammers:glowstone_hammer>, <item:vanillahammers:iron_hammer>, <item:engineerstools:crushing_hammer>, <item:vanillahammers:prismarine_hammer>, <item:vanillahammers:obsidian_hammer>, <item:vanillahammers:ender_hammer>, <item:vanillahammers:fiery_hammer>, <item:vanillahammers:emerald_hammer>, <item:vanillahammers:diamond_hammer>, <item:projecte:dm_hammer>, <item:projecte:rm_hammer>]);
     <tag:forge:hammer/strong>.addItems([<item:vanillahammers:prismarine_hammer>, <item:vanillahammers:obsidian_hammer>, <item:vanillahammers:ender_hammer>, <item:vanillahammers:fiery_hammer>, <item:vanillahammers:emerald_hammer>, <item:vanillahammers:diamond_hammer>, <item:projecte:dm_hammer>, <item:projecte:rm_hammer>]);
     <tag:forge:hammer/powerful>.addItems([<item:projecte:dm_hammer>, <item:projecte:rm_hammer>]);
 
-    //Gears
+    // Gears
     <tag:forge:gear>.addItems([<item:kubejs:flint_gear>, <item:titanium:gold_gear>, <item:titanium:iron_gear>, <item:titanium:diamond_gear>]);
     <tag:forge:gear/weak>.addItems([<item:kubejs:flint_gear>, <item:titanium:gold_gear>]);
     <tag:forge:gear/strong>.addItems([<item:titanium:iron_gear>, <item:titanium:diamond_gear>]);
     <tag:forge:gear/flint>.addItems([<item:kubejs:flint_gear>]);
 
-    //nethercraft
+    // nethercraft
     <tag:minecraft:logs>.addItems([<item:nethercraft:glowood_log>, <item:nethercraft:stripped_glowood_log>]);
+    <tag:forge:dusts/w>.addItems([<item:nethercraft:w_dust>]);
+    <tag:forge:dusts/foulite>.addItems([<item:nethercraft:foulite_dust>]);
 
-    //Chests
+    // Chests
     <tag:forge:chests>.addItems([<item:midnight:bogshroom_chest>, <item:midnight:viridshroom_chest>, <item:midnight:dewshroom_chest>, <item:midnight:nightshroom_chest>, <item:midnight:dead_wood_chest>, <item:midnight:dark_willow_chest>, <item:midnight:shadowroot_chest>, <item:quark:mushroom_chest>, <item:quark:prismarine_chest>, <item:quark:purpur_chest>, <item:quark:nether_brick_chest>, <item:nethercraft:glowood_chest>]);
     <tag:forge:chests/wooden>.addItems([<item:nethercraft:glowood_chest>]);
 
-    //colorants
+    // colorants
     <tag:forge:colorant/red>.addItems([<item:botania:red_mushroom>, <item:botania:red_petal>, <item:simplefarming:raspberries>, <item:pamhc2crops:raspberryitem>, <item:simplefarming:strawberries>, <item:pamhc2crops:strawberryitem>, <item:minecraft:beetroot>, <item:minecraft:poppy>, <item:buzzierbees:red_hibiscus>, <item:minecraft:red_tulip>, <item:biomesoplenty:rose>, <item:minecraft:fire_coral>, <item:minecraft:fire_coral_fan>]);
     <tag:forge:colorant/green>.addItems([<item:botania:green_mushroom>, <item:botania:green_petal>, <item:quark:cactus_paste>, <item:buzzierbees:jolyce>]);
     <tag:forge:colorant/purple>.addItems([<item:botania:purple_mushroom>, <item:botania:purple_petal>, <item:biomesoplenty:lavender>, <item:upgrade_aquatic:pickerel_weed_purple>, <item:buzzierbees:columbine>, <item:buzzierbees:violet>, <item:biomesoplenty:violet>, <item:buzzierbees:purple_hibiscus>]);
@@ -101,7 +118,7 @@ public function preUnificationTagAdditions() as void {
     <tag:forge:colorant/black>.addItems([<item:botania:black_mushroom>, <item:botania:black_petal>, <item:simplefarming:blackberries>, <item:pamhc2crops:blackberryitem>, <item:forbidden_arcanus:edelwood_oil>, <item:minecraft:wither_rose>, <item:minecraft:ink_sac>]);
     <tag:forge:colorant/white>.addItems([<item:botania:white_mushroom>, <item:botania:white_petal>, <item:minecraft:lily_of_the_valley>, <item:minecraft:bone_meal>, <item:upgrade_aquatic:searocket_white>, <item:buzzierbees:white_clover>]);
 
-    //Planks
+    // Planks
     var modList as string[] = [
         "minecraft",
         "nethercraft",
@@ -120,7 +137,7 @@ public function preUnificationTagAdditions() as void {
         }
     }
 
-    //Stripped Log/Wood
+    // Stripped Log/Wood
     for item in <tag:minecraft:logs>.items {
         var itemName = item.registryName.split(":")[1];
         var stripped = itemName.split("_")[0];
@@ -129,7 +146,7 @@ public function preUnificationTagAdditions() as void {
         }
     }
 
-    //Others
+    // Others
     <tag:forge:bookshelves>.addItems([<item:upgrade_aquatic:driftwood_bookshelf>, <item:endergetic:poise_bookshelf>, <item:quark:dark_oak_bookshelf>, <item:quark:acacia_bookshelf>, <item:quark:jungle_bookshelf>, <item:quark:birch_bookshelf>, <item:quark:spruce_bookshelf>, <item:nethercraft:glowood_bookshelf>, <item:buzzierbees:hive_bookshelf>, <item:bambootiful:dried_bamboo_bookshelf>, <item:bambootiful:bamboo_bookshelf>]);
     <tag:forge:fiber>.addItems([<item:simplefarming:cotton>]);
     <tag:forge:fiber/cotton>.addItems([<item:simplefarming:cotton>]);

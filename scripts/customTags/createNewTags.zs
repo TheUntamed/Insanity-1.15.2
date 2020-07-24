@@ -2,210 +2,109 @@
 
 import crafttweaker.api.tag.MCTag;
 
-logger.info("Prio Tes: createNewTags");
+logger.info("Prio Test: createNewTags");
 
 public function createNewTags() as void {
-    //<tag:forge:>.createItemTag();
 
-    // <tag:forge:disabled>.createItemTag();
+    var custom as MCTag[] = [
+        <tag:forge:disabled>,
 
-    <tag:forge:saw>.createItemTag();
+        <tag:mekanism:dirty_dusts/redstone>,
+        <tag:mekanism:clumps/redstone>,
 
-    <tag:forge:furnace>.createItemTag();
-    <tag:forge:blast_furnace>.createItemTag();
-    <tag:forge:smoker>.createItemTag();
+        // <tag:forge:ores/obsidian>
 
-    <tag:forge:stripped>.createItemTag();
+        <tag:forge:saw>,
 
-    <tag:forge:gems/peridot>.createItemTag();
-    <tag:forge:gems/red_garnet>.createItemTag();
-    <tag:forge:gems/yellow_garnet>.createItemTag();
+        <tag:forge:furnace>,
+        <tag:forge:blast_furnace>,
+        <tag:forge:smoker>,
 
-    // <tag:silents_mechanisms:chunks/iron>.createItemTag();
-    // <tag:silents_mechanisms:chunks/gold>.createItemTag();
-    // <tag:silents_mechanisms:chunks/copper>.createItemTag();
-    // <tag:silents_mechanisms:chunks/tin>.createItemTag();
-    // <tag:silents_mechanisms:chunks/silver>.createItemTag();
-    // <tag:silents_mechanisms:chunks/lead>.createItemTag();
-    // <tag:silents_mechanisms:chunks/nickel>.createItemTag();
-    // <tag:silents_mechanisms:chunks/platinum>.createItemTag();
-    // <tag:silents_mechanisms:chunks/zinc>.createItemTag();
-    // <tag:silents_mechanisms:chunks/bismuth>.createItemTag();
-    // <tag:silents_mechanisms:chunks/aluminum>.createItemTag();
-    // <tag:silents_mechanisms:chunks/uranium>.createItemTag();
+        <tag:forge:stripped>,
 
-    <tag:forge:ingots/advanced_alloy>.createItemTag();
-    <tag:forge:ingots/chrome>.createItemTag();
-    <tag:forge:ingots/iridium_alloy>.createItemTag();
-    <tag:forge:ingots/iridium>.createItemTag();
-    <tag:forge:ingots/titanium>.createItemTag();
-    <tag:forge:ingots/tungstensteel>.createItemTag();
-    <tag:forge:ingots/redstone>.createItemTag();
-    <tag:forge:ingots/neridium>.createItemTag();
-    <tag:forge:ingots/pyridium>.createItemTag();
-    <tag:forge:ingots/linium>.createItemTag();
-    <tag:forge:ingots/w>.createItemTag();
+        <tag:forge:gems/peridot>,
+        <tag:forge:gems/red_garnet>,
+        <tag:forge:gems/yellow_garnet>,
 
-    <tag:forge:plates/advanced_alloy>.createItemTag();
-    <tag:forge:plates/carbon>.createItemTag();
-    <tag:forge:plates/chrome>.createItemTag();
-    <tag:forge:plates/coal>.createItemTag();
-    <tag:forge:plates/diamond>.createItemTag();
-    <tag:forge:plates/emerald>.createItemTag();
-    <tag:forge:plates/invar>.createItemTag();
-    <tag:forge:plates/iridium_alloy>.createItemTag();
-    <tag:forge:plates/iridium>.createItemTag();
-    <tag:forge:plates/lapis>.createItemTag();
-    <tag:forge:plates/lazurite>.createItemTag();
-    <tag:forge:plates/magnalium>.createItemTag();
-    <tag:forge:plates/obsidian>.createItemTag();
-    <tag:forge:plates/peridot>.createItemTag();
-    <tag:forge:plates/platinum>.createItemTag();
-    <tag:forge:plates/quartz>.createItemTag();
-    <tag:forge:plates/red_garnet>.createItemTag();
-    <tag:forge:plates/redstone>.createItemTag();
-    <tag:forge:plates/refined_iron>.createItemTag();
-    <tag:forge:plates/ruby>.createItemTag();
-    <tag:forge:plates/sapphire>.createItemTag();
-    <tag:forge:plates/silicon>.createItemTag();
-    <tag:forge:plates/titanium>.createItemTag();
-    <tag:forge:plates/tungsten>.createItemTag();
-    <tag:forge:plates/tungstensteel>.createItemTag();
-    <tag:forge:plates/wood>.createItemTag();
-    <tag:forge:plates/yellow_garnet>.createItemTag();
-    <tag:forge:plates/zinc>.createItemTag();
+        <tag:forge:ingots/advanced_alloy>,
+        <tag:forge:ingots/chrome>,
+        <tag:forge:ingots/iridium_alloy>,
+        <tag:forge:ingots/iridium>,
+        <tag:forge:ingots/titanium>,
+        <tag:forge:ingots/tungstensteel>,
+        <tag:forge:ingots/redstone>,
+        <tag:forge:ingots/neridium>,
+        <tag:forge:ingots/pyridium>,
+        <tag:forge:ingots/linium>,
+        <tag:forge:ingots/w>,
 
-    <tag:forge:colorant/red>.createItemTag();
-    <tag:forge:colorant/green>.createItemTag();
-    <tag:forge:colorant/purple>.createItemTag();
-    <tag:forge:colorant/cyan>.createItemTag();
-    <tag:forge:colorant/light_gray>.createItemTag();
-    <tag:forge:colorant/gray>.createItemTag();
-    <tag:forge:colorant/pink>.createItemTag();
-    <tag:forge:colorant/lime>.createItemTag();
-    <tag:forge:colorant/yellow>.createItemTag();
-    <tag:forge:colorant/light_blue>.createItemTag();
-    <tag:forge:colorant/magenta>.createItemTag();
-    <tag:forge:colorant/orange>.createItemTag();
-    <tag:forge:colorant/blue>.createItemTag();
-    <tag:forge:colorant/brown>.createItemTag();
-    <tag:forge:colorant/black>.createItemTag();
-    <tag:forge:colorant/white>.createItemTag();
+        <tag:forge:nuggets/redstone>,
 
-    <tag:forge:hammer>.createItemTag();
-    <tag:forge:hammer/weak>.createItemTag();
-    <tag:forge:hammer/sturdy>.createItemTag();
-    <tag:forge:hammer/strong>.createItemTag();
-    <tag:forge:hammer/powerful>.createItemTag();
+        <tag:forge:dusts/lapis>,
+        <tag:forge:dusts/w>,
+        <tag:forge:dusts/foulite>,
 
-    <tag:forge:gear>.createItemTag();
-    <tag:forge:gear/weak>.createItemTag();
-    <tag:forge:gear/strong>.createItemTag();
-    <tag:forge:gear/flint>.createItemTag();
+        <tag:forge:plates/advanced_alloy>,
+        <tag:forge:plates/carbon>,
+        <tag:forge:plates/chrome>,
+        <tag:forge:plates/coal>,
+        <tag:forge:plates/diamond>,
+        <tag:forge:plates/emerald>,
+        <tag:forge:plates/invar>,
+        <tag:forge:plates/iridium_alloy>,
+        <tag:forge:plates/iridium>,
+        <tag:forge:plates/lapis>,
+        <tag:forge:plates/lazurite>,
+        <tag:forge:plates/magnalium>,
+        <tag:forge:plates/obsidian>,
+        <tag:forge:plates/peridot>,
+        <tag:forge:plates/platinum>,
+        <tag:forge:plates/quartz>,
+        <tag:forge:plates/red_garnet>,
+        <tag:forge:plates/redstone>,
+        <tag:forge:plates/refined_iron>,
+        <tag:forge:plates/ruby>,
+        <tag:forge:plates/sapphire>,
+        <tag:forge:plates/silicon>,
+        <tag:forge:plates/titanium>,
+        <tag:forge:plates/tungsten>,
+        <tag:forge:plates/tungstensteel>,
+        <tag:forge:plates/wood>,
+        <tag:forge:plates/yellow_garnet>,
+        <tag:forge:plates/zinc>,
 
-    <tag:forge:planks_without_chest>.createItemTag();
+        <tag:forge:colorant/red>,
+        <tag:forge:colorant/green>,
+        <tag:forge:colorant/purple>,
+        <tag:forge:colorant/cyan>,
+        <tag:forge:colorant/light_gray>,
+        <tag:forge:colorant/gray>,
+        <tag:forge:colorant/pink>,
+        <tag:forge:colorant/lime>,
+        <tag:forge:colorant/yellow>,
+        <tag:forge:colorant/light_blue>,
+        <tag:forge:colorant/magenta>,
+        <tag:forge:colorant/orange>,
+        <tag:forge:colorant/blue>,
+        <tag:forge:colorant/brown>,
+        <tag:forge:colorant/black>,
+        <tag:forge:colorant/white>,
 
-    //<tag:forge:ores/obsidian>.createItemTag();
+        <tag:forge:hammer>,
+        <tag:forge:hammer/weak>,
+        <tag:forge:hammer/sturdy>,
+        <tag:forge:hammer/strong>,
+        <tag:forge:hammer/powerful>,
+
+        <tag:forge:gear>,
+        <tag:forge:gear/weak>,
+        <tag:forge:gear/strong>,
+        <tag:forge:gear/flint>,
+
+        <tag:forge:planks_without_chest>
+    ];
+
+    for itemTag in custom {
+        itemTag.createItemTag();
+    }
 }
-
-// //<tag:forge:>.createItemTag();
-
-// // <tag:forge:disabled>.createItemTag();
-
-// <tag:forge:saw>.createItemTag();
-
-// <tag:forge:furnace>.createItemTag();
-// <tag:forge:blast_furnace>.createItemTag();
-// <tag:forge:smoker>.createItemTag();
-
-// <tag:forge:stripped>.createItemTag();
-
-// <tag:forge:gems/peridot>.createItemTag();
-// <tag:forge:gems/red_garnet>.createItemTag();
-// <tag:forge:gems/yellow_garnet>.createItemTag();
-
-// // <tag:silents_mechanisms:chunks/iron>.createItemTag();
-// // <tag:silents_mechanisms:chunks/gold>.createItemTag();
-// // <tag:silents_mechanisms:chunks/copper>.createItemTag();
-// // <tag:silents_mechanisms:chunks/tin>.createItemTag();
-// // <tag:silents_mechanisms:chunks/silver>.createItemTag();
-// // <tag:silents_mechanisms:chunks/lead>.createItemTag();
-// // <tag:silents_mechanisms:chunks/nickel>.createItemTag();
-// // <tag:silents_mechanisms:chunks/platinum>.createItemTag();
-// // <tag:silents_mechanisms:chunks/zinc>.createItemTag();
-// // <tag:silents_mechanisms:chunks/bismuth>.createItemTag();
-// // <tag:silents_mechanisms:chunks/aluminum>.createItemTag();
-// // <tag:silents_mechanisms:chunks/uranium>.createItemTag();
-
-// <tag:forge:ingots/advanced_alloy>.createItemTag();
-// <tag:forge:ingots/chrome>.createItemTag();
-// <tag:forge:ingots/iridium_alloy>.createItemTag();
-// <tag:forge:ingots/iridium>.createItemTag();
-// <tag:forge:ingots/titanium>.createItemTag();
-// <tag:forge:ingots/tungstensteel>.createItemTag();
-// <tag:forge:ingots/redstone>.createItemTag();
-// <tag:forge:ingots/neridium>.createItemTag();
-// <tag:forge:ingots/pyridium>.createItemTag();
-// <tag:forge:ingots/linium>.createItemTag();
-// <tag:forge:ingots/w>.createItemTag();
-
-// <tag:forge:plates/advanced_alloy>.createItemTag();
-// <tag:forge:plates/carbon>.createItemTag();
-// <tag:forge:plates/chrome>.createItemTag();
-// <tag:forge:plates/coal>.createItemTag();
-// <tag:forge:plates/diamond>.createItemTag();
-// <tag:forge:plates/emerald>.createItemTag();
-// <tag:forge:plates/invar>.createItemTag();
-// <tag:forge:plates/iridium_alloy>.createItemTag();
-// <tag:forge:plates/iridium>.createItemTag();
-// <tag:forge:plates/lapis>.createItemTag();
-// <tag:forge:plates/lazurite>.createItemTag();
-// <tag:forge:plates/magnalium>.createItemTag();
-// <tag:forge:plates/obsidian>.createItemTag();
-// <tag:forge:plates/peridot>.createItemTag();
-// <tag:forge:plates/platinum>.createItemTag();
-// <tag:forge:plates/quartz>.createItemTag();
-// <tag:forge:plates/red_garnet>.createItemTag();
-// <tag:forge:plates/redstone>.createItemTag();
-// <tag:forge:plates/refined_iron>.createItemTag();
-// <tag:forge:plates/ruby>.createItemTag();
-// <tag:forge:plates/sapphire>.createItemTag();
-// <tag:forge:plates/silicon>.createItemTag();
-// <tag:forge:plates/titanium>.createItemTag();
-// <tag:forge:plates/tungsten>.createItemTag();
-// <tag:forge:plates/tungstensteel>.createItemTag();
-// <tag:forge:plates/wood>.createItemTag();
-// <tag:forge:plates/yellow_garnet>.createItemTag();
-// <tag:forge:plates/zinc>.createItemTag();
-
-// <tag:forge:colorant/red>.createItemTag();
-// <tag:forge:colorant/green>.createItemTag();
-// <tag:forge:colorant/purple>.createItemTag();
-// <tag:forge:colorant/cyan>.createItemTag();
-// <tag:forge:colorant/light_gray>.createItemTag();
-// <tag:forge:colorant/gray>.createItemTag();
-// <tag:forge:colorant/pink>.createItemTag();
-// <tag:forge:colorant/lime>.createItemTag();
-// <tag:forge:colorant/yellow>.createItemTag();
-// <tag:forge:colorant/light_blue>.createItemTag();
-// <tag:forge:colorant/magenta>.createItemTag();
-// <tag:forge:colorant/orange>.createItemTag();
-// <tag:forge:colorant/blue>.createItemTag();
-// <tag:forge:colorant/brown>.createItemTag();
-// <tag:forge:colorant/black>.createItemTag();
-// <tag:forge:colorant/white>.createItemTag();
-
-// <tag:forge:hammer>.createItemTag();
-// <tag:forge:hammer/weak>.createItemTag();
-// <tag:forge:hammer/sturdy>.createItemTag();
-// <tag:forge:hammer/strong>.createItemTag();
-// <tag:forge:hammer/powerful>.createItemTag();
-
-// <tag:forge:gear>.createItemTag();
-// <tag:forge:gear/weak>.createItemTag();
-// <tag:forge:gear/strong>.createItemTag();
-// <tag:forge:gear/flint>.createItemTag();
-
-// <tag:forge:planks_without_chest>.createItemTag();
-
-// //<tag:forge:ores/obsidian>.createItemTag();

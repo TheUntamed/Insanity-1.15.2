@@ -3,7 +3,10 @@
 logger.info("Prio Test: post-unification-removals");
 
 public function postUnificationRemovals() as void {
+    <recipetype:mekanism:crushing>.removeByName("mekanism:processing/redstone/from_ore"); //Doesn't work. Why?
     <recipetype:create:mixing>.removeByName("create:mixing/crushed_brass");
+    <recipetype:create:crushing>.removeByName("mekanism:processing/lapis_lazuli/to_dust");
+    <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/redstone");
 
     // <recipetype:mekanism:crushing>.removeByName("");
     // <recipetype:mekanism:combining>.removeByName("");

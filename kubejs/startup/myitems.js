@@ -5,6 +5,8 @@ events.listen('item.registry', function (event) {
 
     //Mine
     event.create('flint_gear').add()
+    event.create('dirty_dust_redstone').add()
+    event.create('clump_redstone').add()
 
     //Gregtech CE
     // event.create('carbon_fibers').add()
