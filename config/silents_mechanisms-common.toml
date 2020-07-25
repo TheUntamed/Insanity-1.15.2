@@ -1,7 +1,7 @@
 
 [general]
 	#Shows a message in chat warning the player that the mod is early in development
-	showBetaWelcomeMessage = true
+	showBetaWelcomeMessage = false
 
 [machine]
 
@@ -15,7 +15,7 @@
 [world]
 	#Set to 'false' to completely disable ore generation from this mod, ignoring all other settings.
 	#You can also enable/disable ores individually, but this is useful if you plan to use another mod for ore generation.
-	masterSwitch = true
+	masterSwitch = false
 
 	#Configs for specific ores. Set veinCount to zero to disable an ore.
 	[world.ores]

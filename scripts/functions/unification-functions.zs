@@ -81,7 +81,7 @@ public function minecraft_crafting_ingot_from_block(material as string) as void 
         return;
     }
 
-    removeRecipeByName("silents_mechanisms:" + material + "ingots_from_block");
+    removeRecipeByName("silents_mechanisms:metals/" + material + "_ingot_from_block");
     removeRecipeByName("jaopca:storage_blocks.to_material." + material);
     addShapeless(ingot*9, [block], false);
 }
@@ -599,7 +599,8 @@ public function crushing_dust_from_ingot(material as string) as void {
 }
 
 public function crushing_dust_from_block(material as string) as void {
-    var blockItemTag = BracketHandlers.getTag("forge:storage_blocks/" + material);
+    var blockItemTagString = "forge:storage_blocks/" + material;
+    var blockItemTag = BracketHandlers.getTag(blockItemTagString);
     var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
     var block = blockItemTag.first();
     var dust = dustItemTag.first();
@@ -624,7 +625,7 @@ public function crushing_dust_from_block(material as string) as void {
     {
         input: {
             ingredient: {
-                item: block.registryName
+                tag: blockItemTagString
             }
             
         },
@@ -638,7 +639,7 @@ public function crushing_dust_from_block(material as string) as void {
         {
             ingredients: [
                 {
-                    item: block.registryName
+                    tag: blockItemTagString
                 }
             ], 
             results: [
@@ -654,7 +655,7 @@ public function crushing_dust_from_block(material as string) as void {
         {
             ingredients: [
                 {
-                    item: block.registryName
+                    tag: blockItemTagString
                 }
             ], 
             results: [
@@ -669,7 +670,7 @@ public function crushing_dust_from_block(material as string) as void {
         {
             process_time: 300,
             ingredient: {
-                item: block.registryName
+                tag: blockItemTagString
             },
             results: [
                 {
@@ -687,7 +688,7 @@ public function crushing_dust_from_block(material as string) as void {
                 count: outputCount
             },
             input: {
-                item: block.registryName
+                tag: blockItemTagString
             },
             energy: 3000
         });

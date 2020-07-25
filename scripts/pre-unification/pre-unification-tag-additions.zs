@@ -76,8 +76,7 @@ public function preUnificationTagAdditions() as void {
     <tag:forge:dusts/lapis>.addItems([<item:mekanism:dust_lapis_lazuli>]);
 
     // Blocks
-    <tag:forge:storage_blocks/redstone>.addItems([<item:extendedcrafting:redstone_ingot_block>, <item:smooth_quertz>]);
-    <tag:forge:storage_blocks/quartz>.addItems([<item:smooth_quertz>]);
+    <tag:forge:storage_blocks/redstone>.addItems([<item:extendedcrafting:redstone_ingot_block>]);
 
     // Hammer
     <tag:forge:hammer>.addItems([<item:engineerstools:crushing_hammer>, <item:projecte:dm_hammer>, <item:projecte:rm_hammer>, <item:vanillahammers:slime_hammer>, <item:vanillahammers:redstone_hammer>, <item:vanillahammers:quartz_hammer>, <item:vanillahammers:prismarine_hammer>, <item:vanillahammers:paper_hammer>, <item:vanillahammers:obsidian_hammer>, <item:vanillahammers:nether_hammer>, <item:vanillahammers:lapis_hammer>, <item:vanillahammers:glowstone_hammer>, <item:vanillahammers:fiery_hammer>, <item:vanillahammers:ender_hammer>, <item:vanillahammers:emerald_hammer>, <item:vanillahammers:coal_hammer>, <item:vanillahammers:bone_hammer>, <item:vanillahammers:diamond_hammer>, <item:vanillahammers:golden_hammer>, <item:vanillahammers:iron_hammer>]);
