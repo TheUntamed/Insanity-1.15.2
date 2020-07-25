@@ -1,0 +1,25 @@
+{
+    "type": "interactio:item_fluid_transform",
+    "inputs": [
+      {
+        "tag": "mekanism:dirty_dusts/tin",
+        "count": 1
+      }
+    ],
+    "fluid": {
+      "fluid": "water"
+    },
+    "output": {
+      "entries": [
+        {
+          "result": {
+            "item": "silents_mechanisms:tin_dust",
+            "count": 1
+          },
+          "weight": 100
+        }
+      ],
+      "rolls": 1
+    },
+    "consume_fluid": 0.0
+  }

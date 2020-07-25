@@ -9,7 +9,7 @@
 	#If true, a player will only be affected while holding the ore in a hand. If false, it just has to be in the inventory.
 	onlyWhileSelected = false
 	#If true, all variants of this ore type will be disabled.
-	disableAllVariants = false
+	disableAllVariants = true
 
 	#Vanilla Stone Variants
 	[general.minecraft]
