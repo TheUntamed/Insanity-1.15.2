@@ -121,6 +121,44 @@ public function minecraft_blasting_ingot_from_dust(material as string) as void {
 
 // Mekanism
 
+public function mekanism_enriching_gem_from_ore(material as string) as void {
+    
+    var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
+    var gemItemTag = BracketHandlers.getTag("forge:gems/" + material);
+    var ore = oreItemTag.first();
+    var gem = gemItemTag.first();
+
+    if (ore.matches(<item:minecraft:air>)) {
+        // logger.info("mekanism_enriching_gem_from_ore: No items exist in the ItemTag " + oreItemTag.commandString);
+        return;
+    }
+
+    if (gem.matches(<item:minecraft:air>)) {
+        // logger.info("mekanism_enriching_gem_from_ore: No items exist in the ItemTag " + gemItemTag.commandString);
+        return;
+    } 
+
+    var outputCount = 2;
+
+    <recipetype:mekanism:enriching>.removeByName("jaopca:mekanism.ore_to_material." + material);
+    <recipetype:mekanism:enriching>.removeByName("mekanism:processing/" + material + "/from_ore");
+    <recipetype:mekanism:enriching>.addJSONRecipe("mekanism/enriching/" + material + "/gem/from_ore",
+    {
+        input: {
+            ingredient: {
+                tag: "forge:ores/" + material
+            }
+            
+        },
+        output: {
+            item: gem.registryName,
+            count: outputCount
+        }
+    });
+
+    // logger.info("mekanism_enriching_dust_from_ore with " + material + " succesfully ran!");
+}
+
 public function mekanism_enriching_dust_from_ore(material as string) as void {
 	switch (material) {
 		// case "redstone":

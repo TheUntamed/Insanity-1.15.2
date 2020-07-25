@@ -15,6 +15,7 @@ public function postUnificationRemovals() as void {
     <recipetype:create:crushing>.removeByName("mekanism:processing/lapis_lazuli/to_dust");
     <recipetype:create:crushing>.removeByName("create:crushing/glowstone");
     <recipetype:create:crushing>.removeByName("create:crushing/nether_quartz_ore");
+    <recipetype:create:crushing>.removeByName("create:crushing/prismarine_crystals");
 
     <recipetype:create:splashing>.removeByName("create:splashing/crushed_brass");
 
@@ -24,6 +25,7 @@ public function postUnificationRemovals() as void {
 
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/quartz2");
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/quartz");
+    <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coal_block");
 
     // <recipetype:mekanism:crushing>.removeByName("");
     // <recipetype:mekanism:combining>.removeByName("");

@@ -23,7 +23,7 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 * *CraftTweaker* (6.0.0.24 --> 6.0.0.34)
 * *Cucumber Library* (3.0.8 --> 3.0.9)
 * *Cyclic* (0.4.2 --> 0.6.0)
-* *Cyclops Core* (1.7.0 --> 1.7.1)
+* *Cyclops Core* (1.7.0 --> 1.8.0)
 * *Danny's Ores* (1.0 --> 1.2)
 * *Dimensional Dungeons* (1.06 --> 1.07)
 * *DimStorage* (3.1.5 --> 3.1.6)
@@ -58,7 +58,7 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 * *Nature's Aura* (28.2 --> 28.4)
 * *Nether Enhancement* (1.0.1.2 --> 1.0.2.2)
 * *Overloaded Compressed Blocks* (1.0.12 --> 1.0.13)
-* *Pam's HarvestCraft 2 - Food Core* (1.0.4 --> 1.0.8)
+* *Pam's HarvestCraft 2 - Food Core* (1.0.4 --> 1.0.9)
 * *Patchouli* (1.2-34 --> 1.2-35)
 * *Pickle Tweaks* (4.0.3 --> 4.0.4)
 * *Placebo* (3.0.2 --> 3.1.0)
@@ -66,6 +66,11 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 * *RandomPatches* (1.21.1.2 --> 1.22.0.0)
 * *Refined Storage* (1.8.4 --> 1.8.8)
 * *Refined Storage Addons* (0.6.1 --> 0.6.3)
+* *RFTools Base* (1.1.1 --> 1.1.3)
+* *RFTools Builder* (2.1.3 --> 2.1.5)
+* *RFTools Power* (2.1.1 --> 2.2.0)
+* *RFTools Storage* (1.1.4 --> 1.1.6)
+* *RFTools Utility* (2.1.3 --> 2.1.5)
 * *Silent Lib* (4.6.4+56 --> 4.6.6+59)
 * *Silent's Mechanisms* (0.7.2+52 --> 0.8.0+59)
 * *Simple Farming* (1.2.9 --> 1.3.0)
@@ -82,6 +87,7 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 
 * *Corail Tombstone* (removed from curseforge)
 * *Corail Woodcutter* (removed from curseforge)
+* *Omegacraft* (it looks like a cool mod but sadly it's completely incompatible)
 * *Ring of the Miner [FORGE]*
 
 **Changes**
