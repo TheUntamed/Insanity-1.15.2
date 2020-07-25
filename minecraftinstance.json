@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-07-25T09:48:09.7787744Z",
+  "lastPlayed": "2020-07-25T12:01:04.7193906Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1321,6 +1321,21 @@
       "fileSize": 52700
     },
     {
+      "folderName": "MysticalAdaptations-1.15.2-1.2.1.jar",
+      "fingerprint": 386188386,
+      "fileDateHash": 3147797735,
+      "sectionID": 8,
+      "individualFingerprints": [
+        386188386
+      ],
+      "status": 1,
+      "timestamp": "2020-07-25T11:54:19.3657092Z",
+      "lastWriteTimeUtc": "2020-07-25T09:47:52.8381733Z",
+      "queryTimestamp": "2020-07-25T11:54:20.3178487Z",
+      "fileCount": 1,
+      "fileSize": 102481
+    },
+    {
       "folderName": "healingcf_1.15-2.3.jar",
       "fingerprint": 3586527934,
       "fileDateHash": 3367173350,
@@ -2102,19 +2117,18 @@
     },
     {
       "folderName": "New World",
-      "fingerprint": 3263781631,
-      "fileDateHash": 2262590281,
+      "fingerprint": 2486582828,
+      "fileDateHash": 522213398,
       "sectionID": 10,
       "individualFingerprints": [
         12490019,
+        146242118,
         167907723,
         223308221,
-        262651462,
         299090877,
         374005858,
         403418361,
         415143723,
-        446777675,
         475063797,
         500036828,
         532652010,
@@ -2123,6 +2137,8 @@
         573304622,
         581463101,
         596501910,
+        623772541,
+        647415746,
         653384223,
         660734254,
         665634539,
@@ -2134,10 +2150,13 @@
         918971602,
         939530328,
         941979815,
+        980521574,
         994132931,
         1046675565,
+        1061538864,
         1119408772,
         1119950986,
+        1129063081,
         1170925343,
         1174775678,
         1202686080,
@@ -2146,12 +2165,9 @@
         1261108614,
         1271102851,
         1320343376,
-        1363126115,
         1367033121,
         1434901704,
         1441311283,
-        1444311164,
-        1449479865,
         1457659538,
         1497449824,
         1540447798,
@@ -2168,16 +2184,18 @@
         1712955430,
         1722796223,
         1783675463,
-        1801854486,
         1891027954,
         1944711787,
         1972004122,
         1977999349,
         1983866811,
+        2000018605,
         2023887263,
         2039055248,
         2087788994,
+        2114945137,
         2116705990,
+        2142176400,
         2142302360,
         2170040651,
         2226088383,
@@ -2186,10 +2204,10 @@
         2344543534,
         2351288860,
         2372576555,
-        2405226326,
         2498825621,
         2533287518,
         2535579161,
+        2541809421,
         2580899546,
         2607377540,
         2657988940,
@@ -2197,16 +2215,17 @@
         2676828205,
         2689352434,
         2722414464,
+        2747663457,
         2754028482,
         2758042829,
         2787079466,
         2793775409,
-        2796519852,
         2833334567,
         2843449744,
-        2856014482,
+        2854955147,
         2865110075,
         2875861240,
+        2884594386,
         2885589422,
         2911591640,
         2916918521,
@@ -2216,12 +2235,9 @@
         3077219311,
         3116127440,
         3180452684,
-        3191449386,
         3203246459,
         3222941837,
-        3239881473,
         3259846797,
-        3268569443,
         3269699001,
         3272786162,
         3352114057,
@@ -2234,14 +2250,12 @@
         3468082701,
         3512469075,
         3531340904,
+        3531917217,
         3562195310,
-        3609514797,
+        3579701133,
         3638551417,
-        3676043196,
         3721783437,
-        3725200712,
         3769038449,
-        3769957971,
         3771282984,
         3771282984,
         3771282984,
@@ -2256,19 +2270,21 @@
         3964272420,
         3976826408,
         3999781357,
+        4087715715,
         4128032996,
         4140870832,
         4192398683,
         4249803323,
         4267399394,
         4268361585,
+        4289584779,
         4290497290,
         4294246967
       ],
       "status": 1,
-      "timestamp": "2020-07-25T09:46:02.6348139Z",
-      "lastWriteTimeUtc": "2020-07-25T09:46:02.0683018Z",
-      "queryTimestamp": "2020-07-25T09:46:04.4170458Z",
+      "timestamp": "2020-07-25T11:54:19.3676804Z",
+      "lastWriteTimeUtc": "2020-07-25T11:54:18.838591Z",
+      "queryTimestamp": "2020-07-25T11:54:20.3328397Z",
       "fileCount": 22,
       "fileSize": 0
     },
@@ -3383,21 +3399,6 @@
       "fileSize": 1404300
     },
     {
-      "folderName": "MysticalAdaptations-1.15.2-1.2.jar",
-      "fingerprint": 2306645976,
-      "fileDateHash": 873580066,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2306645976
-      ],
-      "status": 1,
-      "timestamp": "2020-07-01T12:24:30.1283455Z",
-      "lastWriteTimeUtc": "2020-07-01T11:26:33.4644788Z",
-      "queryTimestamp": "2020-07-24T13:17:38.6419852Z",
-      "fileCount": 1,
-      "fileSize": 102202
-    },
-    {
       "folderName": "World-Stripper-1.7.2-1.15.1.jar",
       "fingerprint": 4184242649,
       "fileDateHash": 1657410833,
@@ -3444,7 +3445,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-07-25T09:46:05.1052615Z",
+  "lastPreviousMatchUpdate": "2020-07-25T11:54:20.8417081Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.15.2",
@@ -6025,26 +6026,26 @@
       "addonID": 238086,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2995766,
-        "displayName": "kubejs-2.7.1.2.jar",
-        "fileName": "kubejs-2.7.1.2.jar",
-        "fileDate": "2020-07-03T20:26:49.603Z",
-        "fileLength": 486623,
+        "id": 3014300,
+        "displayName": "kubejs-2.7.1.7.jar",
+        "fileName": "kubejs-2.7.1.7.jar",
+        "fileDate": "2020-07-25T11:46:46.63Z",
+        "fileLength": 489826,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2995/766/kubejs-2.7.1.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3014/300/kubejs-2.7.1.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 238222,
+            "addonId": 268655,
             "type": 2,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 268655,
+            "addonId": 238222,
             "type": 2,
             "fileId": 0
           },
@@ -6059,12 +6060,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2626291164,
+            "fingerprint": 880308304,
             "type": 0
           },
           {
             "foldername": "dev",
-            "fingerprint": 4047967826,
+            "fingerprint": 2987972875,
             "type": 0
           },
           {
@@ -6079,7 +6080,7 @@
           },
           {
             "foldername": "kubejs.mixins.json",
-            "fingerprint": 2461491732,
+            "fingerprint": 1756089956,
             "type": 0
           },
           {
@@ -6089,11 +6090,11 @@
           },
           {
             "foldername": "kubejs.refmap.json",
-            "fingerprint": 2962101957,
+            "fingerprint": 248938810,
             "type": 0
           }
         ],
-        "packageFingerprint": 1421862824,
+        "packageFingerprint": 183008030,
         "gameVersion": [
           "1.15.2"
         ],
@@ -6106,16 +6107,16 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "kubejs-2.7.1.2.jar"
+        "FileNameOnDisk": "kubejs-2.7.1.7.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2775903Z",
-      "dateUpdated": "2020-07-04T20:28:30.5618613Z",
-      "dateLastUpdateAttempted": "2020-07-04T20:28:30.5618613Z",
-      "status": 3,
+      "dateUpdated": "2020-07-25T12:00:47.169524Z",
+      "dateLastUpdateAttempted": "2020-07-25T12:00:47.169524Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -12872,16 +12873,16 @@
       "addonID": 291006,
       "gameInstanceID": "e3cf9041-d039-4b5c-8dcd-5d5b4a7fc11e",
       "installedFile": {
-        "id": 2990029,
-        "displayName": "LargeFluidTank-15.3.1.jar",
-        "fileName": "LargeFluidTank-15.3.1.jar",
-        "fileDate": "2020-06-27T04:38:37.27Z",
-        "fileLength": 545240,
+        "id": 3002096,
+        "displayName": "LargeFluidTank-15.3.2.jar",
+        "fileName": "LargeFluidTank-15.3.2.jar",
+        "fileDate": "2020-07-11T14:10:25.66Z",
+        "fileLength": 547260,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2990/29/LargeFluidTank-15.3.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3002/96/LargeFluidTank-15.3.2.jar",
         "isAlternate": false,
-        "alternateFileId": 2990030,
+        "alternateFileId": 3002097,
         "dependencies": [
           {
             "id": 0,
@@ -12894,12 +12895,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2671381677,
+            "fingerprint": 1773718735,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 77143630,
+            "fingerprint": 1150359143,
             "type": 0
           },
           {
@@ -12918,7 +12919,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2037509202,
+        "packageFingerprint": 491367464,
         "gameVersion": [
           "1.15.2"
         ],
@@ -12931,12 +12932,12 @@
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "LargeFluidTank-15.3.1.jar"
+        "FileNameOnDisk": "LargeFluidTank-15.3.2.jar"
       },
       "dateInstalled": "2020-06-25T14:21:59.6002576Z",
-      "dateUpdated": "2020-07-01T11:25:54.5133792Z",
-      "dateLastUpdateAttempted": "2020-07-01T11:25:54.5133792Z",
-      "status": 3,
+      "dateUpdated": "2020-07-25T12:00:33.4065894Z",
+      "dateLastUpdateAttempted": "2020-07-25T12:00:33.4065894Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

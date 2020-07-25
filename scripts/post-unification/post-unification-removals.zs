@@ -3,10 +3,14 @@
 logger.info("Prio Test: post-unification-removals");
 
 public function postUnificationRemovals() as void {
-    
+
     <recipetype:mekanism:enriching>.removeByName("mekanism:processing/redstone/from_ore");
 
     <recipetype:create:mixing>.removeByName("create:mixing/crushed_brass");
+    <recipetype:create:mixing>.removeByName("create:mixing/andesite_alloy_1");
+    <recipetype:create:mixing>.removeByName("create:mixing/brass_ingot");
+    <recipetype:create:mixing>.removeByName("create:mixing/gunpowder");
+    <recipetype:create:mixing>.removeByName("create:mixing/brass_nugget");
 
     <recipetype:create:crushing>.removeByName("mekanism:processing/lapis_lazuli/to_dust");
     <recipetype:create:crushing>.removeByName("create:crushing/glowstone");
@@ -17,6 +21,9 @@ public function postUnificationRemovals() as void {
     <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/redstone");
     <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/glowstone_dust");
     <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/quartz_from_blocks");
+
+    <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/quartz2");
+    <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/quartz");
 
     // <recipetype:mekanism:crushing>.removeByName("");
     // <recipetype:mekanism:combining>.removeByName("");
