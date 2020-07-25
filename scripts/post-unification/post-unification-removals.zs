@@ -1,8 +1,8 @@
-#priority 2003
-
-logger.info("Prio Test: post-unification-removals");
+#priority 2002
 
 public function postUnificationRemovals() as void {
+
+    logger.info("Prio Test: post-unification-removals");
 
     <recipetype:mekanism:enriching>.removeByName("mekanism:processing/redstone/from_ore");
 
@@ -22,6 +22,8 @@ public function postUnificationRemovals() as void {
     <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/redstone");
     <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/glowstone_dust");
     <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/quartz_from_blocks");
+
+    <recipetype:silents_mechanisms:alloy_smelting>.removeByName("silents_mechanisms:alloy_smelting/bronze_ingot");
 
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/quartz2");
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/quartz");

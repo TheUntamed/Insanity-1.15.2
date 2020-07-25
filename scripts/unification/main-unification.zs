@@ -157,10 +157,9 @@ var modPriorities as string[] = [
 logger.info("Prio Test: main-unification");
 
 preUnificationRemovals();
+preUnificationTagRemovals();
 createNewTags();
-
 preUnificationTagAdditions();
-preUnificationAdditions();
 
 // Clean up tags
 for m in materials {
@@ -203,6 +202,7 @@ for material in materials {
 
 oreUnification();
 
-postUnificationTagAdditions();
 postUnificationTagRemovals();
+postUnificationTagAdditions();
 postUnificationRemovals();
+postUnificationAdditions();

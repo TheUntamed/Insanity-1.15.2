@@ -1,8 +1,8 @@
-#priority 2102
-
-logger.info("Prio Test: pre-unification-tag-additions");
+#priority 2101
 
 public function preUnificationTagAdditions() as void {
+
+    logger.info("Prio Test: pre-unification-tag-additions");
 
     // Mekanism
     <tag:mekanism:dirty_dusts>.addItems([<item:kubejs:dirty_dust_redstone>]);
@@ -61,6 +61,12 @@ public function preUnificationTagAdditions() as void {
     // <tag:forge:ingots/tungsten>.addItems([<item:kubejs:tungsten_ingot>]);
     // <tag:forge:ingots/tungstensteel>.addItems([<item:kubejs:tungstensteel_ingot>]);
     <tag:forge:ingots/redstone>.addItems([<item:extendedcrafting:redstone_ingot>]);
+    <tag:forge:ingots/neridium>.addItems([<item:nethercraft:neridium_ingot>]);
+    <tag:forge:ingots/pyridium>.addItems([<item:nethercraft:pyridium_ingot>]);
+    <tag:forge:ingots/linium>.addItems([<item:nethercraft:linium_ingot>]);
+    <tag:forge:ingots/w>.addItems([<item:nethercraft:w_obsidian_ingot>]);
+
+    // <tag:forge:ores/obsidian>.addItems([<item:minecraft:obsidian>]);
 
     // Gems
     // <tag:forge:gems/peridot>.addItems([<item:kubejs:peridot_gem>]);

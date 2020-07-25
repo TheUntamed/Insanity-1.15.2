@@ -5,23 +5,25 @@ Priority overview:
 3000: unification-functions, recipe-functions, util-functions
 
 2104: pre-unification-removals
-2103: createNewTags
-2102: pre-unification-tag-additions
-2101: pre-unification-additions
+2103: pre-unification-tag-removals
+2102: createNewTags
+2101: pre-unification-tag-additions
 
-2004: post-unification-tag-additions
-2003: post-unification-removals
-2002: post-unification-tag-removals
-// 2001: post-unification-additions
+2004: post-unification-tag-removals
+2003: post-unification-tag-additions
+2002: post-unification-removals
+2001: post-unification-additions
 
 1000: ore-unification
 999: main-unification
 99: jei
 
-12: removeCraftingTableRecipes
-11: removeAndAddShaped
+13: removeCraftingTableRecipes
+12: removeAndAddShaped
+11: removeAndAddShapedMirrored
 10: removeAndAddShapeless
-3: addFurnaceRecipes
-2: addCampfireRecipe
-1: addShaped
+4: addFurnaceRecipes
+3: addCampfireRecipe
+2: addShaped
+1: addShapedMirrored
 0: addShapeless

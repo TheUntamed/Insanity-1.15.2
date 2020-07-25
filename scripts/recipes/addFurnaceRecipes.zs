@@ -1,4 +1,4 @@
-#priority 3
+#priority 4
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;

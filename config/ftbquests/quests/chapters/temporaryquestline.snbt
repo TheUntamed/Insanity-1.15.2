@@ -135,120 +135,6 @@
 		},
 		{
 			x: -2.5d,
-			y: 1.0d,
-			dependencies: [I;44],
-			id: 103,
-			tasks: [{
-				id: 104,
-				type: "item",
-				item: {
-					id: "itemfilters:or",
-					Count: 1,
-					tag: {
-						items: [
-							{
-								id: "corail_woodcutter:mahogany_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:jacaranda_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:dark_willow_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:cherry_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:dewshroom_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:jungle_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:willow_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:oak_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:magic_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:dark_oak_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:fir_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:shadowroot_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:viridshroom_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:birch_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:palm_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:dead_wood_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:nightshroom_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:dead_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:redwood_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:bogshroom_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:hellbark_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:umbran_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:spruce_woodcutter",
-								Count: 1
-							},
-							{
-								id: "corail_woodcutter:acacia_woodcutter",
-								Count: 1
-							}
-						]
-					}
-				}
-			}]
-		},
-		{
-			x: -2.5d,
 			y: 4.0d,
 			dependencies: [I;
 				110,
@@ -267,12 +153,21 @@
 					item: "kubejs:fire_clay_bricks",
 					count: 8
 				}
-			]
+			],
+			rewards: [{
+				id: 163,
+				type: "item",
+				item: {
+					id: "minecraft:porkchop",
+					Count: 4
+				}
+			}]
 		},
 		{
+			title: "Coal Miner",
 			x: -2.5d,
 			y: 2.5d,
-			dependencies: [I;103],
+			dependencies: [I;44],
 			id: 110,
 			tasks: [{
 				id: 111,
@@ -379,8 +274,13 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			title: "Vanilla Furnace",
+			x: -4.0d,
 			y: 7.0d,
+			description: [
+				"A Brick Furnace can do the same stuff,",
+				"but the vanilla Furnace is required for some recipes."
+			],
 			dependencies: [I;120],
 			id: 126,
 			tasks: [
@@ -475,22 +375,32 @@
 			}]
 		},
 		{
+			title: "Clumps and Nuggets",
 			x: -5.5d,
 			y: 4.0d,
 			subtitle: "Ores drop Clumps. Clumps can be washed into Nuggets.",
 			dependencies: [I;135],
 			id: 137,
-			tasks: [{
-				id: 155,
-				type: "item",
-				item: "mekanism:clump_iron",
-				count: 2
-			}]
+			tasks: [
+				{
+					id: 155,
+					type: "item",
+					item: "mekanism:clump_iron",
+					count: 2
+				},
+				{
+					id: 158,
+					type: "item",
+					item: "minecraft:iron_nugget",
+					count: 4
+				}
+			]
 		},
 		{
+			title: "A Button for a Chest",
 			x: -5.5d,
-			y: 7.0d,
-			dependencies: [I;156],
+			y: 5.5d,
+			dependencies: [I;137],
 			id: 141,
 			tasks: [{
 				id: 142,
@@ -506,14 +416,111 @@
 			}]
 		},
 		{
-			x: -5.5d,
-			y: 5.5d,
-			dependencies: [I;137],
-			id: 156,
+			x: -2.5d,
+			y: 7.0d,
+			subtitle: "Your first very basic machine frame.",
+			dependencies: [I;120],
+			id: 161,
 			tasks: [{
-				id: 157,
+				id: 162,
 				type: "item",
-				item: "minecraft:iron_nugget"
+				item: "silents_mechanisms:stone_machine_frame",
+				count: 3
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 7.0d,
+			subtitle: "Use the Alloy Smelter to produce Bronze.",
+			dependencies: [I;161],
+			id: 164,
+			tasks: [
+				{
+					id: 165,
+					type: "item",
+					item: "silents_mechanisms:coal_generator"
+				},
+				{
+					id: 166,
+					type: "item",
+					item: "silents_mechanisms:basic_alloy_smelter"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 7.0d,
+			subtitle: "With a Crusher you can get your Resources more efficent.",
+			dependencies: [I;164],
+			id: 168,
+			tasks: [{
+				id: 169,
+				type: "item",
+				item: "silents_mechanisms:basic_crusher"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 5.5d,
+			subtitle: "Crush Clumps to Dirty Dust. Then Wash the Dirty Dust to Dust just like you washed Clumps to Nuggets.",
+			dependencies: [I;168],
+			id: 170,
+			tasks: [
+				{
+					id: 171,
+					type: "item",
+					item: "mekanism:dirty_dust_iron"
+				},
+				{
+					id: 172,
+					type: "item",
+					item: "silents_mechanisms:iron_dust"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 5.5d,
+			dependencies: [I;120],
+			id: 173,
+			tasks: [{
+				id: 174,
+				type: "item",
+				item: "brickfurnace:brick_blast_furnace"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 4.0d,
+			dependencies: [I;
+				173,
+				170
+			],
+			id: 175,
+			tasks: [{
+				id: 176,
+				type: "item",
+				item: "minecraft:iron_ingot"
+			}],
+			rewards: [{
+				id: 181,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 4.0d,
+			description: [
+				"A Brick Blast Furnace can do the same stuff,",
+				"but the vanilla Blast Furnace is required for some recipes."
+			],
+			dependencies: [I;173],
+			id: 179,
+			tasks: [{
+				id: 180,
+				type: "item",
+				item: "minecraft:blast_furnace"
 			}]
 		}
 	]

@@ -1,7 +1,9 @@
-#priority 11
+#priority 12
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
+
+logger.info("Prio Test: remove-and-add-shaped");
 
 var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
 
@@ -14,7 +16,15 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
     ],
      */
 
-    //Minecolonies
+    // Silents Mechanisms
+    <item:silents_mechanisms:alloy_machine_frame>*2 :
+    [
+        [<tag:forge:ingots/redstone_alloy>, <tag:forge:glass>, <tag:forge:ingots/redstone_alloy>],
+        [<tag:forge:glass>, <tag:forge:ingots/steel>, <tag:forge:glass>],
+        [<tag:forge:ingots/redstone_alloy>, <tag:forge:glass>, <tag:forge:ingots/redstone_alloy>]
+    ],
+
+    // Minecolonies
     <item:minecolonies:blockhutminer>*2 :
     [
         [<tag:minecraft:planks>, <item:structurize:sceptergold>, <tag:minecraft:planks>],
