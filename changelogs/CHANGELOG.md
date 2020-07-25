@@ -51,7 +51,7 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 * *Mekanism* (9.10.8.421 --> 9.10.8.422)
 * *Mekanism Generators* (9.10.8.421 --> 9.10.8.422)
 * *Mekanism Tools* (9.10.8.421 --> 9.10.8.422)
-* *Mystical Adaptations* (1.1 --> 1.2)
+* *Mystical Adaptations* (1.1 --> 1.2.1)
 * *Mystical Agriculture* (3.0.7 --> 3.0.8)
 * *Nether Enhancement* (1.0.1.2 --> 1.0.2.2)
 * *Overloaded Compressed Blocks* (1.0.12 --> 1.0.13)

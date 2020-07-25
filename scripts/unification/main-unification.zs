@@ -186,6 +186,7 @@ for material in materials {
     minecraft_blasting_ingot_from_dust(material);
     mekanism_enriching_dust_from_ore(material);
     create_splashing_dust_from_dirty_dust(material);
+    create_splashing_nugget_from_clump(material);
     crushing_dust_from_gem(material);
     crushing_dust_from_ingot(material);
     crushing_dirty_dust_from_clump(material);

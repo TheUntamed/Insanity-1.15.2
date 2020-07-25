@@ -4,15 +4,6 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import mods.jei.JEI;
 
-//Hide a single Item
-//JEI.hideItem(IItemStack stack);
-
-// public function addInfoAndHideItem(item as IItemStack) as void {
-
-// 	//JEI.hideItem(item);
-// 	JEI.addInfo(item, ["This item is disabled.\nIf you somehow obtained it please report on github or discord!"]);
-// }
-
 for item in <tag:forge:disabled>.items {
 	addInfoAndHideItem(item);
 }
@@ -39,20 +30,20 @@ addInfoAndHideItem(<item:botania:black_dye>);
 addInfoAndHideItem(<item:botania:white_dye>);
 addInfoAndHideItem(<item:botania:pebble>);
 addInfoAndHideItem(<item:minecraft:wooden_sword>);
-// addInfoAndHideItem(<item:minecraft:wooden_shovel>);
-// addInfoAndHideItem(<item:minecraft:wooden_axe>);
-// addInfoAndHideItem(<item:minecraft:wooden_pickaxe>);
-// addInfoAndHideItem(<item:minecraft:wooden_hoe>);
+addInfoAndHideItem(<item:minecraft:wooden_shovel>);
+addInfoAndHideItem(<item:minecraft:wooden_axe>);
+addInfoAndHideItem(<item:minecraft:wooden_pickaxe>);
+addInfoAndHideItem(<item:minecraft:wooden_hoe>);
 addInfoAndHideItem(<item:minecraft:stone_sword>);
-// addInfoAndHideItem(<item:minecraft:stone_shovel>);
-// addInfoAndHideItem(<item:minecraft:stone_axe>);
-// addInfoAndHideItem(<item:minecraft:stone_pickaxe>);
-// addInfoAndHideItem(<item:minecraft:stone_hoe>);
-// addInfoAndHideItem(<item:cyclic:sandstone_sword>);
-// addInfoAndHideItem(<item:cyclic:sandstone_shovel>);
-// addInfoAndHideItem(<item:cyclic:sandstone_axe>);
-// addInfoAndHideItem(<item:cyclic:sandstone_pickaxe>);
-// addInfoAndHideItem(<item:cyclic:sandstone_hoe>);
+addInfoAndHideItem(<item:minecraft:stone_shovel>);
+addInfoAndHideItem(<item:minecraft:stone_axe>);
+addInfoAndHideItem(<item:minecraft:stone_pickaxe>);
+addInfoAndHideItem(<item:minecraft:stone_hoe>);
+addInfoAndHideItem(<item:cyclic:sandstone_sword>);
+addInfoAndHideItem(<item:cyclic:sandstone_shovel>);
+addInfoAndHideItem(<item:cyclic:sandstone_axe>);
+addInfoAndHideItem(<item:cyclic:sandstone_pickaxe>);
+addInfoAndHideItem(<item:cyclic:sandstone_hoe>);
 addInfoAndHideItem(<item:vanillahammers:wooden_hammer>);
 addInfoAndHideItem(<item:vanillahammers:stone_hammer>);
 addInfoAndHideItem(<item:vanillaexcavators:wooden_excavator>);
@@ -76,6 +67,9 @@ addInfoAndHideItem(<item:mekanismtools:wood_paxel>);
 addInfoAndHideItem(<item:mekanismtools:stone_paxel>);
 
 addInfoAndHideItem(<item:pickletweaks:watering_can>);
+
+//Hide a single Item
+//JEI.hideItem(IItemStack stack);
 
 //Hide a Category
 //JEI.hideCategory(String category);

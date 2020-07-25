@@ -14,5 +14,5 @@ public function formatRecipeName(item as IItemStack) as string {
 public function addInfoAndHideItem(item as IItemStack) as void {
 
 	//JEI.hideItem(item);
-	JEI.addInfo(item, ["This item is disabled.\nIf you somehow obtained it please report on github or discord!"]);
+	JEI.addInfo(item, ["This item is disabled.\nIf you somehow obtained it please report on the modpack's github or discord!\n\nDanny"]);
 }

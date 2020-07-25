@@ -38,4 +38,5 @@ public function preUnificationRemovals() as void {
     <tag:forge:dusts/bismuth>.removeItems([<item:silents_mechanisms:bismuth_chunks>]);
 
     <tag:forge:gems/quartz>.removeItems([<item:botania:quartz_dark>, <item:botania:quartz_mana>, <item:botania:quartz_blaze>, <item:botania:quartz_lavender>, <item:botania:quartz_red>, <item:botania:quartz_elven>, <item:botania:quartz_sunny>]);
+    <tag:forge:storage_blocks/quartz>.removeItems([<item:botania:dark_quartz>, <item:botania:mana_quartz>, <item:botania:blaze_quartz>, <item:botania:lavender_quartz>, <item:botania:red_quartz>, <item:botania:elf_quartz>, <item:botania:sunny_quartz>]);
 }

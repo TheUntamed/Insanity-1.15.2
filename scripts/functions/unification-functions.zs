@@ -264,7 +264,7 @@ public function mekanism_enriching_nugget_from_clump(material as string) as void
     } 
 
     var outputCount = 4;
-    //<recipetype:crafting>.removeByName("mekanism:processing/" + material + "/nugget/from_clump");
+
     <recipetype:mekanism:enriching>.addJSONRecipe("mekanism/enriching/" + material + "/nugget/from_clump",
     {
         input: {
@@ -301,7 +301,6 @@ public function mekanism_injecting_clump_from_shard(material as string) as void 
             return;
         } 
 
-        //<recipetype:crafting>.removeByName("mekanism:processing/" + material + "/clump/from_shard");
         <recipetype:mekanism:purifying>.addJSONRecipe("mekanism/purifying/" + material + "/clump/from_shard",
         {
             itemInput: {
@@ -341,7 +340,6 @@ public function mekanism_injecting_shard_from_crystal(material as string) as voi
             return;
         } 
 
-        //<recipetype:crafting>.removeByName("mekanism:processing/" + material + "/shard/from_crystal");
         <recipetype:mekanism:injecting>.addJSONRecipe("mekanism/injecting/" + material + "/shard/from_crystal",
         {
             itemInput: {
@@ -364,6 +362,42 @@ public function mekanism_injecting_shard_from_crystal(material as string) as voi
 
 // Create
 
+public function create_splashing_nugget_from_clump(material as string) as void {
+    var clumpItemTag = BracketHandlers.getTag("mekanism:clumps/" + material);
+    var nuggetItemTag = BracketHandlers.getTag("forge:nuggets/" + material);
+    var clump = clumpItemTag.first();
+    var nugget = nuggetItemTag.first();
+
+    if (clump.matches(<item:minecraft:air>)) {
+        // logger.info("create_bulk_washing_nugget_from_clump: No items exist in the ItemTag " + clumpItemTag.commandString);
+        return;
+    }
+
+    if (nugget.matches(<item:minecraft:air>)) {
+        // logger.info("create_bulk_washing_nugget_from_clump: No items exist in the ItemTag " + nuggetItemTag.commandString);
+        return;
+    }
+
+    var outputCount = 2;
+
+    <recipetype:create:splashing>.removeByName("jaopca:create.crushed_to_nugget." + material);
+    <recipetype:create:splashing>.removeByName("create:splashing/crushed_" + material);
+    <recipetype:create:splashing>.addJSONRecipe("create/splashing/" + material + "/nugget/from_clump",
+    {
+        ingredients: [
+            {
+                item: clump.registryName
+            }
+        ], 
+        results: [
+            {
+                item: nugget.registryName,
+                count: outputCount
+            }
+        ]
+    });
+}
+
 public function create_splashing_dust_from_dirty_dust(material as string) as void {
     var dirty_dustItemTag = BracketHandlers.getTag("mekanism:dirty_dusts/" + material);
     var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
@@ -380,6 +414,8 @@ public function create_splashing_dust_from_dirty_dust(material as string) as voi
         return;
     }
 
+    var outputCount = 1;
+
     <recipetype:create:splashing>.addJSONRecipe("create/splashing/" + material + "/dust/from_dirty_dust",
     {
         ingredients: [
@@ -390,7 +426,7 @@ public function create_splashing_dust_from_dirty_dust(material as string) as voi
         results: [
             {
                 item: dust.registryName,
-                count: 1
+                count: outputCount
             }
         ]
     });
@@ -568,8 +604,6 @@ public function crushing_dust_from_block(material as string) as void {
     var block = blockItemTag.first();
     var dust = dustItemTag.first();
 
-    var outputCount = 9;
-
     if (block.matches(<item:minecraft:air>)) {
         // logger.info("crushing_dust_from_block: No items exist in the ItemTag " + blockItemTag.commandString);
         return;
@@ -578,7 +612,13 @@ public function crushing_dust_from_block(material as string) as void {
     if (dust.matches(<item:minecraft:air>)) {
         // logger.info("crushing_dust_from_block: No items exist in the ItemTag " + dustItemTag.commandString);
         return;
-    } 
+    }
+
+    var outputCount = 9;
+
+    if (material == "quartz" || material == "glowstone") {
+        outputCount = 4;
+    }
 
     <recipetype:mekanism:crushing>.addJSONRecipe("mekanism/crushing/" + material + "/dust/from_block",
     {
