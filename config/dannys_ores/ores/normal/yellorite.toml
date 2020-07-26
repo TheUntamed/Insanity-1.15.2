@@ -5,7 +5,7 @@
 	#Range: 1 ~ 128
 	effectLevel = 1
 	#If true, all variants of this ore type will be disabled.
-	disableAllVariants = false
+	disableAllVariants = true
 	#How long the effect will last in ticks (in seconds for burn effect) after removing the ore from the inventory
 	#Range: 25 ~ 1000000
 	duration = 25

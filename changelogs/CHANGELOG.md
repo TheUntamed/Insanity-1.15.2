@@ -95,7 +95,6 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 **Changes**
 
 * Metallic ores now drop ore clumps instead of the ore itself.
-* Disabled *Omega Craft* Magmite ore generation. (Replaced by *Danny's Ores* Vulcanite ore.)
 * Disabled poisonous effect of uraninite ore. (The ore now drops an item and can only be obtained by silk touch anyway.)
 * Metal ingots cannot be smelted in a Furnace anymore. It requires a Blast Furnace. And many more processing changes.
 * *Quark* enabled totem of holding (gravestones were removed).

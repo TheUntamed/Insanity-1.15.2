@@ -3,7 +3,7 @@
 
 	[gen.arcane_crystal]
 		#Generate Arcane Crystal Ore? [default: true]
-		generate = true
+		generate = false
 		#Maximum size of Arcane Crystal Ore veins [default: 6]
 		#Range: 0 ~ 100
 		max_vein_size = 5
@@ -16,7 +16,7 @@
 
 	[gen.runestone]
 		#Generate Runestone? [default: true]
-		generate = true
+		generate = false
 		#Maximum size of Runestone veins [default: 3]
 		#Range: 0 ~ 100
 		max_vein_size = 3

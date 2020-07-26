@@ -25,7 +25,7 @@
 	#Range: 1 ~ 200
 	rockroot_weight = 16
 	#Whether to have ores from this mod spawn at all.
-	generate_ores = true
+	generate_ores = false
 
 [droprate]
 	#Rate of hemp seed drops from grass blocks.
