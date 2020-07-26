@@ -2,7 +2,7 @@
 #Settings affecting all variants
 [general]
 	#If true, all variants of this ore type will be disabled.
-	disableAllVariants = false
+	disableAllVariants = true
 
 	#Vanilla Stone Variants
 	[general.minecraft]
