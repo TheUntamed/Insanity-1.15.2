@@ -1,11 +1,17 @@
-!nsanity 0.3.2
+!nsanity 0.4.0
 --------------
 
-Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
+**WARNING:** Due to an update of the TerraForged mod worlds are not backwards compatible.
+This means that chunks will not generate seamlessly if you open your old worlds.
+On the other hand, this means great performance, memory and optical improvements for new worlds.
+
+Forge 1.15.2-31.2.22 --> 1.15.2-31.2.31
 
 **Added Mods**
 
 * *Akashic Tome*
+* *Bamboo Blocks*
+* *Bamboo Everything*
 * *Simply Trophies*
 
 **Updated Mods**
@@ -87,6 +93,7 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 
 **Removed Mods**
 
+* *Bambootiful* (removed from curseforge)
 * *Corail Tombstone* (removed from curseforge)
 * *Corail Woodcutter* (removed from curseforge)
 * *Omegacraft* (it looks like a cool mod but sadly it's completely incompatible)

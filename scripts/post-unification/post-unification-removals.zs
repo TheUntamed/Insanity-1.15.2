@@ -29,6 +29,8 @@ public function postUnificationRemovals() as void {
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/quartz");
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coal_block");
 
+    removeRecipe(<item:quark:bamboo_block>, true);
+
     // <recipetype:mekanism:crushing>.removeByName("");
     // <recipetype:mekanism:combining>.removeByName("");
     // <recipetype:mekanism:injecting>.removeByName("");

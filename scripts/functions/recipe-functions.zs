@@ -47,24 +47,33 @@ public function addCampfire(output as IItemStack, input as IIngredient, xp as fl
 
 // Remove Recipe
 
-public function removeRecipe(output as IItemStack) as void {
+public function removeRecipe(output as IItemStack, jei as bool) as void {
 	craftingTable.removeRecipe(output);
+	if (jei) {
+		addInfoAndHideItem(output);
+	}
 }
 
 public function removeRecipeByName(name as string) as void {
 	craftingTable.removeByName(name);
 }
 
-public function removeFurnaceRecipe(output as IItemStack) as void {
+public function removeFurnaceRecipe(output as IItemStack, jei as bool) as void {
 	furnace.removeRecipe(output);
+	if (jei) {
+		addInfoAndHideItem(output);
+	}
 }
 
 public function removeFurnaceRecipeByName(name as string) as void {
 	furnace.removeByName(name);
 }
 
-public function removeBlastingRecipe(output as IItemStack) as void {
+public function removeBlastingRecipe(output as IItemStack, jei as bool) as void {
 	blastFurnace.removeRecipe(output);
+	if (jei) {
+		addInfoAndHideItem(output);
+	}
 }
 
 public function removeBlastingRecipeByName(name as string) as void {

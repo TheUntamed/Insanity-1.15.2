@@ -55,9 +55,9 @@ public function purgeOreTag(tag as MCTag) as void {
 // Used by tag-unification. Called for each duplicate item which tag gets removed.
 // Removes all recipes with "item" as output.
 public function removeAllProcessingFor(item as IItemStack) as void {
-    craftingTable.removeRecipe(item);
-	furnace.removeRecipe(item);
-	blastFurnace.removeRecipe(item);
+    removeRecipe(item, false);
+	removeFurnaceRecipe(item, false);
+	removeBlastingRecipe(item, false);
 }
 
 // Clean Recipes
@@ -95,7 +95,7 @@ public function minecraft_crafting_table(material as string) as void {
         return;
     } 
 
-    removeRecipe(dust);
+    removeRecipe(dust, false);
 }
 
 public function minecraft_blasting_ingot_from_dust(material as string) as void {

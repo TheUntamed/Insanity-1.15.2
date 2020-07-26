@@ -14,13 +14,12 @@ public function preUnificationRemovals() as void {
     blastFurnace.removeAll();
 
     for item in <tag:forge:ingots>.items {
-    furnace.removeRecipe(item);
+        removeFurnaceRecipe(item, false);
     }
 
     for item in <tag:forge:gems>.items {
-    logger.info("Removing furnace recipe for gem " + item.registryName);
-    furnace.removeRecipe(item);
+        removeFurnaceRecipe(item, false);
     }
 
-    furnace.removeRecipe(<item:minecraft:redstone>);
+    removeFurnaceRecipe(<item:minecraft:redstone>, false);
 }

@@ -9,6 +9,10 @@ import mods.jei.JEI;
 //removeRecipeByName("");
 
 var items as IItemStack[] = [
+
+];
+
+var disabledItems as IItemStack[] = [
     <item:vanillahammers:wooden_hammer>,
     <item:vanillahammers:stone_hammer>,
     <item:vanillaexcavators:wooden_excavator>,
@@ -68,7 +72,11 @@ var items as IItemStack[] = [
 ];
 
 for item in items {
-    removeRecipe(item);
+    removeRecipe(item, false);
+}
+
+for item in disabledItems {
+    removeRecipe(item, true);
 }
 
 
