@@ -65,7 +65,7 @@ Forge 1.15.2-31.2.22 --> 1.15.2-31.2.30
 * *Pickle Tweaks* (4.0.3 --> 4.0.4)
 * *Placebo* (3.0.2 --> 3.1.0)
 * *PneumaticCraft: Repressurized* (1.3.2-42 --> 1.4.1-56)
-* *RandomPatches* (1.21.1.2 --> 1.22.0.0)
+* *RandomPatches* (1.21.1.2 --> 1.22.1.0)
 * *Refined Storage* (1.8.4 --> 1.8.8)
 * *Refined Storage Addons* (0.6.1 --> 0.6.3)
 * *RFTools Base* (1.1.1 --> 1.1.3)
