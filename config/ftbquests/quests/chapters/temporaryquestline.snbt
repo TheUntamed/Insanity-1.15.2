@@ -195,7 +195,7 @@
 		},
 		{
 			x: -2.5d,
-			y: -2.5d,
+			y: -2.0d,
 			subtitle: "A lot of different Monsters and Animals drop Bones. Not only Skeletons.",
 			description: ["Take a Bone into one hand and Flint into the other and smack them together to get a Bone Shard."],
 			dependencies: [I;19],
@@ -275,7 +275,7 @@
 		},
 		{
 			title: "Vanilla Furnace",
-			x: -4.0d,
+			x: -2.5d,
 			y: 7.0d,
 			description: [
 				"A Brick Furnace can do the same stuff,",
@@ -416,8 +416,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: 7.0d,
+			x: -1.0d,
+			y: 5.5d,
 			subtitle: "Your first very basic machine frame.",
 			dependencies: [I;120],
 			id: 161,
@@ -429,8 +429,8 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: 7.0d,
+			x: 0.5d,
+			y: 5.5d,
 			subtitle: "Use the Alloy Smelter to produce Bronze.",
 			dependencies: [I;161],
 			id: 164,
@@ -448,8 +448,8 @@
 			]
 		},
 		{
-			x: 0.5d,
-			y: 7.0d,
+			x: 2.0d,
+			y: 5.5d,
 			subtitle: "With a Crusher you can get your Resources more efficent.",
 			dependencies: [I;164],
 			id: 168,
@@ -460,7 +460,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: 3.5d,
 			y: 5.5d,
 			subtitle: "Crush Clumps to Dirty Dust. Then Wash the Dirty Dust to Dust just like you washed Clumps to Nuggets.",
 			dependencies: [I;168],
@@ -480,7 +480,7 @@
 		},
 		{
 			x: -1.0d,
-			y: 5.5d,
+			y: 7.0d,
 			dependencies: [I;120],
 			id: 173,
 			tasks: [{
@@ -490,8 +490,8 @@
 			}]
 		},
 		{
-			x: 0.5d,
-			y: 4.0d,
+			x: 3.5d,
+			y: 7.0d,
 			dependencies: [I;
 				173,
 				170
@@ -510,7 +510,7 @@
 		},
 		{
 			x: -1.0d,
-			y: 4.0d,
+			y: 8.5d,
 			description: [
 				"A Brick Blast Furnace can do the same stuff,",
 				"but the vanilla Blast Furnace is required for some recipes."
