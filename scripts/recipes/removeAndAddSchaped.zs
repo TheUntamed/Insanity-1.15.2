@@ -459,7 +459,7 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
     <item:minecraft:blast_furnace> :
     [
         [<tag:forge:ingots/iron>, <tag:forge:ingots/iron>, <tag:forge:ingots/iron>],
-        [<tag:forge:ingots/iron>, <item:brickfurnace:brick_blast_furnace>, <tag:forge:ingots/iron>],
+        [<tag:forge:ingots/iron>, <tag:forge:to_blast_furnace>, <tag:forge:ingots/iron>],
         [<item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>]
     ],
     <item:minecraft:smoker> :

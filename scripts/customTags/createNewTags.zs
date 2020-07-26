@@ -9,6 +9,8 @@ public function createNewTags() as void {
     var custom as MCTag[] = [
         <tag:forge:disabled>,
 
+        <tag:forge:to_blast_furnace>,
+
         <tag:mekanism:dirty_dusts/redstone>,
         <tag:mekanism:clumps/redstone>,
 

@@ -16,13 +16,6 @@ var shapedRecipes as IIngredient[][][IItemStack] = {
     ],
      */
     
-    <item:minecraft:blast_furnace> :
-    [
-        [<tag:forge:ingots/iron>, <tag:forge:ingots/iron>, <tag:forge:ingots/iron>],
-        [<tag:forge:ingots/iron>, <item:minecraft:furnace>, <tag:forge:ingots/iron>],
-        [<item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>]
-    ],
-    
     //Ingots to Plate with Hammer
     // <item:kubejs:lead_plate> :
     // [

@@ -20,7 +20,7 @@
 	oil_world_gen_blacklist = ["minecraft:the_nether", "minecraft:the_end"]
 	#Chance per chunk in percentage to generate an Oil Lake. Set to 0 for no oil lakes.
 	#Range: 0 ~ 100
-	oil_generation_chance = 15
+	oil_generation_chance = 5
 	#Fluids at least as hot as this temperature (Kelvin) will be auto-registered as Liquid Compressor fuels, the quality being dependent on fluid temperature.
 	#Range: > 0
 	min_fluid_fuel_temperature = 373
