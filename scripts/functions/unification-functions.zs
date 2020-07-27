@@ -400,7 +400,7 @@ public function crushing_dust_from_gem(material as string) as void {
     silentsMechanismsCrushing("silents_mechanisms/crushing/" + material + "/dust/from_gem", gemItemTagString, dust.registryName, outputCount);
 
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coal");
-    immersiveengineeringCrusher("immersiveengineering/crusher/" + material + "/dust/from_gem", gemItemTagString, dust.registryName, outputCount);
+    immersiveEngineeringCrusher("immersiveengineering/crusher/" + material + "/dust/from_gem", gemItemTagString, dust.registryName, outputCount);
 
     // logger.info("crushing_dust_from_gem with " + material + " succesfully ran!");
 }
@@ -437,7 +437,7 @@ public function crushing_dust_from_ingot(material as string) as void {
     silentsMechanismsCrushing("silents_mechanisms/crushing/" + material + "/dust/from_ingot", ingotItemTagString, dust.registryName, outputCount);
 
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ingot_" + material);
-    immersiveengineeringCrusher("immersiveengineering/crusher/" + material + "/dust/from_ingot", ingotItemTagString, dust.registryName, outputCount);
+    immersiveEngineeringCrusher("immersiveengineering/crusher/" + material + "/dust/from_ingot", ingotItemTagString, dust.registryName, outputCount);
 
     // logger.info("crushing_dust_from_ingot with " + material + " succesfully ran!");
 }
@@ -474,7 +474,7 @@ public function crushing_dust_from_block(material as string) as void {
 
     silentsMechanismsCrushing("silents_mechanisms/crushing/" + material + "/dust/from_block", blockItemTagString, dust.registryName, outputCount);
 
-    immersiveengineeringCrusher("immersiveengineering/crusher/" + material + "/dust/from_block", blockItemTagString, dust.registryName, outputCount);
+    immersiveEngineeringCrusher("immersiveengineering/crusher/" + material + "/dust/from_block", blockItemTagString, dust.registryName, outputCount);
 
     // logger.info("crushing_dust_from_ingot with " + material + " succesfully ran!");
 }
@@ -507,7 +507,7 @@ public function crushing_dirty_dust_from_clump(material as string) as void {
 
     silentsMechanismsCrushing("silents_mechanisms/crushing/" + material + "/dirty_dust/from_clump", clumpItemTagString, dirty_dust.registryName, outputCount);
 
-    immersiveengineeringCrusher("immersiveengineering/crusher/" + material + "/dirty_dust/from_clump", clumpItemTagString, dirty_dust.registryName, outputCount);
+    immersiveEngineeringCrusher("immersiveengineering/crusher/" + material + "/dirty_dust/from_clump", clumpItemTagString, dirty_dust.registryName, outputCount);
 
     // logger.info("crushing_dirty_dust_from_clump with " + material + " succesfully ran!");
 }
@@ -559,7 +559,7 @@ public function crushing_gem_dust_from_ore(material as string) as void {
     silentsMechanismsCrushing("silents_mechanisms/crushing/" + material + "/gem/from_ore", oreItemTagString, dust.registryName, outputCount);
 
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ore_" + material);
-    immersiveengineeringCrusher("immersiveengineering/crusher/" + material + "/gem/from_ore", oreItemTagString, dust.registryName, outputCount);
+    immersiveEngineeringCrusher("immersiveengineering/crusher/" + material + "/gem/from_ore", oreItemTagString, dust.registryName, outputCount);
 
     // logger.info("crushing_gem_from_clump with " + material + " succesfully ran!");
 }
@@ -600,7 +600,7 @@ public function crushing_clump_from_ore(material as string) as void {
     silentsMechanismsCrushing("silents_mechanisms/crushing/" + material + "/clump/from_ore", oreItemTagString, clump.registryName, outputCount);
 
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ore_" + material);
-    immersiveengineeringCrusher("immersiveengineering/crusher/" + material + "/clump/from_ore", oreItemTagString, clump.registryName, outputCount);
+    immersiveEngineeringCrusher("immersiveengineering/crusher/" + material + "/clump/from_ore", oreItemTagString, clump.registryName, outputCount);
 
     // logger.info("crushing_clump_from_clump with " + material + " succesfully ran!");
 }

@@ -144,7 +144,7 @@ public function silentsMechanismsCrushing(name as string, input as string, outpu
         });
 }
 
-public function immersiveengineeringCrusher(name as string, input as string, output as string, outputCount as int) as void {
+public function immersiveEngineeringCrusher(name as string, input as string, output as string, outputCount as int) as void {
     <recipetype:immersiveengineering:crusher>.addJSONRecipe(name,
         {
             secondaries: [],
@@ -156,5 +156,34 @@ public function immersiveengineeringCrusher(name as string, input as string, out
                 tag: input
             },
             energy: 3000
+        });
+}
+
+public function silentsMechanismsAlloySmelting(name as string, input1 as string, input1Count as int, input2 as string, input2Count as int, output as string, outputCount as int) as void {
+    <recipetype:silents_mechanisms:alloy_smelting>.addJSONRecipe(name,
+        {
+            process_time: 400,
+            ingredients: [
+                {
+                    values: [
+                        {
+                            tag: input1
+                        }
+                    ],
+                    count: input1Count
+                },
+                {
+                    values: [
+                        {
+                            tag: input2
+                        }
+                    ],
+                    count: input2Count
+                }
+            ],
+            result: {
+                item: output,
+                count: outputCount
+            }
         });
 }

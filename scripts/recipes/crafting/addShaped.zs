@@ -16,7 +16,7 @@ var shapedRecipes as IIngredient[][][IItemStack] = {
     ],
      */
     
-    //Ingots to Plate with Hammer
+    // Ingots to Plate with Hammer
     // <item:kubejs:lead_plate> :
     // [
     //     [<tag:forge:hammer/weak>],
@@ -198,12 +198,6 @@ var shapedRecipes as IIngredient[][][IItemStack] = {
         [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
         [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>]
     ],
-    // <item:kubejs:grass_fiber_mesh> :
-    // [
-    //     [<tag:forge:rods/wooden>, <item:kubejs:grass_fiber>, <tag:forge:rods/wooden>],
-    //     [<item:kubejs:grass_fiber>, <item:kubejs:grass_fiber>, <item:kubejs:grass_fiber>],
-    //     [<tag:forge:rods/wooden>, <item:kubejs:grass_fiber>, <tag:forge:rods/wooden>]
-    // ],
     <item:kubejs:flint_gear> :
     [
         [<item:minecraft:air>, <item:minecraft:flint>, <item:minecraft:air>],

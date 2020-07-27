@@ -5,12 +5,12 @@ import crafttweaker.api.item.IIngredient;
 
 var shapelessRecipesWithRemove as IIngredient[][IItemStack] = {
 
-    //Lycanites Mobs
+    // Lycanites Mobs
     <item:lycanitesmobs:equipmentforge_lesser> : [<item:minecraft:crafting_table>, <item:pickletweaks:flint_axe>],
     <item:lycanitesmobs:equipmentforge_greater> : [<item:lycanitesmobs:equipmentforge_lesser>, <item:minecraft:iron_axe>],
     <item:lycanitesmobs:equipmentforge_master> : [<item:lycanitesmobs:equipmentforge_greater>, <item:minecraft:diamond_axe>],
 
-    //wooden mortar
+    // wooden mortar
     <item:minecraft:red_dye> : [<tag:forge:colorant/red>, <item:botania:pestle_and_mortar>],
     <item:minecraft:green_dye> : [<tag:forge:colorant/green>, <item:botania:pestle_and_mortar>],
     <item:minecraft:purple_dye> : [<tag:forge:colorant/purple>, <item:botania:pestle_and_mortar>],
@@ -28,7 +28,7 @@ var shapelessRecipesWithRemove as IIngredient[][IItemStack] = {
     <item:minecraft:black_dye> : [<tag:forge:colorant/black>, <item:botania:pestle_and_mortar>],
     <item:minecraft:white_dye> : [<tag:forge:colorant/white>, <item:botania:pestle_and_mortar>],
 
-    //Mushrooms
+    // Mushrooms
     <item:botania:white_mushroom> : [<tag:forge:dyes/white>, <tag:forge:mushrooms>],
     <item:botania:orange_mushroom> : [<tag:forge:dyes/orange>, <tag:forge:mushrooms>],
     <item:botania:magenta_mushroom> : [<tag:forge:dyes/magenta>, <tag:forge:mushrooms>],
@@ -46,11 +46,11 @@ var shapelessRecipesWithRemove as IIngredient[][IItemStack] = {
     <item:botania:red_mushroom> : [<tag:forge:dyes/red>, <tag:forge:mushrooms>],
     <item:botania:black_mushroom> : [<tag:forge:dyes/black>, <tag:forge:mushrooms>],
 
-    //Buttons
+    // Buttons
     <item:quark:iron_button> : [<tag:forge:nuggets/iron>],
     <item:quark:gold_button> : [<tag:forge:nuggets/gold>],
 
-    //Compression
+    // Compression
     <item:minecraft:clay> : [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
     <item:minecraft:glowstone> : [<item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>],
     <item:minecraft:snow_block> : [<item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>, <item:minecraft:snowball>],

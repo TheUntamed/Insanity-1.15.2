@@ -244,9 +244,7 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
         [<item:natural-progression:red_sandstone_pebble>, <item:natural-progression:red_sandstone_pebble>, <item:natural-progression:red_sandstone_pebble>]
     ],
 
-    //Plates to Block
-
-    //Floral Powder Cleanup
+    // Floral Powder Cleanup
     <item:botania:cosmetic_four_leaf_clover> :
     [
         [<tag:forge:dyes/white>, <tag:forge:dyes/white>, <tag:forge:dyes/white>],
@@ -343,141 +341,13 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
         [<tag:forge:dyes/black>, <item:botania:mana_string>, <tag:forge:dyes/black>],
         [<tag:forge:dyes/black>, <tag:forge:dyes/black>, <tag:forge:dyes/black>]
     ],
-
-    // //Woodcutter/Sawmill
-    // <item:corail_woodcutter:oak_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>]
-    // ],
-    // <item:corail_woodcutter:birch_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:minecraft:birch_planks>, <item:minecraft:birch_planks>, <item:minecraft:birch_planks>]
-    // ],
-    // <item:corail_woodcutter:spruce_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>, <item:minecraft:spruce_planks>]
-    // ],
-    // <item:corail_woodcutter:dark_oak_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_planks>]
-    // ],
-    // <item:corail_woodcutter:acacia_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>, <item:minecraft:acacia_planks>]
-    // ],
-    // <item:corail_woodcutter:jungle_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>, <item:minecraft:jungle_planks>]
-    // ],
-    // <item:corail_woodcutter:willow_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:biomesoplenty:willow_planks>, <item:biomesoplenty:willow_planks>, <item:biomesoplenty:willow_planks>]
-    // ],
-    // <item:corail_woodcutter:fir_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:biomesoplenty:fir_planks>, <item:biomesoplenty:fir_planks>, <item:biomesoplenty:fir_planks>]
-    // ],
-    // <item:corail_woodcutter:umbran_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:biomesoplenty:umbran_planks>, <item:biomesoplenty:umbran_planks>, <item:biomesoplenty:umbran_planks>]
-    // ],
-    // <item:corail_woodcutter:palm_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:biomesoplenty:palm_planks>, <item:biomesoplenty:palm_planks>, <item:biomesoplenty:palm_planks>]
-    // ],
-    // <item:corail_woodcutter:magic_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:biomesoplenty:magic_planks>, <item:biomesoplenty:magic_planks>, <item:biomesoplenty:magic_planks>]
-    // ],
-    // <item:corail_woodcutter:hellbark_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:biomesoplenty:hellbark_planks>, <item:biomesoplenty:hellbark_planks>, <item:biomesoplenty:hellbark_planks>]
-    // ],
-    // <item:corail_woodcutter:redwood_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:biomesoplenty:redwood_planks>, <item:biomesoplenty:redwood_planks>, <item:biomesoplenty:redwood_planks>]
-    // ],
-    // <item:corail_woodcutter:mahogany_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:biomesoplenty:mahogany_planks>, <item:biomesoplenty:mahogany_planks>, <item:biomesoplenty:mahogany_planks>]
-    // ],
-    // <item:corail_woodcutter:jacaranda_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:biomesoplenty:jacaranda_planks>, <item:biomesoplenty:jacaranda_planks>, <item:biomesoplenty:jacaranda_planks>]
-    // ],
-    // <item:corail_woodcutter:dead_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:biomesoplenty:dead_planks>, <item:biomesoplenty:dead_planks>, <item:biomesoplenty:dead_planks>]
-    // ],
-    // <item:corail_woodcutter:cherry_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:biomesoplenty:cherry_planks>, <item:biomesoplenty:cherry_planks>, <item:biomesoplenty:cherry_planks>]
-    // ],
-    // <item:corail_woodcutter:shadowroot_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:midnight:shadowroot_planks>, <item:midnight:shadowroot_planks>, <item:midnight:shadowroot_planks>]
-    // ],
-    // <item:corail_woodcutter:nightshroom_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:midnight:nightshroom_planks>, <item:midnight:nightshroom_planks>, <item:midnight:nightshroom_planks>]
-    // ],
-    // <item:corail_woodcutter:viridshroom_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:midnight:viridshroom_planks>, <item:midnight:viridshroom_planks>, <item:midnight:viridshroom_planks>]
-    // ],
-    // <item:corail_woodcutter:bogshroom_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:midnight:bogshroom_planks>, <item:midnight:bogshroom_planks>, <item:midnight:bogshroom_planks>]
-    // ],
-    // <item:corail_woodcutter:dead_wood_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:midnight:dead_wood_planks>, <item:midnight:dead_wood_planks>, <item:midnight:dead_wood_planks>]
-    // ],
-    // <item:corail_woodcutter:dewshroom_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:midnight:dewshroom_planks>, <item:midnight:dewshroom_planks>, <item:midnight:dewshroom_planks>]
-    // ],
-    // <item:corail_woodcutter:dark_willow_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:midnight:dark_willow_planks>, <item:midnight:dark_willow_planks>, <item:midnight:dark_willow_planks>]
-    // ],
-    // <item:corail_woodcutter:dark_willow_woodcutter> :
-    // [
-    //     [<item:minecraft:air>, <tag:forge:gear>, <item:minecraft:air>],
-    //     [<item:midnight:dark_willow_planks>, <item:midnight:dark_willow_planks>, <item:midnight:dark_willow_planks>]
-    // ],
-
     <item:minecraft:stonecutter> :
     [
         [<item:minecraft:air>, <tag:forge:gear/strong>, <item:minecraft:air>],
         [<tag:forge:stone>, <tag:forge:stone>, <tag:forge:stone>]
     ],
 
-    //Others
+    // Others
     <item:cyclic:scythe_brush> :
     [
         [<item:minecraft:air>, <tag:forge:nuggets/iron>, <item:minecraft:iron_hoe>],
