@@ -31,6 +31,12 @@ public function postUnificationRemovals() as void {
 
     removeRecipe(<item:quark:bamboo_block>, true);
 
+    // for item in loadedMods.getMod("quark").items {
+    //     if (item.registryName.contains("vertical_slab")) {
+    //         removeRecipe(item, true);
+    //     }
+    // }
+
     // <recipetype:mekanism:crushing>.removeByName("");
     // <recipetype:mekanism:combining>.removeByName("");
     // <recipetype:mekanism:injecting>.removeByName("");

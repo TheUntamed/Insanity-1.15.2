@@ -122,8 +122,8 @@ public function minecraft_blasting_ingot_from_dust(material as string) as void {
 // Mekanism
 
 public function mekanism_enriching_gem_from_ore(material as string) as void {
-    
-    var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
+    var oreItemTagString = "forge:ores/" + material;
+    var oreItemTag = BracketHandlers.getTag(oreItemTagString);
     var gemItemTag = BracketHandlers.getTag("forge:gems/" + material);
     var ore = oreItemTag.first();
     var gem = gemItemTag.first();
@@ -142,19 +142,7 @@ public function mekanism_enriching_gem_from_ore(material as string) as void {
 
     <recipetype:mekanism:enriching>.removeByName("jaopca:mekanism.ore_to_material." + material);
     <recipetype:mekanism:enriching>.removeByName("mekanism:processing/" + material + "/from_ore");
-    <recipetype:mekanism:enriching>.addJSONRecipe("mekanism/enriching/" + material + "/gem/from_ore",
-    {
-        input: {
-            ingredient: {
-                tag: "forge:ores/" + material
-            }
-            
-        },
-        output: {
-            item: gem.registryName,
-            count: outputCount
-        }
-    });
+    mekanismEnriching("mekanism/enriching/" + material + "/gem/from_ore", oreItemTagString, gem.registryName, outputCount);
 
     // logger.info("mekanism_enriching_dust_from_ore with " + material + " succesfully ran!");
 }
@@ -171,8 +159,9 @@ public function mekanism_enriching_dust_from_ore(material as string) as void {
 			// logger.info("mekanism_enriching_dust_from_ore: Skipping material " + material);
 			return;
 	}
-    
-    var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
+
+    var oreItemTagString = "forge:ores/" + material;
+    var oreItemTag = BracketHandlers.getTag(oreItemTagString);
     var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
     var ore = oreItemTag.first();
     var dust = dustItemTag.first();
@@ -191,27 +180,16 @@ public function mekanism_enriching_dust_from_ore(material as string) as void {
 
     <recipetype:mekanism:enriching>.removeByName("jaopca:mekanism.ore_to_dust." + material);
     <recipetype:mekanism:enriching>.removeByName("mekanism:processing/" + material + "/dust/from_ore");
-    <recipetype:mekanism:enriching>.addJSONRecipe("mekanism/enriching/" + material + "/dust/from_ore",
-    {
-        input: {
-            ingredient: {
-                tag: "forge:ores/" + material
-            }
-            
-        },
-        output: {
-            item: dust.registryName,
-            count: outputCount
-        }
-    });
+    mekanismEnriching("mekanism/enriching/" + material + "/dust/from_ore", oreItemTagString, dust.registryName, outputCount);
 
     // logger.info("mekanism_enriching_dust_from_ore with " + material + " succesfully ran!");
 }
 
 public function mekanism_injecting_shard_from_ore(material as string) as void {
-    var oresItemTag = BracketHandlers.getTag("forge:ores/" + material);
+    var oreItemTagString = "forge:ores/" + material;
+    var oreItemTag = BracketHandlers.getTag(oreItemTagString);
     var shardItemTag = BracketHandlers.getTag("mekanism:shards/" + material);
-    var ore = oresItemTag.first();
+    var ore = oreItemTag.first();
     var shard = shardItemTag.first();
 
     var itemOwner = shard.registryName.split(":")[0];
@@ -225,33 +203,19 @@ public function mekanism_injecting_shard_from_ore(material as string) as void {
         if (shard.matches(<item:minecraft:air>)) {
             // logger.info("mekanism_injecting_shard_from_ore: No items exist in the ItemTag " + shardItemTag.commandString);
             return;
-        } 
+        }
 
         var outputCount = 4;
-        //<recipetype:crafting>.removeByName("mekanism:processing/" + material + "/shard/from_ore");
-        <recipetype:mekanism:injecting>.addJSONRecipe("mekanism/injecting/" + material + "/shard/from_ore",
-        {
-            itemInput: {
-                ingredient: {
-                    tag: "forge:ores/" + material
-                }
-            },
-            gasInput: {
-                amount: 1,
-                gas: "mekanism:hydrogen_chloride"
-            },
-            output: {
-                item: shard.registryName,
-                count: outputCount
-            }
-        });
+
+        mekanismInjecting("mekanism/injecting/" + material + "/shard/from_ore", oreItemTagString, shard.registryName, outputCount);
 
         // logger.info("mekanism_injecting_shard_from_ore with " + material + " succesfully ran!");
     }
 }
 
 public function mekanism_enriching_dust_from_dirty_dust(material as string) as void {
-	var dirty_dustItemTag = BracketHandlers.getTag("mekanism:dirty_dusts/" + material);
+    var dirty_dustItemTagString = "mekanism:dirty_dusts/" + material;
+	var dirty_dustItemTag = BracketHandlers.getTag(dirty_dustItemTagString);
     var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
     var dirty_dust = dirty_dustItemTag.first();
     var dust = dustItemTag.first();
@@ -264,28 +228,20 @@ public function mekanism_enriching_dust_from_dirty_dust(material as string) as v
     if (dust.matches(<item:minecraft:air>)) {
         // logger.info("mekanism_enriching_dust_from_dirty_dust: No items exist in the ItemTag " + dustItemTag.commandString);
         return;
-    } 
+    }
+
+    var outputCount = 1;
 
     <recipetype:mekanism:enriching>.removeByName("mekanism:processing/" + material + "/dust/from_dirty_dust");
     <recipetype:mekanism:enriching>.removeByName("jaopca:mekanism.dirty_dust_to_dust." + material);
-    <recipetype:mekanism:enriching>.addJSONRecipe("mekanism/enriching/" + material + "/dust/from_dirty_dust",
-    {
-        input: {
-            ingredient: {
-                item: dirty_dust.registryName
-            }
-                
-        },
-        output: {
-            item: dust.registryName
-        }
-    });
+    mekanismEnriching("mekanism/enriching/" + material + "/dust/from_dirty_dust", dirty_dustItemTagString, dust.registryName, outputCount);
 
     // logger.info("mekanism_enriching_dust_from_dirty_dust with " + material + " succesfully ran!");
 }
 
 public function mekanism_enriching_nugget_from_clump(material as string) as void {
-    var clumpItemTag = BracketHandlers.getTag("mekanism:clumps/" + material);
+    var clumpItemTagString = "mekanism:clumps/" + material;
+    var clumpItemTag = BracketHandlers.getTag(clumpItemTagString);
     var clump = clumpItemTag.first();
     var nuggetsItemTag = BracketHandlers.getTag("forge:nuggets/" + material);
     var nuggets = nuggetsItemTag.first();
@@ -303,25 +259,14 @@ public function mekanism_enriching_nugget_from_clump(material as string) as void
 
     var outputCount = 4;
 
-    <recipetype:mekanism:enriching>.addJSONRecipe("mekanism/enriching/" + material + "/nugget/from_clump",
-    {
-        input: {
-            ingredient: {
-                item: clump.registryName
-            }
-
-        },
-        output: {
-            item: nuggets.registryName,
-            count: outputCount
-        }
-    });
+    mekanismEnriching("mekanism/enriching/" + material + "/nugget/from_clump", clumpItemTagString, nuggets.registryName, outputCount);
 
     // logger.info("mekanism_enriching_nugget_from_clump with " + material + " succesfully ran!");
 }
 
-public function mekanism_injecting_clump_from_shard(material as string) as void {
-	var shardItemTag = BracketHandlers.getTag("mekanism:shards/" + material);
+public function mekanism_purifying_clump_from_shard(material as string) as void {
+    var shardItemTagString = "mekanism:shards/" + material;
+	var shardItemTag = BracketHandlers.getTag(shardItemTagString);
     var clumpItemTag = BracketHandlers.getTag("mekanism:clumps/" + material);
     var shard = shardItemTag.first();
     var clump = clumpItemTag.first();
@@ -337,30 +282,19 @@ public function mekanism_injecting_clump_from_shard(material as string) as void 
         if (clump.matches(<item:minecraft:air>)) {
             // logger.info("mekanism_injecting_clump_from_shard: No items exist in the ItemTag " + clumpItemTag.commandString);
             return;
-        } 
+        }
 
-        <recipetype:mekanism:purifying>.addJSONRecipe("mekanism/purifying/" + material + "/clump/from_shard",
-        {
-            itemInput: {
-                ingredient: {
-                    item: shard.registryName
-                }
-            },
-            gasInput: {
-                amount: 1,
-                gas: "mekanism:oxygen"
-            },
-            output: {
-                item: clump.registryName
-            }
-        });
+        var outputCount = 1;
+
+        mekanismPurifying("mekanism/purifying/" + material + "/clump/from_shard", shardItemTagString, clump.registryName, outputCount);
 
         // logger.info("mekanism_injecting_clump_from_shard with " + material + " succesfully ran!");
     }
 }
 
 public function mekanism_injecting_shard_from_crystal(material as string) as void {
-	var crystalItemTag = BracketHandlers.getTag("mekanism:crystals/" + material);
+    var crystalItemTagString = "mekanism:crystals/" + material;
+	var crystalItemTag = BracketHandlers.getTag(crystalItemTagString);
     var shardItemTag = BracketHandlers.getTag("mekanism:shards/" + material);
     var crystal = crystalItemTag.first();
     var shard = shardItemTag.first();
@@ -376,23 +310,11 @@ public function mekanism_injecting_shard_from_crystal(material as string) as voi
         if (shard.matches(<item:minecraft:air>)) {
             // logger.info("mekanism_injecting_shard_from_crystal: No items exist in the ItemTag " + shardItemTag.commandString);
             return;
-        } 
+        }
 
-        <recipetype:mekanism:injecting>.addJSONRecipe("mekanism/injecting/" + material + "/shard/from_crystal",
-        {
-            itemInput: {
-                ingredient: {
-                    item: crystal.registryName
-                }
-            },
-            gasInput: {
-                amount: 1,
-                gas: "mekanism:hydrogen_chloride"
-            },
-            output: {
-                item: shard.registryName
-            }
-        });
+        var outputCount = 1;
+
+        mekanismInjecting("mekanism/injecting/" + material + "/shard/from_crystal", crystalItemTagString, shard.registryName, outputCount);
 
         // logger.info("mekanism_injecting_shard_from_crystal with " + material + " succesfully ran!");
     }
@@ -401,7 +323,8 @@ public function mekanism_injecting_shard_from_crystal(material as string) as voi
 // Create
 
 public function create_splashing_nugget_from_clump(material as string) as void {
-    var clumpItemTag = BracketHandlers.getTag("mekanism:clumps/" + material);
+    var clumpItemTagString = "mekanism:clumps/" + material;
+    var clumpItemTag = BracketHandlers.getTag(clumpItemTagString);
     var nuggetItemTag = BracketHandlers.getTag("forge:nuggets/" + material);
     var clump = clumpItemTag.first();
     var nugget = nuggetItemTag.first();
@@ -420,24 +343,12 @@ public function create_splashing_nugget_from_clump(material as string) as void {
 
     <recipetype:create:splashing>.removeByName("jaopca:create.crushed_to_nugget." + material);
     <recipetype:create:splashing>.removeByName("create:splashing/crushed_" + material);
-    <recipetype:create:splashing>.addJSONRecipe("create/splashing/" + material + "/nugget/from_clump",
-    {
-        ingredients: [
-            {
-                item: clump.registryName
-            }
-        ], 
-        results: [
-            {
-                item: nugget.registryName,
-                count: outputCount
-            }
-        ]
-    });
+    createSplashing("create/splashing/" + material + "/nugget/from_clump", clumpItemTagString, nugget.registryName, outputCount);
 }
 
 public function create_splashing_dust_from_dirty_dust(material as string) as void {
-    var dirty_dustItemTag = BracketHandlers.getTag("mekanism:dirty_dusts/" + material);
+    var dirty_dustItemTagString = "mekanism:dirty_dusts/" + material;
+    var dirty_dustItemTag = BracketHandlers.getTag(dirty_dustItemTagString);
     var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
     var dirty_dust = dirty_dustItemTag.first();
     var dust = dustItemTag.first();
@@ -454,26 +365,14 @@ public function create_splashing_dust_from_dirty_dust(material as string) as voi
 
     var outputCount = 1;
 
-    <recipetype:create:splashing>.addJSONRecipe("create/splashing/" + material + "/dust/from_dirty_dust",
-    {
-        ingredients: [
-            {
-                item: dirty_dust.registryName
-            }
-        ], 
-        results: [
-            {
-                item: dust.registryName,
-                count: outputCount
-            }
-        ]
-    });
+    createSplashing("create/splashing/" + material + "/dust/from_dirty_dust", dirty_dustItemTagString, dust.registryName, outputCount);
 }
 
 // Different mods
 
 public function crushing_dust_from_gem(material as string) as void {
-    var gemItemTag = BracketHandlers.getTag("forge:gems/" + material);
+    var gemItemTagString = "forge:gems/" + material;
+    var gemItemTag = BracketHandlers.getTag(gemItemTagString);
     var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
     var gem = gemItemTag.first();
     var dust = dustItemTag.first();
@@ -491,70 +390,24 @@ public function crushing_dust_from_gem(material as string) as void {
     var outputCount = 1;
 
     <recipetype:mekanism:crushing>.removeByName("mekanism:processing/" + material + "/to_dust");
-    <recipetype:mekanism:crushing>.addJSONRecipe("mekanism/crushing/" + material + "/dust/from_gem",
-    {
-        input: {
-            ingredient: {
-                item: gem.registryName
-            }
-            
-        },
-        output: {
-            item: dust.registryName
-        }
-    });
+    mekanismCrushing("mekanism/crushing/" + material + "/dust/from_gem", gemItemTagString, dust.registryName, outputCount);
 
-    <recipetype:create:milling>.addJSONRecipe("create/milling/" + material + "/dust/from_gem",
-        {
-            ingredients: [
-                {
-                    item: gem.registryName
-                }
-            ], 
-            results: [
-                    {
-                        item: dust.registryName,
-                        count: outputCount
-                    }
-            ]
-        });
+    createMilling("create/milling/" + material + "/dust/from_gem", gemItemTagString, dust.registryName, outputCount);
 
     <recipetype:silents_mechanisms:crushing>.removeByName("jaopca:silents_mechanisms.material_to_dust." + material);
     <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/" + material);
     <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/" + material + "_dust");
-    <recipetype:silents_mechanisms:crushing>.addJSONRecipe("silents_mechanisms/crushing/" + material + "/dust/from_gem",
-        {
-            process_time: 300,
-            ingredient: {
-                item: gem.registryName
-            },
-            results: [
-                {
-                    item: dust.registryName,
-                    count: outputCount
-                }
-            ]
-        });
+    silentsMechanismsCrushing("silents_mechanisms/crushing/" + material + "/dust/from_gem", gemItemTagString, dust.registryName, outputCount);
 
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coal");
-    <recipetype:immersiveengineering:crusher>.addJSONRecipe("immersiveengineering/crusher/" + material + "/dust/from_gem",
-        {
-            secondaries: [],
-            result: {
-                item: dust.registryName,
-                count: outputCount
-            },
-            input: {
-                item: gem.registryName
-            },
-            energy: 3000
-        });
+    immersiveengineeringCrusher("immersiveengineering/crusher/" + material + "/dust/from_gem", gemItemTagString, dust.registryName, outputCount);
 
     // logger.info("crushing_dust_from_gem with " + material + " succesfully ran!");
 }
 
 public function crushing_dust_from_ingot(material as string) as void {
-    var ingotItemTag = BracketHandlers.getTag("forge:ingots/" + material);
+    var ingotItemTagString = "forge:ingots/" + material;
+    var ingotItemTag = BracketHandlers.getTag(ingotItemTagString);
     var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
     var ingot = ingotItemTag.first();
     var dust = dustItemTag.first();
@@ -573,65 +426,18 @@ public function crushing_dust_from_ingot(material as string) as void {
 
     <recipetype:mekanism:crushing>.removeByName("jaopca:mekanism.material_to_dust." + material);
     <recipetype:mekanism:crushing>.removeByName("mekanism:processing/" + material + "/dust/from_ingot");
-    <recipetype:mekanism:crushing>.addJSONRecipe("mekanism/crushing/" + material + "/dust/from_ingot",
-    {
-        input: {
-            ingredient: {
-                item: ingot.registryName
-            }
-            
-        },
-        output: {
-            item: dust.registryName
-        }
-    });
+    mekanismCrushing("mekanism/crushing/" + material + "/dust/from_ingot", ingotItemTagString, dust.registryName, outputCount);
 
-    <recipetype:create:milling>.addJSONRecipe("create/milling/" + material + "/dust/from_ingot",
-        {
-            ingredients: [
-                {
-                    item: ingot.registryName
-                }
-            ], 
-            results: [
-                    {
-                        item: dust.registryName,
-                        count: outputCount
-                    }
-            ]
-        });
+    createMilling("create/milling/" + material + "/dust/from_ingot", ingotItemTagString, dust.registryName, outputCount);
 
     <recipetype:silents_mechanisms:crushing>.removeByName("jaopca:silents_mechanisms.chunks_to_dust." + material);
     <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/" + material + "_dust");
     <recipetype:silents_mechanisms:crushing>.removeByName("jaopca:silents_mechanisms.material_to_dust." + material);
     <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/" + material + "_dust_from_ingot");
-    <recipetype:silents_mechanisms:crushing>.addJSONRecipe("silents_mechanisms/crushing/" + material + "/dust/from_ingot",
-        {
-            process_time: 300,
-            ingredient: {
-                item: ingot.registryName
-            },
-            results: [
-                {
-                    item: dust.registryName,
-                    count: outputCount
-                }
-            ]
-        });
+    silentsMechanismsCrushing("silents_mechanisms/crushing/" + material + "/dust/from_ingot", ingotItemTagString, dust.registryName, outputCount);
 
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ingot_" + material);
-    <recipetype:immersiveengineering:crusher>.addJSONRecipe("immersiveengineering/crusher/" + material + "/dust/from_ingot",
-        {
-            secondaries: [],
-            result: {
-                item: dust.registryName,
-                count: outputCount
-            },
-            input: {
-                item: ingot.registryName
-            },
-            energy: 3000
-        });
+    immersiveengineeringCrusher("immersiveengineering/crusher/" + material + "/dust/from_ingot", ingotItemTagString, dust.registryName, outputCount);
 
     // logger.info("crushing_dust_from_ingot with " + material + " succesfully ran!");
 }
@@ -659,88 +465,26 @@ public function crushing_dust_from_block(material as string) as void {
         outputCount = 4;
     }
 
-    <recipetype:mekanism:crushing>.addJSONRecipe("mekanism/crushing/" + material + "/dust/from_block",
-    {
-        input: {
-            ingredient: {
-                tag: blockItemTagString
-            }
-            
-        },
-        output: {
-            item: dust.registryName,
-            count: outputCount
-        }
-    });
+    mekanismCrushing("mekanism/crushing/" + material + "/dust/from_block", blockItemTagString, dust.registryName, outputCount);
 
-    <recipetype:create:milling>.addJSONRecipe("create/milling/" + material + "/dust/from_block",
-        {
-            ingredients: [
-                {
-                    tag: blockItemTagString
-                }
-            ], 
-            results: [
-                    {
-                        item: dust.registryName,
-                        count: outputCount
-                    }
-            ]
-        });
+    createMilling("create/milling/" + material + "/dust/from_block", blockItemTagString, dust.registryName, outputCount);
 
     <recipetype:create:crushing>.removeByName("create:crushing/" + material + "_block");
-    <recipetype:create:crushing>.addJSONRecipe("create/crushing/" + material + "/dust/from_block",
-        {
-            ingredients: [
-                {
-                    tag: blockItemTagString
-                }
-            ], 
-            results: [
-                    {
-                        item: dust.registryName,
-                        count: outputCount
-                    }
-            ]
-        });
+    createCrushing("create/crushing/" + material + "/dust/from_block", blockItemTagString, dust.registryName, outputCount);
 
-    <recipetype:silents_mechanisms:crushing>.addJSONRecipe("silents_mechanisms/crushing/" + material + "/dust/from_block",
-        {
-            process_time: 300,
-            ingredient: {
-                tag: blockItemTagString
-            },
-            results: [
-                {
-                    item: dust.registryName,
-                    count: outputCount
-                }
-            ]
-        });
+    silentsMechanismsCrushing("silents_mechanisms/crushing/" + material + "/dust/from_block", blockItemTagString, dust.registryName, outputCount);
 
-    <recipetype:immersiveengineering:crusher>.addJSONRecipe("immersiveengineering/crusher/" + material + "/dust/from_block",
-        {
-            secondaries: [],
-            result: {
-                item: dust.registryName,
-                count: outputCount
-            },
-            input: {
-                tag: blockItemTagString
-            },
-            energy: 3000
-        });
+    immersiveengineeringCrusher("immersiveengineering/crusher/" + material + "/dust/from_block", blockItemTagString, dust.registryName, outputCount);
 
     // logger.info("crushing_dust_from_ingot with " + material + " succesfully ran!");
 }
 
 public function crushing_dirty_dust_from_clump(material as string) as void {
-    var clumpItemTag = BracketHandlers.getTag("mekanism:clumps/" + material);
+    var clumpItemTagString = "mekanism:clumps/" + material;
+    var clumpItemTag = BracketHandlers.getTag(clumpItemTagString);
 	var dirty_dustItemTag = BracketHandlers.getTag("mekanism:dirty_dusts/" + material);
     var clump = clumpItemTag.first();
     var dirty_dust = dirty_dustItemTag.first();
-
-    var outputCount = 1;
 
     if (clump.matches(<item:minecraft:air>)) {
         // logger.info("crushing_dirty_dust_from_clump: No items exist in the ItemTag " + clumpItemTag.commandString);
@@ -750,80 +494,35 @@ public function crushing_dirty_dust_from_clump(material as string) as void {
     if (dirty_dust.matches(<item:minecraft:air>)) {
         // logger.info("crushing_dirty_dust_from_clump: No items exist in the ItemTag " + dirty_dustItemTag.commandString);
         return;
-    } 
+    }
+
+    var outputCount = 1;
 
     var itemOwner = dirty_dust.registryName.split(":")[0];
     if (!(itemOwner == "mekanism" || itemOwner == "jaopca")) {
-
-        <recipetype:mekanism:crushing>.addJSONRecipe("mekanism/crushing/" + material + "/dirty_dust/from_clump",
-        {
-            input: {
-                ingredient: {
-                    item: clump.registryName
-                }
-                
-            },
-            output: {
-                item: dirty_dust.registryName
-            }
-        });
+        mekanismCrushing("mekanism/crushing/" + material + "/dirty_dust/from_clump", clumpItemTagString, dirty_dust.registryName, outputCount);
     }
 
-    <recipetype:create:milling>.addJSONRecipe("create/milling/" + material + "/dirty_dust/from_clump",
-        {
-            ingredients: [
-                {
-                    item: clump.registryName
-                }
-            ], 
-            results: [
-                    {
-                        item: dirty_dust.registryName,
-                        count: outputCount
-                    }
-            ]
-        });
+    createMilling("create/milling/" + material + "/dirty_dust/from_clump", clumpItemTagString, dirty_dust.registryName, outputCount);
 
-    <recipetype:silents_mechanisms:crushing>.addJSONRecipe("silents_mechanisms/crushing/" + material + "/dirty_dust/from_clump",
-        {
-            process_time: 300,
-            ingredient: {
-                item: clump.registryName
-            },
-            results: [
-                {
-                    item: dirty_dust.registryName,
-                    count: outputCount
-                }
-            ]
-        });
+    silentsMechanismsCrushing("silents_mechanisms/crushing/" + material + "/dirty_dust/from_clump", clumpItemTagString, dirty_dust.registryName, outputCount);
 
-    <recipetype:immersiveengineering:crusher>.addJSONRecipe("immersiveengineering/crusher/" + material + "/dirty_dust/from_clump",
-        {
-            secondaries: [],
-            result: {
-                item: dirty_dust.registryName,
-                count: outputCount
-            },
-            input: {
-                item: clump.registryName
-            },
-            energy: 3000
-        });
+    immersiveengineeringCrusher("immersiveengineering/crusher/" + material + "/dirty_dust/from_clump", clumpItemTagString, dirty_dust.registryName, outputCount);
 
     // logger.info("crushing_dirty_dust_from_clump with " + material + " succesfully ran!");
 }
 
 public function crushing_gem_dust_from_ore(material as string) as void {
-	var oresItemTag = BracketHandlers.getTag("forge:ores/" + material);
+    var oreItemTagString = "forge:ores/" + material;
+	var oreItemTag = BracketHandlers.getTag(oreItemTagString);
     var gemItemTag = BracketHandlers.getTag("forge:gems/" + material);
     var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
-    var ore = oresItemTag.first();
+    var ore = oreItemTag.first();
     var gem = gemItemTag.first();
     var dust = dustItemTag.first();
 
     if (ore.matches(<item:minecraft:air>)) {
-        // logger.info("crushing_gem_from_ore: No items exist in the ItemTag " + oresItemTag.commandString);
+        // logger.info("crushing_gem_from_ore: No items exist in the ItemTag " + oreItemTag.commandString);
         return;
     }
 
@@ -846,95 +545,34 @@ public function crushing_gem_dust_from_ore(material as string) as void {
     }
 
     <recipetype:crafting>.removeByName("mekanism:processing/" + material + "/gem/from_ore");
-    <recipetype:mekanism:crushing>.addJSONRecipe("mekanism/crushing/" + material + "/gem/from_ore",
-        {
-            input: {
-                ingredient: {
-                    tag: "forge:ores/" + material
-                }
-                
-            },
-            output: {
-                item: dust.registryName,
-                count: outputCount
-            }
-        });
+    mekanismCrushing("mekanism/crushing/" + material + "/gem/from_ore", oreItemTagString, dust.registryName, outputCount);
 
     <recipetype:create:milling>.removeByName("jaopca:create.ore_to_material_milling." + material);
     <recipetype:create:milling>.removeByName("create:milling/" + material + "_ore");
-    <recipetype:create:milling>.addJSONRecipe("create/milling/" + material + "/gem/from_ore",
-        {
-            ingredients: [
-                {
-                    tag: "forge:ores/" + material
-                }
-            ], 
-            results: [
-                    {
-                        item: dust.registryName,
-                        count: outputCount
-                    }
-            ]
-        });
+    createMilling("create/milling/" + material + "/gem/from_ore", oreItemTagString, dust.registryName, outputCount);
         
     <recipetype:create:crushing>.removeByName("jaopca:create.ore_to_crushed_crushing." + material);
     <recipetype:create:crushing>.removeByName("jaopca:create.ore_to_material_crushing." + material);
     <recipetype:create:crushing>.removeByName("create:crushing/" + material + "_ore");
-    <recipetype:create:crushing>.addJSONRecipe("create/crushing/" + material + "/gem/from_ore",
-        {
-            ingredients: [
-                {
-                    tag: "forge:ores/" + material
-                }
-            ], 
-            results: [
-                    {
-                        item: dust.registryName,
-                        count: outputCount
-                    }
-            ]
-        });
+    createCrushing("create/crushing/" + material + "/gem/from_ore", oreItemTagString, dust.registryName, outputCount);
 
-    <recipetype:silents_mechanisms:crushing>.addJSONRecipe("silents_mechanisms/crushing/" + material + "/gem/from_ore",
-        {
-            process_time: 300,
-            ingredient: {
-                tag: "forge:ores/" + material
-            },
-            results: [
-                {
-                    item: dust.registryName,
-                    count: outputCount
-                }
-            ]
-        });
+    silentsMechanismsCrushing("silents_mechanisms/crushing/" + material + "/gem/from_ore", oreItemTagString, dust.registryName, outputCount);
 
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ore_" + material);
-    <recipetype:immersiveengineering:crusher>.addJSONRecipe("immersiveengineering/crusher/" + material + "/gem/from_ore",
-        {
-            secondaries: [],
-            result: {
-                item: dust.registryName,
-                count: outputCount
-            },
-            input: {
-                tag: "forge:ores/" + material
-            },
-            energy: 3000
-        });
+    immersiveengineeringCrusher("immersiveengineering/crusher/" + material + "/gem/from_ore", oreItemTagString, dust.registryName, outputCount);
 
     // logger.info("crushing_gem_from_clump with " + material + " succesfully ran!");
 }
 
 public function crushing_clump_from_ore(material as string) as void {
-	var oresItemTag = BracketHandlers.getTag("forge:ores/" + material);
+    var oreItemTagString = "forge:ores/" + material;
+	var oreItemTag = BracketHandlers.getTag(oreItemTagString);
     var clumpItemTag = BracketHandlers.getTag("mekanism:clumps/" + material);
-    var ore = oresItemTag.first();
+    var ore = oreItemTag.first();
     var clump = clumpItemTag.first();
 
-    var outputCount = 2;
     if (ore.matches(<item:minecraft:air>)) {
-        // logger.info("crushing_clump_from_ore: No items exist in the ItemTag " + oresItemTag.commandString);
+        // logger.info("crushing_clump_from_ore: No items exist in the ItemTag " + oreItemTag.commandString);
         return;
     }
 
@@ -943,85 +581,26 @@ public function crushing_clump_from_ore(material as string) as void {
         return;
     }
 
-    <recipetype:mekanism:crushing>.addJSONRecipe("mekanism/crushing/" + material + "/clump/from_ore",
-        {
-            input: {
-                ingredient: {
-                    tag: "forge:ores/" + material
-                }
-                
-            },
-            output: {
-                item: clump.registryName,
-                count: outputCount
-            }
-        });
+    var outputCount = 2;
+
+    mekanismCrushing("mekanism/crushing/" + material + "/clump/from_ore", oreItemTagString, clump.registryName, outputCount);
 
     <recipetype:create:milling>.removeByName("jaopca:create.ore_to_crushed_milling." + material);
     <recipetype:create:milling>.removeByName("jaopca:create.ore_to_material_milling." + material);
     <recipetype:create:milling>.removeByName("create:milling/" + material + "_ore");
-    <recipetype:create:milling>.addJSONRecipe("create/milling/" + material + "/clump/from_ore",
-        {
-            ingredients: [
-                {
-                    tag: "forge:ores/" + material
-                }
-            ], 
-            results: [
-                    {
-                        item: clump.registryName,
-                        count: outputCount
-                    }
-            ]
-        });
+    createMilling("create/milling/" + material + "/clump/from_ore", oreItemTagString, clump.registryName, outputCount);
 
     <recipetype:create:crushing>.removeByName("jaopca:create.ore_to_crushed_crushing." + material);
     <recipetype:create:crushing>.removeByName("jaopca:create.ore_to_material_crushing." + material);
     <recipetype:create:crushing>.removeByName("create:crushing/" + material + "_ore");
-    <recipetype:create:crushing>.addJSONRecipe("create/crushing/" + material + "/clump/from_ore",
-        {
-            ingredients: [
-                {
-                    tag: "forge:ores/" + material
-                }
-            ], 
-            results: [
-                    {
-                        item: clump.registryName,
-                        count: outputCount
-                    }
-            ]
-        });
+    createCrushing("create/crushing/" + material + "/clump/from_ore", oreItemTagString, clump.registryName, outputCount);
 
     <recipetype:silents_mechanisms:crushing>.removeByName("jaopca:silents_mechanisms.ore_to_chunks." + material);
     <recipetype:silents_mechanisms:crushing>.removeByName("silents_mechanisms:crushing/" + material + "_chunks");
-    <recipetype:silents_mechanisms:crushing>.addJSONRecipe("silents_mechanisms/crushing/" + material + "/clump/from_ore",
-        {
-            process_time: 300,
-            ingredient: {
-                tag: "forge:ores/" + material
-            },
-            results: [
-                {
-                    item: clump.registryName,
-                    count: outputCount
-                }
-            ]
-        });
+    silentsMechanismsCrushing("silents_mechanisms/crushing/" + material + "/clump/from_ore", oreItemTagString, clump.registryName, outputCount);
 
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ore_" + material);
-    <recipetype:immersiveengineering:crusher>.addJSONRecipe("immersiveengineering/crusher/" + material + "/clump/from_ore",
-        {
-            secondaries: [],
-            result: {
-                item: clump.registryName,
-                count: outputCount
-            },
-            input: {
-                tag: "forge:ores/" + material
-            },
-            energy: 3000
-        });
+    immersiveengineeringCrusher("immersiveengineering/crusher/" + material + "/clump/from_ore", oreItemTagString, clump.registryName, outputCount);
 
     // logger.info("crushing_clump_from_clump with " + material + " succesfully ran!");
 }

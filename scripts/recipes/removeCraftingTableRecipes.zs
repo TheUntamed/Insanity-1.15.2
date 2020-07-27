@@ -68,6 +68,12 @@ var disabledItems as IItemStack[] = [
     <item:mekanismtools:wood_paxel>,
     <item:mekanismtools:stone_paxel>,
 
+    <item:forbidden_arcanus:bone_pickaxe>,
+    <item:forbidden_arcanus:bone_axe>,
+    <item:forbidden_arcanus:bone_shovel>,
+    <item:forbidden_arcanus:bone_sword>,
+    <item:forbidden_arcanus:bone_hoe>,
+
     <item:pickletweaks:watering_can>
 ];
 

@@ -5,6 +5,8 @@ import crafttweaker.api.item.IIngredient;
 
 logger.info("Prio Test: remove-and-add-shaped");
 
+var to_blast_furnace = <item:minecraft:furnace> | <item:brickfurnace:brick_blast_furnace>;
+
 var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
 
     /* 
@@ -15,6 +17,38 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
         [, , ]
     ],
      */
+
+    // Druidcraft
+    <item:druidcraft:bone_pickaxe> :
+    [
+        [<item:natural-progression:bone_shard>, <tag:forge:bones>, <item:natural-progression:bone_shard>],
+        [<item:minecraft:air>, <tag:forge:rods/wooden>, <item:minecraft:air>],
+        [<item:minecraft:air>, <tag:forge:rods/wooden>, <item:minecraft:air>]
+    ],
+    <item:druidcraft:bone_axe> :
+    [
+        [<item:natural-progression:bone_shard>, <tag:forge:bones>, <item:minecraft:air>],
+        [<item:natural-progression:bone_shard>, <tag:forge:rods/wooden>, <item:minecraft:air>],
+        [<item:minecraft:air>, <tag:forge:rods/wooden>, <item:minecraft:air>]
+    ],
+    <item:druidcraft:bone_sword> :
+    [
+        [<item:minecraft:air>, <item:natural-progression:bone_shard>, <item:minecraft:air>],
+        [<item:minecraft:air>, <tag:forge:bones>, <item:minecraft:air>],
+        [<item:minecraft:air>, <tag:forge:rods/wooden>, <item:minecraft:air>]
+    ],
+    <item:druidcraft:bone_hoe> :
+    [
+        [<item:natural-progression:bone_shard>, <tag:forge:bones>, <item:minecraft:air>],
+        [<item:minecraft:air>, <tag:forge:rods/wooden>, <item:minecraft:air>],
+        [<item:minecraft:air>, <tag:forge:rods/wooden>, <item:minecraft:air>]
+    ],
+    <item:druidcraft:bone_sickle> :
+    [
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:xreliquary:rib_bone>, <item:minecraft:air>],
+        [<tag:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]
+    ],
 
     // Silents Mechanisms
     <item:silents_mechanisms:alloy_machine_frame>*2 :
@@ -459,7 +493,7 @@ var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
     <item:minecraft:blast_furnace> :
     [
         [<tag:forge:ingots/iron>, <tag:forge:ingots/iron>, <tag:forge:ingots/iron>],
-        [<tag:forge:ingots/iron>, <tag:forge:to_blast_furnace>, <tag:forge:ingots/iron>],
+        [<tag:forge:ingots/iron>, to_blast_furnace, <tag:forge:ingots/iron>],
         [<item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>]
     ],
     <item:minecraft:smoker> :

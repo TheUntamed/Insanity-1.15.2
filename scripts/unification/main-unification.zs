@@ -193,10 +193,10 @@ for material in materials {
     crushing_clump_from_ore(material);
     crushing_dust_from_block(material);
     crushing_gem_dust_from_ore(material);
-    mekanism_injecting_shard_from_ore(material);
     mekanism_enriching_dust_from_dirty_dust(material);
     mekanism_enriching_nugget_from_clump(material);
-    mekanism_injecting_clump_from_shard(material);
+    mekanism_purifying_clump_from_shard(material);
+    mekanism_injecting_shard_from_ore(material);
     mekanism_injecting_shard_from_crystal(material);
 }
 
