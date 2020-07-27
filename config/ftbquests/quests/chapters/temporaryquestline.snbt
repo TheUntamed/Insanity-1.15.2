@@ -1,7 +1,7 @@
 {
 	id: 3,
 	filename: "temporaryquestline",
-	order_index: 2,
+	order_index: 1,
 	title: "Temporary Questline",
 	icon: "minecraft:oak_leaves",
 	quests: [
@@ -9,7 +9,7 @@
 			title: "Stone to go",
 			icon: "natural-progression:stone_pebble",
 			x: -4.0d,
-			y: -2.0d,
+			y: -5.0d,
 			subtitle: "Pick up some pebbles from the ground.",
 			description: ["pebbles can be found in most biomes."],
 			id: 6,
@@ -64,8 +64,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: -2.0d,
+			x: -4.0d,
+			y: -3.5d,
 			subtitle: "Take 1 pebble in each hand and smack them together to get flint by chance.",
 			dependencies: [I;6],
 			id: 19,
@@ -82,7 +82,7 @@
 			}]
 		},
 		{
-			x: -1.0d,
+			x: -4.0d,
 			y: -2.0d,
 			subtitle: "Pick up sticks from the ground and craft a Flint Hatchet.",
 			dependencies: [I;19],
@@ -102,28 +102,28 @@
 		{
 			title: "Stripper",
 			icon: "minecraft:stripped_oak_log",
-			x: 0.5d,
-			y: -2.0d,
+			x: -4.0d,
+			y: -0.5d,
 			subtitle: "Right Click a Log with your Hatchet to strip it.",
 			dependencies: [I;21],
 			id: 42,
 			tasks: [{
-				id: 43,
+				id: 101,
 				type: "item",
-				title: "Any minecraft:logs",
+				title: "Any forge:stripped",
 				item: {
 					id: "itemfilters:tag",
 					Count: 1,
 					tag: {
-						value: "minecraft:logs"
+						value: "forge:stripped"
 					}
 				},
 				count: 4
 			}]
 		},
 		{
-			x: 2.0d,
-			y: -2.0d,
+			x: -4.0d,
+			y: 1.0d,
 			subtitle: "Craft Stripped Logs together with your Hatchet to get Planks. Craft a Crafting Table.",
 			dependencies: [I;42],
 			id: 44,
@@ -131,6 +131,396 @@
 				id: 45,
 				type: "item",
 				item: "minecraft:crafting_table"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 4.0d,
+			dependencies: [I;
+				110,
+				122
+			],
+			id: 105,
+			tasks: [
+				{
+					id: 108,
+					type: "item",
+					item: "minecraft:campfire"
+				},
+				{
+					id: 109,
+					type: "item",
+					item: "kubejs:fire_clay_bricks",
+					count: 8
+				}
+			],
+			rewards: [{
+				id: 163,
+				type: "item",
+				item: {
+					id: "minecraft:porkchop",
+					Count: 4
+				}
+			}]
+		},
+		{
+			title: "Coal Miner",
+			x: -2.5d,
+			y: 2.5d,
+			dependencies: [I;44],
+			id: 110,
+			tasks: [{
+				id: 111,
+				type: "item",
+				item: "minecraft:coal",
+				count: 4
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 1.0d,
+			dependencies: [I;44],
+			id: 112,
+			tasks: [{
+				id: 113,
+				type: "item",
+				item: {
+					id: "pickletweaks:flint_sword",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -2.0d,
+			subtitle: "A lot of different Monsters and Animals drop Bones. Not only Skeletons.",
+			description: ["Take a Bone into one hand and Flint into the other and smack them together to get a Bone Shard."],
+			dependencies: [I;19],
+			id: 116,
+			tasks: [
+				{
+					id: 118,
+					type: "item",
+					item: "minecraft:bone"
+				},
+				{
+					id: 119,
+					type: "item",
+					item: {
+						id: "natural-progression:bone_knife",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 5.5d,
+			dependencies: [I;105],
+			id: 120,
+			tasks: [{
+				id: 121,
+				type: "item",
+				item: "brickfurnace:brick_furnace"
+			}]
+		},
+		{
+			title: "A lot of Clay",
+			x: -4.0d,
+			y: 4.0d,
+			subtitle: "You will need a lot of Clay!",
+			description: ["72 Clay Balls for your first Furnace to be precise."],
+			dependencies: [I;124],
+			id: 122,
+			tasks: [{
+				id: 123,
+				type: "item",
+				item: "minecraft:clay_ball",
+				count: 36
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.5d,
+			dependencies: [I;44],
+			id: 124,
+			tasks: [{
+				id: 125,
+				type: "item",
+				item: {
+					id: "pickletweaks:flint_shovel",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 152,
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1,
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+			}]
+		},
+		{
+			title: "Vanilla Furnace",
+			x: -2.5d,
+			y: 7.0d,
+			description: [
+				"A Brick Furnace can do the same stuff,",
+				"but the vanilla Furnace is required for some recipes."
+			],
+			dependencies: [I;120],
+			id: 126,
+			tasks: [
+				{
+					id: 127,
+					type: "item",
+					item: "minecraft:stone",
+					count: 8
+				},
+				{
+					id: 128,
+					type: "item",
+					item: "minecraft:furnace"
+				}
+			],
+			rewards: [{
+				id: 129,
+				type: "item",
+				item: {
+					id: "pickletweaks:coal_piece",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 1.0d,
+			dependencies: [I;112],
+			id: 130,
+			tasks: [
+				{
+					id: 131,
+					type: "item",
+					item: {
+						id: "minecraft:leather_helmet",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 132,
+					type: "item",
+					item: {
+						id: "minecraft:leather_chestplate",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 133,
+					type: "item",
+					item: {
+						id: "minecraft:leather_leggings",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 134,
+					type: "item",
+					item: {
+						id: "minecraft:leather_boots",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: 2.5d,
+			dependencies: [I;44],
+			id: 135,
+			tasks: [{
+				id: 136,
+				type: "item",
+				item: {
+					id: "pickletweaks:flint_pickaxe",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Clumps and Nuggets",
+			x: -5.5d,
+			y: 4.0d,
+			subtitle: "Ores drop Clumps. Clumps can be washed into Nuggets.",
+			dependencies: [I;135],
+			id: 137,
+			tasks: [
+				{
+					id: 155,
+					type: "item",
+					item: "mekanism:clump_iron",
+					count: 2
+				},
+				{
+					id: 158,
+					type: "item",
+					item: "minecraft:iron_nugget",
+					count: 4
+				}
+			]
+		},
+		{
+			title: "A Button for a Chest",
+			x: -5.5d,
+			y: 5.5d,
+			dependencies: [I;137],
+			id: 141,
+			tasks: [{
+				id: 142,
+				type: "item",
+				title: "Any forge:chests/wooden",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 5.5d,
+			subtitle: "Your first very basic machine frame.",
+			dependencies: [I;120],
+			id: 161,
+			tasks: [{
+				id: 162,
+				type: "item",
+				item: "silents_mechanisms:stone_machine_frame",
+				count: 3
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 5.5d,
+			subtitle: "Use the Alloy Smelter to produce Bronze.",
+			dependencies: [I;161],
+			id: 164,
+			tasks: [
+				{
+					id: 165,
+					type: "item",
+					item: "silents_mechanisms:coal_generator"
+				},
+				{
+					id: 166,
+					type: "item",
+					item: "silents_mechanisms:basic_alloy_smelter"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 5.5d,
+			subtitle: "With a Crusher you can get your Resources more efficent.",
+			dependencies: [I;164],
+			id: 168,
+			tasks: [{
+				id: 169,
+				type: "item",
+				item: "silents_mechanisms:basic_crusher"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 5.5d,
+			subtitle: "Crush Clumps to Dirty Dust. Then Wash the Dirty Dust to Dust just like you washed Clumps to Nuggets.",
+			dependencies: [I;168],
+			id: 170,
+			tasks: [
+				{
+					id: 171,
+					type: "item",
+					item: "mekanism:dirty_dust_iron"
+				},
+				{
+					id: 172,
+					type: "item",
+					item: "silents_mechanisms:iron_dust"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 7.0d,
+			dependencies: [I;120],
+			id: 173,
+			tasks: [{
+				id: 174,
+				type: "item",
+				item: "brickfurnace:brick_blast_furnace"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 7.0d,
+			dependencies: [I;
+				173,
+				170
+			],
+			id: 175,
+			tasks: [{
+				id: 176,
+				type: "item",
+				item: "minecraft:iron_ingot"
+			}],
+			rewards: [{
+				id: 181,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 8.5d,
+			description: [
+				"A Brick Blast Furnace can do the same stuff,",
+				"but the vanilla Blast Furnace is required for some recipes."
+			],
+			dependencies: [I;173],
+			id: 179,
+			tasks: [{
+				id: 180,
+				type: "item",
+				item: "minecraft:blast_furnace"
 			}]
 		}
 	]

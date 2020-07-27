@@ -1,0 +1,34 @@
+
+#Stone Variants (this mod adds just one stone variant right now. Vanilla and other mods stone variants are handled in #general or the ore configs)
+[general]
+	#Should stone variants added by this mod generate?
+	disableAllVariants = false
+
+	#Hardened Stone generation settings.
+	[general.hardened_stone]
+
+		#Hardened Stone generation settings.
+		[general.hardened_stone.generation]
+			#If false, this ore variant will not generate.
+			disableVariant = true
+			#The min y-level the ore will generate.
+			#Range: 0 ~ 256
+			minHeight = 0
+			#How many clusters per chunk.
+			#Range: 0 ~ 65536
+			clustersPerChunk = 10
+			#The max y-level the ore will generate.
+			#Range: 0 ~ 256
+			maxHeight = 30
+			#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+			biomeBlacklist = []
+			#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+			temperatureBlacklist = []
+			#If true, the biome temperature blacklist is a whitelist.
+			isTempWhitelist = false
+			#If true, the biome blacklist is a whitelist.
+			isBiomeWhitelist = false
+			#The size of a cluster
+			#Range: 0 ~ 65536
+			clusterSize = 33
+

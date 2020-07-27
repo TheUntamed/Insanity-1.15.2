@@ -1,8 +1,9 @@
-#priority 8000
+#priority 4000
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.tag.MCTag;
 
+logger.info("Prio Test: mctag-first!");
 public expand MCTag {
     public first() as IItemStack? {
         if (!this.isItemTag) {

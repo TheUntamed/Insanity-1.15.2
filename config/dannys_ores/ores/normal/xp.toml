@@ -1,0 +1,1291 @@
+
+#Settings affecting all variants
+[general]
+	#If true, all variants of this ore type will be disabled.
+	disableAllVariants = false
+
+	#Vanilla Stone Variants
+	[general.minecraft]
+
+		#Netherrack Xp Ore
+		[general.minecraft.netherrack_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.netherrack_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 88
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.netherrack_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Red Sandstone Xp Ore
+		[general.minecraft.red_sandstone_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sandstone_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.red_sandstone_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Red Sand Xp Ore
+		[general.minecraft.red_sand_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.red_sand_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.red_sand_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Stone Xp Ore
+		[general.minecraft.stone_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.stone_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.stone_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Packed Ice Xp Ore
+		[general.minecraft.packed_ice_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.packed_ice_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.packed_ice_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Diorite Xp Ore
+		[general.minecraft.diorite_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.diorite_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.diorite_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Blue Ice Xp Ore
+		[general.minecraft.blue_ice_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.blue_ice_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.blue_ice_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Sand Xp Ore
+		[general.minecraft.sand_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sand_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.sand_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Sandstone Xp Ore
+		[general.minecraft.sandstone_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.sandstone_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.sandstone_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Andesite Xp Ore
+		[general.minecraft.andesite_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.andesite_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.andesite_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Gravel Xp Ore
+		[general.minecraft.gravel_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.gravel_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.gravel_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Granite Xp Ore
+		[general.minecraft.granite_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.granite_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.granite_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Bedrock Xp Ore
+		[general.minecraft.bedrock_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.bedrock_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.bedrock_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+				#A higher value means a stronger explosion is needed to destroy this ore. Stone has 6.0 and Obsidian 1200.0
+				#Range: 0.0 ~ 3600000.0
+				resistance = 9.0
+
+		#End Stone Xp Ore
+		[general.minecraft.end_stone_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.minecraft.end_stone_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.minecraft.end_stone_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+	#The Midnight Stone Variants
+	[general.midnight]
+
+		#Nightstone Xp Ore
+		[general.midnight.nightstone_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.midnight.nightstone_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.midnight.nightstone_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+	#Embellishcraft Stone Variants
+	[general.embellishcraft]
+
+		#Slate Xp Ore
+		[general.embellishcraft.slate_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.slate_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.embellishcraft.slate_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Larvikite Xp Ore
+		[general.embellishcraft.larvikite_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.larvikite_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.embellishcraft.larvikite_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Jade Xp Ore
+		[general.embellishcraft.jade_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.jade_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.embellishcraft.jade_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Gneiss Xp Ore
+		[general.embellishcraft.gneiss_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.gneiss_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.embellishcraft.gneiss_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Basalt Xp Ore
+		[general.embellishcraft.basalt_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.basalt_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.embellishcraft.basalt_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Marble Xp Ore
+		[general.embellishcraft.marble_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.embellishcraft.marble_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.embellishcraft.marble_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+	#Quark Stone Variants
+	[general.quark]
+
+		#Limestone Xp Ore
+		[general.quark.limestone_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.limestone_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.quark.limestone_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Slate Xp Ore
+		[general.quark.slate_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.slate_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.quark.slate_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Basalt Xp Ore
+		[general.quark.basalt_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.basalt_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 88
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.quark.basalt_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Jasper Xp Ore
+		[general.quark.jasper_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.jasper_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.quark.jasper_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Marble Xp Ore
+		[general.quark.marble_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.marble_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.quark.marble_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+	#Create Stone Variants
+	[general.create]
+
+		#Limestone Xp Ore
+		[general.create.limestone_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.create.limestone_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.create.limestone_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Scoria Xp Ore
+		[general.create.scoria_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.create.scoria_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.create.scoria_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Gabbro Xp Ore
+		[general.create.gabbro_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.create.gabbro_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.create.gabbro_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Dolomite Xp Ore
+		[general.create.dolomite_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.create.dolomite_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.create.dolomite_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Weathered Limestone Xp Ore
+		[general.create.weathered_limestone_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.create.weathered_limestone_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.create.weathered_limestone_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+	#The Nethercraft Stone Variants
+	[general.nethercraft]
+
+		#Heat Sand Xp Ore
+		[general.nethercraft.heat_sand_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.nethercraft.heat_sand_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 88
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 6
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.nethercraft.heat_sand_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+	#Danny's Ores Stone Variants
+	[general.dannys_ores]
+
+		#Hardened Stone Xp Ore
+		[general.dannys_ores.hardened_stone_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.dannys_ores.hardened_stone_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.dannys_ores.hardened_stone_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+	#Mystical Agriculture Stone Variants
+	[general.mysticalagriculture]
+
+		#Soulstone Xp Ore
+		[general.mysticalagriculture.soulstone_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.mysticalagriculture.soulstone_xp_ore.generation]
+				#If false, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.mysticalagriculture.soulstone_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+

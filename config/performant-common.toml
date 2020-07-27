@@ -12,6 +12,15 @@
 		#Requires TELoadBalancing = true. Enables dealing with lag caused by tile entities during chunk unload. default = false
 		TEUnloadLag = false
 
+["Event load balancing settings"]
+	#Mean tick time at which event load balancing takes effect, 1000 / mean tick time = TPS. default: 45
+	#Range: 1 ~ 200
+	meanTickEvent = 40
+	#Enables debug log output for lagging event subscribers, default = false
+	eventDebugOutput = false
+	#Enables event load balancing, this is mostly stuff which is happening outside entityAI/Tileentities, if the game is lagging. default: true
+	eventLoadBalancing = true
+
 ["Entity settings"]
 	#Fix updateleashState lag from llamas, default = true
 	fixLeash = true
@@ -21,6 +30,8 @@
 	noLagItemPickup = true
 	#Use faster Item entities, default = true
 	fastItems = true
+	#Enable fast inventory advancement triggers, default = true
+	fastInventoryAdvancement = true
 	#Enable fast pathfinding, default = true
 	fastPathFinding = true
 
@@ -55,4 +66,10 @@
 ["Other settings"]
 	#Enable fast spawn radius check, default = true
 	fastSpawnRadius = true
+	#Enable printing of world/chunk saves for debugging purposes, default = false
+	printWorldSaves = false
+	#Enable fast chunk save, default = true
+	fastChunkSave = true
+	#Enable fast chunk block ticks, default = true
+	fastChunkBlocks = true
 

@@ -1,4 +1,479 @@
-!nsanity 0.1.1
+!nsanity 0.4.1
+--------------
+
+Forge 1.15.2-31.2.31 -->
+
+**Added Mods**
+
+* 
+
+**Updated Mods**
+
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* *Mystical Agriculture* (3.0.8 --> 3.0.9)
+* *RandomPatches* (1.22.1.0 --> 1.22.1.1)
+* *Solar Flux Reborn* (15.0.0 --> 15.2.3)
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+
+**Removed Mods**
+
+* 
+
+**Changes**
+
+* 
+
+**Bug Fixes**
+
+* 
+
+!nsanity 0.4.0
+--------------
+
+**WARNING:** Due to an update of the TerraForged mod worlds are not backwards compatible.
+This means that chunks will not generate seamlessly if you open your old worlds.
+On the other hand, this means great performance, memory and optical improvements for new worlds.
+
+Forge 1.15.2-31.2.22 --> 1.15.2-31.2.31
+
+**Added Mods**
+
+* *Akashic Tome*
+* *Bamboo Blocks*
+* *Bamboo Everything*
+* *Simply Trophies*
+
+**Updated Mods**
+
+* *[Forge] Expanded Storage* (1.1.8 --> 2.0.0)
+* *AIOT Botania* (1.2.2 --> 1.2.3)
+* *Apotheosis* (3.1.2 --> 3.2.4)
+* *Aquaculture 2* (2.0.15 --> 2.0.16)
+* *Biomes O' Plenty* (10.0.0.363 --> 10.0.0.366)
+* *Botania* (r1.15-3862 --> r1.15-387)
+* *Carpet Stairs Mod* (1.4.4 --> 1.4.7)
+* *Clumps* (5.0.2 --> 5.0.2.4)
+* *Collective* (1.32 --> 1.35)
+* *Controlling* (6.1.5.5 --> 6.1.5.6)
+* *CraftTweaker* (6.0.0.24 --> 6.0.0.34)
+* *Cucumber Library* (3.0.8 --> 3.0.9)
+* *Cyclic* (0.4.2 --> 0.6.1)
+* *Cyclops Core* (1.7.0 --> 1.8.0)
+* *Danny's Ores* (1.0 --> 1.2)
+* *Dimensional Dungeons* (1.06 --> 1.07)
+* *DimStorage* (3.1.5 --> 3.1.6)
+* *Double Slabs* (2.7.3 --> 2.9.0)
+* *Dungeon Crawl* (1.6.3 --> 2.0.1)
+* *Engineer's Decor* (1.1.0-b3 --> 1.1.0)
+* *Engineer's Tools* (1.0.7. --> 1.0.78)
+* *Essentials* (2.7.2 --> 2.7.3)
+* *Extended Crafting* (2.0.4 --> 2.0.5)
+* *Extended Lights* (2.0 --> 2.1)
+* *Extra Disks* (1.2 --> 1.2.2)
+* *Extreme sound muffler (Forge)* (1.2.2 --> 1.2.3)
+* *Farming for Blockheads* (6.1.4 --> 6.1.5)
+* *FastWorkbench* (3.0.0 --> 3.1.1)
+* *Flux Networks* (5.0.1-2 --> 5.0.3-4)
+* *Forbidden and Arcanus* (1.3.1 --> 1.4)
+* *FPS Reducer* (1.15 -->1.17)
+* *Fx Control!* (1.0.2 --> 1.0.3)
+* *Immersive Engineering* (0.15-103 --> 0.15-108)
+* *In Control!* (4.0.3 --> 4.0.4)
+* *Industrial Foregoing* (2.3.2-e3bf186 --> 2.3.3-e356e61)
+* *Iron Jetpacks* (3.0.2 --> 3.0.3)
+* *Item Filters* (2.2.0.14 --> 2.2.0.15)
+* *JAOPCA* (3.2.0.11 --> 3.2.0.13)
+* *JEITweaker* (1.0.1 --> 1.0.1.3)
+* *KubeJS* (2.7.1.2 --> 2.7.1.8)
+* *Large Fluid Tank* (15.3.0 --> 15.3.2)
+* *McJtyLib* (4.1.1 --> 4.1.3)
+* *Mekanism* (9.10.8.421 --> 9.10.8.422)
+* *Mekanism Generators* (9.10.8.421 --> 9.10.8.422)
+* *Mekanism Tools* (9.10.8.421 --> 9.10.8.422)
+* *Mystical Adaptations* (1.1 --> 1.2.1)
+* *Mystical Agriculture* (3.0.7 --> 3.0.8)
+* *Nature's Aura* (28.2 --> 28.4)
+* *Nether Enhancement* (1.0.1.2 --> 1.0.2.2)
+* *Overloaded Compressed Blocks* (1.0.12 --> 1.0.13)
+* *Pam's HarvestCraft 2 - Food Core* (1.0.4 --> 1.0.9)
+* *Patchouli* (1.2-34 --> 1.2-35)
+* *Pickle Tweaks* (4.0.3 --> 4.0.4)
+* *Placebo* (3.0.2 --> 3.1.0)
+* *PneumaticCraft: Repressurized* (1.3.2-42 --> 1.4.1-56)
+* *RandomPatches* (1.21.1.2 --> 1.22.1.0)
+* *Refined Storage* (1.8.4 --> 1.8.8)
+* *Refined Storage Addons* (0.6.1 --> 0.6.3)
+* *RFTools Base* (1.1.1 --> 1.1.3)
+* *RFTools Builder* (2.1.3 --> 2.1.5)
+* *RFTools Power* (2.1.1 --> 2.2.0)
+* *RFTools Storage* (1.1.4 --> 1.1.6)
+* *RFTools Utility* (2.1.3 --> 2.1.5)
+* *Silent Lib* (4.6.4+56 --> 4.6.6+59)
+* *Silent's Mechanisms* (0.7.2+52 --> 0.8.0+59)
+* *Simple Farming* (1.2.9 --> 1.3.0)
+* *TerraForged* (0.0.14 --> 0.1.0)
+* *Tetra* (2.11.0 --> 2.16.1)
+* *Torch Slabs Mod* (1.6.15 --> 1.7.0)
+* *Torchmaster* (2.1.1-rc0 --> 2.2.1)
+* *U Team Core* (2.12.1.158 --> 3.0.1.164)
+* *Upgrade Aquatic* (1.7.0 --> 1.7.1)
+* *Waystones* (6.0.1 --> 6.0.2)
+* *Worldgeneration Profiler* (1.3.0.6 --> 1.4.0.8)
+
+**Removed Mods**
+
+* *Bambootiful* (removed from curseforge)
+* *Corail Tombstone* (removed from curseforge)
+* *Corail Woodcutter* (removed from curseforge)
+* *Omegacraft* (it looks like a cool mod but sadly it's completely incompatible)
+* *Ring of the Miner [FORGE]*
+
+**Changes**
+
+* Metallic ores now drop ore clumps instead of the ore itself.
+* Disabled poisonous effect of uraninite ore. (The ore now drops an item and can only be obtained by silk touch anyway.)
+* Metal ingots cannot be smelted in a Furnace anymore. It requires a Blast Furnace. And many more processing changes.
+* *Quark* enabled totem of holding (gravestones were removed).
+* *Pneumaticcraft* Reduced spawn chance for oil lakes from 15% to 5%.
+
+**Bug Fixes**
+
+* 
+
+
+!nsanity 0.3.1
+--------------
+
+Forge 1.15.2-31.2.22 --> 
+
+**Added Mods**
+
+* 
+
+**Updated Mods**
+
+* 
+
+**Removed Mods**
+
+* *Auto Sprint : key toggle* (I think it's unnecessary for normal purposes and can only be abused or cause bugs in specific situations.)
+
+**Changes**
+
+* Disabled *Druidcraft* ore generation.
+* Disabled Elementary ore generation.
+
+**Bug Fixes**
+
+* 
+
+
+!nsanity 0.3.0
+--------------
+
+Forge 1.15.2-31.1.45 --> 1.15.2-31.2.22
+
+**Added Mods**
+
+* *Cauldron Recipes*
+* *Create*
+* *Danny's Ores*
+* *Druidcraft*
+* *Immersive Engineering*
+* *PneumaticCraft: Repressurized*
+
+**Updated Mods**
+
+* *Abnormals Core* (1.0.5 --> 1.0.6)
+* *AIOT Botania* (1.2.1 --> 1.2.2)
+* *Apotheosis* (3.0.7 --> 3.1.2)
+* *AppleSkin* (1.0.13 --> 1.0.14)
+* *Aquaculture 2* (2.0.13 --> 2.0.15)
+* *Biomes O' Plenty* (10.0.0.345 --> 10.0.0.363)
+* *Bookshelf* (5.4.14 --> 5.6.40)
+* *Botania* (r1.15-382 --> r1.15-386)
+* *Building Gadgets* (3.3.4 --> 3.3.5)
+* *Buzzier Bees* (1.4 --> 1.5.2)
+* *Caelus API* (2.0-beta2 --> 2.0-beta3)
+* *Camera Mod* (1.6.4 --> 1.6.9)
+* *Carbonado* (2.0.3 --> 2.0.7)
+* *Carpet Stairs Mod* (1.4.2 --> 1.4.4)
+* *Cloth Config API (Forge)* (2.0 --> 3.0)
+* *Collective* (1.29 --> 1.32)
+* *Conduits Prevent Drowned* (1.0 --> 1.1)
+* *Controlling* (6.1.4 --> 6.1.5.5)
+* *Cooking for Blockheads* (8.0.1 --> 8.0.3)
+* *Corail Tombstone* (4.3.4 --> 4.4.1)
+* *Corail Woodcutter* (1.1.2 --> 1.1.3)
+* *Crafting Tweaks* (11.0.0 --> 11.0.1)
+* *CraftTweaker* (6.0.0.17 --> 6.0.0.24)
+* *Cucumber Library* (3.0.5 --> 3.0.8)
+* *Curios API* (2.0.2.2 --> 2.0.2.4)
+* *Curious Shulker Boxes* (2.0.0.1 --> 2.0.1)
+* *Cycle Paintings* (1.2 --> 1.3)
+* *Cyclic* (0.3.4 --> 0.4.2)
+* *Cyclops Core* (1.6.2 --> 1.7.0)
+* *Dark Utilities* (3.0.3 --> 3.0.5)
+* *Dimensional Dungeons* (1.051 --> 1.06)
+* *DimStorage* (3.2.1 --> 3.1.5)
+* *Double Slabs* (2.2.5 --> 2.7.3)
+* *Ender Enhancement* (1.0.4.1 --> 1.0.4.2)
+* *EnderChests* (1.6.0 --> 1.6.1)
+* *EnderTanks* (1.8.0 --> 1.8.1)
+* *Engineer's Decor* (1.0.20-b5 --> -1.1.0-b3)
+* *Equipment Tooltips* (1.4.0+11 --> 1.4.3+14)
+* *Essentials* (2.7.0 --> 2.7.2)
+* *EverlastingAbilities* (1.6.1 --> 1.6.3)
+* *Extended Crafting* (2.0.0 --> 2.0.4)
+* *Extra Tags* (1.0 --> 1.1)
+* *Extreme sound muffler (Forge)* (1.2.1 --> 1.2.2)
+* *FAB Library* (1.1 --> 1.2)
+* *Farming for Blockheads* (6.1.0 --> 6.1.4)
+* *FPS Reducer* (1.14.1 --> 1.15)
+* *FTB Chunks* (1.0.0.1 --> 1.1.0.14)
+* *FTB Quests* (2.0.2.244 --> 2.0.2.246)
+* *Healing Campfire* (2.1 --> 2.3)
+* *Industrial Foregoing* (2.2.2-28d4a81 --> 2.3.2-e3bf186)
+* *Interactio* (2.0.1 --> 2.0.3)
+* *Iron Jetpacks* (3.0.1 --> 3.0.2)
+* *JAOPCA* (3.2.0.9 --> 3.2.0.11)
+* *JEITweaker* (1.0.0 --> 1.0.1)
+* *JourneyMap* (5.7.0beta1 --> 5.7.0b3)
+* *Just Enough Items (JEI)* (6.0.0.3 --> 6.0.2.12)
+* *KubeJS* (2.6.0.29 --> 2.7.0.40)
+* *Large Fluid Tank* (15.2.6 --> 15.3.0)
+* *Light Overlay (Rift/Forge/Fabric)* (4.4 --> 4.7.0)
+* *Lollipop* (1.0.14 --> 1.0.15)
+* *Ma Essentials* (3.0.3 --> 3.1.1)
+* *McJtyLib* (4.0.3-alpha --> 4.1.1-beta)
+* *Mekanism* (9.10.0.413 --> 9.10.7.421)
+* *Mekanism Generators* (9.10.0.413 --> 9.10.7.421)
+* *Mekanism Tools* (9.10.0.413 --> 9.10.7.421)
+* *MixinBootstrap* (1.0.2 --> 1.0.3)
+* *Modular Routers* (6.0.0-14 --> 6.1.1-19)
+* *Mystical Agradditions* (3.0.0 --> 3.0.1)
+* *Mystical Agriculture* (3.0.2 --> 3.0.7)
+* *Nature's Aura* (23.5 --> 28.2)
+* *Neat* (1.6-20 --> 1.6-22)
+* *Nethercraft Classic* (1.0.7 --> 1.0.9)
+* *NetherPortalFix* (6.0.0 --> 6.0.2)
+* *Open Loader* (4.0.3 --> 4.0.5)
+* *OpenBlocks Elevator* (1.7.0 --> 1.7.1)
+* *Overloaded* (0.0.86 --> 0.0.87)
+* *Packing Tape* (0.9.5 --> 0.9.6)
+* *Pam's HarvestCraft 2 - Crops* (1.0.3 --> 1.0.5)
+* *Pam's HarvestCraft 2 - Food Core* (1.0.3 --> 1.0.4)
+* *Pam's HarvestCraft 2 - Trees* (1.0.3 --> 1.0.5)
+* *Patchouli* (1.2-31 --> 1.2-34)
+* *Performant* (2.07m --> 2.11m)
+* *Pickle Tweaks* (4.0.2 --> 4.0.3)
+* *PlantTech 2* (0.02.04 --> 0.02.11)
+* *Powah!* (1.1.12 --> 1.1.14)
+* *ProjectE* (PE1.0.3B --> PE1.0.4)
+* *Quark* (r2.1-231 --> r2.1-245)
+* *Quickstack* (3.0.3c --> 3.0.3c)
+* *ReAuth* (3.8.0 --> 3.8.1)
+* *Refined Storage* (1.8.1 --> 1.8.4)
+* *Refined Storage Addons* (0.6.1 --> 0.6.1)
+* *Reliquary v1.3* (1.3.4.972 --> 1.3.4.995)
+* *RFTools Base* (1.0.1-alpha --> 1.1.1-beta)
+* *RFTools Builder* (2.0.1-alpha --> 2.1.3-beta)
+* *RFTools Power* (2.0.1-alpha --> 2.1.1-beta)
+* *RFTools Storage* (1.0.3-alpha --> 1.1.4-beta)
+* *RFTools Utility* (2.0.1-alpha --> 2.1.3-beta)
+* *Ring of Blink [FORGE]* (1.1.22 --> 1.1.31)
+* *Ring of Teleport [FORGE]* (1.1.23 --> 1.1.32)
+* *Ring of the Miner [FORGE]* (1.1.22 --> 1.1.31)
+* *Scalable Cat's Force* (2.13.1-build-6 --> 2.13.2-build-2)
+* *ShetiPhianCore* (3.7.0 --> 3.7.2)
+* *Silent Lib* (4.6.0+48 --> 4.6.4+56)
+* *Silent's Mechanisms* (0.7.1+51 --> 0.7.2+52)
+* *Simple Farming* (1.2.7 --> 1.2.9)
+* *Simply Backpacks* (1.4.5 --> 1.4.6)
+* *Solar Generation* (1.2.1 --> 1.2.2)
+* *Spice of Life: Carrot Edition* (1.9.4 --> 1.9.7)
+* *Structurize* (282-RELEASE --> 313-RELEASE)
+* *TerraForged* (0.0.12 --> 0.0.14)
+* *Tetra* (2.3.0 --> 2.11.0)
+* *Tesseract* (1.0.1 --> 1.0.4)
+* *The Endergetic Expansion* (1.2.5 --> 1.3.2)
+* *The Midnight* (0.5.7-2 --> 0.5.9)
+* *The One Probe* (2.0.2 --> 2.0.4)
+* *Titanium* (2.3.7 --> 2.4.2)
+* *Torch Slabs Mod* (1.6.8 --> 1.6.15)
+* *U Team Core* (2.12.1.156 --> 2.12.1.158)
+* *Upgrade Aquatic* (1.5.1 --> 1.7.0)
+* *Whoops* (0.0.1.2 --> 0.0.1.3)
+
+**Removed Mods**
+
+* *Basic Nether Ores*
+* *Embellishcraft*
+* *Mapperbase*
+* *Ring of Attraction [FORGE]* (There are enough other magnets)
+* *Ring of Growth [FORGE]* (Use watering cans instead)
+* *Ring of Repair [FORGE]* (There are other ways to repair items. E.g. powered diamond anvil)
+* *Ring of Return [FORGE]*
+* *Ring of the Enderchest [FORGE]* (A mod provides personal Enderchests and Enderbags now)
+
+**Changes**
+
+* Activated *Terraforged* strata decorator by default. (You still have to select **TerraForged** as world generation.)
+* Disabled Ore generation of *Silent's Mechanisms, Mekanism, Powah, Create, Mystical Agriculture, Immersive Engineering, Forbidden Arcanus*.
+* Enabled *Quark*'s Marble generation. (Embellishcraft and it's Marble were removed.)
+* Disabled *Quark*'s Limestone generation. (Create adds Limestone now.)
+* Disabled *The Midnight* portal generation. (Portals can be created manually by throwing a Dark Pearl. WARNING: Don't do it in your base)
+* Disabled *Tetra* geodes. (Randomly generated Stone blocks that didn't fit into the world generation.)
+
+
+!nsanity 0.2.3
+--------------
+
+Forge 1.15.2-31.1.45
+
+**Added Mods**
+
+* *Morph-o-Tool*
+
+**Updated Mods**
+
+* *Auxilium Equivalence* (1.0.0 --> 1.1.0)
+* *Bookshelf* (5.4.12 --> 5.4.14)
+* *Brick Furnace* (1.2.1 --> 1.3.0)
+* *CoFH Core* (0.3.2b --> 0.4.0b)
+* *CraftTweaker* (6.0.0.13 --> 6.0.0.17)
+* *Curios API* (2.0.2.1 --> 2.0.2.2)
+* *Curious Shulker Boxes* (2.0 --> 2.0.0.1)
+* *Cycle Paintings* (1.1 --> 1.2)
+* *Cyclic* (0.3.3 --> 0.3.4)
+* *DimStorage* (2.2.4 --> 2.2.5)
+* *Double Slabs* (3.1.0 --> 3.1.2)
+* *EmbellishCraft* (2.1.0.1 --> 2.1.1.0)
+* *Flux Networks* (5.0.0-1 --> 5.0.1-2)
+* *Forbidden and Arcanus* (1.1 --> 1.3.1)
+* *Lycanites Mobs* (2.2.3.1 --> 2.2.3.2)
+* *Pam's HarvestCraft 2 - Crops* (1.0.2 --> 1.0.3)
+* *Pam's HarvestCraft 2 - Trees* (1.0.2 --> 1.0.3)
+* *RandomPatches* (1.21.1.1 --> 1.21.1.2)
+* *The Midnight* (0.5.6 --> 0.5.7-2)
+* *Torch Slabs Mod* (1.6.7 --> 1.6.8)
+
+**Changes**
+
+* changed all recipes including wood and stone tools (because wood and stone tools are disabled)
+
+
+!nsanity 0.2.2
+--------------
+
+Forge 1.15.2-31.1.45
+
+**Added Mods**
+
+* *Brick Furnace*
+* *Flux Networks*
+* *Large Fluid Tanks*
+* *Mystical Customization*
+* *Pickle Tweaks*
+* *Whoops*
+
+**Removed Mods**
+
+* *Mystical Creations* (Replaced by Mystical Customization)
+
+**Updated Mods**
+
+* *Bookshelf* (5.3.9 --> 5.3.12)
+* *Caelus API* (2.0-beta1 --> 2.0-beta2)
+* *Cyclic* (0.3.2 --> 0.3.3)
+* *Engineer's Decor* (1.0.20-b4 --> 1.0.20-b5)
+* *Extreme sound muffler (Forge)* (1.1 --> 1.2.1)
+* *FAB Library* (1.0 --> 1.1)
+* *Healing Campfire* (1.7 --> 2.1)
+* *Kubejs* (2.6.0.28 --> 2.6.0.29)
+* *Lycanites Mobs* (2.2.2.1 --> 2.2.3.1)
+* *Mekanism* (9.9.18.410 --> 9.10.0.413)
+* *Mekanism* (9.9.18.410 --> 9.10.0.413)
+* *Mekanism* (9.9.18.410 --> 9.10.0.413)
+* *Mystical Agriculture* (3.0.1 --> 3.0.2)
+* *PlantTech 2* (0.02.03 --> 0.02.04)
+* *Torch Slabs Mod* (1.6.6 --> 1.6.7)
+* *Quickstack* (3.0.2 --> 3.0.3c)
+* *Reliquary v1.3* (1.3.4.960 --> 1.3.4.972)
+* *Ring of Attraction [FORGE]* (1.1.26 --> 1.1.27)
+* *Ring of Return [FORGE]* (1.0.5 --> 1.0.6)
+
+**Changes**
+
+* Updated default keybinds
+* Recipe changes
+
+* *Pam's Harvestcraft 2 Crops* reduced probability of gardens generating from 500 to 700.
+* *Quickstack* set Brick Furnace, Brick Blast Furnace and Brick Smoker on blacklist for inventory dump.
+* *Brick Furnace* enabled the campfire recipe to make clay to bricks.
+
+
+!nsanity 0.2.1
+--------------
+
+Forge 1.15.2-31.1.43 --> 1.15.2-31.1.45
+
+**Added Mods**
+
+**Removed Mods**
+
+**Updated Mods**
+
+* *Double Slabs* (2.2.3 --> 2.2.4)
+* *Light Overlay* (4.3 --> 4.4)
+* *Ma Enchants* (3.0.0 --> 3.1.0)
+* *Ma Essentials* (3.0.2 --> 3.0.3)
+* *Nethercraft Classic* (1.0.6 --> 1.0.7)
+* *Performant* (2.06m --> 2.07m)
+* *Quark* (r2.1-230 --> r2.1-231)
+* *Ring of Blink [FORGE]* (1.1.21 --> 1.1.22)
+* *Ring of Growth [FORGE]* (1.1.23 --> 1.1.24)
+* *Ring of Repair [FORGE]* (1.1.23 --> 1.1.24)
+* *Ring of Teleport [FORGE]* (1.1.22 --> 1.1.23)
+* *Ring of the Enderchest [FORGE]* (1.1.24 --> 1.1.25)
+* *Ring of the Miner [FORGE]* (1.1.21 --> 1.1.22)
+* *Solar Generation* (1.2.0 --> 1.2.1)
+
+**Changes**
+
+* Flint doesn't drop from gravel anymore (you can knap or craft flint).
+* Reduced Mining Level of the Slime Hammer from 2 to 1.
+* Changed more Recipes.
+* Added Plates for different materials. (no recipes yet. Waiting for crafttweaker update.)
+
+**Bug Fixes**
+
+
+!nsanity 0.2.0
 --------------
 
 Forge 1.15.2-31.1.35 --> 1.15.2-31.1.43

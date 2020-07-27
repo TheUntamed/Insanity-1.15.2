@@ -4,6 +4,8 @@
 	version = "2.2.2.1"
 
 [Extra]
+	#Set to true to prevent players from dismounting from Lycanites Mobs mounts when pressing shift (useful for shift to fly/swim down).
+	disableSneakDismount = true
 	#Set to true to disable the nausea debuff on players.
 	disableNausea = false
 
@@ -40,6 +42,10 @@
 	distance = 40
 	#Set to false to disable all Dungeons.
 	enabled = true
+
+	[Dungeons.tower]
+		#The chance of a dungeon generating a tower on top (0.25 by default).
+		chance = 0.25
 
 [Creatures]
 	#If true, alpha is disabled on mob textures, this can make them look undesirable but can increase performance on low end systems.
@@ -78,6 +84,8 @@
 	elementalFusionLevelMultiplier = 10.0
 	#If true, a chat message will be displayed when gaining Beastiary Knowledge.
 	beastiaryKnowledgeMessages = true
+	#How far in blocks pets stray from their owner when set to follow.
+	petFollowDistance = 8
 	#Increases the base start level by this amount of every world day that has gone by, use this to slowly level up mobs as the world gets older. Fractions can be used such as 0.05 levels per day. The levels are rounded down so +0.9 would be +0 levels.
 	levelPerDay = 0.0
 	#If true, tamed mobs will display their owner's name in their name tag.
@@ -88,6 +96,8 @@
 	bossAntiFlight = 10.0
 	#If true, passive mobs will fight back when hit instead of running away.
 	animalsFightBack = false
+	#Caps how much damage a boss can take per tick, this also affects Rare Variants and Dungeon Bosses. Set to 0 to disable the cap.
+	bossDamageCap = 50
 	#Set to false to disable pet/mount taming.
 	tamingEnabled = true
 	#The minimum size scale mobs can randomly spawn at.
@@ -98,6 +108,8 @@
 	levelPerDayMax = 100
 	#The chance that creatures are added to the player's Beastiary when killed, the Soulgazer can also be used to add creatures. Bosses are always a 100% chance.
 	beastiaryAddOnDeathChance = 0.15
+	#If true, mobs can be lured with treats even if they are in a pack.
+	packTreatLuring = false
 	#Set to false to prevent mobs that attack players from also attacking villagers.
 	mobsAttackVillagers = true
 	#If true, block particles are not spawned by mobs (useful for visual mods that create 3D block particles which can cause lag in high numbers).
@@ -231,82 +243,6 @@
 	#If true, newly generated dungeons wont create spawners with mobs from this mod.
 	disableDungeonSpawners = false
 
-["Creature Subspecies"]
-	#If set to true, rare subspecies will despawn naturally over time.
-	rareDespawning = false
-	#When a creature with the uncommon subspecies (Azure, Verdant, etc) dies, its experience amount is multiplied by this value.
-	uncommonExperienceScale = 2.0
-	#When a creature with the rare subspecies (Celestial, Lunar, etc) dies, its item drops amount is multiplied by this value.
-	rareDropScale = 5
-	#The minimum base starting level of every mob. Cannot be less than 1.
-	baseWeight = 400
-	#When a creature with the uncommon subspecies (Azure, Verdant, etc) dies, its item drops amount is multiplied by this value.
-	uncommonDropScale = 2
-	#The minimum amount of days before uncommon species start to spawn.
-	uncommonSpawnDayMin = 0
-	#The minimum amount of days before rare species start to spawn.
-	rareSpawnDayMin = 0
-	#When a creature with the rare subspecies (Celestial, Lunar, etc) dies, its experience amount is multiplied by this value.
-	rareExperienceScale = 10.0
-	#If set to true, rare subspecies such as the Lunar Grue or Celestial Geonach will display boss health bars.
-	rareHealthBars = false
-
-	["Creature Subspecies".multipliers]
-
-		["Creature Subspecies".multipliers.uncommon]
-			#Stat multiplier for damage for uncommon subspecies.
-			damage = 1.0
-			#Stat multiplier for armor for uncommon subspecies.
-			armor = 1.0
-			#Stat multiplier for defense for uncommon subspecies.
-			defense = 1.0
-			#Stat multiplier for attackSpeed for uncommon subspecies.
-			attackSpeed = 1.0
-			#Stat multiplier for effect for uncommon subspecies.
-			effect = 1.0
-			#Stat multiplier for sight for uncommon subspecies.
-			sight = 1.0
-			#Stat multiplier for health for uncommon subspecies.
-			health = 2.0
-			#Stat multiplier for amplifier for uncommon subspecies.
-			amplifier = 1.0
-			#Stat multiplier for rangedSpeed for uncommon subspecies.
-			rangedSpeed = 1.0
-			#Stat multiplier for speed for uncommon subspecies.
-			speed = 1.0
-			#Stat multiplier for pierce for uncommon subspecies.
-			pierce = 1.0
-
-		["Creature Subspecies".multipliers.rare]
-			#Stat multiplier for damage for rare subspecies.
-			damage = 1.0
-			#Stat multiplier for armor for rare subspecies.
-			armor = 1.0
-			#Stat multiplier for defense for rare subspecies.
-			defense = 1.0
-			#Stat multiplier for attackSpeed for rare subspecies.
-			attackSpeed = 2.0
-			#Stat multiplier for effect for rare subspecies.
-			effect = 2.0
-			#Stat multiplier for sight for rare subspecies.
-			sight = 1.0
-			#Stat multiplier for health for rare subspecies.
-			health = 20.0
-			#Stat multiplier for amplifier for rare subspecies.
-			amplifier = 1.0
-			#Stat multiplier for rangedSpeed for rare subspecies.
-			rangedSpeed = 2.0
-			#Stat multiplier for speed for rare subspecies.
-			speed = 1.0
-			#Stat multiplier for pierce for rare subspecies.
-			pierce = 1.0
-
-	["Creature Subspecies".weights]
-		#Subspecies weight for uncommon.
-		uncommon = 20
-		#Subspecies weight for rare.
-		rare = 2
-
 [Items]
 	#The chance of seasonal items dropping such as Winter Gifts. Can be 0-1, 0.25 would be 25%. Set to 0 to disable these drops all together.
 	seasonalDropChance = 0.1
@@ -338,4 +274,80 @@
 		checkDimension = false
 		#Set to false to disable altars, Soulkeys can still be crafted but wont work on Altars.
 		enabled = true
+
+["Creature Variants"]
+	#If set to true, rare variants will despawn naturally over time.
+	rareDespawning = false
+	#When a creature with the uncommon variant (Azure, Verdant, etc) dies, its experience amount is multiplied by this value.
+	uncommonExperienceScale = 2.0
+	#When a creature with the rare variant (Celestial, Lunar, etc) dies, its item drops amount is multiplied by this value.
+	rareDropScale = 5
+	#The minimum base starting level of every mob. Cannot be less than 1.
+	baseWeight = 400
+	#When a creature with the uncommon variant (Azure, Verdant, etc) dies, its item drops amount is multiplied by this value.
+	uncommonDropScale = 2
+	#The minimum amount of days before uncommon variants start to spawn.
+	uncommonSpawnDayMin = 0
+	#The minimum amount of days before rare variants start to spawn.
+	rareSpawnDayMin = 0
+	#When a creature with the rare variant (Celestial, Lunar, etc) dies, its experience amount is multiplied by this value.
+	rareExperienceScale = 10.0
+	#If set to true, rare variants such as the Lunar Grue or Celestial Geonach will display boss health bars.
+	rareHealthBars = false
+
+	["Creature Variants".multipliers]
+
+		["Creature Variants".multipliers.uncommon]
+			#Stat multiplier for damage for uncommon variant.
+			damage = 1.0
+			#Stat multiplier for armor for uncommon variant.
+			armor = 1.0
+			#Stat multiplier for defense for uncommon variant.
+			defense = 1.0
+			#Stat multiplier for attackSpeed for uncommon variant.
+			attackSpeed = 1.0
+			#Stat multiplier for effect for uncommon variant.
+			effect = 1.0
+			#Stat multiplier for sight for uncommon variant.
+			sight = 1.0
+			#Stat multiplier for health for uncommon variant.
+			health = 2.0
+			#Stat multiplier for amplifier for uncommon variant.
+			amplifier = 1.0
+			#Stat multiplier for rangedSpeed for uncommon variant.
+			rangedSpeed = 1.0
+			#Stat multiplier for speed for uncommon variant.
+			speed = 1.0
+			#Stat multiplier for pierce for uncommon variant.
+			pierce = 1.0
+
+		["Creature Variants".multipliers.rare]
+			#Stat multiplier for damage for rare variant.
+			damage = 1.0
+			#Stat multiplier for armor for rare variant.
+			armor = 1.0
+			#Stat multiplier for defense for rare variant.
+			defense = 1.0
+			#Stat multiplier for attackSpeed for rare variant.
+			attackSpeed = 2.0
+			#Stat multiplier for effect for rare variant.
+			effect = 2.0
+			#Stat multiplier for sight for rare variant.
+			sight = 1.0
+			#Stat multiplier for health for rare variant.
+			health = 20.0
+			#Stat multiplier for amplifier for rare variant.
+			amplifier = 1.0
+			#Stat multiplier for rangedSpeed for rare variant.
+			rangedSpeed = 2.0
+			#Stat multiplier for speed for rare variant.
+			speed = 1.0
+			#Stat multiplier for pierce for rare variant.
+			pierce = 1.0
+
+	["Creature Variants".weights]
+		#Subspecies weight for uncommon.
+		uncommon = 20
+		#Subspecies weight for rare.
+		rare = 2
 

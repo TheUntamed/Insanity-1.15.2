@@ -86,8 +86,10 @@
 
 [building]
 	"Duskbound Blocks" = true
+	"Cobblestone Bricks" = true
 	"More Brick Types" = true
 	"Soul Sandstone" = true
+	"Gold Bars" = true
 	"Quilted Wool" = true
 	"Compressed Blocks" = true
 	Thatch = true
@@ -104,6 +106,7 @@
 	Midori = true
 	"More Stone Variants" = true
 	"Framed Glass" = true
+	"Fairy Rings" = true
 	"Tallow And Candles" = true
 	Turf = true
 	"Paper Decor" = true
@@ -138,6 +141,7 @@
 		"Enable Cactus Block" = true
 		"Enable Apple Crate" = true
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
+		"Enable Bonded Rabbit Hide" = true
 		"Enable Charcoal Block" = true
 		"Enable Gunpowder Sack" = true
 		"Enable Potato Crate" = true
@@ -163,6 +167,15 @@
 		"Enable Snow Bricks" = true
 		#This also includes Red Sandstone Bricks and Soul Sandstone Bricks
 		"Enable Sandstone Bricks" = true
+
+	[building.fairy_rings]
+		"Forest Chance" = 0.00625
+		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore"]
+		"Plains Chance" = 0.0025
+
+		[building.fairy_rings.dimensions]
+			Dimensions = ["minecraft:overworld"]
+			"Is Blacklist" = false
 
 	[building.tallow_and_candles]
 		"Candles Fall" = true
@@ -193,8 +206,10 @@
 
 [tools]
 	Pickarang = true
-	"Ancient Tomes" = true
 	"Pathfinder Maps" = true
+	"Bottled Cloud" = true
+	"Color Runes" = true
+	"Ancient Tomes" = true
 	"Slime In A Bucket" = true
 	Camera = true
 	Trowel = true
@@ -203,6 +218,19 @@
 		#Amount of blocks placed is this value + 1. Default is 255 (4 stacks).
 		#Set to 0 to make the Trowel unbreakable
 		"Trowel Max Durability" = 255
+
+	[tools.bottled_cloud]
+		"Cloud Level Top" = 132
+		"Cloud Level Bottom" = 127
+
+	[tools.ancient_tomes]
+		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
+		"Dungeon Weight" = 20
+		"Item Quality" = 2
+		"Apply Cost" = 35
+		"Library Weight" = 30
+		"Monster Box Weight" = 5
+		"Merge Cost" = 35
 
 	[tools.pathfinder_maps]
 		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.
@@ -223,14 +251,13 @@
 		Customs = []
 		"Xp From Trade" = 5
 
-	[tools.ancient_tomes]
-		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
-		"Dungeon Weight" = 20
-		"Item Quality" = 2
-		"Apply Cost" = 35
-		"Library Weight" = 30
-		"Monster Box Weight" = 5
-		"Merge Cost" = 35
+	[tools.color_runes]
+		"Jungle Temple Weight" = 8
+		"Desert Temple Weight" = 8
+		"Dungeon Weight" = 10
+		"Item Quality" = 0
+		"Apply Cost" = 15
+		"Nether Fortress Weight" = 8
 
 	[tools.pickarang]
 		#22.5 is ender chests, 25.0 is monster boxes, 50 is obsidian. Most things are below 5.
@@ -250,6 +277,7 @@
 	"Armed Armor Stands" = true
 	"Lock Rotation" = true
 	"Dragon Scales" = true
+	"Replace Scaffolding" = true
 	"Axe Leaf Harvesting" = true
 	"Sign Editing" = true
 	"Dirt To Path" = true
@@ -319,6 +347,7 @@
 	[tweaks.reacharound_placing]
 		Leniency = 0.5
 		Whitelist = []
+		"Display Horizontal" = "<  >"
 		Display = "[  ]"
 
 	[tweaks.improved_sleeping]
@@ -360,13 +389,17 @@
 		"Boost Strength" = 0.5
 		"Max Speed" = 1.0
 
+	[tweaks.replace_scaffolding]
+		#How many times the algorithm for finding out where a block would be placed is allowed to turn. If you set this to large values (> 3) it may start producing weird effects.
+		"Max Bounces" = 1
+
 [world]
 	"New Stone Types" = true
 	"Lush Underground Biome" = true
 	"Big Dungeon" = true
 	Speleothems = true
 	Biotite = true
-	"Big Stone Clusters" = true
+	"Big Stone Clusters" = false
 	"Elder Prismarine Underground Biome" = true
 	"Brimstone Underground Biome" = true
 	"Blossom Trees" = true
@@ -719,11 +752,11 @@
 			"Is Blacklist" = false
 
 	[world.new_stone_types]
-		"Enable Marble" = false
+		"Enable Marble" = true
 		"Enable Jasper" = true
 		"Enable Basalt" = true
 		"Enable Slate" = true
-		"Enable Limestone" = true
+		"Enable Limestone" = false
 
 		[world.new_stone_types.marble]
 
@@ -1107,6 +1140,7 @@
 		#minecraft:mending=minecraft:carrot_on_a_stick
 		"Enchanting Additional Stacks" = []
 		"Food Tooltips" = true
+		"Show Saturation" = true
 		"Map Tooltips" = true
 		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "quark:pickarang"]
 
@@ -1137,7 +1171,7 @@
 		"Biome Definitions" = []
 
 [oddities]
-	"Totem Of Holding" = false
+	"Totem Of Holding" = true
 	Backpack = true
 	"Matrix Enchanting" = true
 	Magnets = true
