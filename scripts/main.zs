@@ -1,4 +1,4 @@
-#priority 100
+#priority 0
 
 logger.info("Prio Test: main");
 
@@ -15,3 +15,13 @@ postUnificationTagRemovals();
 postUnificationTagAdditions();
 postUnificationRemovals();
 postUnificationAdditions();
+
+removeRecipes();
+removeandAddShapedRecipes();
+removeAndAddShapedMirroredRecipes();
+removeAndAddShapelessRecipes();
+addShapedRecipes();
+addShapedMirroredRecipes();
+addShapelessRecipes();
+
+jei();

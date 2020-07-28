@@ -1,11 +1,14 @@
 #priority 3000
-//Has to be loaded before all Recipe and tag changes
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 import mods.jei.JEI;
+import crafttweaker.api.util.text.MCTextComponent;
+import crafttweaker.api.util.text.MCStyle;
+
+logger.info("Prio Test: util-functions!");
 
 public function formatRecipeName(item as IItemStack) as string {
 	return item.translationKey + "_" + item.amount;

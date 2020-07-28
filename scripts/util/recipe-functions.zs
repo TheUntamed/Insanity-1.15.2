@@ -1,6 +1,4 @@
 #priority 3000
-//Has to be loaded before all Recipe and tag changes
-
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
@@ -8,6 +6,8 @@ import crafttweaker.api.BracketHandlers;
 import mods.jei.JEI;
 
 // Add Recipe
+
+logger.info("Prio Test: recipe-functions!");
 
 public function addShaped(output as IItemStack, input as IIngredient[][], removeOriginalRecipe as bool) as void {
 	var recipeName = formatRecipeName(output);

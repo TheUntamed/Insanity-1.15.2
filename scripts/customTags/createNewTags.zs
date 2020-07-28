@@ -92,7 +92,6 @@ public function createNewTags() as void {
         <tag:forge:colorant/black>,
         <tag:forge:colorant/white>,
 
-        <tag:forge:hammer>,
         <tag:forge:hammer/weak>,
         <tag:forge:hammer/sturdy>,
         <tag:forge:hammer/strong>,

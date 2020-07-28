@@ -3,30 +3,29 @@ Priority overview:
 4000: MCTag-first
 
 3001: lists
-3000: unification-functions, recipe-functions, util-functions
+3000: unification-functions, recipe-functions, util-functions, machine-json-functions
 
 2104: pre-unification-removals
 2103: pre-unification-tag-removals
 2102: createNewTags
 2101: pre-unification-tag-additions
 
-2004: post-unification-tag-removals
-2003: post-unification-tag-additions
-2002: post-unification-removals
-2001: post-unification-additions
-
 1002: tag-unification
 1001: ore-unification
 1000: processing-unification
 
-99: jei
+104: post-unification-tag-removals
+103: post-unification-tag-additions
+102: post-unification-removals
+101: post-unification-additions
 
 13: removeCraftingTableRecipes
 12: removeAndAddShaped
 11: removeAndAddShapedMirrored
 10: removeAndAddShapeless
-4: addFurnaceRecipes
-3: addCampfireRecipe
-2: addShaped
-1: addShapedMirrored
-0: addShapeless
+9: addShaped
+8: addShapedMirrored
+7: addShapeless
+
+1: jei
+0: main

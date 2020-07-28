@@ -1,4 +1,4 @@
-#priority 2002
+#priority 102
 
 public function postUnificationRemovals() as void {
 
@@ -28,14 +28,6 @@ public function postUnificationRemovals() as void {
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/quartz2");
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/quartz");
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coal_block");
-
-    removeRecipe(<item:quark:bamboo_block>, true);
-
-    // for item in loadedMods.getMod("quark").items {
-    //     if (item.registryName.contains("vertical_slab")) {
-    //         removeRecipe(item, true);
-    //     }
-    // }
 
     // <recipetype:mekanism:crushing>.removeByName("");
     // <recipetype:mekanism:combining>.removeByName("");
