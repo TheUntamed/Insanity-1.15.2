@@ -9,8 +9,6 @@ public function createNewTags() as void {
     var custom as MCTag[] = [
         <tag:forge:disabled>,
 
-        // <tag:forge:to_blast_furnace>,
-
         <tag:mekanism:dirty_dusts/redstone>,
         <tag:mekanism:clumps/redstone>,
 
@@ -24,9 +22,29 @@ public function createNewTags() as void {
 
         <tag:forge:stripped>,
 
+        <tag:forge:storage_blocks/dark_quartz>,
+        <tag:forge:storage_blocks/mana_quartz>,
+        <tag:forge:storage_blocks/blaze_quartz>,
+        <tag:forge:storage_blocks/lavender_quartz>,
+        <tag:forge:storage_blocks/red_quartz>,
+        <tag:forge:storage_blocks/elven_quartz>,
+        <tag:forge:storage_blocks/sunny_quartz>,
+        <tag:forge:storage_blocks/empowered_quartz>,
+        <tag:forge:storage_blocks/extreme_quartz>,
+
         <tag:forge:gems/peridot>,
         <tag:forge:gems/red_garnet>,
         <tag:forge:gems/yellow_garnet>,
+        <tag:forge:gems/dark_quartz>,
+        <tag:forge:gems/mana_quartz>,
+        <tag:forge:gems/blaze_quartz>,
+        <tag:forge:gems/lavender_quartz>,
+        <tag:forge:gems/red_quartz>,
+        <tag:forge:gems/elven_quartz>,
+        <tag:forge:gems/sunny_quartz>,
+        <tag:forge:gems/empowered_quartz>,
+        <tag:forge:gems/extreme_quartz>,
+        
 
         <tag:forge:ingots/advanced_alloy>,
         <tag:forge:ingots/chrome>,

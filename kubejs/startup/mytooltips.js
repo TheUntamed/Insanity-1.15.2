@@ -6,7 +6,7 @@ events.listen('client.item_tooltip', function (event) {
 
   if (event.item.equals('pickletweaks:watering_can')) {
       event.add(text.red('Disabled! Use Mystical Agriculture\'s Watering Can.'))
-    }
+  }
 
   if (event.item.equals('vanillahammers:wooden_hammer')) {
     event.add(text.red('Disabled!'))

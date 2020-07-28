@@ -74,6 +74,15 @@ public function preUnificationTagAdditions() as void {
     // <tag:forge:gems/ruby>.addItems([<item:kubejs:ruby_gem>]);
     // <tag:forge:gems/sapphire>.addItems([<item:kubejs:sapphire_gem>]);
     // <tag:forge:gems/yellow_garnet>.addItems([<item:kubejs:yellow_garnet_gem>]);
+    <tag:forge:gems/dark_quartz>.addItems([<item:botania:quartz_dark>]);
+    <tag:forge:gems/mana_quartz>.addItems([<item:botania:quartz_mana>]);
+    <tag:forge:gems/blaze_quartz>.addItems([<item:botania:quartz_blaze>]);
+    <tag:forge:gems/lavender_quartz>.addItems([<item:botania:quartz_lavender>]);
+    <tag:forge:gems/red_quartz>.addItems([<item:botania:quartz_red>]);
+    <tag:forge:gems/elven_quartz>.addItems([<item:botania:quartz_elven>]);
+    <tag:forge:gems/sunny_quartz>.addItems([<item:botania:quartz_sunny>]);
+    <tag:forge:gems/empowered_quartz>.addItems([<item:netherenhancement:item_empowered_quartz>]);
+    <tag:forge:gems/extreme_quartz>.addItems([<item:netherenhancement:item_extreme_quartz>]);
 
     // Nuggets
     <tag:forge:nuggets/redstone>.addItems([<item:extendedcrafting:redstone_nugget>]);
@@ -83,6 +92,15 @@ public function preUnificationTagAdditions() as void {
 
     // Blocks
     <tag:forge:storage_blocks/redstone>.addItems([<item:extendedcrafting:redstone_ingot_block>]);
+    <tag:forge:storage_blocks/dark_quartz>.addItems([<item:botania:dark_quartz>]);
+    <tag:forge:storage_blocks/mana_quartz>.addItems([<item:botania:mana_quartz>]);
+    <tag:forge:storage_blocks/blaze_quartz>.addItems([<item:botania:blaze_quartz>]);
+    <tag:forge:storage_blocks/lavender_quartz>.addItems([<item:botania:lavender_quartz>]);
+    <tag:forge:storage_blocks/red_quartz>.addItems([<item:botania:red_quartz>]);
+    <tag:forge:storage_blocks/elven_quartz>.addItems([<item:botania:elf_quartz>]);
+    <tag:forge:storage_blocks/sunny_quartz>.addItems([<item:botania:sunny_quartz>]);
+    <tag:forge:storage_blocks/empowered_quartz>.addItems([<item:netherenhancement:block_empowered_quartz_block>]);
+    <tag:forge:storage_blocks/extreme_quartz>.addItems([<item:netherenhancement:block_extreme_quartz_block>]);
 
     // Hammer
     <tag:forge:hammer/powerful>.addItems([<item:projecte:dm_hammer>, <item:projecte:rm_hammer>]);
@@ -95,8 +113,6 @@ public function preUnificationTagAdditions() as void {
     
     <tag:forge:hammer/weak>.addItems(<tag:forge:hammer/sturdy>.items);
     <tag:forge:hammer/weak>.addItems([<item:vanillahammers:bone_hammer>, <item:vanillahammers:nether_hammer>, <item:vanillahammers:coal_hammer>, <item:vanillahammers:golden_hammer>]);
-
-    
 
     // Gears
     <tag:forge:gear>.addItems([<item:kubejs:flint_gear>, <item:titanium:gold_gear>, <item:titanium:iron_gear>, <item:titanium:diamond_gear>]);
@@ -166,7 +182,6 @@ public function preUnificationTagAdditions() as void {
     <tag:forge:blast_furnace>.addItems([<item:minecraft:blast_furnace>, <item:brickfurnace:brick_blast_furnace>]);
     <tag:forge:smoker>.addItems([<item:minecraft:smoker>, <item:brickfurnace:brick_smoker>]);
     <tag:forge:saw>.addItems([<item:natural-progression:basic_saw>, <item:natural-progression:improved_saw>]);
-    // <tag:forge:to_blast_furnace>.addItems([<item:minecraft:furnace>, <item:brickfurnace:brick_blast_furnace>]);
 
     <tag:forge:wg_stone>.addBlocks([<blockstate:create:scoria>.block]);
 }
