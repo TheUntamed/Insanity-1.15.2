@@ -2,6 +2,7 @@ Priority overview:
 
 4000: MCTag-first
 
+3001: lists
 3000: unification-functions, recipe-functions, util-functions
 
 2104: pre-unification-removals
@@ -14,8 +15,10 @@ Priority overview:
 2002: post-unification-removals
 2001: post-unification-additions
 
-1000: ore-unification
-999: main-unification
+1002: tag-unification
+1001: ore-unification
+1000: processing-unification
+
 99: jei
 
 13: removeCraftingTableRecipes
