@@ -23,7 +23,7 @@ public function oreUnification() as void {
 
         //Gems
         <tag:forge:ores/amber>,
-        //<tag:forge:ores/amethyst>,
+        <tag:forge:ores/amethyst>,
         //<tag:forge:ores/anglesite>,
         //<tag:forge:ores/apatite>,
         <tag:forge:ores/arcane_crystal>,
@@ -31,8 +31,8 @@ public function oreUnification() as void {
         //<tag:forge:ores/benitoite>,
         //<tag:forge:ores/black_opal>,
         <tag:forge:ores/black_quartz>,
-        //<tag:forge:ores/certus_quartz>,
-        //<tag:forge:ores/charged_certus_quartz>,
+        <tag:forge:ores/certus_quartz>,
+        <tag:forge:ores/charged_certus_quartz>,
         //<tag:forge:ores/dark_pearl>,
         <tag:forge:ores/dimensional_shard>,
         //<tag:forge:ores/draconium>,
@@ -87,6 +87,7 @@ public function oreUnification() as void {
         <tag:forge:ores/osmium>,
         <tag:forge:ores/platinum>,
         <tag:forge:ores/pyridium>,
+        //<tag:forge:ores/quicksilver>,
         <tag:forge:ores/rockroot>,
         //<tag:forge:ores/runite>,
         <tag:forge:ores/silver>,

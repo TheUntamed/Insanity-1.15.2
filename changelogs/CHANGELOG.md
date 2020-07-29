@@ -5,7 +5,9 @@ Forge 1.15.2-31.2.31 -->
 
 **Added Mods**
 
+* *Applied Energistics 2*
 * *Atum 2: Return to the Sands*
+* *Mystical World*
 
 **Updated Mods**
 
@@ -27,7 +29,7 @@ Forge 1.15.2-31.2.31 -->
 * *Mystical Agriculture* (3.0.8 --> 3.0.9)
 * *RandomPatches* (1.22.1.0 --> 1.22.1.1)
 * *Solar Flux Reborn* (15.0.0 --> 15.2.3)
-* ** ( --> )
+* *TerraForged* (0.1.0 --> 0.1.1)
 * ** ( --> )
 * ** ( --> )
 * ** ( --> )

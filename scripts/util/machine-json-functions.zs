@@ -77,6 +77,23 @@ public function mekanismEnriching(name as string, input as string, output as str
     });
 }
 
+public function ae2Grinder(name as string, input as string, output as string, outputCount as int) as void {
+    // <recipetype:appliedenergistics2:grinder>.addJSONRecipe(name,
+    // {
+    //     input: {
+    //         tag: input
+    //     },
+    //     result: {
+    //         primary: {
+    //             item: output,
+    //             count: outputCount
+    //         }
+    //     },
+    //     turns: 4
+    // });
+
+}
+
 public function mekanismCrushing(name as string, input as string, output as string, outputCount as int) as void {
     <recipetype:mekanism:crushing>.addJSONRecipe(name,
         {

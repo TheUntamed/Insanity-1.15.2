@@ -1,0 +1,13 @@
+{
+    "name": "Creative",
+    "type": "resource",
+    "tier": "mysticalagriculture:7",
+    "ingredient": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "color": "EFC946",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    }
+  }

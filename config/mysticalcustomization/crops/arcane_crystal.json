@@ -1,0 +1,13 @@
+{
+    "name": "Arcane Crystal Seeds",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "forbidden_arcanus:arcane_crystal"
+    },
+    "color": "A073C0",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_gem"
+    }
+  }

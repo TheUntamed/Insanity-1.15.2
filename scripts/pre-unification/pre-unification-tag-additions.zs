@@ -175,6 +175,7 @@ public function preUnificationTagAdditions() as void {
     }
 
     // Others
+    <tag:forge:silicon>.addItems([<item:appliedenergistics2:silicon>]);
     <tag:forge:bookshelves>.addItems([<item:upgrade_aquatic:driftwood_bookshelf>, <item:endergetic:poise_bookshelf>, <item:quark:dark_oak_bookshelf>, <item:quark:acacia_bookshelf>, <item:quark:jungle_bookshelf>, <item:quark:birch_bookshelf>, <item:quark:spruce_bookshelf>, <item:nethercraft:glowood_bookshelf>, <item:buzzierbees:hive_bookshelf>]);
     <tag:forge:fiber>.addItems([<item:simplefarming:cotton>]);
     <tag:forge:fiber/cotton>.addItems([<item:simplefarming:cotton>]);

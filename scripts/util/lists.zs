@@ -22,7 +22,7 @@ public function getMaterials() as string[] {
 
         //Gems
         "amber",
-        //"amethyst",
+        "amethyst",
         //"anglesite",
         //"apatite",
         "arcane_crystal",
@@ -87,6 +87,7 @@ public function getMaterials() as string[] {
         "osmium",
         "platinum",
         "pyridium",
+        "quicksilver",
         "rockroot",
         //"runite",
         "silver",

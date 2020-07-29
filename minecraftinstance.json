@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-07-28T22:54:35.8684124Z",
+  "lastPlayed": "2020-07-29T21:30:15.6014809Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -104,21 +104,6 @@
       "queryTimestamp": "2020-07-28T20:58:00.3895292Z",
       "fileCount": 1,
       "fileSize": 38372
-    },
-    {
-      "folderName": "TerraForged-1.15.2-0.1.0.jar",
-      "fingerprint": 3704437715,
-      "fileDateHash": 2873417502,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3704437715
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:44.5287968Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:08.3486531Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3905266Z",
-      "fileCount": 1,
-      "fileSize": 1297766
     },
     {
       "folderName": "auxilium-equivalence-1.15.2-1.1.0.jar",
@@ -404,6 +389,21 @@
       "queryTimestamp": "2020-07-28T20:58:00.3955151Z",
       "fileCount": 1,
       "fileSize": 4986608
+    },
+    {
+      "folderName": "mysticalworld-1.15.2-2.0.5.jar",
+      "fingerprint": 469382026,
+      "fileDateHash": 1208298257,
+      "sectionID": 8,
+      "individualFingerprints": [
+        469382026
+      ],
+      "status": 1,
+      "timestamp": "2020-07-29T13:57:06.9985095Z",
+      "lastWriteTimeUtc": "2020-07-29T13:19:42.4117287Z",
+      "queryTimestamp": "2020-07-29T13:57:07.7612346Z",
+      "fileCount": 1,
+      "fileSize": 2935772
     },
     {
       "folderName": "Abnormals-Core-1.15.2-1.0.6.jar",
@@ -1426,21 +1426,6 @@
       "fileSize": 178961
     },
     {
-      "folderName": "CodeChickenLib-1.15.2-3.3.0.373-universal.jar",
-      "fingerprint": 1779474175,
-      "fileDateHash": 1736868662,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1779474175
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:43.0028644Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:07.5320764Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4154381Z",
-      "fileCount": 1,
-      "fileSize": 518283
-    },
-    {
       "folderName": "RingOfTeleport-1.15.2-1.1.32.jar",
       "fingerprint": 2252675693,
       "fileDateHash": 3016521434,
@@ -1996,6 +1981,21 @@
       "fileSize": 202515
     },
     {
+      "folderName": "mysticallib-1.15.2-2.0.1.jar",
+      "fingerprint": 232097684,
+      "fileDateHash": 3387092565,
+      "sectionID": 8,
+      "individualFingerprints": [
+        232097684
+      ],
+      "status": 1,
+      "timestamp": "2020-07-29T13:57:06.9925235Z",
+      "lastWriteTimeUtc": "2020-07-29T13:19:42.0423329Z",
+      "queryTimestamp": "2020-07-29T13:57:07.7911543Z",
+      "fileCount": 1,
+      "fileSize": 133368
+    },
+    {
       "folderName": "AkashicTome-1.3-13.jar",
       "fingerprint": 4134879910,
       "fileDateHash": 1769434451,
@@ -2042,42 +2042,47 @@
     },
     {
       "folderName": "Test",
-      "fingerprint": 2550740883,
-      "fileDateHash": 398007354,
+      "fingerprint": 2726944877,
+      "fileDateHash": 1688917961,
       "sectionID": 10,
       "individualFingerprints": [
         29425876,
-        56299925,
-        58607091,
         73029648,
-        135227937,
         162988918,
-        186873165,
+        300357162,
+        308827424,
         359552779,
         403418361,
         407323594,
-        424479437,
         489217547,
         500036828,
         539326090,
         593743781,
+        598568713,
         651942457,
+        672266421,
+        766402811,
+        782419478,
+        794616041,
         812326908,
         821104905,
-        891229252,
         950914562,
+        1028136743,
         1064971317,
+        1070747585,
         1077144129,
         1085279233,
         1093338501,
-        1129130270,
         1170925343,
         1174775678,
         1187678304,
+        1198039783,
+        1225761873,
         1250756017,
         1254586642,
+        1262278129,
         1271102851,
-        1329199570,
+        1361571791,
         1367033121,
         1397450547,
         1428814987,
@@ -2088,47 +2093,52 @@
         1540447798,
         1566657123,
         1571976557,
-        1588458858,
         1613833181,
+        1628290571,
         1685506462,
-        1693973042,
         1717256304,
+        1717740061,
         1722796223,
         1764721521,
         1783675463,
         1816210389,
         1886391834,
         1931188287,
-        1969551920,
         2044365846,
         2045168165,
         2121544406,
         2161348066,
+        2208099618,
         2239351717,
         2243982225,
         2276337954,
-        2379957174,
+        2300421181,
+        2321415616,
+        2420279453,
         2498825621,
         2575806916,
-        2621517459,
-        2649749356,
+        2662737287,
+        2667437631,
         2672388777,
+        2707360307,
+        2734783285,
         2738148813,
-        2738580411,
         2754028482,
         2779270564,
-        2881932460,
+        2868010337,
+        2898501394,
         2911591640,
         2998180223,
         3049160315,
+        3130457829,
         3158624770,
-        3166849972,
-        3221559968,
-        3223667644,
+        3197590455,
+        3272685866,
         3272786162,
         3287613341,
         3587905635,
         3637354378,
+        3750081297,
         3769038449,
         3771282984,
         3771282984,
@@ -2136,20 +2146,24 @@
         3771282984,
         3771282984,
         3771282984,
+        3771282984,
+        3771282984,
+        3771282984,
+        3797079994,
+        3926756088,
         3964272420,
+        4036939748,
         4040084001,
-        4148302451,
-        4172462815,
+        4054424842,
         4190024319,
         4192398683,
-        4219855987,
-        4249671347,
+        4241017799,
         4294246967
       ],
       "status": 1,
-      "timestamp": "2020-07-28T22:54:07.0699538Z",
-      "lastWriteTimeUtc": "2020-07-28T22:54:06.5455878Z",
-      "queryTimestamp": "2020-07-28T22:54:08.1287289Z",
+      "timestamp": "2020-07-29T18:37:50.8901015Z",
+      "lastWriteTimeUtc": "2020-07-29T18:37:50.3734229Z",
+      "queryTimestamp": "2020-07-29T18:37:51.7937687Z",
       "fileCount": 22,
       "fileSize": 0
     },
@@ -3099,6 +3113,21 @@
       "fileSize": 20028
     },
     {
+      "folderName": "TerraForged-1.15.2-0.1.1.jar",
+      "fingerprint": 2497735506,
+      "fileDateHash": 3414950465,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2497735506
+      ],
+      "status": 1,
+      "timestamp": "2020-07-29T09:37:59.5481668Z",
+      "lastWriteTimeUtc": "2020-07-29T08:31:32.4946272Z",
+      "queryTimestamp": "2020-07-29T09:38:00.4898226Z",
+      "fileCount": 1,
+      "fileSize": 1296451
+    },
+    {
       "folderName": "quickstack-3.0.3c.jar",
       "fingerprint": 2534099592,
       "fileDateHash": 623772831,
@@ -3385,7 +3414,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-07-28T22:54:09.3645588Z",
+  "lastPreviousMatchUpdate": "2020-07-29T18:27:29.3566902Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.15.2",
@@ -4287,6 +4316,74 @@
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 277064,
+      "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
+      "installedFile": {
+        "id": 3005515,
+        "displayName": "mysticallib-1.15.2-2.0.1.jar",
+        "fileName": "mysticallib-1.15.2-2.0.1.jar",
+        "fileDate": "2020-07-15T11:10:08.44Z",
+        "fileLength": 133368,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3005/515/mysticallib-1.15.2-2.0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3843443608,
+            "type": 0
+          },
+          {
+            "foldername": "epicsquid",
+            "fingerprint": 1788096704,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4286230629,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2155204630,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 232097684,
+        "gameVersion": [
+          "Forge",
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "mysticallib-1.15.2-2.0.1.jar"
+      },
+      "dateInstalled": "2020-07-29T13:19:42.0483182Z",
+      "dateUpdated": "2020-07-29T13:19:42.0504004Z",
+      "dateLastUpdateAttempted": "2020-07-29T13:19:42.0504004Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -5844,7 +5941,7 @@
       "dateInstalled": "2020-05-09T13:11:20.6635731Z",
       "dateUpdated": "2020-07-28T09:27:04.2783519Z",
       "dateLastUpdateAttempted": "2020-07-28T09:27:04.2783519Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8549,6 +8646,107 @@
       "installedTargets": null
     },
     {
+      "addonID": 282940,
+      "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
+      "installedFile": {
+        "id": 3013098,
+        "displayName": "mysticalworld-1.15.2-2.0.5.jar",
+        "fileName": "mysticalworld-1.15.2-2.0.5.jar",
+        "fileDate": "2020-07-24T01:09:02.183Z",
+        "fileLength": 2935772,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3013/98/mysticalworld-1.15.2-2.0.5.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 306770,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 277064,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3455840218,
+            "type": 0
+          },
+          {
+            "foldername": "epicsquid",
+            "fingerprint": 1167051546,
+            "type": 0
+          },
+          {
+            "foldername": ".cache",
+            "fingerprint": 3142983417,
+            "type": 0
+          },
+          {
+            "foldername": "asm",
+            "fingerprint": 26937341,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1704222667,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1797867959,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2913511222,
+            "type": 0
+          },
+          {
+            "foldername": "noobanidus",
+            "fingerprint": 4258239694,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 469382026,
+        "gameVersion": [
+          "Forge",
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "mysticalworld-1.15.2-2.0.5.jar"
+      },
+      "dateInstalled": "2020-07-29T13:19:42.4190475Z",
+      "dateUpdated": "2020-07-29T13:19:42.4290202Z",
+      "dateLastUpdateAttempted": "2020-07-29T13:19:42.4290202Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 320926,
       "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
       "installedFile": {
@@ -8716,7 +8914,7 @@
       "dateInstalled": "2020-06-02T20:42:27.2399628Z",
       "dateUpdated": "2020-07-25T13:48:42.2132615Z",
       "dateLastUpdateAttempted": "2020-07-25T13:48:42.2132615Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9153,6 +9351,89 @@
       "installedTargets": null
     },
     {
+      "addonID": 223794,
+      "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
+      "installedFile": {
+        "id": 3015191,
+        "displayName": "appliedenergistics2-7.0.0-beta.1.jar",
+        "fileName": "appliedenergistics2-7.0.0-beta.1.jar",
+        "fileDate": "2020-07-26T15:02:35.073Z",
+        "fileLength": 4077434,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3015/191/appliedenergistics2-7.0.0-beta.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1708001244,
+            "type": 0
+          },
+          {
+            "foldername": "appeng",
+            "fingerprint": 3734687238,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 609997807,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 2752499526,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 666721860,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2376809842,
+            "type": 0
+          },
+          {
+            "foldername": "team",
+            "fingerprint": 610361043,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3907256214,
+        "gameVersion": [
+          "Forge",
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "appliedenergistics2-7.0.0-beta.1.jar"
+      },
+      "dateInstalled": "2020-07-29T21:07:34.1589192Z",
+      "dateUpdated": "2020-07-29T21:07:34.1658987Z",
+      "dateLastUpdateAttempted": "2020-07-29T21:07:34.1658987Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 250603,
       "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
       "installedFile": {
@@ -9412,7 +9693,7 @@
       "dateInstalled": "2020-05-09T13:11:27.2965661Z",
       "dateUpdated": "2020-07-17T08:28:08.4775042Z",
       "dateLastUpdateAttempted": "2020-07-17T08:28:08.4775042Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9569,7 +9850,7 @@
       "dateInstalled": "2020-07-28T08:52:40.9809903Z",
       "dateUpdated": "2020-07-28T08:52:41.0019306Z",
       "dateLastUpdateAttempted": "2020-07-28T08:52:41.0019306Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9883,73 +10164,6 @@
       "dateUpdated": "2020-05-09T14:04:13.0752557Z",
       "dateLastUpdateAttempted": "2020-05-09T14:04:13.0752557Z",
       "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 242818,
-      "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
-      "installedFile": {
-        "id": 2969414,
-        "displayName": "CodeChicken Lib 1.15.2-3.3.0.373-universal",
-        "fileName": "CodeChickenLib-1.15.2-3.3.0.373-universal.jar",
-        "fileDate": "2020-05-31T10:04:24.497Z",
-        "fileLength": 518283,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2969/414/CodeChickenLib-1.15.2-3.3.0.373-universal.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3512124169,
-            "type": 0
-          },
-          {
-            "foldername": "codechicken",
-            "fingerprint": 2571852326,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2154283246,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 427284745,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1779474175,
-        "gameVersion": [
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "CodeChickenLib-1.15.2-3.3.0.373-universal.jar"
-      },
-      "dateInstalled": "2020-06-02T20:21:06.7328333Z",
-      "dateUpdated": "2020-06-02T20:21:06.7379692Z",
-      "dateLastUpdateAttempted": "2020-06-02T20:21:06.7379692Z",
-      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11159,7 +11373,7 @@
       "dateInstalled": "2020-05-09T13:11:27.302553Z",
       "dateUpdated": "2020-05-09T14:50:19.741906Z",
       "dateLastUpdateAttempted": "2020-05-09T14:50:19.741906Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14349,7 +14563,7 @@
       "dateInstalled": "2020-05-09T13:11:27.2905831Z",
       "dateUpdated": "2020-07-17T08:27:55.6488775Z",
       "dateLastUpdateAttempted": "2020-07-17T08:27:55.6488775Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15914,14 +16128,14 @@
       "addonID": 363820,
       "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
       "installedFile": {
-        "id": 3013799,
-        "displayName": "0.1.0",
-        "fileName": "TerraForged-1.15.2-0.1.0.jar",
-        "fileDate": "2020-07-24T20:47:37.637Z",
-        "fileLength": 1297766,
+        "id": 3017585,
+        "displayName": "0.1.1",
+        "fileName": "TerraForged-1.15.2-0.1.1.jar",
+        "fileDate": "2020-07-28T22:49:23.257Z",
+        "fileLength": 1296451,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3013/799/TerraForged-1.15.2-0.1.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3017/585/TerraForged-1.15.2-0.1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -15929,7 +16143,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3645902987,
+            "fingerprint": 656158642,
             "type": 0
           },
           {
@@ -15944,7 +16158,7 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 3255803453,
+            "fingerprint": 2799246927,
             "type": 0
           },
           {
@@ -15954,7 +16168,7 @@
           },
           {
             "foldername": "data",
-            "fingerprint": 4101598396,
+            "fingerprint": 4006745914,
             "type": 0
           },
           {
@@ -15971,9 +16185,14 @@
             "foldername": "assets",
             "fingerprint": 886945431,
             "type": 0
+          },
+          {
+            "foldername": "presets",
+            "fingerprint": 1666738396,
+            "type": 0
           }
         ],
-        "packageFingerprint": 3704437715,
+        "packageFingerprint": 2497735506,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -15987,12 +16206,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "TerraForged-1.15.2-0.1.0.jar"
+        "FileNameOnDisk": "TerraForged-1.15.2-0.1.1.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3065392Z",
-      "dateUpdated": "2020-07-25T13:49:05.078699Z",
-      "dateLastUpdateAttempted": "2020-07-25T13:49:05.078699Z",
-      "status": 5,
+      "dateUpdated": "2020-07-29T08:31:32.5065956Z",
+      "dateLastUpdateAttempted": "2020-07-29T08:31:32.5065956Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20884,7 +21103,7 @@
       "dateInstalled": "2020-05-09T13:11:27.2875903Z",
       "dateUpdated": "2020-07-24T20:51:55.6927233Z",
       "dateLastUpdateAttempted": "2020-07-24T20:51:55.6927233Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

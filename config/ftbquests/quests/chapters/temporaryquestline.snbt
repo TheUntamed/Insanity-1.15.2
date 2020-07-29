@@ -107,19 +107,33 @@
 			subtitle: "Right Click a Log with your Hatchet to strip it.",
 			dependencies: [I;21],
 			id: 42,
-			tasks: [{
-				id: 101,
-				type: "item",
-				title: "Any forge:stripped",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1,
-					tag: {
-						value: "forge:stripped"
-					}
+			tasks: [
+				{
+					id: 101,
+					type: "item",
+					title: "Any forge:stripped",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1,
+						tag: {
+							value: "forge:stripped"
+						}
+					},
+					count: 4
 				},
-				count: 4
-			}]
+				{
+					id: 189,
+					type: "item",
+					title: "Any forge:ingots/copper",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1,
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+				}
+			]
 		},
 		{
 			x: -4.0d,
