@@ -1,23 +1,23 @@
 {
   "baseModLoader": {
-    "id": 4584,
-    "gameVersionId": 7952,
+    "id": 4615,
+    "gameVersionId": 7987,
     "minecraftGameVersionId": 64,
-    "forgeVersion": "31.2.31",
-    "name": "forge-31.2.31",
+    "forgeVersion": "31.2.33",
+    "name": "forge-31.2.33",
     "type": 1,
-    "downloadUrl": "https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.15.2-31.2.31/forge-1.15.2-31.2.31.jar",
-    "filename": "forge-1.15.2-31.2.31.jar",
+    "downloadUrl": "https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.15.2-31.2.33/forge-1.15.2-31.2.33.jar",
+    "filename": "forge-1.15.2-31.2.33.jar",
     "installMethod": 3,
     "latest": true,
     "recommended": false,
     "approved": false,
-    "dateModified": "2020-07-06T21:03:05Z",
-    "mavenVersionString": "net.minecraftforge:forge:1.15.2-31.2.31",
-    "versionJson": "{\r\n  \"id\": \"forge-31.2.31\",\r\n  \"time\": \"2020-07-06T21:03:05Z\",\r\n  \"releaseTime\": \"2020-07-06T21:03:05Z\",\r\n  \"type\": \"release\",\r\n  \"minimumLauncherVersion\": 0,\r\n  \"inheritsFrom\": \"1.15.2\",\r\n  \"jar\": \"forge-31.2.31\",\r\n  \"libraries\": [\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.15.2-31.2.31\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.15.2-31.2.31/forge-1.15.2-31.2.31.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.15.2-31.2.31/forge-1.15.2-31.2.31.jar\",\r\n          \"sha1\": \"a721909f533a0f32272a0e5fd7773f70603b1644\",\r\n          \"size\": 194572\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm:7.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm/7.2/asm-7.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm/7.2/asm-7.2.jar\",\r\n          \"sha1\": \"fa637eb67eb7628c915d73762b681ae7ff0b9731\",\r\n          \"size\": 114873\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-commons:7.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar\",\r\n          \"sha1\": \"ca2954e8d92a05bacc28ff465b25c70e0f512497\",\r\n          \"size\": 70051\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-tree:7.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar\",\r\n          \"sha1\": \"3a23cc36edaf8fc5a89cb100182758ccb5991487\",\r\n          \"size\": 50283\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"cpw.mods:modlauncher:5.1.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"cpw/mods/modlauncher/5.1.0/modlauncher-5.1.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/cpw/mods/modlauncher/5.1.0/modlauncher-5.1.0.jar\",\r\n          \"sha1\": \"b9caea28c3fd15fd2c971cb41c44855767f7dbc8\",\r\n          \"size\": 115795\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"cpw.mods:grossjava9hacks:1.3.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"cpw/mods/grossjava9hacks/1.3.0/grossjava9hacks-1.3.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/cpw/mods/grossjava9hacks/1.3.0/grossjava9hacks-1.3.0.jar\",\r\n          \"sha1\": \"1a922de964d0c19d864fbcba2678c1a1c4602c35\",\r\n          \"size\": 1921\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:accesstransformers:2.1.3-shadowed\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/accesstransformers/2.1.3-shadowed/accesstransformers-2.1.3-shadowed.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/accesstransformers/2.1.3-shadowed/accesstransformers-2.1.3-shadowed.jar\",\r\n          \"sha1\": \"addc10ee659e011004852c6cf1d036180f67a169\",\r\n          \"size\": 444938\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:eventbus:2.2.0-service\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/eventbus/2.2.0-service/eventbus-2.2.0-service.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/eventbus/2.2.0-service/eventbus-2.2.0-service.jar\",\r\n          \"sha1\": \"e663ad1f795b81da8a132c8fde40580b05c2343d\",\r\n          \"size\": 39776\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forgespi:3.0.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forgespi/3.0.0/forgespi-3.0.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forgespi/3.0.0/forgespi-3.0.0.jar\",\r\n          \"sha1\": \"f950d208c9fa7a1d7700d8a222bd08d4baf90600\",\r\n          \"size\": 19925\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:coremods:2.0.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/coremods/2.0.3/coremods-2.0.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/coremods/2.0.3/coremods-2.0.3.jar\",\r\n          \"sha1\": \"9e3f5323f6a2c3ac04fa27481cbeeb48f89757bd\",\r\n          \"size\": 21802\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:unsafe:0.2.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar\",\r\n          \"sha1\": \"54d7a0a5e8fdb71b973025caa46f341ae5904f39\",\r\n          \"size\": 2834\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.electronwill.night-config:core:3.6.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/electronwill/night-config/core/3.6.2/core-3.6.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/electronwill/night-config/core/3.6.2/core-3.6.2.jar\",\r\n          \"sha1\": \"56f6500038861d4a8832072676da7bf7916217d0\",\r\n          \"size\": 199091\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.electronwill.night-config:toml:3.6.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar\",\r\n          \"sha1\": \"3ac4263d06433da39a5eee95e2679f1642d921f0\",\r\n          \"size\": 31152\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.jline:jline:3.12.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/jline/jline/3.12.1/jline-3.12.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/jline/jline/3.12.1/jline-3.12.1.jar\",\r\n          \"sha1\": \"de2bd909cb9f8eaa741bd03df4a1bd3f6eb593c7\",\r\n          \"size\": 732926\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.apache.maven:maven-artifact:3.6.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar\",\r\n          \"sha1\": \"d4c0da647de59c9ccc304a112fe1f1474d49e8eb\",\r\n          \"size\": 55051\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.jodah:typetools:0.8.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/jodah/typetools/0.8.1/typetools-0.8.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/jodah/typetools/0.8.1/typetools-0.8.1.jar\",\r\n          \"sha1\": \"d12de898d333cb7eb0e39a35db03c1e09d92d595\",\r\n          \"size\": 15367\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.apache.logging.log4j:log4j-api:2.11.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar\",\r\n          \"sha1\": \"f5e9a2ffca496057d6891a3de65128efc636e26e\",\r\n          \"size\": 266283\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.apache.logging.log4j:log4j-core:2.11.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar\",\r\n          \"sha1\": \"6c2fb3f5b7cd27504726aef1b674b542a0c9cf53\",\r\n          \"size\": 1629585\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecrell:terminalconsoleappender:1.2.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar\",\r\n          \"sha1\": \"96d02cd3b384ff015a8fef4223bcb4ccf1717c95\",\r\n          \"size\": 15977\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar\",\r\n          \"sha1\": \"4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\",\r\n          \"size\": 78146\r\n        }\r\n      }\r\n    }\r\n  ],\r\n  \"mainClass\": \"cpw.mods.modlauncher.Launcher\",\r\n  \"arguments\": {\r\n    \"game\": [\r\n      \"--launchTarget\",\r\n      \"fmlclient\",\r\n      \"--fml.forgeVersion\",\r\n      \"31.2.31\",\r\n      \"--fml.mcVersion\",\r\n      \"1.15.2\",\r\n      \"--fml.forgeGroup\",\r\n      \"net.minecraftforge\",\r\n      \"--fml.mcpVersion\",\r\n      \"20200515.085601\"\r\n    ]\r\n  }\r\n}",
-    "librariesInstallLocation": "{0}\\libraries\\net\\minecraftforge\\forge\\1.15.2-31.2.31",
+    "dateModified": "2020-07-27T23:30:38Z",
+    "mavenVersionString": "net.minecraftforge:forge:1.15.2-31.2.33",
+    "versionJson": "{\r\n  \"id\": \"forge-31.2.33\",\r\n  \"time\": \"2020-07-27T23:30:38Z\",\r\n  \"releaseTime\": \"2020-07-27T23:30:38Z\",\r\n  \"type\": \"release\",\r\n  \"minimumLauncherVersion\": 0,\r\n  \"inheritsFrom\": \"1.15.2\",\r\n  \"jar\": \"forge-31.2.33\",\r\n  \"libraries\": [\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.15.2-31.2.33\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.15.2-31.2.33/forge-1.15.2-31.2.33.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.15.2-31.2.33/forge-1.15.2-31.2.33.jar\",\r\n          \"sha1\": \"a9fb9cbd3493780fe544da04564527d3354ce507\",\r\n          \"size\": 194576\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm:7.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm/7.2/asm-7.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm/7.2/asm-7.2.jar\",\r\n          \"sha1\": \"fa637eb67eb7628c915d73762b681ae7ff0b9731\",\r\n          \"size\": 114873\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-commons:7.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar\",\r\n          \"sha1\": \"ca2954e8d92a05bacc28ff465b25c70e0f512497\",\r\n          \"size\": 70051\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-tree:7.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar\",\r\n          \"sha1\": \"3a23cc36edaf8fc5a89cb100182758ccb5991487\",\r\n          \"size\": 50283\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"cpw.mods:modlauncher:5.1.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"cpw/mods/modlauncher/5.1.2/modlauncher-5.1.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/cpw/mods/modlauncher/5.1.2/modlauncher-5.1.2.jar\",\r\n          \"sha1\": \"42f764429585b8a12ba42d43a02c0c9018710052\",\r\n          \"size\": 115985\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"cpw.mods:grossjava9hacks:1.3.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"cpw/mods/grossjava9hacks/1.3.0/grossjava9hacks-1.3.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/cpw/mods/grossjava9hacks/1.3.0/grossjava9hacks-1.3.0.jar\",\r\n          \"sha1\": \"1a922de964d0c19d864fbcba2678c1a1c4602c35\",\r\n          \"size\": 1921\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:accesstransformers:2.1.3-shadowed\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/accesstransformers/2.1.3-shadowed/accesstransformers-2.1.3-shadowed.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/accesstransformers/2.1.3-shadowed/accesstransformers-2.1.3-shadowed.jar\",\r\n          \"sha1\": \"addc10ee659e011004852c6cf1d036180f67a169\",\r\n          \"size\": 444938\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:eventbus:2.2.0-service\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/eventbus/2.2.0-service/eventbus-2.2.0-service.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/eventbus/2.2.0-service/eventbus-2.2.0-service.jar\",\r\n          \"sha1\": \"e663ad1f795b81da8a132c8fde40580b05c2343d\",\r\n          \"size\": 39776\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forgespi:3.0.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forgespi/3.0.0/forgespi-3.0.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forgespi/3.0.0/forgespi-3.0.0.jar\",\r\n          \"sha1\": \"f950d208c9fa7a1d7700d8a222bd08d4baf90600\",\r\n          \"size\": 19925\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:coremods:2.0.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/coremods/2.0.3/coremods-2.0.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/coremods/2.0.3/coremods-2.0.3.jar\",\r\n          \"sha1\": \"9e3f5323f6a2c3ac04fa27481cbeeb48f89757bd\",\r\n          \"size\": 21802\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:unsafe:0.2.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar\",\r\n          \"sha1\": \"54d7a0a5e8fdb71b973025caa46f341ae5904f39\",\r\n          \"size\": 2834\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.electronwill.night-config:core:3.6.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/electronwill/night-config/core/3.6.2/core-3.6.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/electronwill/night-config/core/3.6.2/core-3.6.2.jar\",\r\n          \"sha1\": \"56f6500038861d4a8832072676da7bf7916217d0\",\r\n          \"size\": 199091\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.electronwill.night-config:toml:3.6.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar\",\r\n          \"sha1\": \"3ac4263d06433da39a5eee95e2679f1642d921f0\",\r\n          \"size\": 31152\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.jline:jline:3.12.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/jline/jline/3.12.1/jline-3.12.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/jline/jline/3.12.1/jline-3.12.1.jar\",\r\n          \"sha1\": \"de2bd909cb9f8eaa741bd03df4a1bd3f6eb593c7\",\r\n          \"size\": 732926\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.apache.maven:maven-artifact:3.6.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar\",\r\n          \"sha1\": \"d4c0da647de59c9ccc304a112fe1f1474d49e8eb\",\r\n          \"size\": 55051\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.jodah:typetools:0.8.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/jodah/typetools/0.8.1/typetools-0.8.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/jodah/typetools/0.8.1/typetools-0.8.1.jar\",\r\n          \"sha1\": \"d12de898d333cb7eb0e39a35db03c1e09d92d595\",\r\n          \"size\": 15367\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.apache.logging.log4j:log4j-api:2.11.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar\",\r\n          \"sha1\": \"f5e9a2ffca496057d6891a3de65128efc636e26e\",\r\n          \"size\": 266283\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.apache.logging.log4j:log4j-core:2.11.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar\",\r\n          \"sha1\": \"6c2fb3f5b7cd27504726aef1b674b542a0c9cf53\",\r\n          \"size\": 1629585\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecrell:terminalconsoleappender:1.2.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar\",\r\n          \"sha1\": \"96d02cd3b384ff015a8fef4223bcb4ccf1717c95\",\r\n          \"size\": 15977\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar\",\r\n          \"sha1\": \"4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\",\r\n          \"size\": 78146\r\n        }\r\n      }\r\n    }\r\n  ],\r\n  \"mainClass\": \"cpw.mods.modlauncher.Launcher\",\r\n  \"arguments\": {\r\n    \"game\": [\r\n      \"--launchTarget\",\r\n      \"fmlclient\",\r\n      \"--fml.forgeVersion\",\r\n      \"31.2.33\",\r\n      \"--fml.mcVersion\",\r\n      \"1.15.2\",\r\n      \"--fml.forgeGroup\",\r\n      \"net.minecraftforge\",\r\n      \"--fml.mcpVersion\",\r\n      \"20200515.085601\"\r\n    ]\r\n  }\r\n}",
+    "librariesInstallLocation": "{0}\\libraries\\net\\minecraftforge\\forge\\1.15.2-31.2.33",
     "minecraftVersion": "1.15.2",
-    "modLoaderGameVersionId": 7952,
+    "modLoaderGameVersionId": 7987,
     "modLoaderGameVersionTypeId": 3,
     "modLoaderGameVersionStatus": 1,
     "modLoaderGameVersionTypeStatus": 1,
@@ -25,12 +25,12 @@
     "mcGameVersionTypeId": 68722,
     "mcGameVersionStatus": 1,
     "mcGameVersionTypeStatus": 1,
-    "installProfileJson": "{\r\n  \"_comment_\": [\r\n    \"Please do not automate the download and installation of Forge.\",\r\n    \"Our efforts are supported by ads from the download page.\",\r\n    \"If you MUST automate this, please consider supporting the project through https://www.patreon.com/LexManos/\"\r\n  ],\r\n  \"profile\": \"forge\",\r\n  \"version\": \"1.15.2-forge-31.2.31\",\r\n  \"json\": \"/version.json\",\r\n  \"path\": \"net.minecraftforge:forge:1.15.2-31.2.31\",\r\n  \"logo\": \"/big_logo.png\",\r\n  \"minecraft\": \"1.15.2\",\r\n  \"welcome\": \"Welcome to the simple Forge installer.\",\r\n  \"data\": {\r\n    \"MAPPINGS\": {\r\n      \"client\": \"[de.oceanlabs.mcp:mcp_config:1.15.2-20200515.085601:mappings@txt]\",\r\n      \"server\": \"[de.oceanlabs.mcp:mcp_config:1.15.2-20200515.085601:mappings@txt]\"\r\n    },\r\n    \"BINPATCH\": {\r\n      \"client\": \"/data/client.lzma\",\r\n      \"server\": \"/data/server.lzma\"\r\n    },\r\n    \"MC_SLIM\": {\r\n      \"client\": \"[net.minecraft:client:1.15.2:slim]\",\r\n      \"server\": \"[net.minecraft:server:1.15.2:slim]\"\r\n    },\r\n    \"MC_SLIM_SHA\": {\r\n      \"client\": \"'cb8029d524d1b45d268136c2971e3796454f948a'\",\r\n      \"server\": \"'9e4cfc5a34121901aba5f4bf002af9ae472eede0'\"\r\n    },\r\n    \"MC_EXTRA\": {\r\n      \"client\": \"[net.minecraft:client:1.15.2:extra]\",\r\n      \"server\": \"[net.minecraft:server:1.15.2:extra]\"\r\n    },\r\n    \"MC_EXTRA_SHA\": {\r\n      \"client\": \"'f41c6b1e3ebe4c897239170639b9a76742a282e2'\",\r\n      \"server\": \"'eb84dde2927f1dedb0b810f373a9a4e7325ba95d'\"\r\n    },\r\n    \"MC_SRG\": {\r\n      \"client\": \"[net.minecraft:client:1.15.2-20200515.085601:srg]\",\r\n      \"server\": \"[net.minecraft:server:1.15.2-20200515.085601:srg]\"\r\n    },\r\n    \"PATCHED\": {\r\n      \"client\": \"[net.minecraftforge:forge:1.15.2-31.2.31:client]\",\r\n      \"server\": \"[net.minecraftforge:forge:1.15.2-31.2.31:server]\"\r\n    },\r\n    \"PATCHED_SHA\": {\r\n      \"client\": \"'b908280338186c9e30e8e1882404fe6aa9cd3601'\",\r\n      \"server\": \"'30cf1c93fc81f673e3821749c8dd46b61c91ca1e'\"\r\n    },\r\n    \"MCP_VERSION\": {\r\n      \"client\": \"'20200515.085601'\",\r\n      \"server\": \"'20200515.085601'\"\r\n    }\r\n  },\r\n  \"processors\": [\r\n    {\r\n      \"jar\": \"net.minecraftforge:installertools:1.1.4\",\r\n      \"classpath\": [\r\n        \"net.md-5:SpecialSource:1.8.5\",\r\n        \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n        \"com.google.code.gson:gson:2.8.0\",\r\n        \"org.ow2.asm:asm-commons:6.1.1\",\r\n        \"com.google.guava:guava:20.0\",\r\n        \"net.sf.opencsv:opencsv:2.3\",\r\n        \"org.ow2.asm:asm-analysis:6.1.1\",\r\n        \"org.ow2.asm:asm-tree:6.1.1\",\r\n        \"org.ow2.asm:asm:6.1.1\"\r\n      ],\r\n      \"args\": [\r\n        \"--task\",\r\n        \"MCP_DATA\",\r\n        \"--input\",\r\n        \"[de.oceanlabs.mcp:mcp_config:1.15.2-20200515.085601@zip]\",\r\n        \"--output\",\r\n        \"{MAPPINGS}\",\r\n        \"--key\",\r\n        \"mappings\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:jarsplitter:1.1.2\",\r\n      \"classpath\": [\r\n        \"net.sf.jopt-simple:jopt-simple:5.0.4\"\r\n      ],\r\n      \"args\": [\r\n        \"--input\",\r\n        \"{MINECRAFT_JAR}\",\r\n        \"--slim\",\r\n        \"{MC_SLIM}\",\r\n        \"--extra\",\r\n        \"{MC_EXTRA}\",\r\n        \"--srg\",\r\n        \"{MAPPINGS}\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.md-5:SpecialSource:1.8.5\",\r\n      \"classpath\": [\r\n        \"org.ow2.asm:asm-commons:6.1.1\",\r\n        \"net.sf.jopt-simple:jopt-simple:4.9\",\r\n        \"com.google.guava:guava:20.0\",\r\n        \"net.sf.opencsv:opencsv:2.3\",\r\n        \"org.ow2.asm:asm-analysis:6.1.1\",\r\n        \"org.ow2.asm:asm-tree:6.1.1\",\r\n        \"org.ow2.asm:asm:6.1.1\"\r\n      ],\r\n      \"args\": [\r\n        \"--in-jar\",\r\n        \"{MC_SLIM}\",\r\n        \"--out-jar\",\r\n        \"{MC_SRG}\",\r\n        \"--srg-in\",\r\n        \"{MAPPINGS}\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:binarypatcher:1.0.12\",\r\n      \"classpath\": [\r\n        \"commons-io:commons-io:2.4\",\r\n        \"com.google.guava:guava:25.1-jre\",\r\n        \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n        \"com.github.jponge:lzma-java:1.3\",\r\n        \"com.nothome:javaxdelta:2.0.1\",\r\n        \"com.google.code.findbugs:jsr305:3.0.2\",\r\n        \"org.checkerframework:checker-qual:2.0.0\",\r\n        \"com.google.errorprone:error_prone_annotations:2.1.3\",\r\n        \"com.google.j2objc:j2objc-annotations:1.1\",\r\n        \"org.codehaus.mojo:animal-sniffer-annotations:1.14\",\r\n        \"trove:trove:1.0.2\"\r\n      ],\r\n      \"args\": [\r\n        \"--clean\",\r\n        \"{MC_SRG}\",\r\n        \"--output\",\r\n        \"{PATCHED}\",\r\n        \"--apply\",\r\n        \"{BINPATCH}\"\r\n      ]\r\n    }\r\n  ],\r\n  \"libraries\": [\r\n    {\r\n      \"name\": \"com.github.jponge:lzma-java:1.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar\",\r\n          \"sha1\": \"a25db9d4d385ccda4825ae1b47a7a61d86e595af\",\r\n          \"size\": 51041\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.code.findbugs:jsr305:3.0.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar\",\r\n          \"sha1\": \"25ea2e8b0c338a877313bd4672d3fe056ea78f0d\",\r\n          \"size\": 19936\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.code.gson:gson:2.8.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/code/gson/gson/2.8.0/gson-2.8.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar\",\r\n          \"sha1\": \"c4ba5371a29ac9b2ad6129b1d39ea38750043eff\",\r\n          \"size\": 231952\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.errorprone:error_prone_annotations:2.1.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar\",\r\n          \"sha1\": \"39b109f2cd352b2d71b52a3b5a1a9850e1dc304b\",\r\n          \"size\": 13704\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.guava:guava:20.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/guava/guava/20.0/guava-20.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/guava/guava/20.0/guava-20.0.jar\",\r\n          \"sha1\": \"89507701249388e1ed5ddcf8c41f4ce1be7831ef\",\r\n          \"size\": 2442625\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.guava:guava:25.1-jre\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/guava/guava/25.1-jre/guava-25.1-jre.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar\",\r\n          \"sha1\": \"6c57e4b22b44e89e548b5c9f70f0c45fe10fb0b4\",\r\n          \"size\": 2734339\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.j2objc:j2objc-annotations:1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar\",\r\n          \"sha1\": \"ed28ded51a8b1c6b112568def5f4b455e6809019\",\r\n          \"size\": 8782\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.nothome:javaxdelta:2.0.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar\",\r\n          \"sha1\": \"d4f5d077f1b15c6f67595015d69572303ad3f66d\",\r\n          \"size\": 38995\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"commons-io:commons-io:2.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"commons-io/commons-io/2.4/commons-io-2.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/commons-io/commons-io/2.4/commons-io-2.4.jar\",\r\n          \"sha1\": \"b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\",\r\n          \"size\": 185140\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"de.oceanlabs.mcp:mcp_config:1.15.2-20200515.085601@zip\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"de/oceanlabs/mcp/mcp_config/1.15.2-20200515.085601/mcp_config-1.15.2-20200515.085601.zip\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/de/oceanlabs/mcp/mcp_config/1.15.2-20200515.085601/mcp_config-1.15.2-20200515.085601.zip\",\r\n          \"sha1\": \"5711d9b33408935d4484078dd1985c59de875ab6\",\r\n          \"size\": 675404\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.md-5:SpecialSource:1.8.5\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/md-5/SpecialSource/1.8.5/SpecialSource-1.8.5.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/md-5/SpecialSource/1.8.5/SpecialSource-1.8.5.jar\",\r\n          \"sha1\": \"c670c493c436a885c872fa4810bc698628b95922\",\r\n          \"size\": 81179\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:binarypatcher:1.0.12\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/binarypatcher/1.0.12/binarypatcher-1.0.12.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/binarypatcher/1.0.12/binarypatcher-1.0.12.jar\",\r\n          \"sha1\": \"971ea098f83ef2e1b96c1b7849465bb79fd05838\",\r\n          \"size\": 16491\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.15.2-31.2.31:universal\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.15.2-31.2.31/forge-1.15.2-31.2.31-universal.jar\",\r\n          \"url\": \"\",\r\n          \"sha1\": \"c765863b206b1ec1ea5ab72866b92fa4b9540fca\",\r\n          \"size\": 2235307\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:installertools:1.1.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/installertools/1.1.4/installertools-1.1.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/installertools/1.1.4/installertools-1.1.4.jar\",\r\n          \"sha1\": \"ce2a64d84365374fc797f829e60321874d48145f\",\r\n          \"size\": 34230\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:jarsplitter:1.1.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/jarsplitter/1.1.2/jarsplitter-1.1.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/jarsplitter/1.1.2/jarsplitter-1.1.2.jar\",\r\n          \"sha1\": \"7d6c2c293883c220e7622087849b26a35b3318e5\",\r\n          \"size\": 7981\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:4.9\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar\",\r\n          \"sha1\": \"ee9e9eaa0a35360dcfeac129ff4923215fd65904\",\r\n          \"size\": 66469\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar\",\r\n          \"sha1\": \"4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\",\r\n          \"size\": 78146\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.opencsv:opencsv:2.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar\",\r\n          \"sha1\": \"c23708cdb9e80a144db433e23344a788a1fd6599\",\r\n          \"size\": 19827\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.checkerframework:checker-qual:2.0.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar\",\r\n          \"sha1\": \"518929596ee3249127502a8573b2e008e2d51ed3\",\r\n          \"size\": 343222\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.codehaus.mojo:animal-sniffer-annotations:1.14\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar\",\r\n          \"sha1\": \"775b7e22fb10026eed3f86e8dc556dfafe35f2d5\",\r\n          \"size\": 3482\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-analysis:6.1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-analysis/6.1.1/asm-analysis-6.1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-analysis/6.1.1/asm-analysis-6.1.1.jar\",\r\n          \"sha1\": \"376d85732456ec4d2c4bc020ee152061c61f00b5\",\r\n          \"size\": 31979\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-commons:6.1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-commons/6.1.1/asm-commons-6.1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-commons/6.1.1/asm-commons-6.1.1.jar\",\r\n          \"sha1\": \"70a7deee986e66c015cea1c9978f9654cc667020\",\r\n          \"size\": 77745\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-tree:6.1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-tree/6.1.1/asm-tree-6.1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-tree/6.1.1/asm-tree-6.1.1.jar\",\r\n          \"sha1\": \"19fdc358e7bd3986b9867de508ce6cefa693dda6\",\r\n          \"size\": 50050\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm:6.1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm/6.1.1/asm-6.1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar\",\r\n          \"sha1\": \"264754515362d92acd39e8d40395f6b8dee7bc08\",\r\n          \"size\": 108252\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"trove:trove:1.0.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"trove/trove/1.0.2/trove-1.0.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/trove/trove/1.0.2/trove-1.0.2.jar\",\r\n          \"sha1\": \"112b40581ab9a4d3de4636d49985a7f686d181c8\",\r\n          \"size\": 361155\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.15.2-31.2.31:universal\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.15.2-31.2.31/forge-1.15.2-31.2.31-universal.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.15.2-31.2.31/forge-1.15.2-31.2.31-universal.jar\",\r\n          \"size\": 0\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.15.2-31.2.31:clientdata@lzma\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.15.2-31.2.31/forge-1.15.2-31.2.31-clientdata.lzma\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.15.2-31.2.31/forge-1.15.2-31.2.31-clientdata.lzma\",\r\n          \"size\": 0\r\n        }\r\n      }\r\n    }\r\n  ]\r\n}"
+    "installProfileJson": "{\r\n  \"_comment_\": [\r\n    \"Please do not automate the download and installation of Forge.\",\r\n    \"Our efforts are supported by ads from the download page.\",\r\n    \"If you MUST automate this, please consider supporting the project through https://www.patreon.com/LexManos/\"\r\n  ],\r\n  \"profile\": \"forge\",\r\n  \"version\": \"1.15.2-forge-31.2.33\",\r\n  \"json\": \"/version.json\",\r\n  \"path\": \"net.minecraftforge:forge:1.15.2-31.2.33\",\r\n  \"logo\": \"/big_logo.png\",\r\n  \"minecraft\": \"1.15.2\",\r\n  \"welcome\": \"Welcome to the simple Forge installer.\",\r\n  \"data\": {\r\n    \"MAPPINGS\": {\r\n      \"client\": \"[de.oceanlabs.mcp:mcp_config:1.15.2-20200515.085601:mappings@txt]\",\r\n      \"server\": \"[de.oceanlabs.mcp:mcp_config:1.15.2-20200515.085601:mappings@txt]\"\r\n    },\r\n    \"BINPATCH\": {\r\n      \"client\": \"/data/client.lzma\",\r\n      \"server\": \"/data/server.lzma\"\r\n    },\r\n    \"MC_SLIM\": {\r\n      \"client\": \"[net.minecraft:client:1.15.2:slim]\",\r\n      \"server\": \"[net.minecraft:server:1.15.2:slim]\"\r\n    },\r\n    \"MC_SLIM_SHA\": {\r\n      \"client\": \"'cb8029d524d1b45d268136c2971e3796454f948a'\",\r\n      \"server\": \"'9e4cfc5a34121901aba5f4bf002af9ae472eede0'\"\r\n    },\r\n    \"MC_EXTRA\": {\r\n      \"client\": \"[net.minecraft:client:1.15.2:extra]\",\r\n      \"server\": \"[net.minecraft:server:1.15.2:extra]\"\r\n    },\r\n    \"MC_EXTRA_SHA\": {\r\n      \"client\": \"'f41c6b1e3ebe4c897239170639b9a76742a282e2'\",\r\n      \"server\": \"'eb84dde2927f1dedb0b810f373a9a4e7325ba95d'\"\r\n    },\r\n    \"MC_SRG\": {\r\n      \"client\": \"[net.minecraft:client:1.15.2-20200515.085601:srg]\",\r\n      \"server\": \"[net.minecraft:server:1.15.2-20200515.085601:srg]\"\r\n    },\r\n    \"PATCHED\": {\r\n      \"client\": \"[net.minecraftforge:forge:1.15.2-31.2.33:client]\",\r\n      \"server\": \"[net.minecraftforge:forge:1.15.2-31.2.33:server]\"\r\n    },\r\n    \"PATCHED_SHA\": {\r\n      \"client\": \"'dfd4722cb4c4c738dd0a3aff8e07da21826460f7'\",\r\n      \"server\": \"'a6173bf013e164686c295dfe7e10c572b9b4d836'\"\r\n    },\r\n    \"MCP_VERSION\": {\r\n      \"client\": \"'20200515.085601'\",\r\n      \"server\": \"'20200515.085601'\"\r\n    }\r\n  },\r\n  \"processors\": [\r\n    {\r\n      \"jar\": \"net.minecraftforge:installertools:1.1.4\",\r\n      \"classpath\": [\r\n        \"net.md-5:SpecialSource:1.8.5\",\r\n        \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n        \"com.google.code.gson:gson:2.8.0\",\r\n        \"org.ow2.asm:asm-commons:6.1.1\",\r\n        \"com.google.guava:guava:20.0\",\r\n        \"net.sf.opencsv:opencsv:2.3\",\r\n        \"org.ow2.asm:asm-analysis:6.1.1\",\r\n        \"org.ow2.asm:asm-tree:6.1.1\",\r\n        \"org.ow2.asm:asm:6.1.1\"\r\n      ],\r\n      \"args\": [\r\n        \"--task\",\r\n        \"MCP_DATA\",\r\n        \"--input\",\r\n        \"[de.oceanlabs.mcp:mcp_config:1.15.2-20200515.085601@zip]\",\r\n        \"--output\",\r\n        \"{MAPPINGS}\",\r\n        \"--key\",\r\n        \"mappings\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:jarsplitter:1.1.2\",\r\n      \"classpath\": [\r\n        \"net.sf.jopt-simple:jopt-simple:5.0.4\"\r\n      ],\r\n      \"args\": [\r\n        \"--input\",\r\n        \"{MINECRAFT_JAR}\",\r\n        \"--slim\",\r\n        \"{MC_SLIM}\",\r\n        \"--extra\",\r\n        \"{MC_EXTRA}\",\r\n        \"--srg\",\r\n        \"{MAPPINGS}\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.md-5:SpecialSource:1.8.5\",\r\n      \"classpath\": [\r\n        \"org.ow2.asm:asm-commons:6.1.1\",\r\n        \"net.sf.jopt-simple:jopt-simple:4.9\",\r\n        \"com.google.guava:guava:20.0\",\r\n        \"net.sf.opencsv:opencsv:2.3\",\r\n        \"org.ow2.asm:asm-analysis:6.1.1\",\r\n        \"org.ow2.asm:asm-tree:6.1.1\",\r\n        \"org.ow2.asm:asm:6.1.1\"\r\n      ],\r\n      \"args\": [\r\n        \"--in-jar\",\r\n        \"{MC_SLIM}\",\r\n        \"--out-jar\",\r\n        \"{MC_SRG}\",\r\n        \"--srg-in\",\r\n        \"{MAPPINGS}\"\r\n      ]\r\n    },\r\n    {\r\n      \"jar\": \"net.minecraftforge:binarypatcher:1.0.12\",\r\n      \"classpath\": [\r\n        \"commons-io:commons-io:2.4\",\r\n        \"com.google.guava:guava:25.1-jre\",\r\n        \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n        \"com.github.jponge:lzma-java:1.3\",\r\n        \"com.nothome:javaxdelta:2.0.1\",\r\n        \"com.google.code.findbugs:jsr305:3.0.2\",\r\n        \"org.checkerframework:checker-qual:2.0.0\",\r\n        \"com.google.errorprone:error_prone_annotations:2.1.3\",\r\n        \"com.google.j2objc:j2objc-annotations:1.1\",\r\n        \"org.codehaus.mojo:animal-sniffer-annotations:1.14\",\r\n        \"trove:trove:1.0.2\"\r\n      ],\r\n      \"args\": [\r\n        \"--clean\",\r\n        \"{MC_SRG}\",\r\n        \"--output\",\r\n        \"{PATCHED}\",\r\n        \"--apply\",\r\n        \"{BINPATCH}\"\r\n      ]\r\n    }\r\n  ],\r\n  \"libraries\": [\r\n    {\r\n      \"name\": \"com.github.jponge:lzma-java:1.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar\",\r\n          \"sha1\": \"a25db9d4d385ccda4825ae1b47a7a61d86e595af\",\r\n          \"size\": 51041\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.code.findbugs:jsr305:3.0.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar\",\r\n          \"sha1\": \"25ea2e8b0c338a877313bd4672d3fe056ea78f0d\",\r\n          \"size\": 19936\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.code.gson:gson:2.8.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/code/gson/gson/2.8.0/gson-2.8.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar\",\r\n          \"sha1\": \"c4ba5371a29ac9b2ad6129b1d39ea38750043eff\",\r\n          \"size\": 231952\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.errorprone:error_prone_annotations:2.1.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar\",\r\n          \"sha1\": \"39b109f2cd352b2d71b52a3b5a1a9850e1dc304b\",\r\n          \"size\": 13704\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.guava:guava:20.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/guava/guava/20.0/guava-20.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/guava/guava/20.0/guava-20.0.jar\",\r\n          \"sha1\": \"89507701249388e1ed5ddcf8c41f4ce1be7831ef\",\r\n          \"size\": 2442625\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.guava:guava:25.1-jre\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/guava/guava/25.1-jre/guava-25.1-jre.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar\",\r\n          \"sha1\": \"6c57e4b22b44e89e548b5c9f70f0c45fe10fb0b4\",\r\n          \"size\": 2734339\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.google.j2objc:j2objc-annotations:1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar\",\r\n          \"sha1\": \"ed28ded51a8b1c6b112568def5f4b455e6809019\",\r\n          \"size\": 8782\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"com.nothome:javaxdelta:2.0.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar\",\r\n          \"sha1\": \"d4f5d077f1b15c6f67595015d69572303ad3f66d\",\r\n          \"size\": 38995\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"commons-io:commons-io:2.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"commons-io/commons-io/2.4/commons-io-2.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/commons-io/commons-io/2.4/commons-io-2.4.jar\",\r\n          \"sha1\": \"b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\",\r\n          \"size\": 185140\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"de.oceanlabs.mcp:mcp_config:1.15.2-20200515.085601@zip\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"de/oceanlabs/mcp/mcp_config/1.15.2-20200515.085601/mcp_config-1.15.2-20200515.085601.zip\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/de/oceanlabs/mcp/mcp_config/1.15.2-20200515.085601/mcp_config-1.15.2-20200515.085601.zip\",\r\n          \"sha1\": \"5711d9b33408935d4484078dd1985c59de875ab6\",\r\n          \"size\": 675404\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.md-5:SpecialSource:1.8.5\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/md-5/SpecialSource/1.8.5/SpecialSource-1.8.5.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/md-5/SpecialSource/1.8.5/SpecialSource-1.8.5.jar\",\r\n          \"sha1\": \"c670c493c436a885c872fa4810bc698628b95922\",\r\n          \"size\": 81179\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:binarypatcher:1.0.12\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/binarypatcher/1.0.12/binarypatcher-1.0.12.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/binarypatcher/1.0.12/binarypatcher-1.0.12.jar\",\r\n          \"sha1\": \"971ea098f83ef2e1b96c1b7849465bb79fd05838\",\r\n          \"size\": 16491\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.15.2-31.2.33:universal\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.15.2-31.2.33/forge-1.15.2-31.2.33-universal.jar\",\r\n          \"url\": \"\",\r\n          \"sha1\": \"3bd931b4b536cfec8895e5c24d09f976024c3cef\",\r\n          \"size\": 2235409\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:installertools:1.1.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/installertools/1.1.4/installertools-1.1.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/installertools/1.1.4/installertools-1.1.4.jar\",\r\n          \"sha1\": \"ce2a64d84365374fc797f829e60321874d48145f\",\r\n          \"size\": 34230\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:jarsplitter:1.1.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/jarsplitter/1.1.2/jarsplitter-1.1.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/jarsplitter/1.1.2/jarsplitter-1.1.2.jar\",\r\n          \"sha1\": \"7d6c2c293883c220e7622087849b26a35b3318e5\",\r\n          \"size\": 7981\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:4.9\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar\",\r\n          \"sha1\": \"ee9e9eaa0a35360dcfeac129ff4923215fd65904\",\r\n          \"size\": 66469\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:5.0.4\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar\",\r\n          \"sha1\": \"4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\",\r\n          \"size\": 78146\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.sf.opencsv:opencsv:2.3\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar\",\r\n          \"sha1\": \"c23708cdb9e80a144db433e23344a788a1fd6599\",\r\n          \"size\": 19827\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.checkerframework:checker-qual:2.0.0\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar\",\r\n          \"sha1\": \"518929596ee3249127502a8573b2e008e2d51ed3\",\r\n          \"size\": 343222\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.codehaus.mojo:animal-sniffer-annotations:1.14\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar\",\r\n          \"sha1\": \"775b7e22fb10026eed3f86e8dc556dfafe35f2d5\",\r\n          \"size\": 3482\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-analysis:6.1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-analysis/6.1.1/asm-analysis-6.1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-analysis/6.1.1/asm-analysis-6.1.1.jar\",\r\n          \"sha1\": \"376d85732456ec4d2c4bc020ee152061c61f00b5\",\r\n          \"size\": 31979\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-commons:6.1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-commons/6.1.1/asm-commons-6.1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-commons/6.1.1/asm-commons-6.1.1.jar\",\r\n          \"sha1\": \"70a7deee986e66c015cea1c9978f9654cc667020\",\r\n          \"size\": 77745\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-tree:6.1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm-tree/6.1.1/asm-tree-6.1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm-tree/6.1.1/asm-tree-6.1.1.jar\",\r\n          \"sha1\": \"19fdc358e7bd3986b9867de508ce6cefa693dda6\",\r\n          \"size\": 50050\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm:6.1.1\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"org/ow2/asm/asm/6.1.1/asm-6.1.1.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar\",\r\n          \"sha1\": \"264754515362d92acd39e8d40395f6b8dee7bc08\",\r\n          \"size\": 108252\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"trove:trove:1.0.2\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"trove/trove/1.0.2/trove-1.0.2.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/trove/trove/1.0.2/trove-1.0.2.jar\",\r\n          \"sha1\": \"112b40581ab9a4d3de4636d49985a7f686d181c8\",\r\n          \"size\": 361155\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.15.2-31.2.33:universal\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.15.2-31.2.33/forge-1.15.2-31.2.33-universal.jar\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.15.2-31.2.33/forge-1.15.2-31.2.33-universal.jar\",\r\n          \"size\": 0\r\n        }\r\n      }\r\n    },\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.15.2-31.2.33:clientdata@lzma\",\r\n      \"downloads\": {\r\n        \"artifact\": {\r\n          \"path\": \"net/minecraftforge/forge/1.15.2-31.2.33/forge-1.15.2-31.2.33-clientdata.lzma\",\r\n          \"url\": \"https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.15.2-31.2.33/forge-1.15.2-31.2.33-clientdata.lzma\",\r\n          \"size\": 0\r\n        }\r\n      }\r\n    }\r\n  ]\r\n}"
   },
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-07-29T21:30:15.6014809Z",
+  "lastPlayed": "2020-08-01T14:21:32.1424176Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -56,7 +56,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.929369Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.8706371Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3895292Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8657921Z",
       "fileCount": 1,
       "fileSize": 519243
     },
@@ -71,7 +71,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0850852Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.0085864Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3895292Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8657921Z",
       "fileCount": 1,
       "fileSize": 196411
     },
@@ -86,7 +86,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0008698Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.521691Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3895292Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8667896Z",
       "fileCount": 1,
       "fileSize": 63395
     },
@@ -101,7 +101,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.3024233Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.7626666Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3895292Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8667896Z",
       "fileCount": 1,
       "fileSize": 38372
     },
@@ -116,7 +116,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8852083Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4753148Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3905266Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8673034Z",
       "fileCount": 1,
       "fileSize": 65240
     },
@@ -131,7 +131,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9633079Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.8906078Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3905266Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8673034Z",
       "fileCount": 1,
       "fileSize": 662355
     },
@@ -146,7 +146,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1640822Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.6634312Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3915244Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8678132Z",
       "fileCount": 1,
       "fileSize": 1260526
     },
@@ -161,7 +161,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1865987Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6454106Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3915244Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8678132Z",
       "fileCount": 1,
       "fileSize": 521322
     },
@@ -176,7 +176,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0058566Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.5052346Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3915244Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8678132Z",
       "fileCount": 1,
       "fileSize": 822898
     },
@@ -191,7 +191,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.5856443Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.2877082Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3915244Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8688049Z",
       "fileCount": 1,
       "fileSize": 16705823
     },
@@ -206,7 +206,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1716377Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.6704123Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3925218Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8688049Z",
       "fileCount": 1,
       "fileSize": 118444
     },
@@ -221,7 +221,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.769154Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.3406402Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3925218Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8688049Z",
       "fileCount": 1,
       "fileSize": 29544
     },
@@ -236,7 +236,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1975691Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7194652Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3925218Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8688049Z",
       "fileCount": 1,
       "fileSize": 1658675
     },
@@ -251,7 +251,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0703328Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.6295219Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3925218Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8698025Z",
       "fileCount": 1,
       "fileSize": 13333799
     },
@@ -266,7 +266,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0123804Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.9370597Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3935193Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8698025Z",
       "fileCount": 1,
       "fileSize": 3686109
     },
@@ -281,7 +281,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.3074006Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.8631598Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3935193Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8698025Z",
       "fileCount": 1,
       "fileSize": 2414041
     },
@@ -296,7 +296,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9612839Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8932608Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3935193Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8707997Z",
       "fileCount": 1,
       "fileSize": 196348
     },
@@ -311,7 +311,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9483427Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8643944Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3945169Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8707997Z",
       "fileCount": 1,
       "fileSize": 57609
     },
@@ -326,7 +326,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.7671592Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4593578Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3945169Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8707997Z",
       "fileCount": 1,
       "fileSize": 222069
     },
@@ -341,7 +341,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.7423168Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8484371Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3945169Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8717976Z",
       "fileCount": 1,
       "fileSize": 817776
     },
@@ -356,7 +356,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9982847Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.8985621Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3945169Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8717976Z",
       "fileCount": 1,
       "fileSize": 803510
     },
@@ -371,24 +371,39 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9663006Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8972502Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3955151Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8717976Z",
       "fileCount": 1,
       "fileSize": 265034
     },
     {
-      "folderName": "structurize-0.10.313-RELEASE.jar",
-      "fingerprint": 4013214431,
-      "fileDateHash": 3620395789,
+      "folderName": "MysticalAdaptations-1.15.2-1.2.3.jar",
+      "fingerprint": 310859404,
+      "fileDateHash": 3578356803,
       "sectionID": 8,
       "individualFingerprints": [
-        4013214431
+        310859404
       ],
       "status": 1,
-      "timestamp": "2020-07-27T10:17:44.4639699Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:10.1353786Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3955151Z",
+      "timestamp": "2020-08-01T13:43:43.9062908Z",
+      "lastWriteTimeUtc": "2020-08-01T11:20:32.6260103Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8717976Z",
       "fileCount": 1,
-      "fileSize": 4986608
+      "fileSize": 107957
+    },
+    {
+      "folderName": "appliedenergistics2-7.0.0-beta.1.jar",
+      "fingerprint": 3907256214,
+      "fileDateHash": 669331768,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3907256214
+      ],
+      "status": 1,
+      "timestamp": "2020-07-29T22:37:52.5236702Z",
+      "lastWriteTimeUtc": "2020-07-29T21:07:34.150046Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8727943Z",
+      "fileCount": 1,
+      "fileSize": 4077434
     },
     {
       "folderName": "mysticalworld-1.15.2-2.0.5.jar",
@@ -401,7 +416,7 @@
       "status": 1,
       "timestamp": "2020-07-29T13:57:06.9985095Z",
       "lastWriteTimeUtc": "2020-07-29T13:19:42.4117287Z",
-      "queryTimestamp": "2020-07-29T13:57:07.7612346Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8727943Z",
       "fileCount": 1,
       "fileSize": 2935772
     },
@@ -416,7 +431,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8712453Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3310285Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3955151Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8727943Z",
       "fileCount": 1,
       "fileSize": 485767
     },
@@ -431,7 +446,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.9849124Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4783065Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3964876Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8737918Z",
       "fileCount": 1,
       "fileSize": 62223
     },
@@ -446,7 +461,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1511175Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6244202Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3964876Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8737918Z",
       "fileCount": 1,
       "fileSize": 1257749
     },
@@ -461,7 +476,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2165473Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.7477073Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3964876Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8737918Z",
       "fileCount": 1,
       "fileSize": 7779589
     },
@@ -476,7 +491,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9982847Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.940137Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3975127Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8737918Z",
       "fileCount": 1,
       "fileSize": 78517
     },
@@ -491,7 +506,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.026801Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.5497353Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3975127Z",
+      "queryTimestamp": "2020-08-01T13:43:44.874789Z",
       "fileCount": 1,
       "fileSize": 4328267
     },
@@ -506,7 +521,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1826091Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6394269Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3975127Z",
+      "queryTimestamp": "2020-08-01T13:43:44.874789Z",
       "fileCount": 1,
       "fileSize": 179601
     },
@@ -521,7 +536,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9672971Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8982477Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3975127Z",
+      "queryTimestamp": "2020-08-01T13:43:44.874789Z",
       "fileCount": 1,
       "fileSize": 109134
     },
@@ -536,7 +551,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8812185Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3489799Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3984825Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8757869Z",
       "fileCount": 1,
       "fileSize": 508500
     },
@@ -551,7 +566,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0042679Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.9055719Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3984825Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8757869Z",
       "fileCount": 1,
       "fileSize": 529847
     },
@@ -566,7 +581,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1501203Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6134498Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3984825Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8757869Z",
       "fileCount": 1,
       "fileSize": 135111
     },
@@ -581,24 +596,9 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.051734Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.5537242Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3994808Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8757869Z",
       "fileCount": 1,
       "fileSize": 183804
-    },
-    {
-      "folderName": "pneumaticcraft-repressurized-1.15.2-1.4.1-56.jar",
-      "fingerprint": 3653097121,
-      "fileDateHash": 830904830,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3653097121
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:44.0303608Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:10.0048777Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3994808Z",
-      "fileCount": 1,
-      "fileSize": 6257645
     },
     {
       "folderName": "simplybackpacks-1.15.2-1.4.6.jar",
@@ -611,7 +611,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.290463Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0885035Z",
-      "queryTimestamp": "2020-07-28T20:58:00.3994808Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8767842Z",
       "fileCount": 1,
       "fileSize": 98007
     },
@@ -626,7 +626,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.3203758Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.8681465Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4005001Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8767842Z",
       "fileCount": 1,
       "fileSize": 452901
     },
@@ -641,7 +641,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1319587Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0456186Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4005001Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8772968Z",
       "fileCount": 1,
       "fileSize": 504054
     },
@@ -656,7 +656,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1419081Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0565887Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4005001Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8778116Z",
       "fileCount": 1,
       "fileSize": 341899
     },
@@ -671,7 +671,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1130091Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0138595Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4005001Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8778116Z",
       "fileCount": 1,
       "fileSize": 214939
     },
@@ -686,7 +686,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0108439Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.5128437Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4014975Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8778116Z",
       "fileCount": 1,
       "fileSize": 351021
     },
@@ -701,7 +701,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8842102Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3499774Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4014975Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8778116Z",
       "fileCount": 1,
       "fileSize": 7708
     },
@@ -716,7 +716,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2634223Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7654208Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4014975Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8787997Z",
       "fileCount": 1,
       "fileSize": 91682
     },
@@ -731,7 +731,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.7063221Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4553683Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4024953Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8787997Z",
       "fileCount": 1,
       "fileSize": 2608394
     },
@@ -746,7 +746,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0022737Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.9015862Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4024953Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8787997Z",
       "fileCount": 1,
       "fileSize": 314403
     },
@@ -761,7 +761,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9543325Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8753649Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4024953Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8787997Z",
       "fileCount": 1,
       "fileSize": 35036
     },
@@ -776,7 +776,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9423354Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.880611Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4024953Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8797965Z",
       "fileCount": 1,
       "fileSize": 1051433
     },
@@ -791,7 +791,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.2735121Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.2928034Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4034936Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8797965Z",
       "fileCount": 1,
       "fileSize": 237272
     },
@@ -806,7 +806,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.7472118Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.3396405Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4034936Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8797965Z",
       "fileCount": 1,
       "fileSize": 2468371
     },
@@ -821,7 +821,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.7053247Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4334267Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4034936Z",
+      "queryTimestamp": "2020-08-01T13:43:44.880794Z",
       "fileCount": 1,
       "fileSize": 60755
     },
@@ -836,9 +836,24 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.3034237Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0855124Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4044663Z",
+      "queryTimestamp": "2020-08-01T13:43:44.880794Z",
       "fileCount": 1,
       "fileSize": 45632
+    },
+    {
+      "folderName": "minecolonies-0.13.81-RELEASE-universal.jar",
+      "fingerprint": 2629062587,
+      "fileDateHash": 577521358,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2629062587
+      ],
+      "status": 1,
+      "timestamp": "2020-07-30T12:57:32.9085432Z",
+      "lastWriteTimeUtc": "2020-07-30T08:40:22.7966218Z",
+      "queryTimestamp": "2020-08-01T13:43:44.880794Z",
+      "fileCount": 1,
+      "fileSize": 32348759
     },
     {
       "folderName": "DimStorage-1.15.2-3.1.6.jar",
@@ -851,7 +866,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1491229Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6104581Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4044663Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8817912Z",
       "fileCount": 1,
       "fileSize": 181361
     },
@@ -866,7 +881,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2055477Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6613678Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4044663Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8817912Z",
       "fileCount": 1,
       "fileSize": 87814
     },
@@ -881,7 +896,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0098475Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.5092244Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4044663Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8817912Z",
       "fileCount": 1,
       "fileSize": 7507
     },
@@ -896,7 +911,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1945774Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6523916Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4054879Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8827886Z",
       "fileCount": 1,
       "fileSize": 33854
     },
@@ -911,7 +926,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8832134Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.474317Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4054879Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8827886Z",
       "fileCount": 1,
       "fileSize": 189731
     },
@@ -926,7 +941,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1915858Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7025095Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4054879Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8827886Z",
       "fileCount": 1,
       "fileSize": 22435
     },
@@ -941,7 +956,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0527312Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.5537242Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4054879Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8827886Z",
       "fileCount": 1,
       "fileSize": 26924
     },
@@ -956,7 +971,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.142142Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.6335107Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4064841Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8837861Z",
       "fileCount": 1,
       "fileSize": 464346
     },
@@ -971,7 +986,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0158299Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.5629934Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4064841Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8837861Z",
       "fileCount": 1,
       "fileSize": 110257
     },
@@ -986,7 +1001,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2554371Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7494636Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4064841Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8837861Z",
       "fileCount": 1,
       "fileSize": 138725
     },
@@ -1001,7 +1016,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2704077Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.834237Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4074811Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8847832Z",
       "fileCount": 1,
       "fileSize": 6823032
     },
@@ -1016,7 +1031,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.9998725Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.493267Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4074811Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8847832Z",
       "fileCount": 1,
       "fileSize": 144707
     },
@@ -1031,7 +1046,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2065451Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7204614Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4074811Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8847832Z",
       "fileCount": 1,
       "fileSize": 43869
     },
@@ -1046,7 +1061,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.7681558Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4643449Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4084785Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8847832Z",
       "fileCount": 1,
       "fileSize": 194641
     },
@@ -1061,7 +1076,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1618018Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0715487Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4084785Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8857807Z",
       "fileCount": 1,
       "fileSize": 15055
     },
@@ -1076,9 +1091,24 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8772015Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4703277Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4084785Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8857807Z",
       "fileCount": 1,
       "fileSize": 19175
+    },
+    {
+      "folderName": "torchmaster-2.2.2.jar",
+      "fingerprint": 1751585726,
+      "fileDateHash": 612367232,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1751585726
+      ],
+      "status": 1,
+      "timestamp": "2020-08-01T13:43:43.9072885Z",
+      "lastWriteTimeUtc": "2020-08-01T11:24:31.8436571Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8857807Z",
+      "fileCount": 1,
+      "fileSize": 94030
     },
     {
       "folderName": "shetiphiancore-1.15-3.7.2.jar",
@@ -1091,7 +1121,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.2665271Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0765353Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4084785Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8857807Z",
       "fileCount": 1,
       "fileSize": 389281
     },
@@ -1106,7 +1136,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9363741Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8624001Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4094768Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8868049Z",
       "fileCount": 1,
       "fileSize": 1061758
     },
@@ -1121,7 +1151,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9473463Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8633973Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4094768Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8868049Z",
       "fileCount": 1,
       "fileSize": 32384
     },
@@ -1136,7 +1166,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0128379Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.5410517Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4094768Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8873173Z",
       "fileCount": 1,
       "fileSize": 656263
     },
@@ -1151,7 +1181,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1229856Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0336793Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4094768Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8878317Z",
       "fileCount": 1,
       "fileSize": 28802
     },
@@ -1166,7 +1196,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.9849124Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4892769Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4104747Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8878317Z",
       "fileCount": 1,
       "fileSize": 935377
     },
@@ -1181,7 +1211,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.7032985Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.7766298Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4104747Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8878317Z",
       "fileCount": 1,
       "fileSize": 126015
     },
@@ -1196,7 +1226,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1489143Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0705512Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4104747Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8878317Z",
       "fileCount": 1,
       "fileSize": 1353249
     },
@@ -1211,7 +1241,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1885923Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7005155Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4104747Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8888201Z",
       "fileCount": 1,
       "fileSize": 484994
     },
@@ -1226,7 +1256,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1630855Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.6514622Z",
-      "queryTimestamp": "2020-07-28T20:58:00.411471Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8888201Z",
       "fileCount": 1,
       "fileSize": 183273
     },
@@ -1241,7 +1271,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1796172Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.6815666Z",
-      "queryTimestamp": "2020-07-28T20:58:00.411471Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8888201Z",
       "fileCount": 1,
       "fileSize": 29290
     },
@@ -1256,24 +1286,9 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.6893668Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.3336932Z",
-      "queryTimestamp": "2020-07-28T20:58:00.411471Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8898177Z",
       "fileCount": 1,
       "fileSize": 52700
-    },
-    {
-      "folderName": "MysticalAdaptations-1.15.2-1.2.1.jar",
-      "fingerprint": 386188386,
-      "fileDateHash": 4199412007,
-      "sectionID": 8,
-      "individualFingerprints": [
-        386188386
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:43.9483427Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:07.8663889Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4124448Z",
-      "fileCount": 1,
-      "fileSize": 102481
     },
     {
       "folderName": "rftoolsbase-1.15-1.1.3-beta.jar",
@@ -1286,7 +1301,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1299661Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0396342Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4124448Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8898177Z",
       "fileCount": 1,
       "fileSize": 380449
     },
@@ -1301,7 +1316,7 @@
       "status": 1,
       "timestamp": "2020-07-28T20:57:58.8879813Z",
       "lastWriteTimeUtc": "2020-07-28T08:52:40.9709862Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4124448Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8898177Z",
       "fileCount": 1,
       "fileSize": 3285813
     },
@@ -1316,7 +1331,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.71829Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.3146362Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4124448Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8898177Z",
       "fileCount": 1,
       "fileSize": 445592
     },
@@ -1331,7 +1346,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2165473Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7463927Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4134672Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8908148Z",
       "fileCount": 1,
       "fileSize": 8573
     },
@@ -1346,7 +1361,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.7412289Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.3246808Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4134672Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8908148Z",
       "fileCount": 1,
       "fileSize": 64160
     },
@@ -1361,7 +1376,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1229856Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.0663944Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4134672Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8908148Z",
       "fileCount": 1,
       "fileSize": 1330174
     },
@@ -1376,7 +1391,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1836065Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.6945315Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4144634Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8908148Z",
       "fileCount": 1,
       "fileSize": 515547
     },
@@ -1391,7 +1406,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.3253326Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.5538385Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4144634Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8918117Z",
       "fileCount": 1,
       "fileSize": 80812567
     },
@@ -1406,7 +1421,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1925832Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7045046Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4144634Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8918117Z",
       "fileCount": 1,
       "fileSize": 8477
     },
@@ -1421,7 +1436,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.9041285Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3848839Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4154381Z",
+      "queryTimestamp": "2020-08-01T13:43:44.892809Z",
       "fileCount": 1,
       "fileSize": 178961
     },
@@ -1436,7 +1451,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1608049Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.0813539Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4154381Z",
+      "queryTimestamp": "2020-08-01T13:43:44.892809Z",
       "fileCount": 1,
       "fileSize": 15072
     },
@@ -1451,7 +1466,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1600936Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.6494678Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4154381Z",
+      "queryTimestamp": "2020-08-01T13:43:44.892809Z",
       "fileCount": 1,
       "fileSize": 213411
     },
@@ -1466,7 +1481,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2155216Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.745395Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4164647Z",
+      "queryTimestamp": "2020-08-01T13:43:44.892809Z",
       "fileCount": 1,
       "fileSize": 41688
     },
@@ -1481,7 +1496,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9483427Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8673871Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4164647Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8938065Z",
       "fileCount": 1,
       "fileSize": 95546
     },
@@ -1496,7 +1511,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.195574Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6583755Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4164647Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8938065Z",
       "fileCount": 1,
       "fileSize": 497043
     },
@@ -1511,7 +1526,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8762044Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4703277Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4174547Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8938065Z",
       "fileCount": 1,
       "fileSize": 155664
     },
@@ -1526,9 +1541,24 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.4470158Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.3247182Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4174547Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8948037Z",
       "fileCount": 1,
       "fileSize": 146040
+    },
+    {
+      "folderName": "structurize-0.13.31-RELEASE.jar",
+      "fingerprint": 315315351,
+      "fileDateHash": 1142001892,
+      "sectionID": 8,
+      "individualFingerprints": [
+        315315351
+      ],
+      "status": 1,
+      "timestamp": "2020-07-30T12:57:33.1005828Z",
+      "lastWriteTimeUtc": "2020-07-30T08:09:53.9406866Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8948037Z",
+      "fileCount": 1,
+      "fileSize": 5132784
     },
     {
       "folderName": "SolarFluxReborn-1.15.2-15.2.3.jar",
@@ -1541,7 +1571,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.4460177Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.3217262Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4184286Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8948037Z",
       "fileCount": 1,
       "fileSize": 238571
     },
@@ -1556,7 +1586,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1571008Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6304505Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4184286Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8948037Z",
       "fileCount": 1,
       "fileSize": 385812
     },
@@ -1571,7 +1601,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0098475Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.5082269Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4184286Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8958009Z",
       "fileCount": 1,
       "fileSize": 45303
     },
@@ -1586,7 +1616,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0103852Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.9501086Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4184286Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8958009Z",
       "fileCount": 1,
       "fileSize": 183916
     },
@@ -1601,7 +1631,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9473463Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8643944Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4194495Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8958009Z",
       "fileCount": 1,
       "fileSize": 24547
     },
@@ -1616,7 +1646,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2075424Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7244509Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4194495Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8958009Z",
       "fileCount": 1,
       "fileSize": 278761
     },
@@ -1631,7 +1661,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2704077Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.7616695Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4194495Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8967982Z",
       "fileCount": 1,
       "fileSize": 7604
     },
@@ -1646,7 +1676,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.7463254Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8514294Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4194495Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8973019Z",
       "fileCount": 1,
       "fileSize": 222173
     },
@@ -1661,7 +1691,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2155216Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6623652Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4204467Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8973142Z",
       "fileCount": 1,
       "fileSize": 37695
     },
@@ -1676,7 +1706,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1590964Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.6454788Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4204467Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8978314Z",
       "fileCount": 1,
       "fileSize": 184782
     },
@@ -1691,7 +1721,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0497392Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.5659848Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4204467Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8978314Z",
       "fileCount": 1,
       "fileSize": 133859
     },
@@ -1706,24 +1736,9 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1726357Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.6805686Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4204467Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8978314Z",
       "fileCount": 1,
       "fileSize": 1418464
-    },
-    {
-      "folderName": "tetra-1.15.2-2.16.1.jar",
-      "fingerprint": 3107685494,
-      "fileDateHash": 2363879760,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3107685494
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:44.5357779Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:10.1543278Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4214437Z",
-      "fileCount": 1,
-      "fileSize": 1715948
     },
     {
       "folderName": "titanium-1.15.2-2.4.2.jar",
@@ -1736,7 +1751,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.6803914Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.3006738Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4214437Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8978314Z",
       "fileCount": 1,
       "fileSize": 546613
     },
@@ -1751,7 +1766,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0118405Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.5330733Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4214437Z",
+      "queryTimestamp": "2020-08-01T13:43:44.898816Z",
       "fileCount": 1,
       "fileSize": 38291
     },
@@ -1766,7 +1781,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0028644Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.522688Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4224416Z",
+      "queryTimestamp": "2020-08-01T13:43:44.898816Z",
       "fileCount": 1,
       "fileSize": 29171
     },
@@ -1781,7 +1796,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0028644Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.5256805Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4224416Z",
+      "queryTimestamp": "2020-08-01T13:43:44.898816Z",
       "fileCount": 1,
       "fileSize": 13311
     },
@@ -1796,7 +1811,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1349262Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0516022Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4224416Z",
+      "queryTimestamp": "2020-08-01T13:43:44.898816Z",
       "fileCount": 1,
       "fileSize": 466941
     },
@@ -1811,7 +1826,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.6973461Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.3076549Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4224416Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8998135Z",
       "fileCount": 1,
       "fileSize": 535710
     },
@@ -1826,7 +1841,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.6734095Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.2937922Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4234392Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8998135Z",
       "fileCount": 1,
       "fileSize": 305567
     },
@@ -1841,7 +1856,7 @@
       "status": 1,
       "timestamp": "2020-06-25T17:19:26.703281Z",
       "lastWriteTimeUtc": "2020-06-25T16:52:10.2202989Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4234392Z",
+      "queryTimestamp": "2020-08-01T13:43:44.8998135Z",
       "fileCount": 1,
       "fileSize": 0
     },
@@ -1856,7 +1871,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0750878Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.0055535Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4234392Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9008108Z",
       "fileCount": 1,
       "fileSize": 1921096
     },
@@ -1871,7 +1886,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8842102Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3509748Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4234392Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9008108Z",
       "fileCount": 1,
       "fileSize": 58933
     },
@@ -1886,24 +1901,9 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0088494Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.5082269Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4244358Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9008108Z",
       "fileCount": 1,
       "fileSize": 103795
-    },
-    {
-      "folderName": "JAOPCA-1.15.2-3.2.0.13.jar",
-      "fingerprint": 1538288878,
-      "fileDateHash": 1009900361,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1538288878
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:43.2644195Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:07.7606718Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4244358Z",
-      "fileCount": 1,
-      "fileSize": 489861
     },
     {
       "folderName": "Cyclic-1.15.2-0.6.1.jar",
@@ -1916,7 +1916,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0527312Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.591916Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4244358Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9008108Z",
       "fileCount": 1,
       "fileSize": 2217887
     },
@@ -1931,7 +1931,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.7483244Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.5717909Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4254395Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9018081Z",
       "fileCount": 1,
       "fileSize": 52991
     },
@@ -1946,7 +1946,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0860797Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.0514339Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4254395Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9018081Z",
       "fileCount": 1,
       "fileSize": 5424185
     },
@@ -1961,7 +1961,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.7352446Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.3226864Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4254395Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9018081Z",
       "fileCount": 1,
       "fileSize": 67000
     },
@@ -1976,7 +1976,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0683618Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.5577136Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4254395Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9018081Z",
       "fileCount": 1,
       "fileSize": 202515
     },
@@ -1991,7 +1991,7 @@
       "status": 1,
       "timestamp": "2020-07-29T13:57:06.9925235Z",
       "lastWriteTimeUtc": "2020-07-29T13:19:42.0423329Z",
-      "queryTimestamp": "2020-07-29T13:57:07.7911543Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9028053Z",
       "fileCount": 1,
       "fileSize": 133368
     },
@@ -2006,7 +2006,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8772015Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3350174Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4264316Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9028053Z",
       "fileCount": 1,
       "fileSize": 39737
     },
@@ -2021,7 +2021,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8752064Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3340206Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4264316Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9028053Z",
       "fileCount": 1,
       "fileSize": 91710
     },
@@ -2036,136 +2036,9 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.6883695Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4304346Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4264316Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9028053Z",
       "fileCount": 1,
       "fileSize": 22827
-    },
-    {
-      "folderName": "Test",
-      "fingerprint": 2726944877,
-      "fileDateHash": 1688917961,
-      "sectionID": 10,
-      "individualFingerprints": [
-        29425876,
-        73029648,
-        162988918,
-        300357162,
-        308827424,
-        359552779,
-        403418361,
-        407323594,
-        489217547,
-        500036828,
-        539326090,
-        593743781,
-        598568713,
-        651942457,
-        672266421,
-        766402811,
-        782419478,
-        794616041,
-        812326908,
-        821104905,
-        950914562,
-        1028136743,
-        1064971317,
-        1070747585,
-        1077144129,
-        1085279233,
-        1093338501,
-        1170925343,
-        1174775678,
-        1187678304,
-        1198039783,
-        1225761873,
-        1250756017,
-        1254586642,
-        1262278129,
-        1271102851,
-        1361571791,
-        1367033121,
-        1397450547,
-        1428814987,
-        1434901704,
-        1500097912,
-        1540447798,
-        1540447798,
-        1540447798,
-        1566657123,
-        1571976557,
-        1613833181,
-        1628290571,
-        1685506462,
-        1717256304,
-        1717740061,
-        1722796223,
-        1764721521,
-        1783675463,
-        1816210389,
-        1886391834,
-        1931188287,
-        2044365846,
-        2045168165,
-        2121544406,
-        2161348066,
-        2208099618,
-        2239351717,
-        2243982225,
-        2276337954,
-        2300421181,
-        2321415616,
-        2420279453,
-        2498825621,
-        2575806916,
-        2662737287,
-        2667437631,
-        2672388777,
-        2707360307,
-        2734783285,
-        2738148813,
-        2754028482,
-        2779270564,
-        2868010337,
-        2898501394,
-        2911591640,
-        2998180223,
-        3049160315,
-        3130457829,
-        3158624770,
-        3197590455,
-        3272685866,
-        3272786162,
-        3287613341,
-        3587905635,
-        3637354378,
-        3750081297,
-        3769038449,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3797079994,
-        3926756088,
-        3964272420,
-        4036939748,
-        4040084001,
-        4054424842,
-        4190024319,
-        4192398683,
-        4241017799,
-        4294246967
-      ],
-      "status": 1,
-      "timestamp": "2020-07-29T18:37:50.8901015Z",
-      "lastWriteTimeUtc": "2020-07-29T18:37:50.3734229Z",
-      "queryTimestamp": "2020-07-29T18:37:51.7937687Z",
-      "fileCount": 22,
-      "fileSize": 0
     },
     {
       "folderName": "DefaultOptions_1.15.2-11.0.1.jar",
@@ -2178,7 +2051,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1451339Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6068757Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4264316Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9038032Z",
       "fileCount": 1,
       "fileSize": 14518
     },
@@ -2193,7 +2066,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0113826Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.9531005Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4274277Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9048009Z",
       "fileCount": 1,
       "fileSize": 95520
     },
@@ -2208,9 +2081,24 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1608049Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.0803569Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4274277Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9048009Z",
       "fileCount": 1,
       "fileSize": 14491
+    },
+    {
+      "folderName": "pneumaticcraft-repressurized-1.15.2-1.4.2-58.jar",
+      "fingerprint": 473368558,
+      "fileDateHash": 3596435080,
+      "sectionID": 8,
+      "individualFingerprints": [
+        473368558
+      ],
+      "status": 1,
+      "timestamp": "2020-07-30T12:57:33.0647018Z",
+      "lastWriteTimeUtc": "2020-07-30T08:08:55.2068498Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9048009Z",
+      "fileCount": 1,
+      "fileSize": 6261927
     },
     {
       "folderName": "valkyrielib-1.15.2-3.0.2.1.jar",
@@ -2223,7 +2111,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.7272663Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.3226864Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4274277Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9048009Z",
       "fileCount": 1,
       "fileSize": 682559
     },
@@ -2238,7 +2126,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.9988756Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4902741Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4284204Z",
+      "queryTimestamp": "2020-08-01T13:43:44.905798Z",
       "fileCount": 1,
       "fileSize": 50235
     },
@@ -2253,7 +2141,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1915858Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7015125Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4284204Z",
+      "queryTimestamp": "2020-08-01T13:43:44.905798Z",
       "fileCount": 1,
       "fileSize": 88282
     },
@@ -2268,7 +2156,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1610912Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.634441Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4284204Z",
+      "queryTimestamp": "2020-08-01T13:43:44.905798Z",
       "fileCount": 1,
       "fileSize": 275631
     },
@@ -2283,7 +2171,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8772015Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3429963Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4294264Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9067953Z",
       "fileCount": 1,
       "fileSize": 698309
     },
@@ -2298,7 +2186,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9473463Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.8836262Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4294264Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9067953Z",
       "fileCount": 1,
       "fileSize": 96579
     },
@@ -2313,7 +2201,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2634223Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.7536905Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4294264Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9073103Z",
       "fileCount": 1,
       "fileSize": 117050
     },
@@ -2328,7 +2216,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9553292Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8773607Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4304251Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9073103Z",
       "fileCount": 1,
       "fileSize": 124531
     },
@@ -2343,7 +2231,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2624251Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.7516959Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4304251Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9078244Z",
       "fileCount": 1,
       "fileSize": 173550
     },
@@ -2358,7 +2246,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.7072839Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8394612Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4304251Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9078244Z",
       "fileCount": 1,
       "fileSize": 7105895
     },
@@ -2373,7 +2261,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1925832Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7035069Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4314223Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9078244Z",
       "fileCount": 1,
       "fileSize": 23810
     },
@@ -2388,7 +2276,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.8010687Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4653417Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4314223Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9088124Z",
       "fileCount": 1,
       "fileSize": 23313
     },
@@ -2403,7 +2291,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1130091Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.0524311Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4314223Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9088124Z",
       "fileCount": 1,
       "fileSize": 1852
     },
@@ -2418,7 +2306,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1806147Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.6885472Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4323929Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9088124Z",
       "fileCount": 1,
       "fileSize": 612551
     },
@@ -2433,7 +2321,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.20854Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7304351Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4323929Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9088124Z",
       "fileCount": 1,
       "fileSize": 382909
     },
@@ -2448,7 +2336,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8852083Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3529699Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4323929Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9098097Z",
       "fileCount": 1,
       "fileSize": 93840
     },
@@ -2463,7 +2351,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0527312Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.555719Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4323929Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9098097Z",
       "fileCount": 1,
       "fileSize": 6899
     },
@@ -2478,7 +2366,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8862069Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3529699Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4334125Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9098097Z",
       "fileCount": 1,
       "fileSize": 6349
     },
@@ -2493,9 +2381,24 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1706411Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.66742Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4334125Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9108068Z",
       "fileCount": 1,
       "fileSize": 281002
+    },
+    {
+      "folderName": "Botania-r1.15-388.jar",
+      "fingerprint": 4195472666,
+      "fileDateHash": 2665928054,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4195472666
+      ],
+      "status": 1,
+      "timestamp": "2020-08-01T13:43:43.8304931Z",
+      "lastWriteTimeUtc": "2020-08-01T11:19:49.618328Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9108068Z",
+      "fileCount": 1,
+      "fileSize": 14776702
     },
     {
       "folderName": "moredragoneggs-1.0.jar",
@@ -2508,7 +2411,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9463487Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.881628Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4334125Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9108068Z",
       "fileCount": 1,
       "fileSize": 3845
     },
@@ -2523,7 +2426,7 @@
       "status": 1,
       "timestamp": "2020-07-28T20:57:58.9049038Z",
       "lastWriteTimeUtc": "2020-07-28T09:27:04.2646888Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4344094Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9108068Z",
       "fileCount": 1,
       "fileSize": 1881167
     },
@@ -2538,7 +2441,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0062636Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.9471168Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4344094Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9118042Z",
       "fileCount": 1,
       "fileSize": 533222
     },
@@ -2553,7 +2456,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1140059Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0326527Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4344094Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9118042Z",
       "fileCount": 1,
       "fileSize": 1890686
     },
@@ -2568,7 +2471,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1945774Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6513946Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4344094Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9118042Z",
       "fileCount": 1,
       "fileSize": 8359
     },
@@ -2583,7 +2486,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.4539966Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.1004719Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4354064Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9118042Z",
       "fileCount": 1,
       "fileSize": 207348
     },
@@ -2598,7 +2501,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.7042912Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.781616Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4354064Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9128013Z",
       "fileCount": 1,
       "fileSize": 241877
     },
@@ -2613,24 +2516,9 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1451339Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.6424867Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4354064Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9128013Z",
       "fileCount": 1,
       "fileSize": 853753
-    },
-    {
-      "folderName": "minecolonies-0.10.771-RELEASE-universal.jar",
-      "fingerprint": 3215490908,
-      "fileDateHash": 1785544090,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3215490908
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:43.7483244Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:09.8616615Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4364045Z",
-      "fileCount": 1,
-      "fileSize": 35493122
     },
     {
       "folderName": "ScalableCatsForce-2.13.2-build-2-with-library.jar",
@@ -2643,7 +2531,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1966851Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.2868197Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4364045Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9128013Z",
       "fileCount": 1,
       "fileSize": 14251124
     },
@@ -2658,9 +2546,24 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8762044Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3250443Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4364045Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9137987Z",
       "fileCount": 1,
       "fileSize": 22121
+    },
+    {
+      "folderName": "tetra-1.15.2-2.17.0.jar",
+      "fingerprint": 1354873748,
+      "fileDateHash": 1508778525,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1354873748
+      ],
+      "status": 1,
+      "timestamp": "2020-07-30T12:57:33.1305261Z",
+      "lastWriteTimeUtc": "2020-07-30T08:09:31.5468876Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9137987Z",
+      "fileCount": 1,
+      "fileSize": 2074400
     },
     {
       "folderName": "OpenLoader-1.15.2-4.0.5.jar",
@@ -2673,9 +2576,122 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9682952Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.899245Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4364045Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9137987Z",
       "fileCount": 1,
       "fileSize": 5445
+    },
+    {
+      "folderName": "Botania",
+      "fingerprint": 1996833293,
+      "fileDateHash": 1715628805,
+      "sectionID": 10,
+      "individualFingerprints": [
+        29425876,
+        69349917,
+        161943523,
+        162988918,
+        268252701,
+        336298147,
+        403418361,
+        407323594,
+        434780904,
+        486926208,
+        489217547,
+        500036828,
+        539326090,
+        594049528,
+        651942457,
+        663388092,
+        812326908,
+        821104905,
+        950914562,
+        989061318,
+        1038055741,
+        1053887173,
+        1077144129,
+        1079502887,
+        1085279233,
+        1087253097,
+        1170925343,
+        1174775678,
+        1250756017,
+        1254586642,
+        1271102851,
+        1334744827,
+        1363967031,
+        1367033121,
+        1434901704,
+        1500097912,
+        1502843318,
+        1540447798,
+        1540447798,
+        1540447798,
+        1566657123,
+        1571976557,
+        1606339469,
+        1685506462,
+        1717256304,
+        1722796223,
+        1764721521,
+        1783675463,
+        1816210389,
+        2044365846,
+        2045168165,
+        2078246363,
+        2112075041,
+        2121544406,
+        2239351717,
+        2243982225,
+        2261174927,
+        2276337954,
+        2325210286,
+        2390697297,
+        2488221889,
+        2498825621,
+        2558831452,
+        2575806916,
+        2672388777,
+        2754028482,
+        2764283435,
+        2779270564,
+        2896427041,
+        2905305307,
+        2911591640,
+        2968392817,
+        3009642776,
+        3038962097,
+        3049160315,
+        3065141969,
+        3158624770,
+        3253157531,
+        3272786162,
+        3287613341,
+        3541607265,
+        3587905635,
+        3637354378,
+        3651867688,
+        3670052955,
+        3675289525,
+        3769038449,
+        3771282984,
+        3771282984,
+        3771282984,
+        3771282984,
+        3787441860,
+        3868330678,
+        3964272420,
+        4027153546,
+        4040084001,
+        4190024319,
+        4192398683,
+        4294246967
+      ],
+      "status": 1,
+      "timestamp": "2020-08-01T14:13:28.0252633Z",
+      "lastWriteTimeUtc": "2020-08-01T14:13:27.5076166Z",
+      "queryTimestamp": "2020-08-01T14:13:29.1728724Z",
+      "fileCount": 22,
+      "fileSize": 0
     },
     {
       "folderName": "LargeFluidTank-15.3.2.jar",
@@ -2688,7 +2704,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.3054154Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.7696477Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4374015Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9137987Z",
       "fileCount": 1,
       "fileSize": 547260
     },
@@ -2703,7 +2719,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.7052918Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.5707932Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4374015Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9147962Z",
       "fileCount": 1,
       "fileSize": 548464
     },
@@ -2718,7 +2734,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.3233672Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.7756319Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4374015Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9147962Z",
       "fileCount": 1,
       "fileSize": 465092
     },
@@ -2733,7 +2749,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0093954Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.9075391Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4374015Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9147962Z",
       "fileCount": 1,
       "fileSize": 136050
     },
@@ -2748,7 +2764,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1925832Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6503973Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4384034Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9157935Z",
       "fileCount": 1,
       "fileSize": 277009
     },
@@ -2763,7 +2779,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8812185Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3429963Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4384034Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9157935Z",
       "fileCount": 1,
       "fileSize": 28861
     },
@@ -2778,7 +2794,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9682952Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.9022371Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4384034Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9157935Z",
       "fileCount": 1,
       "fileSize": 176466
     },
@@ -2793,7 +2809,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1140059Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.0534286Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4393963Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9167911Z",
       "fileCount": 1,
       "fileSize": 35214
     },
@@ -2808,7 +2824,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0008698Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4972564Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4393963Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9167911Z",
       "fileCount": 1,
       "fileSize": 299555
     },
@@ -2823,7 +2839,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0527312Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.555719Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4393963Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9173045Z",
       "fileCount": 1,
       "fileSize": 59616
     },
@@ -2838,7 +2854,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0103852Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:09.9075391Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4393963Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9178072Z",
       "fileCount": 1,
       "fileSize": 45363
     },
@@ -2853,7 +2869,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.2814585Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.084514Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4403983Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9178165Z",
       "fileCount": 1,
       "fileSize": 687658
     },
@@ -2868,7 +2884,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2105343Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7404085Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4403983Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9178165Z",
       "fileCount": 1,
       "fileSize": 799705
     },
@@ -2883,7 +2899,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.9998725Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4942642Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4413955Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9178165Z",
       "fileCount": 1,
       "fileSize": 2854
     },
@@ -2898,7 +2914,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0507365Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.5507324Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4413955Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9188063Z",
       "fileCount": 1,
       "fileSize": 26321
     },
@@ -2913,7 +2929,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.3024233Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.8412183Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4413955Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9188063Z",
       "fileCount": 1,
       "fileSize": 489818
     },
@@ -2928,7 +2944,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.9031313Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3828895Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4413955Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9188063Z",
       "fileCount": 1,
       "fileSize": 186909
     },
@@ -2943,9 +2959,24 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.140147Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6058781Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4423932Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9188063Z",
       "fileCount": 1,
       "fileSize": 226189
+    },
+    {
+      "folderName": "JAOPCA-1.15.2-3.2.0.14.jar",
+      "fingerprint": 2788089983,
+      "fileDateHash": 1136680342,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2788089983
+      ],
+      "status": 1,
+      "timestamp": "2020-07-30T12:57:32.9025592Z",
+      "lastWriteTimeUtc": "2020-07-30T08:08:24.3471002Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9198034Z",
+      "fileCount": 1,
+      "fileSize": 514576
     },
     {
       "folderName": "EquipmentTooltips-1.15.2-1.4.3+14.jar",
@@ -2958,7 +2989,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1796172Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6354373Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4423932Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9198034Z",
       "fileCount": 1,
       "fileSize": 65587
     },
@@ -2973,7 +3004,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.4480133Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0964826Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4423932Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9208009Z",
       "fileCount": 1,
       "fileSize": 163210
     },
@@ -2988,7 +3019,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0158299Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.5138317Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4423932Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9208009Z",
       "fileCount": 1,
       "fileSize": 65098
     },
@@ -3003,7 +3034,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.5497404Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4274427Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4433861Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9208009Z",
       "fileCount": 1,
       "fileSize": 7083211
     },
@@ -3018,7 +3049,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2155216Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7434005Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4433861Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9208009Z",
       "fileCount": 1,
       "fileSize": 109311
     },
@@ -3033,7 +3064,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2664148Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7733997Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4433861Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9217984Z",
       "fileCount": 1,
       "fileSize": 704540
     },
@@ -3048,7 +3079,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.1945774Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6513946Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4443826Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9217984Z",
       "fileCount": 1,
       "fileSize": 15647
     },
@@ -3063,7 +3094,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9692931Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.9391383Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4443826Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9217984Z",
       "fileCount": 1,
       "fileSize": 4421759
     },
@@ -3078,7 +3109,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8862069Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4773105Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4443826Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9227957Z",
       "fileCount": 1,
       "fileSize": 52594
     },
@@ -3093,7 +3124,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.8010687Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.3416354Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4443826Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9227957Z",
       "fileCount": 1,
       "fileSize": 32008
     },
@@ -3108,7 +3139,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9623105Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8932608Z",
-      "queryTimestamp": "2020-07-28T20:58:00.44538Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9227957Z",
       "fileCount": 1,
       "fileSize": 20028
     },
@@ -3123,7 +3154,7 @@
       "status": 1,
       "timestamp": "2020-07-29T09:37:59.5481668Z",
       "lastWriteTimeUtc": "2020-07-29T08:31:32.4946272Z",
-      "queryTimestamp": "2020-07-29T09:38:00.4898226Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9227957Z",
       "fileCount": 1,
       "fileSize": 1296451
     },
@@ -3138,7 +3169,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.1130091Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0118599Z",
-      "queryTimestamp": "2020-07-28T20:58:00.44538Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9237935Z",
       "fileCount": 1,
       "fileSize": 45034
     },
@@ -3153,7 +3184,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0637253Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6018892Z",
-      "queryTimestamp": "2020-07-28T20:58:00.44538Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9237935Z",
       "fileCount": 1,
       "fileSize": 800956
     },
@@ -3168,7 +3199,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0691302Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.010892Z",
-      "queryTimestamp": "2020-07-28T20:58:00.44538Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9237935Z",
       "fileCount": 1,
       "fileSize": 394633
     },
@@ -3183,7 +3214,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0028644Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.5246826Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4463773Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9247905Z",
       "fileCount": 1,
       "fileSize": 51783
     },
@@ -3198,7 +3229,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.2754761Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.3197306Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4463773Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9247905Z",
       "fileCount": 1,
       "fileSize": 1227206
     },
@@ -3213,7 +3244,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.214524Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7414055Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4463773Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9247905Z",
       "fileCount": 1,
       "fileSize": 56385
     },
@@ -3228,7 +3259,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.4988768Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.1363984Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4473748Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9247905Z",
       "fileCount": 1,
       "fileSize": 22255
     },
@@ -3243,7 +3274,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.8872006Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.3789009Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4473748Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9257876Z",
       "fileCount": 1,
       "fileSize": 3232629
     },
@@ -3258,24 +3289,9 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.0701277Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.9630739Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4473748Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9257876Z",
       "fileCount": 1,
       "fileSize": 999101
-    },
-    {
-      "folderName": "torchmaster-2.2.1.jar",
-      "fingerprint": 1438309582,
-      "fileDateHash": 4088966462,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1438309582
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:44.6923595Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:10.3026681Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4483494Z",
-      "fileCount": 1,
-      "fileSize": 93869
     },
     {
       "folderName": "DangerousStoneCutter-1.15.1-1.2.0.jar",
@@ -3288,7 +3304,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.0683618Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.6028868Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4483494Z",
+      "queryTimestamp": "2020-08-01T13:43:44.926785Z",
       "fileCount": 1,
       "fileSize": 7772
     },
@@ -3303,7 +3319,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.4599812Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.3326964Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4483494Z",
+      "queryTimestamp": "2020-08-01T13:43:44.926785Z",
       "fileCount": 1,
       "fileSize": 487627
     },
@@ -3318,7 +3334,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:42.989899Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.5206936Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4483494Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9272967Z",
       "fileCount": 1,
       "fileSize": 1156286
     },
@@ -3333,7 +3349,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.2564357Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.7634273Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4493747Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9272967Z",
       "fileCount": 1,
       "fileSize": 1404300
     },
@@ -3348,7 +3364,7 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9493444Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8743681Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4493747Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9278078Z",
       "fileCount": 1,
       "fileSize": 1074829
     },
@@ -3363,24 +3379,9 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.8010687Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:08.4663392Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4493747Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9278078Z",
       "fileCount": 1,
       "fileSize": 46859
-    },
-    {
-      "folderName": "Botania-r1.15-387.jar",
-      "fingerprint": 734156593,
-      "fileDateHash": 2357036083,
-      "sectionID": 8,
-      "individualFingerprints": [
-        734156593
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:42.9051259Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:07.5077288Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4503443Z",
-      "fileCount": 1,
-      "fileSize": 14772621
     },
     {
       "folderName": "NaturesAura-28.4.jar",
@@ -3393,9 +3394,22 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:43.9553292Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:07.8902687Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4503443Z",
+      "queryTimestamp": "2020-08-01T13:43:44.9278078Z",
       "fileCount": 1,
       "fileSize": 1280832
+    },
+    {
+      "folderName": "Met",
+      "fingerprint": 0,
+      "fileDateHash": 1645978667,
+      "sectionID": 10,
+      "individualFingerprints": null,
+      "status": 3,
+      "timestamp": "2020-08-01T14:13:28.2496335Z",
+      "lastWriteTimeUtc": "2020-08-01T13:44:36.2719548Z",
+      "queryTimestamp": "0001-01-01T00:00:00",
+      "fileCount": 20,
+      "fileSize": 0
     },
     {
       "folderName": "simplylight-1.15.2-0.9.0.jar",
@@ -3408,13 +3422,13 @@
       "status": 1,
       "timestamp": "2020-07-27T10:17:44.2964427Z",
       "lastWriteTimeUtc": "2020-07-27T10:08:10.0934915Z",
-      "queryTimestamp": "2020-07-28T20:58:00.4503443Z",
+      "queryTimestamp": "2020-08-01T13:43:44.928798Z",
       "fileCount": 1,
       "fileSize": 377368
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-07-29T18:27:29.3566902Z",
+  "lastPreviousMatchUpdate": "2020-08-01T13:43:45.4655232Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.15.2",
@@ -3592,17 +3606,23 @@
       "addonID": 225643,
       "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
       "installedFile": {
-        "id": 2993051,
-        "displayName": "Botania-r1.15-387.jar",
-        "fileName": "Botania-r1.15-387.jar",
-        "fileDate": "2020-06-30T15:26:25.357Z",
-        "fileLength": 14772621,
+        "id": 3020377,
+        "displayName": "Botania-r1.15-388.jar",
+        "fileName": "Botania-r1.15-388.jar",
+        "fileDate": "2020-08-01T02:53:27.99Z",
+        "fileLength": 14776702,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2993/51/Botania-r1.15-387.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3020/377/Botania-r1.15-388.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
+          {
+            "id": 0,
+            "addonId": 306770,
+            "type": 3,
+            "fileId": 0
+          },
           {
             "id": 0,
             "addonId": 309927,
@@ -3617,12 +3637,6 @@
           },
           {
             "id": 0,
-            "addonId": 306770,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
             "addonId": 243121,
             "type": 2,
             "fileId": 0
@@ -3632,12 +3646,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 800951394,
+            "fingerprint": 1648808922,
             "type": 0
           },
           {
             "foldername": "vazkii",
-            "fingerprint": 4110651047,
+            "fingerprint": 214616653,
             "type": 0
           },
           {
@@ -3652,18 +3666,17 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 699784846,
+            "fingerprint": 3899911406,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 956240386,
+            "fingerprint": 1641815835,
             "type": 0
           }
         ],
-        "packageFingerprint": 734156593,
+        "packageFingerprint": 4195472666,
         "gameVersion": [
-          "Forge",
           "1.15.2"
         ],
         "hasInstallScript": false,
@@ -3675,12 +3688,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Botania-r1.15-387.jar"
+        "FileNameOnDisk": "Botania-r1.15-388.jar"
       },
       "dateInstalled": "2020-05-09T13:11:20.6705544Z",
-      "dateUpdated": "2020-07-01T10:31:09.3824121Z",
-      "dateLastUpdateAttempted": "2020-07-01T10:31:09.3824121Z",
-      "status": 5,
+      "dateUpdated": "2020-08-01T11:19:49.6743272Z",
+      "dateLastUpdateAttempted": "2020-08-01T11:19:49.6743272Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4379,7 +4392,7 @@
       "dateInstalled": "2020-07-29T13:19:42.0483182Z",
       "dateUpdated": "2020-07-29T13:19:42.0504004Z",
       "dateLastUpdateAttempted": "2020-07-29T13:19:42.0504004Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8735,7 +8748,7 @@
       "dateInstalled": "2020-07-29T13:19:42.4190475Z",
       "dateUpdated": "2020-07-29T13:19:42.4290202Z",
       "dateLastUpdateAttempted": "2020-07-29T13:19:42.4290202Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8849,14 +8862,14 @@
       "addonID": 281849,
       "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
       "installedFile": {
-        "id": 3009672,
-        "displayName": "pneumaticcraft-repressurized-1.15.2-1.4.1-56.jar",
-        "fileName": "pneumaticcraft-repressurized-1.15.2-1.4.1-56.jar",
-        "fileDate": "2020-07-20T09:10:59.027Z",
-        "fileLength": 6257645,
+        "id": 3017934,
+        "displayName": "pneumaticcraft-repressurized-1.15.2-1.4.2-58.jar",
+        "fileName": "pneumaticcraft-repressurized-1.15.2-1.4.2-58.jar",
+        "fileDate": "2020-07-29T09:43:18.693Z",
+        "fileLength": 6261927,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3009/672/pneumaticcraft-repressurized-1.15.2-1.4.1-56.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3017/934/pneumaticcraft-repressurized-1.15.2-1.4.2-58.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -8871,17 +8884,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4222056548,
+            "fingerprint": 3908085526,
             "type": 0
           },
           {
             "foldername": "me",
-            "fingerprint": 588329755,
+            "fingerprint": 3732919326,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 2789818381,
+            "fingerprint": 994105606,
             "type": 0
           },
           {
@@ -8891,11 +8904,11 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 3236409941,
+            "fingerprint": 3845896368,
             "type": 0
           }
         ],
-        "packageFingerprint": 3653097121,
+        "packageFingerprint": 473368558,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -8909,12 +8922,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "pneumaticcraft-repressurized-1.15.2-1.4.1-56.jar"
+        "FileNameOnDisk": "pneumaticcraft-repressurized-1.15.2-1.4.2-58.jar"
       },
       "dateInstalled": "2020-06-02T20:42:27.2399628Z",
-      "dateUpdated": "2020-07-25T13:48:42.2132615Z",
-      "dateLastUpdateAttempted": "2020-07-25T13:48:42.2132615Z",
-      "status": 3,
+      "dateUpdated": "2020-07-30T08:08:55.2188341Z",
+      "dateLastUpdateAttempted": "2020-07-30T08:08:55.2188341Z",
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9422,7 +9435,7 @@
       "dateInstalled": "2020-07-29T21:07:34.1589192Z",
       "dateUpdated": "2020-07-29T21:07:34.1658987Z",
       "dateLastUpdateAttempted": "2020-07-29T21:07:34.1658987Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9431,7 +9444,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250603,
@@ -9628,14 +9641,14 @@
       "addonID": 289712,
       "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
       "installedFile": {
-        "id": 3001760,
-        "displayName": "tetra-1.15.2-2.16.1.jar",
-        "fileName": "tetra-1.15.2-2.16.1.jar",
-        "fileDate": "2020-07-11T02:44:02.633Z",
-        "fileLength": 1715948,
+        "id": 3018259,
+        "displayName": "tetra-1.15.2-2.17.0.jar",
+        "fileName": "tetra-1.15.2-2.17.0.jar",
+        "fileDate": "2020-07-29T18:39:07.77Z",
+        "fileLength": 2074400,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3001/760/tetra-1.15.2-2.16.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3018/259/tetra-1.15.2-2.17.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -9650,22 +9663,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2883295296,
+            "fingerprint": 286212536,
             "type": 0
           },
           {
             "foldername": "se",
-            "fingerprint": 3361189797,
+            "fingerprint": 1522315896,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2433349158,
+            "fingerprint": 1842569840,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 1391722399,
+            "fingerprint": 1480892277,
             "type": 0
           },
           {
@@ -9674,7 +9687,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3107685494,
+        "packageFingerprint": 1354873748,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -9688,12 +9701,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "tetra-1.15.2-2.16.1.jar"
+        "FileNameOnDisk": "tetra-1.15.2-2.17.0.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2965661Z",
-      "dateUpdated": "2020-07-17T08:28:08.4775042Z",
-      "dateLastUpdateAttempted": "2020-07-17T08:28:08.4775042Z",
-      "status": 3,
+      "dateUpdated": "2020-07-30T08:09:31.5548664Z",
+      "dateLastUpdateAttempted": "2020-07-30T08:09:31.5548664Z",
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11316,27 +11329,27 @@
       "addonID": 298744,
       "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
       "installedFile": {
-        "id": 2947588,
-        "displayName": "structurize-0.10.313-RELEASE.jar",
-        "fileName": "structurize-0.10.313-RELEASE.jar",
-        "fileDate": "2020-05-03T20:18:18.537Z",
-        "fileLength": 4986608,
+        "id": 3017871,
+        "displayName": "structurize-0.13.31-RELEASE.jar",
+        "fileName": "structurize-0.13.31-RELEASE.jar",
+        "fileDate": "2020-07-29T07:57:23.507Z",
+        "fileLength": 5132784,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2947/588/structurize-0.10.313-RELEASE.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3017/871/structurize-0.13.31-RELEASE.jar",
         "isAlternate": false,
-        "alternateFileId": 2947589,
+        "alternateFileId": 3017872,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1104501172,
+            "fingerprint": 1014594870,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2700116235,
+            "fingerprint": 1857469045,
             "type": 0
           },
           {
@@ -11345,17 +11358,17 @@
             "type": 0
           },
           {
-            "foldername": "assets",
-            "fingerprint": 3600114062,
+            "foldername": "data",
+            "fingerprint": 2611124190,
             "type": 0
           },
           {
-            "foldername": "data",
-            "fingerprint": 3900363599,
+            "foldername": "assets",
+            "fingerprint": 3474391465,
             "type": 0
           }
         ],
-        "packageFingerprint": 4013214431,
+        "packageFingerprint": 315315351,
         "gameVersion": [
           "1.15.2"
         ],
@@ -11368,12 +11381,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "structurize-0.10.313-RELEASE.jar"
+        "FileNameOnDisk": "structurize-0.13.31-RELEASE.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.302553Z",
-      "dateUpdated": "2020-05-09T14:50:19.741906Z",
-      "dateLastUpdateAttempted": "2020-05-09T14:50:19.741906Z",
-      "status": 3,
+      "dateUpdated": "2020-07-30T08:09:53.9686101Z",
+      "dateLastUpdateAttempted": "2020-07-30T08:09:53.9686101Z",
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14506,14 +14519,14 @@
       "addonID": 254268,
       "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
       "installedFile": {
-        "id": 2998547,
-        "displayName": "torchmaster-2.2.1.jar",
-        "fileName": "torchmaster-2.2.1.jar",
-        "fileDate": "2020-07-07T15:48:44.687Z",
-        "fileLength": 93869,
+        "id": 3017958,
+        "displayName": "torchmaster-2.2.2.jar",
+        "fileName": "torchmaster-2.2.2.jar",
+        "fileDate": "2020-07-29T10:32:39.23Z",
+        "fileLength": 94030,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2998/547/torchmaster-2.2.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3017/958/torchmaster-2.2.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -14521,12 +14534,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 139546189,
+            "fingerprint": 2128199923,
             "type": 0
           },
           {
             "foldername": "net",
-            "fingerprint": 3304712521,
+            "fingerprint": 1939470652,
             "type": 0
           },
           {
@@ -14545,7 +14558,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1438309582,
+        "packageFingerprint": 1751585726,
         "gameVersion": [
           "1.15.2"
         ],
@@ -14558,12 +14571,12 @@
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "torchmaster-2.2.1.jar"
+        "FileNameOnDisk": "torchmaster-2.2.2.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2905831Z",
-      "dateUpdated": "2020-07-17T08:27:55.6488775Z",
-      "dateLastUpdateAttempted": "2020-07-17T08:27:55.6488775Z",
-      "status": 3,
+      "dateUpdated": "2020-08-01T11:24:31.8506398Z",
+      "dateLastUpdateAttempted": "2020-08-01T11:24:31.8506398Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16211,7 +16224,7 @@
       "dateInstalled": "2020-05-09T13:11:27.3065392Z",
       "dateUpdated": "2020-07-29T08:31:32.5065956Z",
       "dateLastUpdateAttempted": "2020-07-29T08:31:32.5065956Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17076,26 +17089,32 @@
       "addonID": 325892,
       "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
       "installedFile": {
-        "id": 3006512,
-        "displayName": "MysticalAdaptations-1.15.2-1.2.1.jar",
-        "fileName": "MysticalAdaptations-1.15.2-1.2.1.jar",
-        "fileDate": "2020-07-16T14:36:02.383Z",
-        "fileLength": 102481,
+        "id": 3020489,
+        "displayName": "MysticalAdaptations-1.15.2-1.2.3.jar",
+        "fileName": "MysticalAdaptations-1.15.2-1.2.3.jar",
+        "fileDate": "2020-08-01T08:02:12.157Z",
+        "fileLength": 107957,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3006/512/MysticalAdaptations-1.15.2-1.2.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3020/489/MysticalAdaptations-1.15.2-1.2.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 246640,
+            "addonId": 256247,
             "type": 3,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 256247,
+            "addonId": 233029,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 246640,
             "type": 3,
             "fileId": 0
           }
@@ -17109,17 +17128,17 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 128145014,
+            "fingerprint": 1690608735,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 4258369162,
+            "fingerprint": 2244712765,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 2078851119,
+            "fingerprint": 82611246,
             "type": 0
           },
           {
@@ -17128,7 +17147,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 386188386,
+        "packageFingerprint": 310859404,
         "gameVersion": [
           "1.15.2"
         ],
@@ -17141,12 +17160,12 @@
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "MysticalAdaptations-1.15.2-1.2.1.jar"
+        "FileNameOnDisk": "MysticalAdaptations-1.15.2-1.2.3.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3005572Z",
-      "dateUpdated": "2020-07-25T09:47:52.8461493Z",
-      "dateLastUpdateAttempted": "2020-07-25T09:47:52.8461493Z",
-      "status": 5,
+      "dateUpdated": "2020-08-01T11:20:32.6320323Z",
+      "dateLastUpdateAttempted": "2020-08-01T11:20:32.6320323Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17778,82 +17797,70 @@
       "addonID": 245506,
       "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
       "installedFile": {
-        "id": 2904832,
-        "displayName": "minecolonies-0.10.771-RELEASE-universal.jar",
-        "fileName": "minecolonies-0.10.771-RELEASE-universal.jar",
-        "fileDate": "2020-03-18T20:38:27.563Z",
-        "fileLength": 35493122,
+        "id": 3018733,
+        "displayName": "minecolonies-0.13.81-RELEASE-universal.jar",
+        "fileName": "minecolonies-0.13.81-RELEASE-universal.jar",
+        "fileDate": "2020-07-30T08:26:30.673Z",
+        "fileLength": 32348759,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2904/832/minecolonies-0.10.771-RELEASE-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3018/733/minecolonies-0.13.81-RELEASE-universal.jar",
         "isAlternate": false,
-        "alternateFileId": 2904833,
+        "alternateFileId": 3018734,
         "dependencies": [
           {
-            "id": 38248867,
+            "id": 0,
             "addonId": 298744,
             "type": 3,
-            "fileId": 2904832
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1426553880,
-            "type": 3
+            "fingerprint": 1071072918,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 3393443929,
-            "type": 3
+            "fingerprint": 143453214,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 1355987511,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1143028150,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 2854881444,
-            "type": 3
+            "fingerprint": 4246761265,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1969096130,
+            "type": 0
           }
         ],
-        "packageFingerprint": 3215490908,
+        "packageFingerprint": 2629062587,
         "gameVersion": [
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1796755,
-        "projectId": 245506,
-        "packageFingerprintId": 425270367,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2136729,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "minecolonies-0.10.771-RELEASE-universal.jar"
+        "FileNameOnDisk": "minecolonies-0.13.81-RELEASE-universal.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3005572Z",
-      "dateUpdated": "2019-05-09T13:11:27.3005572Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "dateUpdated": "2020-07-30T08:40:22.9013832Z",
+      "dateLastUpdateAttempted": "2020-07-30T08:40:22.9013832Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -21051,14 +21058,14 @@
       "addonID": 266936,
       "gameInstanceID": "1b10b4eb-793d-4439-a668-98b5d49ffbdc",
       "installedFile": {
-        "id": 3013403,
-        "displayName": "JAOPCA-1.15.2-3.2.0.13.jar",
-        "fileName": "JAOPCA-1.15.2-3.2.0.13.jar",
-        "fileDate": "2020-07-24T10:42:13.46Z",
-        "fileLength": 489861,
+        "id": 3017894,
+        "displayName": "JAOPCA-1.15.2-3.2.0.14.jar",
+        "fileName": "JAOPCA-1.15.2-3.2.0.14.jar",
+        "fileDate": "2020-07-29T08:29:01.75Z",
+        "fileLength": 514576,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3013/403/JAOPCA-1.15.2-3.2.0.13.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3017/894/JAOPCA-1.15.2-3.2.0.14.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -21066,17 +21073,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2389169454,
+            "fingerprint": 2017435562,
             "type": 0
           },
           {
             "foldername": "thelm",
-            "fingerprint": 510499353,
+            "fingerprint": 4226597432,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 581049989,
+            "fingerprint": 1198660952,
             "type": 0
           },
           {
@@ -21085,7 +21092,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1538288878,
+        "packageFingerprint": 2788089983,
         "gameVersion": [
           "1.15.2"
         ],
@@ -21098,12 +21105,12 @@
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "JAOPCA-1.15.2-3.2.0.13.jar"
+        "FileNameOnDisk": "JAOPCA-1.15.2-3.2.0.14.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2875903Z",
-      "dateUpdated": "2020-07-24T20:51:55.6927233Z",
-      "dateLastUpdateAttempted": "2020-07-24T20:51:55.6927233Z",
-      "status": 3,
+      "dateUpdated": "2020-07-30T08:08:24.3600662Z",
+      "dateLastUpdateAttempted": "2020-07-30T08:08:24.3600662Z",
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

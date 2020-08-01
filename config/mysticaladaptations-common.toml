@@ -11,3 +11,9 @@
 	#Set whether Insanium Tools can be enchanted using a enchantment table
 	enchantable_insanium_tools = false
 
+["Vampirism Compat"]
+	#Enable the Daywalker Augment
+	daywalker_augment = true
+	#Enable the Thirstless Augment
+	thirstless_augment = true
+

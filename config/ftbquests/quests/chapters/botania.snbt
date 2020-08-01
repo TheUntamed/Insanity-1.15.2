@@ -1,0 +1,411 @@
+{
+	id: 190,
+	filename: "botania",
+	order_index: 2,
+	title: "Botania",
+	icon: {
+		id: "botania:lexicon",
+		Count: 1,
+		tag: {
+			"botania:elven_unlock": 1
+		}
+	},
+	always_invisible: 1,
+	quests: [
+		{
+			x: -11.0d,
+			y: -3.5d,
+			dependencies: [I;229],
+			id: 191,
+			tasks: [{
+				id: 192,
+				type: "item",
+				item: "botania:apothecary_default"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -5.0d,
+			dependencies: [I;191],
+			id: 193,
+			tasks: [{
+				id: 194,
+				type: "item",
+				item: "botania:pure_daisy"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 5.0d,
+			dependencies: [I;199],
+			id: 195,
+			tasks: [{
+				id: 196,
+				type: "item",
+				item: "botania:fel_pumpkin"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 5.0d,
+			dependencies: [I;195],
+			id: 197,
+			tasks: [{
+				id: 198,
+				type: "item",
+				item: "minecraft:blaze_powder"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 5.0d,
+			id: 199,
+			tasks: [
+				{
+					id: 200,
+					type: "item",
+					item: "minecraft:bone"
+				},
+				{
+					id: 201,
+					type: "item",
+					item: "minecraft:string"
+				},
+				{
+					id: 202,
+					type: "item",
+					item: "minecraft:rotten_flesh"
+				},
+				{
+					id: 203,
+					type: "item",
+					item: "minecraft:gunpowder"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: -5.0d,
+			dependencies: [I;210],
+			id: 204,
+			tasks: [{
+				id: 205,
+				type: "item",
+				item: "botania:diluted_pool"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -5.0d,
+			dependencies: [I;204],
+			id: 206,
+			tasks: [{
+				id: 207,
+				type: "item",
+				item: "botania:mana_pool"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -6.5d,
+			dependencies: [I;213],
+			id: 208,
+			tasks: [{
+				id: 209,
+				type: "item",
+				item: "botania:mana_spreader"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -5.0d,
+			dependencies: [I;193],
+			id: 210,
+			tasks: [{
+				id: 211,
+				type: "item",
+				item: "botania:livingrock"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -6.5d,
+			dependencies: [I;193],
+			id: 213,
+			tasks: [{
+				id: 214,
+				type: "item",
+				item: "botania:livingwood"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 6.5d,
+			dependencies: [I;221],
+			id: 215,
+			tasks: [{
+				id: 216,
+				type: "item",
+				item: "botania:itemfinder"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 3.5d,
+			id: 217,
+			tasks: [{
+				id: 218,
+				type: "item",
+				item: "botania:overgrowth_seed"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 8.0d,
+			dependencies: [I;223],
+			id: 219,
+			tasks: [{
+				id: 220,
+				type: "item",
+				item: "botania:ender_air_bottle"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 6.5d,
+			id: 221,
+			tasks: [{
+				id: 222,
+				type: "item",
+				item: "minecraft:ender_eye"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 6.5d,
+			dependencies: [I;221],
+			id: 223,
+			tasks: [{
+				id: 224,
+				type: "item",
+				item: "minecraft:end_portal_frame"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 3.5d,
+			dependencies: [I;217],
+			id: 225,
+			tasks: [{
+				id: 226,
+				type: "item",
+				item: "botania:enchanted_soil"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -2.5d,
+			id: 227,
+			tasks: [{
+				id: 228,
+				type: "item",
+				item: "botania:pestle_and_mortar"
+			}]
+		},
+		{
+			x: -12.5d,
+			y: -3.5d,
+			dependencies: [I;
+				227,
+				237
+			],
+			id: 229,
+			tasks: [{
+				id: 230,
+				type: "item",
+				item: "botania:white_petal"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -8.0d,
+			dependencies: [I;213],
+			id: 231,
+			tasks: [{
+				id: 232,
+				type: "item",
+				item: {
+					id: "botania:twig_wand",
+					Count: 1,
+					tag: {
+						color1: 0,
+						color2: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -5.0d,
+			dependencies: [I;235],
+			id: 233,
+			tasks: [{
+				id: 234,
+				type: "item",
+				item: "botania:alchemy_catalyst"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -5.0d,
+			dependencies: [I;
+				206,
+				256,
+				208
+			],
+			id: 235,
+			tasks: [
+				{
+					id: 236,
+					type: "item",
+					item: "botania:mana_pearl"
+				},
+				{
+					id: 249,
+					type: "item",
+					item: "botania:manasteel_ingot"
+				},
+				{
+					id: 250,
+					type: "item",
+					item: "botania:mana_diamond"
+				},
+				{
+					id: 251,
+					type: "item",
+					item: "botania:mana_string"
+				},
+				{
+					id: 252,
+					type: "item",
+					item: "botania:mana_powder"
+				},
+				{
+					id: 253,
+					type: "item",
+					item: "botania:mana_glass"
+				}
+			]
+		},
+		{
+			x: -14.0d,
+			y: -4.5d,
+			dependencies: [I;254],
+			id: 237,
+			tasks: [{
+				id: 238,
+				type: "item",
+				item: "botania:white_mystical_flower"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: 2.0d,
+			id: 239,
+			tasks: [{
+				id: 240,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: []
+					},
+					id: "botania:flower_bag",
+					Count: 1
+				}
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -3.5d,
+			dependencies: [I;210],
+			id: 241,
+			tasks: [{
+				id: 242,
+				type: "item",
+				item: "botania:mana_void"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -6.5d,
+			dependencies: [I;235],
+			id: 243,
+			tasks: [{
+				id: 244,
+				type: "item",
+				item: "botania:mana_distributor"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -3.5d,
+			dependencies: [I;210],
+			id: 245,
+			tasks: [{
+				id: 246,
+				type: "item",
+				item: "botania:mana_detector"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -8.0d,
+			dependencies: [I;208],
+			id: 247,
+			tasks: [{
+				id: 248,
+				type: "item",
+				item: "botania:redstone_spreader"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -6.0d,
+			id: 254,
+			tasks: [{
+				id: 255,
+				type: "item",
+				item: "botania:fertilizer"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -2.0d,
+			dependencies: [I;191],
+			id: 256,
+			tasks: [
+				{
+					id: 257,
+					type: "item",
+					item: "botania:endoflame"
+				},
+				{
+					id: 258,
+					type: "item",
+					item: "botania:hydroangeas"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: -8.0d,
+			dependencies: [I;213],
+			id: 259,
+			tasks: [{
+				id: 260,
+				type: "item",
+				item: "botania:open_crate"
+			}]
+		}
+	]
+}
