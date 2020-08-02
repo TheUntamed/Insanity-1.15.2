@@ -6,6 +6,7 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 **Added Mods**
 
 * *Applied Energistics 2*
+* *Astral Sorcery*
 * *Atum 2: Return to the Sands*
 * *Mystical World*
 

@@ -21,7 +21,8 @@ public function addShapelessRecipes() as void {
         <item:minecraft:cyan_dye>*2 : [<item:minecraft:blue_dye>, <item:minecraft:green_dye>],
         <item:minecraft:purple_dye>*2 : [<item:minecraft:red_dye>, <item:minecraft:blue_dye>],
         <item:minecraft:black_dye>*2 : [<item:forbidden_arcanus:edelwood_oil>],
-        <item:forbidden_arcanus:runestone> : [<tag:forge:ores/runestone>]
+        <item:forbidden_arcanus:runestone> : [<tag:forge:ores/runestone>],
+        <item:astralsorcery:rock_crystal_ore> : [<item:forbidden_arcanus:arcane_crystal>, <item:minecraft:stone>]
 
     };
 

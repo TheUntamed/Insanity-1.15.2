@@ -309,22 +309,6 @@
 			}]
 		},
 		{
-			x: -11.0d,
-			y: 2.0d,
-			id: 239,
-			tasks: [{
-				id: 240,
-				type: "item",
-				item: {
-					ForgeCaps: {
-						Parent: []
-					},
-					id: "botania:flower_bag",
-					Count: 1
-				}
-			}]
-		},
-		{
 			x: -8.0d,
 			y: -3.5d,
 			dependencies: [I;210],
@@ -405,6 +389,22 @@
 				id: 260,
 				type: "item",
 				item: "botania:open_crate"
+			}]
+		},
+		{
+			x: -13.5d,
+			y: 1.5d,
+			id: 239,
+			tasks: [{
+				id: 240,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: []
+					},
+					id: "botania:flower_bag",
+					Count: 1
+				}
 			}]
 		}
 	]

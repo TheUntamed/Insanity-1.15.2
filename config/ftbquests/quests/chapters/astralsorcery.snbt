@@ -1,0 +1,129 @@
+{
+	id: 261,
+	filename: "astralsorcery",
+	order_index: 3,
+	title: "Astral Sorcery",
+	icon: "astralsorcery:tome",
+	always_invisible: 1,
+	quests: [
+		{
+			x: -7.5d,
+			y: -0.5d,
+			dependencies: [I;269],
+			id: 265,
+			tasks: [{
+				id: 266,
+				type: "item",
+				item: "astralsorcery:tome"
+			}]
+		},
+		{
+			title: "Shrine",
+			x: -7.5d,
+			y: 1.0d,
+			id: 267,
+			tasks: [{
+				id: 268,
+				type: "item",
+				item: "astralsorcery:marble_bricks"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -2.0d,
+			id: 269,
+			tasks: [
+				{
+					id: 270,
+					type: "item",
+					item: "astralsorcery:aquamarine"
+				},
+				{
+					id: 275,
+					type: "item",
+					item: "astralsorcery:aquamarine_sand_ore"
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: -0.5d,
+			dependencies: [I;
+				269,
+				276,
+				267
+			],
+			id: 271,
+			tasks: [{
+				id: 272,
+				type: "item",
+				item: "astralsorcery:wand"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 1.0d,
+			dependencies: [I;267],
+			id: 273,
+			tasks: [{
+				id: 274,
+				type: "item",
+				item: "astralsorcery:altar_discovery"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -2.0d,
+			id: 276,
+			tasks: [{
+				id: 277,
+				type: "item",
+				item: "minecraft:ender_pearl"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -0.5d,
+			dependencies: [I;
+				265,
+				267
+			],
+			id: 278,
+			tasks: [{
+				id: 279,
+				type: "item",
+				item: {
+					id: "astralsorcery:constellation_paper",
+					Count: 1,
+					tag: {
+						astralsorcery: {}
+					}
+				}
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 2.5d,
+			dependencies: [I;
+				267,
+				282
+			],
+			id: 280,
+			tasks: [{
+				id: 281,
+				type: "item",
+				item: "astralsorcery:black_marble_raw"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 4.0d,
+			id: 282,
+			tasks: [{
+				id: 283,
+				type: "item",
+				item: "minecraft:coal"
+			}]
+		}
+	]
+}

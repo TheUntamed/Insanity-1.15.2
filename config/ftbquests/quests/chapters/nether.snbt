@@ -1,0 +1,9 @@
+{
+	id: 263,
+	filename: "nether",
+	order_index: 5,
+	title: "Nether",
+	icon: "minecraft:netherrack",
+	always_invisible: 1,
+	quests: []
+}
