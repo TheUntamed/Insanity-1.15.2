@@ -7,13 +7,13 @@
       }
     ],
     "fluid": {
-      "fluid": "water"
+      "fluid": "astralsorcery:liquid_starlight"
     },
     "output": {
       "entries": [
         {
           "result": {
-            "item": "astralsorcery:marble",
+            "item": "astralsorcery:marble_raw",
             "count": 1
           },
           "weight": 100

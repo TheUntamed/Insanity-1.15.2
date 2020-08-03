@@ -1,0 +1,25 @@
+{
+    "type": "interactio:item_fluid_transform",
+    "inputs": [
+      {
+        "tag": "minecraft:logs",
+        "count": 1
+      }
+    ],
+    "fluid": {
+      "fluid": "astralsorcery:liquid_starlight"
+    },
+    "output": {
+      "entries": [
+        {
+          "result": {
+            "item": "astralsorcery:infused_wood",
+            "count": 1
+          },
+          "weight": 100
+        }
+      ],
+      "rolls": 1
+    },
+    "consume_fluid": 0.01
+  }

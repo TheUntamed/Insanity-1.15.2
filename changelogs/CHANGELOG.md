@@ -8,12 +8,13 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 * *Applied Energistics 2*
 * *Astral Sorcery*
 * *Atum 2: Return to the Sands*
+* *Corail Tombstone* (It's back!)
 * *Mystical World*
 
 **Updated Mods**
 
 * *Botania* (r1.15-387 --> r1.15-388)
-* *CraftTweaker* (6.0.0.34 --> 6.0.0.37)
+* *CraftTweaker* (6.0.0.34 --> 6.0.0.38)
 * ** ( --> )
 * ** ( --> )
 * ** ( --> )

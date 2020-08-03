@@ -22,8 +22,8 @@ public function addShapelessRecipes() as void {
         <item:minecraft:purple_dye>*2 : [<item:minecraft:red_dye>, <item:minecraft:blue_dye>],
         <item:minecraft:black_dye>*2 : [<item:forbidden_arcanus:edelwood_oil>],
         <item:forbidden_arcanus:runestone> : [<tag:forge:ores/runestone>],
-        <item:astralsorcery:rock_crystal_ore> : [<item:forbidden_arcanus:arcane_crystal>, <item:minecraft:stone>]
-
+        <item:astralsorcery:rock_crystal_ore> : [<item:forbidden_arcanus:arcane_crystal>, <item:minecraft:stone>],
+        <item:astralsorcery:infused_wood_planks>*4 : [<item:astralsorcery:infused_wood>]
     };
 
     craftingTable.addShapeless("chest_to_minecraft.chest", <item:minecraft:chest>, [<tag:forge:chests/wooden>]);

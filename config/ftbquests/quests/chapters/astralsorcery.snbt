@@ -7,8 +7,8 @@
 	always_invisible: 1,
 	quests: [
 		{
-			x: -7.5d,
-			y: -0.5d,
+			x: -10.5d,
+			y: -2.0d,
 			dependencies: [I;269],
 			id: 265,
 			tasks: [{
@@ -19,8 +19,9 @@
 		},
 		{
 			title: "Shrine",
-			x: -7.5d,
+			x: -9.0d,
 			y: 1.0d,
+			dependencies: [I;310],
 			id: 267,
 			tasks: [{
 				id: 268,
@@ -29,8 +30,9 @@
 			}]
 		},
 		{
-			x: -7.5d,
+			x: -9.0d,
 			y: -2.0d,
+			dependencies: [I;310],
 			id: 269,
 			tasks: [
 				{
@@ -46,8 +48,8 @@
 			]
 		},
 		{
-			x: -4.5d,
-			y: -0.5d,
+			x: -7.5d,
+			y: -2.0d,
 			dependencies: [I;
 				269,
 				276,
@@ -61,8 +63,8 @@
 			}]
 		},
 		{
-			x: -4.5d,
-			y: 1.0d,
+			x: -7.5d,
+			y: 2.5d,
 			dependencies: [I;267],
 			id: 273,
 			tasks: [{
@@ -72,8 +74,8 @@
 			}]
 		},
 		{
-			x: -4.5d,
-			y: -2.0d,
+			x: -7.5d,
+			y: -3.5d,
 			id: 276,
 			tasks: [{
 				id: 277,
@@ -82,12 +84,9 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -9.5d,
 			y: -0.5d,
-			dependencies: [I;
-				265,
-				267
-			],
+			dependencies: [I;267],
 			id: 278,
 			tasks: [{
 				id: 279,
@@ -102,8 +101,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: 2.5d,
+			x: -9.0d,
+			y: 2.0d,
 			dependencies: [I;
 				267,
 				282
@@ -116,13 +115,213 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: 4.0d,
+			x: -10.0d,
+			y: 2.0d,
 			id: 282,
 			tasks: [{
 				id: 283,
 				type: "item",
 				item: "minecraft:coal"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 1.0d,
+			dependencies: [I;
+				269,
+				286,
+				273
+			],
+			id: 284,
+			tasks: [{
+				id: 285,
+				type: "item",
+				item: "astralsorcery:well"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 4.0d,
+			dependencies: [I;310],
+			id: 286,
+			tasks: [{
+				id: 287,
+				type: "item",
+				item: {
+					id: "astralsorcery:rock_crystal",
+					Count: 1,
+					tag: {
+						astralsorcery: {}
+					}
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 1.0d,
+			dependencies: [I;284],
+			id: 288,
+			tasks: [{
+				id: 289,
+				type: "item",
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -3.5d,
+			dependencies: [I;
+				269,
+				294
+			],
+			id: 290,
+			tasks: [{
+				id: 291,
+				type: "item",
+				item: "astralsorcery:illumination_powder"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -3.5d,
+			dependencies: [I;290],
+			id: 292,
+			tasks: [{
+				id: 293,
+				type: "item",
+				item: "astralsorcery:nocturnal_powder"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -5.0d,
+			id: 294,
+			tasks: [{
+				id: 295,
+				type: "item",
+				item: "minecraft:glowstone_dust"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 4.0d,
+			dependencies: [I;
+				273,
+				288
+			],
+			id: 296,
+			tasks: [{
+				id: 297,
+				type: "item",
+				item: "astralsorcery:altar_attunement"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -0.5d,
+			dependencies: [I;288],
+			id: 298,
+			tasks: [{
+				id: 299,
+				type: "item",
+				item: "astralsorcery:infused_wood"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -2.0d,
+			dependencies: [I;298],
+			id: 300,
+			tasks: [{
+				id: 301,
+				type: "item",
+				item: {
+					id: "astralsorcery:resonator",
+					Count: 1,
+					tag: {
+						astralsorcery: {}
+					}
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 2.5d,
+			dependencies: [I;273],
+			id: 302,
+			tasks: [{
+				id: 303,
+				type: "item",
+				item: "astralsorcery:glass_lens"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 4.0d,
+			dependencies: [I;302],
+			id: 304,
+			tasks: [{
+				id: 305,
+				type: "item",
+				item: "astralsorcery:spectral_relay"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 2.5d,
+			dependencies: [I;302],
+			id: 306,
+			tasks: [{
+				id: 307,
+				type: "item",
+				item: "astralsorcery:hand_telescope"
+			}]
+		},
+		{
+			icon: "botania:cosmetic_questgiver_mark",
+			x: -7.5d,
+			y: 5.5d,
+			dependencies: [I;296],
+			id: 308,
+			tasks: [{
+				id: 309,
+				type: "checkmark",
+				title: "Chapter: Attunement"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: 1.0d,
+			id: 310,
+			tasks: [{
+				id: 311,
+				type: "checkmark",
+				title: "Chapter: Discovery",
+				icon: "botania:cosmetic_questgiver_mark"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -0.5d,
+			dependencies: [I;
+				267,
+				314
+			],
+			id: 312,
+			tasks: [{
+				id: 313,
+				type: "item",
+				item: "astralsorcery:starmetal_ore"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -2.0d,
+			id: 314,
+			tasks: [{
+				id: 315,
+				type: "item",
+				item: "astralsorcery:starmetal_ingot"
 			}]
 		}
 	]

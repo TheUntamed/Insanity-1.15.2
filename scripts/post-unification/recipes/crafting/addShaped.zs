@@ -17,6 +17,38 @@ public function addShapedRecipes() as void {
         ],
         */
         
+        <item:astralsorcery:infused_wood_arch>*2 :
+        [
+            [<item:astralsorcery:infused_wood_planks>, <item:astralsorcery:infused_wood_planks>]
+        ],
+        <item:astralsorcery:infused_wood_column>*2 :
+        [
+            [<item:astralsorcery:infused_wood_planks>],
+            [<item:astralsorcery:infused_wood_planks>]
+        ],
+        <item:astralsorcery:infused_wood_engraved>*4 :
+        [
+            [<item:minecraft:air>, <item:astralsorcery:infused_wood_planks>, <item:minecraft:air>],
+            [<item:astralsorcery:infused_wood_planks>, <item:minecraft:air>, <item:astralsorcery:infused_wood_planks>],
+            [<item:minecraft:air>, <item:astralsorcery:infused_wood_planks>, <item:minecraft:air>]
+        ],
+        <item:astralsorcery:infused_wood_enriched>*4 :
+        [
+            [<item:minecraft:air>, <item:astralsorcery:infused_wood_planks>, <item:minecraft:air>],
+            [<item:astralsorcery:infused_wood_planks>, <item:astralsorcery:aquamarine>, <item:astralsorcery:infused_wood_planks>],
+            [<item:minecraft:air>, <item:astralsorcery:infused_wood_planks>, <item:minecraft:air>]
+        ],
+        <item:astralsorcery:infused_wood_stairs>*8 :
+        [
+            [<item:astralsorcery:infused_wood_planks>, <item:minecraft:air>, <item:minecraft:air>],
+            [<item:astralsorcery:infused_wood_planks>, <item:astralsorcery:infused_wood_planks>, <item:minecraft:air>],
+            [<item:astralsorcery:infused_wood_planks>, <item:astralsorcery:infused_wood_planks>, <item:astralsorcery:infused_wood_planks>]
+        ],
+        <item:astralsorcery:infused_wood_slab>*6 :
+        [
+            [<item:astralsorcery:infused_wood_planks>, <item:astralsorcery:infused_wood_planks>, <item:astralsorcery:infused_wood_planks>]
+        ],
+
         // Ingots to Plate with Hammer
         // <item:kubejs:lead_plate> :
         // [

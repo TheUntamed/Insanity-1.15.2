@@ -730,7 +730,7 @@
 			#Set this to true to make the dimension-id restrictions a whitelist, false for blacklist
 			whitelistDimensionConfigurations = true
 			#List all dimensionIds here that this feature should spawn in
-			dimensionids = ["minecraft:overworld"]
+			dimensionids = []
 			#List all biome types here that this feature should be able to spawn in
 			biomeTypes = ["MOUNTAIN", "COLD"]
 
