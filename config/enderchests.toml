@@ -6,7 +6,7 @@ enable_in_world_coloring = true
 	#Items Listed upgrade storage capacity by 9
 	large_capacity = ["minecraft:ender_eye"]
 	#Items Listed are used to make the chests personal
-	personal = ["tag|forge:gems.diamond"]
+	personal = ["rftoolsbase:dimensionalshard"]
 	#Items Listed are used to make the chests team chests
 	team = ["tag|forge:gems.emerald"]
 	#Items Listed upgrade storage capacity by 3

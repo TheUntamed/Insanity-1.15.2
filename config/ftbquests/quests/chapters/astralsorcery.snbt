@@ -130,7 +130,7 @@
 			dependencies: [I;
 				269,
 				286,
-				273
+				316
 			],
 			id: 284,
 			tasks: [{
@@ -203,11 +203,11 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: 4.0d,
+			x: -4.5d,
+			y: 1.0d,
 			dependencies: [I;
-				273,
-				288
+				288,
+				316
 			],
 			id: 296,
 			tasks: [{
@@ -217,8 +217,8 @@
 			}]
 		},
 		{
-			x: -4.5d,
-			y: -0.5d,
+			x: -5.0d,
+			y: 0.0d,
 			dependencies: [I;288],
 			id: 298,
 			tasks: [{
@@ -228,8 +228,8 @@
 			}]
 		},
 		{
-			x: -4.5d,
-			y: -2.0d,
+			x: -4.0d,
+			y: 0.0d,
 			dependencies: [I;298],
 			id: 300,
 			tasks: [{
@@ -245,9 +245,9 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -4.5d,
 			y: 2.5d,
-			dependencies: [I;273],
+			dependencies: [I;316],
 			id: 302,
 			tasks: [{
 				id: 303,
@@ -256,7 +256,7 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -4.5d,
 			y: 4.0d,
 			dependencies: [I;302],
 			id: 304,
@@ -267,7 +267,7 @@
 			}]
 		},
 		{
-			x: -4.5d,
+			x: -3.0d,
 			y: 2.5d,
 			dependencies: [I;302],
 			id: 306,
@@ -279,8 +279,8 @@
 		},
 		{
 			icon: "botania:cosmetic_questgiver_mark",
-			x: -7.5d,
-			y: 5.5d,
+			x: -3.0d,
+			y: 1.0d,
 			dependencies: [I;296],
 			id: 308,
 			tasks: [{
@@ -322,6 +322,72 @@
 				id: 315,
 				type: "item",
 				item: "astralsorcery:starmetal_ingot"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 2.5d,
+			dependencies: [I;273],
+			id: 316,
+			tasks: [{
+				id: 317,
+				type: "checkmark",
+				title: "Chapter: Exploration",
+				icon: "botania:cosmetic_questgiver_mark"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.5d,
+			dependencies: [I;
+				306,
+				308
+			],
+			id: 318,
+			tasks: [{
+				id: 319,
+				type: "item",
+				item: "astralsorcery:telescope"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -0.5d,
+			dependencies: [I;
+				308,
+				314
+			],
+			id: 320,
+			tasks: [{
+				id: 321,
+				type: "item",
+				item: "astralsorcery:attunement_altar"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 0.0d,
+			dependencies: [I;
+				300,
+				308
+			],
+			id: 322,
+			tasks: [{
+				id: 323,
+				type: "item",
+				item: {
+					id: "astralsorcery:resonator",
+					Count: 1,
+					tag: {
+						astralsorcery: {
+							upgrades: [
+								0,
+								1,
+								2
+							]
+						}
+					}
+				}
 			}]
 		}
 	]

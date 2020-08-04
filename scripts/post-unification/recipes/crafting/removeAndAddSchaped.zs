@@ -164,6 +164,12 @@ public function removeandAddShapedRecipes() as void {
             [<item:buzzierbees:hive_planks>, <item:quark:iron_button>, <item:buzzierbees:hive_planks>],
             [<item:buzzierbees:hive_planks>, <item:buzzierbees:hive_planks>, <item:buzzierbees:hive_planks>]
         ],
+        <item:quark:bamboo_chest> :
+        [
+            [<item:bambooblocks:bamboo_planks>, <item:bambooblocks:bamboo_planks>, <item:bambooblocks:bamboo_planks>],
+            [<item:bambooblocks:bamboo_planks>, <item:quark:iron_button>, <item:bambooblocks:bamboo_planks>],
+            [<item:bambooblocks:bamboo_planks>, <item:bambooblocks:bamboo_planks>, <item:bambooblocks:bamboo_planks>]
+        ],
         <item:nethercraft:glowood_chest> :
         [
             [<item:nethercraft:glowood_planks>, <item:nethercraft:glowood_planks>, <item:nethercraft:glowood_planks>],

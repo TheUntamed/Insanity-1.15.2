@@ -128,6 +128,7 @@ public function preUnificationTagAdditions() as void {
     // Chests
     <tag:forge:chests>.addItems([<item:midnight:bogshroom_chest>, <item:midnight:viridshroom_chest>, <item:midnight:dewshroom_chest>, <item:midnight:nightshroom_chest>, <item:midnight:dead_wood_chest>, <item:midnight:dark_willow_chest>, <item:midnight:shadowroot_chest>, <item:quark:mushroom_chest>, <item:quark:prismarine_chest>, <item:quark:purpur_chest>, <item:quark:nether_brick_chest>, <item:nethercraft:glowood_chest>]);
     <tag:forge:chests/wooden>.addItems([<item:nethercraft:glowood_chest>]);
+    <tag:forge:chests/ender>.addItems([<item:enderchests:ender_chest>]);
 
     // colorants
     <tag:forge:colorant/red>.addItems([<item:botania:red_mushroom>, <item:botania:red_petal>, <item:simplefarming:raspberries>, <item:pamhc2crops:raspberryitem>, <item:simplefarming:strawberries>, <item:pamhc2crops:strawberryitem>, <item:minecraft:beetroot>, <item:minecraft:poppy>, <item:buzzierbees:red_hibiscus>, <item:minecraft:red_tulip>, <item:biomesoplenty:rose>, <item:minecraft:fire_coral>, <item:minecraft:fire_coral_fan>]);
@@ -153,15 +154,21 @@ public function preUnificationTagAdditions() as void {
         "nethercraft",
         "endergetic",
         "buzzierbees",
-        "midnight"
+        "midnight",
+        "bambooblocks"
 
     ];
     for item in <tag:minecraft:planks>.items {
+        var chestExists = false;
         for mod in modList {
             var itemOwner = item.registryName.split(":")[0];
-                if (itemOwner != mod) {
-                    <tag:forge:planks_without_chest>.addItems(item);
-                }
+            if (itemOwner == mod) {
+                chestExists = true;
+                return;
+            }
+        }
+        if (chestExists == false) {
+            <tag:forge:planks_without_chest>.addItems(item);
         }
     }
 

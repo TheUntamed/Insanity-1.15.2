@@ -10,14 +10,15 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 * *Atum 2: Return to the Sands*
 * *Corail Tombstone* (It's back!)
 * *Mystical World*
+* *Tetraits*
 
 **Updated Mods**
 
 * *Botania* (r1.15-387 --> r1.15-388)
 * *CraftTweaker* (6.0.0.34 --> 6.0.0.38)
-* ** ( --> )
-* ** ( --> )
-* ** ( --> )
+* *Curios API* (2.0.2.4 --> 2.0.2.6)
+* *Double Slabs* (2.9.0 --> 2.10.0)
+* *Dungeon Crawl* (2.0.1 --> 2.0.2)
 * ** ( --> )
 * ** ( --> )
 * ** ( --> )
@@ -52,7 +53,7 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 
 **Changes**
 
-* 
+* "tag|forge:gems.diamond"
 
 **Bug Fixes**
 
