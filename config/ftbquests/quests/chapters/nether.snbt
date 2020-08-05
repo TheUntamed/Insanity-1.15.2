@@ -1,9 +1,215 @@
 {
 	id: 263,
 	filename: "nether",
-	order_index: 9,
+	order_index: 10,
 	title: "Nether",
 	icon: "minecraft:netherrack",
 	always_invisible: 1,
-	quests: []
+	quests: [
+		{
+			x: -10.5d,
+			y: -4.0d,
+			id: 617,
+			tasks: [{
+				id: 618,
+				type: "item",
+				item: "minecraft:obsidian"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -3.0d,
+			id: 619,
+			tasks: [{
+				id: 620,
+				type: "item",
+				item: {
+					id: "minecraft:flint_and_steel",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -3.5d,
+			dependencies: [I;635],
+			id: 621,
+			tasks: [{
+				id: 622,
+				type: "item",
+				item: "minecraft:soul_sand"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -0.5d,
+			dependencies: [I;635],
+			id: 623,
+			tasks: [{
+				id: 624,
+				type: "item",
+				item: "minecraft:netherrack"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -5.0d,
+			dependencies: [I;635],
+			id: 625,
+			tasks: [{
+				id: 626,
+				type: "item",
+				item: "minecraft:nether_bricks"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -0.5d,
+			dependencies: [I;639],
+			id: 627,
+			tasks: [{
+				id: 628,
+				type: "item",
+				item: "minecraft:quartz"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -6.5d,
+			dependencies: [I;625],
+			id: 629,
+			tasks: [{
+				id: 630,
+				type: "item",
+				item: "minecraft:nether_wart"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -3.5d,
+			dependencies: [I;
+				633,
+				621
+			],
+			id: 631,
+			tasks: [{
+				id: 632,
+				type: "item",
+				item: "minecraft:nether_star"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -5.0d,
+			dependencies: [I;625],
+			id: 633,
+			tasks: [{
+				id: 634,
+				type: "item",
+				item: "minecraft:wither_skeleton_skull"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -3.5d,
+			dependencies: [I;
+				619,
+				617
+			],
+			id: 635,
+			tasks: [{
+				id: 636,
+				type: "checkmark",
+				title: "Portal",
+				icon: "botania:cosmetic_questgiver_mark"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 1.0d,
+			dependencies: [I;623],
+			id: 637,
+			tasks: [{
+				id: 638,
+				type: "item",
+				item: "dannys_ores:minecraft_netherrack_normal_steel_ore"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -0.5d,
+			dependencies: [I;623],
+			id: 639,
+			tasks: [{
+				id: 640,
+				type: "item",
+				item: "minecraft:nether_quartz_ore"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -6.5d,
+			dependencies: [I;625],
+			id: 641,
+			tasks: [{
+				id: 642,
+				type: "item",
+				item: "minecraft:blaze_rod"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -2.0d,
+			dependencies: [I;635],
+			id: 643,
+			tasks: [
+				{
+					id: 644,
+					type: "item",
+					item: "minecraft:glowstone"
+				},
+				{
+					id: 645,
+					type: "item",
+					item: "minecraft:glowstone_dust"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: -8.0d,
+			dependencies: [I;635],
+			id: 646,
+			tasks: [{
+				id: 647,
+				type: "item",
+				item: "mysticalagriculture:soulstone"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -8.0d,
+			dependencies: [I;646],
+			id: 648,
+			tasks: [{
+				id: 649,
+				type: "item",
+				item: "mysticalagriculture:soulium_ore"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -8.0d,
+			dependencies: [I;648],
+			id: 650,
+			tasks: [{
+				id: 651,
+				type: "item",
+				item: "mysticalagriculture:soulium_dust"
+			}]
+		}
+	]
 }

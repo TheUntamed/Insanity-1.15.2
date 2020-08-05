@@ -1,7 +1,7 @@
 {
 	id: 327,
 	filename: "storage",
-	order_index: 11,
+	order_index: 12,
 	title: "Storage",
 	icon: "minecraft:chest",
 	quests: [
@@ -314,7 +314,7 @@
 			}]
 		},
 		{
-			x: -3.0d,
+			x: -4.5d,
 			y: 0.5d,
 			subtitle: "72",
 			id: 382,
@@ -369,7 +369,7 @@
 		{
 			x: 0.0d,
 			y: 0.5d,
-			subtitle: "32 + Can be upgraded",
+			subtitle: "32 + Can be upgraded + Preserves Content + Display",
 			id: 392,
 			tasks: [{
 				id: 393,
@@ -380,6 +380,7 @@
 		{
 			x: 3.0d,
 			y: -2.5d,
+			subtitle: "128 + Preserves Content",
 			id: 394,
 			tasks: [{
 				id: 395,
@@ -390,7 +391,7 @@
 		{
 			x: 1.5d,
 			y: 0.5d,
-			subtitle: "128",
+			subtitle: "128 + Display",
 			id: 396,
 			tasks: [{
 				id: 397,
@@ -621,6 +622,311 @@
 				id: 439,
 				type: "item",
 				item: "cyclic:cask"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -7.0d,
+			id: 440,
+			tasks: [{
+				id: 441,
+				type: "item",
+				item: "engineersdecor:labeled_crate"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -5.5d,
+			subtitle: "27 + Preserves Content",
+			id: 442,
+			tasks: [{
+				id: 443,
+				type: "item",
+				item: "immersiveengineering:crate"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -5.5d,
+			subtitle: "27 + Blast Resistant + Preserves Content",
+			id: 444,
+			tasks: [{
+				id: 445,
+				type: "item",
+				item: "immersiveengineering:reinforced_crate"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.5d,
+			id: 446,
+			tasks: [{
+				id: 447,
+				type: "item",
+				item: "create:creative_crate"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -2.5d,
+			subtitle: "27",
+			id: 448,
+			tasks: [
+				{
+					id: 449,
+					type: "item",
+					item: "atum:deadwood_crate"
+				},
+				{
+					id: 450,
+					type: "item",
+					item: "atum:palm_crate"
+				}
+			]
+		},
+		{
+			x: -10.5d,
+			y: 0.5d,
+			subtitle: "27 + Can be Eightfold (216)",
+			id: 451,
+			tasks: [{
+				id: 452,
+				type: "item",
+				item: "druidcraft:crate"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -4.0d,
+			subtitle: "81 + Blast Resistant",
+			id: 453,
+			tasks: [{
+				id: 454,
+				type: "item",
+				item: "cyclic:crate"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -5.5d,
+			subtitle: "54 + Blast Resistant + Preserves Content + Display",
+			id: 455,
+			tasks: [{
+				id: 456,
+				type: "item",
+				item: "engineersdecor:labeled_crate"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -7.0d,
+			subtitle: "27",
+			id: 460,
+			tasks: [{
+				id: 461,
+				type: "item",
+				item: "naturesaura:ender_crate"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -11.5d,
+			subtitle: "104",
+			id: 462,
+			tasks: [{
+				id: 463,
+				type: "item",
+				item: "projecte:white_alchemical_bag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -8.5d,
+			id: 464,
+			tasks: [{
+				id: 465,
+				type: "item",
+				item: {
+					id: "enderchests:ender_bag",
+					Count: 1,
+					tag: {
+						owner: "all",
+						code: "000",
+						open: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -11.5d,
+			subtitle: "18",
+			id: 466,
+			tasks: [{
+				id: 467,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {}
+					},
+					id: "simplybackpacks:commonbackpack",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -11.5d,
+			subtitle: "33",
+			id: 468,
+			tasks: [{
+				id: 469,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {}
+					},
+					id: "simplybackpacks:uncommonbackpack",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -11.5d,
+			subtitle: "66",
+			id: 470,
+			tasks: [{
+				id: 471,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {}
+					},
+					id: "simplybackpacks:rarebackpack",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -11.5d,
+			subtitle: "99",
+			id: 472,
+			tasks: [{
+				id: 473,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {}
+					},
+					id: "simplybackpacks:epicbackpack",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -10.0d,
+			subtitle: "27 + Can be equipped + Inventory Upgrade",
+			id: 474,
+			tasks: [{
+				id: 475,
+				type: "item",
+				item: {
+					id: "quark:backpack",
+					Count: 1,
+					tag: {
+						Inventory: [
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -8.5d,
+			subtitle: "27",
+			id: 476,
+			tasks: [{
+				id: 477,
+				type: "item",
+				item: {
+					id: "enderchests:ender_pouch",
+					Count: 1,
+					tag: {
+						open: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -10.0d,
+			id: 478,
+			tasks: [{
+				id: 479,
+				type: "item",
+				item: "naturesaura:ender_access"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -8.5d,
+			subtitle: "54 + Has to be linked",
+			id: 480,
+			tasks: [{
+				id: 481,
+				type: "item",
+				item: "dimstorage:dimensional_tablet"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -8.5d,
+			subtitle: "27 + Can be equipped",
+			id: 482,
+			tasks: [{
+				id: 483,
+				type: "item",
+				item: {
+					id: "minecraft:shulker_box",
+					Count: 1,
+					tag: {
+						BlockEntityTag: {}
+					}
+				}
 			}]
 		}
 	]

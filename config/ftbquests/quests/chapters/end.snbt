@@ -1,9 +1,299 @@
 {
 	id: 264,
 	filename: "end",
-	order_index: 10,
+	order_index: 11,
 	title: "End",
 	icon: "minecraft:end_stone",
 	always_invisible: 1,
-	quests: []
+	quests: [
+		{
+			x: -6.0d,
+			y: -0.5d,
+			dependencies: [I;654],
+			id: 652,
+			tasks: [{
+				id: 653,
+				type: "item",
+				item: "minecraft:end_portal_frame"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -0.5d,
+			id: 654,
+			tasks: [{
+				id: 655,
+				type: "item",
+				item: "minecraft:ender_eye"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -0.5d,
+			dependencies: [I;652],
+			id: 656,
+			tasks: [{
+				id: 657,
+				type: "item",
+				item: "minecraft:end_stone"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -5.0d,
+			id: 658,
+			tasks: [{
+				id: 659,
+				type: "item",
+				item: "minecraft:ender_pearl"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -5.0d,
+			id: 660,
+			tasks: [{
+				id: 661,
+				type: "item",
+				item: "botania:ender_air_bottle"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 4.0d,
+			id: 662,
+			tasks: [{
+				id: 663,
+				type: "item",
+				item: {
+					id: "naturesaura:aura_bottle",
+					Count: 1,
+					tag: {
+						stored_type: "naturesaura:end"
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 1.0d,
+			dependencies: [I;652],
+			id: 664,
+			tasks: [{
+				id: 665,
+				type: "item",
+				item: "minecraft:dragon_breath"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 2.5d,
+			id: 666,
+			tasks: [{
+				id: 676,
+				type: "item",
+				item: "mysticalagradditions:dragon_scale"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 2.5d,
+			id: 668,
+			tasks: [{
+				id: 669,
+				type: "item",
+				item: "minecraft:dragon_head"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -0.5d,
+			subtitle: "The Dragon has to be killed?",
+			dependencies: [I;656],
+			id: 670,
+			tasks: [{
+				id: 671,
+				type: "item",
+				item: "quark:biotite_ore"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -0.5d,
+			dependencies: [I;670],
+			id: 672,
+			tasks: [{
+				id: 673,
+				type: "item",
+				item: "quark:biotite"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 1.0d,
+			id: 674,
+			tasks: [{
+				id: 675,
+				type: "item",
+				item: "minecraft:dragon_egg"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.5d,
+			dependencies: [I;668],
+			id: 677,
+			tasks: [{
+				id: 678,
+				type: "item",
+				item: "forbidden_arcanus:dragon_scale"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -2.0d,
+			dependencies: [I;656],
+			id: 679,
+			tasks: [{
+				id: 680,
+				type: "item",
+				item: "dannys_ores:minecraft_end_stone_normal_amethyst_ore"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			dependencies: [I;679],
+			id: 681,
+			tasks: [{
+				id: 682,
+				type: "item",
+				item: "mysticalworld:amethyst"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -5.0d,
+			id: 683,
+			tasks: [{
+				id: 684,
+				type: "item",
+				item: "minecraft:shulker_shell"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -5.0d,
+			dependencies: [I;683],
+			id: 685,
+			tasks: [{
+				id: 686,
+				type: "item",
+				item: {
+					id: "minecraft:shulker_box",
+					Count: 1,
+					tag: {
+						BlockEntityTag: {}
+					}
+				}
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -6.5d,
+			id: 687,
+			tasks: [{
+				id: 688,
+				type: "item",
+				item: "minecraft:chorus_fruit"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -6.5d,
+			dependencies: [I;687],
+			id: 689,
+			tasks: [{
+				id: 690,
+				type: "item",
+				item: "minecraft:popped_chorus_fruit"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -8.0d,
+			dependencies: [I;687],
+			id: 691,
+			tasks: [{
+				id: 692,
+				type: "item",
+				item: "forbidden_arcanus:chorus_pearl"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -2.0d,
+			dependencies: [I;652],
+			id: 693,
+			tasks: [{
+				id: 694,
+				type: "item",
+				item: "endergetic:poise_stem"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -2.0d,
+			dependencies: [I;693],
+			id: 699,
+			tasks: [{
+				id: 700,
+				type: "item",
+				item: "mysticalworld:young_pearl"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -3.5d,
+			dependencies: [I;693],
+			id: 701,
+			tasks: [{
+				id: 702,
+				type: "item",
+				item: "endergetic:bolloom_fruit"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -5.0d,
+			dependencies: [I;693],
+			id: 703,
+			tasks: [{
+				id: 704,
+				type: "item",
+				item: "endergetic:puffbug_bottle"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -5.0d,
+			dependencies: [I;693],
+			id: 705,
+			tasks: [{
+				id: 706,
+				type: "item",
+				item: "endergetic:booflo_hide"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -6.5d,
+			id: 707,
+			tasks: [{
+				id: 708,
+				type: "item",
+				item: "minecraft:end_rod"
+			}]
+		}
+	]
 }

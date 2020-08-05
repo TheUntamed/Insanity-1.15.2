@@ -7,6 +7,7 @@ public function removeandAddShapedRecipes() as void {
     logger.info("Prio Test: remove-and-add-shaped");
 
     var to_blast_furnace = <item:minecraft:furnace> | <item:brickfurnace:brick_blast_furnace>;
+    var to_smoker = <item:minecraft:furnace> | <item:brickfurnace:brick_furnace>;
 
     var shapedRecipesWithRemove as IIngredient[][][IItemStack] = {
 
@@ -376,7 +377,7 @@ public function removeandAddShapedRecipes() as void {
         <item:minecraft:smoker> :
         [
             [<item:minecraft:air>, <tag:minecraft:logs>, <item:minecraft:air>],
-            [<tag:minecraft:logs>, <item:brickfurnace:brick_smoker>, <tag:minecraft:logs>],
+            [<tag:minecraft:logs>, to_smoker, <tag:minecraft:logs>],
             [<item:minecraft:air>, <tag:minecraft:logs>, <item:minecraft:air>]
         ],
         <item:brickfurnace:brick_furnace> :
