@@ -1,7 +1,7 @@
 {
 	id: 2,
 	filename: "innocentnewworld",
-	order_index: 13,
+	order_index: 19,
 	title: "Innocent new World",
 	icon: "minecraft:grass_block",
 	always_invisible: 1,
@@ -447,6 +447,494 @@
 					}
 				}
 			]
+		},
+		{
+			x: -7.0d,
+			y: 8.5d,
+			id: 862,
+			tasks: [{
+				id: 863,
+				type: "item",
+				item: "waterstrainer:strainer_base"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 4.0d,
+			dependencies: [I;866],
+			id: 864,
+			tasks: [{
+				id: 865,
+				type: "item",
+				item: "waterstrainer:strainer_survivalist"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 4.0d,
+			id: 866,
+			tasks: [{
+				id: 867,
+				type: "item",
+				item: "waterstrainer:string_mesh"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 5.5d,
+			id: 868,
+			tasks: [{
+				id: 869,
+				type: "item",
+				item: "waterstrainer:iron_mesh"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 7.0d,
+			id: 870,
+			tasks: [{
+				id: 871,
+				type: "item",
+				item: "waterstrainer:obsidian_mesh"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 5.5d,
+			dependencies: [I;868],
+			id: 872,
+			tasks: [{
+				id: 873,
+				type: "item",
+				item: "waterstrainer:strainer_survivalist_solid"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 7.0d,
+			dependencies: [I;870],
+			id: 874,
+			tasks: [{
+				id: 875,
+				type: "item",
+				item: "waterstrainer:strainer_survivalist_reinforced"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 5.5d,
+			dependencies: [I;892],
+			id: 884,
+			tasks: [{
+				id: 885,
+				type: "item",
+				item: "waterstrainer:worm_bin"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 7.0d,
+			dependencies: [I;
+				890,
+				884
+			],
+			id: 886,
+			tasks: [{
+				id: 887,
+				type: "item",
+				item: "waterstrainer:worm"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 7.0d,
+			id: 888,
+			tasks: [{
+				id: 889,
+				type: "item",
+				item: "waterstrainer:super_worm"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 7.0d,
+			id: 890,
+			tasks: [{
+				id: 891,
+				type: "item",
+				item: {
+					id: "waterstrainer:garden_trowel",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 4.0d,
+			id: 892,
+			tasks: [{
+				id: 893,
+				type: "item",
+				item: "minecraft:composter"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			dependencies: [I;892],
+			id: 894,
+			tasks: [{
+				id: 895,
+				type: "item",
+				item: "minecraft:bone_meal"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 5.5d,
+			dependencies: [I;884],
+			id: 896,
+			tasks: [{
+				id: 897,
+				type: "item",
+				item: "waterstrainer:fertilizer"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 5.5d,
+			id: 898,
+			tasks: [{
+				id: 899,
+				type: "item",
+				item: "minecraft:brewing_stand"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 7.0d,
+			id: 900,
+			tasks: [{
+				id: 901,
+				type: "item",
+				item: "minecraft:smithing_table"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 8.5d,
+			id: 902,
+			tasks: [{
+				id: 903,
+				type: "item",
+				item: "minecraft:anvil"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 4.0d,
+			id: 904,
+			tasks: [{
+				id: 905,
+				type: "item",
+				item: "minecraft:grindstone"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 8.5d,
+			id: 906,
+			tasks: [{
+				id: 907,
+				type: "item",
+				item: "minecraft:scaffolding"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 7.0d,
+			id: 908,
+			tasks: [{
+				id: 909,
+				type: "item",
+				item: "minecraft:bee_nest"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 5.5d,
+			id: 910,
+			tasks: [{
+				id: 911,
+				type: "item",
+				item: "minecraft:beehive"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.0d,
+			id: 912,
+			tasks: [{
+				id: 913,
+				type: "item",
+				item: "minecraft:stonecutter"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 4.0d,
+			id: 914,
+			tasks: [{
+				id: 915,
+				type: "item",
+				item: "druidcraft:woodcutter"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 5.5d,
+			id: 916,
+			tasks: [{
+				id: 917,
+				type: "item",
+				item: "minecraft:piston"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 5.5d,
+			dependencies: [I;
+				916,
+				922
+			],
+			id: 918,
+			tasks: [{
+				id: 919,
+				type: "item",
+				item: "minecraft:sticky_piston"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 7.0d,
+			id: 920,
+			tasks: [{
+				id: 921,
+				type: "item",
+				item: "minecraft:hopper"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 4.0d,
+			id: 922,
+			tasks: [{
+				id: 923,
+				type: "item",
+				item: "minecraft:slime_ball"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 7.0d,
+			id: 924,
+			tasks: [{
+				id: 925,
+				type: "item",
+				item: "minecraft:tnt"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 8.5d,
+			id: 928,
+			tasks: [{
+				id: 929,
+				type: "item",
+				item: "minecraft:conduit"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 8.5d,
+			id: 930,
+			tasks: [{
+				id: 931,
+				type: "item",
+				item: "minecraft:bucket"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 10.0d,
+			id: 932,
+			tasks: [{
+				id: 933,
+				type: "item",
+				item: "minecraft:cauldron"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 10.0d,
+			id: 934,
+			tasks: [{
+				id: 935,
+				type: "item",
+				item: "minecraft:iron_bars"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 10.0d,
+			id: 936,
+			tasks: [{
+				id: 937,
+				type: "item",
+				item: "minecraft:book"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 10.0d,
+			dependencies: [I;936],
+			id: 938,
+			tasks: [{
+				id: 939,
+				type: "item",
+				item: "minecraft:bookshelf"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 11.5d,
+			id: 940,
+			tasks: [{
+				id: 941,
+				type: "item",
+				item: "minecraft:prismarine_shard"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 11.5d,
+			id: 942,
+			tasks: [{
+				id: 943,
+				type: "item",
+				item: "minecraft:prismarine_crystals"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 11.5d,
+			id: 944,
+			tasks: [{
+				id: 945,
+				type: "item",
+				item: "minecraft:heart_of_the_sea"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 11.5d,
+			id: 946,
+			tasks: [{
+				id: 947,
+				type: "item",
+				item: "minecraft:lead"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 4.0d,
+			id: 948,
+			tasks: [{
+				id: 949,
+				type: "item",
+				item: "angelring:itemring"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 5.5d,
+			id: 950,
+			tasks: [{
+				id: 951,
+				type: "item",
+				item: "minecraft:enchanting_table"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 7.0d,
+			id: 952,
+			tasks: [{
+				id: 953,
+				type: "item",
+				item: "minecraft:fletching_table"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 10.0d,
+			id: 956,
+			tasks: [{
+				id: 957,
+				type: "item",
+				item: "aquaculture:worm_farm"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 10.0d,
+			dependencies: [I;956],
+			id: 958,
+			tasks: [{
+				id: 959,
+				type: "item",
+				item: {
+					id: "aquaculture:worm",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 8.5d,
+			id: 960,
+			tasks: [{
+				id: 961,
+				type: "item",
+				item: "aquaculture:tackle_box"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 13.0d,
+			id: 962,
+			tasks: [{
+				id: 963,
+				type: "item",
+				item: "vanillathings:lamp_table"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 10.0d,
+			id: 964,
+			tasks: [{
+				id: 965,
+				type: "item",
+				item: "torchmaster:megatorch"
+			}]
 		}
 	]
 }

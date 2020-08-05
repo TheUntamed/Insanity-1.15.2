@@ -1,0 +1,30 @@
+{
+	id: 876,
+	filename: "toolsandarmor",
+	order_index: 15,
+	title: "Tools and Armor",
+	icon: {
+		id: "minecraft:diamond_chestplate",
+		Count: 1,
+		tag: {
+			Damage: 0
+		}
+	},
+	always_invisible: 1,
+	quests: [{
+		x: -5.0d,
+		y: -1.5d,
+		id: 882,
+		tasks: [{
+			id: 883,
+			type: "item",
+			item: {
+				id: "natural-progression:flint_hatchet",
+				Count: 1,
+				tag: {
+					Damage: 0
+				}
+			}
+		}]
+	}]
+}

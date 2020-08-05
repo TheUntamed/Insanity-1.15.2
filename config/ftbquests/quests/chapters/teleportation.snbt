@@ -1,0 +1,40 @@
+{
+	id: 877,
+	filename: "teleportation",
+	order_index: 16,
+	title: "Teleportation",
+	icon: "waystones:waystone",
+	always_invisible: 1,
+	quests: [
+		{
+			x: -8.5d,
+			y: -1.5d,
+			id: 878,
+			tasks: [{
+				id: 879,
+				type: "item",
+				item: "waystones:waystone"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -1.5d,
+			id: 880,
+			tasks: [{
+				id: 881,
+				type: "item",
+				item: "ring_of_teleport:ring_of_teleport"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 0.0d,
+			id: 977,
+			tasks: [{
+				id: 978,
+				type: "item",
+				item: "portality:controller"
+			}]
+		}
+	]
+}

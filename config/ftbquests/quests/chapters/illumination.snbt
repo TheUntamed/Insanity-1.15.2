@@ -1,0 +1,50 @@
+{
+	id: 966,
+	filename: "illumination",
+	order_index: 17,
+	title: "Illumination",
+	icon: "minecraft:torch",
+	always_invisible: 1,
+	quests: [
+		{
+			x: -6.0d,
+			y: -1.5d,
+			id: 967,
+			tasks: [{
+				id: 968,
+				type: "item",
+				item: "minecraft:torch"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -1.5d,
+			id: 969,
+			tasks: [{
+				id: 970,
+				type: "item",
+				item: "torchmaster:megatorch"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -1.5d,
+			id: 971,
+			tasks: [{
+				id: 972,
+				type: "item",
+				item: "torchmaster:dreadlamp"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 1.5d,
+			id: 973,
+			tasks: [{
+				id: 974,
+				type: "item",
+				item: "vanillathings:lamp_table"
+			}]
+		}
+	]
+}

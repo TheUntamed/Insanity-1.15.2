@@ -1,7 +1,7 @@
 {
 	id: 263,
 	filename: "nether",
-	order_index: 10,
+	order_index: 13,
 	title: "Nether",
 	icon: "minecraft:netherrack",
 	always_invisible: 1,
@@ -209,6 +209,17 @@
 				id: 651,
 				type: "item",
 				item: "mysticalagriculture:soulium_dust"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -9.5d,
+			dependencies: [I;635],
+			id: 926,
+			tasks: [{
+				id: 927,
+				type: "item",
+				item: "minecraft:ghast_tear"
 			}]
 		}
 	]
