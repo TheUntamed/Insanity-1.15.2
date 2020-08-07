@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0.0,
+                  "max": 2.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:string"
+          }
+        ]
+      },
+      {
+        "name": "main",
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "botania:cosmetic_cat_ears",
+                "weight": 1
+            }
+        ],
+        "conditions": [
+            {
+                "condition": "killed_by_player"
+            },
+            {
+                "condition": "random_chance_with_looting",
+                "chance": 0.1,
+                "looting_multiplier": 0.05
+            }
+        ]
+    }
+    ]
+  }
