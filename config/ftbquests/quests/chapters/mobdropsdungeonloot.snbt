@@ -1,0 +1,711 @@
+{
+	id: 1294,
+	filename: "mobdropsdungeonloot",
+	order_index: 25,
+	title: "Mob Drops & Dungeon Loot",
+	icon: "industrialforegoing:mob_imprisonment_tool",
+	quests: [
+		{
+			x: -8.0d,
+			y: -17.5d,
+			id: 1284,
+			tasks: [{
+				id: 1285,
+				type: "item",
+				item: "minecraft:zombie_spawn_egg"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -16.0d,
+			id: 1286,
+			tasks: [{
+				id: 1287,
+				type: "item",
+				item: "minecraft:skeleton_spawn_egg"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -4.0d,
+			id: 1288,
+			tasks: [
+				{
+					id: 1289,
+					type: "item",
+					item: "minecraft:spider_spawn_egg"
+				},
+				{
+					id: 1438,
+					type: "item",
+					item: "minecraft:spider_eye"
+				},
+				{
+					id: 1439,
+					type: "item",
+					item: "minecraft:string"
+				},
+				{
+					id: 1440,
+					type: "item",
+					item: "xreliquary:chelicerae"
+				}
+			]
+		},
+		{
+			x: -8.0d,
+			y: -13.0d,
+			id: 1292,
+			tasks: [{
+				id: 1293,
+				type: "item",
+				item: "minecraft:cave_spider_spawn_egg"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -13.0d,
+			id: 1290,
+			tasks: [{
+				id: 1291,
+				type: "item",
+				item: "minecraft:creeper_spawn_egg"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -4.0d,
+			id: 1295,
+			tasks: [{
+				id: 1296,
+				type: "checkmark",
+				title: "Overworld",
+				icon: "botania:cosmetic_questgiver_mark"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -4.0d,
+			id: 1297,
+			tasks: [{
+				id: 1298,
+				type: "checkmark",
+				title: "Nether",
+				icon: "botania:cosmetic_questgiver_mark"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 5.0d,
+			id: 1299,
+			tasks: [{
+				id: 1300,
+				type: "checkmark",
+				title: "End",
+				icon: "botania:cosmetic_questgiver_mark"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 5.0d,
+			id: 1301,
+			tasks: [{
+				id: 1302,
+				type: "checkmark",
+				title: "Atum",
+				icon: "botania:cosmetic_questgiver_mark"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 13.0d,
+			id: 1303,
+			tasks: [{
+				id: 1304,
+				type: "checkmark",
+				title: "The Midnight",
+				icon: "botania:cosmetic_questgiver_mark"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -19.0d,
+			id: 1305,
+			tasks: [{
+				id: 1306,
+				type: "item",
+				item: "minecraft:bat_spawn_egg"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -19.0d,
+			id: 1307,
+			tasks: [{
+				id: 1308,
+				type: "item",
+				item: "minecraft:bee_spawn_egg"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -19.0d,
+			id: 1309,
+			tasks: [{
+				id: 1310,
+				type: "item",
+				item: "minecraft:cat_spawn_egg"
+			}]
+		},
+		{
+			x: -12.5d,
+			y: -19.0d,
+			id: 1311,
+			tasks: [{
+				id: 1312,
+				type: "item",
+				item: "minecraft:chicken_spawn_egg"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -19.0d,
+			id: 1313,
+			tasks: [{
+				id: 1314,
+				type: "item",
+				item: "minecraft:cod_spawn_egg"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -17.5d,
+			id: 1315,
+			tasks: [{
+				id: 1316,
+				type: "item",
+				item: "minecraft:cow_spawn_egg"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -16.0d,
+			id: 1317,
+			tasks: [{
+				id: 1318,
+				type: "item",
+				item: "minecraft:dolphin_spawn_egg"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -14.5d,
+			id: 1319,
+			tasks: [{
+				id: 1320,
+				type: "item",
+				item: "minecraft:donkey_spawn_egg"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -13.0d,
+			id: 1321,
+			tasks: [{
+				id: 1322,
+				type: "item",
+				item: "minecraft:drowned_spawn_egg"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -13.0d,
+			id: 1323,
+			tasks: [{
+				id: 1324,
+				type: "item",
+				item: "minecraft:elder_guardian_spawn_egg"
+			}]
+		},
+		{
+			x: -12.5d,
+			y: -13.0d,
+			id: 1325,
+			tasks: [{
+				id: 1326,
+				type: "item",
+				item: "minecraft:enderman_spawn_egg"
+			}]
+		},
+		{
+			x: -12.5d,
+			y: -11.5d,
+			id: 1327,
+			tasks: [{
+				id: 1328,
+				type: "item",
+				item: "minecraft:endermite_spawn_egg"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -11.5d,
+			id: 1329,
+			tasks: [{
+				id: 1330,
+				type: "item",
+				item: "minecraft:evoker_spawn_egg"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -11.5d,
+			id: 1331,
+			tasks: [{
+				id: 1332,
+				type: "item",
+				item: "minecraft:fox_spawn_egg"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -11.5d,
+			id: 1333,
+			tasks: [{
+				id: 1334,
+				type: "item",
+				item: "minecraft:guardian_spawn_egg"
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -13.0d,
+			id: 1335,
+			tasks: [{
+				id: 1336,
+				type: "item",
+				item: "minecraft:horse_spawn_egg"
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -14.5d,
+			id: 1337,
+			tasks: [{
+				id: 1338,
+				type: "item",
+				item: "minecraft:husk_spawn_egg"
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -16.0d,
+			id: 1339,
+			tasks: [{
+				id: 1340,
+				type: "item",
+				item: "minecraft:llama_spawn_egg"
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -17.5d,
+			id: 1341,
+			tasks: [{
+				id: 1342,
+				type: "item",
+				item: "minecraft:mooshroom_spawn_egg"
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -19.0d,
+			id: 1343,
+			tasks: [{
+				id: 1344,
+				type: "item",
+				item: "minecraft:mule_spawn_egg"
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -20.5d,
+			id: 1345,
+			tasks: [{
+				id: 1346,
+				type: "item",
+				item: "minecraft:ocelot_spawn_egg"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -20.5d,
+			id: 1347,
+			tasks: [{
+				id: 1348,
+				type: "item",
+				item: "minecraft:panda_spawn_egg"
+			}]
+		},
+		{
+			x: -12.5d,
+			y: -20.5d,
+			id: 1349,
+			tasks: [{
+				id: 1350,
+				type: "item",
+				item: "minecraft:parrot_spawn_egg"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -20.5d,
+			id: 1351,
+			tasks: [{
+				id: 1352,
+				type: "item",
+				item: "minecraft:phantom_spawn_egg"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -20.5d,
+			id: 1353,
+			tasks: [{
+				id: 1354,
+				type: "item",
+				item: "minecraft:pig_spawn_egg"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -20.5d,
+			id: 1355,
+			tasks: [{
+				id: 1356,
+				type: "item",
+				item: "minecraft:pillager_spawn_egg"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -20.5d,
+			id: 1357,
+			tasks: [{
+				id: 1358,
+				type: "item",
+				item: "minecraft:polar_bear_spawn_egg"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -19.0d,
+			id: 1359,
+			tasks: [{
+				id: 1360,
+				type: "item",
+				item: "minecraft:pufferfish_spawn_egg"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -17.5d,
+			id: 1361,
+			tasks: [{
+				id: 1362,
+				type: "item",
+				item: "minecraft:rabbit_spawn_egg"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -16.0d,
+			id: 1363,
+			tasks: [{
+				id: 1364,
+				type: "item",
+				item: "minecraft:ravager_spawn_egg"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -14.5d,
+			id: 1365,
+			tasks: [{
+				id: 1366,
+				type: "item",
+				item: "minecraft:salmon_spawn_egg"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -13.0d,
+			id: 1367,
+			tasks: [{
+				id: 1368,
+				type: "item",
+				item: "minecraft:sheep_spawn_egg"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -11.5d,
+			id: 1369,
+			tasks: [{
+				id: 1370,
+				type: "item",
+				item: "minecraft:silverfish_spawn_egg"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -11.5d,
+			id: 1371,
+			tasks: [{
+				id: 1372,
+				type: "item",
+				item: "minecraft:skeleton_horse_spawn_egg"
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -11.5d,
+			id: 1373,
+			tasks: [{
+				id: 1374,
+				type: "item",
+				item: "minecraft:slime_spawn_egg"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: -11.5d,
+			id: 1375,
+			tasks: [{
+				id: 1376,
+				type: "item",
+				item: "minecraft:squid_spawn_egg"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: -13.0d,
+			id: 1377,
+			tasks: [{
+				id: 1378,
+				type: "item",
+				item: "minecraft:stray_spawn_egg"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: -14.5d,
+			id: 1381,
+			tasks: [{
+				id: 1382,
+				type: "item",
+				item: "minecraft:trader_llama_spawn_egg"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: -16.0d,
+			id: 1383,
+			tasks: [{
+				id: 1384,
+				type: "item",
+				item: "minecraft:tropical_fish_spawn_egg"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: -17.5d,
+			id: 1385,
+			tasks: [{
+				id: 1386,
+				type: "item",
+				item: "minecraft:turtle_spawn_egg"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: -19.0d,
+			id: 1387,
+			tasks: [{
+				id: 1388,
+				type: "item",
+				item: "minecraft:vex_spawn_egg"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: -20.5d,
+			id: 1389,
+			tasks: [{
+				id: 1390,
+				type: "item",
+				item: "minecraft:villager_spawn_egg"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: -22.0d,
+			id: 1391,
+			tasks: [{
+				id: 1392,
+				type: "item",
+				item: "minecraft:vindicator_spawn_egg"
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -22.0d,
+			id: 1393,
+			tasks: [{
+				id: 1394,
+				type: "item",
+				item: "minecraft:wandering_trader_spawn_egg"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -22.0d,
+			id: 1395,
+			tasks: [{
+				id: 1396,
+				type: "item",
+				item: "minecraft:witch_spawn_egg"
+			}]
+		},
+		{
+			x: -12.5d,
+			y: -22.0d,
+			id: 1397,
+			tasks: [{
+				id: 1398,
+				type: "item",
+				item: "minecraft:wolf_spawn_egg"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -22.0d,
+			id: 1399,
+			tasks: [{
+				id: 1400,
+				type: "item",
+				item: "minecraft:zombie_horse_spawn_egg"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -22.0d,
+			id: 1401,
+			tasks: [{
+				id: 1402,
+				type: "item",
+				item: "minecraft:zombie_villager_spawn_egg"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -22.0d,
+			id: 1403,
+			tasks: [{
+				id: 1404,
+				type: "item",
+				item: "buzzierbees:honey_slime_spawn_egg"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -22.0d,
+			id: 1405,
+			tasks: [{
+				id: 1406,
+				type: "item",
+				item: "endergetic:booflo_spawn_egg"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -22.0d,
+			id: 1407,
+			tasks: [{
+				id: 1408,
+				type: "item",
+				item: "endergetic:puff_bug_spawn_egg"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -20.5d,
+			id: 1409,
+			tasks: [{
+				id: 1410,
+				type: "item",
+				item: "upgrade_aquatic:jellyfish_spawn_egg"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -19.0d,
+			id: 1411,
+			tasks: [{
+				id: 1412,
+				type: "item",
+				item: "upgrade_aquatic:flare_spawn_egg"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -17.5d,
+			id: 1413,
+			tasks: [{
+				id: 1414,
+				type: "item",
+				item: "upgrade_aquatic:great_thrasher_spawn_egg"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -14.5d,
+			id: 1415,
+			tasks: [{
+				id: 1416,
+				type: "item",
+				item: "upgrade_aquatic:lionfish_spawn_egg"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -16.0d,
+			id: 1417,
+			tasks: [{
+				id: 1418,
+				type: "item",
+				item: "upgrade_aquatic:thrasher_spawn_egg"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -13.0d,
+			id: 1419,
+			tasks: [{
+				id: 1420,
+				type: "item",
+				item: "upgrade_aquatic:pike_spawn_egg"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -11.5d,
+			id: 1421,
+			tasks: [{
+				id: 1422,
+				type: "item",
+				item: "upgrade_aquatic:nautilus_spawn_egg"
+			}]
+		}
+	]
+}

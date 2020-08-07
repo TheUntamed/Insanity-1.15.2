@@ -355,6 +355,40 @@ public function removeandAddShapedRecipes() as void {
             [<tag:forge:stone>, <tag:forge:stone>, <tag:forge:stone>]
         ],
 
+        // Reliquary
+        <item:xreliquary:interdiction_torch>*4 :
+        [
+            [<item:forbidden_arcanus:bat_wing>, <item:xreliquary:molten_core>],
+            [<item:xreliquary:nebulous_heart>, <tag:forge:rods/blaze>]
+        ],
+        <item:xreliquary:rending_gale> :
+        [
+            [<item:minecraft:air>, <item:forbidden_arcanus:bat_wing>, <item:xreliquary:eye_of_the_storm>],
+            [<tag:forge:ingots/gold>, <item:xreliquary:void_tear>, <item:forbidden_arcanus:bat_wing>],
+            [<tag:forge:rods/wooden>, <tag:forge:ingots/gold>, <item:minecraft:air>]
+        ],
+        <item:xreliquary:ender_staff> :
+        [
+            [<item:minecraft:air>, <item:forbidden_arcanus:bat_wing>, <item:minecraft:ender_eye>],
+            [<item:xreliquary:nebulous_heart>, <item:xreliquary:void_tear>, <item:forbidden_arcanus:bat_wing>],
+            [<tag:forge:rods/wooden>, <item:xreliquary:nebulous_heart>, <item:minecraft:air>]
+        ],
+        <item:xreliquary:rod_of_lyssa> :
+        [
+            [<item:xreliquary:infernal_claw>, <item:forbidden_arcanus:bat_wing>],
+            [<item:xreliquary:nebulous_heart>, <item:minecraft:fishing_rod>]
+        ],
+        <item:xreliquary:fortune_coin> :
+        [
+            [<item:xreliquary:nebulous_heart>, <tag:forge:nuggets/gold>],
+            [<item:xreliquary:slime_pearl>, <item:forbidden_arcanus:bat_wing>]
+        ],
+        <item:xreliquary:angelic_feather> :
+        [
+            [<item:minecraft:feather>, <item:xreliquary:nebulous_heart>],
+            [<item:forbidden_arcanus:bat_wing>, <item:xreliquary:fertile_essence>]
+        ],
+
         // Others
         <item:cyclic:scythe_brush> :
         [

@@ -16,6 +16,7 @@ public function jei() as void {
 	}
 
 	addInfoAndHideItem(<item:botania:pebble>);
+	
 	addInfoAndHideItem(<item:minecraft:wooden_sword>);
 	addInfoAndHideItem(<item:minecraft:wooden_shovel>);
 	addInfoAndHideItem(<item:minecraft:wooden_axe>);
@@ -26,6 +27,8 @@ public function jei() as void {
 	addInfoAndHideItem(<item:minecraft:stone_axe>);
 	addInfoAndHideItem(<item:minecraft:stone_pickaxe>);
 	addInfoAndHideItem(<item:minecraft:stone_hoe>);
+
+	addInfoAndHideItem(<item:xreliquary:bat_wing>);
 
 	//Hide a single Item
 	//JEI.hideItem(IItemStack stack);

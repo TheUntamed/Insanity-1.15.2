@@ -1,7 +1,7 @@
 {
 	id: 3,
 	filename: "temporaryquestline",
-	order_index: 2,
+	order_index: 1,
 	title: "Temporary Questline",
 	icon: "minecraft:oak_leaves",
 	quests: [
@@ -12,6 +12,7 @@
 			y: -5.0d,
 			subtitle: "Pick up some pebbles from the ground.",
 			description: ["pebbles can be found in most biomes."],
+			dependencies: [I;1427],
 			id: 6,
 			tasks: [{
 				id: 18,
@@ -535,6 +536,42 @@
 				id: 180,
 				type: "item",
 				item: "minecraft:blast_furnace"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -8.0d,
+			subtitle: "If you want to change climate zones travel north or south. Otherwise travel west or east.",
+			id: 1423,
+			tasks: [{
+				id: 1424,
+				type: "checkmark",
+				title: "TerraForged World Generation",
+				icon: "botania:cosmetic_questgiver_mark"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -8.0d,
+			subtitle: "You start with 10 HP (5 Hearts). To get more Hearts eat different foods. Check the Food Book for more information.",
+			id: 1425,
+			tasks: [{
+				id: 1426,
+				type: "checkmark",
+				title: "Where are my Lives",
+				icon: "botania:cosmetic_questgiver_mark"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -6.5d,
+			subtitle: "You cannot punch wood with your bare hand. You have to start this modpack differently.",
+			id: 1427,
+			tasks: [{
+				id: 1428,
+				type: "checkmark",
+				title: "Ouch! That hurts!",
+				icon: "botania:cosmetic_questgiver_mark"
 			}]
 		}
 	]
