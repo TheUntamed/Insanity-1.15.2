@@ -1001,27 +1001,14 @@
 				{
 					id: 1502,
 					type: "item",
-					item: "minecraft:pufferfish"
-				},
-				{
-					id: 1503,
-					type: "item",
-					item: "minecraft:cod"
-				},
-				{
-					id: 1504,
-					type: "item",
-					item: "upgrade_aquatic:pike"
-				},
-				{
-					id: 1505,
-					type: "item",
-					item: "minecraft:salmon"
-				},
-				{
-					id: 1506,
-					type: "item",
-					item: "upgrade_aquatic:lionfish"
+					title: "Any minecraft:fishes",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1,
+						tag: {
+							value: "minecraft:fishes"
+						}
+					}
 				}
 			]
 		},
@@ -1058,6 +1045,204 @@
 					item: "minecraft:bone"
 				}
 			]
+		},
+		{
+			x: -16.5d,
+			y: 0.5d,
+			id: 1513,
+			tasks: [{
+				id: 1514,
+				type: "kill",
+				entity: "minecraft:ocelot",
+				value: 1
+			}]
+		},
+		{
+			x: -18.0d,
+			y: 0.5d,
+			dependencies: [I;1513],
+			id: 1515,
+			tasks: [{
+				id: 1516,
+				type: "item",
+				item: "minecraft:bone"
+			}]
+		},
+		{
+			x: -16.5d,
+			y: 1.5d,
+			id: 1517,
+			tasks: [{
+				id: 1518,
+				type: "kill",
+				entity: "minecraft:rabbit",
+				value: 1
+			}]
+		},
+		{
+			x: -18.0d,
+			y: 1.5d,
+			dependencies: [I;1517],
+			id: 1519,
+			tasks: [
+				{
+					id: 1520,
+					type: "item",
+					item: "minecraft:rabbit_hide"
+				},
+				{
+					id: 1521,
+					type: "item",
+					item: "minecraft:rabbit_foot"
+				},
+				{
+					id: 1522,
+					type: "item",
+					item: "minecraft:rabbit"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 6.5d,
+			id: 1523,
+			tasks: [{
+				id: 1524,
+				type: "kill",
+				entity: "atum:desert_rabbit",
+				value: 1
+			}]
+		},
+		{
+			x: -14.5d,
+			y: -1.5d,
+			id: 1525,
+			tasks: [{
+				id: 1526,
+				type: "kill",
+				entity: "minecraft:guardian",
+				value: 1
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -1.5d,
+			dependencies: [I;1525],
+			id: 1527,
+			tasks: [
+				{
+					id: 1528,
+					type: "item",
+					item: "upgrade_aquatic:guardian_spine"
+				},
+				{
+					id: 1530,
+					type: "item",
+					item: "xreliquary:guardian_spike"
+				},
+				{
+					id: 1531,
+					type: "item",
+					item: "minecraft:prismarine_shard"
+				},
+				{
+					id: 1532,
+					type: "item",
+					title: "Any minecraft:fishes",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1,
+						tag: {
+							value: "minecraft:fishes"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -16.5d,
+			y: 2.5d,
+			id: 1533,
+			tasks: [{
+				id: 1534,
+				type: "kill",
+				entity: "minecraft:horse",
+				value: 1
+			}]
+		},
+		{
+			x: -18.0d,
+			y: 2.5d,
+			dependencies: [I;1533],
+			id: 1535,
+			tasks: [
+				{
+					id: 1536,
+					type: "item",
+					item: "minecraft:leather"
+				},
+				{
+					id: 1537,
+					type: "item",
+					item: "simplefarming:raw_horse_meat"
+				},
+				{
+					id: 1538,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: -16.5d,
+			y: 3.5d,
+			id: 1539,
+			tasks: [{
+				id: 1540,
+				type: "kill",
+				entity: "minecraft:llama",
+				value: 1
+			}]
+		},
+		{
+			x: -18.0d,
+			y: 3.5d,
+			dependencies: [I;1539],
+			id: 1541,
+			tasks: [
+				{
+					id: 1542,
+					type: "item",
+					item: "minecraft:leather"
+				},
+				{
+					id: 1543,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: -16.5d,
+			y: 4.5d,
+			id: 1544,
+			tasks: [{
+				id: 1545,
+				type: "kill",
+				entity: "minecraft:fox",
+				value: 1
+			}]
+		},
+		{
+			x: -18.0d,
+			y: 4.5d,
+			dependencies: [I;1544],
+			id: 1546,
+			tasks: [{
+				id: 1547,
+				type: "item",
+				item: "minecraft:bone"
+			}]
 		}
 	]
 }
