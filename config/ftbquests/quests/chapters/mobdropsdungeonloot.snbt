@@ -1,7 +1,7 @@
 {
 	id: 1294,
 	filename: "mobdropsdungeonloot",
-	order_index: 25,
+	order_index: 2,
 	title: "Mob Drops & Dungeon Loot",
 	icon: "industrialforegoing:mob_imprisonment_tool",
 	quests: [
@@ -28,7 +28,7 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 6.5d,
 			y: -8.0d,
 			id: 1299,
 			tasks: [{
@@ -39,8 +39,8 @@
 			}]
 		},
 		{
-			x: 11.5d,
-			y: 5.0d,
+			x: 24.0d,
+			y: -8.0d,
 			id: 1301,
 			tasks: [{
 				id: 1302,
@@ -50,7 +50,7 @@
 			}]
 		},
 		{
-			x: 15.5d,
+			x: 16.0d,
 			y: -8.0d,
 			id: 1303,
 			tasks: [{
@@ -162,7 +162,7 @@
 			]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: -6.5d,
 			id: 1459,
 			tasks: [{
@@ -173,7 +173,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: -6.5d,
 			dependencies: [I;1459],
 			id: 1461,
@@ -218,7 +218,7 @@
 			]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: 4.5d,
 			id: 1469,
 			tasks: [{
@@ -229,7 +229,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: 4.5d,
 			dependencies: [I;1469],
 			id: 1471,
@@ -483,8 +483,8 @@
 			]
 		},
 		{
-			x: 12.5d,
-			y: 5.5d,
+			x: 23.0d,
+			y: -6.5d,
 			id: 1523,
 			tasks: [{
 				id: 1524,
@@ -678,7 +678,7 @@
 			]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: -5.5d,
 			id: 1561,
 			tasks: [{
@@ -689,7 +689,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: -5.5d,
 			dependencies: [I;1561],
 			id: 1563,
@@ -700,7 +700,7 @@
 			}]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: -4.5d,
 			id: 1565,
 			tasks: [{
@@ -711,7 +711,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: -4.5d,
 			dependencies: [I;1565],
 			id: 1567,
@@ -1189,7 +1189,7 @@
 			]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: -3.5d,
 			id: 1653,
 			tasks: [{
@@ -1200,7 +1200,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: -3.5d,
 			dependencies: [I;1653],
 			id: 1655,
@@ -1274,7 +1274,7 @@
 			]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: 3.5d,
 			id: 1668,
 			tasks: [{
@@ -1285,7 +1285,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: 3.5d,
 			dependencies: [I;1668],
 			id: 1670,
@@ -1318,7 +1318,7 @@
 			]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: 5.5d,
 			id: 1676,
 			tasks: [{
@@ -1329,7 +1329,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: 5.5d,
 			dependencies: [I;1676],
 			id: 1678,
@@ -1747,7 +1747,7 @@
 			]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: 6.5d,
 			id: 1741,
 			tasks: [{
@@ -1758,7 +1758,7 @@
 			}]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: 7.5d,
 			id: 1743,
 			tasks: [{
@@ -1769,7 +1769,7 @@
 			}]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: 8.5d,
 			id: 1745,
 			tasks: [{
@@ -1780,7 +1780,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: 6.5d,
 			dependencies: [I;1741],
 			id: 1747,
@@ -1791,7 +1791,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: 7.5d,
 			dependencies: [I;1743],
 			id: 1749,
@@ -1802,7 +1802,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: 8.5d,
 			dependencies: [I;1745],
 			id: 1751,
@@ -1813,7 +1813,7 @@
 			}]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: 9.5d,
 			id: 1753,
 			tasks: [{
@@ -1825,7 +1825,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: 9.5d,
 			dependencies: [I;1753],
 			id: 1755,
@@ -1836,7 +1836,7 @@
 			}]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: -2.5d,
 			id: 1757,
 			tasks: [{
@@ -1848,7 +1848,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: -2.5d,
 			dependencies: [I;1757],
 			id: 1759,
@@ -1859,7 +1859,7 @@
 			}]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: -0.5d,
 			id: 1761,
 			tasks: [{
@@ -1871,7 +1871,7 @@
 			}]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: -1.5d,
 			id: 1763,
 			tasks: [{
@@ -1883,7 +1883,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: -1.5d,
 			dependencies: [I;1763],
 			id: 1765,
@@ -1970,7 +1970,7 @@
 			}]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: 0.5d,
 			id: 1780,
 			tasks: [{
@@ -1983,7 +1983,7 @@
 		},
 		{
 			icon: "upgrade_aquatic:jellyfish_spawn_egg",
-			x: -19.5d,
+			x: -21.0d,
 			y: 1.5d,
 			id: 1782,
 			tasks: [{
@@ -1995,7 +1995,7 @@
 		},
 		{
 			icon: "upgrade_aquatic:jellyfish_spawn_egg",
-			x: -19.5d,
+			x: -21.0d,
 			y: 2.5d,
 			id: 1784,
 			tasks: [{
@@ -2006,7 +2006,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: -0.5d,
 			dependencies: [I;1761],
 			id: 1786,
@@ -2017,7 +2017,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: 0.5d,
 			dependencies: [I;1780],
 			id: 1788,
@@ -2028,7 +2028,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: 1.5d,
 			dependencies: [I;1782],
 			id: 1790,
@@ -2039,7 +2039,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: 2.5d,
 			dependencies: [I;1784],
 			id: 1792,
@@ -2050,251 +2050,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: 72.5d,
-			id: 1796,
-			tasks: [{
-				id: 1797,
-				type: "kill",
-				icon: "mysticalworld:beetle_spawn_egg",
-				entity: "mysticalworld:beetle",
-				value: 1
-			}]
-		},
-		{
-			x: -9.5d,
-			y: 73.5d,
-			id: 1798,
-			tasks: [{
-				id: 1799,
-				type: "kill",
-				entity: "druidcraft:beetle",
-				value: 1
-			}]
-		},
-		{
-			x: -11.0d,
-			y: 73.5d,
-			dependencies: [I;1798],
-			id: 1800,
-			tasks: [{
-				id: 1801,
-				type: "item",
-				item: "druidcraft:chitin"
-			}]
-		},
-		{
-			x: -11.0d,
-			y: 72.5d,
-			dependencies: [I;1796],
-			id: 1802,
-			tasks: [{
-				id: 1803,
-				type: "item",
-				item: "minecraft:slime_ball"
-			}]
-		},
-		{
-			x: -9.5d,
-			y: 74.5d,
-			id: 1804,
-			tasks: [{
-				id: 1805,
-				type: "kill",
-				icon: "mysticalworld:deer_spawn_egg",
-				entity: "mysticalworld:deer",
-				value: 1
-			}]
-		},
-		{
-			x: -11.0d,
-			y: 74.5d,
-			dependencies: [I;1804],
-			id: 1806,
-			tasks: [
-				{
-					id: 1807,
-					type: "item",
-					item: "mysticalworld:venison"
-				},
-				{
-					id: 1808,
-					type: "item",
-					item: "minecraft:leather"
-				},
-				{
-					id: 1809,
-					type: "item",
-					item: "minecraft:bone"
-				}
-			]
-		},
-		{
-			x: -9.5d,
-			y: 75.5d,
-			id: 1810,
-			tasks: [{
-				id: 1811,
-				type: "kill",
-				icon: "mysticalworld:frog_spawn_egg",
-				entity: "mysticalworld:frog",
-				value: 1
-			}]
-		},
-		{
-			x: -11.0d,
-			y: 75.5d,
-			dependencies: [I;1810],
-			id: 1812,
-			tasks: [
-				{
-					id: 1841,
-					type: "item",
-					item: "quark:frog_leg"
-				},
-				{
-					id: 1842,
-					type: "item",
-					item: "minecraft:slime_ball"
-				}
-			]
-		},
-		{
-			x: -9.5d,
-			y: 76.5d,
-			id: 1818,
-			tasks: [{
-				id: 1819,
-				type: "kill",
-				icon: "mysticalworld:silver_fox_spawn_egg",
-				entity: "mysticalworld:silver_fox",
-				value: 1
-			}]
-		},
-		{
-			x: -11.0d,
-			y: 76.5d,
-			dependencies: [I;1818],
-			id: 1820,
-			tasks: [
-				{
-					id: 1821,
-					type: "item",
-					item: "mysticalworld:pelt"
-				},
-				{
-					id: 1822,
-					type: "item",
-					item: "minecraft:bone"
-				}
-			]
-		},
-		{
-			x: -9.5d,
-			y: 77.5d,
-			id: 1823,
-			tasks: [{
-				id: 1824,
-				type: "kill",
-				icon: "mysticalworld:sprout_spawn_egg",
-				entity: "mysticalworld:sprout",
-				value: 1
-			}]
-		},
-		{
-			x: -11.0d,
-			y: 77.5d,
-			id: 1825,
-			tasks: [
-				{
-					id: 1826,
-					type: "item",
-					item: "minecraft:melon_slice"
-				},
-				{
-					id: 1827,
-					type: "item",
-					item: "minecraft:potato"
-				},
-				{
-					id: 1828,
-					type: "item",
-					item: "minecraft:beetroot"
-				},
-				{
-					id: 1829,
-					type: "item",
-					item: "mysticalworld:aubergine"
-				}
-			]
-		},
-		{
-			x: -9.5d,
-			y: 78.5d,
-			id: 1830,
-			tasks: [{
-				id: 1831,
-				type: "kill",
-				icon: "mysticalworld:owl_spawn_egg",
-				entity: "mysticalworld:owl",
-				value: 1
-			}]
-		},
-		{
-			x: -11.0d,
-			y: 78.5d,
-			dependencies: [I;1830],
-			id: 1832,
-			tasks: [{
-				id: 1833,
-				type: "item",
-				item: "minecraft:feather"
-			}]
-		},
-		{
-			x: -9.5d,
-			y: 79.5d,
-			id: 1834,
-			tasks: [{
-				id: 1835,
-				type: "kill",
-				icon: "mysticalworld:silkworm_spawn_egg",
-				entity: "mysticalworld:silkworm",
-				value: 1
-			}]
-		},
-		{
-			x: -9.5d,
-			y: 80.5d,
-			id: 1836,
-			tasks: [{
-				id: 1837,
-				type: "kill",
-				entity: "quark:frog",
-				value: 1
-			}]
-		},
-		{
-			x: -11.0d,
-			y: 80.5d,
-			dependencies: [I;1836],
-			id: 1838,
-			tasks: [
-				{
-					id: 1839,
-					type: "item",
-					item: "quark:frog_leg"
-				},
-				{
-					id: 1840,
-					type: "item",
-					item: "minecraft:slime_ball"
-				}
-			]
-		},
-		{
-			x: -9.5d,
-			y: 81.5d,
+			x: -21.0d,
+			y: 12.5d,
 			id: 1843,
 			tasks: [{
 				id: 1844,
@@ -2304,8 +2061,8 @@
 			}]
 		},
 		{
-			x: -11.0d,
-			y: 81.5d,
+			x: -22.5d,
+			y: 12.5d,
 			dependencies: [I;1843],
 			id: 1845,
 			tasks: [
@@ -2385,7 +2142,7 @@
 			]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: 10.5d,
 			id: 1860,
 			tasks: [{
@@ -2397,7 +2154,7 @@
 			}]
 		},
 		{
-			x: -19.5d,
+			x: -21.0d,
 			y: 11.5d,
 			id: 1862,
 			tasks: [{
@@ -2408,7 +2165,7 @@
 			}]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: 10.5d,
 			dependencies: [I;1860],
 			id: 1864,
@@ -2426,7 +2183,7 @@
 			]
 		},
 		{
-			x: -21.0d,
+			x: -22.5d,
 			y: 11.5d,
 			dependencies: [I;1862],
 			id: 1867,
@@ -2645,7 +2402,7 @@
 			}]
 		},
 		{
-			x: -22.5d,
+			x: -24.0d,
 			y: -6.5d,
 			id: 1911,
 			tasks: [{
@@ -2657,7 +2414,7 @@
 			}]
 		},
 		{
-			x: -24.0d,
+			x: -25.5d,
 			y: -5.5d,
 			id: 1913,
 			tasks: [{
@@ -2669,7 +2426,7 @@
 			}]
 		},
 		{
-			x: -22.5d,
+			x: -24.0d,
 			y: -5.5d,
 			dependencies: [I;1913],
 			id: 1915,
@@ -2687,7 +2444,7 @@
 			]
 		},
 		{
-			x: -24.0d,
+			x: -25.5d,
 			y: -6.5d,
 			dependencies: [I;1911],
 			id: 1918,
@@ -2727,7 +2484,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: 1.0d,
 			y: -6.5d,
 			id: 1927,
 			tasks: [{
@@ -2739,18 +2496,37 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 2.5d,
 			y: -6.5d,
+			dependencies: [I;1927],
 			id: 1929,
-			tasks: [{
-				id: 1930,
-				type: "item",
-				item: "minecraft:nether_star"
-			}]
+			tasks: [
+				{
+					id: 1930,
+					type: "item",
+					item: "minecraft:nether_star"
+				},
+				{
+					id: 2051,
+					type: "item",
+					item: "mysticalagradditions:withering_soul"
+				},
+				{
+					id: 2052,
+					type: "item",
+					item: "minecraft:wither_rose"
+				},
+				{
+					id: 2053,
+					type: "item",
+					item: "tombstone:voodoo_poppet"
+				}
+			]
 		},
 		{
 			x: -2.0d,
 			y: -6.5d,
+			dependencies: [I;1923],
 			id: 1931,
 			tasks: [
 				{
@@ -2766,8 +2542,8 @@
 			]
 		},
 		{
-			x: -3.5d,
-			y: -4.5d,
+			x: -5.5d,
+			y: -6.5d,
 			id: 1934,
 			tasks: [{
 				id: 1935,
@@ -2778,7 +2554,7 @@
 		},
 		{
 			x: -3.5d,
-			y: -3.5d,
+			y: -4.5d,
 			id: 1936,
 			tasks: [{
 				id: 1937,
@@ -2789,12 +2565,1674 @@
 		},
 		{
 			x: -2.0d,
-			y: -3.5d,
+			y: -4.5d,
+			dependencies: [I;1936],
 			id: 1938,
+			tasks: [
+				{
+					id: 1939,
+					type: "item",
+					item: "minecraft:ghast_tear"
+				},
+				{
+					id: 1940,
+					type: "item",
+					item: "nethercraft:ghast_bones"
+				},
+				{
+					id: 1941,
+					type: "item",
+					item: "minecraft:gunpowder"
+				},
+				{
+					id: 1942,
+					type: "item",
+					item: "xreliquary:catalyzing_gland"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -3.5d,
+			id: 1943,
 			tasks: [{
-				id: 1939,
+				id: 1944,
+				type: "kill",
+				entity: "minecraft:magma_cube",
+				value: 1
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -3.5d,
+			dependencies: [I;1943],
+			id: 1945,
+			tasks: [
+				{
+					id: 1946,
+					type: "item",
+					item: "minecraft:magma_cream"
+				},
+				{
+					id: 1947,
+					type: "item",
+					item: "xreliquary:molten_core"
+				}
+			]
+		},
+		{
+			x: -7.0d,
+			y: -6.5d,
+			dependencies: [I;1934],
+			id: 1948,
+			tasks: [
+				{
+					id: 1949,
+					type: "item",
+					item: "minecraft:rotten_flesh"
+				},
+				{
+					id: 1950,
+					type: "item",
+					item: "minecraft:gold_ingot"
+				},
+				{
+					id: 1951,
+					type: "item",
+					item: "minecraft:gold_nugget"
+				},
+				{
+					id: 1952,
+					type: "item",
+					item: "xreliquary:zombie_heart"
+				},
+				{
+					id: 1953,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -4.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1936],
+			id: 1954,
+			tasks: [{
+				id: 1955,
 				type: "item",
-				item: "minecraft:ghast_tear"
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "063085a6-797f-4785-be1a-21cd7580f752",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTE3MjA0OCwKICAicHJvZmlsZUlkIiA6ICIwNjMwODVhNjc5N2Y0Nzg1YmUxYTIxY2Q3NTgwZjc1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfR2hhc3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE0ZTQyZWIxNWEwODgxM2E2YTZmNjFmMTBhYTI4ODAxOWZhMGZhZTEwNmEyOTUzZGRiNDZmNzdlZTJkNzdmIgogICAgfQogIH0KfQ==",
+									Signature: "mEHBOWjwIo2VqtTFhlpBllDrx1dLyROzA2ZYRx0FoJYF/67AZA29ntwzFIfHlMq0wgovseuKKzHhXhmay7ujtwtkwaSpN08XsnYNk6wr8vCmRDjgfBTJPx/gG6BNG8s/d0vKsbg8dLoUPBHM1JnI26Ex/zrGYZPW2dOLNumO+hfiJxBFxJg+tlnTfFWjblN3f4F2ZPzrUccnU4v8ivtqArZpAUyZMNiNwlqXH9LJIEZNH3Csph8zG8vuzqARzFiwCSabaFN4fBpkEeVF9Gpw/PvtIxk6Vad06Kvdt/hZBTVuAzk7wE9SXgmy82KNTEjBrbtiFJf4QvSNL55DPbOSugP+IUyFbms5C6+uQVi4BAUny54kgtAiozwFJLpyOLcJr/BTyaUn7QH7/s3qtAKQKGM5gYki8kYETUGyndIW0CmMUlbQehqTNDhcIJzkpK7ZGg52EbvaF+ITD7DtM4wQKk6s3Z9IAvIxDLpWroIqeitk5CNb1Li6ggLjNjHT4DD76jQQqtzB3Y/ZhmyE86e21l2QRmrDYBdVhnaAa1lA/5S0rvxzUmMDolrM7yR4Vm9CaCTnPQsqf7maaJblAUZfTlzsTunYV1tx0QMjFzLxm55pruE7ayaAA/8+EiqS6UMmCNlcI/uRiUn6u26msa3Cm+ylvm+eJxK69W+M8RVhsNw="
+								}]
+							},
+							Name: "MHF_Ghast"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -6.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1934],
+			id: 1956,
+			tasks: [{
+				id: 1957,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "18a2bb50-334a-4084-9184-2c380251a24b",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4ODYzODgyMCwKICAicHJvZmlsZUlkIiA6ICIxOGEyYmI1MDMzNGE0MDg0OTE4NDJjMzgwMjUxYTI0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfUGlnWm9tYmllIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkxNmQxNjdjNTc0NGVkMTRlYmMwMmY0NDdmMzI2MTQwNTkzNjJiN2QyZWNiODA4ZmYwNjE2NWQyYzM0M2JlZjIiCiAgICB9CiAgfQp9",
+									Signature: "HbcBcOEygbkjKLjw6Jkjfgc1iykGTIchirQi3MYOMlZgf/07ue07A4oBnidsH77L+u7kzc3BazBI5W1Ig47h97gPGg3QONr5j5VWDepQEC/O3N4mQF/uCXH19ian2X7UHEfXOeLnunlD4pWwJRWKmYQdv6ITRX5Cc8rfAAfDkhOCEiLqQo4HgUEWKqUX0PcSvSiIGGid+7PHf9KgfFRjyyEp/MhCTf+bKYDXsgUK+uYIeCz997a4QjlpT6/RpB/UeiHHTtVbJxmFmBG17UUb0fTE6pBcAIc/L8MCuun0YfwO2UQWjo0/wmbCAw3GHBOwgbI5T8BmBxB72ngYCpuALnPz92x7P74v0x6i470L4EVJVNDU1itZ3KDtJk16HUDyybgE5dQURqHbNGeXyjsOzqzub5XV6GZF21j6yYTgjXmpRYdUcSP/YparT/ISLFoD0VxCzlZnsj2gE/DGUgssIYzxZTzDBU9+y+ou5zJLy7PhwBfPcAdOPt9tQT3vMh/UVT6djpDw5H1HMMfbqi0Gwa8HW/MJ4viv6bqnW/OlBkPKHIWYK9o1gtfiyThugKCbGoVxzDwzgjIUF+2yOp49cqisFl/BCGMcwXWz8BzNw/OLw4vcGDnjiBJnrzVJ2PUoAus4Md0fjTKQh0dkeBsphxXJy4bwoUaMPMIrP+1NQMw="
+								}]
+							},
+							Name: "MHF_PigZombie"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -19.5d,
+			y: -6.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1463],
+			id: 1958,
+			tasks: [{
+				id: 1959,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "f159b274-c22e-4340-b7c1-52abde147713",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTIyMjExNCwKICAicHJvZmlsZUlkIiA6ICJmMTU5YjI3NGMyMmU0MzQwYjdjMTUyYWJkZTE0NzcxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfQ293IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QwZTRlNmZiZjVmM2RjZjk0NDIyYTFmMzE5NDQ4ZjE1MjM2OWQxNzlkYmZiY2RmMDBlNWJmZTg0OTVmYTk3NyIKICAgIH0KICB9Cn0=",
+									Signature: "joFclBLPYQsbzf7NPFgJXUkUPF0B6CVEeVBa8EgcQ4utwJL8WNRyXPL7lns4zBuCdVzSL9SaLtJ63Co8fRb/h58aLzcMaO68/IroUAcJ3Rr33Q78SscN9ovdN5l1ZoxKMCeym+q74Aw34ofs5Q4xxTv+tLIIcmwd1KvsVC5WEqiT/Vv+/dVi+Q47GKyg/mPwxXsDjuDaBXc5fxgGUAB7+OjasMf5KaKSADXb2JI+MKk81Z17tPMj3MLwrioN22RDQfn+DHA2BPRV4eZSGErNqjU0bFd6hQV2FTAlPl0ijHeO2W71sfGCN2TJYekOEC4HopjIcHjKZKesftHiEOn0OjblH63j+sazgca1/yuY7zS4e1iIKJhoHMnGhrEtHAIuA12jpkIEdT7EwubVJ3yWVyPBdQoxkkRQ2z7l5Pl2IqNzDL57SpiSjUMf2d+UrQ7yVVjZb+UnviY0EF7PiMZE666ICQ8qpiiostEeD48w30VHjbRkqBHzmU4O5E4vl5t6tGEhYwcaec7PFvundVwiNvW/a1IsG5DjmIqBzOoTriMp0At7rzqaEqeBjPVEAWV3pd7XSsD2ALlRWhWhCgkSUfyNWs8dGB/KDo5bedBSC8xwj3xDZ7suJdprCZ/Z9qiIxo+kPU7b0yjLEv61wIMb1irLgdjGcT1mW6iEhN7A/eo="
+								}]
+							},
+							Name: "MHF_Cow"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -6.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1719],
+			id: 1960,
+			tasks: [{
+				id: 1961,
+				type: "item",
+				item: "minecraft:zombie_head"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: 2.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1662],
+			id: 1962,
+			tasks: [{
+				id: 1963,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "5ad55f34-41b6-4bd2-9c32-18983c635936",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTIyOTgyOSwKICAicHJvZmlsZUlkIiA6ICI1YWQ1NWYzNDQxYjY0YmQyOWMzMjE4OTgzYzYzNTkzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfU3BpZGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y2MWE0OTU0MWE4MzZhYThmNGY3NmUwZDRjYjJmZjA0ODg4YzYyZjk0MTFlYTEwY2JhY2YxZjJhNTQ0MjQyNDAiCiAgICB9CiAgfQp9",
+									Signature: "v+KtmEU3ZWiMED3cV5VHZ86Jib4ojMPUIvLqkoVDREtV04hakwPoZHLA814Zja2BknEFmmoHmDs3oeKmPAY2z0/61cstnzccd+zoLw5FFBYa8Qv/iUogwdqzF3NeZkJyAoFBypPjRciVhM1YFcDUKMjSnaTTTJYsr5JYWqMg4OArynFLUBifCfJkjdFxiaSJS/0jAF+zFE8uBuTQ9sFO/0qiyIJ/XhlPZANA7QoI8hVxuSzg5nuLRuiX9MA8Ou5fqPKFfo6HZ4OCOdbxXKFlDtHr7MAvX3GAhdkmNTYFp5xWfivVoc4OV99HuwF1TXhmykpjV1BuntEd8pFYJ5VYtk5EXK6d/2NSbiP8J98GEd1qCnDW8J/rWbpnxbtzZpF2Z/o/7gnDGwWvuWrHE6VLKP6ziFblxJwWLcRyNbHRCtP64tSGoCMmWPUpuv7WRcmR0VeImTCHAHhpkpoCJNj+82kxliwKeXqreYE6NY5SNW48B1m4nTUUuYKSpvzvoH9qAx4nn3uHGGN6IBkfQe1EZDZcUepiJ2OvIF3w5yRepBEmiWPAmBypW/YjmDwZtJzJp/bg/k/4SMfozQWhNYhaBHIp/ctaQoUgkRjIzNcnZ33EDfpg05351DqMTzI+IxBnKOLPFCVOhvbc6efKBGfkANUul2P+YrhHqBmqpHyNyIA="
+								}]
+							},
+							Name: "MHF_Spider"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -11.5d,
+			y: 3.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1453],
+			id: 1964,
+			tasks: [{
+				id: 1965,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "cab28771-f0cd-4fe7-b129-02c69eba79a5",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTIzNTM3OCwKICAicHJvZmlsZUlkIiA6ICJjYWIyODc3MWYwY2Q0ZmU3YjEyOTAyYzY5ZWJhNzlhNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfQ2F2ZVNwaWRlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83N2IwNzA2M2E2ODc0ZmEzZTIyNTQ4ZTAyMDYyYmQ3MzNjMjU4ODU5Mjk4MDk2MjQxODBhZWJiODUxNTU3ZjZhIgogICAgfQogIH0KfQ==",
+									Signature: "fXf78fVsj4XKffllHoAU+J1Ix8hIoI8HRw02XghCfH3n1Pl2KCQj9yjIiJvUbcJqgzEL5lLtZcnR9xEP0zFcn4ZA/VavVE3HvkfNxy3wGwcifGlI/mQ8PuIbQFj0N84KqB/fYthEBUPAseiPBYzqU6zMvE5wpBxZ4FUizExE57ubkBYerE+GhKRMhL6nSdviTNWLIqpRha2GuniXM3hAhCGEvoiNV2zfw33A5E5nf9RcL+33NYsjV3DBVQMqvsOEWpS0V3eUU0q+OOhOJXSBtzO4bjD/zbIIsUSfUuj1TuA/Szy6yQWjbEz28KlNPCepQttWbd0hlcNztJiHrNBUFHbrtuWWywPVhNMLZYH1YX8Sfr6wUPYSSer88/3F0pCivwo+scGxY5plofkhE7eqihg+Ba+t1rmjKLO8X+UDkB1Pdxb39ySwOMUrc0MLftiMIoIdnJ/rvFn+t1dLYI1iQBXqvuBwMJQ8bfhuURmGMhtabheufaM2Me2ThkXP8In1d6YPmiNsVFPEXeCzprGXSkfTXpsk/fB/XhsZ48qL3guNZi0LgrdY9F5TP7zAnT/tlWp49ohdkteb0FTXiO5n487CmWghaunVf1x2pxDjh/hdIKvlU7HGU5bnYUCYy6fPIT4mRC85v2eKPZKZdffXpm19T6Sm6PPXrvPrIjk83kE="
+								}]
+							},
+							Name: "MHF_CaveSpider"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -6.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;2044],
+			id: 1966,
+			tasks: [{
+				id: 1967,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "40ffb372-12f6-4678-b3f2-2176bf56dd4b",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTM1OTQyNywKICAicHJvZmlsZUlkIiA6ICI0MGZmYjM3MjEyZjY0Njc4YjNmMjIxNzZiZjU2ZGQ0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfRW5kZXJtYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWIwOWEzNzUyNTEwZTkxNGIwYmRjOTA5NmIzOTJiYjM1OWY3YThlOGE5NTY2YTAyZTdmNjZmYWZmOGQ2Zjg5ZSIKICAgIH0KICB9Cn0=",
+									Signature: "dT7KujlAdobLmA6jwY1ZRoJMBIKFEoAL6rtM2WcyRailFmwnXqA8kn/duve4kT1Ib2IB7V7vV5AWuIiHmBj2QiAbq5GCTczoiJJYyzae/VdLvJQTJ9fGlHItJu7qzTMPKUodRL/QirKH/rC769JBUxSwKhkJ4DObSwvSEsDsavRsH6kDv2qucX/NKxFdGZr2pkBkYUYRf912/9TeVTKr6WmnT4FT4r4pGfk9ssPzi7wqVuu+KmDYtFW7MA+TT3XVgFXzGXKennIMdhZ0dP/PgZGkZV0A52fcZxPb3/DsH3AvJVcdLUGiJVhml9WM//coMTyQRCZK+D/7fj8uGlqDZ0CPw2DmJLtt+0aTp0hGJMKFNyvoR7dfJvtXINNu4Gmq9xXr1u2pIQnM+Posmtz/p3sN9HOGkXZuEOGFKSSXun11czQgcPhIbefyakCkv4+aMaQZn/O45Gbo670BiCUrkX/zWiBvqyvopTOPYHAtKfN64vuJWJWtY3H3cKd5E3+zLLq61dkulyWeto2WVR+beAe1H2ine3Pwp3l28yUQkZ+9UCcqMYl1M/iKqP7NPDs8a6mjx0H6Uui9RDM7DpGGEHDlv63a+4dTm5sxUSQK4vpZXzfUDfHtO5M9LLoGqdeEbJEGyrKc49UtXlduKKcxespgcDX32HSA1xrUJVe6vRw="
+								}]
+							},
+							Name: "MHF_Enderman"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -27.0d,
+			y: -6.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1911],
+			id: 1968,
+			tasks: [{
+				id: 1969,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "757f90b2-2344-4b8d-8dac-824232e2cece",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTQ5MTAyNCwKICAicHJvZmlsZUlkIiA6ICI3NTdmOTBiMjIzNDQ0YjhkOGRhYzgyNDIzMmUyY2VjZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfR29sZW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM2Y2Q3MjAyYzM0ZTc4ZjMwNzMwOTAzNDlmN2Q5NzNiMjg4YWY1ZTViNzMzNGRkMjQ5MDEwYjNmMjcwNzhmOSIKICAgIH0KICB9Cn0=",
+									Signature: "gG0oXlz78Tlwz55TEtL3rK/nQ6+idHPathpO7Si3Hhadt/Na8d5irnCCVciTWvXdIr5QJTHHHx8fqK+5dKtHtBVXBXOiCLxkKNnVpGK5DptY5wJJueF4aHCCnCpjtLt4Yy4BlKgMw5M20Q0K9HDD5jAiBBdLBC+z0Qjk2Zjq61AFRdqOKKVMWzH0lJhP/lsnmsaVQl+opXlvPa9aZeim+Ib8/19Ycgy9r+G+HObjXoTdWwToA4+Ovboy/Xkl9Wz0c8d6qwAcfuyIH4AdVjfmT02oZ2pM7m7GMtwNZBKrhIeIxcH/aVOQiLSyzKHFxlGHaiNiH/Ldfn+fC2Y3/RhI2ivhzlU8W2BX6so/onAxGPCHB9XZD/PXS15lAzI/npyUCZQcn/nt2UrZQH3IZtcptXFbVQwhAvf7L+KaF1Z4UbsDd2Jz2OwhzgGaitafS4EDAURizsguTqB6W+phgiff0jGKD2Y08u/fe7oH/V8V6xBcq6tqRlSID5k/umKHwzq2vGSBF10dPC8v/KWbsoUy1p1U5r8mZGMjgJp6/sZHkjU8Meco+Jfd0q3jodnzeptPKBpdzAMkGANxwL6wb1fxvMkcsM53QQASbr2ZBJ321VjICtQNrAEI8yIYZTszZ4JAF3pX5YoVzvRHSq2yiLHx7SyTpgdK3dqsPOKfl7dMpOU="
+								}]
+							},
+							Name: "MHF_Golem"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -19.5d,
+			y: 17.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1897],
+			id: 1970,
+			tasks: [{
+				id: 1971,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "92deafa9-4307-42d9-b003-88601598d6c0",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTM1MTgyOSwKICAicHJvZmlsZUlkIiA6ICI5MmRlYWZhOTQzMDc0MmQ5YjAwMzg4NjAxNTk4ZDZjMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfQ2hpY2tlbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MTZiOGU5ODM4OWM1NDFiYjM2NDUzODUwYmNiZDFmN2JjNWE1N2RhNjJkY2M1MDUwNjA0MDk3MzdlYzViNzJhIgogICAgfQogIH0KfQ==",
+									Signature: "R5zjGm9S089w8ZibSG0TqBUXxBsHOYwBmgBo3mlBGgMKOaFtuz92NZcMD40ZeGyTLylZTG0tvG4M7ArgYboeGhdV/iDoBpZtOJN0bhqmdIyAOAkNTEsF7wAYfWDGk6WOq4N2+FhXwRqL89ZM6oHVW+xzSXdTSbED92Ur4ku579hZrSpGSu/TgLQQZU1mXEBW0iGOuVICLa8jl1alC7DjOkgZJpM93K2mlRJPK3aejjRXLaABhwbRjWBNayVlm8k5gkXHJBpCOqDvr+Nifs57P++8/KnZS57R3173CG6Y2+8ZtOQb1pXkcTMHZ7PY4Lr708vmEAnQmrFZMysjCAzyXJ7VLN19ojwZSmOyIiQIbd2+qk9cLrEcHdnoR6hGjJQiCEE7CUvhD62T0pPex/QUk06SHhfx/xWcZVqrql8f7MpHzB9/1JcPVAvFyYBsTzEky0mjWY3Qz9dxHzDTSdAhyatISOF9Row9QxKdRJr5/Jlbm0KB3GeIqaSpWJByWFaMXHHlGpwZKLCXzbsVQ0pmL8uA4C6pqqPngZZMxm+OxzGOZt0AJGbHDTBZPwqEZst+0LRa2hxMy/u6s8FAg9AwKnAKk6sRnDk9j0saCjRRYmaLXgXqWeiieUdJOsw7gZEQLUwsitnYkmnJ2maGxdmEmvSwOzNlZSjD+J6A1SD4JbE="
+								}]
+							},
+							Name: "MHF_Chicken"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -3.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1943],
+			id: 1972,
+			tasks: [{
+				id: 1973,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "0972bdd1-4b86-49fb-9ecc-a353f8491a51",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTU0NzMzNSwKICAicHJvZmlsZUlkIiA6ICIwOTcyYmRkMTRiODY0OWZiOWVjY2EzNTNmODQ5MWE1MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTGF2YVNsaW1lIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q5MGQ2MWU4Y2U5NTExYTBhMmI1ZWEyNzQyY2IxZWYzNjEzMTM4MGVkNDEyOWUxYjE2M2NlOGZmMDAwZGU4ZWEiCiAgICB9CiAgfQp9",
+									Signature: "EkL/dDGDlwZAJwA+FoPo19kWAxaeGfjdKyNAeIbwHQuqotU3CO3Q/GQhr7jEnNjQt7IjulNxtL6pntZZzdWvD7vw14yiX+BH132q2b7Qjwy9hslegpA9Dp6jh2F7kuSgRCQ9epfwIc5aursW31/VNkImlne1QJ3p70Eb8ylcXnhNhzGSTTqfLnwz8OowCgJXED8KPNi/dFHpPMvWbFCAYrwIQrxscy9Anzd8zq3UjCNyDzSpvP7QfkqYDTOdvg71v2ZmjGyDR2fLdsgY7hSZoHFC5EGY8QgBZLq2kKFmZP9RkpJirDjfGOqZAZ6ByndEKpxrfWc+UyZ1TiKTFeqbSVSIurZVpcwRsobwO9YIpGCWx3r5HEgr1EGSRb285RbSk9v7NQZwj0CaxZ+I5RsDsU8mN6wYWOxcXcvIy9Uh9AvsZhSCyWqDVXT8vAU6EI7eq8f2Ne+kE0a4M/5hXhCB9ew8X36YgNgQWfl1Fe+kDgor4i3A3PJNVJbByCIogC3H0ObG6vCkWBwU6FJl4HHLYMsLiWW8OtON0GB+naTd+ZTRRuPLOT5KOcjOweR+LezqA+6bzVIQ4yR1yvERMCwzoDnB4eiCwMTxNaRuPhEZuWHQcaR2QpqbKngiGgbxiDLTBXBGvHONPAIXPOrI6oKLOXn2oDzPPWl9cjuQoGZK2so="
+								}]
+							},
+							Name: "MHF_LavaSlime"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -6.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1923],
+			id: 1974,
+			tasks: [{
+				id: 1975,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "4c38ed11-596a-4fd4-ab1d-26f386c1cbac",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTM1NTEzMSwKICAicHJvZmlsZUlkIiA6ICI0YzM4ZWQxMTU5NmE0ZmQ0YWIxZDI2ZjM4NmMxY2JhYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfQmxhemUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDA2ZTM0MmY5MGVjNTM4YWFhMTU1MmIyMjRmMjY0YTA0MDg0MDkwMmUxMjZkOTFlY2U2MTM5YWE1YjNjN2NjMyIKICAgIH0KICB9Cn0=",
+									Signature: "hpoAHW1lmxeOaPqF2z7wRowsjhWBW8wBC6/A1YkCsNgsgm4m17ZK7ZT1B1Bt3WXpPXiPyQrYyU3EuuNU7M5Pavl1vs8d07pxiyCnz7M6wtUTLhVyXnD5FWaBvcpZkdj0hQoNhzlbjLCJDdsfdIcSVivV6H649ab/IG0xduwzkyBLSPn7cCAVIT9NsamVLcUsR46O/V53p3uaCWctwVDmgRfrk72bz/Zh1aE7x7IJ9M7vfCMAa3ebPA1QbHWVy7HSZoFhbdhOQpbvuIZn9RWaxHywTUSwzZ3kAlXTkqjS21D/DU09mSzos36q3sqExYnc1zLys0qcD3yCtcedvDLfmfQbWizkbQXuWzdQJ8YI5lEZmLkK3pEqFnSuctpMMahkRFgXsO3rxk2AATTRoYAOn03PGchvLYsAJ6HsJlrlxMNKqE6x1trUHPjxNnKNwL0eFbvIkOHAgeemlotdo44kftlJlgyJv6Zzi20aJm/yp7PWnTPNSLN03Y4LLU7HacyjJZ0TxImAu7JbbxMuoYsITmGzUBxGiXenID0PlrNp9Wt++8uKZ+k368tNB7GvLKqZJSSfCzP/rlfjnXmF2DDfu8/vHZTDO2SQfNt48fed9HsIkjP0Kn4bi9i46tL8TU2+7nyODeiJ5Y8P7e9LoHYcoMv2yaDIus01p+TEd89kOjc="
+								}]
+							},
+							Name: "MHF_Blaze"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -19.5d,
+			y: -1.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1569],
+			id: 1976,
+			tasks: [{
+				id: 1977,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "dfaad551-4e7e-45a1-a6f7-c6fc5ec823ac",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTYyODA1NCwKICAicHJvZmlsZUlkIiA6ICJkZmFhZDU1MTRlN2U0NWExYTZmN2M2ZmM1ZWM4MjNhYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfU2hlZXAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2NhMzhjY2Y0MTdlOTljYTlkNDdlZWIxNWE4YTMwZWRiMTUwN2FhNTJiNjc4YzIyMGM3MTdjNDc0YWE2ZmUzZSIKICAgIH0KICB9Cn0=",
+									Signature: "RcAhgUAbMzJLX7MSFklQp0wl0XtUFry0QadTVJfc0NUZ8PY9WdezhdIg+hD1lO/RV+37kRL9CotqjrjOysyZOnlILQmt2oHhgtkE8DLugzAY827J57DNLPgRLk9H8WxSV/6huH3soAr9pXphEN3msutMwIa6Itc+vqpfAtFkQys/RpxudeY4RPbHaOiNq16fmngw04NysaGkYfgE5hZxff9N5xrO+oiZZBfGxXkz1uCTxl5PWTinXuRhtrSo1aNCjFI8czb6/SefBuHVuMLVcJIpuhooux0Cm2oIFG6WQ6fXa+KCVYCZ9XDCdYR37D+pdakujN8ZIclPxPanhE89F7fMb6Ce8015G1vIYjrplpTaJ1sn2CQpcqy0ul88cOPweLtA5d9dWKGo6oQjF/HI4rPi461nYUDitjDhenqle6wYCF9zdSPj42U7AcM3+Ni7+etP+xdDo4l8owifAUOBo/GaOd4ueWvC+lLxGMC+8LouMiz0ergCsPuobEJB3LLcVhLWcSJxeNiBy6Q/5huGk8RWv38bv66L5Iiaipl2t6+8eXt2mjuQuc9dBLYI2WgcHfNpo49ypERssgvoMAi6e9WNcs+IAgIDMAoRquC4Jb0YELTSaRfAplx/ZqEVFuRbpM55bojuoZUn6ysTV97mLjpZLywVWiktyREEuRGmaYk="
+								}]
+							},
+							Name: "MHF_Sheep"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -19.5d,
+			y: 0.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1608],
+			id: 1978,
+			tasks: [{
+				id: 1979,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "a46817d6-73c5-4f3f-b712-af6b3ff47b96",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTYzMDgyNCwKICAicHJvZmlsZUlkIiA6ICJhNDY4MTdkNjczYzU0ZjNmYjcxMmFmNmIzZmY0N2I5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTXVzaHJvb21Db3ciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTIzY2ZjNTU4MjQ1NGZjZjk5MDZmODQxZmRhMmNjNmFlODk2Y2Y0NTU4MjFjNGFkYTE5OThkZTcwODc3Y2M4NiIKICAgIH0KICB9Cn0=",
+									Signature: "nO31hbaFKpktLAAIVJsghYbyUTSQ1vfUxd4vspoSsePM0oOaSUExv74Dxp+hzjo9If0fLEsq8rpOwoJQ7EjdTSDzVjv6krUKsxQXvupialZCq4twr9VReEmH95MUFkl8trVsAwZ1exTxtwyHeE61QAvr/QJG5FLoov/w/qSnEzSaC2wa4cpZrd3zUqqJMQYqb2hrH5nz/RRuosmIuZ5VJCWPaVuMRtURLCAPuKkEXFekWuDTIWjwBivBAG1jPVsTo0f/+x/VPLaPpSwYsW6TjZSgFFikwEqzamUttcAKhAUKyLs6lJ/LTAviSCW0oBrSCcznaVvvpM0tu66fnugT24RyJSRsqG3BbTdJda9BO0NtBpmvTNKaQu/+fu5fyiw/ffKRU71pYHGGCDBpmm7XPB0+QDg33tiAIMBb0Loe3XcxReHpHly5Cdjco0DslcIxEm57qMznZBMy1LxK5qIylWgzvjykTYHbUVazUTqJiXd8kvo/qEJfm5XkeH1OtJ8pnlNUz44xT0uvApEldG0x/Q+XCBJojplSfyC6U2l969EQpd5kp8YmCwGaHmtddk7G3oAzkU8g2v57MeFUI7+MHCfQaZIg9jbCPOZ8qHYzWJgazCBdKcGPluohyPrsYhSfHDli1RwdwDtnOJqHtBAE86WFTMDpiMExRO5vAfcXK6U="
+								}]
+							},
+							Name: "MHF_MushroomCow"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -19.5d,
+			y: 6.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1680],
+			id: 1980,
+			tasks: [{
+				id: 1981,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "bd482739-767c-45dc-a1f8-c33c40530952",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTY4Njk3OCwKICAicHJvZmlsZUlkIiA6ICJiZDQ4MjczOTc2N2M0NWRjYTFmOGMzM2M0MDUzMDk1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfVmlsbGFnZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRiZDgzMjgxM2FjMzhlNjg2NDg5MzhkN2EzMmY2YmEyOTgwMWFhZjMxNzQwNDM2N2YyMTRiNzhiNGQ0NzU0YyIKICAgIH0KICB9Cn0=",
+									Signature: "tZrP6jHo2ySrGRFtLJpoy8ijMvTGNeg2TBGcys1ws5iE2qdlT83CQLbGqnKtOz4+IbeJ47jbmxeV371Rjin3jq0UyOlPcwGZruJncCvPMiSGI9w6wKxXHmzP0o7+HUWlZi8+17ltD7DB2o6UFOKxp8VVecVLfWT8/e3sqTXQ3TGBTWCzwULHfQOZoDU38NDsJVR5CgNW6KFIJwamd6IPWJEtZoE3AxZ9Aob+iBS/uii+iMt7d9TfMWrMNTIicD51Sj3wfDnM4ImRYt2y/O1y6Vk7YeBZSgddQ4Y1dqTI82e1dn+orVPs0beB+5k4ivKfQYwFFi12TXjoO5vizlS60NnKNmOj2LZIiiCWZM/yvbOKWOVoXqQ11jeJeNeWv5QsB4c+BHTxeqx2CpucVVIjNvH4eGPQj3S6b6UDIxPJ6/LzvuVFkAeQ2Dik+cCx181HeI9UBnwz+BiwRfNyyliQtKJwibIvG8BndccNs9LwBWHIzdV0ArrQHc8tbzkx46ZHG/9TztPKHLOD9qTEn6+3KSU/84fLKWoLfPWnnTMUQcEYPSGTilzLFibPQPDnfTTwztwjMRHW3dP5ymhDp4VENEL3dereRF+d1JFBzUbO9nTIuKeeRDmQtw6NfW24U4grcxoGR7YYFI4RgPSi+UB1Nh93KYuYdA0sB72wZGtv1+c="
+								}]
+							},
+							Name: "MHF_Villager"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -19.5d,
+			y: 9.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1715],
+			id: 1982,
+			tasks: [{
+				id: 1983,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "8d2d1d6d-8034-4c89-bd86-809a31fd5193",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTg2MDQyNiwKICAicHJvZmlsZUlkIiA6ICI4ZDJkMWQ2ZDgwMzQ0Yzg5YmQ4NjgwOWEzMWZkNTE5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfV29sZiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82OTZhNTM3YTgxM2ExYzE3YWI0YzkwZDIxMmI4MGQwM2IxYmFmMWUzY2YxNzJmNWZmZTAyYWZkMDUzMmZjY2VmIgogICAgfQogIH0KfQ==",
+									Signature: "S8TsQWJjLKfT9XUwM2W6TeEDXMoiMlIIwNURYz4Z2Fs63FY+66co/jDp+s/ESCQdvCCmBeYaJvBE35yLo5ivXl5+vcUHIPlBzIIcjVUWNUabdwMv/2KwDOkJJ1QZOV5iMdUZDU2a2lxXu4OU9FuqDLdnyNJTBrwSd9Dc8I4pRcoioNZQn1SmaFGPEJZ3seovD4cCvv5DVk6qhquEOdod/7QXnemewp9b/wVIFmUpRT482H9AgqQeCtJg8QF2LnqSlFfLOFJ/S9NMHbO+SX8tGnEfD/QbSU7FoicsJ9Ln93naT2IzBGHAX8VQqf1qIaDzobTbeWOjhhDZNrgCymCR9FoZK9Fhkx60lo9mKM3aEQrQ5DRTWeq47dath1nbLfYzXqnTWs+Ka0WdxcWsG0WgYbV+rM4dd1DURCwiJ/ReMkBLWs6fApx3vYaOMnjgp8N9voMxpaoMILJ1a8TWYdUakOdIJS1qj5dTp8uSyRtvrWlN0/ljnaXx031yKMNbLL/b5fZmRoQlNTJt00W65q553vDCRZZYasLgzZzTBbZjSqujq/qDAYzgv+p5Ls9KF7emZ8j3edszGmx+gbpgGf2Ad8Dm6batRW3Fi1NWzBUURr1bxTstBXCbNshosCB3O/t3KvnBul/7K+j4HcDxy80PtfYg7vg8MFGsA2xmXEdtyEM="
+								}]
+							},
+							Name: "MHF_Wolf"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -19.5d,
+			y: 10.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1513],
+			id: 1984,
+			tasks: [{
+				id: 1985,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "1bee9df5-4f71-42a2-bf52-d97970d3fea3",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTg1NzY2MSwKICAicHJvZmlsZUlkIiA6ICIxYmVlOWRmNTRmNzE0MmEyYmY1MmQ5Nzk3MGQzZmVhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfT2NlbG90IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzExOGI2Yjc5NzgzMzY4ZGZlMDA0Mjk4NTExMGRhMzY2ZjljNzg4YjQ1MDk3YTNlYTZkMGQ5YTc1M2U5ZjQyYzYiCiAgICB9CiAgfQp9",
+									Signature: "MDm4idwu/8+YSeYrFz13XJF8pOFwrBmYqgx/9ude6YWONXQyVsq6YC9DShSfB14GzIoOR0qZ/ZIuPhHTBeoASAm8TMETT3VNnKfCVr2+3G2q4jKLJfYlymGtsNeeooXuiSzfflFNcl1iTXWQrrLhqsyn3E152hrwafj6tl73b76Fr+hR2L7PALK5+vKy6lx7hq5kDzylOAKsW6Oc9wGxAPPFFMRzZUoyPcSjIwlv1AZjityvAcPDJi02sDAUU+SXkftPUt6NNzhCT7BxHFo3w6Bp3mXG14y44GfV8ktDApMoOSvGC4/aBJwmg4iVFyQFP9IHM57oLKvPmKW8gWeHLKDo6nW5Rofn3Unqpvk6AV1fOonDoTF4tzxNVpbBtfmHIgkP0N+7TpzsM2W/OpbMT7qzqERI+1yr7MuHz3/Uuzb5kezu9znNt3dDLV1nu0dWbkMDYyvOwyegc6cL3ZvqrtQyj76dOCEL4sYZ8aTa/etrr6LWGVbIPIZX3r8SJKYDdwNfuA+xnLkTtHf3doOcj+z86dPoXJTDn3+S+8r719derixR0eE5BcwMnrN6tafwVmCUhS3TTNPi9j/iyXfPJVuG8ZmLY+M1yb4VGk0rInDaRPjtyGoQLNUm/z9NoPbb7rXkPOu0dJTArqHJGcpC3HEpVgpRLs+c68TCSGeN1wk="
+								}]
+							},
+							Name: "MHF_Ocelot"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -19.5d,
+			y: -0.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			id: 1986,
+			tasks: [{
+				id: 1987,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "8b57078b-f1bd-45df-83c4-d88d16768fbe",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTg2MzMzMCwKICAicHJvZmlsZUlkIiA6ICI4YjU3MDc4YmYxYmQ0NWRmODNjNGQ4OGQxNjc2OGZiZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfUGlnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E1NjJhMzdiODcxZjk2NGJmYzNlMTMxMWVhNjcyYWFhMDM5ODRhNWRjNDcyMTU0YTM0ZGMyNWFmMTU3ZTM4MmIiCiAgICB9CiAgfQp9",
+									Signature: "UZiEMCur3EyRZoN4ag5Bh4PM/qporDJVk2HaEcpgeACNQ86A/Ix2Modx7rt5InKaBLCYoB43gWl3x0p2l9yjLfO8aHHCN9oZ3Qo73AjNQkTCbbu/+POhbgnq2DyWZzYfLR4DK1ZQvXQwdUDP7I+ZwKvqNgp625eG9dgZp1NVWXHLP2eM4iaCqCEeznSL+xxqI7Oc1MVg+Cae6PnquUWHCiYn0zFe8wal/vJlqw5VpfgSRrtdBmhIuulSeUp93swtt5JCpyORiNez9HKjeXN+Q8Me5xj6qBnfOebm2OG8jrY2mZfn6cp6PmG8ClmXDJFbn5lj5S5RPXk2ep9FtE4ugUxH53XlfxV4ClNp5CNA9v7IsgcDfFjU/6WaJ2blFYdzNHh7pNJxFQA/kCQLldydP67vcZgu7dJgvHk+eqypqwZ3La9d/XToYF4V4t7iNkjX4yRNO7jsd/AGHUdzEzXI3tWyh6Pkg65FGOu5Da1wBmH2yoPlCtam90ajf+G1yDtOOj1WRaZ/1tBr9FsXmBK4K5Lm+4ilStao0fIOti3jsKojIpqT+bvRXtLlgCAAZN26jP6iBrxi3aJkUeGN3TPaM3h58rSu3VWNo26/XAcrg4/FnaHOM3oNjRPX3fOpG28mbkRhXDVWUdpsFBlIcEr7x5fvWLJdJBClooKj5etKoTI="
+								}]
+							},
+							Name: "MHF_Pig"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -24.0d,
+			y: 3.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1668],
+			id: 1988,
+			tasks: [{
+				id: 1989,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "72e64683-e313-4c36-a408-c66b64e94af5",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTkxMTE0MSwKICAicHJvZmlsZUlkIiA6ICI3MmU2NDY4M2UzMTM0YzM2YTQwOGM2NmI2NGU5NGFmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfU3F1aWQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU4OTEwMWQ1Y2M3NGFhNDU4MDIxYTA2MGY2Mjg5YTUxYTM1YTdkMzRkOGNhZGRmYzNjZGYzYjJjOWEwNzFhIgogICAgfQogIH0KfQ==",
+									Signature: "vJTbllglwQKC0sL0luoVCAQcXpIhgP9mLPSRcD1hxa72zgOyqFxluCRwqvB7VEyv1gDJH2+TOaf62Ry66m5KFrNf+mMziosLrP6NB2isvyAJk/g8ZNg2/0edBgQQfm1KFvjx2UJlLXf+4DM5Zk0M6H5eaK8TYiyUp5erjKvDQs44MrJPrVkvWAF2UzFzxj8Bnf7ytMslytHWA0USp2NJVQV1BjWTkb60pnzU3RGgHow2tJOOzxYWnQClHiEdBWWtePsW+YQj70HVZPMq7JyLnWEYxmXGAi8f4aoZhP5ISCFrzEpdt7ggP4rBdLLw0T9Zwy2ZXO42DQ446iNlDxY1NgfKgoQ97Dbu3ci4iX4YwKEBtwLC1o4l3jvUjs8Rp+NTlSc15kS0PKK0StTsSISIsGuFsFVErm9PXw/qwRIDN7t9TdshLXzb8RqVW1BfBZ1NiHpD1lWzPDd6IeJ+8rncZRGTMF4vPy1cXnfV8kZJhwjQfjdwTy16eFvdAuPh/PiZnf0aP5FEqvUGFuqhS4hOke1plMQ73pvcHhYy4d5jSVuII7Xpk4/k41EYEaoQe8tmXjA69Jb/MT9eAJ5VJA20V0ek/vZKFY9djG8lAbu1A4Wiojj9XnEgqnuOnFPOStRHv++3HLBrJW66xTeqzHN4tYW5ASdVZ+Xjf0fW5td+I7c="
+								}]
+							},
+							Name: "MHF_Squid"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -19.5d,
+			y: 11.5d,
+			subtitle: "Requires the Beheading Enchantment.",
+			dependencies: [I;1447],
+			id: 1990,
+			tasks: [{
+				id: 1991,
+				type: "item",
+				item: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "1bee9df5-4f71-42a2-bf52-d97970d3fea3",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5Njk4OTg1NzY2MSwKICAicHJvZmlsZUlkIiA6ICIxYmVlOWRmNTRmNzE0MmEyYmY1MmQ5Nzk3MGQzZmVhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfT2NlbG90IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzExOGI2Yjc5NzgzMzY4ZGZlMDA0Mjk4NTExMGRhMzY2ZjljNzg4YjQ1MDk3YTNlYTZkMGQ5YTc1M2U5ZjQyYzYiCiAgICB9CiAgfQp9",
+									Signature: "MDm4idwu/8+YSeYrFz13XJF8pOFwrBmYqgx/9ude6YWONXQyVsq6YC9DShSfB14GzIoOR0qZ/ZIuPhHTBeoASAm8TMETT3VNnKfCVr2+3G2q4jKLJfYlymGtsNeeooXuiSzfflFNcl1iTXWQrrLhqsyn3E152hrwafj6tl73b76Fr+hR2L7PALK5+vKy6lx7hq5kDzylOAKsW6Oc9wGxAPPFFMRzZUoyPcSjIwlv1AZjityvAcPDJi02sDAUU+SXkftPUt6NNzhCT7BxHFo3w6Bp3mXG14y44GfV8ktDApMoOSvGC4/aBJwmg4iVFyQFP9IHM57oLKvPmKW8gWeHLKDo6nW5Rofn3Unqpvk6AV1fOonDoTF4tzxNVpbBtfmHIgkP0N+7TpzsM2W/OpbMT7qzqERI+1yr7MuHz3/Uuzb5kezu9znNt3dDLV1nu0dWbkMDYyvOwyegc6cL3ZvqrtQyj76dOCEL4sYZ8aTa/etrr6LWGVbIPIZX3r8SJKYDdwNfuA+xnLkTtHf3doOcj+z86dPoXJTDn3+S+8r719derixR0eE5BcwMnrN6tafwVmCUhS3TTNPi9j/iyXfPJVuG8ZmLY+M1yb4VGk0rInDaRPjtyGoQLNUm/z9NoPbb7rXkPOu0dJTArqHJGcpC3HEpVgpRLs+c68TCSGeN1wk="
+								}]
+							},
+							Name: "MHF_Ocelot"
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -5.5d,
+			dependencies: [I;1925],
+			id: 1992,
+			tasks: [
+				{
+					id: 1994,
+					type: "item",
+					item: "minecraft:coal"
+				},
+				{
+					id: 1995,
+					type: "item",
+					item: "xreliquary:withered_rib"
+				},
+				{
+					id: 1996,
+					type: "item",
+					item: "minecraft:bone"
+				},
+				{
+					id: 1999,
+					type: "item",
+					item: "minecraft:wither_skeleton_skull"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -2.5d,
+			id: 2000,
+			tasks: [{
+				id: 2001,
+				type: "kill",
+				entity: "nethercraft:tribal_archer",
+				value: 1
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -1.5d,
+			id: 2002,
+			tasks: [{
+				id: 2003,
+				type: "kill",
+				entity: "nethercraft:tribal_warrior",
+				value: 1
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -0.5d,
+			id: 2004,
+			tasks: [{
+				id: 2005,
+				type: "kill",
+				entity: "nethercraft:tribal_trainee",
+				value: 1
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.5d,
+			dependencies: [I;2000],
+			id: 2006,
+			tasks: [
+				{
+					id: 2007,
+					type: "item",
+					item: {
+						id: "nethercraft:neridium_bow",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2008,
+					type: "item",
+					item: "nethercraft:netherrack_arrow"
+				},
+				{
+					id: 2013,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: -0.5d,
+			dependencies: [I;2004],
+			id: 2009,
+			tasks: [
+				{
+					id: 2010,
+					type: "item",
+					item: {
+						id: "nethercraft:netherrack_sword",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2011,
+					type: "item",
+					item: "nethercraft:glowood_planks"
+				},
+				{
+					id: 2012,
+					type: "item",
+					item: "nethercraft:glowood_stick"
+				},
+				{
+					id: 2014,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: -1.5d,
+			dependencies: [I;2002],
+			id: 2015,
+			tasks: [
+				{
+					id: 2016,
+					type: "item",
+					item: {
+						id: "nethercraft:neridium_sword",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2017,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: 0.5d,
+			id: 2018,
+			tasks: [{
+				id: 2019,
+				type: "kill",
+				entity: "nethercraft:camouflage_spider",
+				value: 1
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.5d,
+			dependencies: [I;2018],
+			id: 2020,
+			tasks: [
+				{
+					id: 2021,
+					type: "item",
+					item: "minecraft:spider_eye"
+				},
+				{
+					id: 2022,
+					type: "item",
+					item: "minecraft:string"
+				},
+				{
+					id: 2023,
+					type: "item",
+					item: "xreliquary:chelicerae"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: 1.5d,
+			id: 2024,
+			tasks: [{
+				id: 2025,
+				type: "kill",
+				entity: "nethercraft:lava_slime",
+				value: 1
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 1.5d,
+			dependencies: [I;2024],
+			id: 2026,
+			tasks: [{
+				id: 2027,
+				type: "item",
+				item: "nethercraft:slime_eggs"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 2.5d,
+			id: 2028,
+			tasks: [{
+				id: 2029,
+				type: "kill",
+				entity: "nethercraft:bloody_zombie",
+				value: 1
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.5d,
+			dependencies: [I;2028],
+			id: 2030,
+			tasks: [
+				{
+					id: 2031,
+					type: "item",
+					item: "minecraft:rotten_flesh"
+				},
+				{
+					id: 2032,
+					type: "item",
+					item: "nethercraft:red_feather"
+				},
+				{
+					id: 2033,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: 3.5d,
+			id: 2034,
+			tasks: [{
+				id: 2035,
+				type: "kill",
+				entity: "nethercraft:dark_zombie",
+				value: 1
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 3.5d,
+			dependencies: [I;2034],
+			id: 2036,
+			tasks: [
+				{
+					id: 2037,
+					type: "item",
+					item: "minecraft:rotten_flesh"
+				},
+				{
+					id: 2038,
+					type: "item",
+					item: "nethercraft:red_feather"
+				},
+				{
+					id: 2039,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: -5.5d,
+			id: 2040,
+			tasks: [{
+				id: 2041,
+				type: "kill",
+				entity: "nethercraft:imp",
+				value: 1
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -5.5d,
+			dependencies: [I;2040],
+			id: 2042,
+			tasks: [{
+				id: 2043,
+				type: "item",
+				item: "nethercraft:imp_skin"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -6.5d,
+			id: 2044,
+			tasks: [{
+				id: 2045,
+				type: "kill",
+				entity: "minecraft:enderman",
+				value: 1
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -6.5d,
+			dependencies: [I;2044],
+			id: 2046,
+			tasks: [
+				{
+					id: 2047,
+					type: "item",
+					item: "minecraft:ender_pearl"
+				},
+				{
+					id: 2048,
+					type: "item",
+					item: "forbidden_arcanus:ender_pearl_fragment"
+				},
+				{
+					id: 2049,
+					type: "item",
+					item: "xreliquary:nebulous_heart"
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: -5.5d,
+			id: 2054,
+			tasks: [{
+				id: 2055,
+				type: "kill",
+				entity: "minecraft:endermite",
+				value: 1
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -4.5d,
+			id: 2056,
+			tasks: [{
+				id: 2057,
+				type: "kill",
+				icon: "mysticalworld:endermini_spawn_egg",
+				entity: "mysticalworld:endermini",
+				value: 1
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -4.5d,
+			dependencies: [I;2056],
+			id: 2058,
+			tasks: [{
+				id: 2059,
+				type: "item",
+				item: "mysticalworld:young_pearl"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -3.5d,
+			id: 2060,
+			tasks: [{
+				id: 2061,
+				type: "kill",
+				entity: "minecraft:shulker",
+				value: 1
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -3.5d,
+			id: 2062,
+			tasks: [{
+				id: 2063,
+				type: "item",
+				item: "minecraft:shulker_shell"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -6.5d,
+			id: 2064,
+			tasks: [{
+				id: 2065,
+				type: "kill",
+				icon: "endergetic:puff_bug_spawn_egg",
+				entity: "endergetic:puff_bug",
+				value: 1
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -2.5d,
+			id: 2066,
+			tasks: [{
+				id: 2067,
+				type: "kill",
+				icon: "endergetic:booflo_spawn_egg",
+				entity: "endergetic:booflo",
+				value: 1
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -2.5d,
+			dependencies: [I;2066],
+			id: 2068,
+			tasks: [{
+				id: 2069,
+				type: "item",
+				item: "endergetic:booflo_hide"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: -6.5d,
+			id: 2070,
+			tasks: [{
+				id: 2071,
+				type: "kill",
+				entity: "midnight:skulk",
+				value: 1
+			}]
+		},
+		{
+			x: 21.5d,
+			y: -6.5d,
+			dependencies: [I;1523],
+			id: 2072,
+			tasks: [
+				{
+					id: 2073,
+					type: "item",
+					item: "minecraft:rabbit_hide"
+				},
+				{
+					id: 2074,
+					type: "item",
+					item: "minecraft:rabbit_foot"
+				},
+				{
+					id: 2075,
+					type: "item",
+					item: "minecraft:rabbit"
+				},
+				{
+					id: 2076,
+					type: "item",
+					item: "natural-progression:bone_shard"
+				}
+			]
+		},
+		{
+			x: 25.0d,
+			y: 0.5d,
+			id: 2077,
+			tasks: [{
+				id: 2078,
+				type: "kill",
+				entity: "atum:assassin",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: 0.5d,
+			dependencies: [I;2077],
+			id: 2079,
+			tasks: [
+				{
+					id: 2080,
+					type: "item",
+					item: "atum:ophidian_tongue_flower"
+				},
+				{
+					id: 2081,
+					type: "item",
+					item: {
+						id: "atum:dagger_poison",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2133,
+					type: "item",
+					item: "atum:coin_dirty"
+				},
+				{
+					id: 2134,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: 25.0d,
+			y: 6.5d,
+			id: 2083,
+			tasks: [{
+				id: 2084,
+				type: "kill",
+				entity: "atum:bandit_warlord",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: 6.5d,
+			dependencies: [I;2083],
+			id: 2085,
+			tasks: [
+				{
+					id: 2086,
+					type: "item",
+					item: {
+						id: "atum:iron_scimitar",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2135,
+					type: "item",
+					item: "atum:coin_dirty"
+				},
+				{
+					id: 2136,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: 25.0d,
+			y: -0.5d,
+			id: 2088,
+			tasks: [{
+				id: 2089,
+				type: "kill",
+				entity: "atum:barbarian",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: -0.5d,
+			dependencies: [I;2088],
+			id: 2090,
+			tasks: [
+				{
+					id: 2091,
+					type: "item",
+					item: {
+						id: "atum:iron_greatsword",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2093,
+					type: "item",
+					item: "atum:coin_dirty"
+				},
+				{
+					id: 2094,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: 25.0d,
+			y: 7.5d,
+			id: 2095,
+			tasks: [{
+				id: 2096,
+				type: "kill",
+				entity: "atum:bonestorm",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: 7.5d,
+			dependencies: [I;2095],
+			id: 2097,
+			tasks: [{
+				id: 2098,
+				type: "item",
+				item: "atum:dusty_bone"
+			}]
+		},
+		{
+			x: 25.0d,
+			y: 1.5d,
+			id: 2099,
+			tasks: [{
+				id: 2100,
+				type: "kill",
+				entity: "atum:brigand",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: 1.5d,
+			dependencies: [I;2099],
+			id: 2101,
+			tasks: [
+				{
+					id: 2102,
+					type: "item",
+					item: {
+						id: "atum:brigand_shield",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2103,
+					type: "item",
+					item: {
+						id: "atum:iron_scimitar",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2137,
+					type: "item",
+					item: "atum:coin_dirty"
+				},
+				{
+					id: 2139,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: 23.0d,
+			y: -5.5d,
+			id: 2105,
+			tasks: [{
+				id: 2106,
+				type: "kill",
+				entity: "atum:camel",
+				value: 1
+			}]
+		},
+		{
+			x: 21.5d,
+			y: -5.5d,
+			dependencies: [I;2105],
+			id: 2107,
+			tasks: [
+				{
+					id: 2108,
+					type: "item",
+					item: "minecraft:leather"
+				},
+				{
+					id: 2109,
+					type: "item",
+					item: "atum:camel_raw"
+				},
+				{
+					id: 2110,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: 25.0d,
+			y: -6.5d,
+			id: 2111,
+			tasks: [{
+				id: 2112,
+				type: "kill",
+				entity: "atum:desert_wolf",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: -6.5d,
+			dependencies: [I;2111],
+			id: 2113,
+			tasks: [
+				{
+					id: 2114,
+					type: "item",
+					item: "mysticalworld:pelt"
+				},
+				{
+					id: 2115,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: 25.0d,
+			y: -5.5d,
+			id: 2116,
+			tasks: [{
+				id: 2117,
+				type: "kill",
+				entity: "atum:forsaken",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: -5.5d,
+			dependencies: [I;2116],
+			id: 2118,
+			tasks: [{
+				id: 2119,
+				type: "item",
+				item: "atum:dusty_bone"
+			}]
+		},
+		{
+			x: 25.0d,
+			y: -4.5d,
+			id: 2120,
+			tasks: [{
+				id: 2121,
+				type: "kill",
+				entity: "atum:mummy",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: -4.5d,
+			dependencies: [I;2120],
+			id: 2122,
+			tasks: [
+				{
+					id: 2123,
+					type: "item",
+					item: "atum:cloth_scrap"
+				},
+				{
+					id: 2124,
+					type: "item",
+					item: "minecraft:rotten_flesh"
+				}
+			]
+		},
+		{
+			x: 25.0d,
+			y: -1.5d,
+			id: 2125,
+			tasks: [{
+				id: 2126,
+				type: "kill",
+				entity: "atum:nomad",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: -1.5d,
+			dependencies: [I;2125],
+			id: 2127,
+			tasks: [
+				{
+					id: 2128,
+					type: "item",
+					item: {
+						id: "atum:short_bow",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2130,
+					type: "item",
+					item: "atum:coin_dirty"
+				},
+				{
+					id: 2131,
+					type: "item",
+					item: "minecraft:bone"
+				},
+				{
+					id: 2132,
+					type: "item",
+					item: "minecraft:arrow"
+				}
+			]
+		},
+		{
+			x: 25.0d,
+			y: 2.5d,
+			id: 2140,
+			tasks: [{
+				id: 2141,
+				type: "kill",
+				entity: "atum:sergeant",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: 2.5d,
+			dependencies: [I;2140],
+			id: 2142,
+			tasks: [
+				{
+					id: 2143,
+					type: "item",
+					item: {
+						id: "atum:iron_scimitar",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2144,
+					type: "item",
+					item: {
+						id: "minecraft:shield",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2145,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: 25.0d,
+			y: -2.5d,
+			id: 2146,
+			tasks: [{
+				id: 2147,
+				type: "kill",
+				entity: "atum:scarab",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: -2.5d,
+			dependencies: [I;2146],
+			id: 2148,
+			tasks: [{
+				id: 2149,
+				type: "item",
+				item: "atum:crunchy_scarab"
+			}]
+		},
+		{
+			x: 25.0d,
+			y: 8.5d,
+			id: 2150,
+			tasks: [{
+				id: 2151,
+				type: "kill",
+				entity: "atum:pharaoh",
+				value: 1
+			}]
+		},
+		{
+			x: 25.0d,
+			y: 3.5d,
+			id: 2152,
+			tasks: [{
+				id: 2153,
+				type: "kill",
+				entity: "atum:stoneguard",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: 3.5d,
+			dependencies: [I;2152],
+			id: 2154,
+			tasks: [
+				{
+					id: 2155,
+					type: "item",
+					item: "atum:khnumite"
+				},
+				{
+					id: 2156,
+					type: "item",
+					item: {
+						id: "atum:stoneguard_sword",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2157,
+					type: "item",
+					item: {
+						id: "atum:stoneguard_greatsword",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2158,
+					type: "item",
+					item: {
+						id: "atum:stoneguard_club",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2159,
+					type: "item",
+					item: {
+						id: "atum:stoneguard_khopesh",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2160,
+					type: "item",
+					item: {
+						id: "atum:stoneguard_shield",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 25.0d,
+			y: 4.5d,
+			id: 2161,
+			tasks: [{
+				id: 2162,
+				type: "kill",
+				entity: "atum:stonewarden",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: 4.5d,
+			dependencies: [I;2161],
+			id: 2163,
+			tasks: [{
+				id: 2164,
+				type: "item",
+				item: "atum:khnumite"
+			}]
+		},
+		{
+			x: 25.0d,
+			y: 5.5d,
+			id: 2165,
+			tasks: [{
+				id: 2166,
+				type: "kill",
+				entity: "atum:sunspeaker",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: 5.5d,
+			dependencies: [I;2165],
+			id: 2167,
+			tasks: [
+				{
+					id: 2168,
+					type: "item",
+					item: "atum:efreet_heart"
+				},
+				{
+					id: 2171,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: 26.5d,
+			y: 8.5d,
+			dependencies: [I;2150],
+			id: 2169,
+			tasks: [{
+				id: 2170,
+				type: "item",
+				item: "minecraft:bone"
+			}]
+		},
+		{
+			x: 25.0d,
+			y: -3.5d,
+			id: 2174,
+			tasks: [{
+				id: 2175,
+				type: "kill",
+				entity: "atum:tarantula",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: -3.5d,
+			dependencies: [I;2174],
+			id: 2176,
+			tasks: [
+				{
+					id: 2177,
+					type: "item",
+					item: "atum:mandibles"
+				},
+				{
+					id: 2178,
+					type: "item",
+					item: "minecraft:spider_eye"
+				}
+			]
+		},
+		{
+			x: 25.0d,
+			y: 9.5d,
+			id: 2181,
+			tasks: [{
+				id: 2182,
+				type: "kill",
+				entity: "atum:wraith",
+				value: 1
+			}]
+		},
+		{
+			x: 26.5d,
+			y: 9.5d,
+			dependencies: [I;2181],
+			id: 2183,
+			tasks: [{
+				id: 2184,
+				type: "item",
+				item: "atum:ectoplasm"
 			}]
 		}
 	]

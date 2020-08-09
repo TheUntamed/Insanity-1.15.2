@@ -19,7 +19,7 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 * *CraftTweaker* (6.0.0.34 --> 6.0.0.38)
 * *Curios API* (2.0.2.4 --> 2.0.2.6)
 * *Cyclops Core* ( 1.8.0 --> 1.8.1)
-* *Double Slabs* (2.9.0 --> 2.10.0)
+* *Double Slabs* (2.9.0 --> 2.10.1)
 * *Dungeon Crawl* (2.0.1 --> 2.0.2)
 * *Essentials* (2.7.3 --> 2.7.4)
 * *Extended Crafting* (2.0.5 --> 2.0.6)

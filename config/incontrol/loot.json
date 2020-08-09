@@ -3,6 +3,12 @@
         "mob": "minecraft:mooshroom",
         "player": false,
         "item": "minecraft:red_mushroom",
-        "itemcount": "0-2/0-3/0-4"
+        "itemcount": "0-2/0-3/0-4/0-5"
+    },
+    {
+        "mob": "minecraft:polar_bear",
+        "player": true,
+        "item": "xreliquary:frozen_core",
+        "itemcount": "-8-1/-7-1/-6-1/-5-1"
     }
 ]
