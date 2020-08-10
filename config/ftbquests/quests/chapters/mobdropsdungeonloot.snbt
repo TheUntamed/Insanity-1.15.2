@@ -28,8 +28,8 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: -8.0d,
+			x: -4.5d,
+			y: 11.5d,
 			id: 1299,
 			tasks: [{
 				id: 1300,
@@ -39,7 +39,7 @@
 			}]
 		},
 		{
-			x: 24.0d,
+			x: 8.0d,
 			y: -8.0d,
 			id: 1301,
 			tasks: [{
@@ -50,8 +50,8 @@
 			}]
 		},
 		{
-			x: 16.0d,
-			y: -8.0d,
+			x: 7.5d,
+			y: 11.5d,
 			id: 1303,
 			tasks: [{
 				id: 1304,
@@ -483,7 +483,7 @@
 			]
 		},
 		{
-			x: 23.0d,
+			x: 7.0d,
 			y: -6.5d,
 			id: 1523,
 			tasks: [{
@@ -2801,8 +2801,8 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: -6.5d,
+			x: -0.5d,
+			y: 13.0d,
 			subtitle: "Requires the Beheading Enchantment.",
 			dependencies: [I;2044],
 			id: 1966,
@@ -3445,8 +3445,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: -6.5d,
+			x: -3.5d,
+			y: 13.0d,
 			id: 2044,
 			tasks: [{
 				id: 2045,
@@ -3456,8 +3456,8 @@
 			}]
 		},
 		{
-			x: 9.0d,
-			y: -6.5d,
+			x: -2.0d,
+			y: 13.0d,
 			dependencies: [I;2044],
 			id: 2046,
 			tasks: [
@@ -3479,8 +3479,8 @@
 			]
 		},
 		{
-			x: 7.5d,
-			y: -5.5d,
+			x: -3.5d,
+			y: 14.0d,
 			id: 2054,
 			tasks: [{
 				id: 2055,
@@ -3490,8 +3490,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: -4.5d,
+			x: -3.5d,
+			y: 15.0d,
 			id: 2056,
 			tasks: [{
 				id: 2057,
@@ -3502,8 +3502,8 @@
 			}]
 		},
 		{
-			x: 9.0d,
-			y: -4.5d,
+			x: -2.0d,
+			y: 15.0d,
 			dependencies: [I;2056],
 			id: 2058,
 			tasks: [{
@@ -3513,8 +3513,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: -3.5d,
+			x: -3.5d,
+			y: 16.0d,
 			id: 2060,
 			tasks: [{
 				id: 2061,
@@ -3524,8 +3524,8 @@
 			}]
 		},
 		{
-			x: 9.0d,
-			y: -3.5d,
+			x: -2.0d,
+			y: 16.0d,
 			id: 2062,
 			tasks: [{
 				id: 2063,
@@ -3534,8 +3534,8 @@
 			}]
 		},
 		{
-			x: 5.5d,
-			y: -6.5d,
+			x: -5.5d,
+			y: 13.0d,
 			id: 2064,
 			tasks: [{
 				id: 2065,
@@ -3546,8 +3546,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: -2.5d,
+			x: -3.5d,
+			y: 17.0d,
 			id: 2066,
 			tasks: [{
 				id: 2067,
@@ -3558,8 +3558,8 @@
 			}]
 		},
 		{
-			x: 9.0d,
-			y: -2.5d,
+			x: -2.0d,
+			y: 17.0d,
 			dependencies: [I;2066],
 			id: 2068,
 			tasks: [{
@@ -3569,8 +3569,8 @@
 			}]
 		},
 		{
-			x: 15.0d,
-			y: -6.5d,
+			x: 6.5d,
+			y: 13.0d,
 			id: 2070,
 			tasks: [{
 				id: 2071,
@@ -3580,7 +3580,7 @@
 			}]
 		},
 		{
-			x: 21.5d,
+			x: 5.5d,
 			y: -6.5d,
 			dependencies: [I;1523],
 			id: 2072,
@@ -3608,7 +3608,7 @@
 			]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: 0.5d,
 			id: 2077,
 			tasks: [{
@@ -3619,7 +3619,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: 0.5d,
 			dependencies: [I;2077],
 			id: 2079,
@@ -3653,7 +3653,7 @@
 			]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: 6.5d,
 			id: 2083,
 			tasks: [{
@@ -3664,7 +3664,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: 6.5d,
 			dependencies: [I;2083],
 			id: 2085,
@@ -3693,7 +3693,7 @@
 			]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: -0.5d,
 			id: 2088,
 			tasks: [{
@@ -3704,7 +3704,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: -0.5d,
 			dependencies: [I;2088],
 			id: 2090,
@@ -3733,7 +3733,7 @@
 			]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: 7.5d,
 			id: 2095,
 			tasks: [{
@@ -3744,7 +3744,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: 7.5d,
 			dependencies: [I;2095],
 			id: 2097,
@@ -3755,7 +3755,7 @@
 			}]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: 1.5d,
 			id: 2099,
 			tasks: [{
@@ -3766,7 +3766,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: 1.5d,
 			dependencies: [I;2099],
 			id: 2101,
@@ -3806,7 +3806,7 @@
 			]
 		},
 		{
-			x: 23.0d,
+			x: 7.0d,
 			y: -5.5d,
 			id: 2105,
 			tasks: [{
@@ -3817,7 +3817,7 @@
 			}]
 		},
 		{
-			x: 21.5d,
+			x: 5.5d,
 			y: -5.5d,
 			dependencies: [I;2105],
 			id: 2107,
@@ -3840,7 +3840,7 @@
 			]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: -6.5d,
 			id: 2111,
 			tasks: [{
@@ -3851,7 +3851,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: -6.5d,
 			dependencies: [I;2111],
 			id: 2113,
@@ -3869,7 +3869,7 @@
 			]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: -5.5d,
 			id: 2116,
 			tasks: [{
@@ -3880,7 +3880,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: -5.5d,
 			dependencies: [I;2116],
 			id: 2118,
@@ -3891,7 +3891,7 @@
 			}]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: -4.5d,
 			id: 2120,
 			tasks: [{
@@ -3902,7 +3902,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: -4.5d,
 			dependencies: [I;2120],
 			id: 2122,
@@ -3920,7 +3920,7 @@
 			]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: -1.5d,
 			id: 2125,
 			tasks: [{
@@ -3931,7 +3931,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: -1.5d,
 			dependencies: [I;2125],
 			id: 2127,
@@ -3965,7 +3965,7 @@
 			]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: 2.5d,
 			id: 2140,
 			tasks: [{
@@ -3976,7 +3976,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: 2.5d,
 			dependencies: [I;2140],
 			id: 2142,
@@ -4011,7 +4011,7 @@
 			]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: -2.5d,
 			id: 2146,
 			tasks: [{
@@ -4022,7 +4022,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: -2.5d,
 			dependencies: [I;2146],
 			id: 2148,
@@ -4033,7 +4033,7 @@
 			}]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: 8.5d,
 			id: 2150,
 			tasks: [{
@@ -4044,7 +4044,7 @@
 			}]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: 3.5d,
 			id: 2152,
 			tasks: [{
@@ -4055,7 +4055,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: 3.5d,
 			dependencies: [I;2152],
 			id: 2154,
@@ -4123,7 +4123,7 @@
 			]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: 4.5d,
 			id: 2161,
 			tasks: [{
@@ -4134,7 +4134,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: 4.5d,
 			dependencies: [I;2161],
 			id: 2163,
@@ -4145,7 +4145,7 @@
 			}]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: 5.5d,
 			id: 2165,
 			tasks: [{
@@ -4156,7 +4156,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: 5.5d,
 			dependencies: [I;2165],
 			id: 2167,
@@ -4174,7 +4174,7 @@
 			]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: 8.5d,
 			dependencies: [I;2150],
 			id: 2169,
@@ -4185,7 +4185,7 @@
 			}]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: -3.5d,
 			id: 2174,
 			tasks: [{
@@ -4196,7 +4196,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: -3.5d,
 			dependencies: [I;2174],
 			id: 2176,
@@ -4214,7 +4214,7 @@
 			]
 		},
 		{
-			x: 25.0d,
+			x: 9.0d,
 			y: 9.5d,
 			id: 2181,
 			tasks: [{
@@ -4225,7 +4225,7 @@
 			}]
 		},
 		{
-			x: 26.5d,
+			x: 10.5d,
 			y: 9.5d,
 			dependencies: [I;2181],
 			id: 2183,
@@ -4233,6 +4233,145 @@
 				id: 2184,
 				type: "item",
 				item: "atum:ectoplasm"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 14.0d,
+			id: 2189,
+			tasks: [{
+				id: 2190,
+				type: "kill",
+				entity: "midnight:bulb_angler",
+				value: 1
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 14.0d,
+			id: 2191,
+			tasks: [{
+				id: 2192,
+				type: "kill",
+				entity: "midnight:deceitful_snapper",
+				value: 1
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 14.0d,
+			dependencies: [I;2191],
+			id: 2193,
+			tasks: [{
+				id: 2194,
+				type: "item",
+				item: "midnight:deceitful_snapper"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 15.0d,
+			id: 2195,
+			tasks: [{
+				id: 2196,
+				type: "kill",
+				entity: "midnight:nightstag",
+				value: 1
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 15.0d,
+			dependencies: [I;2195],
+			id: 2197,
+			tasks: [
+				{
+					id: 2198,
+					type: "item",
+					item: "midnight:raw_stag_flank"
+				},
+				{
+					id: 2199,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: 16.0d,
+			id: 2200,
+			tasks: [{
+				id: 2201,
+				type: "kill",
+				entity: "midnight:stinger",
+				value: 1
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 16.0d,
+			dependencies: [I;2200],
+			id: 2202,
+			tasks: [{
+				id: 2203,
+				type: "item",
+				item: "midnight:stinger_egg"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 16.0d,
+			id: 2204,
+			tasks: [{
+				id: 2205,
+				type: "kill",
+				entity: "midnight:crystal_bug",
+				value: 1
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 13.0d,
+			id: 2206,
+			tasks: [{
+				id: 2207,
+				type: "kill",
+				entity: "midnight:nova",
+				value: 1
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 17.0d,
+			id: 2208,
+			tasks: [{
+				id: 2209,
+				type: "kill",
+				entity: "midnight:hunter",
+				value: 1
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 17.0d,
+			dependencies: [I;2208],
+			id: 2210,
+			tasks: [{
+				id: 2211,
+				type: "item",
+				item: "midnight:hunter_wing"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 15.0d,
+			id: 2212,
+			tasks: [{
+				id: 2213,
+				type: "kill",
+				entity: "midnight:rifter",
+				value: 1
 			}]
 		}
 	]
