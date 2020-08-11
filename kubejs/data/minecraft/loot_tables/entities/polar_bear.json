@@ -1,74 +1,74 @@
 {
-    "type": "minecraft:entity",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "functions": [
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:salmon"
+        },
+        {
+          "name": "main",
+          "rolls": 1,
+          "entries": [
               {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0.0,
-                  "max": 2.0,
-                  "type": "minecraft:uniform"
-                }
+                  "type": "item",
+                  "name": "xreliquary:frozen_core",
+                  "weight": 1
+              }
+          ],
+          "conditions": [
+              {
+                  "condition": "killed_by_player"
               },
               {
-                "function": "minecraft:looting_enchant",
-                "count": {
-                  "min": 0.0,
-                  "max": 1.0
-                }
+                  "condition": "random_chance_with_looting",
+                  "chance": 0.1,
+                  "looting_multiplier": 0.05
               }
-            ],
-            "name": "minecraft:cod"
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0.0,
-                  "max": 2.0,
-                  "type": "minecraft:uniform"
-                }
-              },
-              {
-                "function": "minecraft:looting_enchant",
-                "count": {
-                  "min": 0.0,
-                  "max": 1.0
-                }
-              }
-            ],
-            "name": "minecraft:salmon"
-          },
-          {
-            "name": "main",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "xreliquary:frozen_core",
-                    "weight": 1
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "killed_by_player"
-                },
-                {
-                    "condition": "random_chance_with_looting",
-                    "chance": 0.1,
-                    "looting_multiplier": 0.05
-                }
-            ]
-        }
-        ]
+          ]
       }
-    ]
-  }
+      ]
+    }
+  ]
+}

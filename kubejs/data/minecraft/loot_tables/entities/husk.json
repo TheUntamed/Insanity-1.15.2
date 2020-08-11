@@ -30,29 +30,6 @@
       {
         "rolls": 1,
         "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:carrot"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:potato"
-          }
-        ],
-        "conditions": [
-          {
-            "condition": "minecraft:killed_by_player"
-          },
-          {
-            "condition": "minecraft:random_chance_with_looting",
-            "chance": 0.025,
-            "looting_multiplier": 0.01
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
             {
                 "type": "item",
                 "name": "atum:dusty_bone",
@@ -69,6 +46,27 @@
                 "looting_multiplier": 0.05
             }
         ]
-    }
+    },
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+          {
+              "type": "item",
+              "name": "xreliquary:zombie_heart",
+              "weight": 1
+          }
+      ],
+      "conditions": [
+          {
+              "condition": "killed_by_player"
+          },
+          {
+              "condition": "random_chance_with_looting",
+              "chance": 0.1,
+              "looting_multiplier": 0.05
+          }
+      ]
+  }
     ]
   }

@@ -17,7 +17,7 @@
 			}]
 		},
 		{
-			x: -4.5d,
+			x: -1.5d,
 			y: -8.0d,
 			id: 1297,
 			tasks: [{
@@ -28,8 +28,8 @@
 			}]
 		},
 		{
-			x: -4.5d,
-			y: 11.5d,
+			x: -1.5d,
+			y: 12.0d,
 			id: 1299,
 			tasks: [{
 				id: 1300,
@@ -39,7 +39,7 @@
 			}]
 		},
 		{
-			x: 8.0d,
+			x: 11.0d,
 			y: -8.0d,
 			id: 1301,
 			tasks: [{
@@ -50,8 +50,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 11.5d,
+			x: 10.5d,
+			y: 12.0d,
 			id: 1303,
 			tasks: [{
 				id: 1304,
@@ -62,18 +62,23 @@
 		},
 		{
 			x: -16.5d,
-			y: 19.5d,
+			y: 21.5d,
 			id: 1441,
 			tasks: [{
 				id: 1442,
 				type: "kill",
 				entity: "minecraft:bat",
 				value: 1
+			}],
+			rewards: [{
+				id: 2314,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -18.0d,
-			y: 19.5d,
+			y: 21.5d,
 			dependencies: [I;1441],
 			id: 1443,
 			tasks: [{
@@ -84,13 +89,18 @@
 		},
 		{
 			x: -16.5d,
-			y: 21.5d,
+			y: 23.5d,
 			id: 1445,
 			tasks: [{
 				id: 1446,
 				type: "kill",
 				entity: "minecraft:bee",
 				value: 1
+			}],
+			rewards: [{
+				id: 2312,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -102,6 +112,11 @@
 				type: "kill",
 				entity: "minecraft:cat",
 				value: 1
+			}],
+			rewards: [{
+				id: 2334,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -129,18 +144,23 @@
 		},
 		{
 			x: -14.5d,
-			y: 3.5d,
+			y: 4.5d,
 			id: 1453,
 			tasks: [{
 				id: 1454,
 				type: "kill",
 				entity: "minecraft:cave_spider",
 				value: 1
+			}],
+			rewards: [{
+				id: 2249,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 3.5d,
+			y: 4.5d,
 			dependencies: [I;1453],
 			id: 1455,
 			tasks: [
@@ -170,6 +190,11 @@
 				type: "kill",
 				entity: "minecraft:cod",
 				value: 1
+			}],
+			rewards: [{
+				id: 2345,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -192,6 +217,11 @@
 				type: "kill",
 				entity: "minecraft:cow",
 				value: 1
+			}],
+			rewards: [{
+				id: 2316,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -226,6 +256,11 @@
 				type: "kill",
 				entity: "minecraft:dolphin",
 				value: 1
+			}],
+			rewards: [{
+				id: 2355,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -248,6 +283,11 @@
 				type: "kill",
 				entity: "minecraft:donkey",
 				value: 1
+			}],
+			rewards: [{
+				id: 2317,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -275,18 +315,23 @@
 		},
 		{
 			x: -14.5d,
-			y: -4.5d,
+			y: -3.5d,
 			id: 1479,
 			tasks: [{
 				id: 1480,
 				type: "kill",
 				entity: "minecraft:drowned",
 				value: 1
+			}],
+			rewards: [{
+				id: 2240,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: -4.5d,
+			y: -3.5d,
 			dependencies: [I;1479],
 			id: 1481,
 			tasks: [
@@ -309,18 +354,23 @@
 		},
 		{
 			x: -14.5d,
-			y: -1.5d,
+			y: -0.5d,
 			id: 1488,
 			tasks: [{
 				id: 1489,
 				type: "kill",
 				entity: "minecraft:creeper",
 				value: 1
+			}],
+			rewards: [{
+				id: 2243,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: -1.5d,
+			y: -0.5d,
 			dependencies: [I;1488],
 			id: 1490,
 			tasks: [
@@ -338,18 +388,23 @@
 		},
 		{
 			x: -14.5d,
-			y: 15.5d,
+			y: 16.5d,
 			id: 1493,
 			tasks: [{
 				id: 1494,
 				type: "kill",
 				entity: "minecraft:elder_guardian",
 				value: 1
+			}],
+			rewards: [{
+				id: 2259,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 15.5d,
+			y: 16.5d,
 			dependencies: [I;1493],
 			id: 1495,
 			tasks: [
@@ -394,18 +449,23 @@
 		},
 		{
 			x: -14.5d,
-			y: 10.5d,
+			y: 11.5d,
 			id: 1507,
 			tasks: [{
 				id: 1508,
 				type: "kill",
 				entity: "minecraft:evoker",
 				value: 1
+			}],
+			rewards: [{
+				id: 2262,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 10.5d,
+			y: 11.5d,
 			dependencies: [I;1507],
 			id: 1509,
 			tasks: [
@@ -435,6 +495,11 @@
 				type: "kill",
 				entity: "minecraft:ocelot",
 				value: 1
+			}],
+			rewards: [{
+				id: 2333,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -457,6 +522,11 @@
 				type: "kill",
 				entity: "minecraft:rabbit",
 				value: 1
+			}],
+			rewards: [{
+				id: 2335,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -483,7 +553,7 @@
 			]
 		},
 		{
-			x: 7.0d,
+			x: 10.0d,
 			y: -6.5d,
 			id: 1523,
 			tasks: [{
@@ -491,22 +561,32 @@
 				type: "kill",
 				entity: "atum:desert_rabbit",
 				value: 1
+			}],
+			rewards: [{
+				id: 2277,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -14.5d,
-			y: 14.5d,
+			y: 15.5d,
 			id: 1525,
 			tasks: [{
 				id: 1526,
 				type: "kill",
 				entity: "minecraft:guardian",
 				value: 1
+			}],
+			rewards: [{
+				id: 2258,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 14.5d,
+			y: 15.5d,
 			dependencies: [I;1525],
 			id: 1527,
 			tasks: [
@@ -548,6 +628,11 @@
 				type: "kill",
 				entity: "minecraft:horse",
 				value: 1
+			}],
+			rewards: [{
+				id: 2318,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -582,6 +667,11 @@
 				type: "kill",
 				entity: "minecraft:llama",
 				value: 1
+			}],
+			rewards: [{
+				id: 2326,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -611,6 +701,11 @@
 				type: "kill",
 				entity: "minecraft:pig",
 				value: 1
+			}],
+			rewards: [{
+				id: 2322,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -645,6 +740,11 @@
 				type: "kill",
 				entity: "minecraft:polar_bear",
 				value: 1
+			}],
+			rewards: [{
+				id: 2325,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -686,6 +786,11 @@
 				type: "kill",
 				entity: "minecraft:pufferfish",
 				value: 1
+			}],
+			rewards: [{
+				id: 2346,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -730,6 +835,11 @@
 				type: "kill",
 				entity: "minecraft:sheep",
 				value: 1
+			}],
+			rewards: [{
+				id: 2321,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -764,18 +874,23 @@
 		},
 		{
 			x: -14.5d,
-			y: -0.5d,
+			y: 0.5d,
 			id: 1575,
 			tasks: [{
 				id: 1576,
 				type: "kill",
 				entity: "minecraft:skeleton",
 				value: 1
+			}],
+			rewards: [{
+				id: 2246,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: -0.5d,
+			y: 0.5d,
 			dependencies: [I;1575],
 			id: 1577,
 			tasks: [
@@ -809,7 +924,7 @@
 		},
 		{
 			x: -11.5d,
-			y: -0.5d,
+			y: 0.5d,
 			subtitle: "Requires the Beheading Enchantment.",
 			dependencies: [I;1575],
 			id: 1583,
@@ -821,7 +936,7 @@
 		},
 		{
 			x: -10.0d,
-			y: -1.5d,
+			y: -0.5d,
 			subtitle: "Only drops from Charged Creepers.",
 			dependencies: [I;1488],
 			id: 1585,
@@ -829,22 +944,32 @@
 				id: 1586,
 				type: "item",
 				item: "xreliquary:eye_of_the_storm"
+			}],
+			rewards: [{
+				id: 2244,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
 			x: -16.5d,
-			y: 18.5d,
+			y: 20.5d,
 			id: 1587,
 			tasks: [{
 				id: 1588,
 				type: "kill",
 				entity: "minecraft:parrot",
 				value: 1
+			}],
+			rewards: [{
+				id: 2315,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -18.0d,
-			y: 18.5d,
+			y: 20.5d,
 			dependencies: [I;1587],
 			id: 1589,
 			tasks: [
@@ -869,6 +994,11 @@
 				type: "kill",
 				entity: "minecraft:panda",
 				value: 1
+			}],
+			rewards: [{
+				id: 2324,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -898,6 +1028,11 @@
 				type: "kill",
 				entity: "minecraft:husk",
 				value: 1
+			}],
+			rewards: [{
+				id: 2239,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -910,16 +1045,6 @@
 					id: 1600,
 					type: "item",
 					item: "minecraft:rotten_flesh"
-				},
-				{
-					id: 1601,
-					type: "item",
-					item: "minecraft:potato"
-				},
-				{
-					id: 1602,
-					type: "item",
-					item: "minecraft:carrot"
 				},
 				{
 					id: 1604,
@@ -935,7 +1060,7 @@
 		},
 		{
 			x: -11.5d,
-			y: -1.5d,
+			y: -0.5d,
 			subtitle: "Requires the Beheading Enchantment.",
 			dependencies: [I;1488],
 			id: 1606,
@@ -954,6 +1079,11 @@
 				type: "kill",
 				entity: "minecraft:mooshroom",
 				value: 1
+			}],
+			rewards: [{
+				id: 2323,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -993,6 +1123,11 @@
 				type: "kill",
 				entity: "minecraft:mule",
 				value: 1
+			}],
+			rewards: [{
+				id: 2319,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1020,7 +1155,7 @@
 		},
 		{
 			x: -14.5d,
-			y: 12.5d,
+			y: 13.5d,
 			id: 1622,
 			tasks: [{
 				id: 1623,
@@ -1031,7 +1166,7 @@
 		},
 		{
 			x: -13.0d,
-			y: 12.5d,
+			y: 13.5d,
 			dependencies: [I;1622],
 			id: 1624,
 			tasks: [{
@@ -1052,7 +1187,7 @@
 		},
 		{
 			x: -14.5d,
-			y: 7.5d,
+			y: 8.5d,
 			id: 1628,
 			tasks: [{
 				id: 1629,
@@ -1063,7 +1198,7 @@
 		},
 		{
 			x: -13.0d,
-			y: 7.5d,
+			y: 8.5d,
 			dependencies: [I;1628],
 			id: 1630,
 			tasks: [
@@ -1087,18 +1222,23 @@
 		},
 		{
 			x: -14.5d,
-			y: 8.5d,
+			y: 9.5d,
 			id: 1633,
 			tasks: [{
 				id: 1634,
 				type: "kill",
 				entity: "minecraft:ravager",
 				value: 1
+			}],
+			rewards: [{
+				id: 2253,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 8.5d,
+			y: 9.5d,
 			dependencies: [I;1633],
 			id: 1635,
 			tasks: [
@@ -1121,29 +1261,39 @@
 		},
 		{
 			x: -14.5d,
-			y: 6.5d,
+			y: 7.5d,
 			id: 1641,
 			tasks: [{
 				id: 1642,
 				type: "kill",
 				entity: "minecraft:silverfish",
 				value: 1
+			}],
+			rewards: [{
+				id: 2252,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -14.5d,
-			y: 1.5d,
+			y: 2.5d,
 			id: 1643,
 			tasks: [{
 				id: 1644,
 				type: "kill",
 				entity: "minecraft:skeleton_horse",
 				value: 1
+			}],
+			rewards: [{
+				id: 2247,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 1.5d,
+			y: 2.5d,
 			dependencies: [I;1643],
 			id: 1645,
 			tasks: [
@@ -1168,6 +1318,11 @@
 				type: "kill",
 				entity: "minecraft:trader_llama",
 				value: 1
+			}],
+			rewards: [{
+				id: 2327,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1197,6 +1352,11 @@
 				type: "kill",
 				entity: "minecraft:tropical_fish",
 				value: 1
+			}],
+			rewards: [{
+				id: 2347,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1212,18 +1372,23 @@
 		},
 		{
 			x: -14.5d,
-			y: 5.5d,
+			y: 6.5d,
 			id: 1657,
 			tasks: [{
 				id: 1658,
 				type: "kill",
 				entity: "minecraft:slime",
 				value: 1
+			}],
+			rewards: [{
+				id: 2251,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 5.5d,
+			y: 6.5d,
 			dependencies: [I;1657],
 			id: 1659,
 			tasks: [
@@ -1241,18 +1406,23 @@
 		},
 		{
 			x: -14.5d,
-			y: 2.5d,
+			y: 3.5d,
 			id: 1662,
 			tasks: [{
 				id: 1663,
 				type: "kill",
 				entity: "minecraft:spider",
 				value: 1
+			}],
+			rewards: [{
+				id: 2248,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 2.5d,
+			y: 3.5d,
 			dependencies: [I;1662],
 			id: 1664,
 			tasks: [
@@ -1282,6 +1452,11 @@
 				type: "kill",
 				entity: "minecraft:squid",
 				value: 1
+			}],
+			rewards: [{
+				id: 2354,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1326,6 +1501,11 @@
 				type: "kill",
 				entity: "minecraft:turtle",
 				value: 1
+			}],
+			rewards: [{
+				id: 2356,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1348,6 +1528,11 @@
 				type: "kill",
 				entity: "minecraft:villager",
 				value: 1
+			}],
+			rewards: [{
+				id: 2329,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1363,18 +1548,23 @@
 		},
 		{
 			x: -14.5d,
-			y: 9.5d,
+			y: 10.5d,
 			id: 1684,
 			tasks: [{
 				id: 1685,
 				type: "kill",
 				entity: "minecraft:vindicator",
 				value: 1
+			}],
+			rewards: [{
+				id: 2254,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 9.5d,
+			y: 10.5d,
 			dependencies: [I;1684],
 			id: 1686,
 			tasks: [
@@ -1452,29 +1642,39 @@
 		},
 		{
 			x: -14.5d,
-			y: 11.5d,
+			y: 12.5d,
 			id: 1690,
 			tasks: [{
 				id: 1691,
 				type: "kill",
 				entity: "minecraft:vex",
 				value: 1
+			}],
+			rewards: [{
+				id: 2256,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -14.5d,
-			y: 0.5d,
+			y: 1.5d,
 			id: 1692,
 			tasks: [{
 				id: 1693,
 				type: "kill",
 				entity: "minecraft:stray",
 				value: 1
+			}],
+			rewards: [{
+				id: 2245,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 0.5d,
+			y: 1.5d,
 			dependencies: [I;1692],
 			id: 1694,
 			tasks: [
@@ -1515,6 +1715,11 @@
 				type: "kill",
 				entity: "minecraft:wandering_trader",
 				value: 1
+			}],
+			rewards: [{
+				id: 2328,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1543,18 +1748,23 @@
 		},
 		{
 			x: -14.5d,
-			y: 4.5d,
+			y: 5.5d,
 			id: 1704,
 			tasks: [{
 				id: 1705,
 				type: "kill",
 				entity: "minecraft:witch",
 				value: 1
+			}],
+			rewards: [{
+				id: 2250,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 4.5d,
+			y: 5.5d,
 			dependencies: [I;1704],
 			id: 1706,
 			tasks: [
@@ -1609,6 +1819,11 @@
 				type: "kill",
 				entity: "minecraft:wolf",
 				value: 1
+			}],
+			rewards: [{
+				id: 2332,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1638,6 +1853,11 @@
 				type: "kill",
 				entity: "minecraft:zombie",
 				value: 1
+			}],
+			rewards: [{
+				id: 2238,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1650,16 +1870,6 @@
 					id: 1722,
 					type: "item",
 					item: "minecraft:rotten_flesh"
-				},
-				{
-					id: 1724,
-					type: "item",
-					item: "minecraft:potato"
-				},
-				{
-					id: 1725,
-					type: "item",
-					item: "minecraft:carrot"
 				},
 				{
 					id: 1726,
@@ -1675,18 +1885,23 @@
 		},
 		{
 			x: -14.5d,
-			y: -3.5d,
+			y: -2.5d,
 			id: 1727,
 			tasks: [{
 				id: 1728,
 				type: "kill",
 				entity: "minecraft:zombie_villager",
 				value: 1
+			}],
+			rewards: [{
+				id: 2241,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: -3.5d,
+			y: -2.5d,
 			dependencies: [I;1727],
 			id: 1729,
 			tasks: [
@@ -1694,16 +1909,6 @@
 					id: 1730,
 					type: "item",
 					item: "minecraft:rotten_flesh"
-				},
-				{
-					id: 1731,
-					type: "item",
-					item: "minecraft:potato"
-				},
-				{
-					id: 1732,
-					type: "item",
-					item: "minecraft:carrot"
 				},
 				{
 					id: 1733,
@@ -1719,18 +1924,23 @@
 		},
 		{
 			x: -14.5d,
-			y: -2.5d,
+			y: -1.5d,
 			id: 1736,
 			tasks: [{
 				id: 1737,
 				type: "kill",
 				entity: "minecraft:zombie_horse",
 				value: 1
+			}],
+			rewards: [{
+				id: 2242,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: -2.5d,
+			y: -1.5d,
 			dependencies: [I;1736],
 			id: 1738,
 			tasks: [
@@ -1755,6 +1965,11 @@
 				type: "kill",
 				entity: "aquaculture:box_turtle",
 				value: 1
+			}],
+			rewards: [{
+				id: 2357,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1766,6 +1981,11 @@
 				type: "kill",
 				entity: "aquaculture:arrau_turtle",
 				value: 1
+			}],
+			rewards: [{
+				id: 2358,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1777,6 +1997,11 @@
 				type: "kill",
 				entity: "aquaculture:starshell_turtle",
 				value: 1
+			}],
+			rewards: [{
+				id: 2359,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1822,6 +2047,11 @@
 				icon: "upgrade_aquatic:pike_spawn_egg",
 				entity: "upgrade_aquatic:nautilus",
 				value: 1
+			}],
+			rewards: [{
+				id: 2360,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1845,6 +2075,11 @@
 				icon: "upgrade_aquatic:nautilus_spawn_egg",
 				entity: "upgrade_aquatic:pike",
 				value: 1
+			}],
+			rewards: [{
+				id: 2348,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1868,6 +2103,11 @@
 				icon: "upgrade_aquatic:jellyfish_spawn_egg",
 				entity: "aquaculture:jellyfish",
 				value: 1
+			}],
+			rewards: [{
+				id: 2350,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1880,6 +2120,11 @@
 				icon: "upgrade_aquatic:lionfish_spawn_egg",
 				entity: "upgrade_aquatic:lionfish",
 				value: 1
+			}],
+			rewards: [{
+				id: 2349,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1902,7 +2147,7 @@
 		},
 		{
 			x: -14.5d,
-			y: 16.5d,
+			y: 17.5d,
 			id: 1768,
 			tasks: [{
 				id: 1769,
@@ -1910,11 +2155,16 @@
 				icon: "upgrade_aquatic:thrasher_spawn_egg",
 				entity: "upgrade_aquatic:thrasher",
 				value: 1
+			}],
+			rewards: [{
+				id: 2260,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 16.5d,
+			y: 17.5d,
 			dependencies: [I;1768],
 			id: 1770,
 			tasks: [{
@@ -1925,7 +2175,7 @@
 		},
 		{
 			x: -14.5d,
-			y: 17.5d,
+			y: 18.5d,
 			id: 1772,
 			tasks: [{
 				id: 1773,
@@ -1933,11 +2183,16 @@
 				icon: "upgrade_aquatic:great_thrasher_spawn_egg",
 				entity: "upgrade_aquatic:great_thrasher",
 				value: 1
+			}],
+			rewards: [{
+				id: 2261,
+				type: "xp_levels",
+				xp_levels: 5
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 17.5d,
+			y: 18.5d,
 			dependencies: [I;1772],
 			id: 1774,
 			tasks: [{
@@ -1948,7 +2203,7 @@
 		},
 		{
 			x: -14.5d,
-			y: 13.5d,
+			y: 14.5d,
 			id: 1776,
 			tasks: [{
 				id: 1777,
@@ -1956,11 +2211,16 @@
 				icon: "upgrade_aquatic:flare_spawn_egg",
 				entity: "upgrade_aquatic:flare",
 				value: 1
+			}],
+			rewards: [{
+				id: 2257,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -13.0d,
-			y: 13.5d,
+			y: 14.5d,
 			dependencies: [I;1776],
 			id: 1778,
 			tasks: [{
@@ -1979,6 +2239,11 @@
 				icon: "upgrade_aquatic:jellyfish_spawn_egg",
 				entity: "upgrade_aquatic:box_jellyfish",
 				value: 1
+			}],
+			rewards: [{
+				id: 2351,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -1991,6 +2256,11 @@
 				type: "kill",
 				entity: "upgrade_aquatic:cassiopea_jellyfish",
 				value: 1
+			}],
+			rewards: [{
+				id: 2352,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -2003,6 +2273,11 @@
 				type: "kill",
 				entity: "upgrade_aquatic:immortal_jellyfish",
 				value: 1
+			}],
+			rewards: [{
+				id: 2353,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -2058,6 +2333,11 @@
 				type: "kill",
 				entity: "quark:crab",
 				value: 1
+			}],
+			rewards: [{
+				id: 2363,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -2088,6 +2368,11 @@
 				icon: "mysticalworld:beetle_spawn_egg",
 				entity: "mysticalworld:beetle",
 				value: 1
+			}],
+			rewards: [{
+				id: 2336,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -2111,6 +2396,11 @@
 				icon: "mysticalworld:deer_spawn_egg",
 				entity: "mysticalworld:deer",
 				value: 1
+			}],
+			rewards: [{
+				id: 2320,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -2151,6 +2441,11 @@
 				icon: "mysticalworld:frog_spawn_egg",
 				entity: "mysticalworld:frog",
 				value: 1
+			}],
+			rewards: [{
+				id: 2361,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -2162,6 +2457,11 @@
 				type: "kill",
 				entity: "quark:frog",
 				value: 1
+			}],
+			rewards: [{
+				id: 2362,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -2210,6 +2510,11 @@
 				icon: "mysticalworld:silver_fox_spawn_egg",
 				entity: "mysticalworld:silver_fox",
 				value: 1
+			}],
+			rewards: [{
+				id: 2331,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -2221,6 +2526,11 @@
 				type: "kill",
 				entity: "minecraft:fox",
 				value: 1
+			}],
+			rewards: [{
+				id: 2330,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -2261,7 +2571,7 @@
 		},
 		{
 			x: -16.5d,
-			y: 15.5d,
+			y: 17.5d,
 			id: 1882,
 			tasks: [{
 				id: 1883,
@@ -2269,11 +2579,16 @@
 				icon: "mysticalworld:sprout_spawn_egg",
 				entity: "mysticalworld:sprout",
 				value: 1
+			}],
+			rewards: [{
+				id: 2337,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -18.0d,
-			y: 15.5d,
+			y: 17.5d,
 			dependencies: [I;1882],
 			id: 1884,
 			tasks: [
@@ -2301,7 +2616,7 @@
 		},
 		{
 			x: -16.5d,
-			y: 20.5d,
+			y: 22.5d,
 			id: 1889,
 			tasks: [{
 				id: 1890,
@@ -2309,11 +2624,16 @@
 				icon: "mysticalworld:owl_spawn_egg",
 				entity: "mysticalworld:owl",
 				value: 1
+			}],
+			rewards: [{
+				id: 2313,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -18.0d,
-			y: 20.5d,
+			y: 22.5d,
 			dependencies: [I;1889],
 			id: 1891,
 			tasks: [{
@@ -2324,7 +2644,7 @@
 		},
 		{
 			x: -16.5d,
-			y: 16.5d,
+			y: 18.5d,
 			id: 1893,
 			tasks: [{
 				id: 1894,
@@ -2332,33 +2652,48 @@
 				icon: "mysticalworld:silkworm_spawn_egg",
 				entity: "mysticalworld:silkworm",
 				value: 1
+			}],
+			rewards: [{
+				id: 2338,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -16.5d,
-			y: 22.5d,
+			y: 24.5d,
 			id: 1895,
 			tasks: [{
 				id: 1896,
 				type: "kill",
 				entity: "druidcraft:lunar_moth",
 				value: 1
+			}],
+			rewards: [{
+				id: 2311,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -16.5d,
-			y: 17.5d,
+			y: 19.5d,
 			id: 1897,
 			tasks: [{
 				id: 1898,
 				type: "kill",
 				entity: "minecraft:chicken",
 				value: 1
+			}],
+			rewards: [{
+				id: 2339,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			x: -18.0d,
-			y: 17.5d,
+			y: 19.5d,
 			dependencies: [I;1897],
 			id: 1899,
 			tasks: [
@@ -2388,6 +2723,11 @@
 				type: "kill",
 				entity: "druidcraft:beetle",
 				value: 1
+			}],
+			rewards: [{
+				id: 2340,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -2411,6 +2751,11 @@
 				icon: "minecraft:iron_block",
 				entity: "minecraft:iron_golem",
 				value: 1
+			}],
+			rewards: [{
+				id: 2343,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
@@ -2441,7 +2786,12 @@
 					type: "item",
 					item: "xreliquary:frozen_core"
 				}
-			]
+			],
+			rewards: [{
+				id: 2344,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
 		},
 		{
 			x: -25.5d,
@@ -2462,7 +2812,7 @@
 			]
 		},
 		{
-			x: -3.5d,
+			x: -0.5d,
 			y: -6.5d,
 			id: 1923,
 			tasks: [{
@@ -2470,10 +2820,15 @@
 				type: "kill",
 				entity: "minecraft:blaze",
 				value: 1
+			}],
+			rewards: [{
+				id: 2265,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -3.5d,
+			x: -0.5d,
 			y: -5.5d,
 			id: 1925,
 			tasks: [{
@@ -2484,7 +2839,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 4.0d,
 			y: -6.5d,
 			id: 1927,
 			tasks: [{
@@ -2493,10 +2848,15 @@
 				icon: "minecraft:soul_sand",
 				entity: "minecraft:wither",
 				value: 1
+			}],
+			rewards: [{
+				id: 2276,
+				type: "xp_levels",
+				xp_levels: 10
 			}]
 		},
 		{
-			x: 2.5d,
+			x: 5.5d,
 			y: -6.5d,
 			dependencies: [I;1927],
 			id: 1929,
@@ -2524,7 +2884,7 @@
 			]
 		},
 		{
-			x: -2.0d,
+			x: 1.0d,
 			y: -6.5d,
 			dependencies: [I;1923],
 			id: 1931,
@@ -2542,7 +2902,7 @@
 			]
 		},
 		{
-			x: -5.5d,
+			x: -2.5d,
 			y: -6.5d,
 			id: 1934,
 			tasks: [{
@@ -2550,10 +2910,15 @@
 				type: "kill",
 				entity: "minecraft:zombie_pigman",
 				value: 1
+			}],
+			rewards: [{
+				id: 2263,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -3.5d,
+			x: -0.5d,
 			y: -4.5d,
 			id: 1936,
 			tasks: [{
@@ -2561,10 +2926,15 @@
 				type: "kill",
 				entity: "minecraft:ghast",
 				value: 1
+			}],
+			rewards: [{
+				id: 2266,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -2.0d,
+			x: 1.0d,
 			y: -4.5d,
 			dependencies: [I;1936],
 			id: 1938,
@@ -2592,7 +2962,7 @@
 			]
 		},
 		{
-			x: -3.5d,
+			x: -0.5d,
 			y: -3.5d,
 			id: 1943,
 			tasks: [{
@@ -2600,10 +2970,15 @@
 				type: "kill",
 				entity: "minecraft:magma_cube",
 				value: 1
+			}],
+			rewards: [{
+				id: 2267,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -2.0d,
+			x: 1.0d,
 			y: -3.5d,
 			dependencies: [I;1943],
 			id: 1945,
@@ -2621,7 +2996,7 @@
 			]
 		},
 		{
-			x: -7.0d,
+			x: -4.0d,
 			y: -6.5d,
 			dependencies: [I;1934],
 			id: 1948,
@@ -2654,7 +3029,7 @@
 			]
 		},
 		{
-			x: -0.5d,
+			x: 2.5d,
 			y: -4.5d,
 			subtitle: "Requires the Beheading Enchantment.",
 			dependencies: [I;1936],
@@ -2681,7 +3056,7 @@
 			}]
 		},
 		{
-			x: -8.5d,
+			x: -5.5d,
 			y: -6.5d,
 			subtitle: "Requires the Beheading Enchantment.",
 			dependencies: [I;1934],
@@ -2748,7 +3123,7 @@
 		},
 		{
 			x: -11.5d,
-			y: 2.5d,
+			y: 3.5d,
 			subtitle: "Requires the Beheading Enchantment.",
 			dependencies: [I;1662],
 			id: 1962,
@@ -2775,7 +3150,7 @@
 		},
 		{
 			x: -11.5d,
-			y: 3.5d,
+			y: 4.5d,
 			subtitle: "Requires the Beheading Enchantment.",
 			dependencies: [I;1453],
 			id: 1964,
@@ -2801,8 +3176,8 @@
 			}]
 		},
 		{
-			x: -0.5d,
-			y: 13.0d,
+			x: 2.5d,
+			y: 13.5d,
 			subtitle: "Requires the Beheading Enchantment.",
 			dependencies: [I;2044],
 			id: 1966,
@@ -2856,7 +3231,7 @@
 		},
 		{
 			x: -19.5d,
-			y: 17.5d,
+			y: 19.5d,
 			subtitle: "Requires the Beheading Enchantment.",
 			dependencies: [I;1897],
 			id: 1970,
@@ -2882,7 +3257,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: 2.5d,
 			y: -3.5d,
 			subtitle: "Requires the Beheading Enchantment.",
 			dependencies: [I;1943],
@@ -2909,7 +3284,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: 2.5d,
 			y: -6.5d,
 			subtitle: "Requires the Beheading Enchantment.",
 			dependencies: [I;1923],
@@ -3151,7 +3526,7 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: 1.0d,
 			y: -5.5d,
 			dependencies: [I;1925],
 			id: 1992,
@@ -3179,41 +3554,56 @@
 			]
 		},
 		{
-			x: -3.5d,
-			y: -2.5d,
+			x: -0.5d,
+			y: -1.5d,
 			id: 2000,
 			tasks: [{
 				id: 2001,
 				type: "kill",
 				entity: "nethercraft:tribal_archer",
 				value: 1
+			}],
+			rewards: [{
+				id: 2269,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -3.5d,
-			y: -1.5d,
+			x: -0.5d,
+			y: -0.5d,
 			id: 2002,
 			tasks: [{
 				id: 2003,
 				type: "kill",
 				entity: "nethercraft:tribal_warrior",
 				value: 1
+			}],
+			rewards: [{
+				id: 2270,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -3.5d,
-			y: -0.5d,
+			x: -0.5d,
+			y: 0.5d,
 			id: 2004,
 			tasks: [{
 				id: 2005,
 				type: "kill",
 				entity: "nethercraft:tribal_trainee",
 				value: 1
+			}],
+			rewards: [{
+				id: 2271,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -2.0d,
-			y: -2.5d,
+			x: 1.0d,
+			y: -1.5d,
 			dependencies: [I;2000],
 			id: 2006,
 			tasks: [
@@ -3241,8 +3631,8 @@
 			]
 		},
 		{
-			x: -2.0d,
-			y: -0.5d,
+			x: 1.0d,
+			y: 0.5d,
 			dependencies: [I;2004],
 			id: 2009,
 			tasks: [
@@ -3275,8 +3665,8 @@
 			]
 		},
 		{
-			x: -2.0d,
-			y: -1.5d,
+			x: 1.0d,
+			y: -0.5d,
 			dependencies: [I;2002],
 			id: 2015,
 			tasks: [
@@ -3299,19 +3689,24 @@
 			]
 		},
 		{
-			x: -3.5d,
-			y: 0.5d,
+			x: -0.5d,
+			y: 1.5d,
 			id: 2018,
 			tasks: [{
 				id: 2019,
 				type: "kill",
 				entity: "nethercraft:camouflage_spider",
 				value: 1
+			}],
+			rewards: [{
+				id: 2272,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 0.5d,
+			x: 1.0d,
+			y: 1.5d,
 			dependencies: [I;2018],
 			id: 2020,
 			tasks: [
@@ -3333,19 +3728,24 @@
 			]
 		},
 		{
-			x: -3.5d,
-			y: 1.5d,
+			x: -0.5d,
+			y: 2.5d,
 			id: 2024,
 			tasks: [{
 				id: 2025,
 				type: "kill",
 				entity: "nethercraft:lava_slime",
 				value: 1
+			}],
+			rewards: [{
+				id: 2273,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 1.5d,
+			x: 1.0d,
+			y: 2.5d,
 			dependencies: [I;2024],
 			id: 2026,
 			tasks: [{
@@ -3355,19 +3755,24 @@
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 2.5d,
+			x: -0.5d,
+			y: 3.5d,
 			id: 2028,
 			tasks: [{
 				id: 2029,
 				type: "kill",
 				entity: "nethercraft:bloody_zombie",
 				value: 1
+			}],
+			rewards: [{
+				id: 2274,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 2.5d,
+			x: 1.0d,
+			y: 3.5d,
 			dependencies: [I;2028],
 			id: 2030,
 			tasks: [
@@ -3389,19 +3794,24 @@
 			]
 		},
 		{
-			x: -3.5d,
-			y: 3.5d,
+			x: -0.5d,
+			y: 4.5d,
 			id: 2034,
 			tasks: [{
 				id: 2035,
 				type: "kill",
 				entity: "nethercraft:dark_zombie",
 				value: 1
+			}],
+			rewards: [{
+				id: 2275,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 3.5d,
+			x: 1.0d,
+			y: 4.5d,
 			dependencies: [I;2034],
 			id: 2036,
 			tasks: [
@@ -3423,7 +3833,7 @@
 			]
 		},
 		{
-			x: -5.5d,
+			x: -2.5d,
 			y: -5.5d,
 			id: 2040,
 			tasks: [{
@@ -3431,10 +3841,15 @@
 				type: "kill",
 				entity: "nethercraft:imp",
 				value: 1
+			}],
+			rewards: [{
+				id: 2264,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -7.0d,
+			x: -4.0d,
 			y: -5.5d,
 			dependencies: [I;2040],
 			id: 2042,
@@ -3445,19 +3860,24 @@
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 13.0d,
+			x: -0.5d,
+			y: 13.5d,
 			id: 2044,
 			tasks: [{
 				id: 2045,
 				type: "kill",
 				entity: "minecraft:enderman",
 				value: 1
+			}],
+			rewards: [{
+				id: 2305,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 13.0d,
+			x: 1.0d,
+			y: 13.5d,
 			dependencies: [I;2044],
 			id: 2046,
 			tasks: [
@@ -3479,19 +3899,24 @@
 			]
 		},
 		{
-			x: -3.5d,
-			y: 14.0d,
+			x: -0.5d,
+			y: 14.5d,
 			id: 2054,
 			tasks: [{
 				id: 2055,
 				type: "kill",
 				entity: "minecraft:endermite",
 				value: 1
+			}],
+			rewards: [{
+				id: 2306,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 15.0d,
+			x: -0.5d,
+			y: 15.5d,
 			id: 2056,
 			tasks: [{
 				id: 2057,
@@ -3499,11 +3924,16 @@
 				icon: "mysticalworld:endermini_spawn_egg",
 				entity: "mysticalworld:endermini",
 				value: 1
+			}],
+			rewards: [{
+				id: 2308,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 15.0d,
+			x: 1.0d,
+			y: 15.5d,
 			dependencies: [I;2056],
 			id: 2058,
 			tasks: [{
@@ -3513,19 +3943,24 @@
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 16.0d,
+			x: -0.5d,
+			y: 16.5d,
 			id: 2060,
 			tasks: [{
 				id: 2061,
 				type: "kill",
 				entity: "minecraft:shulker",
 				value: 1
+			}],
+			rewards: [{
+				id: 2307,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 16.0d,
+			x: 1.0d,
+			y: 16.5d,
 			id: 2062,
 			tasks: [{
 				id: 2063,
@@ -3534,8 +3969,8 @@
 			}]
 		},
 		{
-			x: -5.5d,
-			y: 13.0d,
+			x: -2.5d,
+			y: 13.5d,
 			id: 2064,
 			tasks: [{
 				id: 2065,
@@ -3543,11 +3978,16 @@
 				icon: "endergetic:puff_bug_spawn_egg",
 				entity: "endergetic:puff_bug",
 				value: 1
+			}],
+			rewards: [{
+				id: 2310,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 17.0d,
+			x: -0.5d,
+			y: 17.5d,
 			id: 2066,
 			tasks: [{
 				id: 2067,
@@ -3555,11 +3995,16 @@
 				icon: "endergetic:booflo_spawn_egg",
 				entity: "endergetic:booflo",
 				value: 1
+			}],
+			rewards: [{
+				id: 2309,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 17.0d,
+			x: 1.0d,
+			y: 17.5d,
 			dependencies: [I;2066],
 			id: 2068,
 			tasks: [{
@@ -3569,18 +4014,23 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: 13.0d,
+			x: 9.5d,
+			y: 13.5d,
 			id: 2070,
 			tasks: [{
 				id: 2071,
 				type: "kill",
 				entity: "midnight:skulk",
 				value: 1
+			}],
+			rewards: [{
+				id: 2296,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 8.5d,
 			y: -6.5d,
 			dependencies: [I;1523],
 			id: 2072,
@@ -3608,7 +4058,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: 0.5d,
 			id: 2077,
 			tasks: [{
@@ -3616,10 +4066,15 @@
 				type: "kill",
 				entity: "atum:assassin",
 				value: 1
+			}],
+			rewards: [{
+				id: 2286,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: 0.5d,
 			dependencies: [I;2077],
 			id: 2079,
@@ -3653,7 +4108,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: 6.5d,
 			id: 2083,
 			tasks: [{
@@ -3661,10 +4116,15 @@
 				type: "kill",
 				entity: "atum:bandit_warlord",
 				value: 1
+			}],
+			rewards: [{
+				id: 2290,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: 6.5d,
 			dependencies: [I;2083],
 			id: 2085,
@@ -3693,7 +4153,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: -0.5d,
 			id: 2088,
 			tasks: [{
@@ -3701,10 +4161,15 @@
 				type: "kill",
 				entity: "atum:barbarian",
 				value: 1
+			}],
+			rewards: [{
+				id: 2285,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: -0.5d,
 			dependencies: [I;2088],
 			id: 2090,
@@ -3733,7 +4198,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: 7.5d,
 			id: 2095,
 			tasks: [{
@@ -3741,10 +4206,15 @@
 				type: "kill",
 				entity: "atum:bonestorm",
 				value: 1
+			}],
+			rewards: [{
+				id: 2294,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: 7.5d,
 			dependencies: [I;2095],
 			id: 2097,
@@ -3755,7 +4225,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: 1.5d,
 			id: 2099,
 			tasks: [{
@@ -3763,10 +4233,15 @@
 				type: "kill",
 				entity: "atum:brigand",
 				value: 1
+			}],
+			rewards: [{
+				id: 2287,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: 1.5d,
 			dependencies: [I;2099],
 			id: 2101,
@@ -3806,7 +4281,7 @@
 			]
 		},
 		{
-			x: 7.0d,
+			x: 10.0d,
 			y: -5.5d,
 			id: 2105,
 			tasks: [{
@@ -3814,10 +4289,15 @@
 				type: "kill",
 				entity: "atum:camel",
 				value: 1
+			}],
+			rewards: [{
+				id: 2278,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 8.5d,
 			y: -5.5d,
 			dependencies: [I;2105],
 			id: 2107,
@@ -3840,7 +4320,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: -6.5d,
 			id: 2111,
 			tasks: [{
@@ -3848,10 +4328,15 @@
 				type: "kill",
 				entity: "atum:desert_wolf",
 				value: 1
+			}],
+			rewards: [{
+				id: 2279,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: -6.5d,
 			dependencies: [I;2111],
 			id: 2113,
@@ -3869,7 +4354,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: -5.5d,
 			id: 2116,
 			tasks: [{
@@ -3877,10 +4362,15 @@
 				type: "kill",
 				entity: "atum:forsaken",
 				value: 1
+			}],
+			rewards: [{
+				id: 2280,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: -5.5d,
 			dependencies: [I;2116],
 			id: 2118,
@@ -3891,7 +4381,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: -4.5d,
 			id: 2120,
 			tasks: [{
@@ -3899,10 +4389,15 @@
 				type: "kill",
 				entity: "atum:mummy",
 				value: 1
+			}],
+			rewards: [{
+				id: 2281,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: -4.5d,
 			dependencies: [I;2120],
 			id: 2122,
@@ -3920,7 +4415,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: -1.5d,
 			id: 2125,
 			tasks: [{
@@ -3928,10 +4423,15 @@
 				type: "kill",
 				entity: "atum:nomad",
 				value: 1
+			}],
+			rewards: [{
+				id: 2284,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: -1.5d,
 			dependencies: [I;2125],
 			id: 2127,
@@ -3965,7 +4465,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: 2.5d,
 			id: 2140,
 			tasks: [{
@@ -3973,10 +4473,15 @@
 				type: "kill",
 				entity: "atum:sergeant",
 				value: 1
+			}],
+			rewards: [{
+				id: 2292,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: 2.5d,
 			dependencies: [I;2140],
 			id: 2142,
@@ -4011,7 +4516,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: -2.5d,
 			id: 2146,
 			tasks: [{
@@ -4019,10 +4524,15 @@
 				type: "kill",
 				entity: "atum:scarab",
 				value: 1
+			}],
+			rewards: [{
+				id: 2283,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: -2.5d,
 			dependencies: [I;2146],
 			id: 2148,
@@ -4033,7 +4543,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: 8.5d,
 			id: 2150,
 			tasks: [{
@@ -4041,10 +4551,15 @@
 				type: "kill",
 				entity: "atum:pharaoh",
 				value: 1
+			}],
+			rewards: [{
+				id: 2295,
+				type: "xp_levels",
+				xp_levels: 10
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: 3.5d,
 			id: 2152,
 			tasks: [{
@@ -4052,10 +4567,15 @@
 				type: "kill",
 				entity: "atum:stoneguard",
 				value: 1
+			}],
+			rewards: [{
+				id: 2288,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: 3.5d,
 			dependencies: [I;2152],
 			id: 2154,
@@ -4123,7 +4643,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: 4.5d,
 			id: 2161,
 			tasks: [{
@@ -4131,10 +4651,15 @@
 				type: "kill",
 				entity: "atum:stonewarden",
 				value: 1
+			}],
+			rewards: [{
+				id: 2291,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: 4.5d,
 			dependencies: [I;2161],
 			id: 2163,
@@ -4145,7 +4670,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: 5.5d,
 			id: 2165,
 			tasks: [{
@@ -4153,10 +4678,15 @@
 				type: "kill",
 				entity: "atum:sunspeaker",
 				value: 1
+			}],
+			rewards: [{
+				id: 2289,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: 5.5d,
 			dependencies: [I;2165],
 			id: 2167,
@@ -4174,7 +4704,7 @@
 			]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: 8.5d,
 			dependencies: [I;2150],
 			id: 2169,
@@ -4185,7 +4715,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: -3.5d,
 			id: 2174,
 			tasks: [{
@@ -4193,10 +4723,15 @@
 				type: "kill",
 				entity: "atum:tarantula",
 				value: 1
+			}],
+			rewards: [{
+				id: 2282,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: -3.5d,
 			dependencies: [I;2174],
 			id: 2176,
@@ -4214,7 +4749,7 @@
 			]
 		},
 		{
-			x: 9.0d,
+			x: 12.0d,
 			y: 9.5d,
 			id: 2181,
 			tasks: [{
@@ -4222,10 +4757,15 @@
 				type: "kill",
 				entity: "atum:wraith",
 				value: 1
+			}],
+			rewards: [{
+				id: 2293,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 13.5d,
 			y: 9.5d,
 			dependencies: [I;2181],
 			id: 2183,
@@ -4236,30 +4776,40 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: 14.0d,
+			x: 9.5d,
+			y: 14.5d,
 			id: 2189,
 			tasks: [{
 				id: 2190,
 				type: "kill",
 				entity: "midnight:bulb_angler",
 				value: 1
+			}],
+			rewards: [{
+				id: 2303,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 8.5d,
-			y: 14.0d,
+			x: 11.5d,
+			y: 14.5d,
 			id: 2191,
 			tasks: [{
 				id: 2192,
 				type: "kill",
 				entity: "midnight:deceitful_snapper",
 				value: 1
+			}],
+			rewards: [{
+				id: 2302,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.0d,
-			y: 14.0d,
+			x: 13.0d,
+			y: 14.5d,
 			dependencies: [I;2191],
 			id: 2193,
 			tasks: [{
@@ -4269,19 +4819,24 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: 15.0d,
+			x: 9.5d,
+			y: 15.5d,
 			id: 2195,
 			tasks: [{
 				id: 2196,
 				type: "kill",
 				entity: "midnight:nightstag",
 				value: 1
+			}],
+			rewards: [{
+				id: 2304,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 5.0d,
-			y: 15.0d,
+			x: 8.0d,
+			y: 15.5d,
 			dependencies: [I;2195],
 			id: 2197,
 			tasks: [
@@ -4298,19 +4853,24 @@
 			]
 		},
 		{
-			x: 8.5d,
-			y: 16.0d,
+			x: 11.5d,
+			y: 16.5d,
 			id: 2200,
 			tasks: [{
 				id: 2201,
 				type: "kill",
 				entity: "midnight:stinger",
 				value: 1
+			}],
+			rewards: [{
+				id: 2299,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 10.0d,
-			y: 16.0d,
+			x: 13.0d,
+			y: 16.5d,
 			dependencies: [I;2200],
 			id: 2202,
 			tasks: [{
@@ -4320,41 +4880,56 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: 16.0d,
+			x: 9.5d,
+			y: 16.5d,
 			id: 2204,
 			tasks: [{
 				id: 2205,
 				type: "kill",
 				entity: "midnight:crystal_bug",
 				value: 1
+			}],
+			rewards: [{
+				id: 2297,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 8.5d,
-			y: 13.0d,
+			x: 11.5d,
+			y: 13.5d,
 			id: 2206,
 			tasks: [{
 				id: 2207,
 				type: "kill",
 				entity: "midnight:nova",
 				value: 1
+			}],
+			rewards: [{
+				id: 2301,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 6.5d,
-			y: 17.0d,
+			x: 9.5d,
+			y: 17.5d,
 			id: 2208,
 			tasks: [{
 				id: 2209,
 				type: "kill",
 				entity: "midnight:hunter",
 				value: 1
+			}],
+			rewards: [{
+				id: 2298,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
-			x: 5.0d,
-			y: 17.0d,
+			x: 8.0d,
+			y: 17.5d,
 			dependencies: [I;2208],
 			id: 2210,
 			tasks: [{
@@ -4364,14 +4939,213 @@
 			}]
 		},
 		{
-			x: 8.5d,
-			y: 15.0d,
+			x: 11.5d,
+			y: 15.5d,
 			id: 2212,
 			tasks: [{
 				id: 2213,
 				type: "kill",
 				entity: "midnight:rifter",
 				value: 1
+			}],
+			rewards: [{
+				id: 2300,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -16.5d,
+			y: 16.5d,
+			id: 2214,
+			tasks: [{
+				id: 2215,
+				type: "kill",
+				entity: "quark:toretoise",
+				value: 1
+			}],
+			rewards: [{
+				id: 2342,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -2.5d,
+			id: 2216,
+			tasks: [{
+				id: 2217,
+				type: "kill",
+				entity: "quark:foxhound",
+				value: 1
+			}],
+			rewards: [{
+				id: 2268,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.5d,
+			dependencies: [I;2216],
+			id: 2218,
+			tasks: [
+				{
+					id: 2219,
+					type: "item",
+					item: "mysticalworld:pelt"
+				},
+				{
+					id: 2220,
+					type: "item",
+					item: "minecraft:coal"
+				},
+				{
+					id: 2221,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: -14.5d,
+			y: -4.5d,
+			id: 2222,
+			tasks: [{
+				id: 2223,
+				type: "kill",
+				entity: "quark:wrapped",
+				value: 1
+			}],
+			rewards: [{
+				id: 2237,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -4.5d,
+			dependencies: [I;2222],
+			id: 2224,
+			tasks: [
+				{
+					id: 2225,
+					type: "item",
+					item: "minecraft:rotten_flesh"
+				},
+				{
+					id: 2226,
+					type: "item",
+					item: "xreliquary:zombie_heart"
+				},
+				{
+					id: 2227,
+					type: "item",
+					item: "minecraft:cobweb"
+				},
+				{
+					id: 2228,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
+		},
+		{
+			x: -16.5d,
+			y: 15.5d,
+			id: 2229,
+			tasks: [{
+				id: 2230,
+				type: "kill",
+				entity: "quark:stoneling",
+				value: 1
+			}],
+			rewards: [{
+				id: 2341,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -18.0d,
+			y: 15.5d,
+			dependencies: [I;2229],
+			id: 2231,
+			tasks: [{
+				id: 2232,
+				type: "item",
+				item: "quark:diamond_heart"
+			}]
+		},
+		{
+			icon: "minecraft:dragon_head",
+			x: -0.5d,
+			y: 18.5d,
+			id: 2364,
+			tasks: [{
+				id: 2365,
+				type: "kill",
+				entity: "minecraft:ender_dragon",
+				value: 1
+			}],
+			rewards: [{
+				id: 2366,
+				type: "xp_levels",
+				xp_levels: 10
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 18.5d,
+			dependencies: [I;2364],
+			id: 2367,
+			tasks: [
+				{
+					id: 2368,
+					type: "item",
+					item: "minecraft:dragon_egg"
+				},
+				{
+					id: 2369,
+					type: "item",
+					item: "mysticalagradditions:dragon_scale"
+				},
+				{
+					id: 2370,
+					type: "item",
+					item: "quark:dragon_scale"
+				}
+			]
+		},
+		{
+			icon: "botania:gaia_head",
+			x: -10.0d,
+			y: -6.5d,
+			id: 2371,
+			tasks: [{
+				id: 2372,
+				type: "kill",
+				entity: "botania:doppleganger",
+				value: 1
+			}],
+			rewards: [{
+				id: 2375,
+				type: "xp_levels",
+				xp_levels: 10
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -6.5d,
+			dependencies: [I;2371],
+			id: 2373,
+			tasks: [{
+				id: 2374,
+				type: "item",
+				item: "botania:life_essence"
 			}]
 		}
 	]

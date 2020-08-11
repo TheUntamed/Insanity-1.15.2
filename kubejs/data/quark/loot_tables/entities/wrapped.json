@@ -28,6 +28,22 @@
         ]
       },
       {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobweb"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance_with_looting",
+            "chance": 0.4,
+            "looting_multiplier": 0.1
+          }
+        ]
+      },
+      {
         "name": "main",
         "rolls": 1,
         "entries": [
