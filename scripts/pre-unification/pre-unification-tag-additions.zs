@@ -164,7 +164,7 @@ public function preUnificationTagAdditions() as void {
             var itemOwner = item.registryName.split(":")[0];
             if (itemOwner == mod) {
                 chestExists = true;
-                return;
+                //return;
             }
         }
         if (chestExists == false) {

@@ -22,7 +22,7 @@
 	#Range: 1 ~ 32
 	fiery_glass_size = 7
 	#Whether to have ores from this mod spawn at all.
-	generate_ores = true
+	generate_ores = false
 	#Determines the size of a rockroot vein.
 	#Range: 1 ~ 32
 	rockroot_size = 3

@@ -8,6 +8,21 @@ import mods.jei.JEI;
 
 logger.info("Prio Test: crushing-functions!");
 
+public function atumSpinning(name as string, input as string, output as string, outputCount as int) as void {
+    <recipetype:atum:spinning_wheel>.addJSONRecipe(name,
+    {
+        ingredient: {
+            item: input,
+            count: 1
+        },
+        result: {
+            item: output,
+            count: outputCount
+        },
+        rotations: 5
+    });
+}
+
 public function createSplashing(name as string, input as string, output as string, outputCount as int) as void {
     <recipetype:create:splashing>.addJSONRecipe(name,
     {

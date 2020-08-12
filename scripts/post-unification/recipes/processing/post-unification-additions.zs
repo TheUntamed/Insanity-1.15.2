@@ -9,4 +9,6 @@ public function postUnificationAdditions() as void {
     silentsMechanismsAlloySmelting("silents_mechanisms/alloy_smelting/bronze", "forge:ingots/copper", 3, "forge:ingots/tin", 1, "silents_mechanisms:bronze_ingot", 4);
     
     mekanismEnriching("mekanism/enriching/uraninite", "forge:ingots/uranium", <item:powah:uraninite>.registryName, 2);
+
+    atumSpinning("atum/spinning/pelt/to_string", "mysticalworld:pelt", "minecraft:string", 2);
 }

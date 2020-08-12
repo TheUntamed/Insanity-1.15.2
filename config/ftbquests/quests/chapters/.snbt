@@ -1,0 +1,945 @@
+{
+	id: 979,
+	filename: "",
+	order_index: 0,
+	title: "Storage",
+	icon: "minecraft:chest",
+	always_invisible: 1,
+	quests: [
+		{
+			x: -10.5d,
+			y: -1.0d,
+			subtitle: "27 + Can be Doubled",
+			id: 980,
+			tasks: [
+				{
+					id: 981,
+					type: "item",
+					item: "minecraft:chest"
+				},
+				{
+					id: 982,
+					type: "item",
+					title: "Any forge:chests/wooden",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1,
+						tag: {
+							value: "forge:chests/wooden"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -10.5d,
+			y: -4.0d,
+			subtitle: "27",
+			id: 983,
+			tasks: [{
+				id: 984,
+				type: "item",
+				item: "minecraft:barrel"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 7.5d,
+			id: 985,
+			tasks: [{
+				id: 986,
+				type: "item",
+				item: "immersiveengineering:metal_barrel"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 7.5d,
+			id: 987,
+			tasks: [{
+				id: 988,
+				type: "item",
+				item: "immersiveengineering:wooden_barrel"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -5.5d,
+			subtitle: "27 + Blast Resistant",
+			id: 989,
+			tasks: [{
+				id: 990,
+				type: "item",
+				item: "minecraft:ender_chest"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -2.5d,
+			subtitle: "54",
+			id: 991,
+			tasks: [{
+				id: 992,
+				type: "item",
+				item: "essentials:slotted_chest"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -4.0d,
+			subtitle: "54",
+			id: 993,
+			tasks: [{
+				id: 994,
+				type: "item",
+				item: "mekanism:personal_chest"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 2.0d,
+			subtitle: "36 + Blast Resistant + Preserves Content",
+			id: 995,
+			tasks: [{
+				id: 996,
+				type: "item",
+				item: "pneumaticcraft:reinforced_chest"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 2.0d,
+			subtitle: "72 + Blast Resistant",
+			id: 997,
+			tasks: [{
+				id: 998,
+				type: "item",
+				item: "pneumaticcraft:smart_chest"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -1.0d,
+			subtitle: "54 + Can be Doubled",
+			id: 999,
+			tasks: [{
+				id: 1000,
+				type: "item",
+				item: "expandedstorage:iron_chest"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -2.5d,
+			subtitle: "36 + Blast Resistant",
+			id: 1001,
+			tasks: [{
+				id: 1002,
+				type: "item",
+				item: "appliedenergistics2:sky_stone_chest"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -5.5d,
+			subtitle: "54",
+			id: 1003,
+			tasks: [{
+				id: 1004,
+				type: "item",
+				item: "dimstorage:dimensional_chest"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -5.5d,
+			subtitle: "9 - 27",
+			id: 1005,
+			tasks: [{
+				id: 1006,
+				type: "item",
+				item: {
+					id: "enderchests:ender_chest",
+					Count: 1,
+					tag: {
+						owner: "all",
+						code: "000"
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -2.5d,
+			subtitle: "94 + Blast Resistant",
+			id: 1007,
+			tasks: [{
+				id: 1008,
+				type: "item",
+				item: "projecte:alchemical_chest"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -1.0d,
+			subtitle: "81 + Can be Doubled",
+			id: 1009,
+			tasks: [{
+				id: 1010,
+				type: "item",
+				item: "expandedstorage:gold_chest"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -1.0d,
+			subtitle: "108 + Can be Doubled",
+			id: 1011,
+			tasks: [{
+				id: 1012,
+				type: "item",
+				item: "expandedstorage:diamond_chest"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -1.0d,
+			subtitle: "108 + Can be Doubled + Blast Resistant",
+			id: 1013,
+			tasks: [{
+				id: 1014,
+				type: "item",
+				item: "expandedstorage:obsidian_chest"
+			}]
+		},
+		{
+			icon: "minecraft:water_bucket",
+			x: -11.5d,
+			y: 9.0d,
+			id: 1015,
+			tasks: [{
+				id: 1016,
+				type: "checkmark",
+				title: "Fluids"
+			}]
+		},
+		{
+			icon: "minecraft:item_frame",
+			x: -12.0d,
+			y: -2.5d,
+			id: 1017,
+			tasks: [{
+				id: 1018,
+				type: "checkmark",
+				title: "Items"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 6.0d,
+			id: 1019,
+			tasks: [{
+				id: 1020,
+				type: "item",
+				item: {
+					id: "endertanks:ender_tank",
+					Count: 1,
+					tag: {
+						owner: "all",
+						code: "000"
+					}
+				}
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 10.5d,
+			subtitle: "14000",
+			id: 1021,
+			tasks: [{
+				id: 1022,
+				type: "item",
+				item: "mekanism:basic_fluid_tank"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 7.5d,
+			id: 1023,
+			tasks: [{
+				id: 1024,
+				type: "item",
+				item: "quantumstorage:tank"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 9.0d,
+			subtitle: "4000",
+			id: 1025,
+			tasks: [{
+				id: 1026,
+				type: "item",
+				item: "fluidtank:tank_wood"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 6.0d,
+			id: 1027,
+			tasks: [{
+				id: 1028,
+				type: "item",
+				item: "dimstorage:dimensional_tank"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 9.0d,
+			id: 1029,
+			tasks: [{
+				id: 1030,
+				type: "item",
+				item: "overloaded:almost_infinite_tank"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			subtitle: "2.17T",
+			id: 1031,
+			tasks: [{
+				id: 1032,
+				type: "item",
+				item: "quantumstorage:qsu"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 0.5d,
+			subtitle: "72",
+			id: 1033,
+			tasks: [{
+				id: 1034,
+				type: "item",
+				item: "quantumstorage:chestdiamond"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 0.5d,
+			subtitle: "54",
+			id: 1035,
+			tasks: [{
+				id: 1036,
+				type: "item",
+				item: "quantumstorage:chestgold"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 0.5d,
+			subtitle: "36",
+			id: 1037,
+			tasks: [{
+				id: 1038,
+				type: "item",
+				item: "quantumstorage:chestiron"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 3.5d,
+			id: 1039,
+			tasks: [{
+				id: 1040,
+				type: "item",
+				item: "overloaded:almost_infinite_barrel"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.5d,
+			id: 1041,
+			tasks: [{
+				id: 1042,
+				type: "item",
+				item: "overloaded:true_infinite_barrel"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.5d,
+			subtitle: "32 + Can be upgraded + Preserves Content + Display",
+			id: 1043,
+			tasks: [{
+				id: 1044,
+				type: "item",
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.5d,
+			subtitle: "128 + Preserves Content",
+			id: 1045,
+			tasks: [{
+				id: 1046,
+				type: "item",
+				item: "storagedrawers:controller"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.5d,
+			subtitle: "128 + Display",
+			id: 1047,
+			tasks: [{
+				id: 1048,
+				type: "item",
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 3.5d,
+			id: 1049,
+			tasks: [{
+				id: 1050,
+				type: "item",
+				item: "dankstorage:dank_1"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 3.5d,
+			id: 1051,
+			tasks: [{
+				id: 1052,
+				type: "item",
+				item: "dankstorage:dank_2"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 3.5d,
+			id: 1053,
+			tasks: [{
+				id: 1054,
+				type: "item",
+				item: "dankstorage:dank_3"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 3.5d,
+			id: 1055,
+			tasks: [{
+				id: 1056,
+				type: "item",
+				item: "dankstorage:dank_4"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 3.5d,
+			id: 1057,
+			tasks: [{
+				id: 1058,
+				type: "item",
+				item: "dankstorage:dank_5"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 3.5d,
+			id: 1059,
+			tasks: [{
+				id: 1060,
+				type: "item",
+				item: "dankstorage:dank_6"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.5d,
+			id: 1061,
+			tasks: [{
+				id: 1062,
+				type: "item",
+				item: "dankstorage:dank_7"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -4.0d,
+			id: 1063,
+			tasks: [{
+				id: 1064,
+				type: "item",
+				item: {
+					id: "appliedenergistics2:1k_storage_cell",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.0d,
+			id: 1065,
+			tasks: [{
+				id: 1066,
+				type: "item",
+				item: "refinedstorage:1k_storage_disk"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 9.0d,
+			id: 1067,
+			tasks: [{
+				id: 1068,
+				type: "item",
+				item: "overloaded:true_infinite_tank"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 12.0d,
+			subtitle: "32000",
+			id: 1069,
+			tasks: [{
+				id: 1070,
+				type: "item",
+				item: "pneumaticcraft:small_tank"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 12.0d,
+			subtitle: "64000",
+			id: 1071,
+			tasks: [{
+				id: 1072,
+				type: "item",
+				item: "pneumaticcraft:medium_tank"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 12.0d,
+			subtitle: "128000",
+			id: 1073,
+			tasks: [{
+				id: 1074,
+				type: "item",
+				item: "pneumaticcraft:large_tank"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 10.5d,
+			subtitle: "28000",
+			id: 1075,
+			tasks: [{
+				id: 1076,
+				type: "item",
+				item: "mekanism:advanced_fluid_tank"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 10.5d,
+			subtitle: "56000",
+			id: 1077,
+			tasks: [{
+				id: 1078,
+				type: "item",
+				item: "mekanism:elite_fluid_tank"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 10.5d,
+			subtitle: "112000",
+			id: 1079,
+			tasks: [{
+				id: 1080,
+				type: "item",
+				item: "mekanism:ultimate_fluid_tank"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 10.5d,
+			id: 1081,
+			tasks: [{
+				id: 1082,
+				type: "item",
+				item: "mekanism:creative_fluid_tank"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 9.0d,
+			subtitle: "64000",
+			id: 1083,
+			tasks: [{
+				id: 1084,
+				type: "item",
+				item: "cyclic:tank"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 7.5d,
+			id: 1085,
+			tasks: [{
+				id: 1086,
+				type: "item",
+				item: {
+					id: "appliedenergistics2:1k_fluid_storage_cell",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 10.5d,
+			id: 1087,
+			tasks: [{
+				id: 1088,
+				type: "item",
+				item: "refinedstorage:64k_fluid_storage_disk"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 7.5d,
+			id: 1089,
+			tasks: [{
+				id: 1090,
+				type: "item",
+				item: "cyclic:cask"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -7.0d,
+			id: 1091,
+			tasks: [{
+				id: 1092,
+				type: "item",
+				item: "engineersdecor:labeled_crate"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -5.5d,
+			subtitle: "27 + Preserves Content",
+			id: 1093,
+			tasks: [{
+				id: 1094,
+				type: "item",
+				item: "immersiveengineering:crate"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -5.5d,
+			subtitle: "27 + Blast Resistant + Preserves Content",
+			id: 1095,
+			tasks: [{
+				id: 1096,
+				type: "item",
+				item: "immersiveengineering:reinforced_crate"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.5d,
+			id: 1097,
+			tasks: [{
+				id: 1098,
+				type: "item",
+				item: "create:creative_crate"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -2.5d,
+			subtitle: "27",
+			id: 1099,
+			tasks: [
+				{
+					id: 1100,
+					type: "item",
+					item: "atum:deadwood_crate"
+				},
+				{
+					id: 1101,
+					type: "item",
+					item: "atum:palm_crate"
+				}
+			]
+		},
+		{
+			x: -10.5d,
+			y: 0.5d,
+			subtitle: "27 + Can be Eightfold (216)",
+			id: 1102,
+			tasks: [{
+				id: 1103,
+				type: "item",
+				item: "druidcraft:crate"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -4.0d,
+			subtitle: "81 + Blast Resistant",
+			id: 1104,
+			tasks: [{
+				id: 1105,
+				type: "item",
+				item: "cyclic:crate"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -5.5d,
+			subtitle: "54 + Blast Resistant + Preserves Content + Display",
+			id: 1106,
+			tasks: [{
+				id: 1107,
+				type: "item",
+				item: "engineersdecor:labeled_crate"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -7.0d,
+			subtitle: "27",
+			id: 1108,
+			tasks: [{
+				id: 1109,
+				type: "item",
+				item: "naturesaura:ender_crate"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -11.5d,
+			subtitle: "104",
+			id: 1110,
+			tasks: [{
+				id: 1111,
+				type: "item",
+				item: "projecte:white_alchemical_bag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -8.5d,
+			id: 1112,
+			tasks: [{
+				id: 1113,
+				type: "item",
+				item: {
+					id: "enderchests:ender_bag",
+					Count: 1,
+					tag: {
+						owner: "all",
+						code: "000",
+						open: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -11.5d,
+			subtitle: "18",
+			id: 1114,
+			tasks: [{
+				id: 1115,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {}
+					},
+					id: "simplybackpacks:commonbackpack",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -11.5d,
+			subtitle: "33",
+			id: 1116,
+			tasks: [{
+				id: 1117,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {}
+					},
+					id: "simplybackpacks:uncommonbackpack",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -11.5d,
+			subtitle: "66",
+			id: 1118,
+			tasks: [{
+				id: 1119,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {}
+					},
+					id: "simplybackpacks:rarebackpack",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -11.5d,
+			subtitle: "99",
+			id: 1120,
+			tasks: [{
+				id: 1121,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {}
+					},
+					id: "simplybackpacks:epicbackpack",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -10.0d,
+			subtitle: "27 + Can be equipped + Inventory Upgrade",
+			id: 1122,
+			tasks: [{
+				id: 1123,
+				type: "item",
+				item: {
+					id: "quark:backpack",
+					Count: 1,
+					tag: {
+						Inventory: [
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -8.5d,
+			subtitle: "27",
+			id: 1124,
+			tasks: [{
+				id: 1125,
+				type: "item",
+				item: {
+					id: "enderchests:ender_pouch",
+					Count: 1,
+					tag: {
+						open: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -10.0d,
+			id: 1126,
+			tasks: [{
+				id: 1127,
+				type: "item",
+				item: "naturesaura:ender_access"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -8.5d,
+			subtitle: "54 + Has to be linked",
+			id: 1128,
+			tasks: [{
+				id: 1129,
+				type: "item",
+				item: "dimstorage:dimensional_tablet"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -8.5d,
+			subtitle: "27 + Can be equipped",
+			id: 1130,
+			tasks: [{
+				id: 1131,
+				type: "item",
+				item: {
+					id: "minecraft:shulker_box",
+					Count: 1,
+					tag: {
+						BlockEntityTag: {}
+					}
+				}
+			}]
+		},
+		{
+			x: -10.5d,
+			y: 2.0d,
+			subtitle: "27",
+			id: 1132,
+			tasks: [{
+				id: 1133,
+				type: "item",
+				item: "aquaculture:neptunes_bounty"
+			}]
+		}
+	]
+}
