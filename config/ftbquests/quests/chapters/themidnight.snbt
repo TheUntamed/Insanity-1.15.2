@@ -1,9 +1,368 @@
 {
 	id: 975,
 	filename: "themidnight",
-	order_index: 25,
+	order_index: 24,
 	title: "The Midnight",
 	icon: "midnight:dark_pearl",
 	always_invisible: 1,
-	quests: []
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: 2875,
+			tasks: [{
+				id: 2876,
+				type: "item",
+				title: "Any forge:ores/dark_pearl",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "forge:ores/dark_pearl"
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: [I;2875],
+			id: 2877,
+			tasks: [{
+				id: 2878,
+				type: "item",
+				item: "midnight:geode"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			dependencies: [I;2877],
+			id: 2879,
+			tasks: [{
+				id: 2880,
+				type: "item",
+				item: "midnight:dark_pearl"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 0.0d,
+			dependencies: [I;2879],
+			id: 2881,
+			tasks: [{
+				id: 2882,
+				type: "checkmark",
+				title: "Portal",
+				icon: "botania:cosmetic_questgiver_mark"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -3.0d,
+			dependencies: [I;2881],
+			id: 2883,
+			tasks: [{
+				id: 2884,
+				type: "item",
+				item: "midnight:nightstone"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -4.5d,
+			dependencies: [I;2881],
+			id: 2885,
+			tasks: [{
+				id: 2886,
+				type: "item",
+				item: "midnight:trenchstone"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -4.5d,
+			dependencies: [I;2885],
+			id: 2887,
+			tasks: [{
+				id: 2888,
+				type: "item",
+				item: "midnight:archaic_ore"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 3.0d,
+			dependencies: [I;2881],
+			id: 2889,
+			tasks: [{
+				id: 2890,
+				type: "item",
+				item: "midnight:viridshroom_stem"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 6.0d,
+			dependencies: [I;2881],
+			id: 2891,
+			tasks: [{
+				id: 2892,
+				type: "item",
+				item: "midnight:dewshroom_stem"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 0.0d,
+			dependencies: [I;2881],
+			id: 2893,
+			tasks: [{
+				id: 2894,
+				type: "item",
+				item: "midnight:nightshroom_stem"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -3.0d,
+			dependencies: [I;2881],
+			id: 2895,
+			tasks: [{
+				id: 2896,
+				type: "item",
+				item: "midnight:dirt"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -6.0d,
+			id: 2897,
+			tasks: [{
+				id: 2898,
+				type: "item",
+				item: "midnight:rifter_spawn_egg"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 4.5d,
+			dependencies: [I;2881],
+			id: 2899,
+			tasks: [{
+				id: 2900,
+				type: "item",
+				item: "midnight:glob_fungus_stem"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -3.0d,
+			dependencies: [I;2881],
+			id: 2901,
+			tasks: [{
+				id: 2902,
+				type: "item",
+				item: "midnight:mycelium"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -6.0d,
+			dependencies: [I;2881],
+			id: 2903,
+			tasks: [{
+				id: 2904,
+				type: "item",
+				item: "midnight:tenebrum_ore"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -7.5d,
+			dependencies: [I;2881],
+			id: 2905,
+			tasks: [{
+				id: 2906,
+				type: "item",
+				item: "midnight:ebonite_ore"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -9.0d,
+			dependencies: [I;2881],
+			id: 2907,
+			tasks: [{
+				id: 2908,
+				type: "item",
+				item: "midnight:nagrilite_ore"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 1.5d,
+			dependencies: [I;2881],
+			id: 2909,
+			tasks: [{
+				id: 2910,
+				type: "item",
+				item: "midnight:bogshroom_stem"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -3.0d,
+			dependencies: [I;2883],
+			id: 2911,
+			tasks: [{
+				id: 2912,
+				type: "item",
+				item: "midnight:nightstone_furnace"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -6.0d,
+			dependencies: [I;2903],
+			id: 2913,
+			tasks: [{
+				id: 2914,
+				type: "item",
+				item: "midnight:tenebrum_ingot"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -7.5d,
+			dependencies: [I;2905],
+			id: 2915,
+			tasks: [{
+				id: 2916,
+				type: "item",
+				item: "midnight:ebonite"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -9.0d,
+			dependencies: [I;2907],
+			id: 2917,
+			tasks: [{
+				id: 2918,
+				type: "item",
+				item: "midnight:nagrilite_ingot"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -4.5d,
+			dependencies: [I;2887],
+			id: 2919,
+			tasks: [{
+				id: 2920,
+				type: "item",
+				item: "midnight:archaic_shard"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 7.5d,
+			dependencies: [I;2881],
+			id: 2921,
+			tasks: [{
+				id: 2922,
+				type: "item",
+				item: "midnight:ghost_plant"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 7.5d,
+			dependencies: [I;2881],
+			id: 2923,
+			tasks: [{
+				id: 2924,
+				type: "item",
+				item: "midnight:dark_water_bucket"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 7.5d,
+			dependencies: [I;2881],
+			id: 2925,
+			tasks: [{
+				id: 2926,
+				type: "item",
+				item: "midnight:deceitful_mud"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -1.5d,
+			dependencies: [I;2881],
+			id: 2927,
+			tasks: [{
+				id: 2928,
+				type: "item",
+				item: "midnight:shadowroot_log"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -1.5d,
+			dependencies: [I;2927],
+			id: 2929,
+			tasks: [{
+				id: 2930,
+				type: "item",
+				item: "midnight:shadowroot_crafting_table"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -3.0d,
+			dependencies: [I;2881],
+			id: 2931,
+			tasks: [{
+				id: 2932,
+				type: "item",
+				item: "midnight:rockshroom"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 7.5d,
+			dependencies: [I;2881],
+			id: 2933,
+			tasks: [{
+				id: 2934,
+				type: "item",
+				item: "midnight:mistshroom"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 7.5d,
+			dependencies: [I;2881],
+			id: 2935,
+			tasks: [{
+				id: 2936,
+				type: "item",
+				item: "midnight:glob_fungus"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 7.5d,
+			dependencies: [I;2881],
+			id: 2937,
+			tasks: [{
+				id: 2938,
+				type: "item",
+				item: "midnight:miasma_bucket"
+			}]
+		}
+	]
 }
