@@ -16,10 +16,12 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 
 * *Botania* (r1.15-387 --> r1.15-388)
 * *Brick Furnace* (1.3.0 --> 1.4.0)
-* *CraftTweaker* (6.0.0.34 --> 6.0.0.38)
+* *CraftTweaker* (6.0.0.34 --> 6.0.0.39)
 * *Curios API* (2.0.2.4 --> 2.0.2.6)
-* *Cyclops Core* ( 1.8.0 --> 1.8.1)
+* *Cyclops Core* ( 1.8.0 --> 1.8.2)
+* *Decorative Blocks* (6d --> 6e)
 * *Double Slabs* (2.9.0 --> 2.10.1)
+* *Druidcraft* (0.4.21 --> 0.4.3)
 * *Dungeon Crawl* (2.0.1 --> 2.0.2)
 * *Engineer's Decor* (1.1.1 --> 1.1.2)
 * *Essentials* (2.7.3 --> 2.7.4)
@@ -62,7 +64,7 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 
 **Changes**
 
-* "tag|forge:gems.diamond"
+* Mekanism Factories can no longer be upgraded via crafting. Use Tier Installer instead.
 
 **Bug Fixes**
 

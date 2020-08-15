@@ -1,7 +1,7 @@
 {
 	id: 975,
 	filename: "themidnight",
-	order_index: 24,
+	order_index: 20,
 	title: "The Midnight",
 	icon: "midnight:dark_pearl",
 	always_invisible: 1,
@@ -58,9 +58,8 @@
 			}]
 		},
 		{
-			x: 12.0d,
-			y: -3.0d,
-			dependencies: [I;2881],
+			x: 6.0d,
+			y: 6.0d,
 			id: 2883,
 			tasks: [{
 				id: 2884,
@@ -69,9 +68,9 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 6.0d,
 			y: -4.5d,
-			dependencies: [I;2881],
+			dependencies: [I;2941],
 			id: 2885,
 			tasks: [{
 				id: 2886,
@@ -80,7 +79,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 7.5d,
 			y: -4.5d,
 			dependencies: [I;2885],
 			id: 2887,
@@ -91,42 +90,35 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 3.0d,
-			dependencies: [I;2881],
-			id: 2889,
-			tasks: [{
-				id: 2890,
-				type: "item",
-				item: "midnight:viridshroom_stem"
-			}]
-		},
-		{
-			x: 10.5d,
-			y: 6.0d,
-			dependencies: [I;2881],
-			id: 2891,
-			tasks: [{
-				id: 2892,
-				type: "item",
-				item: "midnight:dewshroom_stem"
-			}]
-		},
-		{
-			x: 10.5d,
+			x: 6.0d,
 			y: 0.0d,
-			dependencies: [I;2881],
 			id: 2893,
-			tasks: [{
-				id: 2894,
-				type: "item",
-				item: "midnight:nightshroom_stem"
-			}]
+			tasks: [
+				{
+					id: 2944,
+					type: "item",
+					item: "midnight:bogshroom_stem"
+				},
+				{
+					id: 2945,
+					type: "item",
+					item: "midnight:nightshroom_stem"
+				},
+				{
+					id: 2946,
+					type: "item",
+					item: "midnight:dewshroom_stem"
+				},
+				{
+					id: 2947,
+					type: "item",
+					item: "midnight:viridshroom_stem"
+				}
+			]
 		},
 		{
-			x: 9.0d,
-			y: -3.0d,
-			dependencies: [I;2881],
+			x: 6.0d,
+			y: 1.5d,
 			id: 2895,
 			tasks: [{
 				id: 2896,
@@ -135,8 +127,8 @@
 			}]
 		},
 		{
-			x: 4.5d,
-			y: -6.0d,
+			x: 10.5d,
+			y: 0.0d,
 			id: 2897,
 			tasks: [{
 				id: 2898,
@@ -145,20 +137,8 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 4.5d,
-			dependencies: [I;2881],
-			id: 2899,
-			tasks: [{
-				id: 2900,
-				type: "item",
-				item: "midnight:glob_fungus_stem"
-			}]
-		},
-		{
-			x: 7.5d,
+			x: 6.0d,
 			y: -3.0d,
-			dependencies: [I;2881],
 			id: 2901,
 			tasks: [{
 				id: 2902,
@@ -167,9 +147,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 6.0d,
 			y: -6.0d,
-			dependencies: [I;2881],
 			id: 2903,
 			tasks: [{
 				id: 2904,
@@ -178,9 +157,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 6.0d,
 			y: -7.5d,
-			dependencies: [I;2881],
 			id: 2905,
 			tasks: [{
 				id: 2906,
@@ -189,9 +167,8 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 6.0d,
 			y: -9.0d,
-			dependencies: [I;2881],
 			id: 2907,
 			tasks: [{
 				id: 2908,
@@ -200,19 +177,8 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 1.5d,
-			dependencies: [I;2881],
-			id: 2909,
-			tasks: [{
-				id: 2910,
-				type: "item",
-				item: "midnight:bogshroom_stem"
-			}]
-		},
-		{
-			x: 13.5d,
-			y: -3.0d,
+			x: 7.5d,
+			y: 6.0d,
 			dependencies: [I;2883],
 			id: 2911,
 			tasks: [{
@@ -222,7 +188,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 7.5d,
 			y: -6.0d,
 			dependencies: [I;2903],
 			id: 2913,
@@ -233,7 +199,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 7.5d,
 			y: -7.5d,
 			dependencies: [I;2905],
 			id: 2915,
@@ -244,7 +210,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 7.5d,
 			y: -9.0d,
 			dependencies: [I;2907],
 			id: 2917,
@@ -255,7 +221,7 @@
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 9.0d,
 			y: -4.5d,
 			dependencies: [I;2887],
 			id: 2919,
@@ -267,19 +233,94 @@
 		},
 		{
 			x: 9.0d,
-			y: 7.5d,
-			dependencies: [I;2881],
+			y: 9.0d,
 			id: 2921,
-			tasks: [{
-				id: 2922,
-				type: "item",
-				item: "midnight:ghost_plant"
-			}]
+			tasks: [
+				{
+					id: 2922,
+					type: "item",
+					item: "midnight:ghost_plant"
+				},
+				{
+					id: 2982,
+					type: "item",
+					item: "midnight:crystal_flower"
+				},
+				{
+					id: 2983,
+					type: "item",
+					item: "midnight:violeaf"
+				},
+				{
+					id: 2984,
+					type: "item",
+					item: "midnight:dragon_nest"
+				},
+				{
+					id: 2985,
+					type: "item",
+					item: "midnight:runebush"
+				},
+				{
+					id: 2986,
+					type: "item",
+					item: "midnight:tendrilweed"
+				},
+				{
+					id: 2987,
+					type: "item",
+					item: "midnight:fingered_grass"
+				},
+				{
+					id: 2988,
+					type: "item",
+					item: "midnight:bogweed"
+				},
+				{
+					id: 2989,
+					type: "item",
+					item: "midnight:lumen_bud"
+				},
+				{
+					id: 3000,
+					type: "item",
+					item: "midnight:deceitful_moss"
+				},
+				{
+					id: 3001,
+					type: "item",
+					item: "midnight:glob_fungus"
+				},
+				{
+					id: 3002,
+					type: "item",
+					item: "midnight:bloomcrystal"
+				},
+				{
+					id: 3003,
+					type: "item",
+					item: "midnight:rouxe"
+				},
+				{
+					id: 3004,
+					type: "item",
+					item: "midnight:grass"
+				},
+				{
+					id: 3014,
+					type: "item",
+					item: "midnight:deceitful_algae"
+				},
+				{
+					id: 3038,
+					type: "item",
+					item: "midnight:crystalotus"
+				}
+			]
 		},
 		{
-			x: 4.5d,
-			y: 7.5d,
-			dependencies: [I;2881],
+			x: 10.5d,
+			y: 1.5d,
 			id: 2923,
 			tasks: [{
 				id: 2924,
@@ -288,9 +329,8 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: 7.5d,
-			dependencies: [I;2881],
+			x: 6.0d,
+			y: 3.0d,
 			id: 2925,
 			tasks: [{
 				id: 2926,
@@ -299,9 +339,8 @@
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 6.0d,
 			y: -1.5d,
-			dependencies: [I;2881],
 			id: 2927,
 			tasks: [{
 				id: 2928,
@@ -310,7 +349,7 @@
 			}]
 		},
 		{
-			x: 12.0d,
+			x: 7.5d,
 			y: -1.5d,
 			dependencies: [I;2927],
 			id: 2929,
@@ -321,9 +360,8 @@
 			}]
 		},
 		{
-			x: 10.5d,
-			y: -3.0d,
-			dependencies: [I;2881],
+			x: 6.0d,
+			y: 4.5d,
 			id: 2931,
 			tasks: [{
 				id: 2932,
@@ -332,37 +370,450 @@
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 7.5d,
-			dependencies: [I;2881],
-			id: 2933,
-			tasks: [{
-				id: 2934,
-				type: "item",
-				item: "midnight:mistshroom"
-			}]
-		},
-		{
 			x: 6.0d,
-			y: 7.5d,
-			dependencies: [I;2881],
+			y: 9.0d,
 			id: 2935,
-			tasks: [{
-				id: 2936,
-				type: "item",
-				item: "midnight:glob_fungus"
-			}]
+			tasks: [
+				{
+					id: 2954,
+					type: "item",
+					item: "midnight:nightshroom"
+				},
+				{
+					id: 2955,
+					type: "item",
+					item: "midnight:dewshroom"
+				},
+				{
+					id: 2958,
+					type: "item",
+					item: "midnight:bogshroom"
+				},
+				{
+					id: 2967,
+					type: "item",
+					item: "midnight:viridshroom"
+				}
+			]
 		},
 		{
-			x: 3.0d,
-			y: 7.5d,
-			dependencies: [I;2881],
+			x: 10.5d,
+			y: 3.0d,
 			id: 2937,
 			tasks: [{
 				id: 2938,
 				type: "item",
 				item: "midnight:miasma_bucket"
 			}]
+		},
+		{
+			x: 7.5d,
+			y: 9.0d,
+			dependencies: [I;
+				2962,
+				2935,
+				2968,
+				2973
+			],
+			id: 2939,
+			tasks: [
+				{
+					id: 2940,
+					type: "item",
+					item: "midnight:nightshroom_powder"
+				},
+				{
+					id: 2949,
+					type: "item",
+					item: "midnight:bogshroom_powder"
+				},
+				{
+					id: 2950,
+					type: "item",
+					item: "midnight:dewshroom_powder"
+				},
+				{
+					id: 2951,
+					type: "item",
+					item: "midnight:viridshroom_powder"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -4.5d,
+			id: 2941,
+			tasks: [{
+				id: 2942,
+				type: "item",
+				item: {
+					id: "minecraft:iron_pickaxe",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 7.5d,
+			id: 2962,
+			tasks: [
+				{
+					id: 2963,
+					type: "item",
+					item: "midnight:nightshroom_shelf"
+				},
+				{
+					id: 2964,
+					type: "item",
+					item: "midnight:dewshroom_shelf"
+				},
+				{
+					id: 2965,
+					type: "item",
+					item: "midnight:viridshroom_shelf"
+				},
+				{
+					id: 2966,
+					type: "item",
+					item: "midnight:bogshroom_shelf"
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 10.5d,
+			id: 2968,
+			tasks: [
+				{
+					id: 2969,
+					type: "item",
+					item: "midnight:bogshroom_hat"
+				},
+				{
+					id: 2970,
+					type: "item",
+					item: "midnight:nightshroom_hat"
+				},
+				{
+					id: 2971,
+					type: "item",
+					item: "midnight:dewshroom_hat"
+				},
+				{
+					id: 2972,
+					type: "item",
+					item: "midnight:viridshroom_hat"
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 10.5d,
+			id: 2973,
+			tasks: [
+				{
+					id: 2976,
+					type: "item",
+					item: "midnight:nightshroom_roots"
+				},
+				{
+					id: 2977,
+					type: "item",
+					item: "midnight:nightshroom_flowering_roots"
+				},
+				{
+					id: 2978,
+					type: "item",
+					item: "midnight:dewshroom_roots"
+				},
+				{
+					id: 2979,
+					type: "item",
+					item: "midnight:dewshroom_flowering_roots"
+				},
+				{
+					id: 2980,
+					type: "item",
+					item: "midnight:viridshroom_roots"
+				},
+				{
+					id: 2981,
+					type: "item",
+					item: "midnight:viridshroom_flowering_roots"
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 4.5d,
+			dependencies: [I;2931],
+			id: 2990,
+			tasks: [{
+				id: 2991,
+				type: "item",
+				item: "midnight:rockshroom_clump"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 4.5d,
+			dependencies: [I;2990],
+			id: 2992,
+			tasks: [
+				{
+					id: 2993,
+					type: "item",
+					item: "midnight:rockshroom_bucket"
+				},
+				{
+					id: 2994,
+					type: "item",
+					item: {
+						id: "midnight:rockshroom_helmet",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2995,
+					type: "item",
+					item: {
+						id: "midnight:rockshroom_chestplate",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2996,
+					type: "item",
+					item: {
+						id: "midnight:rockshroom_leggings",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2997,
+					type: "item",
+					item: {
+						id: "midnight:rockshroom_boots",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2998,
+					type: "item",
+					item: {
+						id: "midnight:rockshroom_shield",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2999,
+					type: "item",
+					item: {
+						id: "midnight:rockshroom_shears",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 3.0d,
+			id: 3005,
+			tasks: [{
+				id: 3006,
+				type: "item",
+				item: "midnight:deceitful_peat"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 1.5d,
+			id: 3007,
+			tasks: [
+				{
+					id: 3008,
+					type: "item",
+					item: "midnight:dark_willow_log"
+				},
+				{
+					id: 3009,
+					type: "item",
+					item: "midnight:dead_wood_log"
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 0.0d,
+			id: 3010,
+			tasks: [
+				{
+					id: 3011,
+					type: "item",
+					item: "midnight:glob_fungus_hat"
+				},
+				{
+					id: 3039,
+					type: "item",
+					item: "midnight:glob_fungus_stem"
+				}
+			]
+		},
+		{
+			x: 12.0d,
+			y: -1.5d,
+			id: 3012,
+			tasks: [{
+				id: 3013,
+				type: "item",
+				item: "midnight:raw_suavis"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 7.5d,
+			id: 3015,
+			tasks: [
+				{
+					id: 3016,
+					type: "item",
+					item: "midnight:malignant_foxglove"
+				},
+				{
+					id: 3017,
+					type: "item",
+					item: "midnight:malignant_hemlock"
+				},
+				{
+					id: 3018,
+					type: "item",
+					item: "midnight:malignant_hyacinth"
+				},
+				{
+					id: 3019,
+					type: "item",
+					item: "midnight:malignant_ivy"
+				},
+				{
+					id: 3020,
+					type: "item",
+					item: "midnight:malignant_larkspur"
+				},
+				{
+					id: 3021,
+					type: "item",
+					item: "midnight:malignant_lily"
+				},
+				{
+					id: 3022,
+					type: "item",
+					item: "midnight:malignant_mandrake"
+				},
+				{
+					id: 3023,
+					type: "item",
+					item: "midnight:malignant_moonseed"
+				},
+				{
+					id: 3024,
+					type: "item",
+					item: "midnight:malignant_nettle"
+				},
+				{
+					id: 3025,
+					type: "item",
+					item: "midnight:malignant_ragweed"
+				},
+				{
+					id: 3026,
+					type: "item",
+					item: "midnight:malignant_snakeroot"
+				},
+				{
+					id: 3027,
+					type: "item",
+					item: "midnight:malignant_spindle"
+				},
+				{
+					id: 3028,
+					type: "item",
+					item: "midnight:malignant_tailflower"
+				},
+				{
+					id: 3029,
+					type: "item",
+					item: "midnight:malignant_thistle"
+				},
+				{
+					id: 3030,
+					type: "item",
+					item: "midnight:malignant_wallflower"
+				},
+				{
+					id: 3031,
+					type: "item",
+					item: "midnight:malignant_wolfsbane"
+				},
+				{
+					id: 3032,
+					type: "item",
+					item: "midnight:malignant_baneberry"
+				},
+				{
+					id: 3033,
+					type: "item",
+					item: "midnight:malignant_bloodroot"
+				},
+				{
+					id: 3034,
+					type: "item",
+					item: "midnight:malignant_nightshade"
+				},
+				{
+					id: 3035,
+					type: "item",
+					item: "midnight:malignant_wisteria"
+				}
+			]
+		},
+		{
+			x: 9.0d,
+			y: 10.5d,
+			subtitle: "In unterirdischen Clustern",
+			id: 3040,
+			tasks: [
+				{
+					id: 3041,
+					type: "item",
+					item: "midnight:rouxe_rock"
+				},
+				{
+					id: 3044,
+					type: "item",
+					item: "midnight:rouxe"
+				}
+			]
 		}
 	]
 }
