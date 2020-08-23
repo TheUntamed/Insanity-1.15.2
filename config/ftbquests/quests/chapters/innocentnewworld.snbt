@@ -514,6 +514,26 @@
 				type: "item",
 				item: "minecraft:tube_coral"
 			}]
+		},
+		{
+			x: 3.5d,
+			y: 13.0d,
+			id: 3082,
+			tasks: [{
+				id: 3083,
+				type: "item",
+				item: "minecraft:podzol"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 13.0d,
+			id: 3084,
+			tasks: [{
+				id: 3085,
+				type: "item",
+				item: "minecraft:mycelium"
+			}]
 		}
 	]
 }

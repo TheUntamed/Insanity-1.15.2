@@ -1,6 +1,8 @@
 
 #Settings affecting all variants
 [general]
+	#If true, all variants of this ore type will be disabled.
+	disableAllVariants = false
 	#How long the effect will last in ticks (in seconds for burn effect) after removing the ore from the inventory
 	#Range: 1 ~ 1000000
 	duration = 1
@@ -8,8 +10,6 @@
 	disableEffect = false
 	#If true, a player will only be affected while holding the ore in a hand. If false, it just has to be in the inventory.
 	onlyWhileSelected = false
-	#If true, all variants of this ore type will be disabled.
-	disableAllVariants = false
 
 	#Vanilla Stone Variants
 	[general.minecraft]
@@ -19,7 +19,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.stone_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -47,7 +47,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.red_sand_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -75,7 +75,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.bedrock_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -109,7 +109,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.packed_ice_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -137,7 +137,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.sand_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -165,7 +165,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.sandstone_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -193,7 +193,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.granite_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -221,7 +221,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.end_stone_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -249,7 +249,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.blue_ice_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -277,7 +277,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.netherrack_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -305,7 +305,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.red_sandstone_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -333,7 +333,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.gravel_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -361,7 +361,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.andesite_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -389,7 +389,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.diorite_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -420,7 +420,7 @@
 
 			#Generation settings for this ore variant
 			[general.midnight.nightstone_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -451,7 +451,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.larvikite_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -479,7 +479,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.marble_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -507,7 +507,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.basalt_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -535,7 +535,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.gneiss_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -563,7 +563,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.jade_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -591,7 +591,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.slate_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -614,15 +614,15 @@
 				#If true, the biome blacklist is a whitelist.
 				isBiomeWhitelist = false
 
-	#Quark Stone Variants
-	[general.quark]
+	#Atum 2 Stone Variants
+	[general.atum]
 
-		#Marble Poor Vulcanite Ore
-		[general.quark.marble_poor_vulcanite_ore]
+		#Alabaster Poor Vulcanite Ore
+		[general.atum.alabaster_poor_vulcanite_ore]
 
 			#Generation settings for this ore variant
-			[general.quark.marble_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+			[general.atum.alabaster_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -645,12 +645,12 @@
 				#If true, the biome blacklist is a whitelist.
 				isBiomeWhitelist = false
 
-		#Limestone Poor Vulcanite Ore
-		[general.quark.limestone_poor_vulcanite_ore]
+		#Porphyry Poor Vulcanite Ore
+		[general.atum.porphyry_poor_vulcanite_ore]
 
 			#Generation settings for this ore variant
-			[general.quark.limestone_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+			[general.atum.porphyry_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -673,127 +673,12 @@
 				#If true, the biome blacklist is a whitelist.
 				isBiomeWhitelist = false
 
-		#Basalt Poor Vulcanite Ore
-		[general.quark.basalt_poor_vulcanite_ore]
+		#Marl Poor Vulcanite Ore
+		[general.atum.marl_poor_vulcanite_ore]
 
 			#Generation settings for this ore variant
-			[general.quark.basalt_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 64
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 128
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 2
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 3
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-
-		#Slate Poor Vulcanite Ore
-		[general.quark.slate_poor_vulcanite_ore]
-
-			#Generation settings for this ore variant
-			[general.quark.slate_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 32
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 4
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 5
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-
-		#Jasper Poor Vulcanite Ore
-		[general.quark.jasper_poor_vulcanite_ore]
-
-			#Generation settings for this ore variant
-			[general.quark.jasper_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 32
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 4
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 5
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-
-	#Create Stone Variants
-	[general.create]
-
-		#Gabbro Poor Vulcanite Ore
-		[general.create.gabbro_poor_vulcanite_ore]
-
-			#Generation settings for this ore variant
-			[general.create.gabbro_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
-				disableVariant = false
-				#The min y-level the ore will generate.
-				#Range: 0 ~ 256
-				minHeight = 0
-				#The max y-level the ore will generate.
-				#Range: 0 ~ 256
-				maxHeight = 32
-				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
-				biomeBlacklist = []
-				#The amount of ores in one vein.
-				#Range: 0 ~ 65536
-				veinSize = 4
-				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
-				temperatureBlacklist = []
-				#How many veins per chunk.
-				#Range: 0 ~ 65536
-				veinsPerChunk = 5
-				#If true, the biome temperature blacklist is a whitelist.
-				isTempWhitelist = false
-				#If true, the biome blacklist is a whitelist.
-				isBiomeWhitelist = false
-
-		#Scoria Poor Vulcanite Ore
-		[general.create.scoria_poor_vulcanite_ore]
-
-			#Generation settings for this ore variant
-			[general.create.scoria_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+			[general.atum.marl_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -817,11 +702,11 @@
 				isBiomeWhitelist = false
 
 		#Limestone Poor Vulcanite Ore
-		[general.create.limestone_poor_vulcanite_ore]
+		[general.atum.limestone_poor_vulcanite_ore]
 
 			#Generation settings for this ore variant
-			[general.create.limestone_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+			[general.atum.limestone_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -844,12 +729,12 @@
 				#If true, the biome blacklist is a whitelist.
 				isBiomeWhitelist = false
 
-		#Weathered Limestone Poor Vulcanite Ore
-		[general.create.weathered_limestone_poor_vulcanite_ore]
+		#Cracked Limestone Poor Vulcanite Ore
+		[general.atum.cracked_limestone_poor_vulcanite_ore]
 
 			#Generation settings for this ore variant
-			[general.create.weathered_limestone_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+			[general.atum.cracked_limestone_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -872,12 +757,40 @@
 				#If true, the biome blacklist is a whitelist.
 				isBiomeWhitelist = false
 
-		#Dolomite Poor Vulcanite Ore
-		[general.create.dolomite_poor_vulcanite_ore]
+		#Limestone Gravel Poor Vulcanite Ore
+		[general.atum.limestone_gravel_poor_vulcanite_ore]
 
 			#Generation settings for this ore variant
-			[general.create.dolomite_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+			[general.atum.limestone_gravel_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Strange Sand Poor Vulcanite Ore
+		[general.atum.strange_sand_poor_vulcanite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.strange_sand_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -908,7 +821,7 @@
 
 			#Generation settings for this ore variant
 			[general.nethercraft.heat_sand_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -939,7 +852,293 @@
 
 			#Generation settings for this ore variant
 			[general.dannys_ores.hardened_stone_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Quark Stone Variants
+	[general.quark]
+
+		#Marble Poor Vulcanite Ore
+		[general.quark.marble_poor_vulcanite_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.marble_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Poor Vulcanite Ore
+		[general.quark.limestone_poor_vulcanite_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.limestone_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Basalt Poor Vulcanite Ore
+		[general.quark.basalt_poor_vulcanite_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.basalt_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 64
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 2
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 3
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Slate Poor Vulcanite Ore
+		[general.quark.slate_poor_vulcanite_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.slate_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Jasper Poor Vulcanite Ore
+		[general.quark.jasper_poor_vulcanite_ore]
+
+			#Generation settings for this ore variant
+			[general.quark.jasper_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Create Stone Variants
+	[general.create]
+
+		#Gabbro Poor Vulcanite Ore
+		[general.create.gabbro_poor_vulcanite_ore]
+
+			#Generation settings for this ore variant
+			[general.create.gabbro_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Scoria Poor Vulcanite Ore
+		[general.create.scoria_poor_vulcanite_ore]
+
+			#Generation settings for this ore variant
+			[general.create.scoria_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Poor Vulcanite Ore
+		[general.create.limestone_poor_vulcanite_ore]
+
+			#Generation settings for this ore variant
+			[general.create.limestone_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Weathered Limestone Poor Vulcanite Ore
+		[general.create.weathered_limestone_poor_vulcanite_ore]
+
+			#Generation settings for this ore variant
+			[general.create.weathered_limestone_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Dolomite Poor Vulcanite Ore
+		[general.create.dolomite_poor_vulcanite_ore]
+
+			#Generation settings for this ore variant
+			[general.create.dolomite_poor_vulcanite_ore.generation]
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -970,7 +1169,7 @@
 
 			#Generation settings for this ore variant
 			[general.mysticalagriculture.soulstone_poor_vulcanite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256

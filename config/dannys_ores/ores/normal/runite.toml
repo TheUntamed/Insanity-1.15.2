@@ -12,7 +12,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.netherrack_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -40,7 +40,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.andesite_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -68,7 +68,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.granite_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -96,7 +96,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.sand_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -124,7 +124,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.gravel_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -152,7 +152,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.bedrock_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -186,7 +186,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.red_sand_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -214,7 +214,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.sandstone_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -242,7 +242,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.red_sandstone_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -270,7 +270,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.blue_ice_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -298,7 +298,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.packed_ice_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -326,7 +326,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.stone_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -354,7 +354,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.end_stone_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -382,7 +382,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.diorite_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -413,7 +413,7 @@
 
 			#Generation settings for this ore variant
 			[general.midnight.nightstone_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -444,7 +444,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.larvikite_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -472,7 +472,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.slate_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -500,7 +500,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.jade_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -528,7 +528,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.gneiss_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -556,7 +556,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.marble_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -584,7 +584,206 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.basalt_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 9
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Atum 2 Stone Variants
+	[general.atum]
+
+		#Limestone Runite Ore
+		[general.atum.limestone_runite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.limestone_runite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 9
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Alabaster Runite Ore
+		[general.atum.alabaster_runite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.alabaster_runite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 9
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marl Runite Ore
+		[general.atum.marl_runite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.marl_runite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 9
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Cracked Limestone Runite Ore
+		[general.atum.cracked_limestone_runite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.cracked_limestone_runite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 9
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Gravel Runite Ore
+		[general.atum.limestone_gravel_runite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.limestone_gravel_runite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 9
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Strange Sand Runite Ore
+		[general.atum.strange_sand_runite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.strange_sand_runite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 9
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 2
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Porphyry Runite Ore
+		[general.atum.porphyry_runite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.porphyry_runite_ore.generation]
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -615,7 +814,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.limestone_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -643,7 +842,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.slate_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -671,7 +870,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.jasper_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -699,7 +898,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.marble_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -727,7 +926,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.basalt_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -758,7 +957,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.gabbro_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -786,7 +985,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.limestone_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -814,7 +1013,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.scoria_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -842,7 +1041,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.weathered_limestone_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -870,7 +1069,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.dolomite_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -901,7 +1100,7 @@
 
 			#Generation settings for this ore variant
 			[general.nethercraft.heat_sand_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -932,7 +1131,7 @@
 
 			#Generation settings for this ore variant
 			[general.dannys_ores.hardened_stone_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -963,7 +1162,7 @@
 
 			#Generation settings for this ore variant
 			[general.mysticalagriculture.soulstone_runite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256

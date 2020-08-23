@@ -12,7 +12,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.netherrack_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -49,7 +49,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.red_sandstone_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -86,7 +86,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.red_sand_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -123,7 +123,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.stone_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -160,7 +160,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.packed_ice_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -197,7 +197,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.diorite_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -234,7 +234,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.blue_ice_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -271,7 +271,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.sand_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -308,7 +308,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.sandstone_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -345,7 +345,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.andesite_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -382,7 +382,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.gravel_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -419,7 +419,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.granite_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -456,7 +456,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.bedrock_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -496,7 +496,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.end_stone_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -536,7 +536,7 @@
 
 			#Generation settings for this ore variant
 			[general.midnight.nightstone_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -576,7 +576,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.slate_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -613,7 +613,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.larvikite_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -650,7 +650,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.jade_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -687,7 +687,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.gneiss_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -724,7 +724,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.basalt_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -761,7 +761,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.marble_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -793,6 +793,268 @@
 				#Range: 0 ~ 1000000
 				maxXpDrop = 50
 
+	#Atum 2 Stone Variants
+	[general.atum]
+
+		#Limestone Xp Ore
+		[general.atum.limestone_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.limestone_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.atum.limestone_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Cracked Limestone Xp Ore
+		[general.atum.cracked_limestone_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.cracked_limestone_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.atum.cracked_limestone_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Marl Xp Ore
+		[general.atum.marl_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.marl_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.atum.marl_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Porphyry Xp Ore
+		[general.atum.porphyry_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.porphyry_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.atum.porphyry_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Strange Sand Xp Ore
+		[general.atum.strange_sand_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.strange_sand_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.atum.strange_sand_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Alabaster Xp Ore
+		[general.atum.alabaster_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.alabaster_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.atum.alabaster_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Limestone Gravel Xp Ore
+		[general.atum.limestone_gravel_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.limestone_gravel_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.atum.limestone_gravel_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
 	#Quark Stone Variants
 	[general.quark]
 
@@ -801,7 +1063,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.limestone_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -838,7 +1100,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.slate_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -875,7 +1137,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.basalt_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -912,7 +1174,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.jasper_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -949,7 +1211,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.marble_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -989,7 +1251,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.limestone_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -1026,7 +1288,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.scoria_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -1063,7 +1325,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.gabbro_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -1100,7 +1362,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.dolomite_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -1137,7 +1399,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.weathered_limestone_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -1177,7 +1439,7 @@
 
 			#Generation settings for this ore variant
 			[general.nethercraft.heat_sand_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -1217,7 +1479,7 @@
 
 			#Generation settings for this ore variant
 			[general.dannys_ores.hardened_stone_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -1257,7 +1519,7 @@
 
 			#Generation settings for this ore variant
 			[general.mysticalagriculture.soulstone_xp_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256

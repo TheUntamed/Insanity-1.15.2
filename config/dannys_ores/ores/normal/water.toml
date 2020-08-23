@@ -22,7 +22,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.diorite_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -50,7 +50,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.gravel_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -78,7 +78,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.sandstone_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -106,7 +106,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.end_stone_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -134,7 +134,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.bedrock_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -168,7 +168,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.granite_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -196,7 +196,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.sand_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -224,7 +224,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.red_sandstone_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -252,7 +252,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.stone_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -280,7 +280,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.blue_ice_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -308,7 +308,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.andesite_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -336,7 +336,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.red_sand_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -364,7 +364,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.packed_ice_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -392,7 +392,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.netherrack_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -423,7 +423,7 @@
 
 			#Generation settings for this ore variant
 			[general.midnight.nightstone_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -454,7 +454,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.marble_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -482,7 +482,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.basalt_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -510,7 +510,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.slate_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -538,7 +538,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.gneiss_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -566,7 +566,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.larvikite_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -594,7 +594,206 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.jade_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Atum 2 Stone Variants
+	[general.atum]
+
+		#Limestone Water Ore
+		[general.atum.limestone_water_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.limestone_water_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marl Water Ore
+		[general.atum.marl_water_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.marl_water_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Strange Sand Water Ore
+		[general.atum.strange_sand_water_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.strange_sand_water_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Cracked Limestone Water Ore
+		[general.atum.cracked_limestone_water_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.cracked_limestone_water_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Porphyry Water Ore
+		[general.atum.porphyry_water_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.porphyry_water_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Gravel Water Ore
+		[general.atum.limestone_gravel_water_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.limestone_gravel_water_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 32
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 5
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Alabaster Water Ore
+		[general.atum.alabaster_water_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.alabaster_water_ore.generation]
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -625,7 +824,7 @@
 
 			#Generation settings for this ore variant
 			[general.nethercraft.heat_sand_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -656,7 +855,7 @@
 
 			#Generation settings for this ore variant
 			[general.dannys_ores.hardened_stone_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -687,7 +886,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.jasper_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -715,7 +914,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.marble_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -743,7 +942,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.limestone_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -771,7 +970,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.basalt_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -799,7 +998,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.slate_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -830,7 +1029,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.limestone_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -858,7 +1057,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.weathered_limestone_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -886,7 +1085,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.gabbro_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -914,7 +1113,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.scoria_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -942,7 +1141,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.dolomite_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -973,7 +1172,7 @@
 
 			#Generation settings for this ore variant
 			[general.mysticalagriculture.soulstone_water_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256

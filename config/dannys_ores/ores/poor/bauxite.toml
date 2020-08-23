@@ -12,7 +12,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.sand_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -40,7 +40,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.red_sandstone_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -68,7 +68,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.diorite_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -96,7 +96,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.granite_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -124,7 +124,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.gravel_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -152,7 +152,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.stone_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -180,7 +180,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.end_stone_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -208,7 +208,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.netherrack_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -236,7 +236,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.blue_ice_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -264,7 +264,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.red_sand_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -292,7 +292,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.sandstone_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -320,7 +320,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.andesite_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -348,7 +348,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.bedrock_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -382,7 +382,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.packed_ice_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -413,7 +413,7 @@
 
 			#Generation settings for this ore variant
 			[general.midnight.nightstone_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -444,7 +444,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.basalt_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -472,7 +472,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.gneiss_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -500,7 +500,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.jade_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -528,7 +528,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.marble_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -556,7 +556,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.slate_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -584,7 +584,206 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.larvikite_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 20
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Atum 2 Stone Variants
+	[general.atum]
+
+		#Porphyry Poor Bauxite Ore
+		[general.atum.porphyry_poor_bauxite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.porphyry_poor_bauxite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 20
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marl Poor Bauxite Ore
+		[general.atum.marl_poor_bauxite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.marl_poor_bauxite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 20
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Gravel Poor Bauxite Ore
+		[general.atum.limestone_gravel_poor_bauxite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.limestone_gravel_poor_bauxite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 20
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Poor Bauxite Ore
+		[general.atum.limestone_poor_bauxite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.limestone_poor_bauxite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 20
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Alabaster Poor Bauxite Ore
+		[general.atum.alabaster_poor_bauxite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.alabaster_poor_bauxite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 20
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Cracked Limestone Poor Bauxite Ore
+		[general.atum.cracked_limestone_poor_bauxite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.cracked_limestone_poor_bauxite_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 20
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 4
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 4
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Strange Sand Poor Bauxite Ore
+		[general.atum.strange_sand_poor_bauxite_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.strange_sand_poor_bauxite_ore.generation]
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -615,7 +814,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.basalt_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -643,7 +842,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.limestone_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -671,7 +870,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.marble_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -699,7 +898,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.slate_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -727,7 +926,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.jasper_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -758,7 +957,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.gabbro_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -786,7 +985,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.dolomite_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -814,7 +1013,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.limestone_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -842,7 +1041,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.scoria_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -870,7 +1069,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.weathered_limestone_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -901,7 +1100,7 @@
 
 			#Generation settings for this ore variant
 			[general.nethercraft.heat_sand_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -932,7 +1131,7 @@
 
 			#Generation settings for this ore variant
 			[general.dannys_ores.hardened_stone_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -963,7 +1162,7 @@
 
 			#Generation settings for this ore variant
 			[general.mysticalagriculture.soulstone_poor_bauxite_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256

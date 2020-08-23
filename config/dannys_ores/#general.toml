@@ -45,7 +45,7 @@
 
 			#Midnight stone variants. Midnight has to be installed for the ores to generate at all.
 			[general.normal.stoneVariants.midnight]
-				#If true, the (Midnight) Basalt variant of all normal ores will be disabled.
+				#If true, the (Midnight) Nightstone variant of all normal ores will be disabled.
 				nightstone = false
 
 			#Embellishcraft stone variants. Embellishcraft has to be installed for the ores to generate at all.
@@ -62,6 +62,23 @@
 				gneiss = true
 				#If true, the (Embellishcraft) Slate variant of all normal ores will be disabled.
 				slate = true
+
+			#Atum stone variants. Atum 2 has to be installed for the ores to generate at all.
+			[general.normal.stoneVariants.atum]
+				#If true, the (Atum 2) Strange Sand variant of all normal ores will be disabled.
+				sand = true
+				#If true, the (Atum 2) Limestone Gravel variant of all normal ores will be disabled.
+				limestone_gravel = true
+				#If true, the (Atum 2) Alabaster variant of all normal ores will be disabled.
+				alabaster = false
+				#If true, the (Atum 2) Limestone variant of all normal ores will be disabled.
+				limestone = false
+				#If true, the (Atum 2) Cracked Limestone variant of all normal ores will be disabled.
+				limestone_cracked = false
+				#If true, the (Atum 2) Marl variant of all normal ores will be disabled.
+				marl = true
+				#If true, the (Atum 2) Porphyry variant of all normal ores will be disabled.
+				porphyry = false
 
 			#Stone variants added by this mod.
 			[general.normal.stoneVariants.dannys_ores]
@@ -83,27 +100,25 @@
 
 			#Create stone variants. Create has to be installed for the ores to generate at all.
 			[general.normal.stoneVariants.create]
-				#If true, the (Create) Basalt variant of all normal ores will be disabled.
-				dark_scoria = false
-				#If true, the (Create) Slate variant of all normal ores will be disabled.
+				#If true, the (Create) Weathered Limestone variant of all normal ores will be disabled.
 				weathered_limestone = false
-				#If true, the (Create) Larvikite variant of all normal ores will be disabled.
+				#If true, the (Create) Limestone variant of all normal ores will be disabled.
 				limestone = false
-				#If true, the (Create) Gneiss variant of all normal ores will be disabled.
+				#If true, the (Create) Dolomite variant of all normal ores will be disabled.
 				dolomite = false
-				#If true, the (Create) Jade variant of all normal ores will be disabled.
+				#If true, the (Create) Gabbro variant of all normal ores will be disabled.
 				gabbro = false
-				#If true, the (Create) Marble variant of all normal ores will be disabled.
+				#If true, the (Create) Scoria variant of all normal ores will be disabled.
 				scoria = false
 
 			#Nethercraft stone variants. Nethercraft has to be installed for the ores to generate at all.
 			[general.normal.stoneVariants.nethercraft]
-				#If true, the (Nethercraft) Basalt variant of all normal ores will be disabled.
+				#If true, the (Nethercraft) Heat Sand variant of all normal ores will be disabled.
 				heat_sand = true
 
 			#Mystical Agriculture stone variants. Mystical Agriculture has to be installed for the ores to generate at all.
 			[general.normal.stoneVariants.mysticalagriculture]
-				#If true, the (Mystical Agriculture) Basalt variant of all normal ores will be disabled.
+				#If true, the (Mystical Agriculture) Soulstone variant of all normal ores will be disabled.
 				soulstone = false
 
 	#Settings that affect all poor ores.
@@ -147,7 +162,7 @@
 
 			#Midnight stone variants. Midnight has to be installed for the ores to generate at all.
 			[general.poor.stoneVariants.midnight]
-				#If true, the (Midnight) Basalt variant of all normal ores will be disabled.
+				#If true, the (Midnight) Nightstone variant of all poor ores will be disabled.
 				nightstone = false
 
 			#Embellishcraft stone variants. Embellishcraft has to be installed for the ores to generate at all.
@@ -164,6 +179,23 @@
 				gneiss = false
 				#If true, the (Embellishcraft) Slate variant of all poor ores will be disabled.
 				slate = false
+
+			#Atum 2 stone variants. Atum 2 has to be installed for the ores to generate at all.
+			[general.poor.stoneVariants.atum]
+				#If true, the (Atum 2) Strange Sand variant of all poor ores will be disabled.
+				sand = false
+				#If true, the (Atum 2) Limestone Gravel variant of all poor ores will be disabled.
+				limestone_gravel = false
+				#If true, the (Atum 2) Alabaster variant of all poor ores will be disabled.
+				alabaster = false
+				#If true, the (Atum 2) Limestone variant of all poor ores will be disabled.
+				limestone = false
+				#If true, the (Atum 2) Cracked Limestone variant of all poor ores will be disabled.
+				limestone_cracked = false
+				#If true, the (Atum 2) Marl variant of all poor ores will be disabled.
+				marl = false
+				#If true, the (Atum 2) Porphyry variant of all poor ores will be disabled.
+				porphyry = false
 
 			#Stone variants added by this mod.
 			[general.poor.stoneVariants.dannys_ores]
@@ -185,27 +217,25 @@
 
 			#Create stone variants. Create has to be installed for the ores to generate at all.
 			[general.poor.stoneVariants.create]
-				#If true, the (Create) Basalt variant of all normal ores will be disabled.
-				dark_scoria = false
-				#If true, the (Create) Slate variant of all normal ores will be disabled.
+				#If true, the (Create) Weathered Limestone variant of all poor ores will be disabled.
 				weathered_limestone = false
-				#If true, the (Create) Larvikite variant of all normal ores will be disabled.
+				#If true, the (Create) Limestone variant of all poor ores will be disabled.
 				limestone = false
-				#If true, the (Create) Gneiss variant of all normal ores will be disabled.
+				#If true, the (Create) Dolomite variant of all poor ores will be disabled.
 				dolomite = false
-				#If true, the (Create) Jade variant of all normal ores will be disabled.
+				#If true, the (Create) Gabbro variant of all poor ores will be disabled.
 				gabbro = false
-				#If true, the (Create) Marble variant of all normal ores will be disabled.
+				#If true, the (Create) Scoria variant of all poor ores will be disabled.
 				scoria = false
 
 			#Nethercraft stone variants. Nethercraft has to be installed for the ores to generate at all.
 			[general.poor.stoneVariants.nethercraft]
-				#If true, the (Nethercraft) Basalt variant of all normal ores will be disabled.
+				#If true, the (Nethercraft) Heat Sand variant of all poor ores will be disabled.
 				heat_sand = false
 
 			#Mystical Agriculture stone variants. Mystical Agriculture has to be installed for the ores to generate at all.
 			[general.poor.stoneVariants.mysticalagriculture]
-				#If true, the (Mystical Agriculture) Basalt variant of all normal ores will be disabled.
+				#If true, the (Mystical Agriculture) Soulstone variant of all poor ores will be disabled.
 				soulstone = false
 
 	#Manipulate vanilla and other mods ore generation.
@@ -269,7 +299,7 @@
 
 			#Midnight stone variants. Midnight has to be installed for the ores to generate at all.
 			[general.dense.stoneVariants.midnight]
-				#If true, the (Midnight) Basalt variant of all normal ores will be disabled.
+				#If true, the (Midnight) Nightstone variant of all dense ores will be disabled.
 				nightstone = false
 
 			#Embellishcraft stone variants. Embellishcraft has to be installed for the ores to generate at all.
@@ -286,6 +316,23 @@
 				gneiss = false
 				#If true, the (Embellishcraft) Slate variant of all dense ores will be disabled.
 				slate = false
+
+			#Atum stone variants. Atum 2 has to be installed for the ores to generate at all.
+			[general.dense.stoneVariants.atum]
+				#If true, the (Atum 2) Strange Sand variant of all dense ores will be disabled.
+				sand = false
+				#If true, the (Atum 2) Limestone Gravel variant of all dense ores will be disabled.
+				limestone_gravel = false
+				#If true, the (Atum 2) Alabaster variant of all dense ores will be disabled.
+				alabaster = false
+				#If true, the (Atum 2) Limestone variant of all dense ores will be disabled.
+				limestone = false
+				#If true, the (Atum 2) Cracked Limestone variant of all dense ores will be disabled.
+				limestone_cracked = false
+				#If true, the (Atum 2) Marl variant of all dense ores will be disabled.
+				marl = false
+				#If true, the (Atum 2) Porphyry variant of all dense ores will be disabled.
+				porphyry = false
 
 			#Stone variants added by this mod.
 			[general.dense.stoneVariants.dannys_ores]
@@ -307,24 +354,24 @@
 
 			#Create stone variants. Create has to be installed for the ores to generate at all.
 			[general.dense.stoneVariants.create]
-				#If true, the (Create) Slate variant of all normal ores will be disabled.
+				#If true, the (Create) Weathered Limestone variant of all dense ores will be disabled.
 				weathered_limestone = false
-				#If true, the (Create) Larvikite variant of all normal ores will be disabled.
+				#If true, the (Create) Limestone variant of all dense ores will be disabled.
 				limestone = false
-				#If true, the (Create) Gneiss variant of all normal ores will be disabled.
+				#If true, the (Create) Dolomite variant of all dense ores will be disabled.
 				dolomite = false
-				#If true, the (Create) Jade variant of all normal ores will be disabled.
+				#If true, the (Create) Gabbro variant of all dense ores will be disabled.
 				gabbro = false
-				#If true, the (Create) Marble variant of all normal ores will be disabled.
+				#If true, the (Create) Scoria variant of all dense ores will be disabled.
 				scoria = false
 
 			#Nethercraft stone variants. Nethercraft has to be installed for the ores to generate at all.
 			[general.dense.stoneVariants.nethercraft]
-				#If true, the (Nethercraft) Basalt variant of all normal ores will be disabled.
+				#If true, the (Nethercraft) Heat Sand variant of all dense ores will be disabled.
 				heat_sand = false
 
 			#Mystical Agriculture stone variants. Mystical Agriculture has to be installed for the ores to generate at all.
 			[general.dense.stoneVariants.mysticalagriculture]
-				#If true, the (Mystical Agriculture) Basalt variant of all normal ores will be disabled.
+				#If true, the (Mystical Agriculture) Soulstone variant of all dense ores will be disabled.
 				soulstone = false
 

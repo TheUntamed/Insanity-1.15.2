@@ -11,6 +11,7 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 * *Corail Tombstone* (It's back!)
 * *Mystical World*
 * *Tetraits*
+* *Woot*
 
 **Updated Mods**
 
@@ -18,7 +19,8 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 * *Brick Furnace* (1.3.0 --> 1.4.0)
 * *CraftTweaker* (6.0.0.34 --> 6.0.0.39)
 * *Curios API* (2.0.2.4 --> 2.0.2.6)
-* *Cyclops Core* ( 1.8.0 --> 1.8.2)
+* *Cyclops Core* (1.8.0 --> 1.8.2)
+* *Danny's Ores* (1.2.0 --> 1.3.1)
 * *Decorative Blocks* (6d --> 6e)
 * *Double Slabs* (2.9.0 --> 2.10.1)
 * *Druidcraft* (0.4.21 --> 0.4.3)
@@ -33,7 +35,7 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 * ** ( --> )
 * *Immersive Engineering* (0.15-108 --> 3.1-111)
 * *JAOPCA* (3.2.0.13 --> 3.2.0.14)
-* *KubeJS* (2.7.1.8 --> 2.7.1.13)
+* *KubeJS* (2.7.1.8 --> 2.7.1.14)
 * *Light Overlay (Rift/Forge/Fabric)* (4.7.0 --> 4.7.1)
 * *Lollipop* (1.0.15 --> 1.0.16)
 * *MineColonies* (0.10.771 --> 0.13.81)

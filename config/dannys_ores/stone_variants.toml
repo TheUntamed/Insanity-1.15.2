@@ -9,7 +9,7 @@
 
 		#Hardened Stone generation settings.
 		[general.hardened_stone.generation]
-			#If false, this ore variant will not generate.
+			#If true, this ore variant will not generate.
 			disableVariant = true
 			#The min y-level the ore will generate.
 			#Range: 0 ~ 256

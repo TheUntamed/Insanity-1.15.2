@@ -12,7 +12,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.diorite_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -40,7 +40,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.packed_ice_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -68,7 +68,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.red_sand_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -96,7 +96,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.gravel_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -124,7 +124,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.bedrock_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -158,7 +158,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.stone_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -186,7 +186,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.sand_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -214,7 +214,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.netherrack_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -242,7 +242,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.red_sandstone_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -270,7 +270,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.end_stone_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -298,7 +298,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.andesite_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -326,7 +326,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.granite_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -354,7 +354,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.sandstone_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -382,7 +382,7 @@
 
 			#Generation settings for this ore variant
 			[general.minecraft.blue_ice_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -413,7 +413,7 @@
 
 			#Generation settings for this ore variant
 			[general.midnight.nightstone_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -444,7 +444,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.marble_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -472,7 +472,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.larvikite_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -500,7 +500,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.jade_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -528,7 +528,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.basalt_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -556,7 +556,7 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.slate_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -584,8 +584,207 @@
 
 			#Generation settings for this ore variant
 			[general.embellishcraft.gneiss_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 10
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+	#Atum 2 Stone Variants
+	[general.atum]
+
+		#Limestone Steel Ore
+		[general.atum.limestone_steel_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.limestone_steel_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 10
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Limestone Gravel Steel Ore
+		[general.atum.limestone_gravel_steel_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.limestone_gravel_steel_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 10
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Cracked Limestone Steel Ore
+		[general.atum.cracked_limestone_steel_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.cracked_limestone_steel_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 10
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Alabaster Steel Ore
+		[general.atum.alabaster_steel_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.alabaster_steel_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 10
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Porphyry Steel Ore
+		[general.atum.porphyry_steel_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.porphyry_steel_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 10
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Marl Steel Ore
+		[general.atum.marl_steel_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.marl_steel_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 0
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 48
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 5
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 10
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+		#Strange Sand Steel Ore
+		[general.atum.strange_sand_steel_ore]
+
+			#Generation settings for this ore variant
+			[general.atum.strange_sand_steel_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
 				minHeight = 0
@@ -615,7 +814,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.jasper_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -643,7 +842,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.marble_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -671,7 +870,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.limestone_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -699,7 +898,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.basalt_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -727,7 +926,7 @@
 
 			#Generation settings for this ore variant
 			[general.quark.slate_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -758,7 +957,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.dolomite_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -786,7 +985,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.limestone_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -814,7 +1013,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.scoria_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -842,7 +1041,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.weathered_limestone_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -870,7 +1069,7 @@
 
 			#Generation settings for this ore variant
 			[general.create.gabbro_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -901,7 +1100,7 @@
 
 			#Generation settings for this ore variant
 			[general.nethercraft.heat_sand_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -932,7 +1131,7 @@
 
 			#Generation settings for this ore variant
 			[general.dannys_ores.hardened_stone_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
@@ -963,7 +1162,7 @@
 
 			#Generation settings for this ore variant
 			[general.mysticalagriculture.soulstone_steel_ore.generation]
-				#If false, this ore variant will not generate.
+				#If true, this ore variant will not generate.
 				disableVariant = false
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256

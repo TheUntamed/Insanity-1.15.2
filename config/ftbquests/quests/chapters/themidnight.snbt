@@ -814,6 +814,34 @@
 					item: "midnight:rouxe"
 				}
 			]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			dependencies: [I;2881],
+			id: 3045,
+			tasks: [
+				{
+					id: 3046,
+					type: "item",
+					item: "midnight:malignant_red_plant_block"
+				},
+				{
+					id: 3047,
+					type: "item",
+					item: "midnight:glowing_malignant_red_plant_block"
+				},
+				{
+					id: 3048,
+					type: "item",
+					item: "midnight:malignant_red_plant_surface"
+				},
+				{
+					id: 3049,
+					type: "item",
+					item: "midnight:malignant_bloodroot"
+				}
+			]
 		}
 	]
 }
