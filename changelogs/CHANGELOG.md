@@ -62,7 +62,7 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 
 **Removed Mods**
 
-* 
+* *Environmental Creepers* (You can claim your base and protect it this way from explosions. The other features provided by this mod are unnecessary.)
 
 **Changes**
 

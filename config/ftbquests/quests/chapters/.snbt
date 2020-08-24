@@ -1,5 +1,5 @@
 {
-	id: 2689,
+	id: 3100,
 	filename: "",
 	order_index: 0,
 	title: "Modular Routers",
@@ -9,9 +9,9 @@
 		{
 			x: 0.0d,
 			y: 0.0d,
-			id: 3086,
+			id: 3101,
 			tasks: [{
-				id: 3087,
+				id: 3102,
 				type: "item",
 				item: {
 					id: "patchouli:guide_book",
@@ -25,10 +25,9 @@
 		{
 			x: 3.0d,
 			y: 0.0d,
-			dependencies: [I;3090],
-			id: 3088,
+			id: 3103,
 			tasks: [{
-				id: 3089,
+				id: 3104,
 				type: "item",
 				item: "modularrouters:item_router"
 			}]
@@ -36,9 +35,9 @@
 		{
 			x: 1.5d,
 			y: 0.0d,
-			id: 3090,
+			id: 3105,
 			tasks: [{
-				id: 3091,
+				id: 3106,
 				type: "item",
 				item: "modularrouters:blank_module"
 			}]
@@ -46,13 +45,9 @@
 		{
 			x: 3.0d,
 			y: 1.5d,
-			dependencies: [I;
-				3090,
-				3094
-			],
-			id: 3092,
+			id: 3107,
 			tasks: [{
-				id: 3093,
+				id: 3108,
 				type: "item",
 				item: "modularrouters:augment_core"
 			}]
@@ -60,9 +55,9 @@
 		{
 			x: 1.5d,
 			y: 1.5d,
-			id: 3094,
+			id: 3109,
 			tasks: [{
-				id: 3095,
+				id: 3110,
 				type: "item",
 				item: "modularrouters:blank_upgrade"
 			}]
@@ -70,9 +65,9 @@
 		{
 			x: 1.5d,
 			y: -3.0d,
-			id: 3096,
+			id: 3111,
 			tasks: [{
-				id: 3097,
+				id: 3112,
 				type: "item",
 				item: "modularrouters:override_card"
 			}]
@@ -80,10 +75,9 @@
 		{
 			x: 3.0d,
 			y: -1.5d,
-			dependencies: [I;3090],
-			id: 3098,
+			id: 3113,
 			tasks: [{
-				id: 3099,
+				id: 3114,
 				type: "item",
 				item: "modularrouters:bulk_item_filter"
 			}]

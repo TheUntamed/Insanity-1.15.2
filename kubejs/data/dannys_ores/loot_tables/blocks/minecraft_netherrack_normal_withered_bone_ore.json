@@ -6,50 +6,67 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dannys_ores:minecraft_netherrack_normal_withered_bone_ore",
-          "conditions": [
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "enchantments": [
-                  {
-                    "enchantment": "minecraft:silk_touch"
-                  }
-                ]
-              }
-            }
-          ]
+          "name": "dannys_ores:atum_alabaster_normal_bone_ore"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
         },
         {
-          "type": "minecraft:group",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:wither_skeleton_skull",
-              "conditions": [
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wstweaks:fragment",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xreliquary:withered_rib",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull",
+          "weight": 1
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:apply_bonus",
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:ore_drops"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "enchantments": [
                 {
-                  "condition": "minecraft:random_chance_with_looting",
-                  "chance": 0.05,
-                  "looting_multiplier": 0.1
+                  "enchantment": "minecraft:silk_touch"
                 }
               ]
             }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:match_tool",
-                "predicate": {
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:silk_touch"
-                    }
-                  ]
-                }
-              }
-            }
-          ]
+          }
         }
       ]
     }

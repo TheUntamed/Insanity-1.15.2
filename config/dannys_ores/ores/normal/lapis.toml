@@ -700,7 +700,7 @@
 			#Generation settings for this ore variant
 			[general.atum.limestone_lapis_ore.generation]
 				#If true, this ore variant will not generate.
-				disableVariant = false
+				disableVariant = true
 				#The min y-level the ore will generate.
 				#Range: 0 ~ 256
 				minHeight = 0

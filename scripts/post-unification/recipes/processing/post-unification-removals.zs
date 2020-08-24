@@ -4,6 +4,9 @@ public function postUnificationRemovals() as void {
 
     logger.info("Prio Test: post-unification-removals");
 
+    removeFurnaceRecipeByName("dannys_ores:gold_nuggets_from_smelting_poor");
+    removeFurnaceRecipeByName("dannys_ores:iron_nuggets_from_smelting_poor");
+
     <recipetype:mekanism:enriching>.removeByName("mekanism:processing/redstone/from_ore");
 
     <recipetype:create:mixing>.removeByName("create:mixing/crushed_brass");

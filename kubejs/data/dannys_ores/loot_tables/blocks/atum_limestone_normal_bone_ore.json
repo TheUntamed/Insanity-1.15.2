@@ -33,6 +33,16 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "natural-progression:bone_shard",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "xreliquary:rib_bone",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
           "name": "atum:dusty_bone",
           "weight": 10
         },
