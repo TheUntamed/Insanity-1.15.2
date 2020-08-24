@@ -3,16 +3,25 @@ enable_in_world_coloring = true
 
 #Items used to upgrade the EnderTanks
 [upgrade_items]
-	#Items Listed apply a large storage capacity upgrade
+	#Items that are used to increase the tanks internal pump
+	#Each item can only be use once per tank
+	pump_singleuse = []
+	#Items that upgrade storage capacity by 3
+	#Each item can only be use once per tank
+	small_capacity_singleuse = []
+	#Items that apply a large storage capacity upgrade
 	large_capacity = ["minecraft:ender_eye"]
-	#Items Listed are used to make the tanks personal
+	#Items used to make the tanks personal
 	personal = ["tag|forge:gems.diamond"]
-	#Items Listed are used to make the tanks team tanks
+	#Items used to make the tanks team tanks
 	team = ["tag|forge:gems.emerald"]
-	#Items Listed are used to increase the tanks internal pump
+	#Items that are used to increase the tanks internal pump
 	pump = ["minecraft:piston"]
-	#Items Listed apply a small storage capacity upgrade
+	#Items that apply a small storage capacity upgrade
 	small_capacity = ["minecraft:ender_pearl"]
+	#Items that upgrade storage capacity by 9
+	#Each item can only be use once per tank
+	large_capacity_singleuse = []
 
 #
 #NOTE: Capacity numbers are in buckets
