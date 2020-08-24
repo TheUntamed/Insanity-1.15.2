@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-08-24T20:39:25.4211547Z",
+  "lastPlayed": "2020-08-24T21:36:38.6693916Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -74,21 +74,6 @@
       "queryTimestamp": "2020-08-24T15:05:05.0306727Z",
       "fileCount": 1,
       "fileSize": 1417912
-    },
-    {
-      "folderName": "CraftTweaker-1.15.2-6.0.0.39.jar",
-      "fingerprint": 3177409710,
-      "fileDateHash": 3934977921,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3177409710
-      ],
-      "status": 1,
-      "timestamp": "2020-08-15T13:15:41.4902061Z",
-      "lastWriteTimeUtc": "2020-08-15T11:09:18.118048Z",
-      "queryTimestamp": "2020-08-23T22:43:14.9138294Z",
-      "fileCount": 1,
-      "fileSize": 1921089
     },
     {
       "folderName": "QuantumStorage-1.15.2-5.1.1.jar",
@@ -164,6 +149,21 @@
       "queryTimestamp": "2020-08-23T22:43:14.9148576Z",
       "fileCount": 1,
       "fileSize": 662355
+    },
+    {
+      "folderName": "rftoolsstorage-1.15-1.1.7.jar",
+      "fingerprint": 495376374,
+      "fileDateHash": 3210985194,
+      "sectionID": 8,
+      "individualFingerprints": [
+        495376374
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T21:35:00.9360016Z",
+      "lastWriteTimeUtc": "2020-08-24T21:08:22.8421688Z",
+      "queryTimestamp": "2020-08-24T21:35:01.8912684Z",
+      "fileCount": 1,
+      "fileSize": 341811
     },
     {
       "folderName": "engineersdecor-1.15.2-1.1.0.jar",
@@ -571,21 +571,6 @@
       "fileSize": 6269688
     },
     {
-      "folderName": "rftoolsbuilder-1.15-2.1.5-beta.jar",
-      "fingerprint": 4229215976,
-      "fileDateHash": 836733214,
-      "sectionID": 8,
-      "individualFingerprints": [
-        4229215976
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:44.1319587Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:10.0456186Z",
-      "queryTimestamp": "2020-08-23T22:43:14.9228338Z",
-      "fileCount": 1,
-      "fileSize": 504054
-    },
-    {
       "folderName": "shetiphiancore-1.15-3.7.4.jar",
       "fingerprint": 114063946,
       "fileDateHash": 1311284701,
@@ -599,21 +584,6 @@
       "queryTimestamp": "2020-08-24T16:01:06.3055599Z",
       "fileCount": 1,
       "fileSize": 391829
-    },
-    {
-      "folderName": "rftoolsstorage-1.15-1.1.6-beta.jar",
-      "fingerprint": 889332333,
-      "fileDateHash": 4097860307,
-      "sectionID": 8,
-      "individualFingerprints": [
-        889332333
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:44.1419081Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:10.0565887Z",
-      "queryTimestamp": "2020-08-23T22:43:14.9228338Z",
-      "fileCount": 1,
-      "fileSize": 341899
     },
     {
       "folderName": "randompatches-1.15.2-1.22.1.1.jar",
@@ -749,21 +719,6 @@
       "queryTimestamp": "2020-08-23T22:43:14.9258197Z",
       "fileCount": 1,
       "fileSize": 453421
-    },
-    {
-      "folderName": "vanillathings-1.15.2-0.5.7.jar",
-      "fingerprint": 4120127698,
-      "fileDateHash": 2021877846,
-      "sectionID": 8,
-      "individualFingerprints": [
-        4120127698
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:44.7472118Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:10.3396405Z",
-      "queryTimestamp": "2020-08-23T22:43:14.9258197Z",
-      "fileCount": 1,
-      "fileSize": 2468371
     },
     {
       "folderName": "TrashSlot_1.15.2-11.0.0.jar",
@@ -1171,6 +1126,171 @@
       "fileSize": 28802
     },
     {
+      "folderName": "Met2",
+      "fingerprint": 2304652942,
+      "fileDateHash": 2437413962,
+      "sectionID": 10,
+      "individualFingerprints": [
+        5400180,
+        6210947,
+        29425876,
+        41979215,
+        85161459,
+        162988918,
+        194585074,
+        244928810,
+        269275932,
+        269275932,
+        283822121,
+        284000705,
+        341673820,
+        362580002,
+        368291949,
+        403418361,
+        407323594,
+        489217547,
+        500036828,
+        651942457,
+        675911146,
+        721999341,
+        729313104,
+        806355166,
+        812326908,
+        820688602,
+        823392270,
+        890770436,
+        950914562,
+        1077144129,
+        1085279233,
+        1090355644,
+        1170925343,
+        1174775678,
+        1182732594,
+        1241172121,
+        1250756017,
+        1254586642,
+        1271102851,
+        1316793171,
+        1318921553,
+        1349007058,
+        1367033121,
+        1383714086,
+        1402897034,
+        1500097912,
+        1540447798,
+        1540447798,
+        1540447798,
+        1540447798,
+        1566657123,
+        1571976557,
+        1590107993,
+        1596395392,
+        1608422630,
+        1617316261,
+        1630684201,
+        1666369318,
+        1685506462,
+        1717256304,
+        1722796223,
+        1764721521,
+        1783675463,
+        1816210389,
+        1821609522,
+        1896806775,
+        1925340555,
+        1947549383,
+        2044365846,
+        2045168165,
+        2048281252,
+        2078645010,
+        2121544406,
+        2133734328,
+        2147545506,
+        2152578811,
+        2180733502,
+        2239351717,
+        2243900600,
+        2243982225,
+        2250255408,
+        2276337954,
+        2280118334,
+        2321674237,
+        2331170389,
+        2349590529,
+        2361281952,
+        2498825621,
+        2502419821,
+        2575806916,
+        2615977625,
+        2672388777,
+        2754028482,
+        2762805218,
+        2779270564,
+        2852259257,
+        2911591640,
+        2941326551,
+        3049160315,
+        3057557789,
+        3084093490,
+        3089694024,
+        3089694024,
+        3158624770,
+        3203367909,
+        3207553647,
+        3215783540,
+        3232693666,
+        3255358302,
+        3272786162,
+        3287613341,
+        3407132745,
+        3436348334,
+        3464765184,
+        3466208013,
+        3466208013,
+        3467442023,
+        3489628267,
+        3531941642,
+        3533626746,
+        3533626746,
+        3533626746,
+        3587905635,
+        3637354378,
+        3675319871,
+        3705890420,
+        3756407035,
+        3769038449,
+        3771282984,
+        3771282984,
+        3771282984,
+        3771282984,
+        3771282984,
+        3771282984,
+        3779569773,
+        3828784492,
+        3874577451,
+        3895720251,
+        3909727996,
+        3964272420,
+        3994583598,
+        4023459604,
+        4040084001,
+        4167724790,
+        4189957392,
+        4190024319,
+        4192398683,
+        4218370265,
+        4266978441,
+        4274806836,
+        4294246967
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T21:35:00.9579429Z",
+      "lastWriteTimeUtc": "2020-08-24T21:35:00.4062362Z",
+      "queryTimestamp": "2020-08-24T21:35:01.9101898Z",
+      "fileCount": 27,
+      "fileSize": 0
+    },
+    {
       "folderName": "ExtendedCrafting-1.15.2-2.0.6.jar",
       "fingerprint": 2693094934,
       "fileDateHash": 3594859310,
@@ -1199,21 +1319,6 @@
       "queryTimestamp": "2020-08-23T22:43:14.9338033Z",
       "fileCount": 1,
       "fileSize": 126015
-    },
-    {
-      "folderName": "rftoolsutility-1.15-2.1.5-beta.jar",
-      "fingerprint": 855777146,
-      "fileDateHash": 3736085681,
-      "sectionID": 8,
-      "individualFingerprints": [
-        855777146
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:44.1489143Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:10.0705512Z",
-      "queryTimestamp": "2020-08-23T22:43:14.9338033Z",
-      "fileCount": 1,
-      "fileSize": 1353249
     },
     {
       "folderName": "extlights-2.1.jar",
@@ -1246,21 +1351,6 @@
       "fileSize": 52700
     },
     {
-      "folderName": "rftoolsbase-1.15-1.1.3-beta.jar",
-      "fingerprint": 4195903569,
-      "fileDateHash": 1089095063,
-      "sectionID": 8,
-      "individualFingerprints": [
-        4195903569
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:44.1299661Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:10.0396342Z",
-      "queryTimestamp": "2020-08-23T22:43:14.9357954Z",
-      "fileCount": 1,
-      "fileSize": 380449
-    },
-    {
       "folderName": "Atum-1.15.2-2.1.4.jar",
       "fingerprint": 3737169962,
       "fileDateHash": 2616151883,
@@ -1274,21 +1364,6 @@
       "queryTimestamp": "2020-08-23T22:43:14.9367954Z",
       "fileCount": 1,
       "fileSize": 3285813
-    },
-    {
-      "folderName": "u_team_core-1.15.2-3.0.1.164.jar",
-      "fingerprint": 2475469785,
-      "fileDateHash": 828827003,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2475469785
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:44.71829Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:10.3146362Z",
-      "queryTimestamp": "2020-08-23T22:43:14.9367954Z",
-      "fileCount": 1,
-      "fileSize": 445592
     },
     {
       "folderName": "kubejs-2.7.1.14.jar",
@@ -2432,6 +2507,21 @@
       "fileSize": 184782
     },
     {
+      "folderName": "rftoolspower-1.15-2.2.2.jar",
+      "fingerprint": 2253624795,
+      "fileDateHash": 546457121,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2253624795
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T21:35:00.9330095Z",
+      "lastWriteTimeUtc": "2020-08-24T21:08:11.4263848Z",
+      "queryTimestamp": "2020-08-24T21:35:01.9213518Z",
+      "fileCount": 1,
+      "fileSize": 559288
+    },
+    {
       "folderName": "Cucumber-1.15.2-3.0.9.jar",
       "fingerprint": 755016859,
       "fileDateHash": 4229693934,
@@ -2535,21 +2625,6 @@
       "queryTimestamp": "2020-08-23T22:43:14.9477661Z",
       "fileCount": 1,
       "fileSize": 29171
-    },
-    {
-      "folderName": "rftoolspower-1.15-2.2.0-beta.jar",
-      "fingerprint": 3151595602,
-      "fileDateHash": 1375449221,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3151595602
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:44.1349262Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:10.0516022Z",
-      "queryTimestamp": "2020-08-23T22:43:14.9477661Z",
-      "fileCount": 1,
-      "fileSize": 466941
     },
     {
       "folderName": "torchslabmod-1.15.2_v1.7.0.jar",
@@ -3062,6 +3137,21 @@
       "fileSize": 3074693
     },
     {
+      "folderName": "vanillathings-1.15.2-0.6.jar",
+      "fingerprint": 2989931053,
+      "fileDateHash": 3926998593,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2989931053
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T21:35:00.9449781Z",
+      "lastWriteTimeUtc": "2020-08-24T21:06:16.2351214Z",
+      "queryTimestamp": "2020-08-24T21:35:01.9334582Z",
+      "fileCount": 1,
+      "fileSize": 2456113
+    },
+    {
       "folderName": "ftb-gui-library-1.0.0.14.jar",
       "fingerprint": 1237766446,
       "fileDateHash": 2432140642,
@@ -3437,150 +3527,6 @@
       "fileSize": 277009
     },
     {
-      "folderName": "Meteor",
-      "fingerprint": 319449505,
-      "fileDateHash": 489449203,
-      "sectionID": 10,
-      "individualFingerprints": [
-        29425876,
-        70012173,
-        162988918,
-        209768914,
-        328240958,
-        341673820,
-        362580002,
-        377628102,
-        382485233,
-        403418361,
-        407323594,
-        419110357,
-        489006261,
-        489217547,
-        500036828,
-        516695996,
-        539326090,
-        594910467,
-        604260962,
-        651942457,
-        812326908,
-        812769708,
-        817066520,
-        872232701,
-        879773855,
-        950914562,
-        973252673,
-        1077144129,
-        1085279233,
-        1095849854,
-        1170925343,
-        1174775678,
-        1182387146,
-        1182732594,
-        1250756017,
-        1254586642,
-        1271102851,
-        1318921553,
-        1349007058,
-        1362395240,
-        1367033121,
-        1377953492,
-        1402897034,
-        1415677976,
-        1427778408,
-        1471845213,
-        1500097912,
-        1523970862,
-        1540447798,
-        1540447798,
-        1540447798,
-        1540447798,
-        1554446436,
-        1566657123,
-        1571976557,
-        1592633260,
-        1627932906,
-        1679136848,
-        1685506462,
-        1717256304,
-        1722796223,
-        1764721521,
-        1783675463,
-        1816210389,
-        1821609522,
-        1832903844,
-        1925893313,
-        2015577360,
-        2024717630,
-        2029534776,
-        2044365846,
-        2045168165,
-        2111322802,
-        2121544406,
-        2133734328,
-        2239351717,
-        2243982225,
-        2260673338,
-        2276337954,
-        2292593491,
-        2331170389,
-        2498825621,
-        2502419821,
-        2575806916,
-        2628171219,
-        2672388777,
-        2677797910,
-        2708842103,
-        2754028482,
-        2773629463,
-        2779270564,
-        2795745139,
-        2898755403,
-        2911591640,
-        3039682908,
-        3049160315,
-        3083701887,
-        3112637393,
-        3158624770,
-        3217908763,
-        3272786162,
-        3287613341,
-        3467442023,
-        3533626746,
-        3533626746,
-        3533626746,
-        3574731729,
-        3587905635,
-        3590254484,
-        3637354378,
-        3700056502,
-        3753951497,
-        3762648227,
-        3769038449,
-        3820134708,
-        3874577451,
-        3878870077,
-        3964272420,
-        3973811382,
-        4016283965,
-        4016283965,
-        4040084001,
-        4054385785,
-        4190024319,
-        4192398683,
-        4232323946,
-        4232323946,
-        4232371809,
-        4261854726,
-        4294246967
-      ],
-      "status": 1,
-      "timestamp": "2020-08-24T16:01:05.1550965Z",
-      "lastWriteTimeUtc": "2020-08-24T16:01:04.5693192Z",
-      "queryTimestamp": "2020-08-24T16:01:06.3474172Z",
-      "fileCount": 26,
-      "fileSize": 0
-    },
-    {
       "folderName": "AppleSkin-mc1.15.2-forge-1.0.14.jar",
       "fingerprint": 4231219735,
       "fileDateHash": 3060908326,
@@ -3731,6 +3677,21 @@
       "fileSize": 2854
     },
     {
+      "folderName": "CraftTweaker-1.15.2-6.0.0.40.jar",
+      "fingerprint": 3904908847,
+      "fileDateHash": 933971615,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3904908847
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T21:04:42.9062233Z",
+      "lastWriteTimeUtc": "2020-08-24T20:39:08.8820365Z",
+      "queryTimestamp": "2020-08-24T21:04:44.1020467Z",
+      "fileCount": 1,
+      "fileSize": 1926559
+    },
+    {
       "folderName": "curioofundying-FORGE-1.15.2-3.0.jar",
       "fingerprint": 3904465126,
       "fileDateHash": 1452216105,
@@ -3774,6 +3735,21 @@
       "queryTimestamp": "2020-08-23T22:43:14.9687109Z",
       "fileCount": 1,
       "fileSize": 186909
+    },
+    {
+      "folderName": "rftoolsutility-1.15-2.1.7.jar",
+      "fingerprint": 362052293,
+      "fileDateHash": 3176024867,
+      "sectionID": 8,
+      "individualFingerprints": [
+        362052293
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T21:35:00.9369989Z",
+      "lastWriteTimeUtc": "2020-08-24T21:08:33.950312Z",
+      "queryTimestamp": "2020-08-24T21:35:01.9445193Z",
+      "fileCount": 1,
+      "fileSize": 1421503
     },
     {
       "folderName": "JAOPCA-1.15.2-3.2.0.14.jar",
@@ -4061,6 +4037,21 @@
       "fileSize": 3232629
     },
     {
+      "folderName": "rftoolsbuilder-1.15-2.1.6.jar",
+      "fingerprint": 3218164160,
+      "fileDateHash": 98841591,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3218164160
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T21:35:00.9310148Z",
+      "lastWriteTimeUtc": "2020-08-24T21:08:01.5709647Z",
+      "queryTimestamp": "2020-08-24T21:35:01.9505035Z",
+      "fileCount": 1,
+      "fileSize": 504018
+    },
+    {
       "folderName": "DangerousStoneCutter-1.15.1-1.2.0.jar",
       "fingerprint": 2887421086,
       "fileDateHash": 739598120,
@@ -4151,6 +4142,21 @@
       "fileSize": 46859
     },
     {
+      "folderName": "rftoolsbase-1.15-1.1.4.jar",
+      "fingerprint": 859711532,
+      "fileDateHash": 1876168439,
+      "sectionID": 8,
+      "individualFingerprints": [
+        859711532
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T21:35:00.9290203Z",
+      "lastWriteTimeUtc": "2020-08-24T21:07:49.8125307Z",
+      "queryTimestamp": "2020-08-24T21:35:01.952498Z",
+      "fileCount": 1,
+      "fileSize": 380279
+    },
+    {
       "folderName": "NaturesAura-28.4.jar",
       "fingerprint": 53867826,
       "fileDateHash": 2442632366,
@@ -4164,6 +4170,21 @@
       "queryTimestamp": "2020-08-23T22:43:14.9766893Z",
       "fileCount": 1,
       "fileSize": 1280832
+    },
+    {
+      "folderName": "u_team_core-1.15.2-3.0.2.169.jar",
+      "fingerprint": 313197063,
+      "fileDateHash": 1949625056,
+      "sectionID": 8,
+      "individualFingerprints": [
+        313197063
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T21:35:00.9429836Z",
+      "lastWriteTimeUtc": "2020-08-24T21:06:36.9783115Z",
+      "queryTimestamp": "2020-08-24T21:35:01.9534934Z",
+      "fileCount": 1,
+      "fileSize": 451990
     },
     {
       "folderName": "simplylight-1.15.2-0.9.0.jar",
@@ -4182,7 +4203,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-08-24T15:41:44.1868361Z",
+  "lastPreviousMatchUpdate": "2020-08-24T21:35:02.7370656Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.15.2",
@@ -5439,16 +5460,16 @@
       "addonID": 273744,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 3012664,
-        "displayName": "U-Team-Core-1.15.2-3.0.1.164",
-        "fileName": "u_team_core-1.15.2-3.0.1.164.jar",
-        "fileDate": "2020-07-23T16:15:49.72Z",
-        "fileLength": 445592,
+        "id": 3030627,
+        "displayName": "U-Team-Core-1.15.2-3.0.2.169",
+        "fileName": "u_team_core-1.15.2-3.0.2.169.jar",
+        "fileDate": "2020-08-12T21:18:15.46Z",
+        "fileLength": 451990,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3012/664/u_team_core-1.15.2-3.0.1.164.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3030/627/u_team_core-1.15.2-3.0.2.169.jar",
         "isAlternate": false,
-        "alternateFileId": 3012666,
+        "alternateFileId": 3030628,
         "dependencies": [
           {
             "id": 0,
@@ -5461,7 +5482,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3975194666,
+            "fingerprint": 154592050,
             "type": 0
           },
           {
@@ -5486,7 +5507,7 @@
           },
           {
             "foldername": "info",
-            "fingerprint": 3716502458,
+            "fingerprint": 1573252530,
             "type": 0
           },
           {
@@ -5500,7 +5521,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2475469785,
+        "packageFingerprint": 313197063,
         "gameVersion": [
           "1.15.2"
         ],
@@ -5513,12 +5534,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "u_team_core-1.15.2-3.0.1.164.jar"
+        "FileNameOnDisk": "u_team_core-1.15.2-3.0.2.169.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3065392Z",
-      "dateUpdated": "2020-07-25T14:27:25.8967878Z",
-      "dateLastUpdateAttempted": "2020-07-25T14:27:25.8967878Z",
-      "status": 3,
+      "dateUpdated": "2020-08-24T21:06:36.9863221Z",
+      "dateLastUpdateAttempted": "2020-08-24T21:06:36.9863221Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6750,23 +6771,17 @@
       "addonID": 238086,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 3028619,
-        "displayName": "kubejs-2.7.1.14.jar",
-        "fileName": "kubejs-2.7.1.14.jar",
-        "fileDate": "2020-08-10T16:07:04Z",
-        "fileLength": 716642,
+        "id": 3036014,
+        "displayName": "kubejs-2.7.1.15.jar",
+        "fileName": "kubejs-2.7.1.15.jar",
+        "fileDate": "2020-08-18T16:49:35.557Z",
+        "fileLength": 717043,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3028/619/kubejs-2.7.1.14.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3036/14/kubejs-2.7.1.15.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
-          {
-            "id": 0,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 0
-          },
           {
             "id": 0,
             "addonId": 357178,
@@ -6778,18 +6793,24 @@
             "addonId": 268655,
             "type": 2,
             "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 431613859,
+            "fingerprint": 2554035833,
             "type": 0
           },
           {
             "foldername": "dev",
-            "fingerprint": 4117554922,
+            "fingerprint": 3233233514,
             "type": 0
           },
           {
@@ -6823,7 +6844,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3496568368,
+        "packageFingerprint": 1799216979,
         "gameVersion": [
           "1.15.2"
         ],
@@ -6836,12 +6857,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "kubejs-2.7.1.14.jar"
+        "FileNameOnDisk": "kubejs-2.7.1.15.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2775903Z",
-      "dateUpdated": "2020-08-15T13:16:53.6988015Z",
-      "dateLastUpdateAttempted": "2020-08-15T13:16:53.6988015Z",
-      "status": 3,
+      "dateUpdated": "2020-08-24T21:36:22.4554465Z",
+      "dateLastUpdateAttempted": "2020-08-24T21:36:22.4554465Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7668,100 +7689,82 @@
       "addonID": 361003,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 2902111,
-        "displayName": "vanillathings-1.15.2-0.5.7.jar",
-        "fileName": "vanillathings-1.15.2-0.5.7.jar",
-        "fileDate": "2020-03-15T02:50:17.79Z",
-        "fileLength": 2468371,
-        "releaseType": 2,
+        "id": 3037052,
+        "displayName": "vanillathings-1.15.2-0.6.jar",
+        "fileName": "vanillathings-1.15.2-0.6.jar",
+        "fileDate": "2020-08-19T20:19:27.787Z",
+        "fileLength": 2456113,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2902/111/vanillathings-1.15.2-0.5.7.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3037/52/vanillathings-1.15.2-0.6.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 38056732,
+            "id": 0,
             "addonId": 238222,
             "type": 2,
-            "fileId": 2902111
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3165958358,
-            "type": 3
+            "fingerprint": 1159159582,
+            "type": 0
           },
           {
             "foldername": "ch",
-            "fingerprint": 33571839,
-            "type": 3
+            "fingerprint": 1775827451,
+            "type": 0
           },
           {
             "foldername": ".cache",
             "fingerprint": 1593895427,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
             "fingerprint": 2630399589,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 2115283101,
-            "type": 3
+            "fingerprint": 4027381375,
+            "type": 0
           },
           {
             "foldername": "logo.png",
             "fingerprint": 2745060497,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 2435435880,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 4120127698,
+        "packageFingerprint": 2989931053,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1793190,
-        "projectId": 361003,
-        "packageFingerprintId": 423271997,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2132131,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "vanillathings-1.15.2-0.5.7.jar"
+        "FileNameOnDisk": "vanillathings-1.15.2-0.6.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2755939Z",
-      "dateUpdated": "2019-05-09T13:11:27.2755939Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-08-24T21:06:16.2510791Z",
+      "dateLastUpdateAttempted": "2020-08-24T21:06:16.2510791Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9279,26 +9282,38 @@
       "addonID": 347706,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 3014089,
-        "displayName": "rftoolsbuilder-1.15-2.1.5-beta.jar",
-        "fileName": "rftoolsbuilder-1.15-2.1.5-beta.jar",
-        "fileDate": "2020-07-25T04:52:16.927Z",
-        "fileLength": 504054,
-        "releaseType": 2,
+        "id": 3040785,
+        "displayName": "RFToolsBuilder - 1.15-2.1.6",
+        "fileName": "rftoolsbuilder-1.15-2.1.6.jar",
+        "fileDate": "2020-08-24T10:47:06.387Z",
+        "fileLength": 504018,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3014/89/rftoolsbuilder-1.15-2.1.5-beta.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3040/785/rftoolsbuilder-1.15-2.1.6.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 326041,
+            "addonId": 233105,
             "type": 3,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 233105,
+            "addonId": 270789,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 245211,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 326041,
             "type": 3,
             "fileId": 0
           }
@@ -9307,12 +9322,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4066751706,
+            "fingerprint": 3748011509,
             "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 2631435393,
+            "fingerprint": 3767669674,
             "type": 0
           },
           {
@@ -9331,7 +9346,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4229215976,
+        "packageFingerprint": 3218164160,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -9345,12 +9360,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rftoolsbuilder-1.15-2.1.5-beta.jar"
+        "FileNameOnDisk": "rftoolsbuilder-1.15-2.1.6.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2676452Z",
-      "dateUpdated": "2020-07-25T17:34:17.8916028Z",
-      "dateLastUpdateAttempted": "2020-07-25T17:34:17.8916028Z",
-      "status": 3,
+      "dateUpdated": "2020-08-24T21:08:01.5789435Z",
+      "dateLastUpdateAttempted": "2020-08-24T21:08:01.5789435Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10214,17 +10229,23 @@
       "addonID": 350006,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 3014090,
-        "displayName": "rftoolsstorage-1.15-1.1.6-beta.jar",
-        "fileName": "rftoolsstorage-1.15-1.1.6-beta.jar",
-        "fileDate": "2020-07-25T04:52:20.14Z",
-        "fileLength": 341899,
-        "releaseType": 2,
+        "id": 3040784,
+        "displayName": "RFToolsStorage - 1.15-1.1.7",
+        "fileName": "rftoolsstorage-1.15-1.1.7.jar",
+        "fileDate": "2020-08-24T10:46:50.623Z",
+        "fileLength": 341811,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3014/90/rftoolsstorage-1.15-1.1.6-beta.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3040/784/rftoolsstorage-1.15-1.1.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
+          {
+            "id": 0,
+            "addonId": 233105,
+            "type": 3,
+            "fileId": 0
+          },
           {
             "id": 0,
             "addonId": 326041,
@@ -10233,8 +10254,14 @@
           },
           {
             "id": 0,
-            "addonId": 233105,
-            "type": 3,
+            "addonId": 245211,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 270789,
+            "type": 2,
             "fileId": 0
           }
         ],
@@ -10242,12 +10269,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3309421574,
+            "fingerprint": 2400094314,
             "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 759881607,
+            "fingerprint": 716253541,
             "type": 0
           },
           {
@@ -10266,7 +10293,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 889332333,
+        "packageFingerprint": 495376374,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -10280,12 +10307,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rftoolsstorage-1.15-1.1.6-beta.jar"
+        "FileNameOnDisk": "rftoolsstorage-1.15-1.1.7.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3085362Z",
-      "dateUpdated": "2020-07-25T17:34:40.7765964Z",
-      "dateLastUpdateAttempted": "2020-07-25T17:34:40.7765964Z",
-      "status": 3,
+      "dateUpdated": "2020-08-24T21:08:22.8502475Z",
+      "dateLastUpdateAttempted": "2020-08-24T21:08:22.8502475Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14770,17 +14797,23 @@
       "addonID": 342466,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 3014088,
-        "displayName": "rftoolsutility-1.15-2.1.5-beta.jar",
-        "fileName": "rftoolsutility-1.15-2.1.5-beta.jar",
-        "fileDate": "2020-07-25T04:52:13.96Z",
-        "fileLength": 1353249,
+        "id": 3040782,
+        "displayName": "RFToolsUtility - 1.15-2.1.7",
+        "fileName": "rftoolsutility-1.15-2.1.7.jar",
+        "fileDate": "2020-08-24T10:46:21.203Z",
+        "fileLength": 1421503,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3014/88/rftoolsutility-1.15-2.1.5-beta.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3040/782/rftoolsutility-1.15-2.1.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
+          {
+            "id": 0,
+            "addonId": 245211,
+            "type": 2,
+            "fileId": 0
+          },
           {
             "id": 0,
             "addonId": 233105,
@@ -14792,23 +14825,29 @@
             "addonId": 326041,
             "type": 3,
             "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 270789,
+            "type": 2,
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 657964918,
+            "fingerprint": 2395727441,
             "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 1710271528,
+            "fingerprint": 3609283791,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2214782558,
+            "fingerprint": 123949789,
             "type": 0
           },
           {
@@ -14818,11 +14857,11 @@
           },
           {
             "foldername": "data",
-            "fingerprint": 3345487046,
+            "fingerprint": 3427167372,
             "type": 0
           }
         ],
-        "packageFingerprint": 855777146,
+        "packageFingerprint": 362052293,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -14836,12 +14875,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rftoolsutility-1.15-2.1.5-beta.jar"
+        "FileNameOnDisk": "rftoolsutility-1.15-2.1.7.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2716346Z",
-      "dateUpdated": "2020-07-25T17:34:49.3218458Z",
-      "dateLastUpdateAttempted": "2020-07-25T17:34:49.3218458Z",
-      "status": 3,
+      "dateUpdated": "2020-08-24T21:08:33.9574409Z",
+      "dateLastUpdateAttempted": "2020-08-24T21:08:33.9574409Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19365,14 +19404,14 @@
       "addonID": 290209,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 3014091,
-        "displayName": "rftoolspower-1.15-2.2.0-beta.jar",
-        "fileName": "rftoolspower-1.15-2.2.0-beta.jar",
-        "fileDate": "2020-07-25T04:52:23.403Z",
-        "fileLength": 466941,
-        "releaseType": 2,
+        "id": 3040783,
+        "displayName": "RFToolsPower - 1.15-2.2.2",
+        "fileName": "rftoolspower-1.15-2.2.2.jar",
+        "fileDate": "2020-08-24T10:46:36.197Z",
+        "fileLength": 559288,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3014/91/rftoolspower-1.15-2.2.0-beta.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3040/783/rftoolspower-1.15-2.2.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -19384,7 +19423,7 @@
           },
           {
             "id": 0,
-            "addonId": 224641,
+            "addonId": 270789,
             "type": 2,
             "fileId": 0
           },
@@ -19405,17 +19444,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 35012601,
+            "fingerprint": 3188363662,
             "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 4273381095,
+            "fingerprint": 1907538357,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 989052341,
+            "fingerprint": 591156924,
             "type": 0
           },
           {
@@ -19425,11 +19464,11 @@
           },
           {
             "foldername": "data",
-            "fingerprint": 3265659744,
+            "fingerprint": 2908308535,
             "type": 0
           }
         ],
-        "packageFingerprint": 3151595602,
+        "packageFingerprint": 2253624795,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -19443,12 +19482,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rftoolspower-1.15-2.2.0-beta.jar"
+        "FileNameOnDisk": "rftoolspower-1.15-2.2.2.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3095042Z",
-      "dateUpdated": "2020-07-25T17:34:28.1862982Z",
-      "dateLastUpdateAttempted": "2020-07-25T17:34:28.1862982Z",
-      "status": 3,
+      "dateUpdated": "2020-08-24T21:08:11.4263848Z",
+      "dateLastUpdateAttempted": "2020-08-24T21:08:11.4263848Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20390,20 +20429,26 @@
       "addonID": 326041,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 3014087,
-        "displayName": "rftoolsbase-1.15-1.1.3-beta.jar",
-        "fileName": "rftoolsbase-1.15-1.1.3-beta.jar",
-        "fileDate": "2020-07-25T04:52:10.247Z",
-        "fileLength": 380449,
-        "releaseType": 2,
+        "id": 3040781,
+        "displayName": "RFToolsBase - 1.15-1.1.4",
+        "fileName": "rftoolsbase-1.15-1.1.4.jar",
+        "fileDate": "2020-08-24T10:46:05.803Z",
+        "fileLength": 380279,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3014/87/rftoolsbase-1.15-1.1.3-beta.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3040/781/rftoolsbase-1.15-1.1.4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
             "addonId": 245211,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 270789,
             "type": 2,
             "fileId": 0
           },
@@ -20418,12 +20463,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2253813318,
+            "fingerprint": 138573396,
             "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 861016647,
+            "fingerprint": 1890977296,
             "type": 0
           },
           {
@@ -20442,7 +20487,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4195903569,
+        "packageFingerprint": 859711532,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -20456,12 +20501,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rftoolsbase-1.15-1.1.3-beta.jar"
+        "FileNameOnDisk": "rftoolsbase-1.15-1.1.4.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2995532Z",
-      "dateUpdated": "2020-07-25T17:34:06.1856225Z",
-      "dateLastUpdateAttempted": "2020-07-25T17:34:06.1856225Z",
-      "status": 3,
+      "dateUpdated": "2020-08-24T21:07:49.8195344Z",
+      "dateLastUpdateAttempted": "2020-08-24T21:07:49.8195344Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22559,8 +22604,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "engineersdecor-1.15.2-1.1.2.jar"
       },
-      "dateInstalled": "2020-08-24T16:01:07.3234862Z",
-      "dateUpdated": "2019-08-24T16:01:07.3234862Z",
+      "dateInstalled": "2020-08-24T21:35:02.7360682Z",
+      "dateUpdated": "2019-08-24T21:35:02.7360682Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -22571,7 +22616,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": null
+      "installedTargets": []
     }
   ],
   "isMigrated": false,
