@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-08-24T15:12:25.0241499Z",
+  "lastPlayed": "2020-08-24T15:46:02.9762532Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -406,6 +406,21 @@
       "fileSize": 2217828
     },
     {
+      "folderName": "jei-1.15.2-6.0.3.15.jar",
+      "fingerprint": 2132625229,
+      "fileDateHash": 1478097425,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2132625229
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T15:41:42.093767Z",
+      "lastWriteTimeUtc": "2020-08-24T15:11:04.2212461Z",
+      "queryTimestamp": "2020-08-24T15:41:43.4724626Z",
+      "fileCount": 1,
+      "fileSize": 704470
+    },
+    {
       "folderName": "PackingTape-1.15.2-0.9.6.jar",
       "fingerprint": 733941026,
       "fileDateHash": 786737592,
@@ -524,21 +539,6 @@
       "queryTimestamp": "2020-08-24T10:36:29.7417122Z",
       "fileCount": 1,
       "fileSize": 4080467
-    },
-    {
-      "folderName": "ImmersiveEngineering-1.15.2-3.1-111.jar",
-      "fingerprint": 3098294972,
-      "fileDateHash": 1203045089,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3098294972
-      ],
-      "status": 1,
-      "timestamp": "2020-08-11T09:32:45.8602013Z",
-      "lastWriteTimeUtc": "2020-08-05T15:15:49.0814217Z",
-      "queryTimestamp": "2020-08-23T22:43:14.9218072Z",
-      "fileCount": 1,
-      "fileSize": 8287460
     },
     {
       "folderName": "astralsorcery-1.15.2-1.12.6.jar",
@@ -2552,6 +2552,21 @@
       "fileSize": 535710
     },
     {
+      "folderName": "ImmersiveEngineering-1.15.2-3.2.0-114.jar",
+      "fingerprint": 3315742186,
+      "fileDateHash": 77182921,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3315742186
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T15:41:42.0478591Z",
+      "lastWriteTimeUtc": "2020-08-24T15:09:22.0728986Z",
+      "queryTimestamp": "2020-08-24T15:41:43.5034885Z",
+      "fileCount": 1,
+      "fileSize": 8384509
+    },
+    {
       "folderName": "theoneprobe-1.15-2.0.4.jar",
       "fingerprint": 3741481556,
       "fileDateHash": 1736731897,
@@ -2747,6 +2762,21 @@
       "fileSize": 91710
     },
     {
+      "folderName": "mcjtylib-1.15-4.1.5.jar",
+      "fingerprint": 3202866818,
+      "fileDateHash": 1782293373,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3202866818
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T15:41:42.0977257Z",
+      "lastWriteTimeUtc": "2020-08-24T15:11:37.9148453Z",
+      "queryTimestamp": "2020-08-24T15:41:43.507478Z",
+      "fileCount": 1,
+      "fileSize": 550448
+    },
+    {
       "folderName": "ToastControl-1.15.2-3.0.1.jar",
       "fingerprint": 1621079025,
       "fileDateHash": 1397381316,
@@ -2793,60 +2823,71 @@
     },
     {
       "folderName": "New World",
-      "fingerprint": 283257317,
-      "fileDateHash": 3649334661,
+      "fingerprint": 2030613022,
+      "fileDateHash": 1558415915,
       "sectionID": 10,
       "individualFingerprints": [
+        9528039,
         29425876,
-        37087364,
         37355467,
+        104693023,
         162988918,
         167420265,
-        180759748,
-        180759748,
+        167420265,
         212484482,
         269595493,
         272619008,
         341673820,
         358610097,
+        358610097,
         362580002,
         403418361,
         407323594,
+        441005151,
+        444131969,
         489217547,
         500036828,
-        519629434,
+        533340559,
         539326090,
-        587754343,
+        600409359,
         629522742,
         651942457,
-        670291787,
+        667310572,
+        748215122,
         750874133,
+        807920444,
         812326908,
-        849050665,
         939452796,
         940430919,
         950914562,
+        969797187,
+        971544971,
+        1017662050,
         1022733457,
-        1049058055,
         1063331266,
+        1071663002,
         1074083548,
         1074083548,
         1077144129,
         1085279233,
         1170925343,
+        1172392161,
         1174775678,
         1182732594,
-        1221785679,
         1250756017,
         1254586642,
+        1266409171,
         1266409171,
         1271102851,
         1297775985,
         1318921553,
+        1326488261,
         1349007058,
         1367033121,
         1378236344,
+        1378236344,
         1402897034,
+        1415164326,
         1442686681,
         1500097912,
         1522777137,
@@ -2857,22 +2898,19 @@
         1566657123,
         1571976557,
         1573224178,
+        1667165482,
         1685506462,
         1717256304,
         1722796223,
         1728947925,
         1752181818,
         1764721521,
-        1766766333,
-        1769327629,
         1783675463,
-        1785959220,
-        1814805710,
         1816210389,
         1821609522,
         1862547284,
+        1888874352,
         1907160727,
-        1985979359,
         2044365846,
         2045168165,
         2121544406,
@@ -2883,40 +2921,54 @@
         2239351717,
         2243982225,
         2253128800,
+        2272112798,
+        2276159565,
         2276337954,
+        2283519381,
+        2324673370,
         2330178151,
         2331170389,
         2355865856,
         2361576215,
+        2361576215,
         2367450457,
         2402473068,
         2487431457,
-        2496666678,
+        2487431457,
         2498825621,
         2502419821,
+        2553971447,
         2574346432,
         2575806916,
+        2635389903,
         2672388777,
-        2723202026,
-        2730825851,
         2754028482,
         2779270564,
+        2833792407,
         2911591640,
+        2969707375,
+        2984392419,
+        3021075106,
+        3034630044,
         3048922080,
         3049160315,
         3083483832,
+        3085990288,
+        3153794825,
+        3156996144,
+        3156996144,
         3158624770,
-        3220370895,
         3272786162,
         3287613341,
+        3302786106,
+        3430683990,
         3467442023,
         3472943975,
-        3473827288,
         3494992919,
-        3499288093,
         3533626746,
         3533626746,
         3533626746,
+        3540641708,
         3565464072,
         3577944972,
         3580669512,
@@ -2926,26 +2978,27 @@
         3636408808,
         3637354378,
         3673157144,
+        3737739071,
         3763979036,
         3764463965,
         3769038449,
         3771282984,
         3771282984,
-        3771282984,
         3874577451,
         3964272420,
-        4034443197,
         4040084001,
-        4083736615,
+        4139905064,
         4190024319,
         4192398683,
+        4214836390,
         4229677249,
+        4265710264,
         4294246967
       ],
       "status": 1,
-      "timestamp": "2020-08-24T15:05:03.9522398Z",
-      "lastWriteTimeUtc": "2020-08-24T15:05:03.3873749Z",
-      "queryTimestamp": "2020-08-24T15:05:05.0705819Z",
+      "timestamp": "2020-08-24T15:41:42.1186989Z",
+      "lastWriteTimeUtc": "2020-08-24T15:41:41.5278188Z",
+      "queryTimestamp": "2020-08-24T15:41:43.5084752Z",
       "fileCount": 27,
       "fileSize": 0
     },
@@ -3025,6 +3078,21 @@
       "fileSize": 88282
     },
     {
+      "folderName": "Interactio-1.15.2-2.0.6.jar",
+      "fingerprint": 4024509277,
+      "fileDateHash": 2025624048,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4024509277
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T15:41:42.0927398Z",
+      "lastWriteTimeUtc": "2020-08-24T15:10:01.2374907Z",
+      "queryTimestamp": "2020-08-24T15:41:43.5104698Z",
+      "fileCount": 1,
+      "fileSize": 173579
+    },
+    {
       "folderName": "EnderEnhancement-1.15.2-1.0.4.2.jar",
       "fingerprint": 1095051893,
       "fileDateHash": 4177585298,
@@ -3100,21 +3168,6 @@
       "fileSize": 124531
     },
     {
-      "folderName": "Interactio-1.15.2-2.0.3.jar",
-      "fingerprint": 154735294,
-      "fileDateHash": 3356195164,
-      "sectionID": 8,
-      "individualFingerprints": [
-        154735294
-      ],
-      "status": 1,
-      "timestamp": "2020-08-04T10:36:34.3422813Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:07.7516959Z",
-      "queryTimestamp": "2020-08-23T22:43:14.956715Z",
-      "fileCount": 1,
-      "fileSize": 173550
-    },
-    {
       "folderName": "Mekanism-1.15.2-9.10.9.422.jar",
       "fingerprint": 1323467741,
       "fileDateHash": 4242636196,
@@ -3158,6 +3211,21 @@
       "queryTimestamp": "2020-08-23T22:43:14.9577395Z",
       "fileCount": 1,
       "fileSize": 1852
+    },
+    {
+      "folderName": "mysticalworld-1.15.2-2.1.1.jar",
+      "fingerprint": 2398852002,
+      "fileDateHash": 1844936412,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2398852002
+      ],
+      "status": 1,
+      "timestamp": "2020-08-24T15:41:42.0997204Z",
+      "lastWriteTimeUtc": "2020-08-24T15:12:05.9645894Z",
+      "queryTimestamp": "2020-08-24T15:41:43.5134618Z",
+      "fileCount": 1,
+      "fileSize": 3074693
     },
     {
       "folderName": "ftb-gui-library-1.0.0.14.jar",
@@ -3520,21 +3588,6 @@
       "fileSize": 547260
     },
     {
-      "folderName": "mcjtylib-1.15-4.1.3-beta.jar",
-      "fingerprint": 1677768427,
-      "fileDateHash": 2598811762,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1677768427
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:43.7052918Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:09.5707932Z",
-      "queryTimestamp": "2020-08-23T22:43:14.9647207Z",
-      "fileCount": 1,
-      "fileSize": 548464
-    },
-    {
       "folderName": "FarmingForBlockheads_1.15.2-6.1.5.jar",
       "fingerprint": 4183955932,
       "fileDateHash": 1790109598,
@@ -3608,21 +3661,6 @@
       "queryTimestamp": "2020-08-23T22:43:14.9657129Z",
       "fileCount": 1,
       "fileSize": 299555
-    },
-    {
-      "folderName": "mysticalworld-1.15.2-2.0.6.jar",
-      "fingerprint": 3474755983,
-      "fileDateHash": 4140112302,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3474755983
-      ],
-      "status": 1,
-      "timestamp": "2020-08-11T22:17:22.7004235Z",
-      "lastWriteTimeUtc": "2020-08-11T20:45:46.425308Z",
-      "queryTimestamp": "2020-08-23T22:43:14.9667153Z",
-      "fileCount": 1,
-      "fileSize": 2940554
     },
     {
       "folderName": "curiousshulkerboxes-FORGE-1.15.2-2.0.1.jar",
@@ -3848,21 +3886,6 @@
       "queryTimestamp": "2020-08-23T22:43:14.9697077Z",
       "fileCount": 1,
       "fileSize": 109311
-    },
-    {
-      "folderName": "jei-1.15.2-6.0.2.12.jar",
-      "fingerprint": 3851391654,
-      "fileDateHash": 2670874189,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3851391654
-      ],
-      "status": 1,
-      "timestamp": "2020-07-27T10:17:43.2664148Z",
-      "lastWriteTimeUtc": "2020-07-27T10:08:08.7733997Z",
-      "queryTimestamp": "2020-08-23T22:43:14.9707045Z",
-      "fileCount": 1,
-      "fileSize": 704540
     },
     {
       "folderName": "FastFurnace-1.15.1-3.0.0.jar",
@@ -4181,7 +4204,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-08-24T15:05:05.6181907Z",
+  "lastPreviousMatchUpdate": "2020-08-24T15:41:44.1868361Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.15.2",
@@ -5190,14 +5213,14 @@
       "addonID": 354143,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 3026022,
-        "displayName": "performant-1.15-3.8m.jar",
-        "fileName": "performant-1.15-3.8m.jar",
-        "fileDate": "2020-08-07T14:23:07.72Z",
-        "fileLength": 196067,
+        "id": 3031069,
+        "displayName": "performant-1.15-3.10m.jar",
+        "fileName": "performant-1.15-3.10m.jar",
+        "fileDate": "2020-08-13T10:42:00.973Z",
+        "fileLength": 196422,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3026/22/performant-1.15-3.8m.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3031/69/performant-1.15-3.10m.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -5212,12 +5235,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3413167068,
+            "fingerprint": 2744810410,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2101459009,
+            "fingerprint": 2700032245,
             "type": 0
           },
           {
@@ -5227,16 +5250,16 @@
           },
           {
             "foldername": "performant.mixins.json",
-            "fingerprint": 1581264338,
+            "fingerprint": 3497226276,
             "type": 0
           },
           {
             "foldername": "performant.refmap.json",
-            "fingerprint": 3821915376,
+            "fingerprint": 657292783,
             "type": 0
           }
         ],
-        "packageFingerprint": 782771455,
+        "packageFingerprint": 3707023143,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -5250,12 +5273,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "performant-1.15-3.8m.jar"
+        "FileNameOnDisk": "performant-1.15-3.10m.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.2846003Z",
-      "dateUpdated": "2020-08-12T09:32:57.7001438Z",
-      "dateLastUpdateAttempted": "2020-08-12T09:32:57.7001438Z",
-      "status": 3,
+      "dateUpdated": "2020-08-24T15:43:06.8402364Z",
+      "dateLastUpdateAttempted": "2020-08-24T15:43:06.8402364Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7348,88 +7371,70 @@
       "addonID": 365460,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 2958812,
-        "displayName": "pamhc2trees-1.15.2-1.0.5.jar",
-        "fileName": "pamhc2trees-1.15.2-1.0.5.jar",
-        "fileDate": "2020-05-17T01:24:20.85Z",
-        "fileLength": 529847,
+        "id": 3033262,
+        "displayName": "pamhc2trees-1.15.2-1.0.7.jar",
+        "fileName": "pamhc2trees-1.15.2-1.0.7.jar",
+        "fileDate": "2020-08-15T16:19:43.817Z",
+        "fileLength": 529459,
         "releaseType": 1,
-        "fileStatus": 5,
-        "downloadUrl": "https://edge.forgecdn.net/files/2958/812/pamhc2trees-1.15.2-1.0.5.jar",
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3033/262/pamhc2trees-1.15.2-1.0.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
-        "isAvailable": false,
+        "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 223519309,
-            "type": 3
+            "fingerprint": 746658052,
+            "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2605389272,
-            "type": 3
+            "fingerprint": 375623294,
+            "type": 0
           },
           {
             "foldername": ".gitversion",
             "fingerprint": 3688812448,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "assets",
             "fingerprint": 665465853,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "data",
             "fingerprint": 3887037075,
-            "type": 3
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 3553540629,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 2704739276,
+        "packageFingerprint": 1357358235,
         "gameVersion": [
           "Forge",
           "1.15.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1865421,
-        "projectId": 365460,
-        "packageFingerprintId": 458678851,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 2231457,
-        "gameVersionId": 7498,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "pamhc2trees-1.15.2-1.0.5.jar"
+        "FileNameOnDisk": "pamhc2trees-1.15.2-1.0.7.jar"
       },
       "dateInstalled": "2020-07-27T10:17:46.2855946Z",
-      "dateUpdated": "2019-07-27T10:17:46.2855946Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-08-24T15:42:55.2995413Z",
+      "dateLastUpdateAttempted": "2020-08-24T15:42:55.2995413Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7971,14 +7976,14 @@
       "addonID": 71738,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 2961612,
-        "displayName": "shetiphiancore-1.15-3.7.2.jar",
-        "fileName": "shetiphiancore-1.15-3.7.2.jar",
-        "fileDate": "2020-05-20T16:31:34.31Z",
-        "fileLength": 389281,
+        "id": 3035727,
+        "displayName": "shetiphiancore-1.15-3.7.4.jar",
+        "fileName": "shetiphiancore-1.15-3.7.4.jar",
+        "fileDate": "2020-08-18T07:45:04.667Z",
+        "fileLength": 391829,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2961/612/shetiphiancore-1.15-3.7.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3035/727/shetiphiancore-1.15-3.7.4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -7986,12 +7991,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1391786222,
+            "fingerprint": 3770421558,
             "type": 0
           },
           {
             "foldername": "shetiphian",
-            "fingerprint": 2575608156,
+            "fingerprint": 3757454030,
             "type": 0
           },
           {
@@ -8020,8 +8025,9 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3620196301,
+        "packageFingerprint": 114063946,
         "gameVersion": [
+          "Forge",
           "1.15.2"
         ],
         "hasInstallScript": false,
@@ -8030,15 +8036,15 @@
         "restrictProjectFileAccess": 0,
         "projectStatus": 0,
         "projectId": 0,
-        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "shetiphiancore-1.15-3.7.2.jar"
+        "FileNameOnDisk": "shetiphiancore-1.15-3.7.4.jar"
       },
       "dateInstalled": "2020-06-01T21:17:33.807367Z",
-      "dateUpdated": "2020-06-02T15:19:07.1493636Z",
-      "dateLastUpdateAttempted": "2020-06-02T15:19:07.1493636Z",
-      "status": 3,
+      "dateUpdated": "2020-08-24T15:43:50.019402Z",
+      "dateLastUpdateAttempted": "2020-08-24T15:43:50.019402Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9720,26 +9726,32 @@
       "addonID": 398016,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 3022588,
-        "displayName": "tetraits-1.15.2-beta-0.0.2.jar",
-        "fileName": "tetraits-1.15.2-beta-0.0.2.jar",
-        "fileDate": "2020-08-03T18:54:28.357Z",
-        "fileLength": 4702058,
+        "id": 3037557,
+        "displayName": "tetraits-1.15.2-beta-0.1.1.jar",
+        "fileName": "tetraits-1.15.2-beta-0.1.1.jar",
+        "fileDate": "2020-08-20T11:52:57.96Z",
+        "fileLength": 128531,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3022/588/tetraits-1.15.2-beta-0.0.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3037/557/tetraits-1.15.2-beta-0.1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 289712,
+            "addonId": 402772,
             "type": 3,
             "fileId": 0
           },
           {
             "id": 0,
             "addonId": 351914,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 289712,
             "type": 3,
             "fileId": 0
           }
@@ -9757,8 +9769,8 @@
             "type": 0
           },
           {
-            "foldername": "assets",
-            "fingerprint": 3154875783,
+            "foldername": "tetraits",
+            "fingerprint": 227751448,
             "type": 0
           },
           {
@@ -9767,17 +9779,12 @@
             "type": 0
           },
           {
-            "foldername": "tetraits",
-            "fingerprint": 1768735460,
-            "type": 0
-          },
-          {
-            "foldername": "clojure",
-            "fingerprint": 194734749,
+            "foldername": "assets",
+            "fingerprint": 3154875783,
             "type": 0
           }
         ],
-        "packageFingerprint": 2605420133,
+        "packageFingerprint": 273486220,
         "gameVersion": [
           "1.15.2"
         ],
@@ -9790,12 +9797,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "tetraits-1.15.2-beta-0.0.2.jar"
+        "FileNameOnDisk": "tetraits-1.15.2-beta-0.1.1.jar"
       },
-      "dateInstalled": "2020-08-04T14:46:27.4235137Z",
-      "dateUpdated": "2020-08-04T14:46:27.4391813Z",
-      "dateLastUpdateAttempted": "2020-08-04T14:46:27.4391813Z",
-      "status": 3,
+      "dateInstalled": "2020-08-24T15:45:11.0863275Z",
+      "dateUpdated": "2020-08-24T15:45:11.0933091Z",
+      "dateLastUpdateAttempted": "2020-08-24T15:45:11.0933091Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9804,20 +9811,20 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": null
+      "installedTargets": []
     },
     {
       "addonID": 281849,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 3025146,
-        "displayName": "pneumaticcraft-repressurized-1.15.2-1.4.3-60.jar",
-        "fileName": "pneumaticcraft-repressurized-1.15.2-1.4.3-60.jar",
-        "fileDate": "2020-08-06T16:12:59.123Z",
-        "fileLength": 6262422,
+        "id": 3038436,
+        "displayName": "pneumaticcraft-repressurized-1.15.2-1.4.4-64.jar",
+        "fileName": "pneumaticcraft-repressurized-1.15.2-1.4.4-64.jar",
+        "fileDate": "2020-08-21T11:57:18.447Z",
+        "fileLength": 6269688,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3025/146/pneumaticcraft-repressurized-1.15.2-1.4.3-60.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3038/436/pneumaticcraft-repressurized-1.15.2-1.4.4-64.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -9832,12 +9839,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1284023751,
+            "fingerprint": 881396951,
             "type": 0
           },
           {
             "foldername": "me",
-            "fingerprint": 3181187815,
+            "fingerprint": 3499441569,
             "type": 0
           },
           {
@@ -9852,11 +9859,11 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 317376060,
+            "fingerprint": 488988387,
             "type": 0
           }
         ],
-        "packageFingerprint": 878891360,
+        "packageFingerprint": 1021281800,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -9870,12 +9877,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "pneumaticcraft-repressurized-1.15.2-1.4.3-60.jar"
+        "FileNameOnDisk": "pneumaticcraft-repressurized-1.15.2-1.4.4-64.jar"
       },
       "dateInstalled": "2020-06-02T20:42:27.2399628Z",
-      "dateUpdated": "2020-08-12T09:39:19.2710259Z",
-      "dateLastUpdateAttempted": "2020-08-12T09:39:19.2710259Z",
-      "status": 3,
+      "dateUpdated": "2020-08-24T15:43:22.0666411Z",
+      "dateLastUpdateAttempted": "2020-08-24T15:43:22.0666411Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14081,17 +14088,23 @@
       "addonID": 245211,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 2980534,
-        "displayName": "theoneprobe-1.15-2.0.4.jar",
-        "fileName": "theoneprobe-1.15-2.0.4.jar",
-        "fileDate": "2020-06-15T03:10:07.363Z",
-        "fileLength": 305567,
+        "id": 3040732,
+        "displayName": "TheOneProbe - 1.15-2.0.7",
+        "fileName": "theoneprobe-1.15-2.0.7.jar",
+        "fileDate": "2020-08-24T09:33:06.93Z",
+        "fileLength": 306949,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2980/534/theoneprobe-1.15-2.0.4.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3040/732/theoneprobe-1.15-2.0.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
+          {
+            "id": 0,
+            "addonId": 244651,
+            "type": 2,
+            "fileId": 0
+          },
           {
             "id": 0,
             "addonId": 227083,
@@ -14103,24 +14116,18 @@
             "addonId": 270789,
             "type": 2,
             "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 244651,
-            "type": 2,
-            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4070577422,
+            "fingerprint": 3401265245,
             "type": 0
           },
           {
             "foldername": "mcjty",
-            "fingerprint": 2321899864,
+            "fingerprint": 592929844,
             "type": 0
           },
           {
@@ -14139,7 +14146,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3741481556,
+        "packageFingerprint": 342668790,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -14153,12 +14160,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "theoneprobe-1.15-2.0.4.jar"
+        "FileNameOnDisk": "theoneprobe-1.15-2.0.7.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3095042Z",
-      "dateUpdated": "2020-06-25T19:41:24.6279607Z",
-      "dateLastUpdateAttempted": "2020-06-25T19:41:24.6279607Z",
-      "status": 3,
+      "dateUpdated": "2020-08-24T15:45:47.7503511Z",
+      "dateLastUpdateAttempted": "2020-08-24T15:45:47.7503511Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14631,6 +14638,82 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 402772,
+      "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
+      "installedFile": {
+        "id": 3034681,
+        "displayName": "clojurelib-1.10.0_0.0.1.jar",
+        "fileName": "clojurelib-1.10.0_0.0.1.jar",
+        "fileDate": "2020-08-17T03:31:42.55Z",
+        "fileLength": 4572642,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3034/681/clojurelib-1.10.0_0.0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 455664440,
+            "type": 0
+          },
+          {
+            "foldername": "eutros",
+            "fingerprint": 3797403070,
+            "type": 0
+          },
+          {
+            "foldername": "fabric.mod.json",
+            "fingerprint": 665856453,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3651949826,
+            "type": 0
+          },
+          {
+            "foldername": "clojure",
+            "fingerprint": 1820551017,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 4122825037,
+        "gameVersion": [
+          "1.16.1",
+          "1.15",
+          "1.16",
+          "1.15.2",
+          "1.15.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2006-12-11T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "clojurelib-1.10.0_0.0.1.jar"
+      },
+      "dateInstalled": "2020-08-24T15:44:54.3045414Z",
+      "dateUpdated": "2020-08-24T15:44:54.3085312Z",
+      "dateLastUpdateAttempted": "2020-08-24T15:44:54.3085312Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 228525,
@@ -21834,14 +21917,14 @@
       "addonID": 311595,
       "gameInstanceID": "eef7a6e4-260d-415a-9497-5bc6c5d15036",
       "installedFile": {
-        "id": 2961109,
-        "displayName": "simplybackpacks-1.15.2-1.4.6.jar",
-        "fileName": "simplybackpacks-1.15.2-1.4.6.jar",
-        "fileDate": "2020-05-19T22:34:00.7Z",
-        "fileLength": 98007,
-        "releaseType": 2,
+        "id": 3040255,
+        "displayName": "simplybackpacks-1.15.2-1.4.11.jar",
+        "fileName": "simplybackpacks-1.15.2-1.4.11.jar",
+        "fileDate": "2020-08-23T18:52:57.48Z",
+        "fileLength": 98160,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2961/109/simplybackpacks-1.15.2-1.4.6.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3040/255/simplybackpacks-1.15.2-1.4.11.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -21849,17 +21932,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1044809368,
+            "fingerprint": 3910659295,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2211885240,
+            "fingerprint": 3914948872,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 919363421,
+            "fingerprint": 524648541,
             "type": 0
           },
           {
@@ -21878,7 +21961,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3228497514,
+        "packageFingerprint": 2581397262,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -21892,12 +21975,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "simplybackpacks-1.15.2-1.4.6.jar"
+        "FileNameOnDisk": "simplybackpacks-1.15.2-1.4.11.jar"
       },
       "dateInstalled": "2020-05-09T13:11:27.3115248Z",
-      "dateUpdated": "2020-06-02T15:19:42.204102Z",
-      "dateLastUpdateAttempted": "2020-06-02T15:19:42.204102Z",
-      "status": 3,
+      "dateUpdated": "2020-08-24T15:44:20.6314601Z",
+      "dateLastUpdateAttempted": "2020-08-24T15:44:20.6314601Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22498,8 +22581,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "engineersdecor-1.15.2-1.1.2.jar"
       },
-      "dateInstalled": "2020-08-24T15:05:05.6171938Z",
-      "dateUpdated": "2019-08-24T15:05:05.6171938Z",
+      "dateInstalled": "2020-08-24T15:41:44.1868361Z",
+      "dateUpdated": "2019-08-24T15:41:44.1868361Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
