@@ -388,7 +388,7 @@
 		},
 		{
 			x: -14.5d,
-			y: 17.5d,
+			y: 18.5d,
 			id: 1493,
 			tasks: [{
 				id: 1494,
@@ -404,7 +404,7 @@
 		},
 		{
 			x: -13.0d,
-			y: 17.5d,
+			y: 18.5d,
 			dependencies: [I;1493],
 			id: 1495,
 			tasks: [
@@ -570,7 +570,7 @@
 		},
 		{
 			x: -14.5d,
-			y: 16.5d,
+			y: 17.5d,
 			id: 1525,
 			tasks: [{
 				id: 1526,
@@ -586,7 +586,7 @@
 		},
 		{
 			x: -13.0d,
-			y: 16.5d,
+			y: 17.5d,
 			dependencies: [I;1525],
 			id: 1527,
 			tasks: [
@@ -2147,7 +2147,7 @@
 		},
 		{
 			x: -14.5d,
-			y: 18.5d,
+			y: 19.5d,
 			id: 1768,
 			tasks: [{
 				id: 1769,
@@ -2164,7 +2164,7 @@
 		},
 		{
 			x: -13.0d,
-			y: 18.5d,
+			y: 19.5d,
 			dependencies: [I;1768],
 			id: 1770,
 			tasks: [{
@@ -2175,7 +2175,7 @@
 		},
 		{
 			x: -14.5d,
-			y: 19.5d,
+			y: 20.5d,
 			id: 1772,
 			tasks: [{
 				id: 1773,
@@ -2192,7 +2192,7 @@
 		},
 		{
 			x: -13.0d,
-			y: 19.5d,
+			y: 20.5d,
 			dependencies: [I;1772],
 			id: 1774,
 			tasks: [{
@@ -5147,6 +5147,40 @@
 				type: "item",
 				item: "botania:life_essence"
 			}]
+		},
+		{
+			x: -14.5d,
+			y: 16.5d,
+			id: 3116,
+			tasks: [{
+				id: 3117,
+				type: "kill",
+				entity: "druidcraft:dreadfish",
+				value: 1
+			}],
+			rewards: [{
+				id: 3120,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -13.0d,
+			y: 16.5d,
+			dependencies: [I;3116],
+			id: 3118,
+			tasks: [
+				{
+					id: 3119,
+					type: "item",
+					item: "druidcraft:purple_soulfire"
+				},
+				{
+					id: 3121,
+					type: "item",
+					item: "minecraft:bone"
+				}
+			]
 		}
 	]
 }

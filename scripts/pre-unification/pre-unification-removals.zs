@@ -22,4 +22,8 @@ public function preUnificationRemovals() as void {
     }
 
     removeFurnaceRecipe(<item:minecraft:redstone>, false);
+    removeFurnaceRecipe(<item:powah:uraninite>, false);
+    removeRecipe(<item:powah:uraninite_raw>, true);
+    removeRecipe(<item:powah:uraninite_raw_poor>, true);
+    removeRecipe(<item:powah:uraninite_raw_dense>, true);
 }

@@ -1,0 +1,920 @@
+{
+	id: 1430,
+	filename: "mekanism",
+	order_index: 9,
+	title: "Mekanism",
+	icon: "mekanism:metallurgic_infuser",
+	always_invisible: 1,
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: 2692,
+			tasks: [{
+				id: 2693,
+				type: "item",
+				title: "Any forge:ores/osmium",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "forge:ores/osmium"
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: [I;2692],
+			id: 2694,
+			tasks: [{
+				id: 2695,
+				type: "item",
+				item: "mekanism:clump_osmium"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			dependencies: [I;2694],
+			id: 2696,
+			tasks: [{
+				id: 2697,
+				type: "item",
+				item: "mekanism:dirty_dust_osmium"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 1.5d,
+			dependencies: [I;2696],
+			id: 2698,
+			tasks: [{
+				id: 2699,
+				type: "item",
+				title: "Any forge:dusts/osmium",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "forge:dusts/osmium"
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			dependencies: [I;
+				2698,
+				2702
+			],
+			id: 2700,
+			tasks: [{
+				id: 2701,
+				type: "item",
+				title: "Any forge:ingots/osmium",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "forge:ingots/osmium"
+					}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			dependencies: [I;2694],
+			id: 2702,
+			tasks: [{
+				id: 2703,
+				type: "item",
+				title: "Any forge:nuggets/osmium",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "forge:nuggets/osmium"
+					}
+				}
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 0.0d,
+			dependencies: [I;
+				2700,
+				2706
+			],
+			id: 2704,
+			tasks: [{
+				id: 2705,
+				type: "item",
+				item: "mekanism:metallurgic_infuser"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.5d,
+			id: 2706,
+			tasks: [{
+				id: 2707,
+				type: "item",
+				item: "minecraft:furnace"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 0.0d,
+			dependencies: [I;2704],
+			id: 2708,
+			tasks: [{
+				id: 2709,
+				type: "item",
+				item: "mekanism:basic_control_circuit"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -1.5d,
+			dependencies: [I;2704],
+			id: 2710,
+			tasks: [{
+				id: 2711,
+				type: "item",
+				item: "mekanism:alloy_infused"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -3.0d,
+			dependencies: [I;2710],
+			id: 2712,
+			tasks: [{
+				id: 2713,
+				type: "item",
+				item: "mekanism:alloy_reinforced"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -4.5d,
+			dependencies: [I;2712],
+			id: 2714,
+			tasks: [{
+				id: 2715,
+				type: "item",
+				item: "mekanism:alloy_atomic"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -1.5d,
+			dependencies: [I;
+				2710,
+				2708
+			],
+			id: 2716,
+			tasks: [{
+				id: 2717,
+				type: "item",
+				item: "mekanism:advanced_control_circuit"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -3.0d,
+			dependencies: [I;
+				2712,
+				2716
+			],
+			id: 2718,
+			tasks: [{
+				id: 2719,
+				type: "item",
+				item: "mekanism:elite_control_circuit"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -4.5d,
+			dependencies: [I;
+				2718,
+				2714
+			],
+			id: 2720,
+			tasks: [{
+				id: 2721,
+				type: "item",
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 1.5d,
+			dependencies: [I;2704],
+			id: 2722,
+			tasks: [{
+				id: 2723,
+				type: "item",
+				item: "mekanism:dust_refined_obsidian"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 3.0d,
+			dependencies: [I;2734],
+			id: 2724,
+			tasks: [{
+				id: 2725,
+				type: "item",
+				item: "mekanism:ingot_refined_glowstone"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 4.5d,
+			dependencies: [I;2728],
+			id: 2726,
+			tasks: [{
+				id: 2727,
+				type: "item",
+				item: "mekanism:steel_casing"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 3.0d,
+			dependencies: [I;2732],
+			id: 2728,
+			tasks: [{
+				id: 2729,
+				type: "item",
+				title: "Any forge:ingots/steel",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 1.5d,
+			dependencies: [I;2704],
+			id: 2730,
+			tasks: [{
+				id: 2731,
+				type: "item",
+				item: "mekanism:enriched_iron"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 3.0d,
+			dependencies: [I;2730],
+			id: 2732,
+			tasks: [{
+				id: 2733,
+				type: "item",
+				title: "Any forge:dusts/steel",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "forge:dusts/steel"
+					}
+				}
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 3.0d,
+			dependencies: [I;2726],
+			id: 2734,
+			tasks: [{
+				id: 2735,
+				type: "item",
+				item: "mekanism:osmium_compressor"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 1.5d,
+			dependencies: [I;
+				2734,
+				2722
+			],
+			id: 2736,
+			tasks: [{
+				id: 2737,
+				type: "item",
+				item: "mekanism:ingot_refined_obsidian"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.0d,
+			id: 2740,
+			tasks: [{
+				id: 2741,
+				type: "item",
+				item: "mekanism:upgrade_speed"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 3.0d,
+			id: 2742,
+			tasks: [{
+				id: 2743,
+				type: "item",
+				item: "mekanism:upgrade_energy"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 4.5d,
+			id: 2744,
+			tasks: [{
+				id: 2745,
+				type: "item",
+				item: "mekanism:upgrade_anchor"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 4.5d,
+			id: 2746,
+			tasks: [{
+				id: 2747,
+				type: "item",
+				item: "mekanism:upgrade_filter"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 6.0d,
+			id: 2748,
+			tasks: [{
+				id: 2749,
+				type: "item",
+				item: "mekanism:upgrade_gas"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 6.0d,
+			id: 2750,
+			tasks: [{
+				id: 2752,
+				type: "item",
+				item: "mekanism:upgrade_muffling"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 0.0d,
+			dependencies: [I;2708],
+			id: 2753,
+			tasks: [{
+				id: 2754,
+				type: "item",
+				item: "mekanism:basic_tier_installer"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -1.5d,
+			dependencies: [I;2716],
+			id: 2755,
+			tasks: [{
+				id: 2756,
+				type: "item",
+				item: "mekanism:advanced_tier_installer"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -3.0d,
+			dependencies: [I;2718],
+			id: 2757,
+			tasks: [{
+				id: 2758,
+				type: "item",
+				item: "mekanism:elite_tier_installer"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -4.5d,
+			dependencies: [I;2720],
+			id: 2759,
+			tasks: [{
+				id: 2760,
+				type: "item",
+				item: "mekanism:ultimate_tier_installer"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 0.0d,
+			id: 2761,
+			tasks: [{
+				id: 2762,
+				type: "item",
+				item: "mekanism:basic_bin"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -1.5d,
+			dependencies: [I;
+				2761,
+				2755
+			],
+			id: 2763,
+			tasks: [{
+				id: 2764,
+				type: "item",
+				item: "mekanism:advanced_bin"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -3.0d,
+			dependencies: [I;
+				2763,
+				2757
+			],
+			id: 2765,
+			tasks: [{
+				id: 2766,
+				type: "item",
+				item: "mekanism:elite_bin"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -4.5d,
+			dependencies: [I;
+				2765,
+				2759
+			],
+			id: 2767,
+			tasks: [{
+				id: 2768,
+				type: "item",
+				item: "mekanism:ultimate_bin"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -6.0d,
+			dependencies: [I;2767],
+			id: 2769,
+			tasks: [{
+				id: 2770,
+				type: "item",
+				item: "mekanism:creative_bin"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -1.5d,
+			dependencies: [I;2710],
+			id: 2785,
+			tasks: [{
+				id: 2786,
+				type: "item",
+				item: "mekanism:energy_tablet"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			dependencies: [I;2785],
+			id: 2787,
+			tasks: [{
+				id: 2788,
+				type: "item",
+				item: "mekanism:basic_energy_cube"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -3.0d,
+			dependencies: [I;2787],
+			id: 2789,
+			tasks: [{
+				id: 2790,
+				type: "item",
+				item: "mekanism:advanced_energy_cube"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -4.5d,
+			dependencies: [I;2789],
+			id: 2791,
+			tasks: [{
+				id: 2792,
+				type: "item",
+				item: "mekanism:elite_energy_cube"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -6.0d,
+			dependencies: [I;2791],
+			id: 2793,
+			tasks: [{
+				id: 2794,
+				type: "item",
+				item: "mekanism:ultimate_energy_cube"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -7.5d,
+			dependencies: [I;2793],
+			id: 2795,
+			tasks: [{
+				id: 2796,
+				type: "item",
+				item: "mekanism:creative_energy_cube"
+			}]
+		},
+		{
+			x: 18.0d,
+			y: -4.5d,
+			id: 2797,
+			tasks: [{
+				id: 2798,
+				type: "item",
+				item: "mekanism:digital_miner"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 0.0d,
+			id: 2799,
+			tasks: [{
+				id: 2800,
+				type: "item",
+				item: "mekanism:basic_fluid_tank"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -1.5d,
+			dependencies: [I;2799],
+			id: 2801,
+			tasks: [{
+				id: 2802,
+				type: "item",
+				item: "mekanism:advanced_fluid_tank"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -3.0d,
+			dependencies: [I;2801],
+			id: 2803,
+			tasks: [{
+				id: 2804,
+				type: "item",
+				item: "mekanism:elite_fluid_tank"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -4.5d,
+			dependencies: [I;2803],
+			id: 2805,
+			tasks: [{
+				id: 2806,
+				type: "item",
+				item: "mekanism:ultimate_fluid_tank"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -6.0d,
+			dependencies: [I;2805],
+			id: 2807,
+			tasks: [{
+				id: 2808,
+				type: "item",
+				item: "mekanism:creative_fluid_tank"
+			}]
+		},
+		{
+			x: 16.5d,
+			y: -4.5d,
+			id: 2809,
+			tasks: [{
+				id: 2810,
+				type: "item",
+				item: "mekanism:quantum_entangloporter"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.5d,
+			id: 2811,
+			tasks: [{
+				id: 2812,
+				type: "item",
+				item: "mekanismgenerators:solar_generator"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -3.0d,
+			dependencies: [I;2811],
+			id: 2813,
+			tasks: [{
+				id: 2814,
+				type: "item",
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -1.5d,
+			id: 2815,
+			tasks: [{
+				id: 2816,
+				type: "item",
+				item: "mekanismgenerators:heat_generator"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			id: 2817,
+			tasks: [{
+				id: 2818,
+				type: "item",
+				item: "mekanismgenerators:bio_generator"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -1.5d,
+			id: 2819,
+			tasks: [{
+				id: 2820,
+				type: "item",
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -1.5d,
+			id: 2821,
+			tasks: [{
+				id: 2822,
+				type: "item",
+				item: "mekanismgenerators:wind_generator"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: 0.0d,
+			id: 2823,
+			tasks: [{
+				id: 2824,
+				type: "item",
+				item: "mekanism:basic_gas_tank"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: -1.5d,
+			dependencies: [I;2823],
+			id: 2825,
+			tasks: [{
+				id: 2826,
+				type: "item",
+				item: "mekanism:advanced_gas_tank"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: -3.0d,
+			dependencies: [I;2825],
+			id: 2827,
+			tasks: [{
+				id: 2828,
+				type: "item",
+				item: "mekanism:elite_gas_tank"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: -4.5d,
+			dependencies: [I;2827],
+			id: 2829,
+			tasks: [{
+				id: 2830,
+				type: "item",
+				item: "mekanism:ultimate_gas_tank"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: -6.0d,
+			dependencies: [I;2829],
+			id: 2831,
+			tasks: [{
+				id: 2832,
+				type: "item",
+				item: "mekanism:creative_gas_tank"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 4.5d,
+			id: 2833,
+			tasks: [{
+				id: 2834,
+				type: "item",
+				item: "mekanism:chemical_crystallizer"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: 4.5d,
+			id: 2835,
+			tasks: [{
+				id: 2836,
+				type: "item",
+				item: "mekanism:chemical_washer"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 6.0d,
+			id: 2837,
+			tasks: [{
+				id: 2838,
+				type: "item",
+				item: "mekanism:electrolytic_separator"
+			}]
+		},
+		{
+			x: 16.5d,
+			y: 4.5d,
+			id: 2839,
+			tasks: [{
+				id: 2840,
+				type: "item",
+				item: "mekanism:rotary_condensentrator"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: 7.5d,
+			id: 2841,
+			tasks: [{
+				id: 2842,
+				type: "item",
+				item: "mekanism:chemical_oxidizer"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: 7.5d,
+			id: 2843,
+			tasks: [{
+				id: 2844,
+				type: "item",
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+		},
+		{
+			x: 16.5d,
+			y: 7.5d,
+			id: 2845,
+			tasks: [{
+				id: 2846,
+				type: "item",
+				item: "mekanism:chemical_infuser"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 6.0d,
+			dependencies: [I;2726],
+			id: 2855,
+			tasks: [{
+				id: 2856,
+				type: "item",
+				item: "mekanism:enrichment_chamber"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 6.0d,
+			dependencies: [I;2726],
+			id: 2857,
+			tasks: [{
+				id: 2858,
+				type: "item",
+				item: "mekanism:precision_sawmill"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 4.5d,
+			dependencies: [I;2726],
+			id: 2859,
+			tasks: [{
+				id: 2860,
+				type: "item",
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 6.0d,
+			dependencies: [I;2726],
+			id: 2861,
+			tasks: [{
+				id: 2862,
+				type: "item",
+				item: "mekanism:purification_chamber"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 3.0d,
+			dependencies: [I;2726],
+			id: 2863,
+			tasks: [{
+				id: 2864,
+				type: "item",
+				item: "mekanism:combiner"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 6.0d,
+			dependencies: [I;2726],
+			id: 2865,
+			tasks: [{
+				id: 2866,
+				type: "item",
+				item: "mekanism:crusher"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 4.5d,
+			dependencies: [I;2726],
+			id: 2867,
+			tasks: [{
+				id: 2868,
+				type: "item",
+				item: "mekanism:energized_smelter"
+			}]
+		},
+		{
+			x: 16.5d,
+			y: 6.0d,
+			id: 2869,
+			tasks: [{
+				id: 2870,
+				type: "item",
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -3.0d,
+			id: 2871,
+			tasks: [{
+				id: 2872,
+				type: "item",
+				item: "mekanism:resistive_heater"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.0d,
+			id: 2873,
+			tasks: [{
+				id: 2874,
+				type: "item",
+				item: "mekanism:fuelwood_heater"
+			}]
+		}
+	]
+}
