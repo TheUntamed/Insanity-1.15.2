@@ -6,7 +6,7 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 
 public function processingUnification() as void {
-    logger.info("Prio Test: processing-functions!");
+    // logger.info("Prio Test: processing-functions!");
     var materials = getMaterials();
     for material in materials {
         minecraft_crafting_table(material);

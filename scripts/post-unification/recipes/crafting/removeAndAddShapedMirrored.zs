@@ -4,7 +4,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
 public function removeAndAddShapedMirroredRecipes() as void {
-    logger.info("Prio Test: remove-and-add-shaped-mirrored");
+    // logger.info("Prio Test: remove-and-add-shaped-mirrored");
 
     var shapedMirroredRecipes as IIngredient[][][IItemStack] = {
 

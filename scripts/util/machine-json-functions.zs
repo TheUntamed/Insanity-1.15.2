@@ -6,7 +6,7 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 import mods.jei.JEI;
 
-logger.info("Prio Test: crushing-functions!");
+// logger.info("Prio Test: crushing-functions!");
 
 public function atumSpinning(name as string, input as string, output as string, outputCount as int) as void {
     <recipetype:atum:spinning_wheel>.addJSONRecipe(name,

@@ -8,7 +8,7 @@ import mods.jei.JEI;
 
 public function preUnificationRemovals() as void {
 
-    logger.info("Prio Test: pre-unification-removals");
+    // logger.info("Prio Test: pre-unification-removals");
 
     <recipetype:mekanism:combining>.removeAll();
     blastFurnace.removeAll();

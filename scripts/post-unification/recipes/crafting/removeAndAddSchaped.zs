@@ -4,7 +4,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
 public function removeandAddShapedRecipes() as void {
-    logger.info("Prio Test: remove-and-add-shaped");
+    // logger.info("Prio Test: remove-and-add-shaped");
 
     var to_blast_furnace = <item:minecraft:furnace> | <item:brickfurnace:brick_blast_furnace>;
     var to_smoker = <item:minecraft:furnace> | <item:brickfurnace:brick_furnace>;

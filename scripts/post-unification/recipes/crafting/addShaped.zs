@@ -4,7 +4,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
 public function addShapedRecipes() as void {
-    logger.info("Prio Test: add-shaped");
+    // logger.deb("Prio Test: add-shaped");
 
     var shapedRecipes as IIngredient[][][IItemStack] = {
         

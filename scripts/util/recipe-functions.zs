@@ -7,7 +7,7 @@ import mods.jei.JEI;
 
 // Add Recipe
 
-logger.info("Prio Test: recipe-functions!");
+// logger.info("Prio Test: recipe-functions!");
 
 public function addShaped(output as IItemStack, input as IIngredient[][], removeOriginalRecipe as bool) as void {
 	var recipeName = formatRecipeName(output);

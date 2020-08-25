@@ -1,7 +1,7 @@
 {
 	id: 2,
 	filename: "innocentnewworld",
-	order_index: 22,
+	order_index: 21,
 	title: "Innocent new World",
 	icon: "minecraft:grass_block",
 	always_invisible: 1,
@@ -481,8 +481,7 @@
 			id: 962,
 			tasks: [{
 				id: 963,
-				type: "item",
-				item: "vanillathings:lamp_table"
+				type: "item"
 			}]
 		},
 		{

@@ -2,7 +2,7 @@
 
 public function preUnificationTagAdditions() as void {
 
-    logger.info("Prio Test: pre-unification-tag-additions");
+    // logger.info("Prio Test: pre-unification-tag-additions");
 
     // Mekanism
     <tag:mekanism:dirty_dusts>.addItems([<item:kubejs:dirty_dust_redstone>]);
@@ -191,5 +191,5 @@ public function preUnificationTagAdditions() as void {
     <tag:forge:smoker>.addItems([<item:minecraft:smoker>, <item:brickfurnace:brick_smoker>]);
     <tag:forge:saw>.addItems([<item:natural-progression:basic_saw>, <item:natural-progression:improved_saw>]);
 
-    <tag:forge:wg_stone>.addBlocks([<blockstate:create:scoria>.block]);
+    // <tag:forge:wg_stone>.addBlocks([<blockstate:create:scoria>.block]);
 }

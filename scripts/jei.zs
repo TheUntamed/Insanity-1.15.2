@@ -5,7 +5,7 @@ import crafttweaker.api.item.IIngredient;
 import mods.jei.JEI;
 
 public function jei() as void {
-	logger.info("Prio Test: jei!");
+	// logger.info("Prio Test: jei!");
 
 	for item in <tag:forge:disabled>.items {
 		addInfoAndHideItem(item);

@@ -1,6 +1,6 @@
 #priority 0
 
-logger.info("Prio Test: main");
+// logger.info("Prio Test: main");
 
 preUnificationRemovals();
 preUnificationTagRemovals();

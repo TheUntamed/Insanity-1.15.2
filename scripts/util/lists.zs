@@ -5,7 +5,7 @@ import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 
-logger.info("Prio Test: lists");
+// logger.info("Prio Test: lists");
 
 public function getMaterials() as string[] {
     var materials as string[] = [

@@ -2,7 +2,7 @@
 
 public function postUnificationTagRemovals() as void {
 
-    logger.info("Prio Test: post-unification-tag-removals");
+    // logger.info("Prio Test: post-unification-tag-removals");
 
     // Dye tag cleanup
     for item in <tag:forge:dyes>.items {
@@ -156,7 +156,6 @@ public function postUnificationTagRemovals() as void {
     <tag:forge:dusts/lapis_lazuli>.removeItems([<item:mekanism:dust_lapis_lazuli>]);
 
     // Others
-    <tag:forge:wg_stone>.removeBlocks([<blockstate:create:natural_scoria>.block]);
 
 
     // Omegacraft

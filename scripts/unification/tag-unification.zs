@@ -6,7 +6,7 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 
 public function tagUnification() as void {
-    logger.info("Prio Test: tag-unification");
+    // logger.info("Prio Test: tag-unification");
     var materials = getMaterials();
     var forms = getForms();
     var modPriorities = getModPriorities();

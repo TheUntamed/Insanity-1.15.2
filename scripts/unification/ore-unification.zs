@@ -6,7 +6,7 @@ import crafttweaker.api.tag.MCTag;
 
 public function oreUnification() as void {
     //<tag:forge:disabled>.createItemTag();
-    logger.info("Prio Test: ore-unification!");
+    // logger.info("Prio Test: ore-unification!");
 
     var materials as MCTag[] = [
 

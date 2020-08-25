@@ -2,7 +2,7 @@
 
 public function postUnificationTagAdditions() as void {
 
-    logger.info("Prio Test: post-unification-tag-additions");
+    // logger.info("Prio Test: post-unification-tag-additions");
 
     <tag:forge:storage_blocks/dark_quartz>.addItems([<item:botania:dark_quartz_pillar>, <item:botania:chiseled_dark_quartz>]);
     <tag:forge:storage_blocks/mana_quartz>.addItems([<item:botania:mana_quartz_pillar>, <item:botania:chiseled_mana_quartz>]);

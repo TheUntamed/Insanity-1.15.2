@@ -6,7 +6,7 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 import mods.jei.JEI;
 
-logger.info("Prio Test: unification-functions!");
+// logger.info("Prio Test: unification-functions!");
 
 // Clean Item Tags
 public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) as IItemStack {

@@ -4,7 +4,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
 public function removeAndAddShapelessRecipes() as void {
-    logger.info("Prio Test: remove-and-add-shapeless");
+    // logger.info("Prio Test: remove-and-add-shapeless");
 
     var shapelessRecipesWithRemove as IIngredient[][IItemStack] = {
 

@@ -8,7 +8,7 @@ import mods.jei.JEI;
 import crafttweaker.api.util.text.MCTextComponent;
 import crafttweaker.api.util.text.MCStyle;
 
-logger.info("Prio Test: util-functions!");
+// logger.info("Prio Test: util-functions!");
 
 public function formatRecipeName(item as IItemStack) as string {
 	return item.translationKey + "_" + item.amount;

@@ -2,7 +2,7 @@
 
 public function preUnificationTagRemovals() as void {
 
-    logger.info("Prio Test: pre-unification-tag-removals");
+    // logger.info("Prio Test: pre-unification-tag-removals");
 
     <tag:forge:dusts>.removeItems([<item:silents_mechanisms:iron_chunks>, <item:silents_mechanisms:gold_chunks>, <item:silents_mechanisms:copper_chunks>, <item:silents_mechanisms:tin_chunks>, <item:silents_mechanisms:silver_chunks>, <item:silents_mechanisms:lead_chunks>, <item:silents_mechanisms:nickel_chunks>, <item:silents_mechanisms:platinum_chunks>, <item:silents_mechanisms:zinc_chunks>, <item:silents_mechanisms:uranium_chunks>, <item:silents_mechanisms:bauxite_chunks>, <item:silents_mechanisms:bismuth_chunks>]);
     <tag:forge:dusts/iron>.removeItems([<item:silents_mechanisms:iron_chunks>]);
@@ -22,4 +22,6 @@ public function preUnificationTagRemovals() as void {
     <tag:forge:storage_blocks/quartz>.removeItems([<item:botania:dark_quartz>, <item:botania:mana_quartz>, <item:botania:blaze_quartz>, <item:botania:lavender_quartz>, <item:botania:red_quartz>, <item:botania:elf_quartz>, <item:botania:sunny_quartz>]);
     
     <tag:forge:chests/ender>.removeItems([<item:minecraft:ender_chest>]);
+
+    // <tag:forge:wg_stone>.removeBlocks([<blockstate:create:natural_scoria>.block]);
 }
