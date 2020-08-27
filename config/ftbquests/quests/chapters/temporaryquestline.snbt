@@ -573,6 +573,32 @@
 				title: "Ouch! That hurts!",
 				icon: "botania:cosmetic_questgiver_mark"
 			}]
+		},
+		{
+			title: "Temporary Rejoin Problem!",
+			icon: "botania:cosmetic_questgiver_mark",
+			x: -4.0d,
+			y: -8.0d,
+			description: [
+				"If you are playing on a singleplayer world and you leave it and rejoin without restarting the pack, scripts are broken and the game will probably start to lag.",
+				"I'm very sorry for this, but until I found the mod that causes this problem you have to restart the pack if you want to rejoin your world.",
+				" ",
+				"How can I check if scripts are working properly?",
+				"You can for example check the recipe of Chests. If there is a iron button in the middle of the 8 planks, scripts are working just fine."
+			],
+			id: 4819,
+			tasks: [
+				{
+					id: 4820,
+					type: "checkmark",
+					icon: "botania:cosmetic_questgiver_mark"
+				},
+				{
+					id: 4821,
+					type: "item",
+					item: "minecraft:chest"
+				}
+			]
 		}
 	]
 }

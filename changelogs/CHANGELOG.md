@@ -1,6 +1,12 @@
 !nsanity 0.4.1
 --------------
 
+info: For an unknown reason rejoining a singleplayer world without restarting the pack will cause the scripts to break and the game will start to lag!
+Until I found the mod(s) that causes this problem I fear that you have to restart the pack if you want to leave and rejoin your world.
+
+How can I check if the scripts are broken?
+You can for example check the recipe for chests. If there is a iron button in the middle of the 8 planks, scripts just work fine.
+
 Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 
 **Added Mods**
@@ -18,7 +24,7 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 * *Botania* (r1.15-387 --> r1.15-388)
 * *Brick Furnace* (1.3.0 --> 1.4.0)
 * *Building Gadgets* (3.3.5 --> 3.4.0)
-* *Clumps* (5.0.2.4 --> 5.0.2.5)
+* *Clumps* (5.0.2.4 --> 5.0.2.6)
 * *Collective* (1.35 --> 1.39)
 * *CraftTweaker* (6.0.0.34 --> 6.0.0.40)
 * *Curios API* (2.0.2.4 --> 2.0.2.6)
@@ -36,6 +42,7 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 * *Extended Crafting* (2.0.5 --> 2.0.6)
 * *Extreme sound muffler* (1.2.3 --> 2.0.1)
 * *Forbidden and Arcanus* (1.4 --> 1.5)
+* *FPS Reducer* (1.17 --> 1.18)
 * *Immersive Engineering* (0.15-108 --> 3.2.0-114)
 * *Interactio* (2.0.3 --> 2.0.6)
 * *JAOPCA* (3.2.0.13 --> 3.2.0.14)
@@ -43,7 +50,7 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 * *KubeJS* (2.7.1.8 --> 2.7.1.15)
 * *Light Overlay (Rift/Forge/Fabric)* (4.7.0 --> 4.7.1)
 * *Lollipop* (1.0.15 --> 1.0.16)
-* *McJtyLib* (4.1.3-beta --> 4.1.5)
+* *McJtyLib* (4.1.3-beta --> 4.1.7)
 * *MineColonies* (0.10.771 --> 0.13.81)
 * *Modular Routers* (6.1.1-19 --> 6.1.2-28)
 * *Mystical Adaptations* (1.2.1 --> 1.2.3)
@@ -54,11 +61,11 @@ Forge 1.15.2-31.2.31 --> 1.15.2-31.2.33
 * *PneumaticCraft: Repressurized* (1.4.1-56 --> 1.4.4-64)
 * *Powah!* (1.1.14 --> 1.1.15)
 * *RandomPatches* (1.22.1.0 --> 1.22.1.1)
-* *RFTools Base* (1.1.3 --> 1.1.4)
-* *RFTools Builder* (2.1.5 --> 2.1.6)
-* *RFTools Power* (2.2.0 --> 2.2.2)
-* *RFTools Storage* (1.1.6 --> 1.1.7)
-* *RFTools Utility* (2.1.5 --> 2.1.7)
+* *RFTools Base* (1.1.3 --> 1.1.6)
+* *RFTools Builder* (2.1.5 --> 2.1.8)
+* *RFTools Power* (2.2.0 --> 2.2.4)
+* *RFTools Storage* (1.1.6 --> 1.1.9)
+* *RFTools Utility* (2.1.5 --> 2.1.9)
 * *ShetiPhianCore* (3.7.2 --> 3.7.4)
 * *Simply Backpacks* (1.4.6 --> 1.4.11)
 * *Solar Flux Reborn* (15.0.0 --> 15.2.3)
