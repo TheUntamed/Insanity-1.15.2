@@ -1,3 +1,51 @@
+
+!nsanity 0.5.0
+--------------
+
+**Added Mods**
+
+* *Extended Nether* (1.16 backport)
+* *Nether Update Backport*
+* *NetherEx*
+
+**Updated Mods**
+
+* ** ( --> )
+* *Atum 2: Return to the Sands* (2.1.4 --> 2.1.6)
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* *TerraForged* (0.1.1 --> 0.1.2)
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+* ** ( --> )
+
+**Removed Mods**
+
+* 
+
+**Changes**
+
+* Disabled Soulstone and Basalt Bone Ore and enabled the corresponding Withered Bone Ores.
+
+**Bug Fixes**
+
+* 
+
 !nsanity 0.4.1
 --------------
 

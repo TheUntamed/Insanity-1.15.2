@@ -1,0 +1,24 @@
+
+#Effect configuration settings
+[effect]
+
+	#Infested effect configuration settings
+	[effect.infested]
+		#The chance that a Spore will spawn.
+		#Range: > 1
+		sporeSpawnChance = 128
+		#Whether or not players can be spawn spores when they have the Infested effect.
+		canPlayersSpawnSpores = false
+		#Entities that shouldn't spawn spores when they have the Infested effect.
+		entityBlacklist = ["netherex:spore", "netherex:spore_creeper", "netherex:mogus"]
+
+	#Frozen effect configuration settings
+	[effect.frozen]
+		#The chance that a frozen entity will thaw.
+		#Range: > 1
+		thawChance = 1024
+		#Entities that shouldn't freeze when they have the Frozen effect.
+		entityBlacklist = ["netherex:wight", "netherex:coolmar_spider"]
+		#Whether or not players can be frozen when they have the Frozen effect.
+		canPlayersFreeze = false
+

@@ -1,0 +1,11 @@
+
+#Block configuration settings
+[block]
+
+	#Rime configuration settings
+	[block.rime]
+		#Whether or not rime can freeze entities.
+		canFreezeLava = true
+		#Whether or not rime can freeze water.
+		canFreezeWater = true
+

@@ -1,0 +1,22 @@
+
+#Entity configuration settings
+[entity]
+
+	#Spinout configuration settings
+	[entity.spinout]
+		#The number of seconds a spin will last.
+		#Range: > 1
+		spinTime = 6
+		#The number of seconds between each spin.
+		#Range: > 1
+		spinCooldown = 2
+
+	#Spore configuration settings
+	[entity.spore]
+		#The number of Spore Creepers that can be hatched.
+		#Range: > 1
+		hatchAmount = 3
+		#The number of seconds it takes to grown into the next stage.
+		#Range: > 1
+		growthTime = 60
+
