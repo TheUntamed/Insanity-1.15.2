@@ -63,7 +63,7 @@
 				#If true, the (Embellishcraft) Slate variant of all normal ores will be disabled.
 				slate = true
 
-			#Atum stone variants. Atum 2 has to be installed for the ores to generate at all.
+			#Atum 2 stone variants. Atum 2 has to be installed for the ores to generate at all.
 			[general.normal.stoneVariants.atum]
 				#If true, the (Atum 2) Strange Sand variant of all normal ores will be disabled.
 				sand = true
@@ -115,6 +115,21 @@
 			[general.normal.stoneVariants.nethercraft]
 				#If true, the (Nethercraft) Heat Sand variant of all normal ores will be disabled.
 				heat_sand = true
+
+			#Nether Ex stone variants. Nether Ex has to be installed for the ores to generate at all.
+			[general.normal.stoneVariants.netherex]
+				#If true, the (Nether Ex) Basalt variant of all normal ores will be disabled.
+				basalt = false
+				#If true, the (Nether Ex) Icy Netherrack variant of all normal ores will be disabled.
+				icy_netherrack = false
+				#If true, the (Nether Ex) Lively Netherrack variant of all normal ores will be disabled.
+				lively_netherrack = false
+				#If true, the (Nether Ex) Frostburn Ice variant of all normal ores will be disabled.
+				frostburn_ice = false
+				#If true, the (Nether Ex) Fiery Netherrack variant of all normal ores will be disabled.
+				fiery_netherrack = false
+				#If true, the (Nether Ex) Gloomy Netherrack variant of all normal ores will be disabled.
+				gloomy_netherrack = false
 
 			#Mystical Agriculture stone variants. Mystical Agriculture has to be installed for the ores to generate at all.
 			[general.normal.stoneVariants.mysticalagriculture]
@@ -233,6 +248,21 @@
 				#If true, the (Nethercraft) Heat Sand variant of all poor ores will be disabled.
 				heat_sand = false
 
+			#Nether Ex stone variants. Nether Ex has to be installed for the ores to generate at all.
+			[general.poor.stoneVariants.netherex]
+				#If true, the (Nether Ex) Basalt variant of all poor ores will be disabled.
+				basalt = false
+				#If true, the (Nether Ex) Icy Netherrack variant of all poor ores will be disabled.
+				icy_netherrack = false
+				#If true, the (Nether Ex) Lively Netherrack variant of all poor ores will be disabled.
+				lively_netherrack = false
+				#If true, the (Nether Ex) Frostburn Ice variant of all poor ores will be disabled.
+				frostburn_ice = false
+				#If true, the (Nether Ex) Fiery Netherrack variant of all poor ores will be disabled.
+				fiery_netherrack = false
+				#If true, the (Nether Ex) Gloomy Netherrack variant of all poor ores will be disabled.
+				gloomy_netherrack = false
+
 			#Mystical Agriculture stone variants. Mystical Agriculture has to be installed for the ores to generate at all.
 			[general.poor.stoneVariants.mysticalagriculture]
 				#If true, the (Mystical Agriculture) Soulstone variant of all poor ores will be disabled.
@@ -317,7 +347,7 @@
 				#If true, the (Embellishcraft) Slate variant of all dense ores will be disabled.
 				slate = false
 
-			#Atum stone variants. Atum 2 has to be installed for the ores to generate at all.
+			#Atum 2 stone variants. Atum 2 has to be installed for the ores to generate at all.
 			[general.dense.stoneVariants.atum]
 				#If true, the (Atum 2) Strange Sand variant of all dense ores will be disabled.
 				sand = false
@@ -369,6 +399,21 @@
 			[general.dense.stoneVariants.nethercraft]
 				#If true, the (Nethercraft) Heat Sand variant of all dense ores will be disabled.
 				heat_sand = false
+
+			#Nether Ex stone variants. Nether Ex has to be installed for the ores to generate at all.
+			[general.dense.stoneVariants.netherex]
+				#If true, the (Nether Ex) Basalt variant of all dense ores will be disabled.
+				basalt = false
+				#If true, the (Nether Ex) Icy Netherrack variant of all dense ores will be disabled.
+				icy_netherrack = false
+				#If true, the (Nether Ex) Lively Netherrack variant of all dense ores will be disabled.
+				lively_netherrack = false
+				#If true, the (Nether Ex) Frostburn Ice variant of all dense ores will be disabled.
+				frostburn_ice = false
+				#If true, the (Nether Ex) Fiery Netherrack variant of all dense ores will be disabled.
+				fiery_netherrack = false
+				#If true, the (Nether Ex) Gloomy Netherrack variant of all dense ores will be disabled.
+				gloomy_netherrack = false
 
 			#Mystical Agriculture stone variants. Mystical Agriculture has to be installed for the ores to generate at all.
 			[general.dense.stoneVariants.mysticalagriculture]

@@ -1,0 +1,1728 @@
+{
+	id: 4863,
+	filename: "lycanites",
+	order_index: 3,
+	title: "Lycanites",
+	icon: "lycanitesmobs:demoncrystal",
+	quests: [
+		{
+			x: -3.0d,
+			y: 0.5d,
+			subtitle: "Default key to open Beastiary: g",
+			id: 4864,
+			tasks: [{
+				id: 4865,
+				type: "checkmark",
+				icon: "botania:cosmetic_questgiver_mark"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.5d,
+			id: 4866,
+			tasks: [{
+				id: 4867,
+				type: "item",
+				item: "lycanitesmobs:equipmentforge_lesser"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.5d,
+			dependencies: [I;4866],
+			id: 4868,
+			tasks: [{
+				id: 4869,
+				type: "item",
+				item: "lycanitesmobs:equipmentforge_greater"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.5d,
+			dependencies: [I;4868],
+			id: 4870,
+			tasks: [{
+				id: 4871,
+				type: "item",
+				item: "lycanitesmobs:equipmentforge_master"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			dependencies: [I;4874],
+			id: 4872,
+			tasks: [{
+				id: 4873,
+				type: "item",
+				item: "lycanitesmobs:demonstone"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.0d,
+			id: 4874,
+			tasks: [{
+				id: 4875,
+				type: "item",
+				item: "minecraft:nether_wart"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.5d,
+			dependencies: [I;4878],
+			id: 4876,
+			tasks: [{
+				id: 4877,
+				type: "item",
+				item: "lycanitesmobs:lushstone"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 3.5d,
+			id: 4878,
+			tasks: [{
+				id: 4879,
+				type: "item",
+				item: "minecraft:grass"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 5.0d,
+			dependencies: [I;4882],
+			id: 4880,
+			tasks: [{
+				id: 4881,
+				type: "item",
+				item: "lycanitesmobs:desertstone"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 5.0d,
+			id: 4882,
+			tasks: [{
+				id: 4883,
+				type: "item",
+				item: "minecraft:sandstone"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 6.5d,
+			dependencies: [I;4886],
+			id: 4884,
+			tasks: [{
+				id: 4885,
+				type: "item",
+				item: "lycanitesmobs:aberrantstone"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 7.0d,
+			id: 4886,
+			tasks: [{
+				id: 4887,
+				type: "item",
+				item: "minecraft:obsidian"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 8.0d,
+			dependencies: [I;4886],
+			id: 4888,
+			tasks: [{
+				id: 4889,
+				type: "item",
+				item: "lycanitesmobs:shadowstone"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 6.0d,
+			dependencies: [I;
+				4900,
+				4884
+			],
+			id: 4890,
+			tasks: [{
+				id: 4891,
+				type: "item",
+				item: "lycanitesmobs:aberrantcrystal"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 4.5d,
+			dependencies: [I;
+				4900,
+				4880
+			],
+			id: 4892,
+			tasks: [{
+				id: 4893,
+				type: "item",
+				item: "lycanitesmobs:desertcrystal"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.0d,
+			dependencies: [I;
+				4900,
+				4876
+			],
+			id: 4894,
+			tasks: [{
+				id: 4895,
+				type: "item",
+				item: "lycanitesmobs:lushcrystal"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 7.5d,
+			dependencies: [I;
+				4900,
+				4888
+			],
+			id: 4896,
+			tasks: [{
+				id: 4897,
+				type: "item",
+				item: "lycanitesmobs:shadowcrystal"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			dependencies: [I;
+				4900,
+				4872
+			],
+			id: 4898,
+			tasks: [{
+				id: 4899,
+				type: "item",
+				item: "lycanitesmobs:demoncrystal"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 4.5d,
+			id: 4900,
+			tasks: [{
+				id: 4901,
+				type: "item",
+				item: "minecraft:glowstone"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 2.5d,
+			dependencies: [I;4872],
+			id: 4902,
+			tasks: [{
+				id: 4903,
+				type: "item",
+				item: "lycanitesmobs:soulcubedemonic"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 7.0d,
+			dependencies: [I;4884],
+			id: 4904,
+			tasks: [{
+				id: 4905,
+				type: "item",
+				item: "lycanitesmobs:soulcubeaberrant"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 8.5d,
+			dependencies: [I;4888],
+			id: 4906,
+			tasks: [{
+				id: 4907,
+				type: "item",
+				item: "lycanitesmobs:soulcubeundead"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.0d,
+			dependencies: [I;4866],
+			id: 4908,
+			tasks: [{
+				id: 4909,
+				type: "item",
+				item: "lycanitesmobs:equipment_infuser"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			dependencies: [I;
+				4912,
+				4914
+			],
+			id: 4910,
+			tasks: [{
+				id: 4911,
+				type: "item",
+				item: "lycanitesmobs:summoningpedestal"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -4.0d,
+			id: 4912,
+			tasks: [{
+				id: 4913,
+				type: "item",
+				item: "lycanitesmobs:soulgazer"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -5.5d,
+			dependencies: [I;4912],
+			id: 4914,
+			tasks: [{
+				id: 4915,
+				type: "item",
+				item: "lycanitesmobs:soulstone"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -5.5d,
+			dependencies: [I;4912],
+			id: 4916,
+			tasks: [{
+				id: 4917,
+				type: "item",
+				item: "lycanitesmobs:soulkey"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -7.0d,
+			dependencies: [I;4916],
+			id: 4918,
+			tasks: [{
+				id: 4919,
+				type: "item",
+				item: "lycanitesmobs:soulkeyemerald"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -7.0d,
+			dependencies: [I;4916],
+			id: 4920,
+			tasks: [{
+				id: 4921,
+				type: "item",
+				item: "lycanitesmobs:soulkeydiamond"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			dependencies: [I;4932],
+			id: 4922,
+			tasks: [{
+				id: 4923,
+				type: "item",
+				item: {
+					id: "lycanitesmobs:summoningstaff",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -1.0d,
+			dependencies: [I;4922],
+			id: 4924,
+			tasks: [{
+				id: 4925,
+				type: "item",
+				item: {
+					id: "lycanitesmobs:sturdysummoningstaff",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -2.5d,
+			dependencies: [I;4922],
+			id: 4926,
+			tasks: [{
+				id: 4927,
+				type: "item",
+				item: {
+					id: "lycanitesmobs:bloodsummoningstaff",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -5.5d,
+			dependencies: [I;4922],
+			id: 4928,
+			tasks: [{
+				id: 4929,
+				type: "item",
+				item: {
+					id: "lycanitesmobs:savagesummoningstaff",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -4.0d,
+			dependencies: [I;4922],
+			id: 4930,
+			tasks: [{
+				id: 4931,
+				type: "item",
+				item: {
+					id: "lycanitesmobs:stablesummoningstaff",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -2.5d,
+			id: 4932,
+			tasks: [
+				{
+					id: 4933,
+					type: "item",
+					item: "minecraft:gold_ingot"
+				},
+				{
+					id: 4934,
+					type: "item",
+					item: "minecraft:ender_pearl"
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: -7.0d,
+			id: 4962,
+			tasks: [{
+				id: 4963,
+				type: "kill",
+				entity: "lycanitesmobs:abaia",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -6.0d,
+			id: 4964,
+			tasks: [{
+				id: 4965,
+				type: "kill",
+				entity: "lycanitesmobs:abtu",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -5.0d,
+			id: 4966,
+			tasks: [{
+				id: 4967,
+				type: "kill",
+				entity: "lycanitesmobs:aegis",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -4.0d,
+			id: 4968,
+			tasks: [{
+				id: 4969,
+				type: "kill",
+				entity: "lycanitesmobs:afrit",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -3.0d,
+			id: 4970,
+			tasks: [{
+				id: 4971,
+				type: "kill",
+				entity: "lycanitesmobs:aglebemu",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -2.0d,
+			id: 4972,
+			tasks: [{
+				id: 4973,
+				type: "kill",
+				entity: "lycanitesmobs:amalgalich",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -1.0d,
+			id: 4974,
+			tasks: [{
+				id: 4975,
+				type: "kill",
+				entity: "lycanitesmobs:archvile",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 0.0d,
+			id: 4976,
+			tasks: [{
+				id: 4977,
+				type: "kill",
+				entity: "lycanitesmobs:argus",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 1.0d,
+			id: 4978,
+			tasks: [{
+				id: 4979,
+				type: "kill",
+				entity: "lycanitesmobs:arisaur",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.0d,
+			id: 4980,
+			tasks: [{
+				id: 4981,
+				type: "kill",
+				entity: "lycanitesmobs:arix",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 3.0d,
+			id: 4982,
+			tasks: [{
+				id: 4983,
+				type: "kill",
+				entity: "lycanitesmobs:asmodeus",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 4.0d,
+			id: 4984,
+			tasks: [{
+				id: 4985,
+				type: "kill",
+				entity: "lycanitesmobs:aspid",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 5.0d,
+			id: 4986,
+			tasks: [{
+				id: 4987,
+				type: "kill",
+				entity: "lycanitesmobs:astaroth",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 6.0d,
+			id: 4988,
+			tasks: [{
+				id: 4989,
+				type: "kill",
+				entity: "lycanitesmobs:banshee",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 7.0d,
+			id: 4990,
+			tasks: [{
+				id: 4991,
+				type: "kill",
+				entity: "lycanitesmobs:barghest",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 8.0d,
+			id: 4992,
+			tasks: [{
+				id: 4993,
+				type: "kill",
+				entity: "lycanitesmobs:behemoth",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 9.0d,
+			id: 4996,
+			tasks: [{
+				id: 4997,
+				type: "kill",
+				entity: "lycanitesmobs:beholder",
+				value: 1
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 10.0d,
+			id: 4998,
+			tasks: [{
+				id: 4999,
+				type: "kill",
+				entity: "lycanitesmobs:belph",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: -7.0d,
+			id: 5000,
+			tasks: [{
+				id: 5001,
+				type: "kill",
+				entity: "lycanitesmobs:cacodemon",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: -6.0d,
+			id: 5002,
+			tasks: [{
+				id: 5003,
+				type: "kill",
+				entity: "lycanitesmobs:calpod",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: -5.0d,
+			id: 5004,
+			tasks: [{
+				id: 5005,
+				type: "kill",
+				entity: "lycanitesmobs:cephignis",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: -4.0d,
+			id: 5006,
+			tasks: [{
+				id: 5007,
+				type: "kill",
+				entity: "lycanitesmobs:chupacabra",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: -3.0d,
+			id: 5008,
+			tasks: [{
+				id: 5009,
+				type: "kill",
+				entity: "lycanitesmobs:cinder",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: -2.0d,
+			id: 5010,
+			tasks: [{
+				id: 5011,
+				type: "kill",
+				entity: "lycanitesmobs:clink",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: -1.0d,
+			id: 5012,
+			tasks: [{
+				id: 5013,
+				type: "kill",
+				entity: "lycanitesmobs:cockatrice",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 0.0d,
+			id: 5014,
+			tasks: [{
+				id: 5015,
+				type: "kill",
+				entity: "lycanitesmobs:conba",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 1.0d,
+			id: 5016,
+			tasks: [{
+				id: 5017,
+				type: "kill",
+				entity: "lycanitesmobs:concapede",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 2.0d,
+			id: 5018,
+			tasks: [{
+				id: 5019,
+				type: "kill",
+				entity: "lycanitesmobs:concapedesegment",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 3.0d,
+			id: 5020,
+			tasks: [{
+				id: 5021,
+				type: "kill",
+				entity: "lycanitesmobs:crusk",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 4.0d,
+			id: 5022,
+			tasks: [{
+				id: 5023,
+				type: "kill",
+				entity: "lycanitesmobs:cryptkeeper",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 5.0d,
+			id: 5024,
+			tasks: [{
+				id: 5025,
+				type: "kill",
+				entity: "lycanitesmobs:darkling",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 6.0d,
+			id: 5026,
+			tasks: [{
+				id: 5027,
+				type: "kill",
+				entity: "lycanitesmobs:dawon",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 7.0d,
+			id: 5028,
+			tasks: [{
+				id: 5029,
+				type: "kill",
+				entity: "lycanitesmobs:djinn",
+				value: 1
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 8.0d,
+			id: 5030,
+			tasks: [{
+				id: 5031,
+				type: "kill",
+				entity: "lycanitesmobs:dweller",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -7.0d,
+			id: 5032,
+			tasks: [{
+				id: 5033,
+				type: "kill",
+				entity: "lycanitesmobs:eechetik",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -6.0d,
+			id: 5034,
+			tasks: [{
+				id: 5035,
+				type: "kill",
+				entity: "lycanitesmobs:ent",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -5.0d,
+			id: 5036,
+			tasks: [{
+				id: 5037,
+				type: "kill",
+				entity: "lycanitesmobs:epion",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -4.0d,
+			id: 5038,
+			tasks: [{
+				id: 5039,
+				type: "kill",
+				entity: "lycanitesmobs:erepede",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -3.0d,
+			id: 5040,
+			tasks: [{
+				id: 5041,
+				type: "kill",
+				entity: "lycanitesmobs:ettin",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -2.0d,
+			id: 5044,
+			tasks: [{
+				id: 5045,
+				type: "kill",
+				entity: "lycanitesmobs:eyewig",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: -1.0d,
+			id: 5046,
+			tasks: [{
+				id: 5047,
+				type: "kill",
+				entity: "lycanitesmobs:fear",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 0.0d,
+			id: 5048,
+			tasks: [{
+				id: 5049,
+				type: "kill",
+				entity: "lycanitesmobs:feradon",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 1.0d,
+			id: 5050,
+			tasks: [{
+				id: 5051,
+				type: "kill",
+				entity: "lycanitesmobs:frostweaver",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 2.0d,
+			id: 5052,
+			tasks: [{
+				id: 5053,
+				type: "kill",
+				entity: "lycanitesmobs:geist",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 3.0d,
+			id: 5054,
+			tasks: [{
+				id: 5055,
+				type: "kill",
+				entity: "lycanitesmobs:geken",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 4.0d,
+			id: 5056,
+			tasks: [{
+				id: 5057,
+				type: "kill",
+				entity: "lycanitesmobs:geonach",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 5.0d,
+			id: 5058,
+			tasks: [{
+				id: 5059,
+				type: "kill",
+				entity: "lycanitesmobs:ghoul",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 6.0d,
+			id: 5060,
+			tasks: [{
+				id: 5061,
+				type: "kill",
+				entity: "lycanitesmobs:gnekk",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 7.0d,
+			id: 5062,
+			tasks: [{
+				id: 5063,
+				type: "kill",
+				entity: "lycanitesmobs:gorger",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 8.0d,
+			id: 5064,
+			tasks: [{
+				id: 5065,
+				type: "kill",
+				entity: "lycanitesmobs:gorgomite",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 9.0d,
+			id: 5066,
+			tasks: [{
+				id: 5067,
+				type: "kill",
+				entity: "lycanitesmobs:grue",
+				value: 1
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 10.0d,
+			id: 5068,
+			tasks: [{
+				id: 5069,
+				type: "kill",
+				entity: "lycanitesmobs:herma",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: -7.0d,
+			id: 5070,
+			tasks: [{
+				id: 5071,
+				type: "kill",
+				entity: "lycanitesmobs:ignibus",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: -6.0d,
+			id: 5072,
+			tasks: [{
+				id: 5073,
+				type: "kill",
+				entity: "lycanitesmobs:ika",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: -5.0d,
+			id: 5074,
+			tasks: [{
+				id: 5075,
+				type: "kill",
+				entity: "lycanitesmobs:ioray",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: -4.0d,
+			id: 5076,
+			tasks: [{
+				id: 5077,
+				type: "kill",
+				entity: "lycanitesmobs:jabberwock",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: -3.0d,
+			id: 5078,
+			tasks: [{
+				id: 5079,
+				type: "kill",
+				entity: "lycanitesmobs:jengu",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: -2.0d,
+			id: 5080,
+			tasks: [{
+				id: 5081,
+				type: "kill",
+				entity: "lycanitesmobs:joust",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: -1.0d,
+			id: 5082,
+			tasks: [{
+				id: 5083,
+				type: "kill",
+				entity: "lycanitesmobs:joustalpha",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 0.0d,
+			id: 5084,
+			tasks: [{
+				id: 5085,
+				type: "kill",
+				entity: "lycanitesmobs:khalk",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 1.0d,
+			id: 5086,
+			tasks: [{
+				id: 5087,
+				type: "kill",
+				entity: "lycanitesmobs:kobold",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 2.0d,
+			id: 5088,
+			tasks: [{
+				id: 5089,
+				type: "kill",
+				entity: "lycanitesmobs:krake",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 3.0d,
+			id: 5090,
+			tasks: [{
+				id: 5091,
+				type: "kill",
+				entity: "lycanitesmobs:lacedon",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 4.0d,
+			id: 5092,
+			tasks: [{
+				id: 5093,
+				type: "kill",
+				entity: "lycanitesmobs:lobber",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 5.0d,
+			id: 5094,
+			tasks: [{
+				id: 5095,
+				type: "kill",
+				entity: "lycanitesmobs:lurker",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 6.0d,
+			id: 5096,
+			tasks: [{
+				id: 5097,
+				type: "kill",
+				entity: "lycanitesmobs:maka",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 7.0d,
+			id: 5098,
+			tasks: [{
+				id: 5099,
+				type: "kill",
+				entity: "lycanitesmobs:makaalpha",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 8.0d,
+			id: 5100,
+			tasks: [{
+				id: 5101,
+				type: "kill",
+				entity: "lycanitesmobs:manticore",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 9.0d,
+			id: 5102,
+			tasks: [{
+				id: 5103,
+				type: "kill",
+				entity: "lycanitesmobs:maug",
+				value: 1
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 10.0d,
+			id: 5104,
+			tasks: [{
+				id: 5105,
+				type: "kill",
+				entity: "lycanitesmobs:morock",
+				value: 1
+			}]
+		},
+		{
+			x: 20.0d,
+			y: -7.0d,
+			id: 5106,
+			tasks: [{
+				id: 5107,
+				type: "kill",
+				entity: "lycanitesmobs:nymph",
+				value: 1
+			}]
+		},
+		{
+			x: 20.0d,
+			y: -6.0d,
+			id: 5108,
+			tasks: [{
+				id: 5109,
+				type: "kill",
+				entity: "lycanitesmobs:pinky",
+				value: 1
+			}]
+		},
+		{
+			x: 20.0d,
+			y: -5.0d,
+			id: 5110,
+			tasks: [{
+				id: 5111,
+				type: "kill",
+				entity: "lycanitesmobs:pixen",
+				value: 1
+			}]
+		},
+		{
+			x: 20.0d,
+			y: -4.0d,
+			id: 5112,
+			tasks: [{
+				id: 5113,
+				type: "kill",
+				entity: "lycanitesmobs:quetzodracl",
+				value: 100
+			}]
+		},
+		{
+			x: 20.0d,
+			y: -3.0d,
+			id: 5114,
+			tasks: [{
+				id: 5115,
+				type: "kill",
+				entity: "lycanitesmobs:quillbeast",
+				value: 1
+			}]
+		},
+		{
+			x: 20.0d,
+			y: -2.0d,
+			id: 5116,
+			tasks: [{
+				id: 5117,
+				type: "kill",
+				entity: "lycanitesmobs:rahovart",
+				value: 1
+			}]
+		},
+		{
+			x: 20.0d,
+			y: -1.0d,
+			id: 5118,
+			tasks: [{
+				id: 5119,
+				type: "kill",
+				entity: "lycanitesmobs:raiko",
+				value: 1
+			}]
+		},
+		{
+			x: 20.0d,
+			y: 0.0d,
+			id: 5120,
+			tasks: [{
+				id: 5121,
+				type: "kill",
+				entity: "lycanitesmobs:reaper",
+				value: 1
+			}]
+		},
+		{
+			x: 20.0d,
+			y: 1.0d,
+			id: 5122,
+			tasks: [{
+				id: 5123,
+				type: "kill",
+				entity: "lycanitesmobs:reiver",
+				value: 1
+			}]
+		},
+		{
+			x: 20.0d,
+			y: 2.0d,
+			id: 5124,
+			tasks: [{
+				id: 5125,
+				type: "kill",
+				entity: "lycanitesmobs:remobra",
+				value: 1
+			}]
+		},
+		{
+			x: 20.0d,
+			y: 3.0d,
+			id: 5126,
+			tasks: [{
+				id: 5127,
+				type: "kill",
+				entity: "lycanitesmobs:roa",
+				value: 1
+			}]
+		},
+		{
+			x: 20.0d,
+			y: 4.0d,
+			id: 5128,
+			tasks: [{
+				id: 5129,
+				type: "kill",
+				entity: "lycanitesmobs:roc",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: -7.0d,
+			id: 5130,
+			tasks: [{
+				id: 5131,
+				type: "kill",
+				entity: "lycanitesmobs:salamander",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: -6.0d,
+			id: 5132,
+			tasks: [{
+				id: 5133,
+				type: "kill",
+				entity: "lycanitesmobs:serpix",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: -5.0d,
+			id: 5134,
+			tasks: [{
+				id: 5135,
+				type: "kill",
+				entity: "lycanitesmobs:shade",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: -4.0d,
+			id: 5136,
+			tasks: [{
+				id: 5137,
+				type: "kill",
+				entity: "lycanitesmobs:shambler",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: -3.0d,
+			id: 5138,
+			tasks: [{
+				id: 5139,
+				type: "kill",
+				entity: "lycanitesmobs:silex",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: -2.0d,
+			id: 5140,
+			tasks: [{
+				id: 5141,
+				type: "kill",
+				entity: "lycanitesmobs:skylus",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: -1.0d,
+			id: 5142,
+			tasks: [{
+				id: 5143,
+				type: "kill",
+				entity: "lycanitesmobs:spectre",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: 0.0d,
+			id: 5144,
+			tasks: [{
+				id: 5145,
+				type: "kill",
+				entity: "lycanitesmobs:spriggan",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: 1.0d,
+			id: 5146,
+			tasks: [{
+				id: 5147,
+				type: "kill",
+				entity: "lycanitesmobs:strider",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: 2.0d,
+			id: 5148,
+			tasks: [{
+				id: 5149,
+				type: "kill",
+				entity: "lycanitesmobs:sutiramu",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: 3.0d,
+			id: 5150,
+			tasks: [{
+				id: 5151,
+				type: "kill",
+				entity: "lycanitesmobs:sylph",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: 4.0d,
+			id: 5152,
+			tasks: [{
+				id: 5153,
+				type: "kill",
+				entity: "lycanitesmobs:tarantula",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: 5.0d,
+			id: 5154,
+			tasks: [{
+				id: 5155,
+				type: "kill",
+				entity: "lycanitesmobs:thresher",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: 6.0d,
+			id: 5156,
+			tasks: [{
+				id: 5157,
+				type: "kill",
+				entity: "lycanitesmobs:treant",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: 7.0d,
+			id: 5158,
+			tasks: [{
+				id: 5159,
+				type: "kill",
+				entity: "lycanitesmobs:tremor",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: 8.0d,
+			id: 5160,
+			tasks: [{
+				id: 5161,
+				type: "kill",
+				entity: "lycanitesmobs:triffid",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: 9.0d,
+			id: 5162,
+			tasks: [{
+				id: 5163,
+				type: "kill",
+				entity: "lycanitesmobs:trite",
+				value: 1
+			}]
+		},
+		{
+			x: 23.0d,
+			y: 10.0d,
+			id: 5164,
+			tasks: [{
+				id: 5165,
+				type: "kill",
+				entity: "lycanitesmobs:troll",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: -7.0d,
+			id: 5166,
+			tasks: [{
+				id: 5167,
+				type: "kill",
+				entity: "lycanitesmobs:uvaraptor",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: -6.0d,
+			id: 5168,
+			tasks: [{
+				id: 5169,
+				type: "kill",
+				entity: "lycanitesmobs:vapula",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: -5.0d,
+			id: 5170,
+			tasks: [{
+				id: 5171,
+				type: "kill",
+				entity: "lycanitesmobs:ventoraptor",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: -4.0d,
+			id: 5172,
+			tasks: [{
+				id: 5173,
+				type: "kill",
+				entity: "lycanitesmobs:vespid",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: -3.0d,
+			id: 5174,
+			tasks: [{
+				id: 5175,
+				type: "kill",
+				entity: "lycanitesmobs:vespidqueen",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: -2.0d,
+			id: 5176,
+			tasks: [{
+				id: 5177,
+				type: "kill",
+				entity: "lycanitesmobs:volcan",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: -1.0d,
+			id: 5178,
+			tasks: [{
+				id: 5179,
+				type: "kill",
+				entity: "lycanitesmobs:warg",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: 0.0d,
+			id: 5180,
+			tasks: [{
+				id: 5181,
+				type: "kill",
+				entity: "lycanitesmobs:wendigo",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: 1.0d,
+			id: 5182,
+			tasks: [{
+				id: 5183,
+				type: "kill",
+				entity: "lycanitesmobs:wildkin",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: 2.0d,
+			id: 5184,
+			tasks: [{
+				id: 5185,
+				type: "kill",
+				entity: "lycanitesmobs:wisp",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: 3.0d,
+			id: 5186,
+			tasks: [{
+				id: 5187,
+				type: "kill",
+				entity: "lycanitesmobs:wraamon",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: 4.0d,
+			id: 5188,
+			tasks: [{
+				id: 5189,
+				type: "kill",
+				entity: "lycanitesmobs:wraith",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: 5.0d,
+			id: 5190,
+			tasks: [{
+				id: 5191,
+				type: "kill",
+				entity: "lycanitesmobs:xaphan",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: 6.0d,
+			id: 5192,
+			tasks: [{
+				id: 5193,
+				type: "kill",
+				entity: "lycanitesmobs:yale",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: 7.0d,
+			id: 5194,
+			tasks: [{
+				id: 5195,
+				type: "kill",
+				entity: "lycanitesmobs:yeti",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: 8.0d,
+			id: 5196,
+			tasks: [{
+				id: 5197,
+				type: "kill",
+				entity: "lycanitesmobs:zephyr",
+				value: 1
+			}]
+		},
+		{
+			x: 26.0d,
+			y: 9.0d,
+			id: 5198,
+			tasks: [{
+				id: 5199,
+				type: "kill",
+				entity: "lycanitesmobs:zoataur",
+				value: 1
+			}]
+		}
+	]
+}

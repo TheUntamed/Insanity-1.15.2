@@ -1,7 +1,7 @@
 {
 	id: 263,
 	filename: "nether",
-	order_index: 14,
+	order_index: 15,
 	title: "Nether",
 	icon: "minecraft:netherrack",
 	always_invisible: 1,
@@ -48,11 +48,33 @@
 			y: -0.5d,
 			dependencies: [I;635],
 			id: 623,
-			tasks: [{
-				id: 624,
-				type: "item",
-				item: "minecraft:netherrack"
-			}]
+			tasks: [
+				{
+					id: 4935,
+					type: "item",
+					item: "minecraft:netherrack"
+				},
+				{
+					id: 4936,
+					type: "item",
+					item: "netherex:lively_netherrack"
+				},
+				{
+					id: 4937,
+					type: "item",
+					item: "netherex:fiery_netherrack"
+				},
+				{
+					id: 4938,
+					type: "item",
+					item: "netherex:icy_netherrack"
+				},
+				{
+					id: 4939,
+					type: "item",
+					item: "netherex:gloomy_netherrack"
+				}
+			]
 		},
 		{
 			x: -6.0d,
@@ -89,7 +111,7 @@
 		},
 		{
 			x: -3.0d,
-			y: -3.5d,
+			y: -5.0d,
 			dependencies: [I;
 				633,
 				621
@@ -212,14 +234,141 @@
 			}]
 		},
 		{
-			x: -6.0d,
+			x: -4.5d,
 			y: -9.5d,
-			dependencies: [I;635],
+			dependencies: [I;4950],
 			id: 926,
 			tasks: [{
 				id: 927,
 				type: "item",
 				item: "minecraft:ghast_tear"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -2.0d,
+			dependencies: [I;623],
+			id: 4940,
+			tasks: [{
+				id: 4941,
+				type: "item",
+				item: "netherenhancement:block_empowered_quartz_ore"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 1.0d,
+			dependencies: [I;623],
+			id: 4942,
+			tasks: [{
+				id: 4943,
+				type: "item",
+				item: "netherenhancement:block_extreme_quartz_ore"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -2.0d,
+			dependencies: [I;4940],
+			id: 4944,
+			tasks: [{
+				id: 4945,
+				type: "item",
+				item: "netherenhancement:item_empowered_quartz"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 1.0d,
+			dependencies: [I;4942],
+			id: 4946,
+			tasks: [{
+				id: 4947,
+				type: "item",
+				item: "netherenhancement:item_extreme_quartz"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -11.0d,
+			dependencies: [I;4950],
+			id: 4948,
+			tasks: [{
+				id: 4949,
+				type: "item",
+				item: "netherex:rime_crystal"
+			}]
+		},
+		{
+			title: "Mob Drops",
+			x: -6.0d,
+			y: -11.0d,
+			dependencies: [I;635],
+			id: 4950,
+			tasks: [{
+				id: 4951,
+				type: "checkmark"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -12.5d,
+			dependencies: [I;4950],
+			id: 4952,
+			tasks: [{
+				id: 4953,
+				type: "item",
+				item: "netherex:spore"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -11.0d,
+			dependencies: [I;4948],
+			id: 4954,
+			tasks: [{
+				id: 4955,
+				type: "item",
+				item: {
+					id: "netherex:rime_and_steel",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -14.0d,
+			dependencies: [I;4950],
+			id: 4956,
+			tasks: [{
+				id: 4957,
+				type: "item",
+				item: "netherex:coolmar_spider_fang"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -3.5d,
+			dependencies: [I;621],
+			id: 4958,
+			tasks: [{
+				id: 4959,
+				type: "item",
+				item: "netherex:soul_glass"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -8.0d,
+			dependencies: [I;650],
+			id: 4960,
+			tasks: [{
+				id: 4961,
+				type: "item",
+				item: "mysticalagriculture:soul_glass"
 			}]
 		}
 	]

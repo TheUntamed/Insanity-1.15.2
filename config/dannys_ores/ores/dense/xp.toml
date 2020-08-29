@@ -1511,6 +1511,231 @@
 				#Range: 0 ~ 1000000
 				maxXpDrop = 50
 
+	#Nether Ex Stone Variants
+	[general.netherex]
+
+		#Gloomy Netherrack Dense Xp Ore
+		[general.netherex.gloomy_netherrack_dense_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.netherex.gloomy_netherrack_dense_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.netherex.gloomy_netherrack_dense_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Icy Netherrack Dense Xp Ore
+		[general.netherex.icy_netherrack_dense_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.netherex.icy_netherrack_dense_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.netherex.icy_netherrack_dense_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Fiery Netherrack Dense Xp Ore
+		[general.netherex.fiery_netherrack_dense_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.netherex.fiery_netherrack_dense_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.netherex.fiery_netherrack_dense_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Basalt Dense Xp Ore
+		[general.netherex.basalt_dense_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.netherex.basalt_dense_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.netherex.basalt_dense_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Lively Netherrack Dense Xp Ore
+		[general.netherex.lively_netherrack_dense_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.netherex.lively_netherrack_dense_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.netherex.lively_netherrack_dense_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
+		#Frostburn Ice Dense Xp Ore
+		[general.netherex.frostburn_ice_dense_xp_ore]
+
+			#Generation settings for this ore variant
+			[general.netherex.frostburn_ice_dense_xp_ore.generation]
+				#If true, this ore variant will not generate.
+				disableVariant = false
+				#The min y-level the ore will generate.
+				#Range: 0 ~ 256
+				minHeight = 40
+				#The max y-level the ore will generate.
+				#Range: 0 ~ 256
+				maxHeight = 128
+				#Syntax: "modid:biome". E.g.: ["minecraft:plains", "biomesoplenty:alps"])
+				biomeBlacklist = []
+				#The amount of ores in one vein.
+				#Range: 0 ~ 65536
+				veinSize = 1
+				#Possible Entries: "MEDIUM", "WARM", "COLD", "OCEAN"
+				temperatureBlacklist = []
+				#How many veins per chunk.
+				#Range: 0 ~ 65536
+				veinsPerChunk = 11
+				#If true, the biome temperature blacklist is a whitelist.
+				isTempWhitelist = false
+				#If true, the biome blacklist is a whitelist.
+				isBiomeWhitelist = false
+
+			#Block properties
+			[general.netherex.frostburn_ice_dense_xp_ore.properties]
+				#The minimum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				minXpDrop = 20
+				#The maximum amount of xp this ore drops.
+				#Range: 0 ~ 1000000
+				maxXpDrop = 50
+
 	#Mystical Agriculture Stone Variants
 	[general.mysticalagriculture]
 
