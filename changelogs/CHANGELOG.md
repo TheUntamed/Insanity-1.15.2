@@ -13,6 +13,8 @@ Forge 1.15.2-31.2.33 --> 1.15.2-31.2.36
 **Updated Mods**
 
 * ** ( --> )
+* *Applied Energistics 2* (7.0.1 --> 7.0.2)
+* *Astral Sorcery* (1.12.7 --> 1.12.8)
 * *Atum 2: Return to the Sands* (2.1.4 --> 2.1.6)
 * ** ( --> )
 * *Danny's Ores* (1.3.2 --> 1.4.0)

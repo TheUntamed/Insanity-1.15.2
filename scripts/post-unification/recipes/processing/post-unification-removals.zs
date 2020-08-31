@@ -28,6 +28,8 @@ public function postUnificationRemovals() as void {
 
     <recipetype:silents_mechanisms:alloy_smelting>.removeByName("silents_mechanisms:alloy_smelting/bronze_ingot");
 
+    <recipetype:silents_mechanisms:compressing>.removeByName("silents_mechanisms:compressing/compressed_iron_ingot");
+
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/quartz2");
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/quartz");
     <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/coal_block");

@@ -11,4 +11,6 @@ public function postUnificationAdditions() as void {
     mekanismEnriching("mekanism/enriching/uraninite", "forge:ingots/uranium", <item:powah:uraninite>.registryName, 2);
 
     atumSpinning("atum/spinning/pelt/to_string", "mysticalworld:pelt", "minecraft:string", 2);
+
+    silentsMechanismsCompressing("silents_mechanisms/compressing/compressed_iron", "forge:ingots/iron", 1, <item:pneumaticcraft:ingot_iron_compressed>.registryName);
 }
