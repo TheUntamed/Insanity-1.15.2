@@ -6,32 +6,39 @@ Forge 1.15.2-31.2.33 --> 1.15.2-31.2.36
 
 **Added Mods**
 
-* *Extended Nether* (1.16 backport)
-* *Nether Update Backport*
+* *Ice and Fire: Dragons in a whole new light!*
 * *NetherEx*
+* *Thermal Cultivation*
+* *Thermal Expansion*
+* *Thermal Foundation*
+* *Thermal Innovation*
 
 **Updated Mods**
 
 * ** ( --> )
-* *Applied Energistics 2* (7.0.1 --> 7.0.2)
+* *Applied Energistics 2* (7.0.1 --> 7.0.3)
+* *Archer's Paradox* (0.4.0b --> 0.5.0b)
 * *Astral Sorcery* (1.12.7 --> 1.12.8)
 * *Atum 2: Return to the Sands* (2.1.4 --> 2.1.6)
-* ** ( --> )
+* *CoFH Core* (0.4.0b --> 0.5.0b)
 * *Danny's Ores* (1.3.2 --> 1.4.0)
-* ** ( --> )
+* *Engineer's Decor* (1.1.2 --> 1.1.3)
+* *Ensorcellation* (0.4.1b --> 0.5.0b)
 * *FTB Backups* (2.1.0.1 --> 2.1.0.2)
 * *FTB Chunks* (1.1.0.16 --> 1.1.1.17)
 * *FTB Teams* (1.0.0.5 --> 1.0.0.6)
 * ** ( --> )
 * ** ( --> )
 * ** ( --> )
+* *Immersive Engineering* (3.2.0-114 --> 4.0.0-117)
 * ** ( --> )
 * ** ( --> )
+* *Light Overlay* (4.7.1 --> 4.7.2)
 * ** ( --> )
-* ** ( --> )
-* ** ( --> )
-* ** ( --> )
-* ** ( --> )
+* *Nature's Aura* (28.4 --> 28.5)
+* *Pam's HarvestCraft 2 - Food Core* (1.0.9 --> 1.1.0)
+* *Performant* (3.10m --> 3.11m)
+* *PneumaticCraft: Repressurized* (1.4.4-64 --> 1.4.5-69)
 * *TerraForged* (0.1.1 --> 0.1.2)
 * ** ( --> )
 * ** ( --> )
