@@ -15,12 +15,12 @@ Forge 1.15.2-31.2.33 --> 1.15.2-31.2.36
 
 **Updated Mods**
 
-* ** ( --> )
-* *Applied Energistics 2* (7.0.1 --> 7.0.3)
-* *Archer's Paradox* (0.4.0b --> 0.5.0b)
-* *Astral Sorcery* (1.12.7 --> 1.12.8)
+* *Apotheosis* (3.2.4 --> 3.3.2)
+* *Applied Energistics 2* (7.0.1 --> 7.0.4)
+* *Archer's Paradox* (0.4.0b --> 0.6.0b)
+* *Astral Sorcery* (1.12.7 --> 1.12.9)
 * *Atum 2: Return to the Sands* (2.1.4 --> 2.1.6)
-* *CoFH Core* (0.4.0b --> 0.5.0b)
+* *CoFH Core* (0.4.0b --> 0.6.2b)
 * *Danny's Ores* (1.3.2 --> 1.4.0)
 * *Engineer's Decor* (1.1.2 --> 1.1.3)
 * *Ensorcellation* (0.4.1b --> 0.5.0b)
